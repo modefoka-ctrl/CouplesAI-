@@ -1,0 +1,1269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CouplesAI Portrait Generator — Cinematic AI Portrait Prompts</title>
+<meta name="description" content="Generate cinematic AI portrait prompts for couples, solo subjects and groups. 35 worlds, 640+ tensions, lighting, shot type and wardrobe — all in one click.">
+<meta name="keywords" content="AI portrait prompt generator, Midjourney prompts, couple portrait AI, cinematic portrait prompts, AI photography prompts, portrait prompt tool">
+<meta property="og:title" content="CouplesAI Portrait Generator">
+<meta property="og:description" content="35 cinematic worlds. 640+ tensions. Lighting, shot type, wardrobe. Generate stunning AI portrait prompts in seconds.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CouplesAI Portrait Generator">
+<meta name="twitter:description" content="Generate cinematic AI portrait prompts for couples, solo subjects and groups across 35 worlds.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#09080a;--surface:#131118;--raised:#1a1820;--border:#28243a;
+  --mid:#42385a;--muted:#8878aa;--text:#ede8f5;--dim:#b0a8c8;
+  --amber:#f0924a;--green:#3dc98a;--accent:#7c5cfc;
+  --rose:#e85880;--teal:#30c8a8;--gold:#f0b830;
+  --wc:var(--accent);--t:.2s ease;
+  --radius:10px;--shadow:0 4px 24px rgba(0,0,0,.45);
+}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--text);
+  font-family:"Inter",sans-serif;font-weight:300;min-height:100vh;}
+
+/* ── HEADER ── */
+.hdr{background:rgba(9,8,10,.92);backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--border);padding:10px 16px;
+  display:flex;align-items:center;justify-content:space-between;gap:10px;
+  position:sticky;top:0;z-index:100;flex-wrap:nowrap}
+.hdr-brand{flex-shrink:1;min-width:0;overflow:hidden}
+.hdr-brand>div{flex-wrap:nowrap!important}
+.hdr-btns{display:flex;align-items:center;gap:6px;flex-shrink:0}
+.hdr-icon-btn{display:flex;align-items:center;
+  background:rgba(124,92,252,.1);
+  border:1px solid rgba(124,92,252,.3);
+  color:#c0a0ff;font-family:"JetBrains Mono",monospace;
+  font-size:10px;letter-spacing:.06em;
+  padding:6px 10px;border-radius:20px;cursor:pointer;
+  white-space:nowrap;transition:all var(--t);touch-action:manipulation}
+.hdr-icon-btn:hover{background:rgba(124,92,252,.2);border-color:rgba(124,92,252,.5)}
+.hdr-icon-btn--tips{background:rgba(240,146,74,.08);
+  border-color:rgba(240,146,74,.3);color:var(--amber)}
+.hdr-icon-btn--tips:hover{background:rgba(240,146,74,.18)}
+.hdr-btn-icon{font-size:12px}
+.hdr-btn-label{display:inline}
+@media(max-width:420px){
+  .hdr-btn-label{display:none}
+  .hdr-icon-btn{padding:7px 10px;border-radius:50%;width:34px;height:34px;
+    justify-content:center}
+}
+.hdr-sub{font-family:"JetBrains Mono",monospace;font-size:10px;
+  color:var(--muted);letter-spacing:.1em;text-transform:uppercase}
+
+/* ── HERO BAND ── */
+.hero{background:linear-gradient(135deg,#1a0a2e 0%,#0d1a2e 40%,#1a0d1a 100%);
+  border-bottom:1px solid var(--border);padding:36px 20px 28px;
+  text-align:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse 80% 60% at 50% 0%,rgba(124,92,252,.18) 0%,transparent 70%);
+  pointer-events:none}
+.hero-eyebrow{font-family:"JetBrains Mono",monospace;font-size:10px;
+  letter-spacing:.22em;text-transform:uppercase;color:var(--amber);
+  margin-bottom:12px;display:block}
+.hero h1{font-family:"Playfair Display",serif;font-size:clamp(28px,6vw,52px);
+  font-weight:900;line-height:1.1;color:var(--text);margin-bottom:10px}
+.hero h1 em{font-style:italic;color:var(--amber)}
+.hero-sub{font-size:15px;color:var(--dim);max-width:480px;margin:0 auto 20px;
+  line-height:1.6;font-weight:300}
+.hero-stats{display:flex;gap:24px;justify-content:center;flex-wrap:wrap}
+.hero-stat{text-align:center}
+.hero-stat-n{font-family:"Playfair Display",serif;font-size:26px;font-weight:700;
+  color:var(--amber);line-height:1}
+.hero-stat-l{font-family:"JetBrains Mono",monospace;font-size:9px;
+  letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:3px}
+.world-ticker{overflow:hidden;margin-top:20px;mask-image:linear-gradient(90deg,transparent,black 15%,black 85%,transparent)}
+.world-ticker-inner{display:flex;gap:12px;width:max-content;
+  animation:ticker 40s linear infinite}
+@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+@media(prefers-reduced-motion:reduce){.world-ticker-inner{animation:none}}
+.world-chip{background:rgba(124,92,252,.1);border:1px solid rgba(124,92,252,.25);
+  color:var(--dim);font-family:"JetBrains Mono",monospace;font-size:10px;
+  padding:4px 12px;white-space:nowrap;letter-spacing:.05em;border-radius:20px}
+
+/* ── PROMPT BAR ── */
+.prompt-bar{background:linear-gradient(180deg,#1a1820 0%,#131118 100%);
+  border-bottom:2px solid var(--wc);padding:18px 20px;
+  box-shadow:0 4px 32px rgba(124,92,252,.15)}
+.prompt-bar-label{font-family:"JetBrains Mono",monospace;font-size:9px;
+  letter-spacing:.2em;text-transform:uppercase;
+  color:var(--amber);margin-bottom:10px;display:flex;align-items:center;gap:8px}
+.prompt-bar-label::before{content:'';display:inline-block;
+  width:6px;height:6px;border-radius:50%;background:var(--amber);
+  animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(.7)}}
+.prompt-text{font-family:"JetBrains Mono",monospace;font-size:12px;line-height:1.8;
+  color:#c8c0e0;word-break:break-word;overflow-wrap:break-word}
+.pt-fixed{color:#3a3255}
+.pt-tension{color:var(--amber)}
+.pt-loc{color:var(--teal)}
+.pt-pose{color:var(--rose)}
+.pt-look{color:var(--green)}
+.pt-era{color:#a080f0}
+.pt-light{color:var(--gold)}
+.pt-shot{color:#80c0f0}
+.pt-empty{color:#3a3255;font-style:italic}
+.prompt-meta{display:flex;align-items:center;gap:10px;margin-top:12px;flex-wrap:wrap}
+.wc{font-family:"JetBrains Mono",monospace;font-size:10px;color:var(--muted)}
+.wc.good{color:var(--green)}.wc.over{color:var(--rose)}
+.btn-copy{background:var(--accent);border:none;color:#fff;
+  font-family:"Inter",sans-serif;font-size:12px;font-weight:600;
+  letter-spacing:.04em;padding:8px 20px;cursor:pointer;
+  border-radius:20px;transition:all var(--t);box-shadow:0 2px 12px rgba(124,92,252,.4)}
+.btn-copy:hover{background:#9070ff;box-shadow:0 4px 20px rgba(124,92,252,.6);transform:translateY(-1px)}
+.btn-copy.copied{background:var(--green);box-shadow:0 2px 12px rgba(61,201,138,.4)}
+
+/* ── QUALITY BAR ── */
+.quality-bar{background:rgba(240,146,74,.06);border-left:3px solid var(--amber);
+  border-bottom:1px solid var(--border);padding:10px 20px;display:none}
+.quality-bar.vis{display:block}
+.quality-hint{font-family:"JetBrains Mono",monospace;font-size:10px;
+  color:var(--muted);line-height:1.7;letter-spacing:.02em}
+.quality-hint strong{color:var(--amber);font-weight:500}
+
+/* ── MAIN ── */
+.main{padding:20px;display:flex;flex-direction:column;gap:14px;
+  max-width:820px;margin:0 auto}
+
+/* ── CARDS ── */
+.card{background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius);box-shadow:var(--shadow);
+  transition:box-shadow var(--t)}
+.card:hover{box-shadow:0 6px 32px rgba(0,0,0,.55)}
+.card-hdr-title{font-family:"JetBrains Mono",monospace;font-size:9px;
+  letter-spacing:.2em;text-transform:uppercase;color:var(--muted);font-weight:400;margin:0}
+.card-hdr{padding:12px 16px;border-bottom:1px solid var(--border);
+  display:flex;align-items:center;justify-content:space-between;gap:8px;
+  border-radius:var(--radius) var(--radius) 0 0}
+.card-hdr h2{font-family:"JetBrains Mono",monospace;font-size:9px;
+  letter-spacing:.2em;text-transform:uppercase;color:var(--muted);font-weight:400;margin:0}
+.card-body{padding:14px 16px;display:flex;flex-direction:column;gap:10px}
+
+/* ── SELECTS ── */
+.sel-row{display:flex;align-items:center;gap:8px}
+.sel-wrap{flex:1;min-width:0;position:relative}
+.sel-wrap select{width:100%;background:var(--raised);
+  border:1px solid var(--border);border-radius:6px;
+  color:var(--text);font-family:"Inter",sans-serif;font-size:16px;
+  font-weight:300;padding:10px 32px 10px 14px;cursor:pointer;
+  outline:none;-webkit-appearance:none;appearance:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%238878aa'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 12px center;
+  background-size:9px;background-color:var(--raised);
+  transition:border-color var(--t),box-shadow var(--t)}
+.sel-wrap select:focus{border-color:var(--wc);
+  box-shadow:0 0 0 3px color-mix(in srgb,var(--wc) 20%,transparent)}
+.sel-wrap select.has-val{border-left:3px solid var(--wc);padding-left:12px}
+.sel-wrap select option{background:#1a1820;color:var(--text);font-size:14px}
+.sel-wrap select optgroup{color:var(--muted);font-style:normal}
+
+/* ── ICON BUTTONS ── */
+.icon-btn{background:var(--raised);border:1px solid var(--border);
+  border-radius:6px;color:var(--muted);width:38px;height:38px;
+  flex-shrink:0;cursor:pointer;display:flex;align-items:center;
+  justify-content:center;font-size:15px;transition:all var(--t);
+  touch-action:manipulation}
+.icon-btn:hover{border-color:var(--wc);color:var(--wc);
+  background:color-mix(in srgb,var(--wc) 10%,var(--raised))}
+.icon-btn.locked{border-color:var(--amber);color:var(--amber);
+  background:color-mix(in srgb,var(--amber) 15%,transparent)}
+.icon-btn.lock:hover{border-color:var(--amber);color:var(--amber)}
+
+/* ── AI BUTTON ── */
+.ai-btn{background:color-mix(in srgb,var(--gold) 10%,transparent);
+  border:1px solid color-mix(in srgb,var(--gold) 35%,transparent);
+  color:var(--gold);font-family:"JetBrains Mono",monospace;font-size:9px;
+  letter-spacing:.1em;text-transform:uppercase;padding:6px 10px;
+  cursor:pointer;transition:all var(--t);white-space:nowrap;
+  flex-shrink:0;border-radius:6px;touch-action:manipulation}
+.ai-btn:hover{background:color-mix(in srgb,var(--gold) 20%,transparent);
+  border-color:var(--gold)}
+
+/* ── ERA PILLS ── */
+.pill-row{display:flex;flex-wrap:wrap;gap:6px;padding:12px 16px}
+.pill{background:transparent;border:1px solid var(--border);
+  border-radius:20px;color:var(--muted);
+  font-family:"JetBrains Mono",monospace;font-size:10px;
+  padding:5px 14px;cursor:pointer;transition:all var(--t);touch-action:manipulation}
+.pill:hover{border-color:var(--mid);color:var(--text)}
+.pill.active{background:color-mix(in srgb,var(--wc) 15%,transparent);
+  border-color:var(--wc);color:var(--text)}
+
+/* ── COHERENCE BADGE ── */
+.coh{font-family:"JetBrains Mono",monospace;font-size:9px;padding:4px 12px;
+  border:1px solid var(--border);border-radius:20px;display:none;margin-left:auto}
+.coh.high{border-color:var(--green);color:var(--green)}
+.coh.mid{border-color:var(--amber);color:var(--amber)}
+.coh.low{border-color:var(--rose);color:var(--rose)}
+
+/* ── ACTION BUTTONS ── */
+.actions{display:flex;flex-wrap:wrap;gap:10px;padding:14px 16px;
+  border-top:1px solid var(--border)}
+.btn-primary{background:linear-gradient(135deg,var(--accent),#a060ff);
+  border:none;color:#fff;font-family:"Inter",sans-serif;font-size:14px;
+  font-weight:600;letter-spacing:.03em;padding:12px 28px;cursor:pointer;
+  border-radius:24px;transition:all var(--t);flex:1;min-width:140px;
+  box-shadow:0 3px 16px rgba(124,92,252,.45);touch-action:manipulation}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 6px 24px rgba(124,92,252,.6)}
+.btn-secondary{background:var(--raised);border:1px solid var(--border);
+  color:var(--dim);font-family:"JetBrains Mono",monospace;font-size:10px;
+  letter-spacing:.08em;text-transform:uppercase;padding:11px 18px;
+  cursor:pointer;transition:all var(--t);border-radius:24px;touch-action:manipulation}
+.btn-secondary:hover{border-color:var(--wc);color:var(--wc)}
+
+/* ── REWRITE ── */
+.btn-rewrite{background:linear-gradient(135deg,
+  color-mix(in srgb,var(--amber) 15%,transparent),
+  color-mix(in srgb,var(--accent) 15%,transparent));
+  border:1px solid color-mix(in srgb,var(--amber) 40%,var(--border));
+  color:var(--amber);font-family:"Inter",sans-serif;font-size:13px;
+  font-weight:600;padding:11px 22px;cursor:pointer;transition:all var(--t);
+  display:flex;align-items:center;gap:8px;border-radius:8px;
+  touch-action:manipulation;width:100%;justify-content:center}
+.btn-rewrite:hover{border-color:var(--amber);
+  background:color-mix(in srgb,var(--amber) 20%,var(--raised))}
+.btn-rewrite:disabled{opacity:.3;cursor:not-allowed}
+.rewrite-note{font-family:"JetBrains Mono",monospace;font-size:9px;
+  color:var(--muted);margin-top:6px;letter-spacing:.04em;text-align:center}
+.variants{display:flex;flex-direction:column;gap:10px;margin-top:14px;display:none}
+.variants.vis{display:flex}
+.variant{padding:14px;background:rgba(240,146,74,.05);
+  border:1px solid color-mix(in srgb,var(--amber) 20%,var(--border));
+  border-radius:8px;cursor:pointer;transition:all var(--t)}
+.variant:hover{border-color:var(--amber);background:rgba(240,146,74,.09)}
+.v-label{font-family:"JetBrains Mono",monospace;font-size:9px;
+  letter-spacing:.14em;text-transform:uppercase;
+  color:var(--amber);margin-bottom:8px;opacity:.7}
+.v-text{font-family:"JetBrains Mono",monospace;font-size:11px;
+  line-height:1.7;color:var(--dim)}
+.v-meta{font-family:"JetBrains Mono",monospace;font-size:9px;color:var(--muted);
+  margin-top:8px;display:flex;align-items:center;gap:8px}
+.v-copy{background:transparent;border:1px solid var(--border);
+  border-radius:4px;color:var(--muted);font-family:"JetBrains Mono",monospace;
+  font-size:9px;padding:3px 10px;cursor:pointer;margin-left:auto;
+  transition:all var(--t)}
+.v-copy:hover{border-color:var(--amber);color:var(--amber)}
+.v-copy.copied{border-color:var(--green);color:var(--green)}
+
+/* ── HISTORY ── */
+.hist-list{display:flex;flex-direction:column;gap:4px;
+  padding:12px 16px;display:none;max-height:150px;overflow-y:auto}
+.hist-list.vis{display:flex}
+.hist-item{background:transparent;border:1px solid transparent;border-radius:6px;
+  color:var(--muted);font-family:"JetBrains Mono",monospace;font-size:10px;
+  padding:6px 10px;cursor:pointer;text-align:left;line-height:1.5;
+  transition:all var(--t);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hist-item:hover{border-color:var(--border);color:var(--dim);
+  background:var(--raised)}
+
+/* ── HELP BUTTON ── */
+.help-btn{background:color-mix(in srgb,var(--amber) 12%,transparent);
+  border:1px solid color-mix(in srgb,var(--amber) 35%,transparent);
+  color:var(--amber);font-family:"JetBrains Mono",monospace;font-size:10px;
+  letter-spacing:.1em;text-transform:uppercase;padding:6px 14px;
+  cursor:pointer;transition:all var(--t);border-radius:20px}
+.help-btn:hover{background:color-mix(in srgb,var(--amber) 22%,transparent);
+  border-color:var(--amber)}
+
+/* ── MODAL ── */
+.modal-bg{position:fixed;inset:0;background:rgba(0,0,0,.8);z-index:999;
+  display:none;align-items:center;justify-content:center;padding:16px}
+.modal-bg.open{display:flex}
+.modal{background:var(--surface);border:1px solid var(--border);
+  border-radius:14px;width:100%;max-width:580px;max-height:88vh;
+  display:flex;flex-direction:column;overflow:hidden;
+  box-shadow:0 24px 80px rgba(0,0,0,.7)}
+.modal-hdr{padding:16px 20px;border-bottom:1px solid var(--border);
+  display:flex;align-items:center;justify-content:space-between;flex-shrink:0;
+  background:linear-gradient(135deg,rgba(124,92,252,.1),rgba(240,146,74,.06))}
+.modal-title{font-family:"Playfair Display",serif;font-size:16px;
+  font-weight:700;color:var(--text)}
+.modal-close{background:transparent;border:none;color:var(--muted);
+  font-size:18px;cursor:pointer;padding:0 4px;line-height:1;
+  transition:color var(--t)}
+.modal-close:hover{color:var(--text)}
+.modal-body{overflow-y:auto;padding:0;flex:1}
+.tip-block{padding:16px 20px;border-bottom:1px solid var(--border)}
+.tip-block:last-child{border-bottom:none}
+.tip-label{font-family:"JetBrains Mono",monospace;font-size:10px;
+  letter-spacing:.12em;text-transform:uppercase;color:var(--amber);
+  margin-bottom:6px;font-weight:500}
+.tip-text{font-family:"Inter",sans-serif;font-size:13px;font-weight:300;
+  color:var(--dim);line-height:1.65}
+.tip-text strong{color:var(--text);font-weight:500}
+.tip-text em{color:var(--muted);font-style:italic}
+
+/* ── HOW-TO MODAL ── */
+.howto-bg{position:fixed;inset:0;background:rgba(0,0,0,.82);z-index:999;
+  display:none;align-items:center;justify-content:center;padding:16px}
+.howto-bg.open{display:flex}
+.howto-modal{background:var(--surface);border:1px solid var(--border);
+  border-radius:14px;width:100%;max-width:480px;
+  box-shadow:0 24px 80px rgba(0,0,0,.7);overflow:hidden}
+.howto-hdr{padding:18px 20px 14px;border-bottom:1px solid var(--border);
+  display:flex;align-items:center;justify-content:space-between;
+  background:linear-gradient(135deg,rgba(124,92,252,.1),rgba(240,146,74,.06))}
+.howto-title{font-family:"Playfair Display",serif;font-size:17px;font-weight:700;color:var(--text)}
+.howto-close{background:transparent;border:none;color:var(--muted);
+  font-size:18px;cursor:pointer;padding:0 4px;line-height:1;transition:color var(--t)}
+.howto-close:hover{color:var(--text)}
+.howto-body{padding:24px 20px 28px}
+.howto-intro{font-family:"JetBrains Mono",monospace;font-size:10px;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--amber);
+  margin-bottom:20px}
+.howto-steps{display:flex;flex-direction:column;gap:0}
+.howto-step{display:flex;align-items:flex-start;gap:16px;padding:16px 0;
+  border-bottom:1px solid var(--border)}
+.howto-step:last-child{border-bottom:none;padding-bottom:0}
+.howto-step-num{width:36px;height:36px;border-radius:50%;flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;
+  font-family:"Playfair Display",serif;font-size:16px;font-weight:700}
+.step-num-1{background:rgba(124,92,252,.15);border:1px solid rgba(124,92,252,.35);color:#c0a0ff}
+.step-num-2{background:rgba(61,201,138,.12);border:1px solid rgba(61,201,138,.3);color:var(--green)}
+.step-num-3{background:rgba(240,146,74,.12);border:1px solid rgba(240,146,74,.3);color:var(--amber)}
+.step-num-4{background:rgba(232,88,128,.12);border:1px solid rgba(232,88,128,.3);color:var(--rose)}
+.howto-step-body{flex:1;min-width:0}
+.howto-step-title{font-family:"Inter",sans-serif;font-size:14px;font-weight:600;
+  color:var(--text);margin-bottom:4px}
+.howto-step-desc{font-family:"Inter",sans-serif;font-size:12px;font-weight:300;
+  color:var(--dim);line-height:1.55}
+.howto-step-tag{display:inline-block;font-family:"JetBrains Mono",monospace;
+  font-size:9px;letter-spacing:.1em;text-transform:uppercase;
+  padding:2px 8px;border-radius:4px;margin-top:6px}
+.tag-gemini{background:rgba(66,133,244,.12);border:1px solid rgba(66,133,244,.3);color:#6aacff}
+.tag-tip{background:rgba(240,146,74,.1);border:1px solid rgba(240,146,74,.25);color:var(--amber)}
+.howto-footer{padding:14px 20px;border-top:1px solid var(--border);
+  background:rgba(124,92,252,.04);display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.howto-footer-text{font-family:"JetBrains Mono",monospace;font-size:9px;
+  color:var(--muted);letter-spacing:.06em;flex:1}
+.howto-footer-btn{background:linear-gradient(135deg,var(--accent),#a060ff);
+  border:none;color:#fff;font-family:"Inter",sans-serif;font-size:12px;
+  font-weight:600;padding:8px 18px;border-radius:20px;cursor:pointer;
+  box-shadow:0 2px 12px rgba(124,92,252,.35);transition:all var(--t)}
+.howto-footer-btn:hover{transform:translateY(-1px)}
+
+/* ── SPACER ── */
+.spacer{height:32px}
+</style>
+</head>
+<body>
+
+<header class="hdr">
+  <div class="hdr-brand"><div style="display:inline-flex;align-items:center;gap:6px;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-weight:700;font-size:1.25rem;letter-spacing:-0.03em;user-select:none"><span style="color:#ede8f5">Couples</span><span style="background-color:#42385a;color:#7c5cfc;padding:1px 6px;border-radius:4px;font-size:0.85rem;border:1px solid #28243a">AI</span><span style="background-color:#1a1820;color:#f0924a;padding:2px 8px;border-radius:4px;border:1px solid #42385a;margin-left:2px;box-shadow:0 0 10px rgba(240,146,74,0.1)">Portrait</span><span style="color:#8878aa;font-weight:400;font-size:1.1rem;margin-left:2px">Generator</span></div></div>
+  <div class="hdr-btns">
+    <button class="hdr-icon-btn" onclick="openHowTo()" title="How to use your prompt">
+      <span class="hdr-btn-icon">&#x25B8;</span><span class="hdr-btn-label"> How To</span>
+    </button>
+    <button class="hdr-icon-btn hdr-icon-btn--tips" onclick="openHelp()" title="Tips for better prompts">
+      <span class="hdr-btn-icon">?</span><span class="hdr-btn-label"> Tips</span>
+    </button>
+  </div>
+</header>
+
+<!-- HOW-TO MODAL -->
+<div class="howto-bg" id="howto-bg" onclick="closeHowTo()">
+  <div class="howto-modal" onclick="event.stopPropagation()">
+    <div class="howto-hdr">
+      <span class="howto-title">How to Use Your Prompt</span>
+      <button class="howto-close" onclick="closeHowTo()">&#x2715;</button>
+    </div>
+    <div class="howto-body">
+      <div class="howto-intro">Using with Google Gemini AI &mdash; step by step</div>
+      <div class="howto-steps">
+
+        <div class="howto-step">
+          <div class="howto-step-num step-num-1">1</div>
+          <div class="howto-step-body">
+            <div class="howto-step-title">Open Google Gemini AI</div>
+            <div class="howto-step-desc">Go to <strong>gemini.google.com</strong> and sign in with your Google account. Use Gemini 1.5 Pro or Ultra for best image understanding results.</div>
+            <span class="howto-step-tag tag-gemini">gemini.google.com</span>
+          </div>
+        </div>
+
+        <div class="howto-step">
+          <div class="howto-step-num step-num-2">2</div>
+          <div class="howto-step-body">
+            <div class="howto-step-title">Upload your photo</div>
+            <div class="howto-step-desc">Click the image icon in the chat bar and upload a clear photo of your couple, person or group. A front-facing photo with good lighting gives the best facial feature preservation.</div>
+            <span class="howto-step-tag tag-tip">&#x25B8; Use a clear, well-lit photo</span>
+          </div>
+        </div>
+
+        <div class="howto-step">
+          <div class="howto-step-num step-num-3">3</div>
+          <div class="howto-step-body">
+            <div class="howto-step-title">Copy your prompt</div>
+            <div class="howto-step-desc">Hit <strong>Copy</strong> in the generator above, then paste the prompt into the Gemini chat alongside your uploaded photo. Send the message.</div>
+            <span class="howto-step-tag tag-tip">&#x25B8; Paste prompt + send with photo in same message</span>
+          </div>
+        </div>
+
+        <div class="howto-step">
+          <div class="howto-step-num step-num-4">4</div>
+          <div class="howto-step-body">
+            <div class="howto-step-title">Refine if needed</div>
+            <div class="howto-step-desc">If the first result isn't quite right, try a <strong>Rewrite &amp; Tighten</strong> variant from the generator — each one weights the same elements differently and can produce a dramatically different image. You can also reply to Gemini with "make the lighting more dramatic" or "adjust the pose" to iterate.</div>
+            <span class="howto-step-tag tag-tip">&#x25B8; Try all 5 variants for different compositions</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="howto-footer">
+      <span class="howto-footer-text">Works with Midjourney, Flux, Leonardo AI and Stable Diffusion too</span>
+      <button class="howto-footer-btn" onclick="closeHowTo()">Got it &#x2192;</button>
+    </div>
+  </div>
+</div>
+
+<!-- HERO BAND -->
+<section class="hero" aria-label="CouplesAI Portrait Generator">
+  <h1 style="display:none">CouplesAI Portrait Generator — Cinematic AI Portraits</h1>
+  <span class="hero-eyebrow">The Cinematic AI Portrait Tool</span>
+  <h2 class="hero-title" style="font-family:'Playfair Display',serif;font-size:clamp(26px,5vw,48px);font-weight:900;line-height:1.1;color:var(--text);margin-bottom:10px">
+    CouplesAI's <em style="color:var(--amber);font-style:italic">Portrait</em> Prompt Generator
+  </h2>
+  <p class="hero-sub">35 cinematic worlds. 640+ tensions. Lighting, shot type &amp; wardrobe.<br>Generate stunning AI portrait prompts in seconds.</p>
+  <div class="hero-stats">
+    <div class="hero-stat"><div class="hero-stat-n">29</div><div class="hero-stat-l">Worlds</div></div>
+    <div class="hero-stat"><div class="hero-stat-n">640+</div><div class="hero-stat-l">Tensions</div></div>
+    <div class="hero-stat"><div class="hero-stat-n">5</div><div class="hero-stat-l">Variants</div></div>
+    <div class="hero-stat"><div class="hero-stat-n">∞</div><div class="hero-stat-l">Prompts</div></div>
+  </div>
+  <div class="world-ticker">
+    <div class="world-ticker-inner" id="world-ticker-inner"></div>
+  </div>
+</section>
+
+<!-- HELP MODAL -->
+<div class="modal-bg" id="modal-bg" onclick="closeHelp()">
+  <div class="modal" onclick="event.stopPropagation()">
+    <div class="modal-hdr">
+      <span class="modal-title">Tips for Better Prompts</span>
+      <button class="modal-close" onclick="closeHelp()">&#x2715;</button>
+    </div>
+    <div class="modal-body">
+
+      <div class="tip-block">
+        <div class="tip-label">1 — Tension first</div>
+        <div class="tip-text">Pick tension before anything else. It unlocks the affinity system — curated locations, poses and looks matched to that tension appear at the top of every dropdown. Skipping tension produces flat, unconnected prompts. World and tension can both be locked independently.</div>
+      </div>
+
+      <div class="tip-block">
+        <div class="tip-label">2 — Stack contrasts deliberately</div>
+        <div class="tip-text">The best prompts have internal contradiction. A formal wardrobe against a raw pose, or an intimate tension inside a vast location, creates visual friction the model has to resolve — and that resolution is where interesting images come from. Try affinity suggestions paired with off-affinity choices intentionally.</div>
+      </div>
+
+      <div class="tip-block">
+        <div class="tip-label">3 — Lock &amp; Spin Unlocked</div>
+        <div class="tip-text">Lock any field with the padlock — including World and Tension. Then hit <strong>Spin Unlocked</strong> to explore every pose, look and lighting combination within your locked anchor. You get the full affinity space without losing what's working.</div>
+      </div>
+
+      <div class="tip-block">
+        <div class="tip-label">4 — Mood worlds auto-set lighting</div>
+        <div class="tip-text">Selecting DUSK, SPRING, ROMANCE, GOLD, NIGHT, RAIN or COLD automatically sets lighting to <strong>&#x2726; AI decides</strong>. These worlds already embed lighting in their tension phrases and locations — adding an explicit lighting choice on top creates redundancy. Override manually if you want explicit control.</div>
+      </div>
+
+      <div class="tip-block">
+        <div class="tip-label">5 — &#x2726; AI decides buttons</div>
+        <div class="tip-text">Every field has a <strong>&#x2726; AI</strong> button. Tap it to instantly set that field to AI decides — no dropdown needed. Use it on pose when your manual choice feels stiff, or on wardrobe when you want the model to interpret the world freely. Setting 2–3 fields manually and leaving 1–2 to AI often produces the strongest results.</div>
+      </div>
+
+      <div class="tip-block">
+        <div class="tip-label">6 — Shot type front-loads composition</div>
+        <div class="tip-text">Shot type appears first in the prompt — image models weight early tokens most heavily. <em>Extreme close-up</em> forces focus on faces. <em>Wide environmental</em> makes the world as important as the subjects. <em>Low angle heroic</em> changes power and posture. Set shot type first if composition matters most.</div>
+      </div>
+
+      <div class="tip-block">
+        <div class="tip-label">7 — Prompts are prose, not tags</div>
+        <div class="tip-text">The generator builds one connected sentence: <em>tension phrase &#x2014; pose [connector] location, wearing look, bathed in lighting</em>. The connector (amid, drawn toward, lost in, burning through) is world-specific and fuses pose and location into a single image rather than two separate facts. Rewrite &amp; Tighten restructures this sentence five different ways.</div>
+      </div>
+
+      <div class="tip-block">
+        <div class="tip-label">8 — Specificity beats completeness</div>
+        <div class="tip-text">A sharp tension + one strong location often beats all seven fields filled with mediocre choices. The fixed prefix already establishes format and subject. Fill the fields you care about and let AI interpret the rest. The quality hint bar tells you when you have enough.</div>
+      </div>
+
+      <div class="tip-block">
+        <div class="tip-label">9 — Rich tension&#x2013;world pairings</div>
+        <div class="tip-text">Some combinations have the deepest affinity maps: <em>GLASS &#xD7; real vs. reflected</em> &middot; <em>STAGE &#xD7; spotlight vs. shadow</em> &middot; <em>MYSTERY &#xD7; face vs. mask</em> &middot; <em>SPACE &#xD7; gravity vs. weightless</em> &middot; <em>ROMANCE &#xD7; spoken vs. silent</em> &middot; <em>DUSK &#xD7; brief vs. eternal</em> &middot; <em>WEDDING &#xD7; vows vs. doubt</em> &middot; <em>PROTEST &#xD7; individual vs. crowd</em> &middot; <em>RUNWAY &#xD7; clothes vs. body</em>.</div>
+      </div>
+
+      <div class="tip-block">
+        <div class="tip-label">10 — Same tension, different worlds</div>
+        <div class="tip-text">Many tensions appear across multiple worlds with different visual vocabularies. Generate in DUST then MOUNTAIN — same emotional core, completely different images. DUSK tensions graft especially well onto TRAVEL or WILD locations for cross-world blending.</div>
+      </div>
+
+      <div class="tip-block">
+        <div class="tip-label">11 — Era as tonal modifier</div>
+        <div class="tip-text">Era appends a period and palette modifier at the end of the prompt. <em>1970s</em> on Mountain nudges earth tones and film grain. <em>1980s</em> on City pushes neon and hard shadow. Use it when a prompt feels generic or when you want to anchor the model to a specific visual decade.</div>
+      </div>
+
+      <div class="tip-block">
+        <div class="tip-label">12 — Manual cross-world blending</div>
+        <div class="tip-text">Generate a prompt in GOLD, copy it. Generate in NIGHT. Manually combine the tension from one with the location from the other. The generator doesn't cross worlds automatically — but you can by hand in the copied text.</div>
+      </div>
+
+      <div class="tip-block" style="border-top:2px solid var(--border);padding-top:16px">
+        <div class="tip-label" style="color:var(--accent)">Rewrite &amp; Tighten — 5 Variants</div>
+        <div class="tip-text">Each variant restructures the same selections using a different editorial strategy. The order elements appear changes how the image model weights them. All 5 are shown in order — copy the one that matches your intent.</div>
+      </div>
+
+      <div class="tip-block">
+        <div class="tip-label">Variant 1 — Cinematic Scale</div>
+        <div class="tip-text"><strong>Tension leads, pose fused with location by a connector.</strong> Best for epic, wide or emotionally charged compositions. The translated tension phrase sets the emotional register first.<br><br><em>"calm at the center of the explosion &#x2014; slow motion walk from fire burning through collapsing building exterior, wearing tactical vest sleeves torn."</em></div>
+      </div>
+
+      <div class="tip-block">
+        <div class="tip-label">Variant 2 — Intimacy</div>
+        <div class="tip-text"><strong>Pose leads, location frames, tension arrives last as subtext.</strong> Body language before setting. Best for close, personal shots where emotional exchange between subjects matters most.<br><br><em>"tight two-shot. foreheads touching eyes closed, inside candlelit table for two &#x2014; nerves and certainty held in the same breath, dressed in simple sundress linen shirt."</em></div>
+      </div>
+
+      <div class="tip-block">
+        <div class="tip-label">Variant 3 — Essential</div>
+        <div class="tip-text"><strong>Tension as standalone statement, pose and location fused into one image.</strong> Most compressed variant. Best when two elements are strong and you want nothing competing.<br><br><em>"human made small by the vast. floating face to face weightless adrift in space station observation cupola, cold blue moonlight."</em></div>
+      </div>
+
+      <div class="tip-block">
+        <div class="tip-label">Variant 4 — Location-Led</div>
+        <div class="tip-text"><strong>World built first, action placed inside it.</strong> The model builds the environment before placing the figures. Best for atmospheric, travel or landscape-dominant images.<br><br><em>"Marrakech medina alley, where both looking at same map confused, tourist stepping into local life, wearing travel linen light layers."</em></div>
+      </div>
+
+      <div class="tip-block">
+        <div class="tip-label">Variant 5 — Wardrobe-Led</div>
+        <div class="tip-text"><strong>Opens with "Dressed in..." — look defines the register first.</strong> Best when wardrobe is strong and distinctive: historical costume, carnival dress, tactical gear, editorial fashion. Tension arrives last as emotional colour.<br><br><em>"Dressed in white dress soft veil, vows exchange close eye contact framed by chapel altar candlelit. the weight of a vow spoken over quiet doubt."</em></div>
+      </div>
+
+      <div class="tip-block">
+        <div class="tip-label">Which variant to use</div>
+        <div class="tip-text">
+          <strong>Epic or emotionally charged</strong> &#x2192; Variant 1 (Cinematic Scale)<br>
+          <strong>Close moment, body language first</strong> &#x2192; Variant 2 (Intimacy)<br>
+          <strong>Two perfect elements, strip the rest</strong> &#x2192; Variant 3 (Essential)<br>
+          <strong>Setting is the star</strong> &#x2192; Variant 4 (Location-Led)<br>
+          <strong>Wardrobe defines the image</strong> &#x2192; Variant 5 (Wardrobe-Led)<br><br>
+          Copy all 5 into your image model and compare &#x2014; the same selections produce dramatically different compositions depending on what the model reads first.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="prompt-bar">
+  <div class="prompt-bar-label">Live Prompt</div>
+  <div class="prompt-text" id="pt"><span class="pt-empty">Select a world to begin</span></div>
+  <div class="prompt-meta">
+    <span class="wc" id="wc"></span>
+    <div class="coh" id="coh"></div>
+    <button class="btn-copy" id="btn-copy" onclick="copyPrompt()">Copy</button>
+  </div>
+</div>
+<div class="quality-bar" id="quality-bar"><div class="quality-hint" id="quality-hint-text"></div></div>
+
+<div class="main">
+
+  <!-- RATIO + SUBJECT -->
+  <div class="card">
+    <div class="card-hdr"><h2 class="card-hdr-title">Format &amp; Subject</h2></div>
+    <div class="card-body" style="flex-direction:row;gap:10px;flex-wrap:wrap">
+      <div class="sel-wrap" style="flex:1;min-width:140px">
+        <select id="s-ratio" onchange="onRatio()">
+          <option value="9:16" selected>9:16 — Portrait</option>
+        </select>
+      </div>
+      <div class="sel-wrap" style="flex:1;min-width:140px">
+        <select id="s-subject" onchange="onSubject()">
+          <option value="couple" selected>Couple — 2 people</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- WORLD + TENSION -->
+  <div class="card">
+    <div class="card-hdr">
+      <h2 class="card-hdr-title">World &amp; Tension</h2>
+    </div>
+    <div class="card-body">
+      <div class="sel-row">
+        <div class="sel-wrap">
+          <select id="s-world" onchange="onWorldChange()">
+            <option value="">— choose world —</option>
+          </select>
+        </div>
+        <button class="icon-btn lock" id="lk-world" onclick="toggleLock('world')" title="Lock world">&#x1F513;</button>
+      </div>
+      <div class="sel-row">
+        <div class="sel-wrap">
+          <select id="s-tension" onchange="onTensionChange()" disabled>
+            <option value="">— choose tension —</option>
+          </select>
+        </div>
+        <button class="ai-btn" id="ai-tension" onclick="aiClick('tension')" title="AI decides">✦ AI</button>
+        <button class="icon-btn lock" id="lk-tension" onclick="toggleLock('tension')" title="Lock tension">&#x1F513;</button>
+        <button class="icon-btn" onclick="rerollDial('tension')" title="Reroll">&#x21BA;</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- LOCATION -->
+  <div class="card">
+    <div class="card-hdr">
+      <h2 class="card-hdr-title">Location</h2>
+      <div style="display:flex;gap:6px">
+        <button class="icon-btn lock" id="lk-loc" onclick="toggleLock('loc')" title="Lock">&#x1F513;</button>
+        <button class="icon-btn" onclick="rerollDial('loc')" title="Reroll">&#x21BA;</button>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="sel-row">
+        <div class="sel-wrap">
+          <select id="s-loc" onchange="onDialChange('loc')" disabled>
+            <option value="">— choose location —</option>
+            <option value="__ai__">✦ AI decides</option>
+          </select>
+        </div>
+        <button class="ai-btn" onclick="aiClick('loc')" title="AI decides">✦ AI</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- POSE -->
+  <div class="card">
+    <div class="card-hdr">
+      <h2 class="card-hdr-title">Pose / Action</h2>
+      <div style="display:flex;gap:6px">
+        <button class="icon-btn lock" id="lk-pose" onclick="toggleLock('pose')" title="Lock">&#x1F513;</button>
+        <button class="icon-btn" onclick="rerollDial('pose')" title="Reroll">&#x21BA;</button>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="sel-row">
+        <div class="sel-wrap">
+          <select id="s-pose" onchange="onDialChange('pose')" disabled>
+            <option value="">— choose pose —</option>
+            <option value="__ai__">✦ AI decides</option>
+          </select>
+        </div>
+        <button class="ai-btn" onclick="aiClick('pose')" title="AI decides">✦ AI</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- LOOK -->
+  <div class="card">
+    <div class="card-hdr">
+      <h2 class="card-hdr-title">Look / Wardrobe</h2>
+      <div style="display:flex;gap:6px">
+        <button class="icon-btn lock" id="lk-look" onclick="toggleLock('look')" title="Lock">&#x1F513;</button>
+        <button class="icon-btn" onclick="rerollDial('look')" title="Reroll">&#x21BA;</button>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="sel-row">
+        <div class="sel-wrap">
+          <select id="s-look" onchange="onDialChange('look')" disabled>
+            <option value="">— choose look —</option>
+            <option value="__ai__">✦ AI decides</option>
+          </select>
+        </div>
+        <button class="ai-btn" onclick="aiClick('look')" title="AI decides">✦ AI</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- LIGHTING -->
+  <div class="card">
+    <div class="card-hdr">
+      <h2 class="card-hdr-title">Lighting &amp; Mood</h2>
+      <button class="ai-btn" onclick="aiClick('lighting')" title="AI decides">✦ AI</button>
+    </div>
+    <div class="card-body">
+      <div class="sel-wrap">
+        <select id="s-lighting" onchange="onLighting()">
+          <option value="">— lighting —</option>
+          <option value="__ai__">✦ AI decides</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- SHOT TYPE -->
+  <div class="card">
+    <div class="card-hdr">
+      <h2 class="card-hdr-title">Shot Type / Framing</h2>
+      <button class="ai-btn" onclick="aiClick('shot')" title="AI decides">✦ AI</button>
+    </div>
+    <div class="card-body">
+      <div class="sel-wrap">
+        <select id="s-shot" onchange="onShot()">
+          <option value="">— shot type —</option>
+          <option value="__ai__">✦ AI decides</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- ERA -->
+  <div class="card">
+    <div class="card-hdr"><span class="card-title">Era Filter <span style="color:var(--border);font-style:italic;letter-spacing:0;text-transform:none">optional</span></span></div>
+    <div class="pill-row" id="era-pills"></div>
+  </div>
+
+  <!-- ACTIONS -->
+  <div class="card">
+    <div class="actions">
+      <button class="btn-primary" onclick="randomizeAll()">RANDOMIZE ALL</button>
+      <button class="btn-secondary" onclick="spinUnlocked()">SPIN UNLOCKED</button>
+      <button class="btn-secondary" onclick="clearAll()">CLEAR</button>
+    </div>
+  </div>
+
+  <!-- REWRITE -->
+  <div class="card">
+    <div class="card-body">
+      <button class="btn-rewrite" id="btn-rewrite" onclick="refineLocal()" disabled>&#x25C8; Rewrite &amp; Tighten</button>
+      <div class="rewrite-note">5 cinematic variants — each weights your selections differently.</div>
+      <div class="variants" id="variants"></div>
+    </div>
+  </div>
+
+  <!-- HISTORY -->
+  <div class="card" id="hist-card" style="display:none">
+    <div class="card-hdr"><h2 class="card-hdr-title">Recent Prompts</h2></div>
+    <div class="hist-list vis" id="hist-list"></div>
+  </div>
+
+  <div class="spacer"></div>
+</div>
+
+<script src="data.js"></script>
+<script>
+function translateTension(t){
+  return TENSION_TRANSLATIONS[t] || t;
+}
+
+// ── BUILD PROMPT ──────────────────────────────────────────────
+function buildPromptString(){
+  if(!S.world) return null;
+  var w=getWorld();
+  var conn=pickConn(w);
+  var ten=S.tension?translateTension(S.tension):null;
+
+  var sentence='';
+
+  // Shot type opens as a framing directive
+  var shotPrefix=S.shot&&S.shot!=='__ai__'?S.shot+'. ':'';
+
+  // Core: tension \u2014 pose [connector] location
+  if(ten&&S.pose&&S.pose!=='__ai__'&&S.loc&&S.loc!=='__ai__')
+    sentence=ten+' \u2014 '+S.pose+' '+conn+' '+S.loc;
+  else if(ten&&S.pose&&S.pose!=='__ai__')
+    sentence=ten+', '+S.pose;
+  else if(ten&&S.loc&&S.loc!=='__ai__')
+    sentence=ten+' '+conn+' '+S.loc;
+  else if(S.pose&&S.pose!=='__ai__'&&S.loc&&S.loc!=='__ai__')
+    sentence=S.pose+' '+conn+' '+S.loc;
+  else if(ten) sentence=ten;
+  else if(S.pose&&S.pose!=='__ai__') sentence=S.pose;
+  else if(S.loc&&S.loc!=='__ai__') sentence=S.loc;
+
+  // AI placeholders
+  if(S.pose==='__ai__') sentence+=(sentence?', ':'')+'[AI: pose]';
+  if(S.loc==='__ai__') sentence+=(sentence?' amid ':'')+'[AI: location]';
+
+  // Look as wearing clause
+  if(S.look&&S.look!=='__ai__') sentence+=', wearing '+S.look;
+  else if(S.look==='__ai__') sentence+=', [AI: wardrobe]';
+
+  // Lighting as atmospheric clause
+  if(S.lighting&&S.lighting!=='__ai__') sentence+=', bathed in '+S.lighting;
+  else if(S.lighting==='__ai__') sentence+=', [AI: lighting]';
+
+  // Era as softest modifier
+  if(S.era){var e=ERAS.find(function(x){return x.label===S.era;});if(e)sentence+=', '+e.tone+' aesthetic';}
+
+  if(!sentence) return null;
+  return buildFixed()+' '+shotPrefix+sentence+'.';
+}
+
+function pickConn(w){
+  if(!w) return 'amid';
+  const pool = CONNECTORS[w.id] || ['amid','against','beside'];
+  // Deterministic per tension+world combo so it doesn't change on re-render
+  if(S.tension){
+    const seed = S.tension.length + w.id.length;
+    return pool[seed % pool.length];
+  }
+  return pool[0];
+}
+
+// ── UPDATE LIVE PROMPT ────────────────────────────────────────
+function updatePrompt(){
+  const ptEl = document.getElementById('pt');
+  const wcEl = document.getElementById('wc');
+  const cohEl = document.getElementById('coh');
+  const rewriteBtn = document.getElementById('btn-rewrite');
+
+  if(!S.world){
+    ptEl.innerHTML='<span class="pt-empty">Select a world to begin</span>';
+    wcEl.textContent=''; cohEl.style.display='none';
+    rewriteBtn.disabled=true; return;
+  }
+
+  const w = getWorld();
+  const sep='<span style="color:#2e2a25">, </span>';
+  const dot='<span style="color:#2e2a25">.</span>';
+  const parts=[];
+  if(S.tension) parts.push('<span class="pt-tension">'+translateTension(S.tension)+'</span>');
+  if(S.loc){ const v=S.loc==='__ai__'?'[AI: location]':S.loc; parts.push('<span class="pt-loc">'+v+'</span>'); }
+  if(S.pose){ const v=S.pose==='__ai__'?'[AI: pose]':S.pose; parts.push('<span class="pt-pose">'+v+'</span>'); }
+  if(S.look){ const v=S.look==='__ai__'?'[AI: look]':S.look; parts.push('<span class="pt-look">'+v+'</span>'); }
+  if(S.era){ const e=ERAS.find(x=>x.label===S.era); if(e) parts.push('<span class="pt-era">'+e.tone+' aesthetic</span>'); }
+  if(S.lighting){ const v=S.lighting==='__ai__'?'[AI: lighting]':('lit by '+S.lighting); parts.push('<span class="pt-light">'+v+'</span>'); }
+  if(S.shot){ const v=S.shot==='__ai__'?'[AI: shot]':S.shot; parts.push('<span class="pt-shot">'+v+'</span>'); }
+
+  let html='<span class="pt-fixed">'+buildFixed()+'</span>';
+  if(parts.length) html+=' '+parts.join(sep)+dot;
+  else html+=' <span class="pt-empty">\u2014 pick tension, location, pose or look</span>';
+  ptEl.innerHTML=html;
+
+  const p=buildPromptString();
+  const varPart=p?p.replace(buildFixed(),'').trim():'';
+  const wc=varPart?varPart.split(/\s+/).filter(Boolean).length:0;
+  wcEl.textContent=wc?wc+' variable words':'';
+  wcEl.className='wc'+(wc>30?' over':wc>0?' good':'');
+  rewriteBtn.disabled=!p;
+  updateCoherence(w);
+  updateQualityHint();
+}
+
+// ── COHERENCE ─────────────────────────────────────────────────
+function updateCoherence(w){
+  const el=document.getElementById('coh');
+  const filled=[S.tension,S.loc,S.pose,S.look].filter(v=>v&&v!=='__ai__').length;
+  if(!S.world||!filled){ el.style.display='none'; return; }
+  el.style.display='block';
+  let score=2;
+  if(S.tension&&w.tensions.includes(S.tension)) score+=2;
+  if(S.loc&&S.loc!=='__ai__'&&w.locs.includes(S.loc)) score+=2;
+  if(S.pose&&S.pose!=='__ai__'&&w.poses.includes(S.pose)) score+=2;
+  if(S.look&&S.look!=='__ai__'&&w.looks.includes(S.look)) score+=2;
+  if(S.era) score+=1;
+  const max=2+(S.tension?2:0)+(S.loc&&S.loc!=='__ai__'?2:0)+(S.pose&&S.pose!=='__ai__'?2:0)+(S.look&&S.look!=='__ai__'?2:0)+(S.era?1:0);
+  const r=max>0?score/max:0;
+  if(r>=.85){el.textContent='● Cohesive';el.className='coh high';}
+  else if(r>=.5){el.textContent='◐ Moderate';el.className='coh mid';}
+  else{el.textContent='○ Scattered';el.className='coh low';}
+}
+
+// ── COPY ──────────────────────────────────────────────────────
+function copyPrompt(){
+  const p=buildPromptString(); if(!p) return;
+  pushHistory(p);
+  navigator.clipboard.writeText(p).then(()=>{
+    const b=document.getElementById('btn-copy');
+    b.textContent='Copied!'; b.classList.add('copied');
+    setTimeout(()=>{b.textContent='Copy';b.classList.remove('copied');},2000);
+  });
+}
+
+// ── REWRITE ───────────────────────────────────────────────────
+function refineLocal(){
+  const p=buildPromptString(); if(!p) return;
+  const w=getWorld();
+  const btn=document.getElementById('btn-rewrite');
+  const varEl=document.getElementById('variants');
+  btn.disabled=true; btn.textContent='Rewriting…';
+  varEl.innerHTML=''; varEl.classList.remove('vis');
+  const eraD=S.era?ERAS.find(e=>e.label===S.era):null;
+  const connPool=CONNECTORS[S.world]||['defined by'];
+  const used=new Set();
+  const baseT={
+    tension:S.tension||null,
+    loc:S.loc&&S.loc!=='__ai__'?S.loc:null,
+    pose:S.pose&&S.pose!=='__ai__'?S.pose:null,
+    look:S.look&&S.look!=='__ai__'?S.look:null,
+    lighting:S.lighting&&S.lighting!=='__ai__'?S.lighting:null,
+    shot:S.shot&&S.shot!=='__ai__'?S.shot:null,
+    era:eraD?eraD.tone:null,
+    worldSub:w?w.sub.toLowerCase():''
+  };
+  if(eraD&&!baseT.look&&eraD.hint) baseT.look=eraD.hint;
+  const VARIANT_LABELS=[
+    'Variant 1 \u2014 Cinematic Scale',
+    'Variant 2 \u2014 Intimacy',
+    'Variant 3 \u2014 Essential',
+    'Variant 4 \u2014 Location-Led',
+    'Variant 5 \u2014 Wardrobe-Led'
+  ];
+  const variants=[];
+  const connectors=connPool.length>=5?connPool:[...connPool,...connPool,...connPool];
+  for(let i=0;i<TEMPLATES.length;i++){
+    const conn=connectors[i%connectors.length];
+    const t={...baseT,connector:conn};
+    const inner=TEMPLATES[i](t).replace(/^,\s*/,'').replace(/,\s*,/g,',').replace(/,\s*\./g,'.');
+    variants.push({full:buildFixed()+' '+inner,wc:inner.split(/\s+/).filter(Boolean).length,label:VARIANT_LABELS[i]});
+  }
+  setTimeout(()=>{
+    variants.forEach((v,i)=>{
+      const block=document.createElement('div'); block.className='variant';
+      const labelEl=document.createElement('div'); labelEl.className='v-label'; labelEl.textContent=v.label; block.appendChild(labelEl);
+      const pEl=document.createElement('div'); pEl.className='v-text'; pEl.textContent=v.full; block.appendChild(pEl);
+      const meta=document.createElement('div'); meta.className='v-meta';
+      const wcCls=v.wc>30?'color:#ff6a6a':v.wc>0?'color:var(--green)':'';
+      meta.innerHTML='<span style="'+wcCls+'">'+v.wc+' words</span>';
+      const cb=document.createElement('button'); cb.className='v-copy'; cb.textContent='Copy';
+      cb.onclick=e=>{e.stopPropagation();navigator.clipboard.writeText(v.full).then(()=>{cb.textContent='Copied!';cb.classList.add('copied');pushHistory(v.full);setTimeout(()=>{cb.textContent='Copy';cb.classList.remove('copied');},1800);});};
+      meta.appendChild(cb); block.appendChild(meta);
+      block.onclick=()=>cb.click();
+      varEl.appendChild(block);
+    });
+    varEl.classList.add('vis');
+    btn.disabled=false; btn.innerHTML='&#x25C8; Rewrite &amp; Tighten';
+  },200);
+}
+
+// ── HISTORY ───────────────────────────────────────────────────
+function pushHistory(p){
+  if(!p||history[0]===p) return;
+  history.unshift(p); if(history.length>8) history.pop();
+  renderHistory();
+}
+function renderHistory(){
+  const card=document.getElementById('hist-card');
+  const list=document.getElementById('hist-list');
+  list.innerHTML='';
+  if(!history.length){ card.style.display='none'; return; }
+  card.style.display='block';
+  history.forEach(h=>{
+    const short=h.replace(buildFixed()+' ','').replace(/^Create a [^.]+\. /,'');
+    const b=document.createElement('button'); b.className='hist-item';
+    b.textContent=short.length>80?short.slice(0,78)+'…':short; b.title=h;
+    b.onclick=()=>{navigator.clipboard.writeText(h).then(()=>{b.style.color='var(--green)';setTimeout(()=>{b.style.color='';},1200);});};
+    list.appendChild(b);
+  });
+}
+
+// ── RANDOMIZE ALL ─────────────────────────────────────────────
+function randomizeAll(){
+  const cur=buildPromptString(); if(cur) pushHistory(cur);
+  // Pick world (if not locked)
+  const w = LOCKS.world && S.world ? getWorld() : pick(WORLDS);
+  if(!LOCKS.world){
+    S.world=w.id;
+    const wsel=document.getElementById('s-world');
+    wsel.value=w.id; wsel.classList.add('has-val');
+    applyWorldColor(w.color);
+  }
+  // Pick tension (if not locked)
+  if(!LOCKS.tension){
+    S.tension=pick(w.tensions);
+  }
+  populateTension();
+  document.getElementById('s-tension').value=S.tension||'';
+  document.getElementById('s-tension').classList.toggle('has-val',!!S.tension);
+  // Pick dials with affinity
+  ['loc','pose','look'].forEach(key=>{
+    if(LOCKS[key]) return;
+    const pool=key==='loc'?'locs':key==='pose'?'poses':'looks';
+    const aff=S.tension&&w.affinities&&w.affinities[S.tension]?(w.affinities[S.tension][pool]||[]):[];
+    const src=aff.length&&Math.random()<.7?aff:w[pool];
+    S[key]=pick(src);
+  });
+  populateDials();
+  ['loc','pose','look'].forEach(key=>{
+    const sel=document.getElementById('s-'+key);
+    if(S[key]){ sel.value=S[key]; sel.classList.add('has-val'); }
+  });
+  // Maybe set era
+  if(Math.random()>.5&&!LOCKS.era){
+    S.era=pick(ERAS).label;
+    document.querySelectorAll('.pill').forEach(p=>p.classList.toggle('active',p.textContent===S.era));
+  } else if(!LOCKS.era){
+    S.era=null;
+    document.querySelectorAll('.pill').forEach(p=>p.classList.remove('active'));
+  }
+  // Randomize lighting and shot
+  if(Math.random()>.4){
+    S.lighting=pick(LIGHTING_OPTIONS);
+    const ls=document.getElementById('s-lighting');
+    if(ls){ls.value=S.lighting;ls.classList.add('has-val');}
+  } else {
+    S.lighting=null;
+    const ls=document.getElementById('s-lighting');
+    if(ls){ls.value='';ls.classList.remove('has-val');}
+  }
+  if(Math.random()>.5){
+    S.shot=pick(SHOT_OPTIONS);
+    const ss=document.getElementById('s-shot');
+    if(ss){ss.value=S.shot;ss.classList.add('has-val');}
+  } else {
+    S.shot=null;
+    const ss=document.getElementById('s-shot');
+    if(ss){ss.value='';ss.classList.remove('has-val');}
+  }
+  updatePrompt();
+}
+
+// ── SPIN UNLOCKED ─────────────────────────────────────────────
+function spinUnlocked(){
+  const w=getWorld(); if(!w) return;
+  ['loc','pose','look'].forEach(key=>{
+    if(LOCKS[key]) return;
+    const pool=key==='loc'?'locs':key==='pose'?'poses':'looks';
+    const aff=S.tension&&w.affinities&&w.affinities[S.tension]?(w.affinities[S.tension][pool]||[]):[];
+    const src=aff.length&&Math.random()<.7?aff:w[pool];
+    S[key]=pick(src);
+    const sel=document.getElementById('s-'+key);
+    sel.value=S[key]; sel.classList.add('has-val');
+  });
+  if(!LOCKS.tension){
+    S.tension=pick(w.tensions);
+    document.getElementById('s-tension').value=S.tension;
+    document.getElementById('s-tension').classList.add('has-val');
+    populateDials();
+    ['loc','pose','look'].forEach(key=>{
+      if(!LOCKS[key]){ const sel=document.getElementById('s-'+key); sel.value=S[key]||''; }
+    });
+  }
+  // Spin lighting too
+  S.lighting=pick(LIGHTING_OPTIONS);
+  const lsel=document.getElementById('s-lighting');
+  if(lsel){lsel.value=S.lighting;lsel.classList.add('has-val');}
+  updatePrompt();
+}
+
+// ── CLEAR ─────────────────────────────────────────────────────
+function clearAll(){
+  // Only clear unlocked values
+  if(!LOCKS.world){ S.world=null; document.getElementById('s-world').value=''; document.getElementById('s-world').classList.remove('has-val'); applyWorldColor(null); }
+  if(!LOCKS.tension){ S.tension=null; }
+  if(!LOCKS.loc){ S.loc=null; }
+  if(!LOCKS.pose){ S.pose=null; }
+  if(!LOCKS.look){ S.look=null; }
+  S.era=null; S.lighting=null; S.shot=null;
+  const ls=document.getElementById('s-lighting');
+  const ss=document.getElementById('s-shot');
+  if(ls){ls.value='';ls.classList.remove('has-val');}
+  if(ss){ss.value='';ss.classList.remove('has-val');}
+  document.querySelectorAll('.pill').forEach(p=>p.classList.remove('active'));
+  populateTension();
+  populateDials();
+  document.getElementById('variants').classList.remove('vis');
+  document.getElementById('variants').innerHTML='';
+  updatePrompt();
+}
+
+// ── HELP MODAL ────────────────────────────────────────────────
+function openHowTo(){
+  document.getElementById('howto-bg').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function closeHowTo(){
+  document.getElementById('howto-bg').classList.remove('open');
+  document.body.style.overflow='';
+}
+function openHelp(){
+  document.getElementById('modal-bg').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function closeHelp(){
+  document.getElementById('modal-bg').classList.remove('open');
+  document.body.style.overflow='';
+}
+document.addEventListener('keydown',function(e){if(e.key==='Escape'){closeHelp();closeHowTo();}});
+
+// ── QUALITY HINTS ─────────────────────────────────────────────
+function updateQualityHint(){
+  const bar=document.getElementById('quality-bar');
+  if(!bar) return;
+  const hint=document.getElementById('quality-hint-text');
+
+  if(!S.world){ bar.classList.remove('vis'); return; }
+
+  const w=getWorld();
+  const filled=[S.loc,S.pose,S.look].filter(function(v){return v&&v!=='__ai__';}).length;
+  const aiCount=[S.loc,S.pose,S.look].filter(function(v){return v==='__ai__';}).length;
+  let msg=null;
+
+  if(!S.tension){
+    msg='<strong>Try setting a Tension first</strong> \u2014 it unlocks affinity-matched suggestions in every dropdown.';
+  } else if(aiCount===3){
+    msg='All fields set to <strong>AI decides</strong> \u2014 set at least one manually for a more directed result.';
+  } else if(filled===0&&aiCount===0){
+    msg='World and tension set. <strong>Add a location or pose</strong> to build the prompt.';
+  } else if(filled===1&&aiCount===0){
+    msg='<strong>One field filled.</strong> Add a location or pose for a stronger prompt.';
+  } else if(filled>=3){
+    if(S.tension&&w.affinities&&w.affinities[S.tension]){
+      var aff=w.affinities[S.tension];
+      var locIn=!S.loc||S.loc==='__ai__'||(aff.locs||[]).indexOf(S.loc)>=0;
+      var poseIn=!S.pose||S.pose==='__ai__'||(aff.poses||[]).indexOf(S.pose)>=0;
+      var lookIn=!S.look||S.look==='__ai__'||(aff.looks||[]).indexOf(S.look)>=0;
+      if(!locIn||!poseIn||!lookIn){
+        msg='Selections are outside affinity set \u2014 interesting contrast. Or try <strong>Spin Unlocked</strong> to align.';
+      } else {
+        msg='Prompt looks solid. Hit <strong>Rewrite & Tighten</strong> for 5 cinematic variants.';
+      }
+    } else {
+      msg='Prompt looks solid. Hit <strong>Rewrite & Tighten</strong> for 5 cinematic variants.';
+    }
+  } else if(!S.look&&S.look!=='__ai__'&&filled>=2){
+    msg='<strong>Add a wardrobe look</strong> to anchor the visual tone.';
+  }
+
+  if(msg){
+    hint.innerHTML='&#x25B8; '+msg;
+    bar.classList.add('vis');
+  } else {
+    bar.classList.remove('vis');
+  }
+}
+
+
+// ── LIGHTING & SHOT ───────────────────────────────────────────
+function onLighting(){
+  const v=document.getElementById('s-lighting').value;
+  S.lighting=v||null;
+  document.getElementById('s-lighting').classList.toggle('has-val',!!(v&&v!=='__ai__'));
+  updatePrompt();
+}
+function onShot(){
+  const v=document.getElementById('s-shot').value;
+  S.shot=v||null;
+  document.getElementById('s-shot').classList.toggle('has-val',!!(v&&v!=='__ai__'));
+  updatePrompt();
+}
+
+// ── AI DECIDES BUTTONS ────────────────────────────────────────
+function aiClick(key){
+  const sel=document.getElementById('s-'+key);
+  if(!sel) return;
+  if(LOCKS[key]) return;
+  S[key]='__ai__';
+  sel.value='__ai__';
+  sel.classList.remove('has-val');
+  updatePrompt();
+}
+function initLightingShot(){
+  const ls=document.getElementById('s-lighting');
+  const ss=document.getElementById('s-shot');
+  if(ls){
+    ls.innerHTML='<option value="">\u2014 lighting \u2014</option><option value="__ai__">✦ AI decides</option>';
+    LIGHTING_OPTIONS.forEach(function(v){
+      var o=document.createElement('option');o.value=v;o.textContent=v;ls.appendChild(o);
+    });
+  }
+  if(ss){
+    ss.innerHTML='<option value="">\u2014 shot type \u2014</option><option value="__ai__">✦ AI decides</option>';
+    SHOT_OPTIONS.forEach(function(v){
+      var o=document.createElement('option');o.value=v;o.textContent=v;ss.appendChild(o);
+    });
+  }
+}
+
+
+// ── RATIO & SUBJECT ───────────────────────────────────────────
+function onRatio(){
+  const v=document.getElementById('s-ratio').value;
+  S.ratio=v||'9:16';
+  updatePrompt();
+}
+function onSubject(){
+  const v=document.getElementById('s-subject').value;
+  S.subject=v||'couple';
+  // Repopulate pose dial with subject-appropriate poses
+  populatePoseForSubject();
+  updatePrompt();
+}
+function populatePoseForSubject(){
+  const sel=document.getElementById('s-pose');
+  if(!sel) return;
+  const w=getWorld();
+  if(S.subject==='solo'){
+    sel.innerHTML='<option value="">\u2014 choose pose \u2014</option><option value="__ai__">✦ AI decides</option>';
+    const sg=document.createElement('optgroup'); sg.label='▸ Solo poses';
+    SOLO_POSES.forEach(function(v){var o=document.createElement('option');o.value=v;o.textContent=v;sg.appendChild(o);});
+    sel.appendChild(sg);
+    if(w){
+      const wg=document.createElement('optgroup'); wg.label='▸ World poses (adapt for solo)';
+      w.poses.forEach(function(v){var o=document.createElement('option');o.value=v;o.textContent=v;wg.appendChild(o);});
+      sel.appendChild(wg);
+    }
+  } else if(S.subject==='group'){
+    sel.innerHTML='<option value="">\u2014 choose pose \u2014</option><option value="__ai__">✦ AI decides</option>';
+    const sg=document.createElement('optgroup'); sg.label='▸ Group poses';
+    GROUP_POSES.forEach(function(v){var o=document.createElement('option');o.value=v;o.textContent=v;sg.appendChild(o);});
+    sel.appendChild(sg);
+    if(w){
+      const wg=document.createElement('optgroup'); wg.label='▸ World poses (adapt for group)';
+      w.poses.forEach(function(v){var o=document.createElement('option');o.value=v;o.textContent=v;wg.appendChild(o);});
+      sel.appendChild(wg);
+    }
+  } else {
+    // couple \u2014 normal populateDial
+    populateDial('pose');
+  }
+  // restore selected value if still present
+  if(S.pose){try{sel.value=S.pose;}catch(e){}}
+  sel.classList.toggle('has-val',!!(S.pose&&S.pose!=='__ai__'));
+}
+
+
+function initRatioSubject(){
+  const rs=document.getElementById('s-ratio');
+  const ss=document.getElementById('s-subject');
+  if(rs){
+    rs.innerHTML='';
+    RATIOS.forEach(function(r){
+      var o=document.createElement('option');o.value=r.value;o.textContent=r.label;
+      if(r.value===S.ratio) o.selected=true;
+      rs.appendChild(o);
+    });
+  }
+  if(ss){
+    ss.innerHTML='';
+    SUBJECTS.forEach(function(s){
+      var o=document.createElement('option');o.value=s.value;o.textContent=s.label;
+      if(s.value===S.subject) o.selected=true;
+      ss.appendChild(o);
+    });
+  }
+}
+
+
+// ── WORLD TICKER ─────────────────────────────────────────────
+function initWorldTicker(){
+  const el=document.getElementById('world-ticker-inner');
+  if(!el) return;
+  const names=WORLDS.map(function(w){return w.name;});
+  // Duplicate for seamless loop
+  const all=[...names,...names];
+  el.innerHTML=all.map(function(n){
+    return '<span class="world-chip">'+n+'</span>';
+  }).join('');
+}
+
+// ── BOOT ──────────────────────────────────────────────────────
+init();</script>
+
+<!-- Buy Me a Coffee Widget -->
+<script data-name="BMC-Widget" data-cfasync="false"
+  src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+  data-id="CouplesAI"
+  data-description="Support CouplesAI Portrait Generator!"
+  data-message="Thanks for using CouplesAI! Every coffee helps keep the tool free ☕"
+  data-color="#f0924a"
+  data-position="Right"
+  data-x_margin="18"
+  data-y_margin="18">
+</script>
+</body>
+</html>
