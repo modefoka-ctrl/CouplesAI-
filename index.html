@@ -633,11 +633,21 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--text);
         <button class="icon-btn lock" id="lk-world" onclick="toggleLock('world')" title="Lock world">&#x1F513;</button>
       </div>
       <div class="sel-row">
-        <div class="sel-wrap">
+        <div style="display:flex;flex-direction:column;gap:6px;flex:1">
+          <input id="tension-search" type="text" placeholder="&#x1F50D; filter tensions..."
+            oninput="filterTensions(this.value)"
+            style="width:100%;background:var(--bg);border:1px solid var(--border);
+            border-radius:6px;color:var(--dim);font-family:'JetBrains Mono',monospace;
+            font-size:11px;padding:7px 12px;outline:none;letter-spacing:.02em;
+            transition:border-color .2s ease"
+            onfocus="this.style.borderColor='var(--wc)'"
+            onblur="this.style.borderColor='var(--border)'">
+          <div class="sel-wrap">
           <select id="s-tension" onchange="onTensionChange()" disabled>
             <option value="">— choose tension —</option>
           </select>
         </div>
+          </div>
         <button class="ai-btn" id="ai-tension" onclick="aiClick('tension')" title="AI decides">✦ AI</button>
         <button class="icon-btn lock" id="lk-tension" onclick="toggleLock('tension')" title="Lock tension">&#x1F513;</button>
         <button class="icon-btn" onclick="rerollDial('tension')" title="Reroll">&#x21BA;</button>
@@ -798,6 +808,16 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--text);
 
 <script src="data.js"></script>
 <script>
+function filterTensions(query){
+  var sel=document.getElementById('s-tension');
+  if(!sel||sel.disabled) return;
+  var q=query.toLowerCase().trim();
+  Array.from(sel.options).forEach(function(o){
+    if(!o.value||o.value==='__ai__'){o.style.display='';return;}
+    o.style.display=(q===''||o.text.toLowerCase().includes(q))?'':'none';
+  });
+}
+
 function translateTension(t){
   return TENSION_TRANSLATIONS[t] || t;
 }
