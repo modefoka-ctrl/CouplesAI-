@@ -181,6 +181,23 @@ function applyWorldColor(color){
 }
 
 // ── INIT ──────────────────────────────────────────────────────
+function updateDynamicStats(){
+  var worldCount=WORLDS.length;
+  var tensionCount=WORLDS.reduce(function(sum,w){return sum+w.tensions.length;},0);
+  var tensionLabel=tensionCount+'+';
+  var sw=document.getElementById('stat-worlds');
+  var st=document.getElementById('stat-tensions');
+  if(sw) sw.textContent=worldCount;
+  if(st) st.textContent=tensionLabel;
+  var hw=document.getElementById('hero-sub-worlds');
+  var ht=document.getElementById('hero-sub-tensions');
+  if(hw) hw.textContent=worldCount;
+  if(ht) ht.textContent=tensionLabel;
+  document.title='CouplesAI Portrait Generator — '+worldCount+' Worlds · Cinematic AI Portrait Prompts';
+  var md=document.getElementById('meta-desc');
+  if(md) md.setAttribute('content','Generate cinematic AI portrait prompts for couples, solo subjects and groups. '+worldCount+' worlds, '+tensionLabel+' tensions, lighting, shot type and wardrobe — all in one click.');
+}
+
 function init(){
   const ws = document.getElementById('s-world');
   WORLDS.forEach(w=>{
@@ -192,6 +209,7 @@ function init(){
   initLightingShot();
   initRatioSubject();
   initWorldTicker();
+  updateDynamicStats();
   updatePrompt();
 }
 
