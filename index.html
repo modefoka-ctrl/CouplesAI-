@@ -195,11 +195,17 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--text);
   border-color:var(--wc);color:var(--text)}
 
 /* ── COHERENCE BADGE ── */
-.coh{font-family:"JetBrains Mono",monospace;font-size:9px;padding:4px 12px;
-  border:1px solid var(--border);border-radius:20px;display:none;margin-left:auto}
-.coh.high{border-color:var(--green);color:var(--green)}
-.coh.mid{border-color:var(--amber);color:var(--amber)}
-.coh.low{border-color:var(--rose);color:var(--rose)}
+.coh{font-family:"JetBrains Mono",monospace;font-size:10px;padding:5px 14px;
+  border:1px solid var(--border);border-radius:20px;display:none;margin-left:auto;
+  cursor:default;display:none;align-items:center;gap:6px;transition:all .2s ease}
+.coh.high{border-color:var(--green);color:var(--green);
+  background:rgba(61,201,138,.08);box-shadow:0 0 8px rgba(61,201,138,.15)}
+.coh.mid{border-color:var(--amber);color:var(--amber);
+  background:rgba(240,146,74,.08)}
+.coh.low{border-color:var(--rose);color:var(--rose);
+  background:rgba(232,88,128,.08)}
+.coh-icon{font-size:11px}
+.coh-label{font-weight:500;letter-spacing:.08em;text-transform:uppercase;font-size:9px}
 
 /* ── ACTION BUTTONS ── */
 .actions{display:flex;flex-wrap:wrap;gap:10px;padding:14px 16px;
@@ -894,20 +900,56 @@ function updatePrompt(){
 // ── COHERENCE ─────────────────────────────────────────────────
 function updateCoherence(w){
   const el=document.getElementById('coh');
-  const filled=[S.tension,S.loc,S.pose,S.look].filter(v=>v&&v!=='__ai__').length;
-  if(!S.world||!filled){ el.style.display='none'; return; }
-  el.style.display='block';
-  let score=2;
-  if(S.tension&&w.tensions.includes(S.tension)) score+=2;
-  if(S.loc&&S.loc!=='__ai__'&&w.locs.includes(S.loc)) score+=2;
-  if(S.pose&&S.pose!=='__ai__'&&w.poses.includes(S.pose)) score+=2;
-  if(S.look&&S.look!=='__ai__'&&w.looks.includes(S.look)) score+=2;
-  if(S.era) score+=1;
-  const max=2+(S.tension?2:0)+(S.loc&&S.loc!=='__ai__'?2:0)+(S.pose&&S.pose!=='__ai__'?2:0)+(S.look&&S.look!=='__ai__'?2:0)+(S.era?1:0);
-  const r=max>0?score/max:0;
-  if(r>=.85){el.textContent='● Cohesive';el.className='coh high';}
-  else if(r>=.5){el.textContent='◐ Moderate';el.className='coh mid';}
-  else{el.textContent='○ Scattered';el.className='coh low';}
+  const filled=[S.tension,S.loc,S.pose,S.look].filter(function(v){return v&&v!=='__ai__';}).length;
+  if(!S.world||!filled){el.style.display='none';return;}
+  el.style.display='flex';
+
+  // Base score — affinity-aware
+  var score=0; var max=0; var reasons=[];
+
+  // Tension in world
+  if(S.tension){
+    max+=3;
+    if(w.tensions.includes(S.tension)){score+=3;reasons.push('tension fits this world');}
+    else reasons.push('tension is from outside this world');
+  }
+
+  // Check affinity match — do loc/pose/look appear in this tension's affinity?
+  var aff=S.tension&&w.affinities&&w.affinities[S.tension];
+
+  if(S.loc&&S.loc!=='__ai__'){
+    max+=3;
+    if(aff&&aff.locs&&aff.locs.includes(S.loc)){score+=3;reasons.push('location is a top affinity match');}
+    else if(w.locs.includes(S.loc)){score+=1;reasons.push('location fits the world');}
+    else reasons.push('location is outside this world');
+  }
+  if(S.pose&&S.pose!=='__ai__'){
+    max+=3;
+    if(aff&&aff.poses&&aff.poses.includes(S.pose)){score+=3;reasons.push('pose is a top affinity match');}
+    else if(w.poses.includes(S.pose)){score+=1;reasons.push('pose fits the world');}
+    else reasons.push('pose is outside this world');
+  }
+  if(S.look&&S.look!=='__ai__'){
+    max+=2;
+    if(aff&&aff.looks&&aff.looks.includes(S.look)){score+=2;reasons.push('wardrobe is a top affinity match');}
+    else if(w.looks.includes(S.look)){score+=1;reasons.push('wardrobe fits the world');}
+  }
+  if(S.lighting&&S.lighting!=='__ai__'){max+=1;score+=1;}
+  if(S.era){max+=1;score+=1;}
+
+  var r=max>0?score/max:0;
+  var label,cls,icon;
+  if(r>=.75){label='Cohesive';cls='coh high';icon='✦';}
+  else if(r>=.4){label='Moderate';cls='coh mid';icon='◐';}
+  else{label='Scattered';cls='coh low';icon='○';}
+
+  el.className=cls;
+  el.innerHTML='<span class="coh-icon">'+icon+'</span><span class="coh-label">'+label+'</span>';
+
+  // Build tooltip
+  var tip=reasons.length?reasons.join(' · '):'pick a tension to see affinity score';
+  el.title=tip;
+  el.setAttribute('aria-label','Coherence: '+label+'. '+tip);
 }
 
 // ── COPY ──────────────────────────────────────────────────────
