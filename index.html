@@ -624,6 +624,7 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--text);
       <h2 class="card-hdr-title">World &amp; Tension</h2>
     </div>
     <div class="card-body">
+      <!-- World row -->
       <div class="sel-row">
         <div class="sel-wrap">
           <select id="s-world" onchange="onWorldChange()">
@@ -632,22 +633,22 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--text);
         </div>
         <button class="icon-btn lock" id="lk-world" onclick="toggleLock('world')" title="Lock world">&#x1F513;</button>
       </div>
+      <!-- Tension search -->
+      <input id="tension-search" type="text" placeholder="&#x1F50D; filter tensions..."
+        oninput="filterTensions(this.value)"
+        style="width:100%;background:var(--bg);border:1px solid var(--border);
+        border-radius:6px;color:var(--dim);font-family:'JetBrains Mono',monospace;
+        font-size:11px;padding:7px 12px;outline:none;box-sizing:border-box;
+        transition:border-color .2s ease"
+        onfocus="this.style.borderColor='var(--wc)'"
+        onblur="this.style.borderColor='var(--border)'">
+      <!-- Tension row -->
       <div class="sel-row">
-        <div style="display:flex;flex-direction:column;gap:6px;flex:1">
-          <input id="tension-search" type="text" placeholder="&#x1F50D; filter tensions..."
-            oninput="filterTensions(this.value)"
-            style="width:100%;background:var(--bg);border:1px solid var(--border);
-            border-radius:6px;color:var(--dim);font-family:'JetBrains Mono',monospace;
-            font-size:11px;padding:7px 12px;outline:none;letter-spacing:.02em;
-            transition:border-color .2s ease"
-            onfocus="this.style.borderColor='var(--wc)'"
-            onblur="this.style.borderColor='var(--border)'">
-          <div class="sel-wrap">
+        <div class="sel-wrap">
           <select id="s-tension" onchange="onTensionChange()" disabled>
             <option value="">— choose tension —</option>
           </select>
         </div>
-          </div>
         <button class="ai-btn" id="ai-tension" onclick="aiClick('tension')" title="AI decides">✦ AI</button>
         <button class="icon-btn lock" id="lk-tension" onclick="toggleLock('tension')" title="Lock tension">&#x1F513;</button>
         <button class="icon-btn" onclick="rerollDial('tension')" title="Reroll">&#x21BA;</button>
