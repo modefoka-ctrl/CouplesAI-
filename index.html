@@ -921,6 +921,7 @@ function updatePrompt(){
 // ── COHERENCE ─────────────────────────────────────────────────
 function updateCoherence(w){
   const el=document.getElementById('coh');
+  if(!el) return;
   const filled=[S.tension,S.loc,S.pose,S.look].filter(function(v){return v&&v!=='__ai__';}).length;
   if(!S.world||!filled){el.style.display='none';return;}
   el.style.display='flex';
@@ -1081,7 +1082,7 @@ function renderHistory(){
   const hdr=document.createElement('div');
   hdr.style.cssText='display:flex;align-items:center;justify-content:space-between;padding:8px 16px 4px;border-bottom:1px solid var(--border);margin-bottom:4px';
   hdr.innerHTML='<span style="font-family:JetBrains Mono,monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)">Last '+history.length+' prompts</span>'
-    +'<button onclick="clearHistory()" style="background:transparent;border:none;color:var(--muted);font-family:JetBrains Mono,monospace;font-size:9px;cursor:pointer;letter-spacing:.06em;text-transform:uppercase;padding:2px 6px;border-radius:4px;transition:color .18s ease" onmouseover="this.style.color='var(--rose)'" onmouseout="this.style.color='var(--muted)'">Clear all</button>';
+    +'<button onclick="clearHistory()" style="background:transparent;border:none;color:var(--muted);font-family:JetBrains Mono,monospace;font-size:9px;cursor:pointer;letter-spacing:.06em;text-transform:uppercase;padding:2px 6px;border-radius:4px" onmouseover="this.style.color='var(--rose)'" onmouseout="this.style.color='var(--muted)'">Clear all</button>';
   list.appendChild(hdr);
   history.forEach(function(h,i){
     const short=h.replace(buildFixed()+' ','').replace(/^Create a [^.]+\. /,'');
