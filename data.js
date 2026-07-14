@@ -202,10 +202,28 @@ function updateDynamicStats(){
 
 function init(){
   const ws = document.getElementById('s-world');
-  WORLDS.forEach(w=>{
-    const o = document.createElement('option');
-    o.value = w.id; o.textContent = w.name + ' \u2014 ' + w.sub;
-    ws.appendChild(o);
+  const WORLD_CATS=[
+    ['❤️  Emotion & Relationship',['romance','fight','stage','mystery','protest','wedding']],
+    ['🌿  Nature & Landscape',['mountain','water','wild','jungle','desert','rain','cold']],
+    ['🌅  Time & Light',['dusk','spring','night','history']],
+    ['🌍  Place & Culture',['city','road','travel','mexico','usa','canada','caribbean']],
+    ['🎵  Ceremony & Life',['music','court','kitchen','hero']],
+    ['✨  Style & Fashion',['gold','art','runway','glass']],
+    ['🏗️  Industrial & Material',['dust','concrete','iron']],
+    ['🚀  Beyond Reality',['space','surreal']],
+  ];
+  const wMap={};
+  WORLDS.forEach(function(w){wMap[w.id]=w;});
+  WORLD_CATS.forEach(function(cat){
+    const grp=document.createElement('optgroup');
+    grp.label=cat[0];
+    cat[1].forEach(function(id){
+      const w=wMap[id]; if(!w) return;
+      const o=document.createElement('option');
+      o.value=w.id; o.textContent=w.name+' — '+w.sub;
+      grp.appendChild(o);
+    });
+    ws.appendChild(grp);
   });
   renderEras();
   initLightingShot();
