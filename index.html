@@ -140,6 +140,11 @@ html,body{background:var(--bg);color:var(--text);
   padding:9px 22px;border-radius:20px;cursor:pointer;
   box-shadow:0 2px 16px rgba(124,92,252,.5);
   transition:all .18s ease}
+.btn-share{background:transparent;border:1px solid rgba(255,255,255,.2);
+  color:rgba(255,255,255,.6);font-family:"Inter",sans-serif;font-size:11px;
+  font-weight:500;padding:7px 14px;border-radius:20px;cursor:pointer;
+  transition:all .18s ease;white-space:nowrap}
+.btn-share:hover{border-color:rgba(255,255,255,.5);color:#fff}
 .btn-copy:hover{transform:translateY(-1px);
   box-shadow:0 4px 24px rgba(124,92,252,.65)}
 
@@ -444,6 +449,14 @@ footer a{color:var(--accent);text-decoration:none}
 .howto-footer-btn{background:linear-gradient(135deg,#7c5cfc,#a060ff);border:none;color:#fff;
   font-family:"Inter",sans-serif;font-size:12px;font-weight:600;padding:8px 18px;
   border-radius:20px;cursor:pointer;box-shadow:0 2px 12px rgba(124,92,252,.35)}
+/* ── COHERENCE TOOLTIP ── */
+.coh-tooltip{display:none;position:absolute;bottom:calc(100% + 8px);right:16px;
+  background:#1a1820;border:1px solid rgba(124,92,252,.3);border-radius:8px;
+  padding:8px 12px;font-family:"JetBrains Mono",monospace;font-size:10px;
+  color:#c0a0ff;line-height:1.6;max-width:260px;z-index:200;
+  box-shadow:0 4px 20px rgba(0,0,0,.4);pointer-events:none}
+.coh-tooltip.vis{display:block}
+.prompt-meta{position:relative}
 </style>
 </head>
 <body>
@@ -668,8 +681,10 @@ footer a{color:var(--accent);text-decoration:none}
   <div class="prompt-text" id="pt"><span class="pt-empty">Select a world to begin</span></div>
   <div class="prompt-meta">
     <span class="wc" id="wc"></span>
-    <div class="coh" id="coh"></div>
+    <div class="coh" id="coh" onclick="toggleCohTooltip()"></div>
+    <div class="coh-tooltip" id="coh-tooltip"></div>
     <button class="btn-copy" id="btn-copy" onclick="copyPrompt()">Copy</button>
+    <button class="btn-share" id="btn-share" onclick="copyShareURL()" title="Copy shareable link">Share</button>
   </div>
 </div>
 <div class="quality-bar" id="quality-bar"><div class="quality-hint" id="quality-hint-text"></div></div>
@@ -1035,6 +1050,7 @@ function updatePrompt(){
   updateCoherence(w);
   updateStepStatuses();
   updateQualityHint();
+  encodeState();
 }
 
 // ── COHERENCE ─────────────────────────────────────────────────
@@ -1091,7 +1107,26 @@ function updateCoherence(w){
   var tip=reasons.length?reasons.join(' · '):'pick a tension to see affinity score';
   el.title=tip;
   el.setAttribute('aria-label','Coherence: '+label+'. '+tip);
+  // Populate tap tooltip
+  var tt=document.getElementById('coh-tooltip');
+  if(tt) tt.textContent=tip;
 }
+
+function toggleCohTooltip(){
+  var tt=document.getElementById('coh-tooltip');
+  if(!tt) return;
+  tt.classList.toggle('vis');
+  if(tt.classList.contains('vis')){
+    setTimeout(function(){tt.classList.remove('vis');},3000);
+  }
+}
+
+// Close tooltip on outside tap
+document.addEventListener('click',function(e){
+  var tt=document.getElementById('coh-tooltip');
+  var coh=document.getElementById('coh');
+  if(tt&&coh&&!coh.contains(e.target)) tt.classList.remove('vis');
+});
 
 // ── COPY ──────────────────────────────────────────────────────
 function copyPrompt(){
@@ -1572,9 +1607,77 @@ function updateStepStatuses(){
   }
 }
 
+// ── URL STATE ─────────────────────────────────────────────────
+function encodeState(){
+  var parts=[];
+  if(S.world) parts.push('w='+encodeURIComponent(S.world));
+  if(S.tension) parts.push('t='+encodeURIComponent(S.tension));
+  if(S.loc) parts.push('l='+encodeURIComponent(S.loc));
+  if(S.pose) parts.push('p='+encodeURIComponent(S.pose));
+  if(S.look) parts.push('k='+encodeURIComponent(S.look));
+  if(S.lighting) parts.push('li='+encodeURIComponent(S.lighting));
+  if(S.shot) parts.push('sh='+encodeURIComponent(S.shot));
+  if(S.era) parts.push('e='+encodeURIComponent(S.era));
+  if(S.ratio && S.ratio!=='4:5') parts.push('r='+encodeURIComponent(S.ratio));
+  if(S.subject && S.subject!=='couple') parts.push('su='+encodeURIComponent(S.subject));
+  var hash = parts.length ? '#'+parts.join('&') : '';
+  if(history.replaceState) history.replaceState(null,'',window.location.pathname+hash);
+}
+
+function loadFromURL(){
+  var hash = window.location.hash.slice(1);
+  if(!hash) return;
+  var params={};
+  hash.split('&').forEach(function(p){
+    var kv=p.split('=');
+    if(kv.length===2) params[kv[0]]=decodeURIComponent(kv[1]);
+  });
+  if(params.r) S.ratio=params.r;
+  if(params.su) S.subject=params.su;
+  if(params.w) S.world=params.w;
+  if(params.t) S.tension=params.t;
+  if(params.l) S.loc=params.l;
+  if(params.p) S.pose=params.p;
+  if(params.k) S.look=params.k;
+  if(params.li) S.lighting=params.li;
+  if(params.sh) S.shot=params.sh;
+  if(params.e) S.era=params.e;
+  return Object.keys(params).length>0;
+}
+
+function copyShareURL(){
+  var url=window.location.href.split('#')[0]+(window.location.hash||'');
+  navigator.clipboard.writeText(url).then(function(){
+    var btn=document.getElementById('btn-share');
+    if(btn){btn.textContent='Copied!';setTimeout(function(){btn.textContent='Share';},2000);}
+  });
+}
+
 // ── BOOT ──────────────────────────────────────────────────────
 loadHistory();
+var hadURL=loadFromURL();
 init();
+if(hadURL){
+  // Restore dropdowns after init populated them
+  var sw=document.getElementById('s-world');
+  if(sw&&S.world){sw.value=S.world;onWorldChange();}
+  var st=document.getElementById('s-tension');
+  if(st&&S.tension){st.value=S.tension;onTensionChange();}
+  var sl=document.getElementById('s-loc');
+  if(sl&&S.loc){sl.value=S.loc;onDialChange('loc');}
+  var sp=document.getElementById('s-pose');
+  if(sp&&S.pose){sp.value=S.pose;onDialChange('pose');}
+  var sk=document.getElementById('s-look');
+  if(sk&&S.look){sk.value=S.look;onDialChange('look');}
+  var sli=document.getElementById('s-lighting');
+  if(sli&&S.lighting){sli.value=S.lighting;onLighting();}
+  var ssh=document.getElementById('s-shot');
+  if(ssh&&S.shot){ssh.value=S.shot;onShot();}
+  var sr=document.getElementById('s-ratio');
+  if(sr&&S.ratio){sr.value=S.ratio;onRatio();}
+  var ssu=document.getElementById('s-subject');
+  if(ssu&&S.subject){ssu.value=S.subject;onSubject();}
+}
 </script>
 <!-- Buy Me a Coffee Widget -->
 <script data-name="BMC-Widget" data-cfasync="false"
