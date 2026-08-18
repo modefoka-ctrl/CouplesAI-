@@ -125,6 +125,7 @@ html,body{background:var(--bg);color:var(--text);
 .prompt-text .pt-look{color:#70d890;font-weight:500;
   text-shadow:0 0 12px rgba(112,216,144,.3)}
 .prompt-text .pt-empty{color:rgba(255,255,255,.2);font-style:italic}
+.pt-mood{color:rgba(255,255,255,.38);font-size:10px;font-style:italic;display:block;margin-top:6px;line-height:1.5;letter-spacing:.01em}
 .prompt-meta{display:flex;align-items:center;gap:10px;margin-top:14px;flex-wrap:wrap}
 .wc{font-family:"JetBrains Mono",monospace;font-size:10px;
   color:rgba(255,255,255,.35)}
@@ -1074,6 +1075,9 @@ function updatePrompt(){
   let html='<span class="pt-fixed">'+buildFixed()+'</span>';
   if(parts.length) html+=' '+parts.join(sep)+dot;
   else html+=' <span class="pt-empty">\u2014 pick tension, location, pose or look</span>';
+  if(S.tension && parts.length){
+    html+='<span class="pt-mood"> The emotional tension ('+S.tension+') is a mood and atmosphere directive only \u2014 do not illustrate it literally.</span>';
+  }
   ptEl.innerHTML=html;
 
   const p=buildPromptString();
