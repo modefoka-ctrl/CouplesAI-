@@ -128,12 +128,20 @@ html,body{background:var(--bg);color:var(--text);
 .prompt-meta{display:flex;align-items:center;gap:10px;margin-top:14px;flex-wrap:wrap}
 .wc{font-family:"JetBrains Mono",monospace;font-size:10px;
   color:rgba(255,255,255,.35)}
-.coh-badge{font-family:"JetBrains Mono",monospace;font-size:9px;
-  padding:4px 12px;border-radius:20px;
-  background:rgba(80,200,128,.15);
-  border:1px solid rgba(80,200,128,.4);
-  color:#70d890;letter-spacing:.08em;margin-left:auto;
-  box-shadow:0 0 8px rgba(80,200,128,.15)}
+.coh-badge,.coh{font-family:"JetBrains Mono",monospace;font-size:9px;
+  padding:5px 14px;border-radius:20px;letter-spacing:.08em;margin-left:auto;
+  cursor:pointer;display:none;align-items:center;gap:5px;transition:all .2s ease;
+  border:1px solid rgba(80,200,128,.4);background:rgba(80,200,128,.15);
+  color:#70d890;box-shadow:0 0 8px rgba(80,200,128,.15)}
+.coh.high{border-color:#22dd88;color:#fff !important;
+  background:linear-gradient(135deg,#1a8855,#22cc77) !important;
+  box-shadow:0 0 16px rgba(34,221,136,.6) !important;font-weight:700}
+.coh.mid{border-color:#f0924a;color:#fff !important;
+  background:linear-gradient(135deg,#c85a0a,#f0924a) !important;
+  box-shadow:0 0 12px rgba(240,146,74,.5) !important;font-weight:700}
+.coh.low{border-color:#e05070;color:#fff !important;
+  background:linear-gradient(135deg,#a02040,#e05070) !important;
+  box-shadow:0 0 12px rgba(224,80,112,.5) !important;font-weight:700}
 .btn-copy{background:linear-gradient(135deg,#7c5cfc,#a060ff);
   border:none;color:#fff;
   font-family:"Inter",sans-serif;font-size:12px;font-weight:600;
