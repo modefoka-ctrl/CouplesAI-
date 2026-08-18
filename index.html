@@ -1030,7 +1030,9 @@ function buildPromptString(){
   if(S.era){var e=ERAS.find(function(x){return x.label===S.era;});if(e)sentence+=', '+e.tone+' aesthetic';}
 
   if(!sentence) return null;
-  return buildFixed()+' '+shotPrefix+sentence+'.';
+  var moodNote='';
+  if(ten) moodNote=' The emotional tension ('+S.tension+') is a mood and atmosphere directive only — do not illustrate it literally.';
+  return buildFixed()+' '+shotPrefix+sentence+'.'+moodNote;
 }
 
 function pickConn(w){
