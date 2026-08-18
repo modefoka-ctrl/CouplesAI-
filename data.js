@@ -185,7 +185,7 @@ function buildFixed(){
   return 'Create a '+S.ratio+' '+subj.prefix+' \u2014';
 }
 
-const S = { world:null, tension:null, loc:null, pose:null, look:null, era:null, lighting:null, shot:null, ratio:'9:16', subject:'couple' };
+const S = { world:null, tension:null, loc:null, pose:null, look:null, era:null, lighting:null, shot:null, ratio:'4:5', subject:'couple' };
 const LOCKS = { world:false, tension:false, loc:false, pose:false, look:false };
 const history = [];
 
