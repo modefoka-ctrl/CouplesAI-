@@ -1217,7 +1217,8 @@ function refineLocal(){
     const conn=connectors[i%connectors.length];
     const t={...baseT,connector:conn};
     const inner=TEMPLATES[i](t).replace(/^,\s*/,'').replace(/,\s*,/g,',').replace(/,\s*\./g,'.');
-    variants.push({full:buildFixed()+' '+inner,wc:inner.split(/\s+/).filter(Boolean).length,label:VARIANT_LABELS[i]});
+    var moodNote=S.tension?' The emotional tension ('+S.tension+') is a mood and atmosphere directive only — do not illustrate it literally.':'';
+    variants.push({full:buildFixed()+' '+inner+moodNote,wc:inner.split(/\s+/).filter(Boolean).length,label:VARIANT_LABELS[i]});
   }
   setTimeout(()=>{
     variants.forEach((v,i)=>{
