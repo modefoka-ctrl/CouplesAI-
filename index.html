@@ -72,9 +72,16 @@ html,body{background:var(--bg);color:var(--text);
 .hdr-btns{display:flex;gap:8px}
 .hdr-btn{background:transparent;border:1px solid var(--border);
   color:var(--dim);font-family:"Inter",sans-serif;font-size:12px;
-  font-weight:500;padding:6px 14px;border-radius:20px;cursor:pointer}
+  font-weight:500;padding:6px 14px;border-radius:20px;cursor:pointer;
+  -webkit-tap-highlight-color:transparent}
 .hdr-btn:hover{border-color:var(--accent);color:var(--accent)}
 .hdr-btn-how{background:#ede8ff;border-color:#c8b8ff;color:var(--accent)}
+@media(max-width:480px){
+  .hdr-btn{width:36px;height:36px;padding:0;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;font-size:14px}
+  .hdr-btn .hdr-btn-label{display:none}
+  .l-gen{display:none}
+}
 
 /* ── HERO ── */
 .hero{background:linear-gradient(160deg,#f0ebff 0%,#fff8ee 50%,#e8f7f4 100%);
@@ -87,6 +94,13 @@ html,body{background:var(--bg);color:var(--text);
 .hero h1 em{font-style:italic;color:var(--amber)}
 .hero-sub{font-size:14px;color:var(--dim);max-width:420px;
   margin:0 auto 20px;line-height:1.6}
+@media(max-width:480px){
+  .hero-sub{display:none}
+  .world-ticker{display:none}
+  .hero{padding:16px 16px 12px}
+  .hero-stat-n{font-size:20px}
+  .hero-stats{gap:14px}
+}
 .hero-stats{display:flex;gap:20px;justify-content:center;flex-wrap:wrap}
 .hero-stat-n{font-family:"Playfair Display",serif;font-size:24px;
   font-weight:700;color:var(--amber);line-height:1}
@@ -107,6 +121,30 @@ html,body{background:var(--bg);color:var(--text);
   padding:18px 20px;position:sticky;top:57px;z-index:90;
   box-shadow:0 4px 24px rgba(0,0,0,.18);
   border-bottom:2px solid rgba(255,255,255,.08)}
+/* Collapsed prompt bar strip */
+.prompt-strip{display:none;padding:10px 16px;align-items:center;gap:10px;cursor:pointer}
+.prompt-strip-label{font-family:"JetBrains Mono",monospace;font-size:9px;
+  letter-spacing:.16em;text-transform:uppercase;color:#f0b060;
+  display:flex;align-items:center;gap:6px}
+.prompt-strip-wc{background:rgba(255,255,255,.1);border-radius:10px;
+  padding:2px 8px;font-family:"JetBrains Mono",monospace;font-size:9px;
+  color:rgba(255,255,255,.5);margin-left:auto}
+.prompt-strip-copy{background:linear-gradient(135deg,#7c5cfc,#a060ff);border:none;
+  color:#fff;font-family:"Inter",sans-serif;font-size:11px;font-weight:600;
+  padding:6px 14px;border-radius:14px;cursor:pointer;flex-shrink:0}
+.prompt-strip-chev{color:rgba(255,255,255,.4);font-size:12px;flex-shrink:0;
+  transition:transform var(--t)}
+.prompt-strip-chev.open{transform:rotate(180deg)}
+.prompt-full{transition:max-height .3s ease,opacity .3s ease}
+@media(max-width:480px){
+  .prompt-bar{padding:0;top:57px}
+  .prompt-strip{display:flex}
+  .prompt-full{overflow:hidden}
+  .prompt-full.collapsed{max-height:0;opacity:0;pointer-events:none}
+  .prompt-full.expanded{max-height:600px;opacity:1;padding:14px 16px 16px;
+    border-top:1px solid rgba(255,255,255,.08)}
+  .prompt-full:not(.collapsed):not(.expanded){padding:18px 20px}
+}
 .prompt-bar-label{font-family:"JetBrains Mono",monospace;font-size:9px;
   letter-spacing:.22em;text-transform:uppercase;color:#f0b060;
   margin-bottom:10px;display:flex;align-items:center;gap:8px}
@@ -224,7 +262,11 @@ select{width:100%;background:var(--raised);border:1px solid var(--border);
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23a09488'/%3E%3C/svg%3E");
   background-repeat:no-repeat;background-position:right 12px center;
   background-size:9px;background-color:var(--raised);
-  transition:border-color var(--t),box-shadow var(--t)}
+  transition:border-color var(--t),box-shadow var(--t);
+  -webkit-tap-highlight-color:transparent}
+@media(max-width:480px){
+  select{font-size:16px;padding:13px 36px 13px 14px;border-radius:10px}
+}
 select:focus{border-color:var(--accent);
   box-shadow:0 0 0 3px rgba(90,63,212,.12)}
 select.has-val{border-left:3px solid var(--accent);padding-left:12px}
@@ -236,7 +278,9 @@ select optgroup{color:var(--amber);font-style:normal;font-size:11px}
 .icon-btn{background:var(--raised);border:1px solid var(--border);
   border-radius:8px;color:var(--muted);width:40px;height:40px;
   flex-shrink:0;cursor:pointer;display:flex;align-items:center;
-  justify-content:center;font-size:16px;transition:all var(--t)}
+  justify-content:center;font-size:16px;transition:all var(--t);
+  -webkit-tap-highlight-color:transparent}
+@media(max-width:480px){.icon-btn{width:44px;height:44px;border-radius:10px;font-size:17px}}
 .icon-btn:hover{border-color:var(--accent);color:var(--accent);
   background:#ede8ff}
 .icon-btn.locked{border-color:var(--amber);color:var(--amber);
@@ -247,7 +291,8 @@ select optgroup{color:var(--amber);font-style:normal;font-size:11px}
   font-family:"JetBrains Mono",monospace;font-size:9px;letter-spacing:.08em;
   text-transform:uppercase;padding:0 12px;height:40px;
   cursor:pointer;transition:all var(--t);white-space:nowrap;
-  flex-shrink:0;border-radius:8px}
+  flex-shrink:0;border-radius:8px;-webkit-tap-highlight-color:transparent}
+@media(max-width:480px){.ai-btn{height:44px;border-radius:10px}}
 .ai-btn:hover{background:#fff0cc;border-color:var(--amber)}
 
 /* ── TENSION SEARCH ── */
@@ -260,12 +305,15 @@ select optgroup{color:var(--amber);font-style:normal;font-size:11px}
 
 /* ── FORMAT ROW ── */
 .format-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}
+@media(max-width:480px){.format-row{grid-template-columns:1fr}}
 
 /* ── ERA PILLS ── */
 .pill-row{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
 .pill{background:transparent;border:1px solid var(--border);border-radius:20px;
   color:var(--dim);font-family:"JetBrains Mono",monospace;font-size:10px;
-  padding:5px 14px;cursor:pointer;transition:all var(--t)}
+  padding:5px 14px;cursor:pointer;transition:all var(--t);
+  -webkit-tap-highlight-color:transparent}
+@media(max-width:480px){.pill{padding:8px 16px;font-size:11px;border-radius:22px}}
 .pill:hover{border-color:var(--accent);color:var(--accent)}
 .pill.active{background:#ede8ff;border-color:var(--accent);color:var(--accent)}
 
@@ -274,13 +322,21 @@ select optgroup{color:var(--amber);font-style:normal;font-size:11px}
 .btn-primary{background:var(--accent);border:none;color:#fff;
   font-family:"Inter",sans-serif;font-size:14px;font-weight:600;
   padding:13px;border-radius:10px;cursor:pointer;flex:1;
-  box-shadow:0 3px 16px rgba(90,63,212,.35);transition:all var(--t)}
+  box-shadow:0 3px 16px rgba(90,63,212,.35);transition:all var(--t);
+  -webkit-tap-highlight-color:transparent}
+@media(max-width:480px){
+  .actions-row{flex-direction:column}
+  .btn-primary{padding:16px;font-size:15px;border-radius:14px;flex:none}
+  .actions-row-secondary{display:flex;gap:10px}
+}
 .btn-primary:hover{transform:translateY(-1px);
   box-shadow:0 5px 20px rgba(90,63,212,.45)}
 .btn-secondary{background:var(--raised);border:1px solid var(--border);
   color:var(--dim);font-family:"JetBrains Mono",monospace;font-size:10px;
   letter-spacing:.06em;text-transform:uppercase;
-  padding:13px 16px;border-radius:10px;cursor:pointer;transition:all var(--t)}
+  padding:13px 16px;border-radius:10px;cursor:pointer;transition:all var(--t);
+  -webkit-tap-highlight-color:transparent}
+@media(max-width:480px){.btn-secondary{flex:1;padding:14px 10px}}
 .btn-secondary:hover{border-color:var(--accent);color:var(--accent)}
 
 /* ── REWRITE ── */
@@ -316,7 +372,9 @@ select optgroup{color:var(--amber);font-style:normal;font-size:11px}
   border-radius:8px;color:var(--dim);font-family:"JetBrains Mono",monospace;
   font-size:10px;padding:8px 12px;cursor:pointer;text-align:left;
   line-height:1.5;transition:all var(--t);white-space:nowrap;
-  overflow:hidden;text-overflow:ellipsis;display:block;margin-bottom:4px}
+  overflow:hidden;text-overflow:ellipsis;display:block;margin-bottom:4px;
+  -webkit-tap-highlight-color:transparent}
+@media(max-width:480px){.hist-item{padding:12px 14px;font-size:11px;border-radius:10px}}
 .hist-item:hover{border-color:var(--border);background:var(--raised);color:var(--text)}
 .hist-hdr{display:flex;align-items:center;justify-content:space-between;
   padding-bottom:8px;border-bottom:1px solid var(--border);margin-bottom:8px}
@@ -337,6 +395,10 @@ select optgroup{color:var(--amber);font-style:normal;font-size:11px}
 .social-btn{display:inline-flex;align-items:center;gap:8px;padding:11px 20px;
   border-radius:24px;text-decoration:none;font-family:"Inter",sans-serif;
   font-size:13px;font-weight:600;transition:all var(--t)}
+@media(max-width:480px){
+  .social-links{gap:8px}
+  .social-btn{flex:1;justify-content:center;padding:14px 12px;font-size:13px}
+}
 .social-btn--tiktok{background:#1a1612;color:#fff}
 .social-btn--instagram{background:linear-gradient(135deg,#f5a060,#e04070);color:#fff}
 .social-platform{font-size:10px;opacity:.6;font-family:"JetBrains Mono",monospace}
@@ -391,7 +453,9 @@ footer a{color:var(--accent);text-decoration:none}
   margin-top:8px;display:flex;gap:8px;align-items:center}
 .v-copy{background:transparent;border:1px solid var(--border);border-radius:4px;
   color:var(--muted);font-size:9px;font-family:"JetBrains Mono",monospace;
-  padding:3px 10px;cursor:pointer;margin-left:auto;transition:all var(--t)}
+  padding:3px 10px;cursor:pointer;margin-left:auto;transition:all var(--t);
+  -webkit-tap-highlight-color:transparent}
+@media(max-width:480px){.v-copy{padding:8px 16px;border-radius:8px;font-size:10px}}
 .v-copy:hover{border-color:var(--green);color:var(--green)}
 .v-copy.copied{border-color:var(--green);color:var(--green)}
 .step-body.open{display:block}
@@ -686,6 +750,16 @@ footer a{color:var(--accent);text-decoration:none}
 
 <!-- PROMPT BAR -->
 <div class="prompt-bar">
+  <!-- Mobile collapsed strip -->
+  <div class="prompt-strip" id="prompt-strip" onclick="togglePromptBar()">
+    <div class="prompt-strip-label"><span class="pbl-dot"></span> Live Prompt</div>
+    <span class="prompt-strip-wc" id="prompt-strip-wc"></span>
+    <button class="prompt-strip-copy" onclick="event.stopPropagation();copyPrompt()">Copy</button>
+    <span class="prompt-strip-chev" id="prompt-strip-chev">▾</span>
+  </div>
+  <!-- Full prompt content -->
+  <div class="prompt-full" id="prompt-full">
+
   <div class="prompt-bar-label"><span class="pbl-dot"></span> Live Prompt</div>
   <div class="prompt-text" id="pt"><span class="pt-empty">Select a world to begin</span></div>
   <div class="prompt-meta">
@@ -694,6 +768,8 @@ footer a{color:var(--accent);text-decoration:none}
     <div class="coh-tooltip" id="coh-tooltip"></div>
     <button class="btn-copy" id="btn-copy" onclick="copyPrompt()">Copy</button>
     <button class="btn-share" id="btn-share" onclick="copyShareURL()" title="Copy shareable link">Share</button>
+  </div>
+</div>
   </div>
 </div>
 <div class="quality-bar" id="quality-bar"><div class="quality-hint" id="quality-hint-text"></div></div>
@@ -892,8 +968,10 @@ footer a{color:var(--accent);text-decoration:none}
   <!-- ACTIONS -->
   <div class="actions-row">
     <button class="btn-primary" onclick="randomizeAll()">&#x2726; RANDOMIZE ALL</button>
-    <button class="btn-secondary" onclick="spinUnlocked()">Spin Unlocked</button>
-    <button class="btn-secondary" onclick="clearAll()">Clear</button>
+    <div class="actions-row-secondary" style="display:flex;gap:10px;width:100%">
+      <button class="btn-secondary" onclick="spinUnlocked()" style="flex:1">Spin Unlocked</button>
+      <button class="btn-secondary" onclick="clearAll()" style="flex:1">Clear</button>
+    </div>
   </div>
 
   <!-- REWRITE -->
@@ -1085,6 +1163,8 @@ function updatePrompt(){
   const wc=varPart?varPart.split(/\s+/).filter(Boolean).length:0;
   wcEl.textContent=wc?wc+' variable words':'';
   wcEl.className='wc'+(wc>30?' over':wc>0?' good':'');
+  var stripWc=document.getElementById('prompt-strip-wc');
+  if(stripWc) stripWc.textContent=wc?wc+' words':'';
   rewriteBtn.disabled=!p;
   updateCoherence(w);
   updateStepStatuses();
@@ -1697,9 +1777,30 @@ function copyShareURL(){
   });
 }
 
+function togglePromptBar(){
+  var full=document.getElementById('prompt-full');
+  var chev=document.getElementById('prompt-strip-chev');
+  if(!full) return;
+  if(full.classList.contains('collapsed')){
+    full.classList.remove('collapsed');full.classList.add('expanded');
+    if(chev) chev.classList.add('open');
+  } else {
+    full.classList.add('collapsed');full.classList.remove('expanded');
+    if(chev) chev.classList.remove('open');
+  }
+}
+
+function initPromptBar(){
+  if(window.innerWidth<=480){
+    var full=document.getElementById('prompt-full');
+    if(full){full.classList.add('collapsed');}
+  }
+}
+
 // ── BOOT ──────────────────────────────────────────────────────
 loadHistory();
 var hadURL=loadFromURL();
+initPromptBar();
 init();
 if(hadURL){
   // Restore dropdowns after init populated them
