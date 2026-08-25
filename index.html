@@ -1309,7 +1309,18 @@ function refineLocal(){
       const wcCls=v.wc>30?'color:#ff6a6a':v.wc>0?'color:var(--green)':'';
       meta.innerHTML='<span style="'+wcCls+'">'+v.wc+' words</span>';
       const cb=document.createElement('button'); cb.className='v-copy'; cb.textContent='Copy';
-      cb.onclick=e=>{e.stopPropagation();navigator.clipboard.writeText(v.full).then(()=>{cb.textContent='Copied!';cb.classList.add('copied');pushHistory(v.full);setTimeout(()=>{cb.textContent='Copy';cb.classList.remove('copied');},1800);});};
+      cb.onclick=e=>{e.stopPropagation();navigator.clipboard.writeText(v.full).then(()=>{
+        cb.textContent='✓ Copied';
+        cb.style.color='#fff';
+        cb.style.background='linear-gradient(135deg,#1a8f5a,#22aa6a)';
+        cb.style.borderColor='transparent';
+        pushHistory(v.full);
+        setTimeout(()=>{
+          cb.textContent='Copy';
+          cb.style.color='';cb.style.background='';cb.style.borderColor='';
+          cb.classList.remove('copied');
+        },1500);
+      });};
       meta.appendChild(cb); block.appendChild(meta);
       block.onclick=()=>cb.click();
       varEl.appendChild(block);
@@ -1447,6 +1458,22 @@ function randomizeAll(){
     if(ss){ss.value='';ss.classList.remove('has-val');}
   }
   updatePrompt();
+  // Open steps 2-4 so user can see what was selected
+  [2,3,4].forEach(function(n){
+    var body=document.getElementById('step-body-'+n);
+    var chev=document.getElementById('step-chev-'+n);
+    if(body){body.classList.add('open');}
+    if(chev){chev.classList.add('open');}
+  });
+  // Flash step headers briefly to draw attention
+  [1,2,3,4].forEach(function(n){
+    var hdr=document.querySelector('#step-block-'+n+' .step-header');
+    if(hdr){
+      hdr.style.transition='background .15s ease';
+      hdr.style.background='rgba(90,63,212,.08)';
+      setTimeout(function(){hdr.style.background='';},400);
+    }
+  });
 }
 
 // ── SPIN UNLOCKED ─────────────────────────────────────────────
@@ -1789,6 +1816,34 @@ function togglePromptBar(){
     if(chev) chev.classList.remove('open');
   }
 }
+
+// ── HASHCHANGE (browser back/forward) ─────────────────────
+window.addEventListener('hashchange', function(){
+  var hadURL = loadFromURL();
+  if(hadURL){
+    var sw=document.getElementById('s-world');
+    if(sw&&S.world){sw.value=S.world; onWorldChange();}
+    setTimeout(function(){
+      var st=document.getElementById('s-tension');
+      if(st&&S.tension){st.value=S.tension; onTensionChange();}
+      var sl=document.getElementById('s-loc');
+      if(sl&&S.loc){sl.value=S.loc; onDialChange('loc');}
+      var sp=document.getElementById('s-pose');
+      if(sp&&S.pose){sp.value=S.pose; onDialChange('pose');}
+      var sk=document.getElementById('s-look');
+      if(sk&&S.look){sk.value=S.look; onDialChange('look');}
+      var sli=document.getElementById('s-lighting');
+      if(sli&&S.lighting){sli.value=S.lighting; onLighting();}
+      var ssh=document.getElementById('s-shot');
+      if(ssh&&S.shot){ssh.value=S.shot; onShot();}
+      var sr=document.getElementById('s-ratio');
+      if(sr&&S.ratio){sr.value=S.ratio; onRatio();}
+      var ssu=document.getElementById('s-subject');
+      if(ssu&&S.subject){ssu.value=S.subject; onSubject();}
+      updatePrompt();
+    }, 100);
+  }
+});
 
 function initPromptBar(){
   if(window.innerWidth<=480){
