@@ -812,11 +812,12 @@ footer a{color:var(--accent);text-decoration:none}
 
   <!-- STEP 2: WORLD & TENSION -->
   <div class="step-block" id="step-block-2">
-    <div class="step-header" onclick="toggleStep(2)">
+    <div class="step-header" onclick="toggleStep(2)" id="step2-header">
       <div class="step-num step-num-2">2</div>
       <div class="step-info">
         <div class="step-title">World &amp; Tension</div>
         <div class="step-subtitle" id="step-sub-2">Visual universe &middot; Emotional core</div>
+        <div class="guide-arrow">&#x2191; Start here</div>
       </div>
       <div class="step-status" id="step-status-2">To do</div>
       <span class="step-chevron" id="step-chev-2">&#x203A;</span>
@@ -1438,6 +1439,8 @@ function randomizeAll(){
     S.era=null;
     document.querySelectorAll('.pill').forEach(p=>p.classList.remove('active'));
   }
+  // Update subtitles immediately so they're ready when steps open
+  updateStepStatuses();
   // Randomize lighting and shot
   if(Math.random()>.4){
     S.lighting=pick(LIGHTING_OPTIONS);
@@ -1457,8 +1460,8 @@ function randomizeAll(){
     const ss=document.getElementById('s-shot');
     if(ss){ss.value='';ss.classList.remove('has-val');}
   }
-  updatePrompt();
-  // Open steps 2-4 so user can see what was selected
+  updatePrompt(); // calls updateStepStatuses internally
+  // Subtitles are now updated — open steps so user sees them
   [2,3,4].forEach(function(n){
     var body=document.getElementById('step-body-'+n);
     var chev=document.getElementById('step-chev-'+n);
@@ -1748,6 +1751,19 @@ function updateStepStatuses(){
     if(s.done){ el.textContent='✓ Done'; el.className='step-status done'; }
     else { el.textContent='To do'; el.className='step-status todo'; }
   });
+  // Guide pulse on step 2 when no world selected
+  var hdr2 = document.getElementById('step2-header');
+  if(hdr2){
+    if(!S.world) hdr2.classList.add('guide');
+    else hdr2.classList.remove('guide');
+  }
+  // Refresh tension translation display
+  var tt=document.getElementById('tension-translation');
+  if(tt){
+    var trans=S.tension&&typeof TENSION_TRANSLATIONS!=='undefined'&&TENSION_TRANSLATIONS[S.tension];
+    if(trans){tt.textContent='“'+trans+'”';tt.style.display='block';}
+    else{tt.style.display='none';}
+  }
   // Update subtitles
   var sub1 = document.getElementById('step-sub-1');
   if(sub1) sub1.textContent = (S.ratio||'4:5') + ' · ' + (S.subject ? S.subject.charAt(0).toUpperCase()+S.subject.slice(1) : 'Couple');
