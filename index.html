@@ -1,4 +1,15 @@
-<!DOCTYPE html>
+function onTensionChange(){
+  if(LOCKS.tension) return;
+  S.tension=document.getElementById('s-tension').value||null;
+  document.getElementById('s-tension').classList.toggle('has-val',!!S.tension);
+  var tt=document.getElementById('tension-translation');
+  if(tt){
+    var trans=S.tension&&typeof TENSION_TRANSLATIONS!=='undefined'?TENSION_TRANSLATIONS[S.tension]:null;
+    if(trans){tt.textContent='“'+trans+'”';tt.style.display='block';}
+    else{tt.style.display='none';}
+  }
+  updatePrompt();
+}<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -17,8 +28,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+CiAgPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iNyIgZmlsbD0iIzEzMTExOCIvPgogIDxyZWN0IHg9IjMiIHk9IjMiIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiIgcng9IjYiIGZpbGw9IiMxYTE4MjAiLz4KICA8dGV4dCB4PSI3IiB5PSIyMiIgZm9udC1mYW1pbHk9InVpLW1vbm9zcGFjZSxtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTYiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNlZGU4ZjUiPkM8L3RleHQ+CiAgPHJlY3QgeD0iMTgiIHk9IjYiIHdpZHRoPSIxMSIgaGVpZ2h0PSIxMCIgcng9IjMiIGZpbGw9IiM0MjM4NWEiLz4KICA8dGV4dCB4PSIxOS41IiB5PSIxNSIgZm9udC1mYW1pbHk9InVpLW1vbm9zcGFjZSxtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzdjNWNmYyI+QUk8L3RleHQ+CiAgPGNpcmNsZSBjeD0iOCIgY3k9IjI3IiByPSIyLjUiIGZpbGw9IiNmMDkyNGEiLz4KPC9zdmc+">
-  <link rel="shortcut icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+CiAgPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iNyIgZmlsbD0iIzEzMTExOCIvPgogIDxyZWN0IHg9IjMiIHk9IjMiIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiIgcng9IjYiIGZpbGw9IiMxYTE4MjAiLz4KICA8dGV4dCB4PSI3IiB5PSIyMiIgZm9udC1mYW1pbHk9InVpLW1vbm9zcGFjZSxtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTYiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNlZGU4ZjUiPkM8L3RleHQ+CiAgPHJlY3QgeD0iMTgiIHk9IjYiIHdpZHRoPSIxMSIgaGVpZ2h0PSIxMCIgcng9IjMiIGZpbGw9IiM0MjM4NWEiLz4KICA8dGV4dCB4PSIxOS41IiB5PSIxNSIgZm9udC1mYW1pbHk9InVpLW1vbm9zcGFjZSxtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzdjNWNmYyI+QUk8L3RleHQ+CiAgPGNpcmNsZSBjeD0iOCIgY3k9IjI3IiByPSIyLjUiIGZpbGw9IiNmMDkyNGEiLz4KPC9zdmc+">
-<style>
+  <link rel="shortcut icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+CiAgPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iNyIgZmlsbD0iIzEzMTExOCIvPgogIDxyZWN0IHg9IjMiIHk9IjMiIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiIgcng9IjYiIGZpbGw9IiMx
 
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -213,7 +223,18 @@ html,body{background:var(--bg);color:var(--text);
   padding:14px 16px;background:var(--surface);
   border:1px solid var(--border);border-radius:var(--radius);
   cursor:pointer;user-select:none;
-  box-shadow:var(--shadow);transition:all var(--t)}
+  box-shadow:var(--shadow);transition:all var(--t);transition:border-color .3s ease,box-shadow .3s ease}
+.step-header.guide{border-color:var(--amber);
+  box-shadow:0 0 0 3px rgba(212,114,10,.15),0 0 16px rgba(212,114,10,.12);
+  animation:guide-pulse 2.2s ease-in-out infinite}
+@keyframes guide-pulse{
+  0%,100%{box-shadow:0 0 0 3px rgba(212,114,10,.15),0 0 16px rgba(212,114,10,.12)}
+  50%{box-shadow:0 0 0 6px rgba(212,114,10,.08),0 0 24px rgba(212,114,10,.2)}
+}
+.guide-arrow{display:none;align-items:center;gap:6px;
+  font-family:"JetBrains Mono",monospace;font-size:9px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--amber)}
+.step-header.guide .guide-arrow{display:flex}
 .step-header:hover{box-shadow:var(--shadow-lg);border-color:var(--border-strong)}
 .step-header.active{border-bottom-radius:0;
   border-bottom-left-radius:0;border-bottom-right-radius:0;
@@ -522,6 +543,15 @@ footer a{color:var(--accent);text-decoration:none}
 .howto-footer-btn{background:linear-gradient(135deg,#7c5cfc,#a060ff);border:none;color:#fff;
   font-family:"Inter",sans-serif;font-size:12px;font-weight:600;padding:8px 18px;
   border-radius:20px;cursor:pointer;box-shadow:0 2px 12px rgba(124,92,252,.35)}
+/* ── COHERENCE TOOLTIP ── */
+.coh-tooltip{display:none;position:absolute;bottom:calc(100% + 8px);right:16px;
+  background:#1a1820;border:1px solid rgba(124,92,252,.3);border-radius:8px;
+  padding:8px 12px;font-family:"JetBrains Mono",monospace;font-size:10px;
+  color:#c0a0ff;line-height:1.6;max-width:260px;z-index:200;
+  box-shadow:0 4px 20px rgba(0,0,0,.4);pointer-events:none}
+.coh-tooltip.vis{display:block}
+.prompt-meta{position:relative}
+pointer;box-shadow:0 2px 12px rgba(124,92,252,.35)}
 /* ── COHERENCE TOOLTIP ── */
 .coh-tooltip{display:none;position:absolute;bottom:calc(100% + 8px);right:16px;
   background:#1a1820;border:1px solid rgba(124,92,252,.3);border-radius:8px;
@@ -856,6 +886,7 @@ footer a{color:var(--accent);text-decoration:none}
           <button class="icon-btn lock" id="lk-tension" onclick="toggleLock('tension')" title="Lock tension">&#x1F513;</button>
           <button class="icon-btn" onclick="rerollDial('tension')" title="Reroll">&#x21BA;</button>
         </div>
+        <div id="tension-translation" style="display:none;font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--accent);font-style:italic;padding:6px 2px 0;line-height:1.5;letter-spacing:.01em"></div>
       </div>
     </div>
   </div>
