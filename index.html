@@ -1,15 +1,4 @@
-function onTensionChange(){
-  if(LOCKS.tension) return;
-  S.tension=document.getElementById('s-tension').value||null;
-  document.getElementById('s-tension').classList.toggle('has-val',!!S.tension);
-  var tt=document.getElementById('tension-translation');
-  if(tt){
-    var trans=S.tension&&typeof TENSION_TRANSLATIONS!=='undefined'?TENSION_TRANSLATIONS[S.tension]:null;
-    if(trans){tt.textContent='“'+trans+'”';tt.style.display='block';}
-    else{tt.style.display='none';}
-  }
-  updatePrompt();
-}<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
