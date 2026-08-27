@@ -1044,6 +1044,20 @@ footer a{color:var(--accent);text-decoration:none}
 
 <script src="data.js"></script>
 <script>
+// Override onTensionChange to show tension translation
+function onTensionChange(){
+  if(LOCKS.tension) return;
+  S.tension=document.getElementById('s-tension').value||null;
+  document.getElementById('s-tension').classList.toggle('has-val',!!S.tension);
+  var tt=document.getElementById('tension-translation');
+  if(tt){
+    var trans=S.tension&&typeof TENSION_TRANSLATIONS!=='undefined'?TENSION_TRANSLATIONS[S.tension]:null;
+    if(trans){tt.textContent='“'+trans+'”';tt.style.display='block';}
+    else{tt.style.display='none';}
+  }
+  updatePrompt();
+}
+
 
 function filterWorlds(query){
   var sel=document.getElementById('s-world');
