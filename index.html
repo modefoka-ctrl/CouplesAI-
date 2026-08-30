@@ -539,7 +539,8 @@ footer a{color:var(--accent);text-decoration:none}
   letter-spacing:.06em;flex:1}
 .howto-footer-btn{background:linear-gradient(135deg,#7c5cfc,#a060ff);border:none;color:#fff;
   font-family:"Inter",sans-serif;font-size:12px;font-weight:600;padding:8px 18px;
-  border-radius:20px;cursor:</style>
+  border-radius:20px;cursor:@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+</style>
 </head>
 <body>
 <header class="hdr" style="top:0">
@@ -841,7 +842,7 @@ footer a{color:var(--accent);text-decoration:none}
           onblur="this.style.borderColor='var(--border)'">
         <div class="field-row" style="margin-top:6px">
           <div class="sel-wrap">
-            <select id="s-world" onchange="onWorldChange()">
+            <select id="s-world" onchange="onWorldChange();clearWorldSearch();">
               <option value="">&#x2014; choose world &#x2014;</option>
             </select>
           </div>
@@ -892,7 +893,7 @@ footer a{color:var(--accent);text-decoration:none}
               <option value="__ai__">&#x2726; AI decides</option>
             </select>
           </div>
-          <button class="ai-btn" onclick="aiClick('loc')">&#x2726; AI</button>
+          <button class="ai-btn" id="ai-loc" onclick="aiClick('loc')">&#x2726; AI</button>
           <button class="icon-btn lock" id="lk-loc" onclick="toggleLock('loc')" title="Lock">&#x1F513;</button>
           <button class="icon-btn" onclick="rerollDial('loc')" title="Reroll">&#x21BA;</button>
         </div>
@@ -907,7 +908,7 @@ footer a{color:var(--accent);text-decoration:none}
               <option value="__ai__">&#x2726; AI decides</option>
             </select>
           </div>
-          <button class="ai-btn" onclick="aiClick('pose')">&#x2726; AI</button>
+          <button class="ai-btn" id="ai-pose" onclick="aiClick('pose')">&#x2726; AI</button>
           <button class="icon-btn lock" id="lk-pose" onclick="toggleLock('pose')" title="Lock">&#x1F513;</button>
           <button class="icon-btn" onclick="rerollDial('pose')" title="Reroll">&#x21BA;</button>
         </div>
@@ -922,7 +923,7 @@ footer a{color:var(--accent);text-decoration:none}
               <option value="__ai__">&#x2726; AI decides</option>
             </select>
           </div>
-          <button class="ai-btn" onclick="aiClick('shot')">&#x2726; AI</button>
+          <button class="ai-btn" id="ai-shot" onclick="aiClick('shot')">&#x2726; AI</button>
         </div>
       </div>
     </div>
@@ -950,7 +951,7 @@ footer a{color:var(--accent);text-decoration:none}
               <option value="__ai__">&#x2726; AI decides</option>
             </select>
           </div>
-          <button class="ai-btn" onclick="aiClick('look')">&#x2726; AI</button>
+          <button class="ai-btn" id="ai-look" onclick="aiClick('look')">&#x2726; AI</button>
           <button class="icon-btn lock" id="lk-look" onclick="toggleLock('look')" title="Lock">&#x1F513;</button>
           <button class="icon-btn" onclick="rerollDial('look')" title="Reroll">&#x21BA;</button>
         </div>
@@ -965,7 +966,7 @@ footer a{color:var(--accent);text-decoration:none}
               <option value="__ai__">&#x2726; AI decides</option>
             </select>
           </div>
-          <button class="ai-btn" onclick="aiClick('lighting')">&#x2726; AI</button>
+          <button class="ai-btn" id="ai-lighting" onclick="aiClick('lighting')">&#x2726; AI</button>
         </div>
       </div>
       <!-- Era -->
@@ -1068,7 +1069,6 @@ function filterWorlds(query){
   if(!sel) return;
   var q=query.toLowerCase().trim();
   Array.from(sel.children).forEach(function(child){
-    // child is either optgroup or option
     if(child.tagName==='OPTGROUP'){
       var anyVisible=false;
       Array.from(child.children).forEach(function(o){
@@ -1081,6 +1081,11 @@ function filterWorlds(query){
       child.style.display=(q===''||child.textContent.toLowerCase().includes(q))?'':'none';
     }
   });
+}
+
+function clearWorldSearch(){
+  var ws=document.getElementById('world-search');
+  if(ws&&ws.value){ws.value='';filterWorlds('');}
 }
 
 function filterTensions(query){
@@ -1643,10 +1648,34 @@ function aiClick(key){
   const sel=document.getElementById('s-'+key);
   if(!sel) return;
   if(LOCKS[key]) return;
+  // Show loading state on the AI button
+  var btn=document.getElementById('ai-'+key);
+  if(!btn){
+    // Find by proximity — button adjacent to this select
+    var row=sel.closest('.field-row');
+    if(row) btn=row.querySelector('.ai-btn');
+  }
+  var origText='';
+  if(btn){
+    origText=btn.textContent;
+    btn.textContent='◌';
+    btn.style.animation='spin .7s linear infinite';
+    btn.disabled=true;
+    btn.style.opacity='.6';
+  }
   S[key]='__ai__';
   sel.value='__ai__';
   sel.classList.remove('has-val');
   updatePrompt();
+  // Restore button after brief delay (AI is instant — this is just UX feedback)
+  setTimeout(function(){
+    if(btn){
+      btn.textContent=origText||'✦ AI';
+      btn.style.animation='';
+      btn.disabled=false;
+      btn.style.opacity='';
+    }
+  }, 800);
 }
 function initLightingShot(){
   const ls=document.getElementById('s-lighting');
