@@ -971,7 +971,13 @@ footer a{color:var(--accent);text-decoration:none}
       </div>
       <!-- Era -->
       <div class="field">
-        <div class="field-label">Era Filter <span class="field-hint" style="font-weight:300">optional</span></div>
+        <div class="field-label">Era Filter
+          <span class="field-hint" style="font-weight:300">optional</span>
+          <button id="era-clear" onclick="clearEra()"
+            style="display:none;background:transparent;border:none;color:var(--rose);
+            font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.06em;
+            text-transform:uppercase;cursor:pointer;padding:0;margin-left:4px">✕ clear</button>
+        </div>
         <div class="pill-row" id="era-pills"></div>
       </div>
     </div>
@@ -1204,6 +1210,7 @@ function updatePrompt(){
   updateStepStatuses();
   updateQualityHint();
   encodeState();
+  updateEraClearBtn();
 }
 
 // ── COHERENCE ─────────────────────────────────────────────────
@@ -1605,49 +1612,62 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'){closeHelp()
 
 // ── QUALITY HINTS ─────────────────────────────────────────────
 function updateQualityHint(){
-  const bar=document.getElementById('quality-bar');
+  var bar=document.getElementById('quality-bar');
   if(!bar) return;
-  const hint=document.getElementById('quality-hint-text');
+  var hint=document.getElementById('quality-hint-text');
+  if(!S.world){bar.classList.remove('vis');return;}
+  var w=getWorld();
+  var filled=[S.loc,S.pose,S.look].filter(function(v){return v&&v!=='__ai__';}).length;
+  var aiCount=[S.loc,S.pose,S.look].filter(function(v){return v==='__ai__';}).length;
+  var msg=null;
 
-  if(!S.world){ bar.classList.remove('vis'); return; }
-
-  const w=getWorld();
-  const filled=[S.loc,S.pose,S.look].filter(function(v){return v&&v!=='__ai__';}).length;
-  const aiCount=[S.loc,S.pose,S.look].filter(function(v){return v==='__ai__';}).length;
-  let msg=null;
+  // World-category-aware hints
+  var worldId=S.world||'';
+  var isMythic=['underworld','surreal','space','expedition'].indexOf(worldId)>=0;
+  var isUrban=['city','rooftop','concrete','underground'].indexOf(worldId)>=0;
+  var isNature=['mountain','wild','jungle','desert','rain','cold','expedition','farm'].indexOf(worldId)>=0;
+  var isCultural=['mexico','caribbean','usa','canada','market','monastery'].indexOf(worldId)>=0;
+  var isPerformance=['stage','music','circus','runway','ballet'].indexOf(worldId)>=0;
 
   if(!S.tension){
-    msg='<strong>Try setting a Tension first</strong> \u2014 it unlocks affinity-matched suggestions in every dropdown.';
+    msg='<strong>Pick a tension</strong> — it’s the emotional core of the image and unlocks affinity matches.';
   } else if(aiCount===3){
-    msg='All fields set to <strong>AI decides</strong> \u2014 set at least one manually for a more directed result.';
+    msg='All fields set to <strong>AI decides</strong> — set at least one manually for a more directed result.';
   } else if(filled===0&&aiCount===0){
-    msg='World and tension set. <strong>Add a location or pose</strong> to build the prompt.';
+    if(isMythic) msg='<strong>Add a location</strong> — in '+w.name+' the setting is everything. Try a specific mythic or surreal space.';
+    else if(isUrban) msg='<strong>Add a location</strong> to anchor the urban scene — rooftop, street, or interior changes everything.';
+    else if(isNature) msg='<strong>Add a location</strong> — natural worlds need a specific setting. The light changes with the place.';
+    else msg='<strong>Add a location or pose</strong> to build the prompt.';
   } else if(filled===1&&aiCount===0){
-    msg='<strong>One field filled.</strong> Add a location or pose for a stronger prompt.';
+    if(isPerformance) msg='<strong>Add a pose</strong> — in performance worlds body language defines the shot.';
+    else if(isCultural) msg='<strong>Add a look</strong> to anchor the cultural context — wardrobe signals where and when.';
+    else msg='<strong>One field filled.</strong> Add a location or pose for a stronger prompt.';
   } else if(filled>=3){
     if(S.tension&&w.affinities&&w.affinities[S.tension]){
       var aff=w.affinities[S.tension];
       var locIn=!S.loc||S.loc==='__ai__'||(aff.locs||[]).indexOf(S.loc)>=0;
       var poseIn=!S.pose||S.pose==='__ai__'||(aff.poses||[]).indexOf(S.pose)>=0;
       var lookIn=!S.look||S.look==='__ai__'||(aff.looks||[]).indexOf(S.look)>=0;
-      if(!locIn||!poseIn||!lookIn){
-        msg='Selections are outside affinity set \u2014 interesting contrast. Or try <strong>Spin Unlocked</strong> to align.';
+      if(!locIn&&!poseIn&&!lookIn){
+        msg='All selections outside affinity set — bold contrast. Or hit <strong>Spin Unlocked</strong> to align.';
+      } else if(!locIn||!poseIn||!lookIn){
+        msg='Some selections outside affinity — interesting tension. Or <strong>Spin Unlocked</strong> to align.';
       } else {
-        msg='Prompt looks solid. Hit <strong>Rewrite & Tighten</strong> for 5 cinematic variants.';
+        if(isMythic) msg='Strong mythic prompt. Open <strong>Rewrite & Tighten</strong> for 5 cinematic variants.';
+        else if(isUrban) msg='Urban scene is well-built. Hit <strong>Rewrite & Tighten</strong> for 5 variants.';
+        else msg='Prompt looks solid. Hit <strong>Rewrite & Tighten</strong> for 5 cinematic variants.';
       }
     } else {
       msg='Prompt looks solid. Hit <strong>Rewrite & Tighten</strong> for 5 cinematic variants.';
     }
   } else if(!S.look&&S.look!=='__ai__'&&filled>=2){
-    msg='<strong>Add a wardrobe look</strong> to anchor the visual tone.';
+    if(isCultural) msg='<strong>Add a wardrobe look</strong> — in '+w.name+' costume is key to the cultural atmosphere.';
+    else if(isPerformance) msg='<strong>Add a wardrobe look</strong> — performance worlds live and die by costume.';
+    else msg='<strong>Add a wardrobe look</strong> to anchor the visual tone.';
   }
 
-  if(msg){
-    hint.innerHTML='&#x25B8; '+msg;
-    bar.classList.add('vis');
-  } else {
-    bar.classList.remove('vis');
-  }
+  if(msg){hint.innerHTML='&#x25B8; '+msg;bar.classList.add('vis');}
+  else{bar.classList.remove('vis');}
 }
 
 
@@ -1951,6 +1971,19 @@ function initPromptBar(){
     var full=document.getElementById('prompt-full');
     if(full){full.classList.add('collapsed');}
   }
+}
+
+function clearEra(){
+  S.era=null;
+  document.querySelectorAll('.pill').forEach(function(p){p.classList.remove('active');});
+  var clearBtn=document.getElementById('era-clear');
+  if(clearBtn) clearBtn.style.display='none';
+  updatePrompt();
+}
+
+function updateEraClearBtn(){
+  var clearBtn=document.getElementById('era-clear');
+  if(clearBtn) clearBtn.style.display=S.era?'inline':'none';
 }
 
 // ── BOOT ──────────────────────────────────────────────────────
