@@ -1419,17 +1419,39 @@ function renderHistory(){
   // History items
   history.forEach(function(h){
     var short=h.replace(buildFixed()+' ','').replace(/^Create a [^.]+\. /,'');
+    var row=document.createElement('div');
+    row.style.cssText='display:flex;align-items:center;gap:8px;margin-bottom:4px';
     var b=document.createElement('button');
     b.className='hist-item';
+    b.style.cssText='flex:1;margin-bottom:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:left';
     b.textContent=short.length>90?short.slice(0,88)+'…':short;
     b.title=h;
     b.onclick=function(){
       navigator.clipboard.writeText(h).then(function(){
         b.style.color='var(--green)';
-        setTimeout(function(){b.style.color='';},1400);
+        cpBtn.textContent='✓';
+        cpBtn.style.color='var(--green)';
+        cpBtn.style.borderColor='var(--green)';
+        setTimeout(function(){
+          b.style.color='';
+          cpBtn.textContent='⧉';
+          cpBtn.style.color='';
+          cpBtn.style.borderColor='';
+        },1500);
       });
     };
-    list.appendChild(b);
+    var cpBtn=document.createElement('button');
+    cpBtn.textContent='⧉';
+    cpBtn.title='Copy prompt';
+    cpBtn.style.cssText='background:transparent;border:1px solid var(--border);border-radius:6px;'+
+      'color:var(--muted);font-size:13px;width:32px;height:32px;flex-shrink:0;cursor:pointer;'+
+      'display:flex;align-items:center;justify-content:center;transition:all .18s ease;padding:0';
+    cpBtn.onmouseover=function(){this.style.borderColor='var(--green)';this.style.color='var(--green)';};
+    cpBtn.onmouseout=function(){this.style.borderColor='var(--border)';this.style.color='var(--muted)';};
+    cpBtn.onclick=function(e){e.stopPropagation();b.onclick();};
+    row.appendChild(b);
+    row.appendChild(cpBtn);
+    list.appendChild(row);
   });
 }
 
@@ -1787,6 +1809,16 @@ function toggleStep(n){
   var isOpen = body.classList.contains('open');
   body.classList.toggle('open', !isOpen);
   if(chev) chev.classList.toggle('open', !isOpen);
+  // Fix 6: auto-generate variants when rewrite section opens with a valid prompt
+  if(n==='r' && !isOpen){
+    var variantsEl=document.getElementById('variants');
+    var rewriteBtn=document.getElementById('btn-rewrite');
+    var hasPrompt=rewriteBtn&&!rewriteBtn.disabled;
+    var isEmpty=variantsEl&&variantsEl.children.length===0;
+    if(hasPrompt && isEmpty){
+      setTimeout(function(){refineLocal();},120);
+    }
+  }
 }
 
 function openStep(n){
