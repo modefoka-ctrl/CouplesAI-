@@ -1044,17 +1044,21 @@ footer a{color:var(--accent);text-decoration:none}
 
 <script src="data.js"></script>
 <script>
+// Standalone translation refresh — called from multiple places
+function refreshTensionTranslation(){
+  var tt=document.getElementById('tension-translation');
+  if(!tt) return;
+  var trans=S.tension&&typeof TENSION_TRANSLATIONS!=='undefined'?TENSION_TRANSLATIONS[S.tension]:null;
+  if(trans){tt.textContent='“'+trans+'”';tt.style.display='block';}
+  else{tt.style.display='none';}
+}
+
 // Override onTensionChange to show tension translation
 function onTensionChange(){
   if(LOCKS.tension) return;
   S.tension=document.getElementById('s-tension').value||null;
   document.getElementById('s-tension').classList.toggle('has-val',!!S.tension);
-  var tt=document.getElementById('tension-translation');
-  if(tt){
-    var trans=S.tension&&typeof TENSION_TRANSLATIONS!=='undefined'?TENSION_TRANSLATIONS[S.tension]:null;
-    if(trans){tt.textContent='“'+trans+'”';tt.style.display='block';}
-    else{tt.style.display='none';}
-  }
+  refreshTensionTranslation();
   updatePrompt();
 }
 
@@ -1463,8 +1467,9 @@ function randomizeAll(){
     S.era=null;
     document.querySelectorAll('.pill').forEach(p=>p.classList.remove('active'));
   }
-  // Update subtitles immediately so they're ready when steps open
+  // Update subtitles and translation immediately so they're ready when steps open
   updateStepStatuses();
+  if(typeof refreshTensionTranslation==='function') refreshTensionTranslation();
   // Randomize lighting and shot
   if(Math.random()>.4){
     S.lighting=pick(LIGHTING_OPTIONS);
@@ -1778,16 +1783,11 @@ function updateStepStatuses(){
   // Guide pulse on step 2 when no world selected
   var hdr2 = document.getElementById('step2-header');
   if(hdr2){
-    if(!S.world) hdr2.classList.add('guide');
-    else hdr2.classList.remove('guide');
+    if(!S.world){ hdr2.classList.add('guide'); }
+    else { hdr2.classList.remove('guide'); openStep(2); }
   }
   // Refresh tension translation display
-  var tt=document.getElementById('tension-translation');
-  if(tt){
-    var trans=S.tension&&typeof TENSION_TRANSLATIONS!=='undefined'&&TENSION_TRANSLATIONS[S.tension];
-    if(trans){tt.textContent='“'+trans+'”';tt.style.display='block';}
-    else{tt.style.display='none';}
-  }
+  if(typeof refreshTensionTranslation==='function') refreshTensionTranslation();
   // Update subtitles
   var sub1 = document.getElementById('step-sub-1');
   if(sub1) sub1.textContent = (S.ratio||'4:5') + ' · ' + (S.subject ? S.subject.charAt(0).toUpperCase()+S.subject.slice(1) : 'Couple');
