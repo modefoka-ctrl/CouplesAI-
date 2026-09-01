@@ -167,12 +167,12 @@ html,body{background:var(--bg);color:var(--text);
 .pt-mood{color:rgba(255,255,255,.38);font-size:10px;font-style:italic;display:block;margin-top:6px;line-height:1.5;letter-spacing:.01em}
 .prompt-meta{display:flex;align-items:center;gap:10px;margin-top:14px;flex-wrap:wrap}
 .wc{font-family:"JetBrains Mono",monospace;font-size:10px;
-  color:rgba(255,255,255,.35)}
+  color:rgba(255,255,255,.55)}
 .coh-badge,.coh{font-family:"JetBrains Mono",monospace;font-size:9px;
   padding:5px 14px;border-radius:20px;letter-spacing:.08em;margin-left:auto;
   cursor:pointer;display:none;align-items:center;gap:5px;transition:all .2s ease;
   border:1px solid rgba(80,200,128,.4);background:rgba(80,200,128,.15);
-  color:#70d890;box-shadow:0 0 8px rgba(80,200,128,.15)}
+  color:#ffffff;box-shadow:0 0 8px rgba(80,200,128,.15)}
 .coh.high{border-color:#22dd88;color:#fff !important;
   background:linear-gradient(135deg,#1a8855,#22cc77) !important;
   box-shadow:0 0 16px rgba(34,221,136,.6) !important;font-weight:700}
@@ -835,7 +835,7 @@ footer a{color:var(--accent);text-decoration:none}
     <div class="step-body" id="step-body-2">
       <div class="field">
         <div class="field-label">World <span class="field-hint">Choose your visual universe</span></div>
-        <input id="world-search" type="text" placeholder="&#x1F50D; search worlds..."
+        <input id="world-search" type="text" placeholder="&#x1F50D; search worlds... (press / to focus)"
           oninput="filterWorlds(this.value)"
           class="tension-search-input"
           onfocus="this.style.borderColor='var(--accent)'"
@@ -1608,7 +1608,39 @@ function closeHelp(){
   document.getElementById('modal-bg').classList.remove('open');
   document.body.style.overflow='';
 }
-document.addEventListener('keydown',function(e){if(e.key==='Escape'){closeHelp();closeHowTo();}});
+document.addEventListener('keydown',function(e){
+  if(e.key==='Escape'){
+    closeHelp(); closeHowTo();
+    // Also close any open tooltip
+    var tt=document.getElementById('coh-tooltip');
+    if(tt) tt.classList.remove('vis');
+  }
+  // '/' focuses world search (like GitHub search shortcut)
+  if(e.key==='/' && document.activeElement.tagName!=='INPUT' && document.activeElement.tagName!=='SELECT'){
+    e.preventDefault();
+    var ws=document.getElementById('world-search');
+    if(ws){ openStep(2); ws.focus(); }
+  }
+  // 'r' triggers randomize when not in an input
+  if(e.key==='r' && e.altKey){
+    e.preventDefault();
+    randomizeAll();
+  }
+  // 'c' copies prompt when not in an input
+  if(e.key==='c' && e.altKey){
+    e.preventDefault();
+    copyPrompt();
+  }
+  // Number keys 1-4 toggle steps
+  if(!e.altKey && !e.ctrlKey && !e.metaKey &&
+     document.activeElement.tagName!=='INPUT' &&
+     document.activeElement.tagName!=='SELECT'){
+    if(e.key==='1') toggleStep(1);
+    if(e.key==='2') toggleStep(2);
+    if(e.key==='3') toggleStep(3);
+    if(e.key==='4') toggleStep(4);
+  }
+});
 
 // ── QUALITY HINTS ─────────────────────────────────────────────
 function updateQualityHint(){
@@ -1991,6 +2023,8 @@ loadHistory();
 var hadURL=loadFromURL();
 initPromptBar();
 init();
+// Step 2 open by default, Step 1 collapsed
+openStep(2);
 if(hadURL){
   // Restore dropdowns after init populated them
   var sw=document.getElementById('s-world');
