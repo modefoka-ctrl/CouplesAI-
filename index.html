@@ -1540,22 +1540,39 @@ function spinUnlocked(){
 
 // ── CLEAR ─────────────────────────────────────────────────────
 function clearAll(){
-  // Only clear unlocked values
-  if(!LOCKS.world){ S.world=null; document.getElementById('s-world').value=''; document.getElementById('s-world').classList.remove('has-val'); applyWorldColor(null); }
-  if(!LOCKS.tension){ S.tension=null; }
-  if(!LOCKS.loc){ S.loc=null; }
-  if(!LOCKS.pose){ S.pose=null; }
-  if(!LOCKS.look){ S.look=null; }
-  S.era=null; S.lighting=null; S.shot=null;
-  const ls=document.getElementById('s-lighting');
-  const ss=document.getElementById('s-shot');
-  if(ls){ls.value='';ls.classList.remove('has-val');}
-  if(ss){ss.value='';ss.classList.remove('has-val');}
-  document.querySelectorAll('.pill').forEach(p=>p.classList.remove('active'));
-  populateTension();
-  populateDials();
-  document.getElementById('variants').classList.remove('vis');
-  document.getElementById('variants').innerHTML='';
+  // Clear unlocked fields only — locked fields survive Clear
+  if(!LOCKS.world){
+    S.world=null;
+    var sw=document.getElementById('s-world'); if(sw){sw.value='';sw.classList.remove('has-val');}
+    applyWorldColor(null);
+  }
+  if(!LOCKS.tension){
+    S.tension=null;
+    var st=document.getElementById('s-tension'); if(st){st.value='';st.classList.remove('has-val');}
+    var tt=document.getElementById('tension-translation'); if(tt) tt.style.display='none';
+  }
+  if(!LOCKS.loc){
+    S.loc=null;
+    var sl=document.getElementById('s-loc'); if(sl){sl.value='';sl.classList.remove('has-val');}
+  }
+  if(!LOCKS.pose){
+    S.pose=null;
+    var sp=document.getElementById('s-pose'); if(sp){sp.value='';sp.classList.remove('has-val');}
+  }
+  if(!LOCKS.look){
+    S.look=null;
+    var sk=document.getElementById('s-look'); if(sk){sk.value='';sk.classList.remove('has-val');}
+  }
+  if(!LOCKS.lighting){
+    S.lighting=null;
+    var ls=document.getElementById('s-lighting'); if(ls){ls.value='';ls.classList.remove('has-val');}
+  }
+  S.era=null; S.shot=null;
+  var ss=document.getElementById('s-shot'); if(ss){ss.value='';ss.classList.remove('has-val');}
+  document.querySelectorAll('.pill').forEach(function(p){p.classList.remove('active');});
+  var eraClear=document.getElementById('era-clear'); if(eraClear) eraClear.style.display='none';
+  if(S.world){ populateTension(); populateDials(); }
+  var vd=document.getElementById('variants'); if(vd){vd.classList.remove('vis');vd.innerHTML='';}
   updatePrompt();
 }
 
