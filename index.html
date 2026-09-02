@@ -627,124 +627,81 @@ footer a{color:var(--accent);text-decoration:none}
     <div class="modal-body">
 
       <div class="tip-block">
-        <div class="tip-label">1 — Tension first</div>
-        <div class="tip-text">Pick tension before anything else. It unlocks the affinity system — curated locations, poses and looks matched to that tension appear at the top of every dropdown. Skipping tension produces flat, unconnected prompts. World and tension can both be locked independently.</div>
+        <div class="tip-label">1 — Start with World &amp; Tension</div>
+        <div class="tip-text">Step 2 opens automatically on every load. Search 50 worlds by typing in the search box or browse by category. Pick a tension &mdash; a poetic translation appears beneath it so you know the exact mood it creates. Tension unlocks the affinity system: curated locations, poses and looks matched to that emotional register appear at the top of every other dropdown.</div>
       </div>
 
       <div class="tip-block">
-        <div class="tip-label">2 — Stack contrasts deliberately</div>
-        <div class="tip-text">The best prompts have internal contradiction. A formal wardrobe against a raw pose, or an intimate tension inside a vast location, creates visual friction the model has to resolve — and that resolution is where interesting images come from. Try affinity suggestions paired with off-affinity choices intentionally.</div>
+        <div class="tip-label">2 — Tension is mood, not instruction</div>
+        <div class="tip-text">Every prompt ends with: <em>"The emotional tension (X) is a mood and atmosphere directive only &mdash; do not illustrate it literally."</em> AI models read "buried vs. exposed" and try to show someone literally buried. The directive prevents that. The tension is there to give the image a feeling, not a scene.</div>
       </div>
 
       <div class="tip-block">
         <div class="tip-label">3 — Lock &amp; Spin Unlocked</div>
-        <div class="tip-text">Lock any field with the padlock — including World and Tension. Then hit <strong>Spin Unlocked</strong> to explore every pose, look and lighting combination within your locked anchor. You get the full affinity space without losing what's working.</div>
+        <div class="tip-text">Lock any field with the padlock &mdash; including World and Tension. Then hit <strong>Spin Unlocked</strong> to explore every combination within your locked anchor. Locks survive Randomize All. Use this to find the best pose and wardrobe within a fixed world and tension.</div>
       </div>
 
       <div class="tip-block">
-        <div class="tip-label">4 — Mood worlds auto-set lighting</div>
-        <div class="tip-text">Selecting DUSK, SPRING, ROMANCE, GOLD, NIGHT, RAIN or COLD automatically sets lighting to <strong>&#x2726; AI decides</strong>. These worlds already embed lighting in their tension phrases and locations — adding an explicit lighting choice on top creates redundancy. Override manually if you want explicit control.</div>
+        <div class="tip-label">4 — Keyboard shortcuts</div>
+        <div class="tip-text">Press <strong>/</strong> to jump to world search from anywhere. Press <strong>1 2 3 4</strong> to toggle step accordions. Press <strong>Alt+R</strong> to randomize. Press <strong>Alt+C</strong> to copy the prompt. Press <strong>Escape</strong> to close any modal or tooltip. All shortcuts are disabled when you're typing in an input.</div>
       </div>
 
       <div class="tip-block">
-        <div class="tip-label">5 — &#x2726; AI decides buttons</div>
-        <div class="tip-text">Every field has a <strong>&#x2726; AI</strong> button. Tap it to instantly set that field to AI decides — no dropdown needed. Use it on pose when your manual choice feels stiff, or on wardrobe when you want the model to interpret the world freely. Setting 2–3 fields manually and leaving 1–2 to AI often produces the strongest results.</div>
+        <div class="tip-label">5 — &#x2726; AI decides</div>
+        <div class="tip-text">Every field has a <strong>&#x2726; AI</strong> button. Tap it to leave that field open to the model. The button spins briefly to confirm. Setting 2&ndash;3 fields manually and leaving 1&ndash;2 to AI often produces the strongest results. Use it on pose when your manual choice feels stiff, or wardrobe when you want the model to interpret the world freely.</div>
       </div>
 
       <div class="tip-block">
-        <div class="tip-label">6 — Shot type front-loads composition</div>
-        <div class="tip-text">Shot type appears first in the prompt — image models weight early tokens most heavily. <em>Extreme close-up</em> forces focus on faces. <em>Wide environmental</em> makes the world as important as the subjects. <em>Low angle heroic</em> changes power and posture. Set shot type first if composition matters most.</div>
+        <div class="tip-label">6 — Randomize All opens every step</div>
+        <div class="tip-text">Hit <strong>✦ Randomize All</strong> and all four steps open automatically. Step headers flash to draw attention. The tension translation appears immediately. Lock what you like, then Spin Unlocked to explore variations. Press <strong>Alt+R</strong> to randomize from anywhere on the page.</div>
       </div>
 
       <div class="tip-block">
-        <div class="tip-label">7 — Prompts are prose, not tags</div>
-        <div class="tip-text">The generator builds one connected sentence: <em>tension phrase &#x2014; pose [connector] location, wearing look, bathed in lighting</em>. The connector (amid, drawn toward, lost in, burning through) is world-specific and fuses pose and location into a single image rather than two separate facts. Rewrite &amp; Tighten restructures this sentence five different ways.</div>
+        <div class="tip-label">7 — Mood worlds auto-set lighting</div>
+        <div class="tip-text">Selecting DUSK, SPRING, ROMANCE, GOLD, NIGHT, RAIN or COLD automatically sets lighting to <strong>&#x2726; AI decides</strong>. These worlds embed lighting in their tension phrases and locations &mdash; adding an explicit lighting choice creates redundancy. Override manually if you want explicit control.</div>
       </div>
 
       <div class="tip-block">
-        <div class="tip-label">8 — Specificity beats completeness</div>
-        <div class="tip-text">A sharp tension + one strong location often beats all seven fields filled with mediocre choices. The fixed prefix already establishes format and subject. Fill the fields you care about and let AI interpret the rest. The quality hint bar tells you when you have enough.</div>
+        <div class="tip-label">8 — Shot type front-loads composition</div>
+        <div class="tip-text">Shot type appears first in the prompt &mdash; image models weight early tokens most heavily. <em>Extreme close-up</em> forces focus on faces. <em>Wide environmental</em> makes the world as important as the subjects. <em>Low angle heroic</em> changes power and posture. Set shot type when composition matters most.</div>
       </div>
 
       <div class="tip-block">
-        <div class="tip-label">9 — Rich tension&#x2013;world pairings</div>
-        <div class="tip-text">Some combinations have the deepest affinity maps: <em>GLASS &#xD7; real vs. reflected</em> &middot; <em>STAGE &#xD7; spotlight vs. shadow</em> &middot; <em>MYSTERY &#xD7; face vs. mask</em> &middot; <em>SPACE &#xD7; gravity vs. weightless</em> &middot; <em>ROMANCE &#xD7; spoken vs. silent</em> &middot; <em>DUSK &#xD7; brief vs. eternal</em> &middot; <em>WEDDING &#xD7; vows vs. doubt</em> &middot; <em>PROTEST &#xD7; individual vs. crowd</em> &middot; <em>RUNWAY &#xD7; clothes vs. body</em> &middot; <em>DESERT &#xD7; vast vs. alone</em> &middot; <em>JUNGLE &#xD7; ancient vs. alive</em> &middot; <em>KITCHEN &#xD7; ritual vs. survival</em>.</div>
+        <div class="tip-label">9 — Era as tonal modifier</div>
+        <div class="tip-text">Era appends a period and palette modifier. <em>1970s</em> on Mountain nudges earth tones and film grain. <em>1980s</em> on City pushes neon and hard shadow. Tap the active pill again &mdash; or hit the rose-coloured <strong>✕ clear</strong> button &mdash; to deselect. Use era when a prompt feels too generic.</div>
       </div>
 
       <div class="tip-block">
-        <div class="tip-label">10 — Same tension, different worlds</div>
-        <div class="tip-text">Many tensions appear across multiple worlds with different visual vocabularies. Generate in DUST then MOUNTAIN — same emotional core, completely different images. DUSK tensions graft especially well onto TRAVEL or WILD locations for cross-world blending.</div>
+        <div class="tip-label">10 — Coherence badge</div>
+        <div class="tip-text">Green <strong>✦ Cohesive</strong> / amber <strong>◐ Moderate</strong> / red <strong>○ Scattered</strong> scores your combination against the tension's affinity map. Tap or hover to see exactly why. Scattered isn't bad &mdash; it means working against the grain intentionally, which often produces more distinctive images.</div>
       </div>
 
       <div class="tip-block">
-        <div class="tip-label">11 — Era as tonal modifier</div>
-        <div class="tip-text">Era appends a period and palette modifier at the end of the prompt. <em>1970s</em> on Mountain nudges earth tones and film grain. <em>1980s</em> on City pushes neon and hard shadow. Use it when a prompt feels generic or when you want to anchor the model to a specific visual decade.</div>
+        <div class="tip-label">11 — Shareable links</div>
+        <div class="tip-text">Every selection encodes into the URL in real time. Hit <strong>Share</strong> in the prompt bar to copy a link that restores the exact same state for anyone who opens it. Browser back and forward navigates between states. Bookmark your favourite combinations.</div>
       </div>
 
       <div class="tip-block">
-        <div class="tip-label">12 — Tension search filter</div>
-        <div class="tip-text">With 36 worlds and 720+ tensions, the search box above the tension dropdown lets you filter instantly by keyword. Type <em>grief</em>, <em>heat</em>, <em>silence</em>, <em>crowd</em> or any emotional word to find matching tensions across the current world's 20 options. Clears automatically when you switch worlds.</div>
+        <div class="tip-label">12 — Rewrite auto-generates</div>
+        <div class="tip-text">Opening the Rewrite &amp; Tighten accordion when a prompt exists automatically generates all 5 variants. No need to tap Generate separately. Each variant copy button turns green with ✓ Copied for confirmation. History saves your last 20 prompts locally and never leaves your device.</div>
       </div>
 
       <div class="tip-block">
-        <div class="tip-label">13 — Coherence badge &amp; tooltip</div>
-        <div class="tip-text">The coherence badge (Cohesive / Moderate / Scattered) in the prompt bar scores your combination using the affinity system — not just whether items belong to the world, but whether your specific location, pose and look appear in your tension's curated affinity map. Hover or tap the badge to see exactly why it scored the way it did.</div>
+        <div class="tip-label">13 — Specificity beats completeness</div>
+        <div class="tip-text">A sharp tension + one strong location often beats all seven fields filled with mediocre choices. Fill what you care about and let AI interpret the rest. The quality hint bar gives world-specific guidance as you build &mdash; it knows which fields matter most for each world category.</div>
       </div>
 
       <div class="tip-block">
-        <div class="tip-label">14 — Prompt history persists</div>
-        <div class="tip-text">Your last 20 prompts are saved automatically to your browser and survive page refreshes and closed tabs. Tap any history item to copy it instantly. Use <em>Clear all</em> to reset. History is stored locally — it never leaves your device.</div>
+        <div class="tip-label">14 — Recommended pairings</div>
+        <div class="tip-text"><em>GLASS &times; real vs. reflected</em> &middot; <em>STAGE &times; spotlight vs. shadow</em> &middot; <em>MYSTERY &times; face vs. mask</em> &middot; <em>UNDERWORLD &times; love vs. loss eternal</em> &middot; <em>EXPEDITION &times; wonder vs. fear</em> &middot; <em>CIRCUS &times; trust vs. fear</em> &middot; <em>MONASTERY &times; devotion vs. doubt</em> &middot; <em>STORM &times; force vs. shelter</em> &middot; <em>UNDERGROUND &times; seen vs. invisible</em> &middot; <em>FARM &times; seed vs. harvest</em> &middot; <em>PIER &times; end vs. beginning</em> &middot; <em>MARKET &times; familiar vs. exotic</em> &middot; <em>ROOFTOP &times; golden hour vs. blue hour</em> &middot; <em>ABSURD &times; calm vs. everything going sideways</em>.</div>
       </div>
 
-      <div class="tip-block">
-        <div class="tip-label">15 — Manual cross-world blending</div>
-        <div class="tip-text">Generate a prompt in GOLD, copy it. Generate in NIGHT. Manually combine the tension from one with the location from the other. The generator doesn't cross worlds automatically — but you can by hand in the copied text.</div>
-      </div>
-
-      <div class="tip-block" style="border-top:2px solid var(--border);padding-top:16px">
-        <div class="tip-label" style="color:var(--accent)">Rewrite &amp; Tighten — 5 Variants</div>
-        <div class="tip-text">Each variant restructures the same selections using a different editorial strategy. The order elements appear changes how the image model weights them. All 5 are shown in order — copy the one that matches your intent.</div>
-      </div>
-
-      <div class="tip-block">
-        <div class="tip-label">Variant 1 — Cinematic Scale</div>
-        <div class="tip-text"><strong>Tension leads, pose fused with location by a connector.</strong> Best for epic, wide or emotionally charged compositions. The translated tension phrase sets the emotional register first.<br><br><em>"calm at the center of the explosion &#x2014; slow motion walk from fire burning through collapsing building exterior, wearing tactical vest sleeves torn."</em></div>
-      </div>
-
-      <div class="tip-block">
-        <div class="tip-label">Variant 2 — Intimacy</div>
-        <div class="tip-text"><strong>Pose leads, location frames, tension arrives last as subtext.</strong> Body language before setting. Best for close, personal shots where emotional exchange between subjects matters most.<br><br><em>"tight two-shot. foreheads touching eyes closed, inside candlelit table for two &#x2014; nerves and certainty held in the same breath, dressed in simple sundress linen shirt."</em></div>
-      </div>
-
-      <div class="tip-block">
-        <div class="tip-label">Variant 3 — Essential</div>
-        <div class="tip-text"><strong>Tension as standalone statement, pose and location fused into one image.</strong> Most compressed variant. Best when two elements are strong and you want nothing competing.<br><br><em>"human made small by the vast. floating face to face weightless adrift in space station observation cupola, cold blue moonlight."</em></div>
-      </div>
-
-      <div class="tip-block">
-        <div class="tip-label">Variant 4 — Location-Led</div>
-        <div class="tip-text"><strong>World built first, action placed inside it.</strong> The model builds the environment before placing the figures. Best for atmospheric, travel or landscape-dominant images.<br><br><em>"Marrakech medina alley, where both looking at same map confused, tourist stepping into local life, wearing travel linen light layers."</em></div>
-      </div>
-
-      <div class="tip-block">
-        <div class="tip-label">Variant 5 — Wardrobe-Led</div>
-        <div class="tip-text"><strong>Opens with "Dressed in..." — look defines the register first.</strong> Best when wardrobe is strong and distinctive: historical costume, carnival dress, tactical gear, editorial fashion. Tension arrives last as emotional colour.<br><br><em>"Dressed in white dress soft veil, vows exchange close eye contact framed by chapel altar candlelit. the weight of a vow spoken over quiet doubt."</em></div>
-      </div>
-
-      <div class="tip-block">
-        <div class="tip-label">Which variant to use</div>
-        <div class="tip-text">
-          <strong>Epic or emotionally charged</strong> &#x2192; Variant 1 (Cinematic Scale)<br>
-          <strong>Close moment, body language first</strong> &#x2192; Variant 2 (Intimacy)<br>
-          <strong>Two perfect elements, strip the rest</strong> &#x2192; Variant 3 (Essential)<br>
-          <strong>Setting is the star</strong> &#x2192; Variant 4 (Location-Led)<br>
-          <strong>Wardrobe defines the image</strong> &#x2192; Variant 5 (Wardrobe-Led)<br><br>
-          Copy all 5 into your image model and compare &#x2014; the same selections produce dramatically different compositions depending on what the model reads first.
-        </div>
+      <div class="tip-block" style="border-top:2px solid rgba(255,255,255,.08);padding-top:16px">
+        <div class="tip-label" style="color:#c0a0ff">The 5 Rewrite Variants</div>
+        <div class="tip-text"><strong>1 &mdash; Cinematic Scale:</strong> Tension leads, pose fused with location by a connector.<br><strong>2 &mdash; Intimacy:</strong> Pose leads, location frames, tension arrives last as subtext.<br><strong>3 &mdash; Essential:</strong> Tension as standalone statement, pose and location compressed into one image.<br><strong>4 &mdash; Location-Led:</strong> Location opens, tension and pose embedded within it.<br><strong>5 &mdash; Wardrobe-Led:</strong> Look establishes visual register, tension and pose follow.<br><br>The order elements appear changes how the image model weights them. All 5 include the mood directive.</div>
       </div>
 
     </div>
-  </div>
 </div>
 
 <!-- HERO -->
