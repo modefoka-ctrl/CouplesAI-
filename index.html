@@ -1953,9 +1953,9 @@ function copyShareURL(){
 }
 
 function togglePromptBar(){
-  var full=document.getElementById('prompt-bar-inner');
+  var inner=document.getElementById('prompt-bar-inner');
   var chev=document.getElementById('prompt-strip-chev');
-  if(!full) return;
+  if(!inner) return;
   if(inner.classList.contains('collapsed')){
     inner.classList.remove('collapsed');inner.classList.add('expanded');
     if(chev) chev.classList.add('open');
@@ -1994,13 +1994,12 @@ window.addEventListener('hashchange', function(){
 });
 
 function initPromptBar(){
+  var inner=document.getElementById('prompt-bar-inner');
+  if(!inner) return;
   if(window.innerWidth<=480){
-    var full=document.getElementById('prompt-bar-inner');
-    if(full){inner.classList.add('collapsed');}
-  } else {
-    var full=document.getElementById('prompt-bar-inner');
-    if(full){inner.classList.remove('collapsed');inner.classList.add('expanded');}
+    inner.classList.add('collapsed');
   }
+  // On desktop: no collapsed class, base CSS shows it
 }
 
 // Handle resize — restore prompt on desktop
