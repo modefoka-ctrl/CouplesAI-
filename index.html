@@ -139,11 +139,13 @@ html,body{background:var(--bg);color:var(--text);
 @media(max-width:480px){
   .prompt-bar{padding:0;top:57px}
   .prompt-strip{display:flex}
-    .prompt-full.collapsed{max-height:0;opacity:0;pointer-events:none}
-  .prompt-full.expanded{max-height:600px;opacity:1;padding:14px 16px 16px;
+  .prompt-bar-inner{overflow:hidden;transition:max-height .3s ease,opacity .3s ease}
+  .prompt-bar-inner.collapsed{max-height:0;opacity:0;pointer-events:none;padding:0}
+  .prompt-bar-inner.expanded{max-height:600px;opacity:1;padding:14px 16px 16px;
     border-top:1px solid rgba(255,255,255,.08)}
-  .prompt-full:not(.collapsed):not(.expanded){padding:18px 20px}
 }
+/* Prompt bar inner — always visible on desktop */
+.prompt-bar-inner{padding:18px 20px;display:block}
 .prompt-bar-label{font-family:"JetBrains Mono",monospace;font-size:9px;
   letter-spacing:.22em;text-transform:uppercase;color:#f0b060;
   margin-bottom:10px;display:flex;align-items:center;gap:8px}
