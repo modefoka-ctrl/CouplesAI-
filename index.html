@@ -55,9 +55,7 @@
 
 /* Hide sticky chrome when modal is open */
 body.modal-open .hdr,
-body.modal-open .prompt-bar{visibility:hidden}
-body.modal-open .modal-bg,
-body.modal-open .howto-bg{visibility:visible}
+body.modal-open .prompt-bar{display:none !important}
 
 html,body{background:var(--bg);color:var(--text);
   font-family:"Inter",sans-serif;font-weight:400;min-height:100vh}
@@ -142,16 +140,18 @@ html,body{background:var(--bg);color:var(--text);
 .prompt-strip-chev{color:rgba(255,255,255,.4);font-size:12px;flex-shrink:0;
   transition:transform var(--t)}
 .prompt-strip-chev.open{transform:rotate(180deg)}
+/* Prompt inner — desktop always visible */
+.prompt-bar-inner{display:block;padding:18px 20px}
+
 @media(max-width:480px){
   .prompt-bar{padding:0;top:57px}
   .prompt-strip{display:flex}
-  .prompt-bar-inner{overflow:hidden;transition:max-height .3s ease,opacity .3s ease}
-  .prompt-bar-inner.collapsed{max-height:0;opacity:0;pointer-events:none;padding:0}
+  .prompt-bar-inner{overflow:hidden;transition:max-height .3s ease,opacity .3s ease;padding:0}
+  .prompt-bar-inner.collapsed{max-height:0;opacity:0;pointer-events:none}
   .prompt-bar-inner.expanded{max-height:600px;opacity:1;padding:14px 16px 16px;
     border-top:1px solid rgba(255,255,255,.08)}
-}
+      }
 /* Prompt bar inner — always visible on desktop */
-.prompt-bar-inner{padding:18px 20px;display:block}
 .prompt-bar-label{font-family:"JetBrains Mono",monospace;font-size:9px;
   letter-spacing:.22em;text-transform:uppercase;color:#f0b060;
   margin-bottom:10px;display:flex;align-items:center;gap:8px}
