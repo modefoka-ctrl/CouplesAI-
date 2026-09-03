@@ -53,6 +53,12 @@
   --t:.18s ease;
 }
 
+/* Hide sticky chrome when modal is open */
+body.modal-open .hdr,
+body.modal-open .prompt-bar{visibility:hidden}
+body.modal-open .modal-bg,
+body.modal-open .howto-bg{visibility:visible}
+
 html,body{background:var(--bg);color:var(--text);
   font-family:"Inter",sans-serif;font-weight:400;min-height:100vh}
 
