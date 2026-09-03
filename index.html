@@ -1586,18 +1586,22 @@ function clearAll(){
 function openHowTo(){
   document.getElementById('howto-bg').classList.add('open');
   document.body.style.overflow='hidden';
+  document.body.classList.add('modal-open');
 }
 function closeHowTo(){
   document.getElementById('howto-bg').classList.remove('open');
   document.body.style.overflow='';
+  if(!document.getElementById('modal-bg').classList.contains('open')) document.body.classList.remove('modal-open');
 }
 function openHelp(){
   document.getElementById('modal-bg').classList.add('open');
   document.body.style.overflow='hidden';
+  document.body.classList.add('modal-open');
 }
 function closeHelp(){
   document.getElementById('modal-bg').classList.remove('open');
   document.body.style.overflow='';
+  if(!document.getElementById('howto-bg').classList.contains('open')) document.body.classList.remove('modal-open');
 }
 document.addEventListener('keydown',function(e){
   if(e.key==='Escape'){
