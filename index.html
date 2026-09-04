@@ -5,507 +5,74 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CouplesAI Portrait Generator — Cinematic AI Portrait Prompts</title>
-<meta name="description" id="meta-desc" content="Generate cinematic AI portrait prompts for couples, solo subjects and groups. 35 worlds, 640+ tensions, lighting, shot type and wardrobe — all in one click.">
-<meta name="keywords" content="AI portrait prompt generator, Midjourney prompts, couple portrait AI, cinematic portrait prompts, AI photography prompts, portrait prompt tool">
+<meta name="description" content="Generate cinematic AI portrait prompts for couples, solo subjects and groups. 50 worlds, 1000+ tensions, lighting, shot type and wardrobe. Free forever.">
 <meta property="og:title" content="CouplesAI Portrait Generator">
-<meta property="og:description" content="CouplesAI Portrait Generator — 36 cinematic worlds, 660+ tensions. Generate stunning AI portrait prompts in seconds.">
+<meta property="og:description" content="50 cinematic worlds. 1000+ tensions. Free AI portrait prompt generator.">
 <meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="CouplesAI Portrait Generator">
-<meta name="twitter:description" content="Generate cinematic AI portrait prompts for couples, solo subjects and groups across 35 worlds.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+CiAgPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iNyIgZmlsbD0iIzEzMTExOCIvPgogIDxyZWN0IHg9IjMiIHk9IjMiIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiIgcng9IjYiIGZpbGw9IiMxYTE4MjAiLz4KICA8dGV4dCB4PSI3IiB5PSIyMiIgZm9udC1mYW1pbHk9InVpLW1vbm9zcGFjZSxtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTYiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNlZGU4ZjUiPkM8L3RleHQ+CiAgPHJlY3QgeD0iMTgiIHk9IjYiIHdpZHRoPSIxMSIgaGVpZ2h0PSIxMCIgcng9IjMiIGZpbGw9IiM0MjM4NWEiLz4KICA8dGV4dCB4PSIxOS41IiB5PSIxNSIgZm9udC1mYW1pbHk9InVpLW1vbm9zcGFjZSxtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzdjNWNmYyI+QUk8L3RleHQ+CiAgPGNpcmNsZSBjeD0iOCIgY3k9IjI3IiByPSIyLjUiIGZpbGw9IiNmMDkyNGEiLz4KPC9zdmc+">
-  <link rel="shortcut icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+CiAgPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iNyIgZmlsbD0iIzEzMTExOCIvPgogIDxyZWN0IHg9IjMiIHk9IjMiIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiIgcng9IjYiIGZpbGw9IiMx
-
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
 <style>
+/* ── RESET & BASE ── */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  /* New palette — warm cream base, less dark */
-  --bg:#f5f2ee;
-  --surface:#ffffff;
-  --raised:#faf8f5;
-  --border:#e8e2d9;
-  --border-strong:#d4ccc0;
-  --text:#1a1612;
-  --dim:#6b6058;
-  --muted:#a09488;
-
-  /* Brand accents — kept vivid against light bg */
-  --amber:#d4720a;
-  --green:#1a8f5a;
-  --accent:#5a3fd4;
-  --rose:#c4365a;
-  --teal:#0e8a7a;
-  --gold:#b8860a;
-
-  /* Step colors */
-  --step1:#5a3fd4;
-  --step2:#d4720a;
-  --step3:#0e8a7a;
-  --step4:#c4365a;
-
-  --radius:12px;
-  --shadow:0 2px 12px rgba(0,0,0,.07);
-  --shadow-lg:0 8px 32px rgba(0,0,0,.10);
-  --t:.18s ease;
+  --bg:#f5f2ee;--surface:#ffffff;--raised:#faf8f5;
+  --border:#e8e2d9;--border-strong:#d4ccc0;
+  --text:#1a1612;--dim:#6b6058;--muted:#a09488;
+  --amber:#d4720a;--green:#1a8f5a;--accent:#5a3fd4;
+  --rose:#c4365a;--teal:#0e8a7a;--gold:#b8860a;
+  --step1:#5a3fd4;--step2:#d4720a;--step3:#0e8a7a;--step4:#c4365a;
+  --radius:12px;--shadow:0 2px 12px rgba(0,0,0,.07);
+  --shadow-lg:0 8px 32px rgba(0,0,0,.10);--t:.18s ease;
 }
-
-/* Hide sticky chrome when modal is open */
-body.modal-open .hdr,
-body.modal-open .prompt-bar{display:none !important}
-
 html,body{background:var(--bg);color:var(--text);
-  font-family:"Inter",sans-serif;font-weight:400;min-height:100vh}
+  font-family:"Inter",sans-serif;font-size:16px;min-height:100vh;
+  -webkit-text-size-adjust:100%}
 
 /* ── HEADER ── */
 .hdr{background:var(--surface);border-bottom:1px solid var(--border);
   padding:12px 20px;display:flex;align-items:center;
   justify-content:space-between;position:sticky;top:0;z-index:100;
   box-shadow:0 1px 8px rgba(0,0,0,.06)}
-.hdr-logo{display:inline-flex;align-items:center;gap:6px;
-  font-family:ui-monospace,monospace;font-weight:700;font-size:1.1rem;
-  letter-spacing:-.02em;user-select:none}
-.hdr-logo .l-couples{color:#1a1612}
-.hdr-logo .l-ai{background:#ede8ff;color:#5a3fd4;padding:1px 6px;
-  border-radius:4px;font-size:.8rem;border:1px solid #c8b8ff}
-.hdr-logo .l-portrait{background:#fff5e8;color:#d4720a;padding:2px 8px;
+.hdr-logo{display:inline-flex;align-items:center;gap:5px;
+  font-family:ui-monospace,monospace;font-weight:700;font-size:1rem;letter-spacing:-.02em}
+.l-couples{color:var(--text)}
+.l-ai{background:#ede8ff;color:var(--accent);padding:1px 5px;
+  border-radius:4px;font-size:.75rem;border:1px solid #c8b8ff}
+.l-portrait{background:#fff5e8;color:var(--amber);padding:1px 7px;
   border-radius:4px;border:1px solid #f5d9a8;margin-left:2px}
-.hdr-logo .l-gen{color:#a09488;font-weight:400;font-size:1rem;margin-left:2px}
+.l-gen{color:var(--muted);font-weight:400;font-size:.9rem;margin-left:2px}
 .hdr-btns{display:flex;gap:8px}
-.hdr-btn{background:transparent;border:1px solid var(--border);
-  color:var(--dim);font-family:"Inter",sans-serif;font-size:12px;
-  font-weight:500;padding:6px 14px;border-radius:20px;cursor:pointer;
-  -webkit-tap-highlight-color:transparent}
+.hdr-btn{background:transparent;border:1px solid var(--border);color:var(--dim);
+  font-family:"Inter",sans-serif;font-size:12px;font-weight:500;
+  padding:6px 14px;border-radius:20px;cursor:pointer;
+  -webkit-tap-highlight-color:transparent;transition:all var(--t)}
 .hdr-btn:hover{border-color:var(--accent);color:var(--accent)}
 .hdr-btn-how{background:#ede8ff;border-color:#c8b8ff;color:var(--accent)}
 @media(max-width:480px){
   .hdr-btn{width:36px;height:36px;padding:0;border-radius:50%;
     display:flex;align-items:center;justify-content:center;font-size:14px}
-  .hdr-btn .hdr-btn-label{display:none}
   .l-gen{display:none}
 }
 
-/* ── HERO ── */
-.hero{background:linear-gradient(160deg,#f0ebff 0%,#fff8ee 50%,#e8f7f4 100%);
-  border-bottom:1px solid var(--border);padding:36px 20px 28px;text-align:center}
-.hero-eyebrow{font-family:"JetBrains Mono",monospace;font-size:10px;
-  letter-spacing:.2em;text-transform:uppercase;color:var(--accent);
-  margin-bottom:10px;display:block;font-weight:500}
-.hero h1{font-family:"Playfair Display",serif;font-size:clamp(26px,6vw,46px);
-  font-weight:900;line-height:1.1;margin-bottom:10px;color:var(--text)}
-.hero h1 em{font-style:italic;color:var(--amber)}
-.hero-sub{font-size:14px;color:var(--dim);max-width:420px;
-  margin:0 auto 20px;line-height:1.6}
-@media(max-width:480px){
-  .hero-sub{display:none}
-  .world-ticker{display:none}
-  .hero{padding:16px 16px 12px}
-  .hero-stat-n{font-size:20px}
-  .hero-stats{gap:14px}
-}
-.hero-stats{display:flex;gap:20px;justify-content:center;flex-wrap:wrap}
-.hero-stat-n{font-family:"Playfair Display",serif;font-size:24px;
-  font-weight:700;color:var(--amber);line-height:1}
-.hero-stat-l{font-family:"JetBrains Mono",monospace;font-size:9px;
-  letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:3px}
-.world-ticker{overflow:hidden;margin-top:20px;
-  mask-image:linear-gradient(90deg,transparent,black 12%,black 88%,transparent)}
-.world-ticker-inner{display:flex;gap:8px;width:max-content;
-  animation:ticker 38s linear infinite}
-@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
-.world-chip{background:white;border:1px solid var(--border);color:var(--dim);
-  font-family:"JetBrains Mono",monospace;font-size:9px;padding:4px 12px;
-  white-space:nowrap;border-radius:20px;letter-spacing:.04em}
-
-/* ── PROMPT BAR ── */
-.prompt-bar{
-  background:linear-gradient(135deg,#2d1f5e 0%,#1a3a4a 50%,#3d1a2e 100%);
-  padding:18px 20px;position:sticky;top:57px;z-index:90;
-  box-shadow:0 4px 24px rgba(0,0,0,.18);
-  border-bottom:2px solid rgba(255,255,255,.08)}
-/* Collapsed prompt bar strip */
-.prompt-strip{display:none;padding:10px 16px;align-items:center;gap:10px;cursor:pointer}
-.prompt-strip-label{font-family:"JetBrains Mono",monospace;font-size:9px;
-  letter-spacing:.16em;text-transform:uppercase;color:#f0b060;
-  display:flex;align-items:center;gap:6px}
-.prompt-strip-wc{background:rgba(255,255,255,.1);border-radius:10px;
-  padding:2px 8px;font-family:"JetBrains Mono",monospace;font-size:9px;
-  color:rgba(255,255,255,.5);margin-left:auto}
-.prompt-strip-copy{background:linear-gradient(135deg,#7c5cfc,#a060ff);border:none;
-  color:#fff;font-family:"Inter",sans-serif;font-size:11px;font-weight:600;
-  padding:6px 14px;border-radius:14px;cursor:pointer;flex-shrink:0}
-.prompt-strip-chev{color:rgba(255,255,255,.4);font-size:12px;flex-shrink:0;
-  transition:transform var(--t)}
-.prompt-strip-chev.open{transform:rotate(180deg)}
-/* Prompt inner — desktop always visible */
-.prompt-bar-inner{display:block;padding:18px 20px}
-
-@media(max-width:480px){
-  .prompt-bar{padding:0;top:57px}
-  .prompt-strip{display:flex}
-  .prompt-bar-inner{overflow:hidden;transition:max-height .3s ease,opacity .3s ease;padding:0}
-  .prompt-bar-inner.collapsed{max-height:0;opacity:0;pointer-events:none}
-  .prompt-bar-inner.expanded{max-height:600px;opacity:1;padding:14px 16px 16px;
-    border-top:1px solid rgba(255,255,255,.08)}
-      }
-/* Prompt bar inner — always visible on desktop */
-.prompt-bar-label{font-family:"JetBrains Mono",monospace;font-size:9px;
-  letter-spacing:.22em;text-transform:uppercase;color:#f0b060;
-  margin-bottom:10px;display:flex;align-items:center;gap:8px}
-.pbl-dot{width:7px;height:7px;border-radius:50%;background:#f0b060;
-  animation:pulse 2s ease-in-out infinite;display:inline-block;
-  box-shadow:0 0 6px rgba(240,176,96,.6)}
-@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.3;transform:scale(.7)}}
-.prompt-text{font-family:"JetBrains Mono",monospace;font-size:12px;
-  line-height:1.85;color:rgba(255,255,255,.55);word-break:break-word}
-.prompt-text .pt-tension{color:#f0b060;font-weight:500;
-  text-shadow:0 0 12px rgba(240,176,96,.4)}
-.prompt-text .pt-loc{color:#50d4b8;font-weight:500;
-  text-shadow:0 0 12px rgba(80,212,184,.3)}
-.prompt-text .pt-pose{color:#f08899;font-weight:500;
-  text-shadow:0 0 12px rgba(240,136,153,.3)}
-.prompt-text .pt-look{color:#70d890;font-weight:500;
-  text-shadow:0 0 12px rgba(112,216,144,.3)}
-.prompt-text .pt-empty{color:rgba(255,255,255,.2);font-style:italic}
-.pt-mood{color:rgba(255,255,255,.38);font-size:10px;font-style:italic;display:block;margin-top:6px;line-height:1.5;letter-spacing:.01em}
-.prompt-meta{display:flex;align-items:center;gap:10px;margin-top:14px;flex-wrap:wrap}
-.wc{font-family:"JetBrains Mono",monospace;font-size:10px;
-  color:rgba(255,255,255,.55)}
-.coh-badge,.coh{font-family:"JetBrains Mono",monospace;font-size:9px;
-  padding:5px 14px;border-radius:20px;letter-spacing:.08em;margin-left:auto;
-  cursor:pointer;display:none;align-items:center;gap:5px;transition:all .2s ease;
-  border:1px solid rgba(80,200,128,.4);background:rgba(80,200,128,.15);
-  color:#ffffff;box-shadow:0 0 8px rgba(80,200,128,.15)}
-.coh.high{border-color:#22dd88;color:#fff !important;
-  background:linear-gradient(135deg,#1a8855,#22cc77) !important;
-  box-shadow:0 0 16px rgba(34,221,136,.6) !important;font-weight:700}
-.coh.mid{border-color:#f0924a;color:#fff !important;
-  background:linear-gradient(135deg,#c85a0a,#f0924a) !important;
-  box-shadow:0 0 12px rgba(240,146,74,.5) !important;font-weight:700}
-.coh.low{border-color:#e05070;color:#fff !important;
-  background:linear-gradient(135deg,#a02040,#e05070) !important;
-  box-shadow:0 0 12px rgba(224,80,112,.5) !important;font-weight:700}
-.coh.high .coh-icon,.coh.high .coh-label,
-.coh.mid .coh-icon,.coh.mid .coh-label,
-.coh.low .coh-icon,.coh.low .coh-label{color:#fff !important}
-.btn-copy{background:linear-gradient(135deg,#7c5cfc,#a060ff);
-  border:none;color:#fff;
-  font-family:"Inter",sans-serif;font-size:12px;font-weight:600;
-  padding:9px 22px;border-radius:20px;cursor:pointer;
-  box-shadow:0 2px 16px rgba(124,92,252,.5);
-  transition:all .18s ease}
-.btn-share{background:transparent;border:1px solid rgba(255,255,255,.2);
-  color:rgba(255,255,255,.6);font-family:"Inter",sans-serif;font-size:11px;
-  font-weight:500;padding:7px 14px;border-radius:20px;cursor:pointer;
-  transition:all .18s ease;white-space:nowrap}
-.btn-share:hover{border-color:rgba(255,255,255,.5);color:#fff}
-.btn-copy:hover{transform:translateY(-1px);
-  box-shadow:0 4px 24px rgba(124,92,252,.65)}
-
-/* ── QUALITY BAR ── */
-.quality-bar{
-  background:linear-gradient(90deg,rgba(45,31,94,.06),rgba(26,58,74,.06));
-  border-bottom:1px solid rgba(90,63,212,.12);
-  padding:9px 20px;font-family:"JetBrains Mono",monospace;font-size:10px;
-  color:var(--accent);display:flex;align-items:center;gap:8px;
-  border-left:3px solid var(--accent)}
-.quality-bar::before{content:'💡';font-size:12px}
-
-/* ── MAIN ── */
-.main{max-width:600px;margin:0 auto;padding:20px 16px 32px}
-
-/* ── STEP LAYOUT ── */
-.step-block{margin-bottom:12px}
-.step-header{display:flex;align-items:center;gap:12px;
-  padding:14px 16px;background:var(--surface);
-  border:1px solid var(--border);border-radius:var(--radius);
-  cursor:pointer;user-select:none;
-  box-shadow:var(--shadow);transition:all var(--t);transition:border-color .3s ease,box-shadow .3s ease}
-.step-header.guide{border-color:var(--amber);
-  box-shadow:0 0 0 3px rgba(212,114,10,.15),0 0 16px rgba(212,114,10,.12);
-  animation:guide-pulse 2.2s ease-in-out infinite}
-@keyframes guide-pulse{
-  0%,100%{box-shadow:0 0 0 3px rgba(212,114,10,.15),0 0 16px rgba(212,114,10,.12)}
-  50%{box-shadow:0 0 0 6px rgba(212,114,10,.08),0 0 24px rgba(212,114,10,.2)}
-}
-.guide-arrow{display:none;align-items:center;gap:6px;
-  font-family:"JetBrains Mono",monospace;font-size:9px;letter-spacing:.12em;
-  text-transform:uppercase;color:var(--amber)}
-.step-header.guide .guide-arrow{display:flex}
-.step-header:hover{box-shadow:var(--shadow-lg);border-color:var(--border-strong)}
-.step-header.active{border-bottom-radius:0;
-  border-bottom-left-radius:0;border-bottom-right-radius:0;
-  border-bottom-color:transparent}
-.step-num{width:32px;height:32px;border-radius:50%;
-  display:flex;align-items:center;justify-content:center;
-  font-family:"Playfair Display",serif;font-size:15px;font-weight:700;
-  flex-shrink:0;color:#fff}
-.step-num-1{background:var(--step1)}
-.step-num-2{background:var(--step2)}
-.step-num-3{background:var(--step3)}
-.step-num-4{background:var(--step4)}
-.step-info{flex:1;min-width:0}
-.step-title{font-family:"Inter",sans-serif;font-size:14px;font-weight:600;
-  color:var(--text);margin-bottom:1px}
-.step-subtitle{font-family:"Inter",sans-serif;font-size:11px;
-  color:var(--muted);font-weight:400}
-.step-status{font-family:"JetBrains Mono",monospace;font-size:9px;
-  letter-spacing:.06em;padding:3px 10px;border-radius:20px;flex-shrink:0}
-.step-status.done{background:#e8f7f0;border:1px solid #a8e4c8;color:var(--green)}
-.step-status.active{background:#ede8ff;border:1px solid #c8b8ff;color:var(--accent)}
-.step-status.todo{background:var(--raised);border:1px solid var(--border);color:var(--muted)}
-.step-chevron{color:var(--muted);font-size:14px;flex-shrink:0;
-  transition:transform var(--t)}
-.step-chevron.open{transform:rotate(90deg)}
-
-.step-body{background:var(--surface);border:1px solid var(--border);
-  border-top:none;border-radius:0 0 var(--radius) var(--radius);
-  padding:16px;box-shadow:var(--shadow);display:none}
-.step-body.open{display:block}
-
-/* ── FIELD ROWS ── */
-.field{margin-bottom:14px}
-.field:last-child{margin-bottom:0}
-.field-label{font-family:"JetBrains Mono",monospace;font-size:9px;
-  letter-spacing:.16em;text-transform:uppercase;color:var(--muted);
-  margin-bottom:6px;display:flex;align-items:center;justify-content:space-between}
-.field-label-hint{font-size:9px;color:var(--muted);letter-spacing:0;
-  text-transform:none;font-family:"Inter",sans-serif}
-.field-row{display:flex;gap:8px;align-items:center}
-.sel-wrap{flex:1;position:relative}
-select{width:100%;background:var(--raised);border:1px solid var(--border);
-  border-radius:8px;color:var(--text);font-family:"Inter",sans-serif;
-  font-size:15px;font-weight:400;padding:11px 36px 11px 14px;
-  cursor:pointer;outline:none;-webkit-appearance:none;appearance:none;
-  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23a09488'/%3E%3C/svg%3E");
-  background-repeat:no-repeat;background-position:right 12px center;
-  background-size:9px;background-color:var(--raised);
-  transition:border-color var(--t),box-shadow var(--t);
-  -webkit-tap-highlight-color:transparent}
-@media(max-width:480px){
-  select{font-size:16px;padding:13px 36px 13px 14px;border-radius:10px}
-}
-select:focus{border-color:var(--accent);
-  box-shadow:0 0 0 3px rgba(90,63,212,.12)}
-select.has-val{border-left:3px solid var(--accent);padding-left:12px}
-select:disabled{opacity:.4;cursor:not-allowed}
-select option{background:#fff;color:var(--text)}
-select optgroup{color:var(--amber);font-style:normal;font-size:11px}
-
-/* ── ICON BUTTONS ── */
-.icon-btn{background:var(--raised);border:1px solid var(--border);
-  border-radius:8px;color:var(--muted);width:40px;height:40px;
-  flex-shrink:0;cursor:pointer;display:flex;align-items:center;
-  justify-content:center;font-size:16px;transition:all var(--t);
-  -webkit-tap-highlight-color:transparent}
-@media(max-width:480px){.icon-btn{width:44px;height:44px;border-radius:10px;font-size:17px}}
-.icon-btn:hover{border-color:var(--accent);color:var(--accent);
-  background:#ede8ff}
-.icon-btn.locked{border-color:var(--amber);color:var(--amber);
-  background:#fff5e8}
-
-/* ── AI BUTTON ── */
-.ai-btn{background:#fff8e8;border:1px solid #f5d9a8;color:var(--amber);
-  font-family:"JetBrains Mono",monospace;font-size:9px;letter-spacing:.08em;
-  text-transform:uppercase;padding:0 12px;height:40px;
-  cursor:pointer;transition:all var(--t);white-space:nowrap;
-  flex-shrink:0;border-radius:8px;-webkit-tap-highlight-color:transparent}
-@media(max-width:480px){.ai-btn{height:44px;border-radius:10px}}
-.ai-btn:hover{background:#fff0cc;border-color:var(--amber)}
-
-/* ── TENSION SEARCH ── */
-.tension-search-input{width:100%;background:var(--raised);border:1px solid var(--border);
-  border-radius:8px;color:var(--dim);font-family:"JetBrains Mono",monospace;
-  font-size:12px;padding:9px 14px;outline:none;margin-bottom:8px;
-  transition:border-color var(--t);-webkit-appearance:none}
-.tension-search-input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(90,63,212,.12)}
-@media(max-width:480px){.tension-search-input{font-size:16px;padding:12px 14px;border-radius:10px}}
-.tension-search{width:100%;background:var(--raised);border:1px solid var(--border);
-  border-radius:8px;color:var(--text);font-family:"JetBrains Mono",monospace;
-  font-size:12px;padding:9px 14px;outline:none;margin-bottom:8px;
-  transition:border-color var(--t)}
-.tension-search:focus{border-color:var(--accent);
-  box-shadow:0 0 0 3px rgba(90,63,212,.12)}
-
-/* ── FORMAT ROW ── */
-.format-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}
-@media(max-width:480px){.format-row{grid-template-columns:1fr}}
-
-/* ── ERA PILLS ── */
-.pill-row{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
-.pill{background:transparent;border:1px solid var(--border);border-radius:20px;
-  color:var(--dim);font-family:"JetBrains Mono",monospace;font-size:10px;
-  padding:5px 14px;cursor:pointer;transition:all var(--t);
-  -webkit-tap-highlight-color:transparent}
-@media(max-width:480px){.pill{padding:8px 16px;font-size:11px;border-radius:22px}}
-.pill:hover{border-color:var(--accent);color:var(--accent)}
-.pill.active{background:#ede8ff;border-color:var(--accent);color:var(--accent)}
-
-/* ── ACTIONS ── */
-.actions-row{display:flex;gap:10px;margin-top:16px}
-.btn-primary{background:var(--accent);border:none;color:#fff;
-  font-family:"Inter",sans-serif;font-size:14px;font-weight:600;
-  padding:13px;border-radius:10px;cursor:pointer;flex:1;
-  box-shadow:0 3px 16px rgba(90,63,212,.35);transition:all var(--t);
-  -webkit-tap-highlight-color:transparent}
-@media(max-width:480px){
-  .actions-row{flex-direction:column}
-  .btn-primary{padding:16px;font-size:15px;border-radius:14px;flex:none}
-  .actions-row-secondary{display:flex;gap:10px}
-}
-.btn-primary:hover{transform:translateY(-1px);
-  box-shadow:0 5px 20px rgba(90,63,212,.45)}
-.btn-secondary{background:var(--raised);border:1px solid var(--border);
-  color:var(--dim);font-family:"JetBrains Mono",monospace;font-size:10px;
-  letter-spacing:.06em;text-transform:uppercase;
-  padding:13px 16px;border-radius:10px;cursor:pointer;transition:all var(--t);
-  -webkit-tap-highlight-color:transparent}
-@media(max-width:480px){.btn-secondary{flex:1;padding:14px 10px}}
-.btn-secondary:hover{border-color:var(--accent);color:var(--accent)}
-
-/* ── REWRITE ── */
-.step-block.rewrite .step-header{background:linear-gradient(135deg,#fff8ee,#f0ebff)}
-.btn-rewrite{width:100%;background:linear-gradient(135deg,#fff5e8,#ede8ff);
-  border:1px solid #d4ccc0;color:var(--text);font-family:"Inter",sans-serif;
-  font-size:14px;font-weight:600;padding:14px;border-radius:10px;
-  cursor:pointer;transition:all var(--t);margin-bottom:10px}
-.btn-rewrite:hover{border-color:var(--accent);
-  background:linear-gradient(135deg,#ffe8cc,#e0d8ff)}
-.rewrite-note{font-family:"JetBrains Mono",monospace;font-size:9px;
-  color:var(--muted);text-align:center;letter-spacing:.04em;margin-bottom:16px}
-
-/* ── VARIANT CARDS ── */
-.variant{background:var(--raised);border:1px solid var(--border);
-  border-radius:10px;padding:14px;margin-bottom:8px;cursor:pointer;
-  transition:all var(--t)}
-.variant:hover{border-color:var(--accent);box-shadow:var(--shadow)}
-.v-label{font-family:"JetBrains Mono",monospace;font-size:9px;
-  letter-spacing:.12em;text-transform:uppercase;color:var(--accent);
-  margin-bottom:6px;font-weight:500}
-.v-text{font-family:"JetBrains Mono",monospace;font-size:11px;
-  line-height:1.7;color:var(--dim)}
-.v-meta{font-family:"JetBrains Mono",monospace;font-size:9px;
-  color:var(--muted);margin-top:8px;display:flex;gap:8px}
-.v-copy{background:transparent;border:1px solid var(--border);
-  border-radius:4px;color:var(--muted);font-size:9px;font-family:"JetBrains Mono",monospace;
-  padding:3px 10px;cursor:pointer;margin-left:auto}
-.v-copy:hover{border-color:var(--green);color:var(--green)}
-
-/* ── HISTORY ── */
-.hist-item{width:100%;background:transparent;border:1px solid transparent;
-  border-radius:8px;color:var(--dim);font-family:"JetBrains Mono",monospace;
-  font-size:10px;padding:8px 12px;cursor:pointer;text-align:left;
-  line-height:1.5;transition:all var(--t);white-space:nowrap;
-  overflow:hidden;text-overflow:ellipsis;display:block;margin-bottom:4px;
-  -webkit-tap-highlight-color:transparent}
-@media(max-width:480px){.hist-item{padding:12px 14px;font-size:11px;border-radius:10px}}
-.hist-item:hover{border-color:var(--border);background:var(--raised);color:var(--text)}
-.hist-hdr{display:flex;align-items:center;justify-content:space-between;
-  padding-bottom:8px;border-bottom:1px solid var(--border);margin-bottom:8px}
-.hist-count{font-family:"JetBrains Mono",monospace;font-size:9px;
-  letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
-.hist-clear{background:transparent;border:none;color:var(--muted);
-  font-family:"JetBrains Mono",monospace;font-size:9px;cursor:pointer;
-  text-transform:uppercase;letter-spacing:.06em;padding:2px 6px}
-.hist-clear:hover{color:var(--rose)}
-
-/* ── SOCIAL ── */
-.social-band{background:white;border-top:1px solid var(--border);
-  padding:24px 20px;text-align:center;max-width:600px;margin:0 auto}
-.social-eyebrow{font-family:"JetBrains Mono",monospace;font-size:9px;
-  letter-spacing:.2em;text-transform:uppercase;color:var(--amber);margin-bottom:8px}
-.social-text{font-size:14px;color:var(--dim);margin-bottom:16px;line-height:1.5}
-.social-links{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
-.social-btn{display:inline-flex;align-items:center;gap:8px;padding:11px 20px;
-  border-radius:24px;text-decoration:none;font-family:"Inter",sans-serif;
-  font-size:13px;font-weight:600;transition:all var(--t)}
-@media(max-width:480px){
-  .social-links{gap:8px}
-  .social-btn{flex:1;justify-content:center;padding:14px 12px;font-size:13px}
-}
-.social-btn--tiktok{background:#1a1612;color:#fff}
-.social-btn--instagram{background:linear-gradient(135deg,#f5a060,#e04070);color:#fff}
-.social-platform{font-size:10px;opacity:.6;font-family:"JetBrains Mono",monospace}
-
-/* ── PROGRESS STRIP ── */
-.progress-strip{display:flex;gap:4px;padding:12px 16px;
-  background:var(--surface);border-bottom:1px solid var(--border);
-  position:sticky;top:57px;z-index:89;overflow-x:auto;
-  scrollbar-width:none}
-.progress-strip::-webkit-scrollbar{display:none}
-.prog-step{display:flex;align-items:center;gap:6px;flex-shrink:0;
-  font-family:"Inter",sans-serif;font-size:11px;font-weight:500;
-  padding:6px 12px;border-radius:20px;color:var(--muted);
-  border:1px solid transparent;transition:all var(--t);cursor:pointer}
-.prog-step.done{color:var(--green);background:#e8f7f0;border-color:#a8e4c8}
-.prog-step.active{color:var(--accent);background:#ede8ff;border-color:#c8b8ff}
-.prog-dot{width:7px;height:7px;border-radius:50%;background:currentColor;flex-shrink:0}
-
-/* ── DIVIDER ── */
-.section-divider{display:flex;align-items:center;gap:10px;
-  margin:20px 0 8px;font-family:"JetBrains Mono",monospace;font-size:9px;
-  letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
-.section-divider::before,.section-divider::after{content:'';flex:1;
-  height:1px;background:var(--border)}
-
-/* ── FOOTER ── */
-footer{background:var(--surface);border-top:1px solid var(--border);
-  padding:20px;text-align:center}
-footer p{font-family:"JetBrains Mono",monospace;font-size:9px;
-  color:var(--muted);letter-spacing:.04em;line-height:2}
-footer a{color:var(--accent);text-decoration:none}
-
-/* ── MOCKUP BANNER ── */
-.mockup-banner{background:linear-gradient(135deg,#ede8ff,#fff8ee);
-  border-bottom:2px dashed #c8b8ff;padding:10px 20px;text-align:center;
-  font-family:"JetBrains Mono",monospace;font-size:10px;
-  color:var(--accent);letter-spacing:.1em;text-transform:uppercase;
-  font-weight:500;position:sticky;top:0;z-index:200}
-
-/* ── MISSING FROM MOCKUP ── */
-.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius)}
-.hist-list{display:flex;flex-direction:column;gap:4px;padding:12px 14px}
-.hist-list.vis{display:flex}
-.variants{display:flex;flex-direction:column;gap:10px;margin-top:14px}
-.variant{background:var(--raised);border:1px solid var(--border);border-radius:10px;
-  padding:14px;cursor:pointer;transition:all var(--t)}
-.variant:hover{border-color:var(--accent);box-shadow:var(--shadow)}
-.v-label{font-family:"JetBrains Mono",monospace;font-size:9px;letter-spacing:.12em;
-  text-transform:uppercase;color:var(--accent);margin-bottom:6px;font-weight:500}
-.v-text{font-family:"JetBrains Mono",monospace;font-size:11px;line-height:1.7;color:var(--dim)}
-.v-meta{font-family:"JetBrains Mono",monospace;font-size:9px;color:var(--muted);
-  margin-top:8px;display:flex;gap:8px;align-items:center}
-.v-copy{background:transparent;border:1px solid var(--border);border-radius:4px;
-  color:var(--muted);font-size:9px;font-family:"JetBrains Mono",monospace;
-  padding:3px 10px;cursor:pointer;margin-left:auto;transition:all var(--t);
-  -webkit-tap-highlight-color:transparent}
-@media(max-width:480px){.v-copy{padding:8px 16px;border-radius:8px;font-size:10px}}
-.v-copy:hover{border-color:var(--green);color:var(--green)}
-.v-copy.copied{border-color:var(--green);color:var(--green)}
-.step-body.open{display:block}
-.step-chevron.open{transform:rotate(90deg)}
-.rewrite-block .step-header.rewrite-hdr{background:linear-gradient(135deg,#fff8ee,#f0ebff)}
-.step-num-r{background:linear-gradient(135deg,var(--amber),var(--accent));color:#fff;
-  font-size:18px;display:flex;align-items:center;justify-content:center}
-/* MODAL STYLES (kept dark for contrast) */
-.modal-bg{position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:1000;
-  display:none;align-items:center;justify-content:center;padding:16px}
-.modal-bg.open{display:flex}
-.modal{background:#131118;border:1px solid #28243a;border-radius:14px;position:relative;z-index:1001;
-  width:100%;max-width:580px;max-height:88vh;display:flex;
-  flex-direction:column;overflow:hidden;box-shadow:0 24px 80px rgba(0,0,0,.7)}
-.modal-hdr{padding:16px 20px;border-bottom:1px solid #28243a;
+/* ── MODALS ── */
+.modal-bg,.howto-bg{position:fixed;inset:0;background:rgba(0,0,0,.8);
+  z-index:9999;display:none;align-items:center;justify-content:center;padding:16px}
+.modal-bg.open,.howto-bg.open{display:flex}
+.modal,.howto-modal{background:#131118;border:1px solid #28243a;border-radius:14px;
+  width:100%;max-width:580px;max-height:88vh;display:flex;flex-direction:column;
+  overflow:hidden;box-shadow:0 24px 80px rgba(0,0,0,.7);position:relative;z-index:10000}
+.modal-hdr,.howto-hdr{padding:16px 20px;border-bottom:1px solid #28243a;
   display:flex;align-items:center;justify-content:space-between;flex-shrink:0;
   background:linear-gradient(135deg,rgba(124,92,252,.1),rgba(240,146,74,.06))}
-.modal-title{font-family:"Playfair Display",serif;font-size:16px;font-weight:700;color:#ede8f5}
-.modal-close{background:transparent;border:none;color:#8878aa;font-size:18px;
-  cursor:pointer;padding:0 4px;line-height:1;transition:color var(--t)}
-.modal-close:hover{color:#ede8f5}
-.modal-body{overflow-y:auto;padding:0;flex:1;background:#131118}
-.tip-block{padding:16px 20px;border-bottom:1px solid #28243a}
+.modal-title,.howto-title{font-family:"Playfair Display",serif;font-size:16px;
+  font-weight:700;color:#ede8f5}
+.modal-close{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);
+  color:#ede8f5;font-size:18px;border-radius:50%;width:32px;height:32px;
+  cursor:pointer;display:flex;align-items:center;justify-content:center;
+  line-height:1;flex-shrink:0}
+.modal-body{overflow-y:auto;flex:1;background:#131118}
+.tip-block{padding:14px 20px;border-bottom:1px solid #28243a}
 .tip-block:last-child{border-bottom:none}
 .tip-label{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.12em;
   text-transform:uppercase;color:#f0924a;margin-bottom:6px;font-weight:500}
@@ -513,26 +80,15 @@ footer a{color:var(--accent);text-decoration:none}
   color:#b0a8c8;line-height:1.65}
 .tip-text strong{color:#ede8f5;font-weight:500}
 .tip-text em{color:#8878aa;font-style:italic}
-.howto-bg{position:fixed;inset:0;background:rgba(0,0,0,.82);z-index:1000;
-  display:none;align-items:center;justify-content:center;padding:16px}
-.howto-bg.open{display:flex}
-.howto-modal{background:#131118;border:1px solid #28243a;border-radius:14px;position:relative;z-index:1001;
-  width:100%;max-width:480px;box-shadow:0 24px 80px rgba(0,0,0,.7);overflow:hidden}
-.howto-hdr{padding:18px 20px 14px;border-bottom:1px solid #28243a;
-  display:flex;align-items:center;justify-content:space-between;
-  background:linear-gradient(135deg,rgba(124,92,252,.1),rgba(240,146,74,.06))}
-.howto-title{font-family:"Playfair Display",serif;font-size:17px;font-weight:700;color:#ede8f5}
-.howto-body{padding:24px 20px 28px;background:#131118}
+.howto-body{padding:20px;background:#131118;overflow-y:auto;flex:1}
 .howto-intro{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.14em;
-  text-transform:uppercase;color:#f0924a;margin-bottom:20px}
-.howto-steps{display:flex;flex-direction:column;gap:0}
-.howto-step{display:flex;align-items:flex-start;gap:16px;padding:16px 0;
+  text-transform:uppercase;color:#f0924a;margin-bottom:18px}
+.howto-step{display:flex;align-items:flex-start;gap:14px;padding:14px 0;
   border-bottom:1px solid #28243a}
 .howto-step:last-child{border-bottom:none;padding-bottom:0}
-.howto-step-num{width:36px;height:36px;border-radius:50%;flex-shrink:0;
+.howto-step-num{width:34px;height:34px;border-radius:50%;flex-shrink:0;
   display:flex;align-items:center;justify-content:center;
-  font-family:"Playfair Display",serif;font-size:16px;font-weight:700}
-.howto-step-body{flex:1;min-width:0}
+  font-family:"Playfair Display",serif;font-size:15px;font-weight:700;color:#fff}
 .howto-step-title{font-family:"Inter",sans-serif;font-size:14px;font-weight:600;
   color:#ede8f5;margin-bottom:4px}
 .howto-step-desc{font-family:"Inter",sans-serif;font-size:13px;font-weight:300;
@@ -546,76 +102,417 @@ footer a{color:var(--accent);text-decoration:none}
   background:rgba(124,92,252,.04);display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .howto-footer-text{font-family:"JetBrains Mono",monospace;font-size:9px;color:#8878aa;
   letter-spacing:.06em;flex:1}
-.howto-footer-btn{background:linear-gradient(135deg,#7c5cfc,#a060ff);border:none;color:#fff;
-  font-family:"Inter",sans-serif;font-size:12px;font-weight:600;padding:8px 18px;
-  border-radius:20px;cursor:@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.howto-footer-btn{background:linear-gradient(135deg,#7c5cfc,#a060ff);border:none;
+  color:#fff;font-family:"Inter",sans-serif;font-size:12px;font-weight:600;
+  padding:8px 18px;border-radius:20px;cursor:pointer}
+
+/* ── HERO ── */
+.hero{background:linear-gradient(160deg,#f0ebff 0%,#fff8ee 50%,#e8f7f4 100%);
+  border-bottom:1px solid var(--border);padding:28px 20px 20px;text-align:center}
+.hero-eyebrow{font-family:"JetBrains Mono",monospace;font-size:9px;
+  letter-spacing:.2em;text-transform:uppercase;color:var(--accent);
+  margin-bottom:8px;display:block}
+.hero h1{font-family:"Playfair Display",serif;font-size:clamp(24px,5vw,42px);
+  font-weight:900;line-height:1.1;margin-bottom:8px}
+.hero h1 em{font-style:italic;color:var(--amber)}
+.hero-sub{font-size:14px;color:var(--dim);max-width:420px;
+  margin:0 auto 16px;line-height:1.6}
+.hero-stats{display:flex;gap:20px;justify-content:center}
+.hero-stat-n{font-family:"Playfair Display",serif;font-size:22px;
+  font-weight:700;color:var(--amber);line-height:1}
+.hero-stat-l{font-family:"JetBrains Mono",monospace;font-size:8px;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:2px}
+.world-ticker{overflow:hidden;margin-top:16px;
+  mask-image:linear-gradient(90deg,transparent,black 10%,black 90%,transparent)}
+.world-ticker-inner{display:flex;gap:8px;width:max-content;
+  animation:ticker 38s linear infinite}
+@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.world-chip{background:white;border:1px solid var(--border);color:var(--dim);
+  font-family:"JetBrains Mono",monospace;font-size:9px;padding:3px 10px;
+  white-space:nowrap;border-radius:20px;letter-spacing:.04em}
+@media(max-width:480px){
+  .hero{padding:16px 16px 12px}
+  .hero-sub{display:none}
+  .world-ticker{display:none}
+  .hero-stat-n{font-size:18px}
+}
+
+/* ── PROMPT BAR ── */
+.prompt-bar{background:linear-gradient(135deg,#2d1f5e 0%,#1a3a4a 50%,#3d1a2e 100%);
+  padding:16px 20px;position:sticky;top:57px;z-index:90;
+  box-shadow:0 4px 24px rgba(0,0,0,.18);
+  border-bottom:2px solid rgba(255,255,255,.08)}
+.prompt-bar-label{font-family:"JetBrains Mono",monospace;font-size:9px;
+  letter-spacing:.22em;text-transform:uppercase;color:#f0b060;
+  margin-bottom:10px;display:flex;align-items:center;gap:8px}
+.pbl-dot{width:7px;height:7px;border-radius:50%;background:#f0b060;
+  animation:pulse 2s ease-in-out infinite;
+  box-shadow:0 0 6px rgba(240,176,96,.6)}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.3;transform:scale(.7)}}
+.prompt-text{font-family:"JetBrains Mono",monospace;font-size:11px;
+  line-height:1.85;color:rgba(255,255,255,.55);word-break:break-word}
+.pt-tension{color:#f0b060;font-weight:500;text-shadow:0 0 12px rgba(240,176,96,.4)}
+.pt-loc{color:#50d4b8;font-weight:500;text-shadow:0 0 12px rgba(80,212,184,.3)}
+.pt-pose{color:#f08899;font-weight:500;text-shadow:0 0 12px rgba(240,136,153,.3)}
+.pt-look{color:#70d890;font-weight:500;text-shadow:0 0 12px rgba(112,216,144,.3)}
+.pt-empty{color:rgba(255,255,255,.2);font-style:italic}
+.pt-mood{color:rgba(255,255,255,.38);font-size:10px;font-style:italic;
+  display:block;margin-top:8px;line-height:1.5}
+.prompt-meta{display:flex;align-items:center;gap:10px;margin-top:12px;
+  flex-wrap:wrap;position:relative}
+.wc{font-family:"JetBrains Mono",monospace;font-size:10px;color:rgba(255,255,255,.5)}
+.coh{font-family:"JetBrains Mono",monospace;font-size:9px;padding:5px 12px;
+  border-radius:16px;color:#fff;font-weight:700;letter-spacing:.08em;
+  cursor:pointer;display:none;align-items:center;gap:5px;margin-left:auto;
+  transition:all .2s ease}
+.coh.high{background:linear-gradient(135deg,#1a8855,#22cc77);
+  box-shadow:0 0 12px rgba(34,204,119,.5)}
+.coh.mid{background:linear-gradient(135deg,#c85a0a,#f0924a);
+  box-shadow:0 0 10px rgba(240,146,74,.4)}
+.coh.low{background:linear-gradient(135deg,#a02040,#e05070);
+  box-shadow:0 0 10px rgba(224,80,112,.4)}
+.coh.high,.coh.mid,.coh.low{display:flex}
+.coh-tooltip{display:none;position:absolute;bottom:calc(100% + 8px);right:0;
+  background:#1a1820;border:1px solid rgba(124,92,252,.3);border-radius:8px;
+  padding:8px 12px;font-family:"JetBrains Mono",monospace;font-size:10px;
+  color:#c0a0ff;line-height:1.6;max-width:260px;z-index:200;
+  box-shadow:0 4px 20px rgba(0,0,0,.4);pointer-events:none}
+.coh-tooltip.vis{display:block}
+.btn-copy{background:linear-gradient(135deg,#7c5cfc,#a060ff);border:none;color:#fff;
+  font-family:"Inter",sans-serif;font-size:12px;font-weight:600;
+  padding:9px 20px;border-radius:18px;cursor:pointer;
+  box-shadow:0 2px 14px rgba(124,92,252,.45);transition:all var(--t);
+  -webkit-tap-highlight-color:transparent}
+.btn-share{background:transparent;border:1px solid rgba(255,255,255,.2);
+  color:rgba(255,255,255,.6);font-family:"Inter",sans-serif;font-size:11px;
+  font-weight:500;padding:7px 12px;border-radius:18px;cursor:pointer;
+  transition:all var(--t);-webkit-tap-highlight-color:transparent}
+.btn-share:hover{border-color:rgba(255,255,255,.5);color:#fff}
+
+/* ── QUALITY BAR ── */
+.quality-bar{background:linear-gradient(90deg,rgba(45,31,94,.06),rgba(26,58,74,.06));
+  border-bottom:1px solid rgba(90,63,212,.12);border-left:3px solid var(--accent);
+  padding:9px 20px;font-family:"JetBrains Mono",monospace;font-size:10px;
+  color:var(--accent);display:none;align-items:center;gap:8px}
+.quality-bar.vis{display:flex}
+.quality-bar::before{content:'💡';font-size:12px}
+
+/* ── MAIN ── */
+.main{max-width:600px;margin:0 auto;padding:16px 14px 40px}
+
+/* ── STEP BLOCKS ── */
+.step-block{margin-bottom:8px}
+.step-header{display:flex;align-items:center;gap:10px;padding:14px;
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius);cursor:pointer;user-select:none;min-height:60px;
+  -webkit-tap-highlight-color:transparent;
+  transition:border-color .3s ease,box-shadow .3s ease}
+.step-header.open{border-bottom-left-radius:0;border-bottom-right-radius:0;
+  border-bottom-color:transparent}
+.step-header.guide{border-color:var(--amber);
+  animation:guide-pulse 2.2s ease-in-out infinite}
+@keyframes guide-pulse{
+  0%,100%{box-shadow:0 0 0 3px rgba(212,114,10,.15)}
+  50%{box-shadow:0 0 0 6px rgba(212,114,10,.08),0 0 24px rgba(212,114,10,.2)}}
+.guide-arrow{display:none;align-items:center;gap:6px;font-family:"JetBrains Mono",monospace;
+  font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber)}
+.step-header.guide .guide-arrow{display:flex}
+.step-num{width:34px;height:34px;border-radius:50%;flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;
+  font-family:"Playfair Display",serif;font-size:15px;font-weight:700;color:#fff}
+.step-num-1{background:var(--step1)}.step-num-2{background:var(--step2)}
+.step-num-3{background:var(--step3)}.step-num-4{background:var(--step4)}
+.step-num-r{background:linear-gradient(135deg,var(--amber),var(--accent));font-size:17px}
+.step-info{flex:1;min-width:0}
+.step-title{font-size:15px;font-weight:600;color:var(--text)}
+.step-subtitle{font-size:12px;color:var(--muted);margin-top:1px;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.step-status{font-family:"JetBrains Mono",monospace;font-size:9px;
+  padding:4px 10px;border-radius:20px;flex-shrink:0;white-space:nowrap}
+.step-status.done{background:#e8f7f0;border:1px solid #a8e4c8;color:var(--green)}
+.step-status.todo{background:var(--raised);border:1px solid var(--border);color:var(--muted)}
+.step-chev{color:var(--muted);font-size:16px;flex-shrink:0;transition:transform var(--t)}
+.step-chev.open{transform:rotate(90deg)}
+.step-body{display:none;background:var(--surface);border:1px solid var(--border);
+  border-top:none;border-radius:0 0 var(--radius) var(--radius);padding:14px}
+.step-body.open{display:block}
+
+/* ── FIELDS ── */
+.field{margin-bottom:14px}
+.field:last-child{margin-bottom:0}
+.field-label{font-family:"JetBrains Mono",monospace;font-size:9px;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--muted);
+  margin-bottom:7px;display:flex;align-items:center;justify-content:space-between;gap:8px}
+.field-hint{font-size:9px;color:var(--muted);letter-spacing:0;
+  text-transform:none;font-family:"Inter",sans-serif;font-weight:400}
+.format-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:0}
+@media(max-width:480px){.format-row{grid-template-columns:1fr}}
+.field-row{display:flex;gap:8px;align-items:center}
+.sel-wrap{flex:1;position:relative}
+select{width:100%;background:var(--raised);border:1px solid var(--border);
+  border-radius:8px;color:var(--text);font-family:"Inter",sans-serif;
+  font-size:15px;font-weight:400;padding:11px 36px 11px 14px;
+  cursor:pointer;outline:none;-webkit-appearance:none;appearance:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23a09488'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 12px center;background-size:9px;
+  background-color:var(--raised);transition:border-color var(--t);
+  -webkit-tap-highlight-color:transparent}
+select:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(90,63,212,.12)}
+select.has-val{border-left:3px solid var(--accent);padding-left:12px}
+select option{background:#fff;color:var(--text)}
+select optgroup{color:var(--amber);font-style:normal;font-size:11px}
+@media(max-width:480px){select{font-size:16px;padding:13px 36px 13px 14px;border-radius:10px}}
+.tension-search-input{width:100%;background:var(--raised);border:1px solid var(--border);
+  border-radius:8px;color:var(--dim);font-family:"Inter",sans-serif;
+  font-size:14px;padding:9px 14px;outline:none;margin-bottom:8px;
+  transition:border-color var(--t);-webkit-appearance:none}
+.tension-search-input:focus{border-color:var(--accent);
+  box-shadow:0 0 0 3px rgba(90,63,212,.12)}
+@media(max-width:480px){.tension-search-input{font-size:16px;padding:12px 14px;border-radius:10px}}
+.tension-translation{font-family:"JetBrains Mono",monospace;font-size:10px;
+  color:var(--accent);font-style:italic;padding:5px 2px 0;line-height:1.5;
+  letter-spacing:.01em}
+.icon-btn{background:var(--raised);border:1px solid var(--border);border-radius:8px;
+  color:var(--muted);width:42px;height:42px;flex-shrink:0;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;font-size:16px;
+  transition:all var(--t);-webkit-tap-highlight-color:transparent}
+.icon-btn:hover{border-color:var(--accent);color:var(--accent);background:#ede8ff}
+.icon-btn.locked{border-color:var(--amber);color:var(--amber);background:#fff5e8}
+.ai-btn{background:#fff8e8;border:1px solid #f5d9a8;color:var(--amber);
+  font-family:"JetBrains Mono",monospace;font-size:9px;letter-spacing:.08em;
+  text-transform:uppercase;padding:0 12px;height:42px;cursor:pointer;
+  transition:all var(--t);white-space:nowrap;flex-shrink:0;border-radius:8px;
+  -webkit-tap-highlight-color:transparent}
+.ai-btn:hover{background:#fff0cc;border-color:var(--amber)}
+@media(max-width:480px){.icon-btn{width:44px;height:44px}.ai-btn{height:44px}}
+.pill-row{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.pill{background:transparent;border:1px solid var(--border);border-radius:20px;
+  color:var(--dim);font-family:"JetBrains Mono",monospace;font-size:10px;
+  padding:5px 14px;cursor:pointer;transition:all var(--t);
+  -webkit-tap-highlight-color:transparent}
+.pill:hover{border-color:var(--accent);color:var(--accent)}
+.pill.active{background:#ede8ff;border-color:var(--accent);color:var(--accent)}
+@media(max-width:480px){.pill{padding:8px 16px;font-size:11px}}
+
+/* ── ACTIONS ── */
+.actions-row{display:flex;gap:10px;margin-top:16px}
+.btn-primary{background:var(--accent);border:none;color:#fff;
+  font-family:"Inter",sans-serif;font-size:14px;font-weight:600;
+  padding:13px;border-radius:10px;cursor:pointer;flex:1;
+  box-shadow:0 3px 16px rgba(90,63,212,.35);transition:all var(--t);
+  -webkit-tap-highlight-color:transparent}
+.btn-primary:hover{transform:translateY(-1px);box-shadow:0 5px 20px rgba(90,63,212,.45)}
+.btn-secondary{background:var(--raised);border:1px solid var(--border);
+  color:var(--dim);font-family:"JetBrains Mono",monospace;font-size:10px;
+  letter-spacing:.06em;text-transform:uppercase;padding:13px 16px;
+  border-radius:10px;cursor:pointer;transition:all var(--t);
+  -webkit-tap-highlight-color:transparent}
+.btn-secondary:hover{border-color:var(--accent);color:var(--accent)}
+@media(max-width:480px){
+  .actions-row{flex-direction:column}
+  .btn-primary{padding:16px;font-size:15px;border-radius:14px}
+  .actions-row-secondary{display:flex;gap:10px}
+  .btn-secondary{flex:1;padding:14px 10px}
+}
+
+/* ── SECTION DIVIDER ── */
+.section-divider{display:flex;align-items:center;gap:10px;
+  margin:20px 0 8px;font-family:"JetBrains Mono",monospace;font-size:9px;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:var(--border)}
+
+/* ── REWRITE ── */
+.rewrite-hdr{background:linear-gradient(135deg,#fff8ee,#f0ebff) !important}
+.btn-rewrite{width:100%;background:linear-gradient(135deg,#fff5e8,#ede8ff);
+  border:1px solid var(--border-strong);color:var(--text);
+  font-family:"Inter",sans-serif;font-size:14px;font-weight:600;
+  padding:14px;border-radius:10px;cursor:pointer;transition:all var(--t);margin-bottom:8px;
+  -webkit-tap-highlight-color:transparent}
+.btn-rewrite:hover{border-color:var(--accent)}
+.btn-rewrite:disabled{opacity:.4;cursor:not-allowed}
+.rewrite-note{font-family:"JetBrains Mono",monospace;font-size:9px;
+  color:var(--muted);text-align:center;letter-spacing:.04em;margin-bottom:14px}
+.variants{display:flex;flex-direction:column;gap:8px}
+.variant{background:var(--raised);border:1px solid var(--border);
+  border-radius:10px;padding:14px}
+.v-label{font-family:"JetBrains Mono",monospace;font-size:9px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--accent);margin-bottom:6px;font-weight:500}
+.v-text{font-family:"JetBrains Mono",monospace;font-size:11px;line-height:1.75;color:var(--dim)}
+.v-meta{display:flex;align-items:center;gap:8px;margin-top:10px}
+.v-copy{background:transparent;border:1px solid var(--border);border-radius:6px;
+  color:var(--muted);font-size:10px;font-family:"JetBrains Mono",monospace;
+  padding:7px 14px;cursor:pointer;margin-left:auto;transition:all var(--t);
+  -webkit-tap-highlight-color:transparent}
+.v-copy:hover,.v-copy.copied{border-color:var(--green);color:var(--green)}
+
+/* ── HISTORY ── */
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:12px 14px}
+.hist-hdr{display:flex;align-items:center;justify-content:space-between;
+  padding-bottom:8px;border-bottom:1px solid var(--border);margin-bottom:8px}
+.hist-count{font-family:"JetBrains Mono",monospace;font-size:9px;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.hist-clear{background:transparent;border:none;color:var(--muted);
+  font-family:"JetBrains Mono",monospace;font-size:9px;cursor:pointer;
+  text-transform:uppercase;padding:4px 0}
+.hist-clear:hover{color:var(--rose)}
+.hist-item{width:100%;background:transparent;border:1px solid transparent;
+  border-radius:8px;color:var(--dim);font-family:"JetBrains Mono",monospace;
+  font-size:10px;padding:10px 12px;cursor:pointer;text-align:left;
+  line-height:1.5;transition:all var(--t);white-space:nowrap;
+  overflow:hidden;text-overflow:ellipsis;display:block;
+  -webkit-tap-highlight-color:transparent}
+.hist-item:hover{border-color:var(--border);background:var(--raised);color:var(--text)}
+@media(max-width:480px){.hist-item{padding:12px 14px;font-size:11px}}
+
+/* ── SOCIAL ── */
+.social-band{background:white;border:1px solid var(--border);border-radius:var(--radius);
+  padding:20px;text-align:center}
+.social-eyebrow{font-family:"JetBrains Mono",monospace;font-size:9px;
+  letter-spacing:.2em;text-transform:uppercase;color:var(--amber);margin-bottom:8px}
+.social-text{font-size:13px;color:var(--dim);margin-bottom:14px;line-height:1.5}
+.social-links{display:flex;gap:10px;justify-content:center}
+.social-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;
+  border-radius:24px;text-decoration:none;font-family:"Inter",sans-serif;
+  font-size:13px;font-weight:600;transition:all var(--t)}
+.social-btn--tiktok{background:#1a1612;color:#fff}
+.social-btn--instagram{background:linear-gradient(135deg,#f5a060,#e04070);color:#fff}
+@media(max-width:480px){
+  .social-btn{flex:1;justify-content:center;padding:14px 12px}
+}
+
+/* ── FOOTER ── */
+footer{background:var(--surface);border-top:1px solid var(--border);
+  padding:20px;text-align:center;margin-top:8px}
+footer p{font-family:"JetBrains Mono",monospace;font-size:9px;
+  color:var(--muted);letter-spacing:.04em;line-height:2.2}
+footer a{color:var(--accent);text-decoration:none}
+
+/* ── MISC ── */
+@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.spacer{height:20px}
 </style>
 </head>
 <body>
-<header class="hdr" style="top:0">
-  <div class="hdr-logo">
-    <div style="display:inline-flex;align-items:center;gap:6px;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-weight:700;font-size:1.1rem;letter-spacing:-.02em;user-select:none">
-      <span class="l-couples">Couples</span>
-      <span class="l-ai">AI</span>
-      <span class="l-portrait">Portrait</span>
-      <span class="l-gen">Generator</span>
+
+<!-- TIPS MODAL -->
+<div class="modal-bg" id="modal-bg" onclick="closeHelp()">
+  <div class="modal" onclick="event.stopPropagation()">
+    <div class="modal-hdr">
+      <span class="modal-title">Tips for Better Prompts</span>
+      <button class="modal-close" onclick="closeHelp()">&#x2715;</button>
+    </div>
+    <div class="modal-body" id="tips-modal-body">
+      <div class="tip-block">
+        <div class="tip-label">1 — Start with World &amp; Tension</div>
+        <div class="tip-text">Step 2 opens automatically on every load. Search 50 worlds by typing in the search box or browse by category. Pick a tension — a poetic translation appears beneath it so you know the exact mood it creates. Tension unlocks the affinity system: curated locations, poses and looks matched to that emotional register appear at the top of every other dropdown.</div>
+      </div>
+      <div class="tip-block">
+        <div class="tip-label">2 — Tension is mood, not instruction</div>
+        <div class="tip-text">Every prompt ends with: <em>"The emotional tension (X) is a mood and atmosphere directive only — do not illustrate it literally."</em> AI models read "buried vs. exposed" and try to show someone literally buried. The directive prevents that.</div>
+      </div>
+      <div class="tip-block">
+        <div class="tip-label">3 — Lock &amp; Spin Unlocked</div>
+        <div class="tip-text">Lock any field with the padlock — including World and Tension. Then hit <strong>Spin Unlocked</strong> to explore every combination within your locked anchor. Locks survive Randomize All and Clear.</div>
+      </div>
+      <div class="tip-block">
+        <div class="tip-label">4 — Keyboard shortcuts</div>
+        <div class="tip-text">Press <strong>/</strong> to jump to world search. Press <strong>1 2 3 4</strong> to toggle steps. Press <strong>Alt+R</strong> to randomize. Press <strong>Alt+C</strong> to copy the prompt. Press <strong>Escape</strong> to close any modal.</div>
+      </div>
+      <div class="tip-block">
+        <div class="tip-label">5 — &#x2726; AI decides</div>
+        <div class="tip-text">Every field has a <strong>&#x2726; AI</strong> button. Tap it to leave that field open to the model. Setting 2–3 fields manually and leaving 1–2 to AI often produces the strongest results.</div>
+      </div>
+      <div class="tip-block">
+        <div class="tip-label">6 — Randomize All opens every step</div>
+        <div class="tip-text">Hit <strong>✦ Randomize All</strong> and all four steps open automatically showing what was selected. Lock what you like, then Spin Unlocked to explore variations. <strong>Alt+R</strong> randomizes from anywhere.</div>
+      </div>
+      <div class="tip-block">
+        <div class="tip-label">7 — Mood worlds auto-set lighting</div>
+        <div class="tip-text">Selecting DUSK, SPRING, ROMANCE, GOLD, NIGHT, RAIN or COLD automatically sets lighting to <strong>&#x2726; AI decides</strong>. Override manually if you want explicit control.</div>
+      </div>
+      <div class="tip-block">
+        <div class="tip-label">8 — Shot type front-loads composition</div>
+        <div class="tip-text">Shot type appears first in the prompt — image models weight early tokens most heavily. <em>Extreme close-up</em> forces focus on faces. <em>Wide environmental</em> makes the world as important as the subjects.</div>
+      </div>
+      <div class="tip-block">
+        <div class="tip-label">9 — Era as tonal modifier</div>
+        <div class="tip-text">Era appends a period and palette modifier. Tap the active pill again — or hit the <strong>✕ clear</strong> button — to deselect. Use era when a prompt feels too generic.</div>
+      </div>
+      <div class="tip-block">
+        <div class="tip-label">10 — Coherence badge</div>
+        <div class="tip-text">Green <strong>✦ Cohesive</strong> / amber <strong>◐ Moderate</strong> / red <strong>○ Scattered</strong> scores your combination against the tension's affinity map. Tap or hover to see why. Scattered can produce more distinctive images.</div>
+      </div>
+      <div class="tip-block">
+        <div class="tip-label">11 — Shareable links</div>
+        <div class="tip-text">Every selection encodes into the URL in real time. Hit <strong>Share</strong> in the prompt bar to copy a link that restores the exact same state for anyone who opens it.</div>
+      </div>
+      <div class="tip-block">
+        <div class="tip-label">12 — Rewrite auto-generates</div>
+        <div class="tip-text">Opening the Rewrite &amp; Tighten accordion when a prompt exists automatically generates all 5 variants. Each variant copy button turns green with ✓ Copied. History saves your last 20 prompts locally.</div>
+      </div>
+      <div class="tip-block">
+        <div class="tip-label">13 — Specificity beats completeness</div>
+        <div class="tip-text">A sharp tension + one strong location often beats all seven fields filled with mediocre choices. Fill what you care about and let AI interpret the rest.</div>
+      </div>
+      <div class="tip-block">
+        <div class="tip-label">14 — Recommended pairings</div>
+        <div class="tip-text"><em>GLASS × real vs. reflected</em> · <em>STAGE × spotlight vs. shadow</em> · <em>UNDERWORLD × love vs. loss eternal</em> · <em>EXPEDITION × wonder vs. fear</em> · <em>CIRCUS × trust vs. fear</em> · <em>MONASTERY × devotion vs. doubt</em> · <em>STORM × force vs. shelter</em> · <em>FARM × seed vs. harvest</em> · <em>PIER × end vs. beginning</em> · <em>ROOFTOP × golden hour vs. blue hour</em></div>
+      </div>
+      <div class="tip-block" style="border-top:2px solid rgba(255,255,255,.08);padding-top:16px">
+        <div class="tip-label" style="color:#c0a0ff">The 5 Rewrite Variants</div>
+        <div class="tip-text"><strong>1 — Cinematic Scale:</strong> Tension leads, pose fused with location.<br><strong>2 — Intimacy:</strong> Pose leads, location frames, tension last as subtext.<br><strong>3 — Essential:</strong> Tension as standalone statement, compressed.<br><strong>4 — Location-Led:</strong> Location opens, tension and pose embedded.<br><strong>5 — Wardrobe-Led:</strong> Look establishes visual register, tension follows.</div>
+      </div>
     </div>
   </div>
-  <div class="hdr-btns">
-    <button class="hdr-btn hdr-btn-how" onclick="openHowTo()">&#x25B8; How To</button>
-    <button class="hdr-btn" onclick="openHelp()">? Tips</button>
-  </div>
-</header>
+</div>
 
 <!-- HOW-TO MODAL -->
 <div class="howto-bg" id="howto-bg" onclick="closeHowTo()">
   <div class="howto-modal" onclick="event.stopPropagation()">
     <div class="howto-hdr">
       <span class="howto-title">How to Use Your Prompt</span>
-      <button onclick="closeHowTo()" style="color:#ede8f5;font-size:22px;font-weight:300;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:50%;width:32px;height:32px;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;line-height:1">&#x2715;</button>
+      <button class="modal-close" onclick="closeHowTo()">&#x2715;</button>
     </div>
     <div class="howto-body">
-      <div class="howto-intro">Using with Google Gemini AI &mdash; step by step</div>
-      <div class="howto-steps">
-        <div class="howto-step">
-          <div class="howto-step-num s1">1</div>
-          <div class="howto-step-body">
-            <div class="howto-step-title">Choose a World &amp; Tension</div>
-            <div class="howto-step-desc">Step 2 opens automatically on load. Search 50 worlds by typing in the search box, or browse the dropdown by category. Pick a tension &mdash; a poetic translation appears beneath it so you know exactly what mood it creates. Lock either field to keep it while spinning others.</div>
-            <span class="howto-step-tag tag-tip">&#x25B8; Press / to focus world search instantly</span>
-          </div>
+      <div class="howto-intro">Using with Google Gemini AI — step by step</div>
+      <div class="howto-step">
+        <div class="howto-step-num step-num-1" style="background:var(--step1)">1</div>
+        <div>
+          <div class="howto-step-title">Choose a World &amp; Tension</div>
+          <div class="howto-step-desc">Step 2 opens automatically. Search 50 worlds or browse by category. Pick a tension — a poetic translation appears beneath it. Lock either field to keep it while spinning others.</div>
+          <span class="howto-step-tag tag-tip">&#x25B8; Press / to focus world search instantly</span>
         </div>
-        <div class="howto-step">
-          <div class="howto-step-num s2">2</div>
-          <div class="howto-step-body">
-            <div class="howto-step-title">Build the scene or Randomize</div>
-            <div class="howto-step-desc">Fill Steps 3 &amp; 4 with location, pose, wardrobe and lighting &mdash; affinity-matched options appear at the top of each dropdown. Or hit <strong>✦ Randomize All</strong> to generate a complete prompt instantly. All four steps open automatically showing what was selected.</div>
-            <span class="howto-step-tag tag-tip">&#x25B8; Alt+R randomizes from anywhere on the page</span>
-          </div>
+      </div>
+      <div class="howto-step">
+        <div class="howto-step-num" style="background:var(--step2);width:34px;height:34px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:15px;font-weight:700;color:#fff">2</div>
+        <div>
+          <div class="howto-step-title">Build the scene or Randomize</div>
+          <div class="howto-step-desc">Fill Steps 3 &amp; 4 with location, pose, wardrobe and lighting. Or hit <strong>✦ Randomize All</strong> to generate a complete prompt instantly. All steps open showing what was selected.</div>
+          <span class="howto-step-tag tag-tip">&#x25B8; Alt+R randomizes from anywhere</span>
         </div>
-        <div class="howto-step">
-          <div class="howto-step-num s3">3</div>
-          <div class="howto-step-body">
-            <div class="howto-step-title">Copy your prompt</div>
-            <div class="howto-step-desc">Hit <strong>Copy</strong> in the prompt bar &mdash; it turns green with ✓ Copied for confirmation. The mood directive at the end tells the AI model the tension is atmosphere only, not something to illustrate literally. Hit <strong>Share</strong> to copy a link that restores the exact same state for anyone who opens it.</div>
-            <span class="howto-step-tag tag-tip">&#x25B8; Alt+C copies from anywhere on the page</span>
-          </div>
+      </div>
+      <div class="howto-step">
+        <div class="howto-step-num" style="background:var(--step3);width:34px;height:34px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:15px;font-weight:700;color:#fff">3</div>
+        <div>
+          <div class="howto-step-title">Copy your prompt</div>
+          <div class="howto-step-desc">Hit <strong>Copy</strong> in the prompt bar — it turns green with ✓ Copied. The mood directive tells the AI the tension is atmosphere only. Hit <strong>Share</strong> to copy a link restoring this exact state.</div>
+          <span class="howto-step-tag tag-tip">&#x25B8; Alt+C copies from anywhere</span>
         </div>
-        <div class="howto-step">
-          <div class="howto-step-num s4">4</div>
-          <div class="howto-step-body">
-            <div class="howto-step-title">Open Gemini and paste</div>
-            <div class="howto-step-desc">Go to <strong>gemini.google.com</strong> and sign in. Upload a photo of your subject, paste the prompt, and send. Use <strong>Gemini 2.5 Pro</strong> for best face preservation. Works equally well with Midjourney, Flux, Leonardo AI and Stable Diffusion.</div>
-            <span class="howto-step-tag tag-gemini">gemini.google.com</span>
-          </div>
+      </div>
+      <div class="howto-step">
+        <div class="howto-step-num" style="background:var(--step4);width:34px;height:34px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:15px;font-weight:700;color:#fff">4</div>
+        <div>
+          <div class="howto-step-title">Open Gemini and paste</div>
+          <div class="howto-step-desc">Go to <strong>gemini.google.com</strong>, upload a photo of your subject, paste the prompt and send. Use <strong>Gemini 2.5 Pro</strong> for best results. Also works with Midjourney, Flux, Leonardo AI.</div>
+          <span class="howto-step-tag tag-gemini">gemini.google.com</span>
         </div>
-        <div class="howto-step">
-          <div class="howto-step-num" style="background:linear-gradient(135deg,var(--amber),var(--accent));color:#fff;width:36px;height:36px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700">&#x25C8;</div>
-          <div class="howto-step-body">
-            <div class="howto-step-title">Rewrite &amp; Tighten if needed</div>
-            <div class="howto-step-desc">Open the Rewrite &amp; Tighten accordion &mdash; 5 variants generate automatically. Each restructures the same selections with a different editorial strategy: Cinematic Scale, Intimacy, Essential, Location-Led, Wardrobe-Led. Copy whichever matches your intent. History saves your last 20 prompts automatically.</div>
-            <span class="howto-step-tag tag-tip">&#x25B8; Try all 5 variants for different compositions</span>
-          </div>
+      </div>
+      <div class="howto-step" style="border-bottom:none">
+        <div class="howto-step-num" style="background:linear-gradient(135deg,var(--amber),var(--accent));width:34px;height:34px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:#fff">&#x25C8;</div>
+        <div>
+          <div class="howto-step-title">Rewrite &amp; Tighten if needed</div>
+          <div class="howto-step-desc">Open Rewrite &amp; Tighten — 5 variants generate automatically. Each restructures the same selections with a different strategy. History saves your last 20 prompts.</div>
+          <span class="howto-step-tag tag-tip">&#x25B8; Try all 5 variants for different compositions</span>
         </div>
       </div>
     </div>
@@ -626,210 +523,110 @@ footer a{color:var(--accent);text-decoration:none}
   </div>
 </div>
 
-<!-- HELP MODAL -->
-<div class="modal-bg" id="modal-bg" onclick="closeHelp()">
-  <div class="modal" onclick="event.stopPropagation()">
-    <div class="modal-hdr">
-      <span class="modal-title">Tips for Better Prompts</span>
-      <button class="modal-close" onclick="closeHelp()">&#x2715;</button>
-    </div>
-    <div class="modal-body">
-
-      <div class="tip-block">
-        <div class="tip-label">1 — Start with World &amp; Tension</div>
-        <div class="tip-text">Step 2 opens automatically on every load. Search 50 worlds by typing in the search box or browse by category. Pick a tension &mdash; a poetic translation appears beneath it so you know the exact mood it creates. Tension unlocks the affinity system: curated locations, poses and looks matched to that emotional register appear at the top of every other dropdown.</div>
-      </div>
-
-      <div class="tip-block">
-        <div class="tip-label">2 — Tension is mood, not instruction</div>
-        <div class="tip-text">Every prompt ends with: <em>"The emotional tension (X) is a mood and atmosphere directive only &mdash; do not illustrate it literally."</em> AI models read "buried vs. exposed" and try to show someone literally buried. The directive prevents that. The tension is there to give the image a feeling, not a scene.</div>
-      </div>
-
-      <div class="tip-block">
-        <div class="tip-label">3 — Lock &amp; Spin Unlocked</div>
-        <div class="tip-text">Lock any field with the padlock &mdash; including World and Tension. Then hit <strong>Spin Unlocked</strong> to explore every combination within your locked anchor. Locks survive Randomize All. Use this to find the best pose and wardrobe within a fixed world and tension.</div>
-      </div>
-
-      <div class="tip-block">
-        <div class="tip-label">4 — Keyboard shortcuts</div>
-        <div class="tip-text">Press <strong>/</strong> to jump to world search from anywhere. Press <strong>1 2 3 4</strong> to toggle step accordions. Press <strong>Alt+R</strong> to randomize. Press <strong>Alt+C</strong> to copy the prompt. Press <strong>Escape</strong> to close any modal or tooltip. All shortcuts are disabled when you're typing in an input.</div>
-      </div>
-
-      <div class="tip-block">
-        <div class="tip-label">5 — &#x2726; AI decides</div>
-        <div class="tip-text">Every field has a <strong>&#x2726; AI</strong> button. Tap it to leave that field open to the model. The button spins briefly to confirm. Setting 2&ndash;3 fields manually and leaving 1&ndash;2 to AI often produces the strongest results. Use it on pose when your manual choice feels stiff, or wardrobe when you want the model to interpret the world freely.</div>
-      </div>
-
-      <div class="tip-block">
-        <div class="tip-label">6 — Randomize All opens every step</div>
-        <div class="tip-text">Hit <strong>✦ Randomize All</strong> and all four steps open automatically. Step headers flash to draw attention. The tension translation appears immediately. Lock what you like, then Spin Unlocked to explore variations. Press <strong>Alt+R</strong> to randomize from anywhere on the page.</div>
-      </div>
-
-      <div class="tip-block">
-        <div class="tip-label">7 — Mood worlds auto-set lighting</div>
-        <div class="tip-text">Selecting DUSK, SPRING, ROMANCE, GOLD, NIGHT, RAIN or COLD automatically sets lighting to <strong>&#x2726; AI decides</strong>. These worlds embed lighting in their tension phrases and locations &mdash; adding an explicit lighting choice creates redundancy. Override manually if you want explicit control.</div>
-      </div>
-
-      <div class="tip-block">
-        <div class="tip-label">8 — Shot type front-loads composition</div>
-        <div class="tip-text">Shot type appears first in the prompt &mdash; image models weight early tokens most heavily. <em>Extreme close-up</em> forces focus on faces. <em>Wide environmental</em> makes the world as important as the subjects. <em>Low angle heroic</em> changes power and posture. Set shot type when composition matters most.</div>
-      </div>
-
-      <div class="tip-block">
-        <div class="tip-label">9 — Era as tonal modifier</div>
-        <div class="tip-text">Era appends a period and palette modifier. <em>1970s</em> on Mountain nudges earth tones and film grain. <em>1980s</em> on City pushes neon and hard shadow. Tap the active pill again &mdash; or hit the rose-coloured <strong>✕ clear</strong> button &mdash; to deselect. Use era when a prompt feels too generic.</div>
-      </div>
-
-      <div class="tip-block">
-        <div class="tip-label">10 — Coherence badge</div>
-        <div class="tip-text">Green <strong>✦ Cohesive</strong> / amber <strong>◐ Moderate</strong> / red <strong>○ Scattered</strong> scores your combination against the tension's affinity map. Tap or hover to see exactly why. Scattered isn't bad &mdash; it means working against the grain intentionally, which often produces more distinctive images.</div>
-      </div>
-
-      <div class="tip-block">
-        <div class="tip-label">11 — Shareable links</div>
-        <div class="tip-text">Every selection encodes into the URL in real time. Hit <strong>Share</strong> in the prompt bar to copy a link that restores the exact same state for anyone who opens it. Browser back and forward navigates between states. Bookmark your favourite combinations.</div>
-      </div>
-
-      <div class="tip-block">
-        <div class="tip-label">12 — Rewrite auto-generates</div>
-        <div class="tip-text">Opening the Rewrite &amp; Tighten accordion when a prompt exists automatically generates all 5 variants. No need to tap Generate separately. Each variant copy button turns green with ✓ Copied for confirmation. History saves your last 20 prompts locally and never leaves your device.</div>
-      </div>
-
-      <div class="tip-block">
-        <div class="tip-label">13 — Specificity beats completeness</div>
-        <div class="tip-text">A sharp tension + one strong location often beats all seven fields filled with mediocre choices. Fill what you care about and let AI interpret the rest. The quality hint bar gives world-specific guidance as you build &mdash; it knows which fields matter most for each world category.</div>
-      </div>
-
-      <div class="tip-block">
-        <div class="tip-label">14 — Recommended pairings</div>
-        <div class="tip-text"><em>GLASS &times; real vs. reflected</em> &middot; <em>STAGE &times; spotlight vs. shadow</em> &middot; <em>MYSTERY &times; face vs. mask</em> &middot; <em>UNDERWORLD &times; love vs. loss eternal</em> &middot; <em>EXPEDITION &times; wonder vs. fear</em> &middot; <em>CIRCUS &times; trust vs. fear</em> &middot; <em>MONASTERY &times; devotion vs. doubt</em> &middot; <em>STORM &times; force vs. shelter</em> &middot; <em>UNDERGROUND &times; seen vs. invisible</em> &middot; <em>FARM &times; seed vs. harvest</em> &middot; <em>PIER &times; end vs. beginning</em> &middot; <em>MARKET &times; familiar vs. exotic</em> &middot; <em>ROOFTOP &times; golden hour vs. blue hour</em> &middot; <em>ABSURD &times; calm vs. everything going sideways</em>.</div>
-      </div>
-
-      <div class="tip-block" style="border-top:2px solid rgba(255,255,255,.08);padding-top:16px">
-        <div class="tip-label" style="color:#c0a0ff">The 5 Rewrite Variants</div>
-        <div class="tip-text"><strong>1 &mdash; Cinematic Scale:</strong> Tension leads, pose fused with location by a connector.<br><strong>2 &mdash; Intimacy:</strong> Pose leads, location frames, tension arrives last as subtext.<br><strong>3 &mdash; Essential:</strong> Tension as standalone statement, pose and location compressed into one image.<br><strong>4 &mdash; Location-Led:</strong> Location opens, tension and pose embedded within it.<br><strong>5 &mdash; Wardrobe-Led:</strong> Look establishes visual register, tension and pose follow.<br><br>The order elements appear changes how the image model weights them. All 5 include the mood directive.</div>
-      </div>
-
-    </div>
-</div>
+<!-- HEADER -->
+<header class="hdr">
+  <div class="hdr-logo">
+    <span class="l-couples">Couples</span><span class="l-ai">AI</span>
+    <span class="l-portrait">Portrait</span><span class="l-gen">Generator</span>
+  </div>
+  <div class="hdr-btns">
+    <button class="hdr-btn hdr-btn-how" onclick="openHowTo()">&#x25B8; How To</button>
+    <button class="hdr-btn" onclick="openHelp()">? Tips</button>
+  </div>
+</header>
 
 <!-- HERO -->
-<section class="hero" aria-label="CouplesAI Portrait Generator">
-  <h1 style="display:none">CouplesAI Portrait Generator — Cinematic AI Portraits</h1>
-  <span class="hero-eyebrow">Free &middot; Open &middot; Cinematic</span>
-  <h2 style="font-family:'Playfair Display',serif;font-size:clamp(26px,6vw,46px);font-weight:900;line-height:1.1;margin-bottom:10px;color:var(--text)">
-    CouplesAI <em style="font-style:italic;color:var(--amber)">Portrait</em><br>Generator
-  </h2>
-  <p class="hero-sub"><span id="hero-sub-worlds">37</span> cinematic worlds. <span id="hero-sub-tensions">740+</span> tensions. Lighting, shot type &amp; wardrobe. Free forever.</p>
+<section class="hero">
+  <span class="hero-eyebrow">Free · Open · Cinematic</span>
+  <h1>CouplesAI <em>Portrait</em> Generator</h1>
+  <p class="hero-sub"><span id="hero-sub-worlds">50</span> cinematic worlds. <span id="hero-sub-tensions">1000+</span> tensions. Lighting, shot type &amp; wardrobe. Free forever.</p>
   <div class="hero-stats">
-    <div class="hero-stat"><div class="hero-stat-n" id="stat-worlds">37</div><div class="hero-stat-l">Worlds</div></div>
-    <div class="hero-stat"><div class="hero-stat-n" id="stat-tensions">740+</div><div class="hero-stat-l">Tensions</div></div>
+    <div class="hero-stat"><div class="hero-stat-n" id="stat-worlds">50</div><div class="hero-stat-l">Worlds</div></div>
+    <div class="hero-stat"><div class="hero-stat-n" id="stat-tensions">1000+</div><div class="hero-stat-l">Tensions</div></div>
     <div class="hero-stat"><div class="hero-stat-n">5</div><div class="hero-stat-l">Variants</div></div>
     <div class="hero-stat"><div class="hero-stat-n">&#x221E;</div><div class="hero-stat-l">Prompts</div></div>
   </div>
-  <div class="world-ticker">
-    <div class="world-ticker-inner" id="world-ticker-inner"></div>
-  </div>
+  <div class="world-ticker"><div class="world-ticker-inner" id="world-ticker-inner"></div></div>
 </section>
 
 <!-- PROMPT BAR -->
 <div class="prompt-bar">
-  <!-- Mobile collapsed strip -->
-  <div class="prompt-strip" id="prompt-strip" onclick="togglePromptBar()">
-    <div class="prompt-strip-label"><span class="pbl-dot"></span> Live Prompt</div>
-    <span class="prompt-strip-wc" id="prompt-strip-wc"></span>
-    <button class="prompt-strip-copy" onclick="event.stopPropagation();copyPrompt()">Copy</button>
-    <span class="prompt-strip-chev" id="prompt-strip-chev">▾</span>
-  </div>
-  <!-- Full prompt content -->
-  <div class="prompt-bar-inner" id="prompt-bar-inner">
-
   <div class="prompt-bar-label"><span class="pbl-dot"></span> Live Prompt</div>
-  <div class="prompt-text" id="pt"><span class="pt-empty">Select a world to begin</span></div>
+  <div class="prompt-text" id="pt"><span class="pt-empty">Choose a world to begin &#x2193;</span></div>
   <div class="prompt-meta">
     <span class="wc" id="wc"></span>
     <div class="coh" id="coh" onclick="toggleCohTooltip()"></div>
     <div class="coh-tooltip" id="coh-tooltip"></div>
     <button class="btn-copy" id="btn-copy" onclick="copyPrompt()">Copy</button>
-    <button class="btn-share" id="btn-share" onclick="copyShareURL()" title="Copy shareable link">Share</button>
+    <button class="btn-share" id="btn-share" onclick="copyShareURL()">Share</button>
   </div>
 </div>
-  </div>
+
+<!-- QUALITY BAR -->
+<div class="quality-bar" id="quality-bar">
+  <div id="quality-hint-text"></div>
 </div>
-<div class="quality-bar" id="quality-bar"><div class="quality-hint" id="quality-hint-text"></div></div>
 
 <!-- MAIN -->
 <div class="main">
 
-  <!-- STEP 1: FORMAT & SUBJECT -->
+  <!-- STEP 1 -->
   <div class="step-block" id="step-block-1">
-    <div class="step-header" onclick="toggleStep(1)">
+    <div class="step-header" id="step1-header" onclick="toggleStep(1)">
       <div class="step-num step-num-1">1</div>
       <div class="step-info">
         <div class="step-title">Format &amp; Subject</div>
-        <div class="step-subtitle" id="step-sub-1">Ratio &middot; Who is in the photo</div>
+        <div class="step-subtitle" id="step-sub-1">4:5 · Couple</div>
       </div>
-      <div class="step-status" id="step-status-1">To do</div>
-      <span class="step-chevron" id="step-chev-1">&#x203A;</span>
+      <div class="step-status todo" id="step-status-1">To do</div>
+      <span class="step-chev" id="step-chev-1">&#x203A;</span>
     </div>
     <div class="step-body" id="step-body-1">
       <div class="format-row">
         <div class="field">
           <div class="field-label">Aspect Ratio</div>
-          <div class="sel-wrap">
-            <select id="s-ratio" onchange="onRatio()">
-              <option value="9:16">9:16 &mdash; Portrait</option>
-            </select>
-          </div>
+          <select id="s-ratio" onchange="onRatio()"></select>
         </div>
         <div class="field">
           <div class="field-label">Subject</div>
-          <div class="sel-wrap">
-            <select id="s-subject" onchange="onSubject()">
-              <option value="couple" selected>Couple &mdash; 2 people</option>
-            </select>
-          </div>
+          <select id="s-subject" onchange="onSubject()"></select>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- STEP 2: WORLD & TENSION -->
+  <!-- STEP 2 -->
   <div class="step-block" id="step-block-2">
-    <div class="step-header" onclick="toggleStep(2)" id="step2-header">
+    <div class="step-header" id="step2-header" onclick="toggleStep(2)">
       <div class="step-num step-num-2">2</div>
       <div class="step-info">
         <div class="step-title">World &amp; Tension</div>
-        <div class="step-subtitle" id="step-sub-2">Visual universe &middot; Emotional core</div>
+        <div class="step-subtitle" id="step-sub-2">Visual universe · Emotional core</div>
         <div class="guide-arrow">&#x2191; Start here</div>
       </div>
-      <div class="step-status" id="step-status-2">To do</div>
-      <span class="step-chevron" id="step-chev-2">&#x203A;</span>
+      <div class="step-status todo" id="step-status-2">To do</div>
+      <span class="step-chev" id="step-chev-2">&#x203A;</span>
     </div>
     <div class="step-body" id="step-body-2">
       <div class="field">
-        <div class="field-label">World <span class="field-hint">Choose your visual universe</span></div>
-        <input id="world-search" type="text" placeholder="&#x1F50D; search worlds... (press / to focus)"
-          oninput="filterWorlds(this.value)"
-          class="tension-search-input"
-          onfocus="this.style.borderColor='var(--accent)'"
-          onblur="this.style.borderColor='var(--border)'">
-        <div class="field-row" style="margin-top:6px">
+        <div class="field-label">World <span class="field-hint">Search or scroll 50 worlds</span></div>
+        <input id="world-search" type="text" class="tension-search-input"
+          placeholder="&#x1F50D; search worlds... (press / to focus)"
+          oninput="filterWorlds(this.value)">
+        <div class="field-row">
           <div class="sel-wrap">
             <select id="s-world" onchange="onWorldChange();clearWorldSearch();">
               <option value="">&#x2014; choose world &#x2014;</option>
             </select>
           </div>
-          <button class="icon-btn lock" id="lk-world" onclick="toggleLock('world')" title="Lock world">&#x1F513;</button>
+          <button class="icon-btn locked" id="lk-world" onclick="toggleLock('world')" title="Lock world">&#x1F513;</button>
         </div>
       </div>
       <div class="field">
         <div class="field-label">Tension <span class="field-hint">The emotional core</span></div>
-        <input id="tension-search" type="text" placeholder="&#x1F50D; filter tensions..."
-          oninput="filterTensions(this.value)"
-          class="tension-search-input"
-          onfocus="this.style.borderColor='var(--accent)'"
-          onblur="this.style.borderColor='var(--border)'">
+        <input id="tension-search" type="text" class="tension-search-input"
+          placeholder="&#x1F50D; filter tensions..."
+          oninput="filterTensions(this.value)">
         <div class="field-row">
           <div class="sel-wrap">
             <select id="s-tension" onchange="onTensionChange()" disabled>
@@ -837,27 +634,26 @@ footer a{color:var(--accent);text-decoration:none}
             </select>
           </div>
           <button class="ai-btn" id="ai-tension" onclick="aiClick('tension')">&#x2726; AI</button>
-          <button class="icon-btn lock" id="lk-tension" onclick="toggleLock('tension')" title="Lock tension">&#x1F513;</button>
+          <button class="icon-btn" id="lk-tension" onclick="toggleLock('tension')" title="Lock tension">&#x1F513;</button>
           <button class="icon-btn" onclick="rerollDial('tension')" title="Reroll">&#x21BA;</button>
         </div>
-        <div id="tension-translation" style="display:none;font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--accent);font-style:italic;padding:6px 2px 0;line-height:1.5;letter-spacing:.01em"></div>
+        <div class="tension-translation" id="tension-translation" style="display:none"></div>
       </div>
     </div>
   </div>
 
-  <!-- STEP 3: SCENE -->
+  <!-- STEP 3 -->
   <div class="step-block" id="step-block-3">
-    <div class="step-header" onclick="toggleStep(3)">
+    <div class="step-header" id="step3-header" onclick="toggleStep(3)">
       <div class="step-num step-num-3">3</div>
       <div class="step-info">
         <div class="step-title">Scene</div>
-        <div class="step-subtitle" id="step-sub-3">Location &middot; Pose &middot; Shot type</div>
+        <div class="step-subtitle" id="step-sub-3">Location · Pose · Shot type</div>
       </div>
-      <div class="step-status" id="step-status-3">To do</div>
-      <span class="step-chevron" id="step-chev-3">&#x203A;</span>
+      <div class="step-status todo" id="step-status-3">To do</div>
+      <span class="step-chev" id="step-chev-3">&#x203A;</span>
     </div>
     <div class="step-body" id="step-body-3">
-      <!-- Location -->
       <div class="field">
         <div class="field-label">Location <span class="field-hint">Where it happens</span></div>
         <div class="field-row">
@@ -868,11 +664,10 @@ footer a{color:var(--accent);text-decoration:none}
             </select>
           </div>
           <button class="ai-btn" id="ai-loc" onclick="aiClick('loc')">&#x2726; AI</button>
-          <button class="icon-btn lock" id="lk-loc" onclick="toggleLock('loc')" title="Lock">&#x1F513;</button>
+          <button class="icon-btn" id="lk-loc" onclick="toggleLock('loc')" title="Lock">&#x1F513;</button>
           <button class="icon-btn" onclick="rerollDial('loc')" title="Reroll">&#x21BA;</button>
         </div>
       </div>
-      <!-- Pose -->
       <div class="field">
         <div class="field-label">Pose / Action <span class="field-hint">Body language</span></div>
         <div class="field-row">
@@ -883,11 +678,10 @@ footer a{color:var(--accent);text-decoration:none}
             </select>
           </div>
           <button class="ai-btn" id="ai-pose" onclick="aiClick('pose')">&#x2726; AI</button>
-          <button class="icon-btn lock" id="lk-pose" onclick="toggleLock('pose')" title="Lock">&#x1F513;</button>
+          <button class="icon-btn" id="lk-pose" onclick="toggleLock('pose')" title="Lock">&#x1F513;</button>
           <button class="icon-btn" onclick="rerollDial('pose')" title="Reroll">&#x21BA;</button>
         </div>
       </div>
-      <!-- Shot type -->
       <div class="field">
         <div class="field-label">Shot Type <span class="field-hint">Composition directive</span></div>
         <div class="field-row">
@@ -903,19 +697,18 @@ footer a{color:var(--accent);text-decoration:none}
     </div>
   </div>
 
-  <!-- STEP 4: STYLE -->
+  <!-- STEP 4 -->
   <div class="step-block" id="step-block-4">
-    <div class="step-header" onclick="toggleStep(4)">
+    <div class="step-header" id="step4-header" onclick="toggleStep(4)">
       <div class="step-num step-num-4">4</div>
       <div class="step-info">
         <div class="step-title">Style</div>
-        <div class="step-subtitle" id="step-sub-4">Wardrobe &middot; Lighting &middot; Era</div>
+        <div class="step-subtitle" id="step-sub-4">Wardrobe · Lighting · Era</div>
       </div>
-      <div class="step-status" id="step-status-4">To do</div>
-      <span class="step-chevron" id="step-chev-4">&#x203A;</span>
+      <div class="step-status todo" id="step-status-4">To do</div>
+      <span class="step-chev" id="step-chev-4">&#x203A;</span>
     </div>
     <div class="step-body" id="step-body-4">
-      <!-- Look -->
       <div class="field">
         <div class="field-label">Look / Wardrobe <span class="field-hint">What they're wearing</span></div>
         <div class="field-row">
@@ -926,11 +719,10 @@ footer a{color:var(--accent);text-decoration:none}
             </select>
           </div>
           <button class="ai-btn" id="ai-look" onclick="aiClick('look')">&#x2726; AI</button>
-          <button class="icon-btn lock" id="lk-look" onclick="toggleLock('look')" title="Lock">&#x1F513;</button>
+          <button class="icon-btn" id="lk-look" onclick="toggleLock('look')" title="Lock">&#x1F513;</button>
           <button class="icon-btn" onclick="rerollDial('look')" title="Reroll">&#x21BA;</button>
         </div>
       </div>
-      <!-- Lighting -->
       <div class="field">
         <div class="field-label">Lighting &amp; Mood <span class="field-hint">Atmospheric quality</span></div>
         <div class="field-row">
@@ -941,16 +733,16 @@ footer a{color:var(--accent);text-decoration:none}
             </select>
           </div>
           <button class="ai-btn" id="ai-lighting" onclick="aiClick('lighting')">&#x2726; AI</button>
+          <button class="icon-btn" id="lk-lighting" onclick="toggleLock('lighting')" title="Lock">&#x1F513;</button>
         </div>
       </div>
-      <!-- Era -->
       <div class="field">
-        <div class="field-label">Era Filter
-          <span class="field-hint" style="font-weight:300">optional</span>
+        <div class="field-label">
+          Era Filter <span class="field-hint" style="font-weight:300">optional</span>
           <button id="era-clear" onclick="clearEra()"
             style="display:none;background:transparent;border:none;color:var(--rose);
             font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.06em;
-            text-transform:uppercase;cursor:pointer;padding:0;margin-left:4px">✕ clear</button>
+            text-transform:uppercase;cursor:pointer;padding:0;margin-left:4px">&#x2715; clear</button>
         </div>
         <div class="pill-row" id="era-pills"></div>
       </div>
@@ -960,7 +752,7 @@ footer a{color:var(--accent);text-decoration:none}
   <!-- ACTIONS -->
   <div class="actions-row">
     <button class="btn-primary" onclick="randomizeAll()">&#x2726; RANDOMIZE ALL</button>
-    <div class="actions-row-secondary" style="display:flex;gap:10px;width:100%">
+    <div class="actions-row-secondary" style="display:flex;gap:10px">
       <button class="btn-secondary" onclick="spinUnlocked()" style="flex:1">Spin Unlocked</button>
       <button class="btn-secondary" onclick="clearAll()" style="flex:1">Clear</button>
     </div>
@@ -968,18 +760,18 @@ footer a{color:var(--accent);text-decoration:none}
 
   <!-- REWRITE -->
   <div class="section-divider">Rewrite &amp; Tighten</div>
-  <div class="step-block rewrite-block">
+  <div class="step-block">
     <div class="step-header rewrite-hdr" onclick="toggleStep('r')">
       <div class="step-num step-num-r">&#x25C8;</div>
       <div class="step-info">
         <div class="step-title">Rewrite &amp; Tighten</div>
-        <div class="step-subtitle">5 cinematic variants &middot; same elements, different angles</div>
+        <div class="step-subtitle">5 cinematic variants · same elements, different angles</div>
       </div>
-      <span class="step-chevron" id="step-chev-r">&#x203A;</span>
+      <span class="step-chev" id="step-chev-r">&#x203A;</span>
     </div>
     <div class="step-body" id="step-body-r">
       <button class="btn-rewrite" id="btn-rewrite" onclick="refineLocal()" disabled>&#x25C8; Generate 5 Variants</button>
-      <div class="rewrite-note">5 cinematic variants &mdash; each weights your selections differently.</div>
+      <div class="rewrite-note">Each variant weights your selections differently</div>
       <div class="variants" id="variants"></div>
     </div>
   </div>
@@ -987,44 +779,43 @@ footer a{color:var(--accent);text-decoration:none}
   <!-- HISTORY -->
   <div class="section-divider">Recent Prompts</div>
   <div class="card" id="hist-card" style="display:none">
-    <div class="hist-list vis" id="hist-list"></div>
+    <div class="hist-hdr">
+      <span class="hist-count" id="hist-count-label">Recent prompts</span>
+      <button class="hist-clear" onclick="clearHistory()">Clear all</button>
+    </div>
+    <div id="hist-list"></div>
   </div>
 
   <!-- SOCIAL -->
+  <div class="section-divider">See It In Action</div>
   <div class="social-band">
-    <div class="social-eyebrow">See it in action</div>
-    <p class="social-text">Check out samples of the generator and ready-made prompts at:</p>
+    <div class="social-eyebrow">Samples &amp; ready-made prompts at</div>
+    <p class="social-text">Check out examples of the generator in action</p>
     <div class="social-links">
       <a class="social-btn social-btn--tiktok" href="https://www.tiktok.com/@parejasai" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.75a4.85 4.85 0 0 1-1.01-.06z"/></svg>
-        <span>@parejasai</span><span class="social-platform">TikTok</span>
+        <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.75a4.85 4.85 0 0 1-1.01-.06z"/></svg>
+        @parejasai
       </a>
       <a class="social-btn social-btn--instagram" href="https://www.instagram.com/couplesai3" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
-        <span>@couplesai3</span><span class="social-platform">Instagram</span>
+        <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+        @couplesai3
       </a>
     </div>
   </div>
 
   <div class="spacer"></div>
-</div><!-- end .main -->
+</div>
 
 <footer>
-  <p>
-    CouplesAI Portrait Generator &nbsp;&middot;&nbsp; Free forever<br>
-    <a href="#">Patreon</a> &nbsp;&middot;&nbsp;
-    <a href="https://buymeacoffee.com/CouplesAI" target="_blank" rel="noopener">Buy Me a Coffee</a> &nbsp;&middot;&nbsp;
-    <a href="https://www.tiktok.com/@parejasai" target="_blank">TikTok</a> &nbsp;&middot;&nbsp;
-    <a href="https://www.instagram.com/couplesai3" target="_blank">Instagram</a> &nbsp;&middot;&nbsp;
-    <a href="#">Contact</a>
-  </p>
-  <p style="margin-top:8px;font-size:9px;opacity:.5">
-    Affiliate links help keep this tool free.
-  </p>
+  <p>CouplesAI Portrait Generator &nbsp;·&nbsp; Free forever<br>
+  <a href="https://buymeacoffee.com/CouplesAI" target="_blank" rel="noopener">Buy Me a Coffee</a> &nbsp;·&nbsp;
+  <a href="https://www.tiktok.com/@parejasai" target="_blank">TikTok</a> &nbsp;·&nbsp;
+  <a href="https://www.instagram.com/couplesai3" target="_blank">Instagram</a></p>
 </footer>
 
 <script src="data.js"></script>
 <script>
+
 // Standalone translation refresh — called from multiple places
 function refreshTensionTranslation(){
   var tt=document.getElementById('tension-translation');
@@ -2056,6 +1847,7 @@ if(hadURL){
   var ssu=document.getElementById('s-subject');
   if(ssu&&S.subject){ssu.value=S.subject;onSubject();}
 }
+
 </script>
 <!-- Buy Me a Coffee Widget -->
 <script data-name="BMC-Widget" data-cfasync="false"
