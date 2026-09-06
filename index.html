@@ -1,5 +1,28 @@
 <!DOCTY
 
+// Override toggleLock to add visual locked state to selects
+function toggleLock(key){
+  LOCKS[key]=!LOCKS[key];
+  var btn=document.getElementById('lk-'+key);
+  if(btn){
+    btn.classList.toggle('locked',LOCKS[key]);
+    btn.innerHTML=LOCKS[key]?'&#x1F512;':'&#x1F513;';
+  }
+  var sel=document.getElementById('s-'+key);
+  if(sel){
+    sel.classList.toggle('locked',LOCKS[key]);
+    sel.style.opacity=LOCKS[key]?'.75':'1';
+  }
+  // Dim reroll button (next sibling after lock btn)
+  if(btn){
+    var reroll=btn.nextElementSibling;
+    if(reroll&&reroll.title==='Reroll'){
+      reroll.style.opacity=LOCKS[key]?'.3':'1';
+      reroll.style.pointerEvents=LOCKS[key]?'none':'auto';
+    }
+  }
+}
+
 // Standalone translation refresh — called from multiple places
 function refreshTensionTranslation(){
   var tt=document.getElementById('tension-translation');
