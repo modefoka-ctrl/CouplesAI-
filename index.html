@@ -50,8 +50,9 @@ html,body{background:var(--bg);color:var(--text);
 .hdr-btn:hover{border-color:var(--accent);color:var(--accent)}
 .hdr-btn-how{background:#ede8ff;border-color:#c8b8ff;color:var(--accent)}
 @media(max-width:480px){
-  .hdr-btn{width:36px;height:36px;padding:0;border-radius:50%;
-    display:flex;align-items:center;justify-content:center;font-size:14px}
+  .hdr-btn{width:38px;height:38px;padding:0;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;font-size:15px}
+  .btn-label{display:none}
   .l-gen{display:none}
 }
 
@@ -531,8 +532,8 @@ footer a{color:var(--accent);text-decoration:none}
     <span class="l-portrait">Portrait</span><span class="l-gen">Generator</span>
   </div>
   <div class="hdr-btns">
-    <button class="hdr-btn hdr-btn-how" onclick="openHowTo()">&#x25B8; How To</button>
-    <button class="hdr-btn" onclick="openHelp()">? Tips</button>
+    <button class="hdr-btn hdr-btn-how" onclick="openHowTo()">&#x25B8;<span class="btn-label"> How To</span></button>
+    <button class="hdr-btn" onclick="openHelp()">?<span class="btn-label"> Tips</span></button>
   </div>
 </header>
 
