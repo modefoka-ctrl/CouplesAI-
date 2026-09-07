@@ -1,26 +1,830 @@
-<!DOCTY
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CouplesAI Portrait Generator — Cinematic AI Portrait Prompts</title>
+<meta name="description" content="Generate cinematic AI portrait prompts for couples, solo subjects and groups. 50 worlds, 1000+ tensions, lighting, shot type and wardrobe. Free forever.">
+<meta property="og:title" content="CouplesAI Portrait Generator">
+<meta property="og:description" content="50 cinematic worlds. 1000+ tensions. Free AI portrait prompt generator.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+<style>
+/* ── RESET & BASE ── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#f5f2ee;--surface:#ffffff;--raised:#faf8f5;
+  --border:#e8e2d9;--border-strong:#d4ccc0;
+  --text:#1a1612;--dim:#6b6058;--muted:#a09488;
+  --amber:#d4720a;--green:#1a8f5a;--accent:#5a3fd4;
+  --rose:#c4365a;--teal:#0e8a7a;--gold:#b8860a;
+  --step1:#5a3fd4;--step2:#d4720a;--step3:#0e8a7a;--step4:#c4365a;
+  --radius:12px;--shadow:0 2px 12px rgba(0,0,0,.07);
+  --shadow-lg:0 8px 32px rgba(0,0,0,.10);--t:.18s ease;
+}
+html,body{background:var(--bg);color:var(--text);
+  font-family:"Inter",sans-serif;font-size:16px;min-height:100vh;
+  -webkit-text-size-adjust:100%}
+
+/* ── HEADER ── */
+.hdr{background:var(--surface);border-bottom:1px solid var(--border);
+  padding:12px 20px;display:flex;align-items:center;
+  justify-content:space-between;position:sticky;top:0;z-index:100;
+  box-shadow:0 1px 8px rgba(0,0,0,.06)}
+.hdr-logo{display:inline-flex;align-items:center;gap:5px;
+  font-family:ui-monospace,monospace;font-weight:700;font-size:1rem;letter-spacing:-.02em}
+.l-couples{color:var(--text)}
+.l-ai{background:#ede8ff;color:var(--accent);padding:1px 5px;
+  border-radius:4px;font-size:.75rem;border:1px solid #c8b8ff}
+.l-portrait{background:#fff5e8;color:var(--amber);padding:1px 7px;
+  border-radius:4px;border:1px solid #f5d9a8;margin-left:2px}
+.l-gen{color:var(--muted);font-weight:400;font-size:.9rem;margin-left:2px}
+.hdr-btns{display:flex;gap:8px}
+.hdr-btn{background:transparent;border:1px solid var(--border);color:var(--dim);
+  font-family:"Inter",sans-serif;font-size:12px;font-weight:500;
+  padding:6px 14px;border-radius:20px;cursor:pointer;
+  -webkit-tap-highlight-color:transparent;transition:all var(--t)}
+.hdr-btn:hover{border-color:var(--accent);color:var(--accent)}
+.hdr-btn-how{background:#ede8ff;border-color:#c8b8ff;color:var(--accent)}
+@media(max-width:480px){
+  .hdr-btn{width:36px;height:36px;padding:0;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;font-size:14px}
+  .l-gen{display:none}
+}
+
+/* ── MODALS ── */
+.modal-bg,.howto-bg{position:fixed;inset:0;background:rgba(0,0,0,.8);
+  z-index:9999;display:none;align-items:center;justify-content:center;padding:16px}
+.modal-bg.open,.howto-bg.open{display:flex}
+.modal,.howto-modal{background:#131118;border:1px solid #28243a;border-radius:14px;
+  width:100%;max-width:580px;max-height:88vh;display:flex;flex-direction:column;
+  overflow:hidden;box-shadow:0 24px 80px rgba(0,0,0,.7);position:relative;z-index:10000}
+.modal-hdr,.howto-hdr{padding:16px 20px;border-bottom:1px solid #28243a;
+  display:flex;align-items:center;justify-content:space-between;flex-shrink:0;
+  background:linear-gradient(135deg,rgba(124,92,252,.1),rgba(240,146,74,.06))}
+.modal-title,.howto-title{font-family:"Playfair Display",serif;font-size:16px;
+  font-weight:700;color:#ede8f5}
+.modal-close{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);
+  color:#ede8f5;font-size:18px;border-radius:50%;width:32px;height:32px;
+  cursor:pointer;display:flex;align-items:center;justify-content:center;
+  line-height:1;flex-shrink:0}
+.modal-body{overflow-y:auto;flex:1;background:#131118}
+.tip-block{padding:14px 20px;border-bottom:1px solid #28243a}
+.tip-block:last-child{border-bottom:none}
+.tip-label{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.12em;
+  text-transform:uppercase;color:#f0924a;margin-bottom:6px;font-weight:500}
+.tip-text{font-family:"Inter",sans-serif;font-size:13px;font-weight:300;
+  color:#b0a8c8;line-height:1.65}
+.tip-text strong{color:#ede8f5;font-weight:500}
+.tip-text em{color:#8878aa;font-style:italic}
+.howto-body{padding:20px;background:#131118;overflow-y:auto;flex:1}
+.howto-intro{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.14em;
+  text-transform:uppercase;color:#f0924a;margin-bottom:18px}
+.howto-step{display:flex;align-items:flex-start;gap:14px;padding:14px 0;
+  border-bottom:1px solid #28243a}
+.howto-step:last-child{border-bottom:none;padding-bottom:0}
+.howto-step-num{width:34px;height:34px;border-radius:50%;flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;
+  font-family:"Playfair Display",serif;font-size:15px;font-weight:700;color:#fff}
+.howto-step-title{font-family:"Inter",sans-serif;font-size:14px;font-weight:600;
+  color:#ede8f5;margin-bottom:4px}
+.howto-step-desc{font-family:"Inter",sans-serif;font-size:13px;font-weight:300;
+  color:#b0a8c8;line-height:1.55}
+.howto-step-tag{display:inline-block;font-family:"JetBrains Mono",monospace;
+  font-size:9px;letter-spacing:.1em;text-transform:uppercase;
+  padding:2px 8px;border-radius:4px;margin-top:6px}
+.tag-gemini{background:rgba(66,133,244,.12);border:1px solid rgba(66,133,244,.3);color:#6aacff}
+.tag-tip{background:rgba(240,146,74,.1);border:1px solid rgba(240,146,74,.25);color:#f0924a}
+.howto-footer{padding:14px 20px;border-top:1px solid #28243a;
+  background:rgba(124,92,252,.04);display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.howto-footer-text{font-family:"JetBrains Mono",monospace;font-size:9px;color:#8878aa;
+  letter-spacing:.06em;flex:1}
+.howto-footer-btn{background:linear-gradient(135deg,#7c5cfc,#a060ff);border:none;
+  color:#fff;font-family:"Inter",sans-serif;font-size:12px;font-weight:600;
+  padding:8px 18px;border-radius:20px;cursor:pointer}
+
+/* ── HERO ── */
+.hero{background:linear-gradient(160deg,#f0ebff 0%,#fff8ee 50%,#e8f7f4 100%);
+  border-bottom:1px solid var(--border);padding:28px 20px 20px;text-align:center}
+.hero-eyebrow{font-family:"JetBrains Mono",monospace;font-size:9px;
+  letter-spacing:.2em;text-transform:uppercase;color:var(--accent);
+  margin-bottom:8px;display:block}
+.hero h1{font-family:"Playfair Display",serif;font-size:clamp(24px,5vw,42px);
+  font-weight:900;line-height:1.1;margin-bottom:8px}
+.hero h1 em{font-style:italic;color:var(--amber)}
+.hero-sub{font-size:14px;color:var(--dim);max-width:420px;
+  margin:0 auto 16px;line-height:1.6}
+.hero-stats{display:flex;gap:20px;justify-content:center}
+.hero-stat-n{font-family:"Playfair Display",serif;font-size:22px;
+  font-weight:700;color:var(--amber);line-height:1}
+.hero-stat-l{font-family:"JetBrains Mono",monospace;font-size:8px;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:2px}
+.world-ticker{overflow:hidden;margin-top:16px;
+  mask-image:linear-gradient(90deg,transparent,black 10%,black 90%,transparent)}
+.world-ticker-inner{display:flex;gap:8px;width:max-content;
+  animation:ticker 38s linear infinite}
+@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.world-chip{background:white;border:1px solid var(--border);color:var(--dim);
+  font-family:"JetBrains Mono",monospace;font-size:9px;padding:3px 10px;
+  white-space:nowrap;border-radius:20px;letter-spacing:.04em}
+@media(max-width:480px){
+  .hero{padding:16px 16px 12px}
+  .hero-sub{display:none}
+  .world-ticker{display:none}
+  .hero-stat-n{font-size:18px}
+}
+
+/* ── PROMPT BAR ── */
+.prompt-bar{background:linear-gradient(135deg,#2d1f5e 0%,#1a3a4a 50%,#3d1a2e 100%);
+  padding:16px 20px;position:sticky;top:57px;z-index:90;
+  box-shadow:0 4px 24px rgba(0,0,0,.18);
+  border-bottom:2px solid rgba(255,255,255,.08)}
+.prompt-bar-label{font-family:"JetBrains Mono",monospace;font-size:9px;
+  letter-spacing:.22em;text-transform:uppercase;color:#f0b060;
+  margin-bottom:10px;display:flex;align-items:center;gap:8px}
+.pbl-dot{width:7px;height:7px;border-radius:50%;background:#f0b060;
+  animation:pulse 2s ease-in-out infinite;
+  box-shadow:0 0 6px rgba(240,176,96,.6)}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.3;transform:scale(.7)}}
+.prompt-text{font-family:"JetBrains Mono",monospace;font-size:11px;
+  line-height:1.85;color:rgba(255,255,255,.55);word-break:break-word}
+.pt-tension{color:#f0b060;font-weight:500;text-shadow:0 0 12px rgba(240,176,96,.4)}
+.pt-loc{color:#50d4b8;font-weight:500;text-shadow:0 0 12px rgba(80,212,184,.3)}
+.pt-pose{color:#f08899;font-weight:500;text-shadow:0 0 12px rgba(240,136,153,.3)}
+.pt-look{color:#70d890;font-weight:500;text-shadow:0 0 12px rgba(112,216,144,.3)}
+.pt-empty{color:rgba(255,255,255,.2);font-style:italic}
+.pt-mood{color:rgba(255,255,255,.38);font-size:10px;font-style:italic;
+  display:block;margin-top:8px;line-height:1.5}
+.prompt-meta{display:flex;align-items:center;gap:10px;margin-top:12px;
+  flex-wrap:wrap;position:relative}
+.wc{font-family:"JetBrains Mono",monospace;font-size:10px;color:rgba(255,255,255,.5)}
+.coh{font-family:"JetBrains Mono",monospace;font-size:9px;padding:5px 12px;
+  border-radius:16px;color:#fff;font-weight:700;letter-spacing:.08em;
+  cursor:pointer;display:none;align-items:center;gap:5px;margin-left:auto;
+  transition:all .2s ease}
+.coh.high{background:linear-gradient(135deg,#1a8855,#22cc77);
+  box-shadow:0 0 12px rgba(34,204,119,.5)}
+.coh.mid{background:linear-gradient(135deg,#c85a0a,#f0924a);
+  box-shadow:0 0 10px rgba(240,146,74,.4)}
+.coh.low{background:linear-gradient(135deg,#a02040,#e05070);
+  box-shadow:0 0 10px rgba(224,80,112,.4)}
+.coh.high,.coh.mid,.coh.low{display:flex}
+.coh-tooltip{display:none;position:absolute;bottom:calc(100% + 8px);right:0;
+  background:#1a1820;border:1px solid rgba(124,92,252,.3);border-radius:8px;
+  padding:8px 12px;font-family:"JetBrains Mono",monospace;font-size:10px;
+  color:#c0a0ff;line-height:1.6;max-width:260px;z-index:200;
+  box-shadow:0 4px 20px rgba(0,0,0,.4);pointer-events:none}
+.coh-tooltip.vis{display:block}
+.btn-copy{background:linear-gradient(135deg,#7c5cfc,#a060ff);border:none;color:#fff;
+  font-family:"Inter",sans-serif;font-size:12px;font-weight:600;
+  padding:9px 20px;border-radius:18px;cursor:pointer;
+  box-shadow:0 2px 14px rgba(124,92,252,.45);transition:all var(--t);
+  -webkit-tap-highlight-color:transparent}
+.btn-share{background:transparent;border:1px solid rgba(255,255,255,.2);
+  color:rgba(255,255,255,.6);font-family:"Inter",sans-serif;font-size:11px;
+  font-weight:500;padding:7px 12px;border-radius:18px;cursor:pointer;
+  transition:all var(--t);-webkit-tap-highlight-color:transparent}
+.btn-share:hover{border-color:rgba(255,255,255,.5);color:#fff}
+
+/* ── QUALITY BAR ── */
+.quality-bar{background:linear-gradient(90deg,rgba(45,31,94,.06),rgba(26,58,74,.06));
+  border-bottom:1px solid rgba(90,63,212,.12);border-left:3px solid var(--accent);
+  padding:9px 20px;font-family:"JetBrains Mono",monospace;font-size:10px;
+  color:var(--accent);display:none;align-items:center;gap:8px}
+.quality-bar.vis{display:flex}
+.quality-bar::before{content:'💡';font-size:12px}
+
+/* ── MAIN ── */
+.main{max-width:600px;margin:0 auto;padding:16px 14px 40px}
+
+/* ── STEP BLOCKS ── */
+.step-block{margin-bottom:8px}
+.step-header{display:flex;align-items:center;gap:10px;padding:14px;
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius);cursor:pointer;user-select:none;min-height:60px;
+  -webkit-tap-highlight-color:transparent;
+  transition:border-color .3s ease,box-shadow .3s ease}
+.step-header.open{border-bottom-left-radius:0;border-bottom-right-radius:0;
+  border-bottom-color:transparent}
+.step-header.guide{border-color:var(--amber);
+  animation:guide-pulse 2.2s ease-in-out infinite}
+@keyframes guide-pulse{
+  0%,100%{box-shadow:0 0 0 3px rgba(212,114,10,.15)}
+  50%{box-shadow:0 0 0 6px rgba(212,114,10,.08),0 0 24px rgba(212,114,10,.2)}}
+.guide-arrow{display:none;align-items:center;gap:6px;font-family:"JetBrains Mono",monospace;
+  font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber)}
+.step-header.guide .guide-arrow{display:flex}
+.step-num{width:34px;height:34px;border-radius:50%;flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;
+  font-family:"Playfair Display",serif;font-size:15px;font-weight:700;color:#fff}
+.step-num-1{background:var(--step1)}.step-num-2{background:var(--step2)}
+.step-num-3{background:var(--step3)}.step-num-4{background:var(--step4)}
+.step-num-r{background:linear-gradient(135deg,var(--amber),var(--accent));font-size:17px}
+.step-info{flex:1;min-width:0}
+.step-title{font-size:15px;font-weight:600;color:var(--text)}
+.step-subtitle{font-size:12px;color:var(--muted);margin-top:1px;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.step-status{font-family:"JetBrains Mono",monospace;font-size:9px;
+  padding:4px 10px;border-radius:20px;flex-shrink:0;white-space:nowrap}
+.step-status.done{background:#e8f7f0;border:1px solid #a8e4c8;color:var(--green)}
+.step-status.todo{background:var(--raised);border:1px solid var(--border);color:var(--muted)}
+.step-chev{color:var(--muted);font-size:16px;flex-shrink:0;transition:transform var(--t)}
+.step-chev.open{transform:rotate(90deg)}
+.step-body{display:none;background:var(--surface);border:1px solid var(--border);
+  border-top:none;border-radius:0 0 var(--radius) var(--radius);padding:14px}
+.step-body.open{display:block}
+
+/* ── FIELDS ── */
+.field{margin-bottom:14px}
+.field:last-child{margin-bottom:0}
+.field-label{font-family:"JetBrains Mono",monospace;font-size:9px;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--muted);
+  margin-bottom:7px;display:flex;align-items:center;justify-content:space-between;gap:8px}
+.field-hint{font-size:9px;color:var(--muted);letter-spacing:0;
+  text-transform:none;font-family:"Inter",sans-serif;font-weight:400}
+.format-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:0}
+@media(max-width:480px){.format-row{grid-template-columns:1fr}}
+.field-row{display:flex;gap:8px;align-items:center}
+.sel-wrap{flex:1;position:relative}
+select{width:100%;background:var(--raised);border:1px solid var(--border);
+  border-radius:8px;color:var(--text);font-family:"Inter",sans-serif;
+  font-size:15px;font-weight:400;padding:11px 36px 11px 14px;
+  cursor:pointer;outline:none;-webkit-appearance:none;appearance:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23a09488'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 12px center;background-size:9px;
+  background-color:var(--raised);transition:border-color var(--t);
+  -webkit-tap-highlight-color:transparent}
+select:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(90,63,212,.12)}
+select.has-val{border-left:3px solid var(--accent);padding-left:12px}
+select option{background:#fff;color:var(--text)}
+select optgroup{color:var(--amber);font-style:normal;font-size:11px}
+@media(max-width:480px){select{font-size:16px;padding:13px 36px 13px 14px;border-radius:10px}}
+.tension-search-input{width:100%;background:var(--raised);border:1px solid var(--border);
+  border-radius:8px;color:var(--dim);font-family:"Inter",sans-serif;
+  font-size:14px;padding:9px 14px;outline:none;margin-bottom:8px;
+  transition:border-color var(--t);-webkit-appearance:none}
+.tension-search-input:focus{border-color:var(--accent);
+  box-shadow:0 0 0 3px rgba(90,63,212,.12)}
+@media(max-width:480px){.tension-search-input{font-size:16px;padding:12px 14px;border-radius:10px}}
+.tension-translation{font-family:"JetBrains Mono",monospace;font-size:10px;
+  color:var(--accent);font-style:italic;padding:5px 2px 0;line-height:1.5;
+  letter-spacing:.01em}
+.icon-btn{background:var(--raised);border:1px solid var(--border);border-radius:8px;
+  color:var(--muted);width:42px;height:42px;flex-shrink:0;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;font-size:16px;
+  transition:all var(--t);-webkit-tap-highlight-color:transparent}
+.icon-btn:hover{border-color:var(--accent);color:var(--accent);background:#ede8ff}
+.icon-btn.locked{border-color:var(--amber);color:var(--amber);background:#fff5e8}
+select.locked{border-left:3px solid var(--amber) !important;background-color:#fffbf5 !important;opacity:.7}
+.ai-btn{background:#fff8e8;border:1px solid #f5d9a8;color:var(--amber);
+  font-family:"JetBrains Mono",monospace;font-size:9px;letter-spacing:.08em;
+  text-transform:uppercase;padding:0 12px;height:42px;cursor:pointer;
+  transition:all var(--t);white-space:nowrap;flex-shrink:0;border-radius:8px;
+  -webkit-tap-highlight-color:transparent}
+.ai-btn:hover{background:#fff0cc;border-color:var(--amber)}
+@media(max-width:480px){.icon-btn{width:44px;height:44px}.ai-btn{height:44px}}
+.pill-row{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.pill{background:transparent;border:1px solid var(--border);border-radius:20px;
+  color:var(--dim);font-family:"JetBrains Mono",monospace;font-size:10px;
+  padding:5px 14px;cursor:pointer;transition:all var(--t);
+  -webkit-tap-highlight-color:transparent}
+.pill:hover{border-color:var(--accent);color:var(--accent)}
+.pill.active{background:#ede8ff;border-color:var(--accent);color:var(--accent)}
+@media(max-width:480px){.pill{padding:8px 16px;font-size:11px}}
+
+/* ── ACTIONS ── */
+.actions-row{display:flex;gap:10px;margin-top:16px}
+.btn-primary{background:var(--accent);border:none;color:#fff;
+  font-family:"Inter",sans-serif;font-size:14px;font-weight:600;
+  padding:13px;border-radius:10px;cursor:pointer;flex:1;
+  box-shadow:0 3px 16px rgba(90,63,212,.35);transition:all var(--t);
+  -webkit-tap-highlight-color:transparent}
+.btn-primary:hover{transform:translateY(-1px);box-shadow:0 5px 20px rgba(90,63,212,.45)}
+.btn-secondary{background:var(--raised);border:1px solid var(--border);
+  color:var(--dim);font-family:"JetBrains Mono",monospace;font-size:10px;
+  letter-spacing:.06em;text-transform:uppercase;padding:13px 16px;
+  border-radius:10px;cursor:pointer;transition:all var(--t);
+  -webkit-tap-highlight-color:transparent}
+.btn-secondary:hover{border-color:var(--accent);color:var(--accent)}
+@media(max-width:480px){
+  .actions-row{flex-direction:column}
+  .btn-primary{padding:16px;font-size:15px;border-radius:14px}
+  .actions-row-secondary{display:flex;gap:10px}
+  .btn-secondary{flex:1;padding:14px 10px}
+}
+
+/* ── SECTION DIVIDER ── */
+.section-divider{display:flex;align-items:center;gap:10px;
+  margin:20px 0 8px;font-family:"JetBrains Mono",monospace;font-size:9px;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:var(--border)}
+
+/* ── REWRITE ── */
+.rewrite-hdr{background:linear-gradient(135deg,#fff8ee,#f0ebff) !important}
+.btn-rewrite{width:100%;background:linear-gradient(135deg,#fff5e8,#ede8ff);
+  border:1px solid var(--border-strong);color:var(--text);
+  font-family:"Inter",sans-serif;font-size:14px;font-weight:600;
+  padding:14px;border-radius:10px;cursor:pointer;transition:all var(--t);margin-bottom:8px;
+  -webkit-tap-highlight-color:transparent}
+.btn-rewrite:hover{border-color:var(--accent)}
+.btn-rewrite:disabled{opacity:.4;cursor:not-allowed}
+.rewrite-note{font-family:"JetBrains Mono",monospace;font-size:9px;
+  color:var(--muted);text-align:center;letter-spacing:.04em;margin-bottom:14px}
+.variants{display:flex;flex-direction:column;gap:8px}
+.variant{background:var(--raised);border:1px solid var(--border);
+  border-radius:10px;padding:14px}
+.v-label{font-family:"JetBrains Mono",monospace;font-size:9px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--accent);margin-bottom:6px;font-weight:500}
+.v-text{font-family:"JetBrains Mono",monospace;font-size:11px;line-height:1.75;color:var(--dim)}
+.v-meta{display:flex;align-items:center;gap:8px;margin-top:10px}
+.v-copy{background:transparent;border:1px solid var(--border);border-radius:6px;
+  color:var(--muted);font-size:10px;font-family:"JetBrains Mono",monospace;
+  padding:7px 14px;cursor:pointer;margin-left:auto;transition:all var(--t);
+  -webkit-tap-highlight-color:transparent}
+.v-copy:hover,.v-copy.copied{border-color:var(--green);color:var(--green)}
+
+/* ── HISTORY ── */
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:12px 14px}
+.hist-hdr{display:flex;align-items:center;justify-content:space-between;
+  padding-bottom:8px;border-bottom:1px solid var(--border);margin-bottom:8px}
+.hist-count{font-family:"JetBrains Mono",monospace;font-size:9px;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.hist-clear{background:transparent;border:none;color:var(--muted);
+  font-family:"JetBrains Mono",monospace;font-size:9px;cursor:pointer;
+  text-transform:uppercase;padding:4px 0}
+.hist-clear:hover{color:var(--rose)}
+.hist-item{width:100%;background:transparent;border:1px solid transparent;
+  border-radius:8px;color:var(--dim);font-family:"JetBrains Mono",monospace;
+  font-size:10px;padding:10px 12px;cursor:pointer;text-align:left;
+  line-height:1.5;transition:all var(--t);white-space:nowrap;
+  overflow:hidden;text-overflow:ellipsis;display:block;
+  -webkit-tap-highlight-color:transparent}
+.hist-item:hover{border-color:var(--border);background:var(--raised);color:var(--text)}
+@media(max-width:480px){.hist-item{padding:12px 14px;font-size:11px}}
+
+/* ── SOCIAL ── */
+.social-band{background:white;border:1px solid var(--border);border-radius:var(--radius);
+  padding:20px;text-align:center}
+.social-eyebrow{font-family:"JetBrains Mono",monospace;font-size:9px;
+  letter-spacing:.2em;text-transform:uppercase;color:var(--amber);margin-bottom:8px}
+.social-text{font-size:13px;color:var(--dim);margin-bottom:14px;line-height:1.5}
+.social-links{display:flex;gap:10px;justify-content:center}
+.social-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;
+  border-radius:24px;text-decoration:none;font-family:"Inter",sans-serif;
+  font-size:13px;font-weight:600;transition:all var(--t)}
+.social-btn--tiktok{background:#1a1612;color:#fff}
+.social-btn--instagram{background:linear-gradient(135deg,#f5a060,#e04070);color:#fff}
+@media(max-width:480px){
+  .social-btn{flex:1;justify-content:center;padding:14px 12px}
+}
+
+/* ── FOOTER ── */
+footer{background:var(--surface);border-top:1px solid var(--border);
+  padding:20px;text-align:center;margin-top:8px}
+footer p{font-family:"JetBrains Mono",monospace;font-size:9px;
+  color:var(--muted);letter-spacing:.04em;line-height:2.2}
+footer a{color:var(--accent);text-decoration:none}
+
+/* ── MISC ── */
+@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.spacer{height:20px}
+</style>
+</head>
+<body>
+
+<!-- TIPS MODAL -->
+<div class="modal-bg" id="modal-bg" onclick="closeHelp()">
+  <div class="modal" onclick="event.stopPropagation()">
+    <div class="modal-hdr">
+      <span class="modal-title">Tips for Better Prompts</span>
+      <button class="modal-close" onclick="closeHelp()">&#x2715;</button>
+    </div>
+    <div class="modal-body" id="tips-modal-body">
+      <div class="tip-block">
+        <div class="tip-label">1 — Start with World &amp; Tension</div>
+        <div class="tip-text">Step 2 opens automatically on every load. Search 50 worlds by typing in the search box or browse by category. Pick a tension — a poetic translation appears beneath it so you know the exact mood it creates. Tension unlocks the affinity system: curated locations, poses and looks matched to that emotional register appear at the top of every other dropdown.</div>
+      </div>
+      <div class="tip-block">
+        <div class="tip-label">2 — Tension is mood, not instruction</div>
+        <div class="tip-text">Every prompt ends with: <em>"The emotional tension (X) is a mood and atmosphere directive only — do not illustrate it literally."</em> AI models read "buried vs. exposed" and try to show someone literally buried. The directive prevents that.</div>
+      </div>
+      <div class="tip-block">
+        <div class="tip-label">3 — Lock &amp; Spin Unlocked</div>
+        <div class="tip-text">Lock any field with the padlock — including World and Tension. Then hit <strong>Spin Unlocked</strong> to explore every combination within your locked anchor. Locks survive Randomize All and Clear.</div>
+      </div>
+      <div class="tip-block">
+        <div class="tip-label">4 — Keyboard shortcuts</div>
+        <div class="tip-text">Press <strong>/</strong> to jump to world search. Press <strong>1 2 3 4</strong> to toggle steps. Press <strong>Alt+R</strong> to randomize. Press <strong>Alt+C</strong> to copy the prompt. Press <strong>Escape</strong> to close any modal.</div>
+      </div>
+      <div class="tip-block">
+        <div class="tip-label">5 — &#x2726; AI decides</div>
+        <div class="tip-text">Every field has a <strong>&#x2726; AI</strong> button. Tap it to leave that field open to the model. Setting 2–3 fields manually and leaving 1–2 to AI often produces the strongest results.</div>
+      </div>
+      <div class="tip-block">
+        <div class="tip-label">6 — Randomize All opens every step</div>
+        <div class="tip-text">Hit <strong>✦ Randomize All</strong> and all four steps open automatically showing what was selected. Lock what you like, then Spin Unlocked to explore variations. <strong>Alt+R</strong> randomizes from anywhere.</div>
+      </div>
+      <div class="tip-block">
+        <div class="tip-label">7 — Mood worlds auto-set lighting</div>
+        <div class="tip-text">Selecting DUSK, SPRING, ROMANCE, GOLD, NIGHT, RAIN or COLD automatically sets lighting to <strong>&#x2726; AI decides</strong>. Override manually if you want explicit control.</div>
+      </div>
+      <div class="tip-block">
+        <div class="tip-label">8 — Shot type front-loads composition</div>
+        <div class="tip-text">Shot type appears first in the prompt — image models weight early tokens most heavily. <em>Extreme close-up</em> forces focus on faces. <em>Wide environmental</em> makes the world as important as the subjects.</div>
+      </div>
+      <div class="tip-block">
+        <div class="tip-label">9 — Era as tonal modifier</div>
+        <div class="tip-text">Era appends a period and palette modifier. Tap the active pill again — or hit the <strong>✕ clear</strong> button — to deselect. Use era when a prompt feels too generic.</div>
+      </div>
+      <div class="tip-block">
+        <div class="tip-label">10 — Coherence badge</div>
+        <div class="tip-text">Green <strong>✦ Cohesive</strong> / amber <strong>◐ Moderate</strong> / red <strong>○ Scattered</strong> scores your combination against the tension's affinity map. Tap or hover to see why. Scattered can produce more distinctive images.</div>
+      </div>
+      <div class="tip-block">
+        <div class="tip-label">11 — Shareable links</div>
+        <div class="tip-text">Every selection encodes into the URL in real time. Hit <strong>Share</strong> in the prompt bar to copy a link that restores the exact same state for anyone who opens it.</div>
+      </div>
+      <div class="tip-block">
+        <div class="tip-label">12 — Rewrite auto-generates</div>
+        <div class="tip-text">Opening the Rewrite &amp; Tighten accordion when a prompt exists automatically generates all 5 variants. Each variant copy button turns green with ✓ Copied. History saves your last 20 prompts locally.</div>
+      </div>
+      <div class="tip-block">
+        <div class="tip-label">13 — Specificity beats completeness</div>
+        <div class="tip-text">A sharp tension + one strong location often beats all seven fields filled with mediocre choices. Fill what you care about and let AI interpret the rest.</div>
+      </div>
+      <div class="tip-block">
+        <div class="tip-label">14 — Recommended pairings</div>
+        <div class="tip-text"><em>GLASS × real vs. reflected</em> · <em>STAGE × spotlight vs. shadow</em> · <em>UNDERWORLD × love vs. loss eternal</em> · <em>EXPEDITION × wonder vs. fear</em> · <em>CIRCUS × trust vs. fear</em> · <em>MONASTERY × devotion vs. doubt</em> · <em>STORM × force vs. shelter</em> · <em>FARM × seed vs. harvest</em> · <em>PIER × end vs. beginning</em> · <em>ROOFTOP × golden hour vs. blue hour</em></div>
+      </div>
+      <div class="tip-block" style="border-top:2px solid rgba(255,255,255,.08);padding-top:16px">
+        <div class="tip-label" style="color:#c0a0ff">The 5 Rewrite Variants</div>
+        <div class="tip-text"><strong>1 — Cinematic Scale:</strong> Tension leads, pose fused with location.<br><strong>2 — Intimacy:</strong> Pose leads, location frames, tension last as subtext.<br><strong>3 — Essential:</strong> Tension as standalone statement, compressed.<br><strong>4 — Location-Led:</strong> Location opens, tension and pose embedded.<br><strong>5 — Wardrobe-Led:</strong> Look establishes visual register, tension follows.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- HOW-TO MODAL -->
+<div class="howto-bg" id="howto-bg" onclick="closeHowTo()">
+  <div class="howto-modal" onclick="event.stopPropagation()">
+    <div class="howto-hdr">
+      <span class="howto-title">How to Use Your Prompt</span>
+      <button class="modal-close" onclick="closeHowTo()">&#x2715;</button>
+    </div>
+    <div class="howto-body">
+      <div class="howto-intro">Using with Google Gemini AI — step by step</div>
+      <div class="howto-step">
+        <div class="howto-step-num step-num-1" style="background:var(--step1)">1</div>
+        <div>
+          <div class="howto-step-title">Choose a World &amp; Tension</div>
+          <div class="howto-step-desc">Step 2 opens automatically. Search 50 worlds or browse by category. Pick a tension — a poetic translation appears beneath it. Lock either field to keep it while spinning others.</div>
+          <span class="howto-step-tag tag-tip">&#x25B8; Press / to focus world search instantly</span>
+        </div>
+      </div>
+      <div class="howto-step">
+        <div class="howto-step-num" style="background:var(--step2);width:34px;height:34px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:15px;font-weight:700;color:#fff">2</div>
+        <div>
+          <div class="howto-step-title">Build the scene or Randomize</div>
+          <div class="howto-step-desc">Fill Steps 3 &amp; 4 with location, pose, wardrobe and lighting. Or hit <strong>✦ Randomize All</strong> to generate a complete prompt instantly. All steps open showing what was selected.</div>
+          <span class="howto-step-tag tag-tip">&#x25B8; Alt+R randomizes from anywhere</span>
+        </div>
+      </div>
+      <div class="howto-step">
+        <div class="howto-step-num" style="background:var(--step3);width:34px;height:34px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:15px;font-weight:700;color:#fff">3</div>
+        <div>
+          <div class="howto-step-title">Copy your prompt</div>
+          <div class="howto-step-desc">Hit <strong>Copy</strong> in the prompt bar — it turns green with ✓ Copied. The mood directive tells the AI the tension is atmosphere only. Hit <strong>Share</strong> to copy a link restoring this exact state.</div>
+          <span class="howto-step-tag tag-tip">&#x25B8; Alt+C copies from anywhere</span>
+        </div>
+      </div>
+      <div class="howto-step">
+        <div class="howto-step-num" style="background:var(--step4);width:34px;height:34px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:15px;font-weight:700;color:#fff">4</div>
+        <div>
+          <div class="howto-step-title">Open Gemini and paste</div>
+          <div class="howto-step-desc">Go to <strong>gemini.google.com</strong>, upload a photo of your subject, paste the prompt and send. Use <strong>Gemini 2.5 Pro</strong> for best results. Also works with Midjourney, Flux, Leonardo AI.</div>
+          <span class="howto-step-tag tag-gemini">gemini.google.com</span>
+        </div>
+      </div>
+      <div class="howto-step" style="border-bottom:none">
+        <div class="howto-step-num" style="background:linear-gradient(135deg,var(--amber),var(--accent));width:34px;height:34px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:#fff">&#x2726;</div>
+        <div>
+          <div class="howto-step-title">Rewrite &amp; Tighten if needed</div>
+          <div class="howto-step-desc">Open Rewrite &amp; Tighten — 5 variants generate automatically. Each restructures the same selections with a different strategy. History saves your last 20 prompts.</div>
+          <span class="howto-step-tag tag-tip">&#x25B8; Try all 5 variants for different compositions</span>
+        </div>
+      </div>
+    </div>
+    <div class="howto-footer">
+      <span class="howto-footer-text">Works with Midjourney, Flux, Leonardo AI and Stable Diffusion too</span>
+      <button class="howto-footer-btn" onclick="closeHowTo()">Got it &#x2192;</button>
+    </div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header class="hdr">
+  <div class="hdr-logo">
+    <span class="l-couples">Couples</span><span class="l-ai">AI</span>
+    <span class="l-portrait">Portrait</span><span class="l-gen">Generator</span>
+  </div>
+  <div class="hdr-btns">
+    <button class="hdr-btn hdr-btn-how" onclick="openHowTo()">&#x25B8; How To</button>
+    <button class="hdr-btn" onclick="openHelp()">? Tips</button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <span class="hero-eyebrow">Free · Open · Cinematic</span>
+  <h1>CouplesAI <em>Portrait</em> Generator</h1>
+  <p class="hero-sub"><span id="hero-sub-worlds">50</span> cinematic worlds. <span id="hero-sub-tensions">1000+</span> tensions. Lighting, shot type &amp; wardrobe. Free forever.</p>
+  <div class="hero-stats">
+    <div class="hero-stat"><div class="hero-stat-n" id="stat-worlds">50</div><div class="hero-stat-l">Worlds</div></div>
+    <div class="hero-stat"><div class="hero-stat-n" id="stat-tensions">1000+</div><div class="hero-stat-l">Tensions</div></div>
+    <div class="hero-stat"><div class="hero-stat-n">5</div><div class="hero-stat-l">Variants</div></div>
+    <div class="hero-stat"><div class="hero-stat-n">&#x221E;</div><div class="hero-stat-l">Prompts</div></div>
+  </div>
+  <div class="world-ticker"><div class="world-ticker-inner" id="world-ticker-inner"></div></div>
+</section>
+
+<!-- PROMPT BAR -->
+<div class="prompt-bar">
+  <div class="prompt-bar-label"><span class="pbl-dot"></span> Live Prompt</div>
+  <div class="prompt-text" id="pt"><span class="pt-empty">Choose a world to begin &#x2193;</span></div>
+  <div class="prompt-meta">
+    <span class="wc" id="wc"></span>
+    <div class="coh" id="coh" onclick="toggleCohTooltip()"></div>
+    <div class="coh-tooltip" id="coh-tooltip"></div>
+    <button class="btn-copy" id="btn-copy" onclick="copyPrompt()">Copy</button>
+    <button class="btn-share" id="btn-share" onclick="copyShareURL()">Share</button>
+  </div>
+</div>
+
+<!-- QUALITY BAR -->
+<div class="quality-bar" id="quality-bar">
+  <div id="quality-hint-text"></div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+
+  <!-- STEP 1 -->
+  <div class="step-block" id="step-block-1">
+    <div class="step-header" id="step1-header" onclick="toggleStep(1)">
+      <div class="step-num step-num-1">1</div>
+      <div class="step-info">
+        <div class="step-title">Format &amp; Subject</div>
+        <div class="step-subtitle" id="step-sub-1">4:5 · Couple</div>
+      </div>
+      <div class="step-status todo" id="step-status-1">To do</div>
+      <span class="step-chev" id="step-chev-1">&#x203A;</span>
+    </div>
+    <div class="step-body" id="step-body-1">
+      <div class="format-row">
+        <div class="field">
+          <div class="field-label">Aspect Ratio</div>
+          <select id="s-ratio" onchange="onRatio()"></select>
+        </div>
+        <div class="field">
+          <div class="field-label">Subject</div>
+          <select id="s-subject" onchange="onSubject()"></select>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEP 2 -->
+  <div class="step-block" id="step-block-2">
+    <div class="step-header" id="step2-header" onclick="toggleStep(2)">
+      <div class="step-num step-num-2">2</div>
+      <div class="step-info">
+        <div class="step-title">World &amp; Tension</div>
+        <div class="step-subtitle" id="step-sub-2">Pick your world to begin ↓</div>
+        <div class="guide-arrow">&#x2191; Start here</div>
+      </div>
+      <div class="step-status todo" id="step-status-2">To do</div>
+      <span class="step-chev" id="step-chev-2">&#x203A;</span>
+    </div>
+    <div class="step-body" id="step-body-2">
+      <div class="field">
+        <div class="field-label">World <span class="field-hint">Search or scroll 50 worlds</span></div>
+        <input id="world-search" type="text" class="tension-search-input"
+          placeholder="&#x1F50D; search worlds... (press / to focus)"
+          oninput="filterWorlds(this.value)">
+        <div class="field-row">
+          <div class="sel-wrap">
+            <select id="s-world" onchange="onWorldChange();clearWorldSearch();">
+              <option value="">&#x2014; choose world &#x2014;</option>
+            </select>
+          </div>
+          <button class="icon-btn locked" id="lk-world" onclick="toggleLock('world')" title="Lock world">&#x1F513;</button>
+        </div>
+      </div>
+      <div class="field">
+        <div class="field-label">Tension <span class="field-hint">The emotional core</span></div>
+        <input id="tension-search" type="text" class="tension-search-input"
+          placeholder="&#x1F50D; filter tensions..."
+          oninput="filterTensions(this.value)">
+        <div class="field-row">
+          <div class="sel-wrap">
+            <select id="s-tension" onchange="onTensionChange()" disabled>
+              <option value="">&#x2014; choose tension &#x2014;</option>
+            </select>
+          </div>
+          <button class="ai-btn" id="ai-tension" onclick="aiClick('tension')">&#x2726; AI</button>
+          <button class="icon-btn" id="lk-tension" onclick="toggleLock('tension')" title="Lock tension">&#x1F513;</button>
+          <button class="icon-btn" onclick="rerollDial('tension')" title="Reroll">&#x21BA;</button>
+        </div>
+        <div class="tension-translation" id="tension-translation" style="display:none"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEP 3 -->
+  <div class="step-block" id="step-block-3">
+    <div class="step-header" id="step3-header" onclick="toggleStep(3)">
+      <div class="step-num step-num-3">3</div>
+      <div class="step-info">
+        <div class="step-title">Scene</div>
+        <div class="step-subtitle" id="step-sub-3">Location · Pose · Shot type</div>
+      </div>
+      <div class="step-status todo" id="step-status-3">To do</div>
+      <span class="step-chev" id="step-chev-3">&#x203A;</span>
+    </div>
+    <div class="step-body" id="step-body-3">
+      <div class="field">
+        <div class="field-label">Location <span class="field-hint">Where it happens</span></div>
+        <div class="field-row">
+          <div class="sel-wrap">
+            <select id="s-loc" onchange="onDialChange('loc')" disabled>
+              <option value="">&#x2014; choose location &#x2014;</option>
+              <option value="__ai__">&#x2726; AI decides</option>
+            </select>
+          </div>
+          <button class="ai-btn" id="ai-loc" onclick="aiClick('loc')">&#x2726; AI</button>
+          <button class="icon-btn" id="lk-loc" onclick="toggleLock('loc')" title="Lock">&#x1F513;</button>
+          <button class="icon-btn" onclick="rerollDial('loc')" title="Reroll">&#x21BA;</button>
+        </div>
+      </div>
+      <div class="field">
+        <div class="field-label">Pose / Action <span class="field-hint">Body language</span></div>
+        <div class="field-row">
+          <div class="sel-wrap">
+            <select id="s-pose" onchange="onDialChange('pose')" disabled>
+              <option value="">&#x2014; choose pose &#x2014;</option>
+              <option value="__ai__">&#x2726; AI decides</option>
+            </select>
+          </div>
+          <button class="ai-btn" id="ai-pose" onclick="aiClick('pose')">&#x2726; AI</button>
+          <button class="icon-btn" id="lk-pose" onclick="toggleLock('pose')" title="Lock">&#x1F513;</button>
+          <button class="icon-btn" onclick="rerollDial('pose')" title="Reroll">&#x21BA;</button>
+        </div>
+      </div>
+      <div class="field">
+        <div class="field-label">Shot Type <span class="field-hint">Composition directive</span></div>
+        <div class="field-row">
+          <div class="sel-wrap">
+            <select id="s-shot" onchange="onShot()">
+              <option value="">&#x2014; shot type &#x2014;</option>
+              <option value="__ai__">&#x2726; AI decides</option>
+            </select>
+          </div>
+          <button class="ai-btn" id="ai-shot" onclick="aiClick('shot')">&#x2726; AI</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEP 4 -->
+  <div class="step-block" id="step-block-4">
+    <div class="step-header" id="step4-header" onclick="toggleStep(4)">
+      <div class="step-num step-num-4">4</div>
+      <div class="step-info">
+        <div class="step-title">Style</div>
+        <div class="step-subtitle" id="step-sub-4">Wardrobe · Lighting · Era</div>
+      </div>
+      <div class="step-status todo" id="step-status-4">To do</div>
+      <span class="step-chev" id="step-chev-4">&#x203A;</span>
+    </div>
+    <div class="step-body" id="step-body-4">
+      <div class="field">
+        <div class="field-label">Look / Wardrobe <span class="field-hint">What they're wearing</span></div>
+        <div class="field-row">
+          <div class="sel-wrap">
+            <select id="s-look" onchange="onDialChange('look')" disabled>
+              <option value="">&#x2014; choose look &#x2014;</option>
+              <option value="__ai__">&#x2726; AI decides</option>
+            </select>
+          </div>
+          <button class="ai-btn" id="ai-look" onclick="aiClick('look')">&#x2726; AI</button>
+          <button class="icon-btn" id="lk-look" onclick="toggleLock('look')" title="Lock">&#x1F513;</button>
+          <button class="icon-btn" onclick="rerollDial('look')" title="Reroll">&#x21BA;</button>
+        </div>
+      </div>
+      <div class="field">
+        <div class="field-label">Lighting &amp; Mood <span class="field-hint">Atmospheric quality</span></div>
+        <div class="field-row">
+          <div class="sel-wrap">
+            <select id="s-lighting" onchange="onLighting()">
+              <option value="">&#x2014; lighting &#x2014;</option>
+              <option value="__ai__">&#x2726; AI decides</option>
+            </select>
+          </div>
+          <button class="ai-btn" id="ai-lighting" onclick="aiClick('lighting')">&#x2726; AI</button>
+          <button class="icon-btn" id="lk-lighting" onclick="toggleLock('lighting')" title="Lock">&#x1F513;</button>
+        </div>
+      </div>
+      <div class="field">
+        <div class="field-label">
+          Era Filter <span class="field-hint" style="font-weight:300">optional</span>
+          <button id="era-clear" onclick="clearEra()"
+            style="display:none;background:transparent;border:none;color:var(--rose);
+            font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.06em;
+            text-transform:uppercase;cursor:pointer;padding:0;margin-left:4px">&#x2715; clear</button>
+        </div>
+        <div class="pill-row" id="era-pills"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ACTIONS -->
+  <div class="actions-row">
+    <button class="btn-primary" onclick="randomizeAll()">&#x2726; RANDOMIZE ALL</button>
+    <div class="actions-row-secondary" style="display:flex;gap:10px">
+      <button class="btn-secondary" onclick="spinUnlocked()" style="flex:1">Spin Unlocked</button>
+      <button class="btn-secondary" onclick="clearAll()" style="flex:1">Clear</button>
+    </div>
+  </div>
+
+  <!-- REWRITE -->
+  <div class="section-divider">Rewrite &amp; Tighten</div>
+  <div class="step-block">
+    <div class="step-header rewrite-hdr" onclick="toggleStep('r')">
+      <div class="step-num step-num-r">&#x2726;</div>
+      <div class="step-info">
+        <div class="step-title">Rewrite &amp; Tighten</div>
+        <div class="step-subtitle">5 cinematic variants · same elements, different angles</div>
+      </div>
+      <span class="step-chev" id="step-chev-r">&#x203A;</span>
+    </div>
+    <div class="step-body" id="step-body-r">
+      <button class="btn-rewrite" id="btn-rewrite" onclick="refineLocal()" disabled>&#x2726; Generate 5 Variants</button>
+      <div class="rewrite-note">Each variant weights your selections differently</div>
+      <div class="variants" id="variants"></div>
+    </div>
+  </div>
+
+  <!-- HISTORY -->
+  <div class="section-divider">Recent Prompts</div>
+  <div class="card" id="hist-card" style="display:none">
+    <div class="hist-hdr">
+      <span class="hist-count" id="hist-count-label">Recent prompts</span>
+      <button class="hist-clear" onclick="clearHistory()">Clear all</button>
+    </div>
+    <div id="hist-list"></div>
+  </div>
+
+  <!-- SOCIAL -->
+  <div class="section-divider">See It In Action</div>
+  <div class="social-band">
+    <div class="social-eyebrow">Samples &amp; ready-made prompts at</div>
+    <p class="social-text">Check out examples of the generator in action</p>
+    <div class="social-links">
+      <a class="social-btn social-btn--tiktok" href="https://www.tiktok.com/@parejasai" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.75a4.85 4.85 0 0 1-1.01-.06z"/></svg>
+        @parejasai
+      </a>
+      <a class="social-btn social-btn--instagram" href="https://www.instagram.com/couplesai3" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+        @couplesai3
+      </a>
+    </div>
+  </div>
+
+  <div class="spacer"></div>
+</div>
+
+<footer>
+  <p>CouplesAI Portrait Generator &nbsp;·&nbsp; Free forever<br>
+  <a href="https://buymeacoffee.com/parejasai" target="_blank" rel="noopener">Buy Me a Coffee</a> &nbsp;·&nbsp;
+  <a href="https://www.tiktok.com/@parejasai" target="_blank">TikTok</a> &nbsp;·&nbsp;
+  <a href="https://www.instagram.com/couplesai3" target="_blank">Instagram</a></p>
+</footer>
+
+<script src="data.js"></script>
+<script>
 
 // Override toggleLock to add visual locked state to selects
 function toggleLock(key){
   LOCKS[key]=!LOCKS[key];
   var btn=document.getElementById('lk-'+key);
-  if(btn){
-    btn.classList.toggle('locked',LOCKS[key]);
-    btn.innerHTML=LOCKS[key]?'&#x1F512;':'&#x1F513;';
-  }
+  if(btn){btn.classList.toggle('locked',LOCKS[key]);btn.innerHTML=LOCKS[key]?'&#x1F512;':'&#x1F513;';}
   var sel=document.getElementById('s-'+key);
-  if(sel){
-    sel.classList.toggle('locked',LOCKS[key]);
-    sel.style.opacity=LOCKS[key]?'.75':'1';
-  }
-  // Dim reroll button (next sibling after lock btn)
-  if(btn){
-    var reroll=btn.nextElementSibling;
-    if(reroll&&reroll.title==='Reroll'){
-      reroll.style.opacity=LOCKS[key]?'.3':'1';
-      reroll.style.pointerEvents=LOCKS[key]?'none':'auto';
-    }
-  }
+  if(sel){sel.classList.toggle('locked',LOCKS[key]);sel.style.opacity=LOCKS[key]?'.75':'1';}
+  if(btn){var reroll=btn.nextElementSibling;if(reroll&&reroll.title==='Reroll'){reroll.style.opacity=LOCKS[key]?'.3':'1';reroll.style.pointerEvents=LOCKS[key]?'none':'auto';}}
 }
 
 // Standalone translation refresh — called from multiple places
@@ -146,8 +950,7 @@ function updatePrompt(){
 
   if(!S.world){
     ptEl.innerHTML='<span class="pt-empty">Select a world to begin</span>';
-    wcEl.textContent='';
-    cohEl.className='coh'; cohEl.style.display='none';
+    wcEl.textContent=''; cohEl.style.display='none';
     rewriteBtn.disabled=true; return;
   }
 
@@ -174,7 +977,7 @@ function updatePrompt(){
   const p=buildPromptString();
   const varPart=p?p.replace(buildFixed(),'').trim():'';
   const wc=varPart?varPart.split(/\s+/).filter(Boolean).length:0;
-  wcEl.textContent=wc?wc+' words'+(wc<20?' · add more':wc>45?' · consider trimming':wc>=20&&wc<=40?' · good length':''): '';
+  wcEl.textContent=wc?(wc+' words'+(wc<20?' · add more':wc>45?' · consider trimming':wc>=20&&wc<=40?' · good length':'')):'';
   wcEl.className='wc'+(wc>45?' over':wc>0?' good':'');
   var stripWc=document.getElementById('prompt-strip-wc');
   if(stripWc) stripWc.textContent=wc?wc+' words':'';
@@ -401,1090 +1204,22 @@ function renderHistory(){
   history.forEach(function(h){
     var short=h.replace(buildFixed()+' ','').replace(/^Create a [^.]+\. /,'');
     var row=document.createElement('div');
-    row.style.cssText='display:flex;align-items:flex-start;gap:8px;margin-bottom:4px';
+    row.style.cssText='display:flex;align-items:center;gap:8px;margin-bottom:4px';
     var b=document.createElement('button');
     b.className='hist-item';
     b.style.cssText='flex:1;margin-bottom:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:left';
     var isExpanded=false;
     b.textContent=short.length>90?short.slice(0,88)+'…':short;
-    b.title='Tap to expand · double-tap to copy';
+    b.title='Tap to expand · tap again to copy';
     b.onclick=function(){
       if(!isExpanded){
-        b.style.whiteSpace='normal';b.style.textOverflow='clip';
-        b.textContent=h;isExpanded=true;
+        b.style.whiteSpace='normal';b.style.textOverflow='clip';b.textContent=h;isExpanded=true;
       } else {
         navigator.clipboard.writeText(h).then(function(){
-          b.style.color='var(--green)';
-          cpBtn.textContent='✓';cpBtn.style.color='var(--green)';cpBtn.style.borderColor='var(--green)';
-          setTimeout(function(){
-            b.style.color='';b.style.whiteSpace='nowrap';b.style.textOverflow='ellipsis';
-            b.textContent=short.length>90?short.slice(0,88)+'…':short;
-            cpBtn.textContent='⧉';cpBtn.style.color='';cpBtn.style.borderColor='';
-            isExpanded=false;
-          },1500);
+          b.style.color='var(--green)';cpBtn.textContent='✓';cpBtn.style.color='var(--green)';cpBtn.style.borderColor='var(--green)';
+          setTimeout(function(){b.style.color='';b.style.whiteSpace='nowrap';b.style.textOverflow='ellipsis';b.textContent=short.length>90?short.slice(0,88)+'…':short;cpBtn.textContent='⧉';cpBtn.style.color='';cpBtn.style.borderColor='';isExpanded=false;},1500);
         });
       }
-    };
-    var cpBtn=document.createElement('button');
-    cpBtn.textContent='⧉';
-    cpBtn.title='Copy prompt';
-    cpBtn.style.cssText='background:transparent;border:1px solid var(--border);border-radius:6px;'+
-      'color:var(--muted);font-size:13px;width:32px;height:32px;flex-shrink:0;cursor:pointer;'+
-      'display:flex;align-items:center;justify-content:center;transition:all .18s ease;padding:0';
-    cpBtn.onmouseover=function(){this.style.borderColor='var(--green)';this.style.color='var(--green)';};
-    cpBtn.onmouseout=function(){this.style.borderColor='var(--border)';this.style.color='var(--muted)';};
-    cpBtn.onclick=function(e){e.stopPropagation();b.onclick();};
-    row.appendChild(b);
-    row.appendChild(cpBtn);
-    list.appendChild(row);
-  });
-}
-
-// ── RANDOMIZE ALL ─────────────────────────────────────────────
-function randomizeAll(){
-  const cur=buildPromptString(); if(cur) pushHistory(cur);
-  // Pick world (if not locked)
-  const w = LOCKS.world && S.world ? getWorld() : pick(WORLDS);
-  if(!LOCKS.world){
-    S.world=w.id;
-    const wsel=document.getElementById('s-world');
-    wsel.value=w.id; wsel.classList.add('has-val');
-    applyWorldColor(w.color);
-  }
-  // Pick tension (if not locked)
-  if(!LOCKS.tension){
-    S.tension=pick(w.tensions);
-  }
-  populateTension();
-  document.getElementById('s-tension').value=S.tension||'';
-  document.getElementById('s-tension').classList.toggle('has-val',!!S.tension);
-  // Pick dials with affinity
-  ['loc','pose','look'].forEach(key=>{
-    if(LOCKS[key]) return;
-    const pool=key==='loc'?'locs':key==='pose'?'poses':'looks';
-    const aff=S.tension&&w.affinities&&w.affinities[S.tension]?(w.affinities[S.tension][pool]||[]):[];
-    const src=aff.length&&Math.random()<.7?aff:w[pool];
-    S[key]=pick(src);
-  });
-  populateDials();
-  ['loc','pose','look'].forEach(key=>{
-    const sel=document.getElementById('s-'+key);
-    if(S[key]){ sel.value=S[key]; sel.classList.add('has-val'); }
-  });
-  // Maybe set era
-  if(Math.random()>.5&&!LOCKS.era){
-    S.era=pick(ERAS).label;
-    document.querySelectorAll('.pill').forEach(p=>p.classList.toggle('active',p.textContent===S.era));
-  } else if(!LOCKS.era){
-    S.era=null;
-    document.querySelectorAll('.pill').forEach(p=>p.classList.remove('active'));
-  }
-  // Update subtitles and translation immediately so they're ready when steps open
-  updateStepStatuses();
-  if(typeof refreshTensionTranslation==='function') refreshTensionTranslation();
-  // Randomize lighting and shot
-  if(Math.random()>.4){
-    S.lighting=pick(LIGHTING_OPTIONS);
-    const ls=document.getElementById('s-lighting');
-    if(ls){ls.value=S.lighting;ls.classList.add('has-val');}
-  } else {
-    S.lighting=null;
-    const ls=document.getElementById('s-lighting');
-    if(ls){ls.value='';ls.classList.remove('has-val');}
-  }
-  if(Math.random()>.5){
-    S.shot=pick(SHOT_OPTIONS);
-    const ss=document.getElementById('s-shot');
-    if(ss){ss.value=S.shot;ss.classList.add('has-val');}
-  } else {
-    S.shot=null;
-    const ss=document.getElementById('s-shot');
-    if(ss){ss.value='';ss.classList.remove('has-val');}
-  }
-  updatePrompt(); // calls updateStepStatuses internally
-  // Subtitles are now updated — open steps so user sees them
-  [2,3,4].forEach(function(n){
-    var body=document.getElementById('step-body-'+n);
-    var chev=document.getElementById('step-chev-'+n);
-    if(body){body.classList.add('open');}
-    if(chev){chev.classList.add('open');}
-  });
-  // Flash step headers briefly to draw attention
-  [1,2,3,4].forEach(function(n){
-    var hdr=document.querySelector('#step-block-'+n+' .step-header');
-    if(hdr){
-      hdr.style.transition='background .15s ease';
-      hdr.style.background='rgba(90,63,212,.08)';
-      setTimeout(function(){hdr.style.background='';},400);
-    }
-  });
-}
-
-// ── SPIN UNLOCKED ─────────────────────────────────────────────
-function spinUnlocked(){
-  const w=getWorld(); if(!w) return;
-  ['loc','pose','look'].forEach(key=>{
-    if(LOCKS[key]) return;
-    const pool=key==='loc'?'locs':key==='pose'?'poses':'looks';
-    const aff=S.tension&&w.affinities&&w.affinities[S.tension]?(w.affinities[S.tension][pool]||[]):[];
-    const src=aff.length&&Math.random()<.7?aff:w[pool];
-    S[key]=pick(src);
-    const sel=document.getElementById('s-'+key);
-    sel.value=S[key]; sel.classList.add('has-val');
-  });
-  if(!LOCKS.tension){
-    S.tension=pick(w.tensions);
-    document.getElementById('s-tension').value=S.tension;
-    document.getElementById('s-tension').classList.add('has-val');
-    populateDials();
-    ['loc','pose','look'].forEach(key=>{
-      if(!LOCKS[key]){ const sel=document.getElementById('s-'+key); sel.value=S[key]||''; }
-    });
-  }
-  // Spin lighting too
-  S.lighting=pick(LIGHTING_OPTIONS);
-  const lsel=document.getElementById('s-lighting');
-  if(lsel){lsel.value=S.lighting;lsel.classList.add('has-val');}
-  updatePrompt();
-}
-
-// ── CLEAR ─────────────────────────────────────────────────────
-function clearAll(){
-  // Clear unlocked fields only — locked fields survive Clear
-  if(!LOCKS.world){
-    S.world=null;
-    var sw=document.getElementById('s-world'); if(sw){sw.value='';sw.classList.remove('has-val');}
-    applyWorldColor(null);
-  }
-  if(!LOCKS.tension){
-    S.tension=null;
-    var st=document.getElementById('s-tension'); if(st){st.value='';st.classList.remove('has-val');}
-    var tt=document.getElementById('tension-translation'); if(tt) tt.style.display='none';
-  }
-  if(!LOCKS.loc){
-    S.loc=null;
-    var sl=document.getElementById('s-loc'); if(sl){sl.value='';sl.classList.remove('has-val');}
-  }
-  if(!LOCKS.pose){
-    S.pose=null;
-    var sp=document.getElementById('s-pose'); if(sp){sp.value='';sp.classList.remove('has-val');}
-  }
-  if(!LOCKS.look){
-    S.look=null;
-    var sk=document.getElementById('s-look'); if(sk){sk.value='';sk.classList.remove('has-val');}
-  }
-  if(!LOCKS.lighting){
-    S.lighting=null;
-    var ls=document.getElementById('s-lighting'); if(ls){ls.value='';ls.classList.remove('has-val');}
-  }
-  S.era=null; S.shot=null;
-  var ss=document.getElementById('s-shot'); if(ss){ss.value='';ss.classList.remove('has-val');}
-  document.querySelectorAll('.pill').forEach(function(p){p.classList.remove('active');});
-  var eraClear=document.getElementById('era-clear'); if(eraClear) eraClear.style.display='none';
-  if(S.world){ populateTension(); populateDials(); }
-  var vd=document.getElementById('variants'); if(vd){vd.classList.remove('vis');vd.innerHTML='';}
-  updatePrompt();
-}
-
-// ── HELP MODAL ────────────────────────────────────────────────
-function openHowTo(){
-  document.getElementById('howto-bg').classList.add('open');
-  document.body.style.overflow='hidden';
-  document.body.classList.add('modal-open');
-}
-function closeHowTo(){
-  document.getElementById('howto-bg').classList.remove('open');
-  document.body.style.overflow='';
-  if(!document.getElementById('modal-bg').classList.contains('open')) document.body.classList.remove('modal-open');
-}
-function openHelp(){
-  document.getElementById('modal-bg').classList.add('open');
-  document.body.style.overflow='hidden';
-  document.body.classList.add('modal-open');
-}
-function closeHelp(){
-  document.getElementById('modal-bg').classList.remove('open');
-  document.body.style.overflow='';
-  if(!document.getElementById('howto-bg').classList.contains('open')) document.body.classList.remove('modal-open');
-}
-document.addEventListener('keydown',function(e){
-  if(e.key==='Escape'){
-    closeHelp(); closeHowTo();
-    // Also close any open tooltip
-    var tt=document.getElementById('coh-tooltip');
-    if(tt) tt.classList.remove('vis');
-  }
-  // '/' focuses world search (like GitHub search shortcut)
-  if(e.key==='/' && document.activeElement.tagName!=='INPUT' && document.activeElement.tagName!=='SELECT'){
-    e.preventDefault();
-    var ws=document.getElementById('world-search');
-    if(ws){ openStep(2); ws.focus(); }
-  }
-  // 'r' triggers randomize when not in an input
-  if(e.key==='r' && e.altKey){
-    e.preventDefault();
-    randomizeAll();
-  }
-  // 'c' copies prompt when not in an input
-  if(e.key==='c' && e.altKey){
-    e.preventDefault();
-    copyPrompt();
-  }
-  // Number keys 1-4 toggle steps
-  if(!e.altKey && !e.ctrlKey && !e.metaKey &&
-     document.activeElement.tagName!=='INPUT' &&
-     document.activeElement.tagName!=='SELECT'){
-    if(e.key==='1') toggleStep(1);
-    if(e.key==='2') toggleStep(2);
-    if(e.key==='3') toggleStep(3);
-    if(e.key==='4') toggleStep(4);
-  }
-});
-
-// ── QUALITY HINTS ─────────────────────────────────────────────
-function updateQualityHint(){
-  var bar=document.getElementById('quality-bar');
-  if(!bar) return;
-  var hint=document.getElementById('quality-hint-text');
-  if(!S.world){bar.classList.remove('vis');return;}
-  var w=getWorld();
-  var filled=[S.loc,S.pose,S.look].filter(function(v){return v&&v!=='__ai__';}).length;
-  var aiCount=[S.loc,S.pose,S.look].filter(function(v){return v==='__ai__';}).length;
-  var msg=null;
-
-  // World-category-aware hints
-  var worldId=S.world||'';
-  var isMythic=['underworld','surreal','space','expedition'].indexOf(worldId)>=0;
-  var isUrban=['city','rooftop','concrete','underground'].indexOf(worldId)>=0;
-  var isNature=['mountain','wild','jungle','desert','rain','cold','expedition','farm'].indexOf(worldId)>=0;
-  var isCultural=['mexico','caribbean','usa','canada','market','monastery'].indexOf(worldId)>=0;
-  var isPerformance=['stage','music','circus','runway','ballet'].indexOf(worldId)>=0;
-
-  if(!S.tension){
-    msg='<strong>Pick a tension</strong> — it’s the emotional core of the image and unlocks affinity matches.';
-  } else if(aiCount===3){
-    msg='All fields set to <strong>AI decides</strong> — set at least one manually for a more directed result.';
-  } else if(filled===0&&aiCount===0){
-    if(isMythic) msg='<strong>Add a location</strong> — in '+w.name+' the setting is everything. Try a specific mythic or surreal space.';
-    else if(isUrban) msg='<strong>Add a location</strong> to anchor the urban scene — rooftop, street, or interior changes everything.';
-    else if(isNature) msg='<strong>Add a location</strong> — natural worlds need a specific setting. The light changes with the place.';
-    else msg='<strong>Add a location or pose</strong> to build the prompt.';
-  } else if(filled===1&&aiCount===0){
-    if(isPerformance) msg='<strong>Add a pose</strong> — in performance worlds body language defines the shot.';
-    else if(isCultural) msg='<strong>Add a look</strong> to anchor the cultural context — wardrobe signals where and when.';
-    else msg='<strong>One field filled.</strong> Add a location or pose for a stronger prompt.';
-  } else if(filled>=3){
-    if(S.tension&&w.affinities&&w.affinities[S.tension]){
-      var aff=w.affinities[S.tension];
-      var locIn=!S.loc||S.loc==='__ai__'||(aff.locs||[]).indexOf(S.loc)>=0;
-      var poseIn=!S.pose||S.pose==='__ai__'||(aff.poses||[]).indexOf(S.pose)>=0;
-      var lookIn=!S.look||S.look==='__ai__'||(aff.looks||[]).indexOf(S.look)>=0;
-      if(!locIn&&!poseIn&&!lookIn){
-        msg='All selections outside affinity set — bold contrast. Or hit <strong>Spin Unlocked</strong> to align.';
-      } else if(!locIn||!poseIn||!lookIn){
-        msg='Some selections outside affinity — interesting tension. Or <strong>Spin Unlocked</strong> to align.';
-      } else {
-        if(isMythic) msg='Strong mythic prompt. Open <strong>Rewrite & Tighten</strong> for 5 cinematic variants.';
-        else if(isUrban) msg='Urban scene is well-built. Hit <strong>Rewrite & Tighten</strong> for 5 variants.';
-        else msg='Prompt looks solid. Hit <strong>Rewrite & Tighten</strong> for 5 cinematic variants.';
-      }
-    } else {
-      msg='Prompt looks solid. Hit <strong>Rewrite & Tighten</strong> for 5 cinematic variants.';
-    }
-  } else if(!S.look&&S.look!=='__ai__'&&filled>=2){
-    if(isCultural) msg='<strong>Add a wardrobe look</strong> — in '+w.name+' costume is key to the cultural atmosphere.';
-    else if(isPerformance) msg='<strong>Add a wardrobe look</strong> — performance worlds live and die by costume.';
-    else msg='<strong>Add a wardrobe look</strong> to anchor the visual tone.';
-  }
-
-  if(msg){hint.innerHTML='&#x25B8; '+msg;bar.classList.add('vis');}
-  else{bar.classList.remove('vis');}
-}
-
-
-// ── LIGHTING & SHOT ───────────────────────────────────────────
-function onLighting(){
-  const v=document.getElementById('s-lighting').value;
-  S.lighting=v||null;
-  document.getElementById('s-lighting').classList.toggle('has-val',!!(v&&v!=='__ai__'));
-  updatePrompt();
-}
-function onShot(){
-  const v=document.getElementById('s-shot').value;
-  S.shot=v||null;
-  document.getElementById('s-shot').classList.toggle('has-val',!!(v&&v!=='__ai__'));
-  updatePrompt();
-}
-
-// ── AI DECIDES BUTTONS ────────────────────────────────────────
-function aiClick(key){
-  const sel=document.getElementById('s-'+key);
-  if(!sel) return;
-  if(LOCKS[key]) return;
-  // Show loading state on the AI button
-  var btn=document.getElementById('ai-'+key);
-  if(!btn){
-    // Find by proximity — button adjacent to this select
-    var row=sel.closest('.field-row');
-    if(row) btn=row.querySelector('.ai-btn');
-  }
-  var origText='';
-  if(btn){
-    origText=btn.textContent;
-    btn.textContent='◌';
-    btn.style.animation='spin .7s linear infinite';
-    btn.disabled=true;
-    btn.style.opacity='.6';
-  }
-  S[key]='__ai__';
-  sel.value='__ai__';
-  sel.classList.remove('has-val');
-  updatePrompt();
-  // Restore button after brief delay (AI is instant — this is just UX feedback)
-  setTimeout(function(){
-    if(btn){
-      btn.textContent=origText||'✦ AI';
-      btn.style.animation='';
-      btn.disabled=false;
-      btn.style.opacity='';
-    }
-  }, 800);
-}
-function initLightingShot(){
-  const ls=document.getElementById('s-lighting');
-  const ss=document.getElementById('s-shot');
-  if(ls){
-    ls.innerHTML='<option value="">\u2014 lighting \u2014</option><option value="__ai__">✦ AI decides</option>';
-    LIGHTING_OPTIONS.forEach(function(v){
-      var o=document.createElement('option');o.value=v;o.textContent=v;ls.appendChild(o);
-    });
-  }
-  if(ss){
-    ss.innerHTML='<option value="">\u2014 shot type \u2014</option><option value="__ai__">✦ AI decides</option>';
-    SHOT_OPTIONS.forEach(function(v){
-      var o=document.createElement('option');o.value=v;o.textContent=v;ss.appendChild(o);
-    });
-  }
-}
-
-
-// ── RATIO & SUBJECT ───────────────────────────────────────────
-function onRatio(){
-  const v=document.getElementById('s-ratio').value;
-  S.ratio=v||'9:16';
-  updatePrompt();
-}
-function onSubject(){
-  const v=document.getElementById('s-subject').value;
-  S.subject=v||'couple';
-  // Repopulate pose dial with subject-appropriate poses
-  populatePoseForSubject();
-  updatePrompt();
-}
-function populatePoseForSubject(){
-  const sel=document.getElementById('s-pose');
-  if(!sel) return;
-  const w=getWorld();
-  if(S.subject==='solo'){
-    sel.innerHTML='<option value="">\u2014 choose pose \u2014</option><option value="__ai__">✦ AI decides</option>';
-    const sg=document.createElement('optgroup'); sg.label='▸ Solo poses';
-    SOLO_POSES.forEach(function(v){var o=document.createElement('option');o.value=v;o.textContent=v;sg.appendChild(o);});
-    sel.appendChild(sg);
-    if(w){
-      const wg=document.createElement('optgroup'); wg.label='▸ World poses (adapt for solo)';
-      w.poses.forEach(function(v){var o=document.createElement('option');o.value=v;o.textContent=v;wg.appendChild(o);});
-      sel.appendChild(wg);
-    }
-  } else if(S.subject==='group'){
-    sel.innerHTML='<option value="">\u2014 choose pose \u2014</option><option value="__ai__">✦ AI decides</option>';
-    const sg=document.createElement('optgroup'); sg.label='▸ Group poses';
-    GROUP_POSES.forEach(function(v){var o=document.createElement('option');o.value=v;o.textContent=v;sg.appendChild(o);});
-    sel.appendChild(sg);
-    if(w){
-      const wg=document.createElement('optgroup'); wg.label='▸ World poses (adapt for group)';
-      w.poses.forEach(function(v){var o=document.createElement('option');o.value=v;o.textContent=v;wg.appendChild(o);});
-      sel.appendChild(wg);
-    }
-  } else {
-    // couple \u2014 normal populateDial
-    populateDial('pose');
-  }
-  // restore selected value if still present
-  if(S.pose){try{sel.value=S.pose;}catch(e){}}
-  sel.classList.toggle('has-val',!!(S.pose&&S.pose!=='__ai__'));
-}
-
-
-function initRatioSubject(){
-  const rs=document.getElementById('s-ratio');
-  const ss=document.getElementById('s-subject');
-  if(rs){
-    rs.innerHTML='';
-    RATIOS.forEach(function(r){
-      var o=document.createElement('option');o.value=r.value;o.textContent=r.label;
-      if(r.value===S.ratio) o.selected=true;
-      rs.appendChild(o);
-    });
-  }
-  if(ss){
-    ss.innerHTML='';
-    SUBJECTS.forEach(function(s){
-      var o=document.createElement('option');o.value=s.value;o.textContent=s.label;
-      if(s.value===S.subject) o.selected=true;
-      ss.appendChild(o);
-    });
-  }
-}
-
-
-// ── WORLD TICKER ─────────────────────────────────────────────
-function initWorldTicker(){
-  var el=document.getElementById('world-ticker-inner');
-  if(!el) return;
-  var chips=WORLDS.map(function(w){
-    return '<span class="world-chip" style="border-left:3px solid '+(w.color||'var(--border)')+'">'+w.name+'</span>';
-  });
-  // Duplicate for seamless loop
-  el.innerHTML=[...chips,...chips].join('');
-}
-
-
-// ── STEP ACCORDION ────────────────────────────────────────────
-var openSteps = {1:true, 2:false, 3:false, 4:false, r:false};
-
-function toggleStep(n){
-  var body = document.getElementById('step-body-'+n);
-  var chev = document.getElementById('step-chev-'+n);
-  if(!body) return;
-  var isOpen = body.classList.contains('open');
-  body.classList.toggle('open', !isOpen);
-  if(chev) chev.classList.toggle('open', !isOpen);
-  // Fix 6: auto-generate variants when rewrite section opens with a valid prompt
-  if(n==='r' && !isOpen){
-    var variantsEl=document.getElementById('variants');
-    var rewriteBtn=document.getElementById('btn-rewrite');
-    var hasPrompt=rewriteBtn&&!rewriteBtn.disabled;
-    var isEmpty=variantsEl&&variantsEl.children.length===0;
-    if(hasPrompt && isEmpty){
-      setTimeout(function(){refineLocal();},120);
-    }
-  }
-}
-
-function openStep(n){
-  var body = document.getElementById('step-body-'+n);
-  var chev = document.getElementById('step-chev-'+n);
-  if(body){ body.classList.add('open'); }
-  if(chev){ chev.classList.add('open'); }
-}
-
-function updateStepStatuses(){
-  var statuses = [
-    {n:1, done: S.ratio && S.subject},
-    {n:2, done: S.world && S.tension},
-    {n:3, done: S.loc || S.pose},
-    {n:4, done: S.look || S.lighting || S.era},
-  ];
-  statuses.forEach(function(s){
-    var el = document.getElementById('step-status-'+s.n);
-    if(!el) return;
-    if(s.done){ el.textContent='✓ Done'; el.className='step-status done'; }
-    else { el.textContent='To do'; el.className='step-status todo'; }
-  });
-  // Guide pulse on step 2 when no world selected
-  var hdr2 = document.getElementById('step2-header');
-  if(hdr2){
-    if(!S.world){ hdr2.classList.add('guide'); }
-    else { hdr2.classList.remove('guide'); openStep(2); }
-  }
-  // Refresh tension translation display
-  if(typeof refreshTensionTranslation==='function') refreshTensionTranslation();
-  // Update subtitles
-  var sub1 = document.getElementById('step-sub-1');
-  if(sub1) sub1.textContent = (S.ratio||'4:5') + ' · ' + (S.subject ? S.subject.charAt(0).toUpperCase()+S.subject.slice(1) : 'Couple');
-  var sub2 = document.getElementById('step-sub-2');
-  if(sub2){
-    var w = getWorld();
-    sub2.textContent = (w ? w.name : 'No world') + ' · ' + (S.tension || 'No tension');
-  }
-}
-
-// ── URL STATE ─────────────────────────────────────────────────
-function markVariantsStale(){
-  var vd=document.getElementById('variants');
-  var note=document.getElementById('stale-note');
-  if(vd && vd.children.length>0){
-    if(!note){
-      note=document.createElement('div');
-      note.id='stale-note';
-      note.style.cssText='background:#fff5e8;border:1px solid #f5d9a8;border-radius:8px;'+
-        'padding:8px 12px;font-family:"JetBrains Mono",monospace;font-size:9px;'+
-        'color:var(--amber);letter-spacing:.06em;margin-bottom:10px;cursor:pointer;'+
-        'text-transform:uppercase';
-      note.textContent='⚠ Selections changed — tap to regenerate';
-      note.onclick=function(){refineLocal();};
-      vd.parentNode.insertBefore(note,vd);
-    }
-  } else {
-    if(note) note.remove();
-  }
-}
-
-function encodeState(){
-  var parts=[];
-  if(S.world) parts.push('w='+encodeURIComponent(S.world));
-  if(S.tension) parts.push('t='+encodeURIComponent(S.tension));
-  if(S.loc) parts.push('l='+encodeURIComponent(S.loc));
-  if(S.pose) parts.push('p='+encodeURIComponent(S.pose));
-  if(S.look) parts.push('k='+encodeURIComponent(S.look));
-  if(S.lighting) parts.push('li='+encodeURIComponent(S.lighting));
-  if(S.shot) parts.push('sh='+encodeURIComponent(S.shot));
-  if(S.era) parts.push('e='+encodeURIComponent(S.era));
-  if(S.ratio && S.ratio!=='4:5') parts.push('r='+encodeURIComponent(S.ratio));
-  if(S.subject && S.subject!=='couple') parts.push('su='+encodeURIComponent(S.subject));
-  var hash = parts.length ? '#'+parts.join('&') : '';
-  if(history.replaceState) history.replaceState(null,'',window.location.pathname+hash);
-  // Pulse Share button to signal URL updated
-  var shareBtn=document.getElementById('btn-share');
-  if(shareBtn&&hash){
-    shareBtn.style.borderColor='rgba(255,255,255,.5)';
-    shareBtn.style.color='#fff';
-    setTimeout(function(){shareBtn.style.borderColor='';shareBtn.style.color='';},600);
-  }
-}
-
-function loadFromURL(){
-  var hash = window.location.hash.slice(1);
-  if(!hash) return;
-  var params={};
-  hash.split('&').forEach(function(p){
-    var kv=p.split('=');
-    if(kv.length===2) params[kv[0]]=decodeURIComponent(kv[1]);
-  });
-  if(params.r) S.ratio=params.r;
-  if(params.su) S.subject=params.su;
-  if(params.w) S.world=params.w;
-  if(params.t) S.tension=params.t;
-  if(params.l) S.loc=params.l;
-  if(params.p) S.pose=params.p;
-  if(params.k) S.look=params.k;
-  if(params.li) S.lighting=params.li;
-  if(params.sh) S.shot=params.sh;
-  if(params.e) S.era=params.e;
-  return Object.keys(params).length>0;
-}
-
-function copyShareURL(){
-  var url=window.location.href.split('#')[0]+(window.location.hash||'');
-  navigator.clipboard.writeText(url).then(function(){
-    var btn=document.getElementById('btn-share');
-    if(btn){btn.textContent='Copied!';setTimeout(function(){btn.textContent='Share';},2000);}
-  });
-}
-
-function togglePromptBar(){
-  var inner=document.getElementById('prompt-bar-inner');
-  var chev=document.getElementById('prompt-strip-chev');
-  if(!inner) return;
-  if(inner.classList.contains('collapsed')){
-    inner.classList.remove('collapsed');inner.classList.add('expanded');
-    if(chev) chev.classList.add('open');
-  } else {
-    inner.classList.add('collapsed');inner.classList.remove('expanded');
-    if(chev) chev.classList.remove('open');
-  }
-}
-
-// ── HASHCHANGE (browser back/forward) ─────────────────────
-window.addEventListener('hashchange', function(){
-  var hadURL = loadFromURL();
-  if(hadURL){
-    var sw=document.getElementById('s-world');
-    if(sw&&S.world){sw.value=S.world; onWorldChange();}
-    setTimeout(function(){
-      var st=document.getElementById('s-tension');
-      if(st&&S.tension){st.value=S.tension; onTensionChange();}
-      var sl=document.getElementById('s-loc');
-      if(sl&&S.loc){sl.value=S.loc; onDialChange('loc');}
-      var sp=document.getElementById('s-pose');
-      if(sp&&S.pose){sp.value=S.pose; onDialChange('pose');}
-      var sk=document.getElementById('s-look');
-      if(sk&&S.look){sk.value=S.look; onDialChange('look');}
-      var sli=document.getElementById('s-lighting');
-      if(sli&&S.lighting){sli.value=S.lighting; onLighting();}
-      var ssh=document.getElementById('s-shot');
-      if(ssh&&S.shot){ssh.value=S.shot; onShot();}
-      var sr=document.getElementById('s-ratio');
-      if(sr&&S.ratio){sr.value=S.ratio; onRatio();}
-      var ssu=document.getElementById('s-subject');
-      if(ssu&&S.subject){ssu.value=S.subject; onSubject();}
-      updatePrompt();
-    }, 100);
-  }
-});
-
-function initPromptBar(){
-  var inner=document.getElementById('prompt-bar-inner');
-  if(!inner) return;
-  if(window.innerWidth<=480){
-    inner.classList.add('collapsed');
-  }
-  // On desktop: no collapsed class, base CSS shows it
-}
-
-// Handle resize — restore prompt on desktop
-window.addEventListener('resize',function(){
-  var full=document.getElementById('prompt-bar-inner');
-  var strip=document.getElementById('prompt-strip');
-  if(!full) return;
-  if(window.innerWidth>480){
-    inner.classList.remove('collapsed');
-    full.style.maxHeight='';full.style.opacity='';full.style.padding='';
-  } else if(!inner.classList.contains('expanded')){
-    inner.classList.add('collapsed');
-  }
-});
-
-function clearEra(){
-  S.era=null;
-  document.querySelectorAll('.pill').forEach(function(p){p.classList.remove('active');});
-  var clearBtn=document.getElementById('era-clear');
-  if(clearBtn) clearBtn.style.display='none';
-  updatePrompt();
-}
-
-function updateEraClearBtn(){
-  var clearBtn=document.getElementById('era-clear');
-  if(clearBtn) clearBtn.style.display=S.era?'inline':'none';
-}
-
-// ── BOOT ──────────────────────────────────────────────────────
-loadHistory();
-var hadURL=loadFromURL();
-initPromptBar();
-init();
-// Step 2 open by default, Step 1 collapsed
-openStep(2);
-if(hadURL){
-  // Restore dropdowns after init populated them
-  var sw=document.getElementById('s-world');
-  if(sw&&S.world){sw.value=S.world;onWorldChange();}
-  var st=document.getElementById('s-tension');
-  if(st&&S.tension){st.value=S.tension;onTensionChange();}
-  var sl=document.getElementById('s-loc');
-  if(sl&&S.loc){sl.value=S.loc;onDialChange('loc');}
-  var sp=document.getElementById('s-pose');
-  if(sp&&S.pose){sp.value=S.pose;onDialChange('pose');}
-  var sk=document.getElementById('s-look');
-  if(sk&&S.look){sk.value=S.look;onDialChange('look');}
-  var sli=document.getElementById('s-lighting');
-  if(sli&&S.lighting){sli.value=S.lighting;onLighting();}
-  var ssh=document.getElementById('s-shot');
-  if(ssh&&S.shot){ssh.value=S.shot;onShot();}
-  var sr=document.getElementById('s-ratio');
-  if(sr&&S.ratio){sr.value=S.ratio;onRatio();}
-  var ssu=document.getElementById('s-subject');
-  if(ssu&&S.subject){ssu.value=S.subject;onSubject();}
-}
-
-</script>
-
-
-// Standalone translation refresh — called from multiple places
-function refreshTensionTranslation(){
-  var tt=document.getElementById('tension-translation');
-  if(!tt) return;
-  var trans=S.tension&&typeof TENSION_TRANSLATIONS!=='undefined'?TENSION_TRANSLATIONS[S.tension]:null;
-  if(trans){tt.textContent='“'+trans+'”';tt.style.display='block';}
-  else{tt.style.display='none';}
-}
-
-// Override onTensionChange to show tension translation
-function onTensionChange(){
-  if(LOCKS.tension) return;
-  S.tension=document.getElementById('s-tension').value||null;
-  document.getElementById('s-tension').classList.toggle('has-val',!!S.tension);
-  refreshTensionTranslation();
-  updatePrompt();
-}
-
-
-function filterWorlds(query){
-  var sel=document.getElementById('s-world');
-  if(!sel) return;
-  var q=query.toLowerCase().trim();
-  Array.from(sel.children).forEach(function(child){
-    if(child.tagName==='OPTGROUP'){
-      var anyVisible=false;
-      Array.from(child.children).forEach(function(o){
-        var match=q===''||o.textContent.toLowerCase().includes(q);
-        o.style.display=match?'':'none';
-        if(match) anyVisible=true;
-      });
-      child.style.display=anyVisible?'':'none';
-    } else {
-      child.style.display=(q===''||child.textContent.toLowerCase().includes(q))?'':'none';
-    }
-  });
-}
-
-function clearWorldSearch(){
-  var ws=document.getElementById('world-search');
-  if(ws&&ws.value){ws.value='';filterWorlds('');}
-}
-
-function filterTensions(query){
-  var sel=document.getElementById('s-tension');
-  if(!sel||sel.disabled) return;
-  var q=query.toLowerCase().trim();
-  Array.from(sel.options).forEach(function(o){
-    if(!o.value||o.value==='__ai__'){o.style.display='';return;}
-    o.style.display=(q===''||o.text.toLowerCase().includes(q))?'':'none';
-  });
-}
-
-function translateTension(t){
-  return TENSION_TRANSLATIONS[t] || t;
-}
-
-// ── BUILD PROMPT ──────────────────────────────────────────────
-function buildPromptString(){
-  if(!S.world) return null;
-  var w=getWorld();
-  var conn=pickConn(w);
-  var ten=S.tension?translateTension(S.tension):null;
-
-  var sentence='';
-
-  // Shot type opens as a framing directive
-  var shotPrefix=S.shot&&S.shot!=='__ai__'?S.shot+'. ':'';
-
-  // Core: tension \u2014 pose [connector] location
-  if(ten&&S.pose&&S.pose!=='__ai__'&&S.loc&&S.loc!=='__ai__')
-    sentence=ten+' \u2014 '+S.pose+' '+conn+' '+S.loc;
-  else if(ten&&S.pose&&S.pose!=='__ai__')
-    sentence=ten+', '+S.pose;
-  else if(ten&&S.loc&&S.loc!=='__ai__')
-    sentence=ten+' '+conn+' '+S.loc;
-  else if(S.pose&&S.pose!=='__ai__'&&S.loc&&S.loc!=='__ai__')
-    sentence=S.pose+' '+conn+' '+S.loc;
-  else if(ten) sentence=ten;
-  else if(S.pose&&S.pose!=='__ai__') sentence=S.pose;
-  else if(S.loc&&S.loc!=='__ai__') sentence=S.loc;
-
-  // AI placeholders
-  if(S.pose==='__ai__') sentence+=(sentence?', ':'')+'[AI: pose]';
-  if(S.loc==='__ai__') sentence+=(sentence?' amid ':'')+'[AI: location]';
-
-  // Look as wearing clause
-  if(S.look&&S.look!=='__ai__') sentence+=', wearing '+S.look;
-  else if(S.look==='__ai__') sentence+=', [AI: wardrobe]';
-
-  // Lighting as atmospheric clause
-  if(S.lighting&&S.lighting!=='__ai__') sentence+=', bathed in '+S.lighting;
-  else if(S.lighting==='__ai__') sentence+=', [AI: lighting]';
-
-  // Era as softest modifier
-  if(S.era){var e=ERAS.find(function(x){return x.label===S.era;});if(e)sentence+=', '+e.tone+' aesthetic';}
-
-  if(!sentence) return null;
-  var moodNote='';
-  if(ten) moodNote=' The emotional tension ('+S.tension+') is a mood and atmosphere directive only — do not illustrate it literally.';
-  return buildFixed()+' '+shotPrefix+sentence+'.'+moodNote;
-}
-
-function pickConn(w){
-  if(!w) return 'amid';
-  const pool = CONNECTORS[w.id] || ['amid','against','beside'];
-  // Deterministic per tension+world combo so it doesn't change on re-render
-  if(S.tension){
-    const seed = S.tension.length + w.id.length;
-    return pool[seed % pool.length];
-  }
-  return pool[0];
-}
-
-// ── UPDATE LIVE PROMPT ────────────────────────────────────────
-function updatePrompt(){
-  const ptEl = document.getElementById('pt');
-  const wcEl = document.getElementById('wc');
-  const cohEl = document.getElementById('coh');
-  const rewriteBtn = document.getElementById('btn-rewrite');
-
-  if(!S.world){
-    ptEl.innerHTML='<span class="pt-empty">Select a world to begin</span>';
-    wcEl.textContent=''; cohEl.style.display='none';
-    rewriteBtn.disabled=true; return;
-  }
-
-  const w = getWorld();
-  const sep='<span style="color:#2e2a25">, </span>';
-  const dot='<span style="color:#2e2a25">.</span>';
-  const parts=[];
-  if(S.tension) parts.push('<span class="pt-tension">'+translateTension(S.tension)+'</span>');
-  if(S.loc){ const v=S.loc==='__ai__'?'[AI: location]':S.loc; parts.push('<span class="pt-loc">'+v+'</span>'); }
-  if(S.pose){ const v=S.pose==='__ai__'?'[AI: pose]':S.pose; parts.push('<span class="pt-pose">'+v+'</span>'); }
-  if(S.look){ const v=S.look==='__ai__'?'[AI: look]':S.look; parts.push('<span class="pt-look">'+v+'</span>'); }
-  if(S.era){ const e=ERAS.find(x=>x.label===S.era); if(e) parts.push('<span class="pt-era">'+e.tone+' aesthetic</span>'); }
-  if(S.lighting){ const v=S.lighting==='__ai__'?'[AI: lighting]':('lit by '+S.lighting); parts.push('<span class="pt-light">'+v+'</span>'); }
-  if(S.shot){ const v=S.shot==='__ai__'?'[AI: shot]':S.shot; parts.push('<span class="pt-shot">'+v+'</span>'); }
-
-  let html='<span class="pt-fixed">'+buildFixed()+'</span>';
-  if(parts.length) html+=' '+parts.join(sep)+dot;
-  else html+=' <span class="pt-empty">\u2014 pick tension, location, pose or look</span>';
-  if(S.tension && parts.length){
-    html+='<span class="pt-mood"> The emotional tension ('+S.tension+') is a mood and atmosphere directive only \u2014 do not illustrate it literally.</span>';
-  }
-  ptEl.innerHTML=html;
-
-  const p=buildPromptString();
-  const varPart=p?p.replace(buildFixed(),'').trim():'';
-  const wc=varPart?varPart.split(/\s+/).filter(Boolean).length:0;
-  wcEl.textContent=wc?wc+' variable words':'';
-  wcEl.className='wc'+(wc>30?' over':wc>0?' good':'');
-  var stripWc=document.getElementById('prompt-strip-wc');
-  if(stripWc) stripWc.textContent=wc?wc+' words':'';
-  rewriteBtn.disabled=!p;
-  updateCoherence(w);
-  updateStepStatuses();
-  updateQualityHint();
-  encodeState();
-  updateEraClearBtn();
-}
-
-// ── COHERENCE ─────────────────────────────────────────────────
-function updateCoherence(w){
-  const el=document.getElementById('coh');
-  if(!el) return;
-  const filled=[S.tension,S.loc,S.pose,S.look].filter(function(v){return v&&v!=='__ai__';}).length;
-  if(!S.world||!filled){el.style.display='none';return;}
-  el.style.display='flex';
-
-  // Base score — affinity-aware
-  var score=0; var max=0; var reasons=[];
-
-  // Tension in world
-  if(S.tension){
-    max+=3;
-    if(w.tensions.includes(S.tension)){score+=3;reasons.push('tension fits this world');}
-    else reasons.push('tension is from outside this world');
-  }
-
-  // Check affinity match — do loc/pose/look appear in this tension's affinity?
-  var aff=S.tension&&w.affinities&&w.affinities[S.tension];
-
-  if(S.loc&&S.loc!=='__ai__'){
-    max+=3;
-    if(aff&&aff.locs&&aff.locs.includes(S.loc)){score+=3;reasons.push('location is a top affinity match');}
-    else if(w.locs.includes(S.loc)){score+=1;reasons.push('location fits the world');}
-    else reasons.push('location is outside this world');
-  }
-  if(S.pose&&S.pose!=='__ai__'){
-    max+=3;
-    if(aff&&aff.poses&&aff.poses.includes(S.pose)){score+=3;reasons.push('pose is a top affinity match');}
-    else if(w.poses.includes(S.pose)){score+=1;reasons.push('pose fits the world');}
-    else reasons.push('pose is outside this world');
-  }
-  if(S.look&&S.look!=='__ai__'){
-    max+=2;
-    if(aff&&aff.looks&&aff.looks.includes(S.look)){score+=2;reasons.push('wardrobe is a top affinity match');}
-    else if(w.looks.includes(S.look)){score+=1;reasons.push('wardrobe fits the world');}
-  }
-  if(S.lighting&&S.lighting!=='__ai__'){max+=1;score+=1;}
-  if(S.era){max+=1;score+=1;}
-
-  var r=max>0?score/max:0;
-  var label,cls,icon;
-  if(r>=.75){label='Cohesive';cls='coh high';icon='✦';}
-  else if(r>=.4){label='Moderate';cls='coh mid';icon='◐';}
-  else{label='Scattered';cls='coh low';icon='○';}
-
-  el.className=cls;
-  el.innerHTML='<span class="coh-icon">'+icon+'</span><span class="coh-label">'+label+'</span>';
-
-  // Build tooltip
-  var tip=reasons.length?reasons.join(' · '):'pick a tension to see affinity score';
-  el.title=tip;
-  el.setAttribute('aria-label','Coherence: '+label+'. '+tip);
-  // Populate tap tooltip
-  var tt=document.getElementById('coh-tooltip');
-  if(tt) tt.textContent=tip;
-}
-
-function toggleCohTooltip(){
-  var tt=document.getElementById('coh-tooltip');
-  if(!tt) return;
-  tt.classList.toggle('vis');
-  if(tt.classList.contains('vis')){
-    setTimeout(function(){tt.classList.remove('vis');},3000);
-  }
-}
-
-// Close tooltip on outside tap
-document.addEventListener('click',function(e){
-  var tt=document.getElementById('coh-tooltip');
-  var coh=document.getElementById('coh');
-  if(tt&&coh&&!coh.contains(e.target)) tt.classList.remove('vis');
-});
-
-// ── COPY ──────────────────────────────────────────────────────
-function copyPrompt(){
-  const p=document.getElementById('pt').innerText;
-  if(!p||p.includes('Select a world')) return;
-  navigator.clipboard.writeText(p).then(function(){
-    pushHistory(p);
-    var btn=document.getElementById('btn-copy');
-    if(btn){
-      btn.textContent='✓ Copied';
-      btn.style.background='linear-gradient(135deg,#1a8f5a,#22aa6a)';
-      setTimeout(function(){btn.textContent='Copy';btn.style.background='';},1500);
-    }
-  });
-}
-
-// ── REWRITE ───────────────────────────────────────────────────
-function refineLocal(){
-  const p=buildPromptString(); if(!p) return;
-  const w=getWorld();
-  const btn=document.getElementById('btn-rewrite');
-  const varEl=document.getElementById('variants');
-  btn.disabled=true; btn.textContent='Rewriting…';
-  varEl.innerHTML=''; varEl.classList.remove('vis');
-  const eraD=S.era?ERAS.find(e=>e.label===S.era):null;
-  const connPool=CONNECTORS[S.world]||['defined by'];
-  const used=new Set();
-  const baseT={
-    tension:S.tension||null,
-    loc:S.loc&&S.loc!=='__ai__'?S.loc:null,
-    pose:S.pose&&S.pose!=='__ai__'?S.pose:null,
-    look:S.look&&S.look!=='__ai__'?S.look:null,
-    lighting:S.lighting&&S.lighting!=='__ai__'?S.lighting:null,
-    shot:S.shot&&S.shot!=='__ai__'?S.shot:null,
-    era:eraD?eraD.tone:null,
-    worldSub:w?w.sub.toLowerCase():''
-  };
-  if(eraD&&!baseT.look&&eraD.hint) baseT.look=eraD.hint;
-  const VARIANT_LABELS=[
-    'Variant 1 \u2014 Cinematic Scale',
-    'Variant 2 \u2014 Intimacy',
-    'Variant 3 \u2014 Essential',
-    'Variant 4 \u2014 Location-Led',
-    'Variant 5 \u2014 Wardrobe-Led'
-  ];
-  const variants=[];
-  const connectors=connPool.length>=5?connPool:[...connPool,...connPool,...connPool];
-  for(let i=0;i<TEMPLATES.length;i++){
-    const conn=connectors[i%connectors.length];
-    const t={...baseT,connector:conn};
-    const inner=TEMPLATES[i](t).replace(/^,\s*/,'').replace(/,\s*,/g,',').replace(/,\s*\./g,'.');
-    var moodNote=S.tension?' The emotional tension ('+S.tension+') is a mood and atmosphere directive only — do not illustrate it literally.':'';
-    variants.push({full:buildFixed()+' '+inner+moodNote,wc:inner.split(/\s+/).filter(Boolean).length,label:VARIANT_LABELS[i]});
-  }
-  setTimeout(()=>{
-    variants.forEach((v,i)=>{
-      const block=document.createElement('div'); block.className='variant';
-      const labelEl=document.createElement('div'); labelEl.className='v-label'; labelEl.textContent=v.label; block.appendChild(labelEl);
-      const pEl=document.createElement('div'); pEl.className='v-text'; pEl.textContent=v.full; block.appendChild(pEl);
-      const meta=document.createElement('div'); meta.className='v-meta';
-      const wcCls=v.wc>30?'color:#ff6a6a':v.wc>0?'color:var(--green)':'';
-      meta.innerHTML='<span style="'+wcCls+'">'+v.wc+' words</span>';
-      const cb=document.createElement('button'); cb.className='v-copy'; cb.textContent='Copy';
-      cb.onclick=e=>{e.stopPropagation();navigator.clipboard.writeText(v.full).then(()=>{
-        cb.textContent='✓ Copied';
-        cb.style.color='#fff';
-        cb.style.background='linear-gradient(135deg,#1a8f5a,#22aa6a)';
-        cb.style.borderColor='transparent';
-        pushHistory(v.full);
-        setTimeout(()=>{
-          cb.textContent='Copy';
-          cb.style.color='';cb.style.background='';cb.style.borderColor='';
-          cb.classList.remove('copied');
-        },1500);
-      });};
-      meta.appendChild(cb); block.appendChild(meta);
-      block.onclick=()=>cb.click();
-      varEl.appendChild(block);
-    });
-    varEl.classList.add('vis');
-    btn.disabled=false; btn.innerHTML='&#x2726; Rewrite &amp; Tighten';
-  },200);
-}
-
-// ── HISTORY ───────────────────────────────────────────────────
-const HIST_KEY='couplesai_history';
-const HIST_MAX=20;
-
-function loadHistory(){
-  try{
-    var saved=localStorage.getItem(HIST_KEY);
-    if(saved){
-      var parsed=JSON.parse(saved);
-      if(Array.isArray(parsed)) history=parsed;
-    }
-  }catch(e){}
-}
-
-function saveHistory(){
-  try{ localStorage.setItem(HIST_KEY,JSON.stringify(history)); }catch(e){}
-}
-
-function pushHistory(p){
-  if(!p||history[0]===p) return;
-  history.unshift(p);
-  if(history.length>HIST_MAX) history.pop();
-  saveHistory();
-  renderHistory();
-}
-
-function clearHistory(){
-  history=[];
-  saveHistory();
-  renderHistory();
-}
-function renderHistory(){
-  var card=document.getElementById('hist-card');
-  var list=document.getElementById('hist-list');
-  list.innerHTML='';
-  if(!history.length){card.style.display='none';return;}
-  card.style.display='block';
-  // Header row
-  var hdr=document.createElement('div');
-  hdr.style.cssText='display:flex;align-items:center;justify-content:space-between;padding:8px 16px 4px;border-bottom:1px solid var(--border);margin-bottom:4px';
-  var countSpan=document.createElement('span');
-  countSpan.style.cssText='font-family:JetBrains Mono,monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)';
-  countSpan.textContent='Last '+history.length+' prompts';
-  var clearBtn=document.createElement('button');
-  clearBtn.textContent='Clear all';
-  clearBtn.style.cssText='background:transparent;border:none;color:var(--muted);font-family:JetBrains Mono,monospace;font-size:9px;cursor:pointer;letter-spacing:.06em;text-transform:uppercase;padding:2px 6px;border-radius:4px';
-  clearBtn.onmouseover=function(){this.style.color='var(--rose)';};
-  clearBtn.onmouseout=function(){this.style.color='var(--muted)';};
-  clearBtn.onclick=function(){clearHistory();};
-  hdr.appendChild(countSpan);
-  hdr.appendChild(clearBtn);
-  list.appendChild(hdr);
-  // History items
-  history.forEach(function(h){
-    var short=h.replace(buildFixed()+' ','').replace(/^Create a [^.]+\. /,'');
-    var row=document.createElement('div');
-    row.style.cssText='display:flex;align-items:center;gap:8px;margin-bottom:4px';
-    var b=document.createElement('button');
-    b.className='hist-item';
-    b.style.cssText='flex:1;margin-bottom:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:left';
-    b.textContent=short.length>90?short.slice(0,88)+'…':short;
-    b.title=h;
-    b.onclick=function(){
-      navigator.clipboard.writeText(h).then(function(){
-        b.style.color='var(--green)';
-        cpBtn.textContent='✓';
-        cpBtn.style.color='var(--green)';
-        cpBtn.style.borderColor='var(--green)';
-        setTimeout(function(){
-          b.style.color='';
-          cpBtn.textContent='⧉';
-          cpBtn.style.color='';
-          cpBtn.style.borderColor='';
-        },1500);
-      });
     };
     var cpBtn=document.createElement('button');
     cpBtn.textContent='⧉';
@@ -1906,7 +1641,7 @@ function initWorldTicker(){
   // Duplicate for seamless loop
   const all=[...names,...names];
   el.innerHTML=all.map(function(n){
-    return '<span class="world-chip">'+n+'</span>';
+    return '<span class="world-chip" style="border-left:3px solid '+(w.color||'var(--border)')+'">'+w.name+'</span>';
   }).join('');
 }
 
@@ -1972,6 +1707,20 @@ function updateStepStatuses(){
 }
 
 // ── URL STATE ─────────────────────────────────────────────────
+function markVariantsStale(){
+  var vd=document.getElementById('variants');
+  var note=document.getElementById('stale-note');
+  if(vd&&vd.children.length>0){
+    if(!note){
+      note=document.createElement('div');note.id='stale-note';
+      note.style.cssText='background:#fff5e8;border:1px solid #f5d9a8;border-radius:8px;padding:8px 12px;font-family:"JetBrains Mono",monospace;font-size:9px;color:var(--amber);letter-spacing:.06em;margin-bottom:10px;cursor:pointer;text-transform:uppercase';
+      note.textContent='⚠ Selections changed — tap to regenerate';
+      note.onclick=function(){refineLocal();};
+      vd.parentNode.insertBefore(note,vd);
+    }
+  } else {if(note)note.remove();}
+}
+
 function encodeState(){
   var parts=[];
   if(S.world) parts.push('w='+encodeURIComponent(S.world));
@@ -1986,6 +1735,7 @@ function encodeState(){
   if(S.subject && S.subject!=='couple') parts.push('su='+encodeURIComponent(S.subject));
   var hash = parts.length ? '#'+parts.join('&') : '';
   if(history.replaceState) history.replaceState(null,'',window.location.pathname+hash);
+  var sb=document.getElementById('btn-share');if(sb&&hash){sb.style.borderColor='rgba(255,255,255,.6)';sb.style.color='#fff';setTimeout(function(){sb.style.borderColor='';sb.style.color='';},500);}
 }
 
 function loadFromURL(){
