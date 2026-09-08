@@ -127,7 +127,9 @@ header{display:flex;align-items:center;justify-content:space-between;
 .prompt-panel{display:none;padding:16px 20px 18px;
   background:linear-gradient(180deg,#1a1028,#0f1e28 60%,#1c0f22);
   border-bottom:1px solid rgba(255,255,255,.06);
-  position:sticky;top:96px;z-index:89}
+  position:sticky;top:96px;z-index:89;
+  animation:panelIn .2s ease}
+@keyframes panelIn{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
 .prompt-label{font-size:9px;font-weight:700;letter-spacing:.14em;
   text-transform:uppercase;color:var(--gold);margin-bottom:10px;
   display:flex;align-items:center;gap:7px}
@@ -470,8 +472,6 @@ footer a:hover{color:var(--gold)}
 </header>
 
 <!-- WORLD TICKER -->
-<div class="ticker-wrap"><div class="ticker-inner" id="world-ticker-inner"></div></div>
-
 <!-- PROMPT STRIP -->
 <div class="prompt-strip" id="prompt-strip" onclick="togglePromptBar()">
   <span class="strip-dot"></span>
@@ -479,7 +479,7 @@ footer a:hover{color:var(--gold)}
   <span class="strip-preview" id="strip-preview">Choose a world to begin &#x2193;</span>
   <span class="strip-wc" id="strip-wc"></span>
   <button class="strip-copy-btn" id="strip-copy-btn"
-    onclick="event.stopPropagation();copyPrompt()">Copy</button>
+    onclick="event.stopPropagation();if(navigator.vibrate)navigator.vibrate(6);copyPrompt()">Copy</button>
   <span class="strip-chev" id="strip-chev">&#x25BE;</span>
 </div>
 
@@ -491,7 +491,7 @@ footer a:hover{color:var(--gold)}
     <span class="wc" id="wc"></span>
     <div class="coh" id="coh" onclick="toggleCohTooltip()"></div>
     <div class="coh-tooltip" id="coh-tooltip"></div>
-    <button class="btn-copy" id="btn-copy" onclick="copyPrompt()">Copy</button>
+    <button class="btn-copy" id="btn-copy" onclick="if(navigator.vibrate)navigator.vibrate(6);copyPrompt()">Copy</button>
     <button class="btn-share" id="btn-share" onclick="copyShareURL()">Share</button>
   </div>
 </div>
@@ -530,7 +530,7 @@ footer a:hover{color:var(--gold)}
   <!-- STEP 2 -->
   <div class="step" id="step-block-2">
     <div class="step-hdr guide" id="step2-header" onclick="toggleStep(2)">
-      <div class="step-n sn-2">2</div>
+      <div class="step-n sn-2" id="step-n-2">2</div>
       <div class="step-info">
         <div class="step-title">World &amp; Tension</div>
         <div class="step-sub" id="step-sub-2">Pick your world to begin &#x2193;</div>
@@ -579,7 +579,7 @@ footer a:hover{color:var(--gold)}
   <!-- STEP 3 -->
   <div class="step" id="step-block-3">
     <div class="step-hdr" id="step3-header" onclick="toggleStep(3)">
-      <div class="step-n sn-3">3</div>
+      <div class="step-n sn-3" id="step-n-3">3</div>
       <div class="step-info">
         <div class="step-title">Scene</div>
         <div class="step-sub" id="step-sub-3">Location &middot; Pose &middot; Shot type</div>
@@ -634,7 +634,7 @@ footer a:hover{color:var(--gold)}
   <!-- STEP 4 -->
   <div class="step" id="step-block-4">
     <div class="step-hdr" id="step4-header" onclick="toggleStep(4)">
-      <div class="step-n sn-4">4</div>
+      <div class="step-n sn-4" id="step-n-4">4</div>
       <div class="step-info">
         <div class="step-title">Style</div>
         <div class="step-sub" id="step-sub-4">Wardrobe &middot; Lighting &middot; Era</div>
@@ -684,12 +684,16 @@ footer a:hover{color:var(--gold)}
 
   <!-- ACTIONS -->
   <div class="actions">
-    <button class="btn-rand" onclick="randomizeAll()">&#x2726; Randomize All</button>
+    <button class="btn-rand" onclick="if(navigator.vibrate)navigator.vibrate(8);randomizeAll()">&#x2726; Randomize All</button>
     <div class="actions-sec">
       <button class="btn-sec" onclick="spinUnlocked()">Spin Unlocked</button>
       <button class="btn-sec" onclick="clearAll()">Clear</button>
     </div>
   </div>
+
+  <!-- WORLD TICKER -->
+  <div class="divider">Worlds</div>
+  <div class="ticker-wrap" style="margin:0 0 4px;border-bottom:none;border-radius:var(--r-lg);border:1px solid var(--rim)"><div class="ticker-inner" id="world-ticker-inner"></div></div>
 
   <!-- REWRITE -->
   <div class="divider">Rewrite &amp; Tighten</div>
@@ -711,7 +715,7 @@ footer a:hover{color:var(--gold)}
 
   <!-- HISTORY -->
   <div class="divider">Recent Prompts</div>
-  <div class="hist-card" id="hist-card" style="display:none">
+  <div class="hist-card" id="hist-card">
     <div class="hist-top">
       <span class="hist-label" id="hist-count-label">Recent prompts</span>
       <button class="hist-clear-btn" onclick="clearHistory()">Clear all</button>
@@ -1114,7 +1118,12 @@ function renderHistory(){
   var card=document.getElementById('hist-card');
   var list=document.getElementById('hist-list');
   list.innerHTML='';
-  if(!history.length){card.style.display='none';return;}
+  if(!history.length){
+    card.style.display='block';
+    list.innerHTML='<div style="padding:16px;text-align:center;font-family:\'JetBrains Mono\',monospace;font-size:10px;color:var(--mute);line-height:1.8">Your generated prompts<br>will appear here</div>';
+    document.getElementById('hist-count-label').textContent='No prompts yet';
+    return;
+  }
   card.style.display='block';
   // Header row
   var hdr=document.createElement('div');
@@ -1747,11 +1756,15 @@ function togglePromptBar(){
   var panel=document.getElementById('prompt-panel');
   var chev=document.getElementById('strip-chev');
   if(!panel) return;
-  var open=panel.style.display!=='none';
-  panel.style.display=open?'none':'block';
-  if(chev) chev.style.transform=open?'':'rotate(180deg)';
-  // Update strip preview text
-  updateStripPreview();
+  var open=panel.style.display==='block';
+  if(open){
+    panel.style.display='none';
+    if(chev) chev.style.transform='';
+  } else {
+    panel.style.display='block';
+    if(chev) chev.style.transform='rotate(180deg)';
+    updateStripPreview();
+  }
 }
 
 function updateStripPreview(){
@@ -1799,6 +1812,7 @@ initPromptBar();
 init();
 // Step 2 open by default, Step 1 collapsed
 openStep(2);
+if(typeof updateStripPreview==='function') updateStripPreview();
 if(hadURL){
   // Restore dropdowns after init populated them
   var sw=document.getElementById('s-world');
