@@ -127,7 +127,7 @@ header{display:flex;align-items:center;justify-content:space-between;
 .prompt-panel{display:none;padding:16px 20px 18px;
   background:linear-gradient(180deg,#1a1028,#0f1e28 60%,#1c0f22);
   border-bottom:1px solid rgba(255,255,255,.06);
-  position:sticky;top:96px;z-index:89;
+  position:sticky;top:calc(52px + 44px);z-index:89;
   animation:panelIn .2s ease}
 @keyframes panelIn{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
 .prompt-label{font-size:9px;font-weight:700;letter-spacing:.14em;
@@ -351,6 +351,7 @@ select optgroup{color:var(--gold);font-style:normal}
 .ticker-wrap{overflow:hidden;padding:12px 0;border-bottom:1px solid var(--rim);
   mask-image:linear-gradient(90deg,transparent,black 8%,black 92%,transparent);
   -webkit-mask-image:linear-gradient(90deg,transparent,black 8%,black 92%,transparent)}
+@media(max-width:480px){.ticker-wrap{display:none}}
 .ticker-inner{display:flex;gap:8px;width:max-content;animation:tick 40s linear infinite}
 @keyframes tick{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 .world-chip{background:var(--lift);border:1px solid var(--rim);color:var(--sub);
@@ -549,7 +550,7 @@ footer a:hover{color:var(--gold)}
           oninput="filterWorlds(this.value)">
         <div class="sel-row">
           <div class="sw">
-            <select id="s-world" onchange="onWorldChange();clearWorldSearch();">
+            <select id="s-world" onchange="onWorldChange();clearWorldSearch();clearTensionSearch();">
               <option value="">&#x2014; choose world &#x2014;</option>
             </select>
           </div>
@@ -800,6 +801,10 @@ function filterWorlds(query){
   });
 }
 
+function clearTensionSearch(){
+  var ts=document.getElementById('tension-search');
+  if(ts&&ts.value){ts.value='';filterTensions('');}
+}
 function clearWorldSearch(){
   var ws=document.getElementById('world-search');
   if(ws&&ws.value){ws.value='';filterWorlds('');}
@@ -1780,10 +1785,15 @@ function updateStripPreview(){
   var pt=document.getElementById('pt');
   var wc=document.getElementById('wc');
   var swc=document.getElementById('strip-wc');
+  var copyBtn=document.getElementById('strip-copy-btn');
   if(!sp||!pt) return;
   var txt=pt.innerText||pt.textContent||'';
-  txt=txt.replace(/\n/g,' ').replace(/\s+/g,' ').trim();
+  txt=txt.replace(/[\n\r]/g,' ').replace(/[ \t]+/g,' ').trim();
+  var hasPrompt=!!(S.world&&txt&&txt.indexOf('Choose a world')<0);
   sp.textContent=txt.length>80?txt.slice(0,78)+'\u2026':txt;
+  sp.style.fontStyle=hasPrompt?'':'italic';
+  sp.style.color=hasPrompt?'':'var(--mute)';
+  if(copyBtn){copyBtn.style.opacity=hasPrompt?'1':'0.35';copyBtn.style.pointerEvents=hasPrompt?'auto':'none';}
   if(swc&&wc) swc.textContent=wc.textContent.split(' ')[0]+(wc.textContent.split(' ')[0]?'w':'');
 }
 
