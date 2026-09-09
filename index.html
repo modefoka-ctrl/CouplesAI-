@@ -1056,6 +1056,8 @@ function refineLocal(){
   setTimeout(()=>{
     variants.forEach((v,i)=>{
       const block=document.createElement('div'); block.className='variant';
+      const vC=['#e8a030','#38c8b8','#e05870','#3ec97a','#a07af0'];
+      block.style.borderLeft='3px solid '+(vC[i]||vC[0]);
       const labelEl=document.createElement('div'); labelEl.className='v-label'; labelEl.textContent=v.label; block.appendChild(labelEl);
       const pEl=document.createElement('div'); pEl.className='v-text'; pEl.textContent=v.full; block.appendChild(pEl);
       const meta=document.createElement('div'); meta.className='v-meta';
@@ -1149,20 +1151,24 @@ function renderHistory(){
     b.className='hist-item';
     b.style.cssText='flex:1;margin-bottom:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:left';
     b.textContent=short.length>90?short.slice(0,88)+'…':short;
-    b.title=h;
+    var isExp=false;
+    b.title='Tap to expand · tap again to copy';
     b.onclick=function(){
-      navigator.clipboard.writeText(h).then(function(){
-        b.style.color='var(--green)';
-        cpBtn.textContent='✓';
-        cpBtn.style.color='var(--green)';
-        cpBtn.style.borderColor='var(--green)';
-        setTimeout(function(){
-          b.style.color='';
-          cpBtn.textContent='⧉';
-          cpBtn.style.color='';
-          cpBtn.style.borderColor='';
-        },1500);
-      });
+      if(!isExp){
+        b.style.whiteSpace='normal';b.style.textOverflow='clip';
+        b.textContent=h;isExp=true;
+      } else {
+        navigator.clipboard.writeText(h).then(function(){
+          b.style.color='var(--green)';
+          cpBtn.textContent='✓';cpBtn.style.color='var(--green)';cpBtn.style.borderColor='var(--green)';
+          setTimeout(function(){
+            b.style.color='';b.style.whiteSpace='nowrap';b.style.textOverflow='ellipsis';
+            b.textContent=short.length>90?short.slice(0,88)+'…':short;
+            cpBtn.textContent='⧉';cpBtn.style.color='';cpBtn.style.borderColor='';
+            isExp=false;
+          },1500);
+        });
+      }
     };
     var cpBtn=document.createElement('button');
     cpBtn.textContent='⧉';
@@ -1625,6 +1631,8 @@ function updateStepStatuses(){
     if(!el) return;
     if(s.done){ el.textContent='✓ Done'; el.className='step-status done'; }
     else { el.textContent='To do'; el.className='step-status todo'; }
+    var circle=document.getElementById('step-n-'+s.n);
+    if(circle){ if(s.done) circle.classList.add('sn-done'); else circle.classList.remove('sn-done'); }
   });
   // Guide pulse on step 2 when no world selected
   var hdr2 = document.getElementById('step2-header');
