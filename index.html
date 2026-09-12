@@ -685,16 +685,11 @@ footer a:hover{color:var(--gold)}
 
   <!-- ACTIONS -->
   <div class="actions">
-    <button class="btn-rand" onclick="if(navigator.vibrate)navigator.vibrate(8);randomizeAll()">&#x2726; Randomize All</button>
-    <div class="actions-sec">
-      <button class="btn-sec" onclick="spinUnlocked()">Spin Unlocked</button>
-      <button class="btn-sec" onclick="clearAll()">Clear</button>
-    </div>
+    <button class="btn-rand" id="btn-rand" onclick="smartRandomize()">&#x2726; Randomize</button>
+    <button class="btn-sec" style="margin-top:8px;width:100%" onclick="clearAll()">Clear</button>
   </div>
 
   <!-- WORLD TICKER -->
-  <div class="divider">Worlds</div>
-  <div class="ticker-wrap" style="margin:0 0 4px;border-bottom:none;border-radius:var(--r-lg);border:1px solid var(--rim)"><div class="ticker-inner" id="world-ticker-inner"></div></div>
 
   <!-- REWRITE -->
   <div class="divider">Rewrite &amp; Tighten</div>
@@ -761,6 +756,7 @@ function toggleLock(key){
   var sel=document.getElementById('s-'+key);
   if(sel){sel.classList.toggle('locked',LOCKS[key]);sel.style.opacity=LOCKS[key]?'.75':'1';}
   if(btn){var r2=btn.nextElementSibling;if(r2&&r2.title==='Reroll'){r2.style.opacity=LOCKS[key]?'.3':'1';r2.style.pointerEvents=LOCKS[key]?'none':'auto';}}
+  if(typeof updateRandBtn==='function')updateRandBtn();
 }
 
 // Standalone translation refresh — called from multiple places
@@ -1027,7 +1023,8 @@ function refineLocal(){
   const btn=document.getElementById('btn-rewrite');
   const varEl=document.getElementById('variants');
   btn.disabled=true; btn.textContent='Rewriting…';
-  varEl.innerHTML=''; varEl.classList.remove('vis');
+  varEl.innerHTML='';
+  var _sn=document.getElementById('stale-note');if(_sn)_sn.remove(); varEl.classList.remove('vis');
   const eraD=S.era?ERAS.find(e=>e.label===S.era):null;
   const connPool=CONNECTORS[S.world]||['defined by'];
   const used=new Set();
@@ -1191,6 +1188,18 @@ function renderHistory(){
 }
 
 // ── RANDOMIZE ALL ─────────────────────────────────────────────
+function smartRandomize(){
+  var anyLocked=LOCKS.world||LOCKS.tension||LOCKS.loc||LOCKS.pose||LOCKS.look||LOCKS.lighting;
+  if(navigator.vibrate)navigator.vibrate(8);
+  if(anyLocked){spinUnlocked();}else{randomizeAll();}
+  var btn=document.getElementById('btn-rand');
+  if(btn){btn.textContent=anyLocked?'✦ Spin Unlocked':'✦ Randomize';setTimeout(function(){var b=document.getElementById('btn-rand');if(b)b.textContent='✦ Randomize';},1200);}
+}
+function updateRandBtn(){
+  var btn=document.getElementById('btn-rand');if(!btn)return;
+  var anyLocked=LOCKS.world||LOCKS.tension||LOCKS.loc||LOCKS.pose||LOCKS.look||LOCKS.lighting;
+  btn.textContent=anyLocked?'✦ Spin Unlocked':'✦ Randomize';
+}
 function randomizeAll(){
   const cur=buildPromptString(); if(cur) pushHistory(cur);
   // Pick world (if not locked)
@@ -1588,11 +1597,7 @@ function initRatioSubject(){
 
 
 // ── WORLD TICKER ─────────────────────────────────────────────
-function initWorldTicker(){
-  const el=document.getElementById('world-ticker-inner');
-  if(!el) return;
-  var _chips=WORLDS.map(function(w){return '<span class="world-chip" style="border-left:3px solid '+(w.color||'#3d3558')+'">'+w.name+'</span>';});el.innerHTML=[..._chips,..._chips].join('');
-}
+function initWorldTicker(){}
 
 
 // ── STEP ACCORDION ────────────────────────────────────────────
