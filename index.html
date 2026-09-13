@@ -862,8 +862,8 @@ function buildPromptString(){
 
   if(!sentence) return null;
 
-  // World-specific prompt prefix (overrides standard opening)
-  var opening = (w&&w.promptPrefix) ? w.promptPrefix : buildFixed()+' ';
+  // World-specific prompt prefix (always starts with ratio+subject, then world style)
+  var opening = (w&&w.promptPrefix) ? buildFixed()+' '+w.promptPrefix : buildFixed()+' ';
 
   // World-specific mood suffix (overrides standard mood note)
   var moodNote='';
@@ -1063,7 +1063,7 @@ function refineLocal(){
     const t={...baseT,connector:conn};
     const inner=TEMPLATES[i](t).replace(/^,\s*/,'').replace(/,\s*,/g,',').replace(/,\s*\./g,'.');
     // Use world-specific prefix/suffix if available
-    var vOpening=(w&&w.promptPrefix)?w.promptPrefix:buildFixed()+' ';
+    var vOpening=(w&&w.promptPrefix)?buildFixed()+' '+w.promptPrefix:buildFixed()+' ';
     var vMood='';
     if(w&&w.promptSuffix){vMood=' '+w.promptSuffix;}
     else if(S.tension){vMood=' The emotional tension ('+S.tension+') is a mood and atmosphere directive only — do not illustrate it literally.';}
