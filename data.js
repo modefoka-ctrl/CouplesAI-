@@ -31508,7 +31508,7 @@ function init(){
     ['🎵  Ceremony & Life',['music','court','kitchen','hero','farm','circus','monastery']],
     ['✨  Style & Fashion',['gold','art','runway','glass']],
     ['🏗️  Industrial & Material',['dust','concrete','iron']],
-    ['🚀  Beyond Reality',['space','surreal','absurd','storm','underground','expedition']],
+    ['🚀  Beyond Reality',['space','surreal','absurd','storm','underground','expedition','cctv']],
   ];
   const wMap={};
   WORLDS.forEach(function(w){wMap[w.id]=w;});
