@@ -31305,7 +31305,9 @@ const WORLDS = [
       "gym clothes post-workout each",
       "scrubs and lanyard each healthcare",
       "cargo shorts work shirt each trades"
-    ]
+    ],
+    "promptPrefix": "CCTV security camera footage, fish-eye wide-angle lens, elevated corner bracket mount, heavy grain and noise, blue-grey institutional colour cast, low resolution surveillance aesthetic, timestamp overlay 23:47 bottom-right, static camera position — ",
+    "promptSuffix": "Render as authentic CCTV surveillance footage: fish-eye distortion, elevated angle, grain and noise, timestamp, institutional blue-grey palette, static camera. The subjects are unaware of or ignoring the camera. The emotional tension is atmosphere only — do not illustrate it literally."
   }
 ];
 
