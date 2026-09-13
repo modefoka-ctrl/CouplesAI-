@@ -832,9 +832,9 @@ function buildPromptString(){
   // Shot type opens as a framing directive
   var shotPrefix=S.shot&&S.shot!=='__ai__'?S.shot+'. ':'';
 
-  // Core: tension \u2014 pose [connector] location
+  // Core: tension — pose [connector] location
   if(ten&&S.pose&&S.pose!=='__ai__'&&S.loc&&S.loc!=='__ai__')
-    sentence=ten+' \u2014 '+S.pose+' '+conn+' '+S.loc;
+    sentence=ten+' — '+S.pose+' '+conn+' '+S.loc;
   else if(ten&&S.pose&&S.pose!=='__ai__')
     sentence=ten+', '+S.pose;
   else if(ten&&S.loc&&S.loc!=='__ai__')
@@ -861,9 +861,19 @@ function buildPromptString(){
   if(S.era){var e=ERAS.find(function(x){return x.label===S.era;});if(e)sentence+=', '+e.tone+' aesthetic';}
 
   if(!sentence) return null;
+
+  // World-specific prompt prefix (overrides standard opening)
+  var opening = (w&&w.promptPrefix) ? w.promptPrefix : buildFixed()+' ';
+
+  // World-specific mood suffix (overrides standard mood note)
   var moodNote='';
-  if(ten) moodNote=' The emotional tension ('+S.tension+') is a mood and atmosphere directive only — do not illustrate it literally.';
-  return buildFixed()+' '+shotPrefix+sentence+'.'+moodNote;
+  if(w&&w.promptSuffix){
+    moodNote=' '+w.promptSuffix;
+  } else if(ten){
+    moodNote=' The emotional tension ('+S.tension+') is a mood and atmosphere directive only — do not illustrate it literally.';
+  }
+
+  return opening+shotPrefix+sentence+'.'+moodNote;
 }
 
 function pickConn(w){
