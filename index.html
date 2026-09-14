@@ -1056,12 +1056,20 @@ function refineLocal(){
     'Variant 4 \u2014 Location-Led',
     'Variant 5 \u2014 Wardrobe-Led'
   ];
+  // Photographic directives — one per variant, meaningfully distinct
+  const VARIANT_DIRECTIVES=[
+    'Wide angle, environmental scale — subjects small within the frame, scene tells the story: ',
+    '85mm equivalent, wide open aperture, shallow depth of field, faces fill the frame: ',
+    'Single light source, graphic simplicity, compressed — one powerful image: ',
+    'Architecture and environment lead — subjects secondary to the space around them: ',
+    'Fashion editorial treatment — garments are the protagonist, bodies as canvas: '
+  ];
   const variants=[];
   const connectors=connPool.length>=5?connPool:[...connPool,...connPool,...connPool];
   for(let i=0;i<TEMPLATES.length;i++){
     const conn=connectors[i%connectors.length];
     const t={...baseT,connector:conn};
-    const inner=TEMPLATES[i](t).replace(/^,\s*/,'').replace(/,\s*,/g,',').replace(/,\s*\./g,'.');
+    const inner=VARIANT_DIRECTIVES[i]+(TEMPLATES[i](t).replace(/^,\s*/,'').replace(/,\s*,/g,',').replace(/,\s*\./g,'.'));
     // Use world-specific prefix/suffix if available
     var vOpening=(w&&w.promptPrefix)?buildFixed()+' '+w.promptPrefix:buildFixed()+' ';
     var vMood='';
