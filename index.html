@@ -158,7 +158,7 @@ header{display:flex;align-items:center;justify-content:space-between;
 .coh-tooltip{display:none;position:absolute;bottom:calc(100% + 8px);left:0;
   background:var(--raise);border:1px solid var(--rim2);border-radius:8px;
   padding:8px 12px;font-family:"JetBrains Mono",monospace;font-size:10px;
-  color:var(--sub);line-height:1.6;max-width:260px;z-index:200;
+  color:var(--sub);line-height:1.6;max-width:min(260px,calc(100vw - 32px));z-index:200;
   box-shadow:0 4px 20px rgba(0,0,0,.6);pointer-events:none}
 .coh-tooltip.vis{display:block}
 .btn-copy{height:34px;padding:0 18px;border-radius:17px;border:none;
@@ -458,7 +458,7 @@ footer a:hover{color:var(--gold)}
 <!-- HEADER -->
 <header>
   <div class="logo">
-    <span class="logo-mark">&#x2726;</span>
+    <span class="logo-mark" id="logo-mark">&#x2726;</span>
     CouplesAI
     <span class="logo-sub">Portrait Generator</span>
   </div>
@@ -550,7 +550,7 @@ footer a:hover{color:var(--gold)}
           oninput="filterWorlds(this.value)">
         <div class="sel-row">
           <div class="sw">
-            <select id="s-world" onchange="onWorldChange();clearWorldSearch();clearTensionSearch();">
+            <select id="s-world" onchange="onWorldChange();clearWorldSearch();clearTensionSearch();updateLogoColour();">
               <option value="">&#x2014; choose world &#x2014;</option>
             </select>
           </div>
@@ -829,9 +829,6 @@ function buildPromptString(){
 
   var sentence='';
 
-  // Shot type opens as a framing directive
-  var shotPrefix=S.shot&&S.shot!=='__ai__'?S.shot+'. ':'';
-
   // Core: tension — pose [connector] location
   if(ten&&S.pose&&S.pose!=='__ai__'&&S.loc&&S.loc!=='__ai__')
     sentence=ten+' — '+S.pose+' '+conn+' '+S.loc;
@@ -860,10 +857,13 @@ function buildPromptString(){
   // Era as softest modifier
   if(S.era){var e=ERAS.find(function(x){return x.label===S.era;});if(e)sentence+=', '+e.tone+' aesthetic';}
 
+  // Shot type appended at END as composition directive (not before the scene)
+  if(S.shot&&S.shot!=='__ai__') sentence+='. Shot as: '+S.shot;
+
   if(!sentence) return null;
 
   // World-specific prompt prefix (always starts with ratio+subject, then world style)
-  var opening = (w&&w.promptPrefix) ? buildFixed()+' '+w.promptPrefix : buildFixed()+' ';
+  var opening=(w&&w.promptPrefix)?buildFixed()+' '+w.promptPrefix:buildFixed()+' ';
 
   // World-specific mood suffix (overrides standard mood note)
   var moodNote='';
@@ -873,7 +873,7 @@ function buildPromptString(){
     moodNote=' The emotional tension ('+S.tension+') is a mood and atmosphere directive only — do not illustrate it literally.';
   }
 
-  return opening+shotPrefix+sentence+'.'+moodNote;
+  return opening+sentence+'.'+moodNote;
 }
 
 function pickConn(w){
@@ -888,6 +888,23 @@ function pickConn(w){
 }
 
 // ── UPDATE LIVE PROMPT ────────────────────────────────────────
+function rerollDial(key){
+  var sel=document.getElementById('s-'+key);
+  if(!sel) return;
+  // Collect non-empty, non-AI options
+  var opts=Array.from(sel.options).filter(function(o){return o.value&&o.value!=='__ai__';});
+  if(opts.length===0){aiClick(key);return;}
+  var pick=opts[Math.floor(Math.random()*opts.length)];
+  sel.value=pick.value;
+  sel.classList.add('has-val');
+  // Trigger appropriate handler
+  if(key==='tension') onTensionChange();
+  else if(key==='loc'||key==='pose'||key==='look') onDialChange(key);
+  else if(key==='lighting') onLighting();
+  else if(key==='shot') onShot();
+  if(typeof markVariantsStale==='function') markVariantsStale();
+}
+
 function updatePrompt(){
   const ptEl = document.getElementById('pt');
   const wcEl = document.getElementById('wc');
@@ -1034,7 +1051,8 @@ function refineLocal(){
   const varEl=document.getElementById('variants');
   btn.disabled=true; btn.textContent='Rewriting…';
   varEl.innerHTML='';
-  var _sn=document.getElementById('stale-note');if(_sn)_sn.remove(); varEl.classList.remove('vis');
+  var _sn=document.getElementById('stale-note');if(_sn)_sn.remove();
+  var _rb=document.getElementById('btn-rewrite');if(_rb)_rb.innerHTML='&#x2726; Regenerate Variants'; varEl.classList.remove('vis');
   const eraD=S.era?ERAS.find(e=>e.label===S.era):null;
   const connPool=CONNECTORS[S.world]||['defined by'];
   const used=new Set();
@@ -1071,11 +1089,13 @@ function refineLocal(){
     const t={...baseT,connector:conn};
     const inner=VARIANT_DIRECTIVES[i]+(TEMPLATES[i](t).replace(/^,\s*/,'').replace(/,\s*,/g,',').replace(/,\s*\./g,'.'));
     // Use world-specific prefix/suffix if available
+    // Worlds with promptPrefix already define their visual style — skip variant directive
+    var vDir=(w&&w.promptPrefix)?'':VARIANT_DIRECTIVES[i];
     var vOpening=(w&&w.promptPrefix)?buildFixed()+' '+w.promptPrefix:buildFixed()+' ';
     var vMood='';
     if(w&&w.promptSuffix){vMood=' '+w.promptSuffix;}
     else if(S.tension){vMood=' The emotional tension ('+S.tension+') is a mood and atmosphere directive only — do not illustrate it literally.';}
-    variants.push({full:vOpening+inner+vMood,wc:inner.split(/\s+/).filter(Boolean).length,label:VARIANT_LABELS[i]});
+    variants.push({full:vOpening+(vDir?vDir+inner:inner)+vMood,wc:inner.split(/\s+/).filter(Boolean).length,label:VARIANT_LABELS[i]});
   }
   setTimeout(()=>{
     variants.forEach((v,i)=>{
@@ -1217,6 +1237,14 @@ function smartRandomize(){
   var btn=document.getElementById('btn-rand');
   if(btn){btn.textContent=anyLocked?'✦ Spin Unlocked':'✦ Randomize';setTimeout(function(){var b=document.getElementById('btn-rand');if(b)b.textContent='✦ Randomize';},1200);}
 }
+function updateLogoColour(){
+  var dot=document.getElementById('logo-mark');
+  if(!dot) return;
+  var w=getWorld();
+  dot.style.color=w&&w.color?w.color:'var(--gold)';
+  dot.style.transition='color .4s ease';
+}
+
 function updateRandBtn(){
   var btn=document.getElementById('btn-rand');if(!btn)return;
   var anyLocked=LOCKS.world||LOCKS.tension||LOCKS.loc||LOCKS.pose||LOCKS.look||LOCKS.lighting;
@@ -1693,6 +1721,7 @@ function markVariantsStale(){
       note=document.createElement('div');note.id='stale-note';
       note.className='stale-note';
       note.innerHTML='&#x26A0; Selections changed &mdash; tap to regenerate';
+      var _rb2=document.getElementById('btn-rewrite');if(_rb2)_rb2.innerHTML='&#x2726; Generate Variants';
       note.onclick=function(){refineLocal();};
       vd.parentNode.insertBefore(note,vd);
     }
@@ -1792,20 +1821,6 @@ function initPromptBar(){
   if(panel) panel.style.display='none';
 }
 
-function togglePromptBar(){
-  var panel=document.getElementById('prompt-panel');
-  var chev=document.getElementById('strip-chev');
-  if(!panel) return;
-  var open=panel.style.display==='block';
-  if(open){
-    panel.style.display='none';
-    if(chev) chev.style.transform='';
-  } else {
-    panel.style.display='block';
-    if(chev) chev.style.transform='rotate(180deg)';
-    updateStripPreview();
-  }
-}
 
 function updateStripPreview(){
   var sp=document.getElementById('strip-preview');
