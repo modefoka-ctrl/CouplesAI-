@@ -1087,11 +1087,13 @@ function refineLocal(){
   for(let i=0;i<TEMPLATES.length;i++){
     const conn=connectors[i%connectors.length];
     const t={...baseT,connector:conn};
-    const inner=VARIANT_DIRECTIVES[i]+(TEMPLATES[i](t).replace(/^,\s*/,'').replace(/,\s*,/g,',').replace(/,\s*\./g,'.'));
-    // Use world-specific prefix/suffix if available
-    // Worlds with promptPrefix already define their visual style — skip variant directive
-    var vDir=(w&&w.promptPrefix)?'':VARIANT_DIRECTIVES[i];
+    // Pure scene content — no directive baked in
+    const inner=TEMPLATES[i](t).replace(/^,\s*/,'').replace(/,\s*,/g,',').replace(/,\s*\./g,'.');
+    // World-specific opening (ratio+subject + world style if prefix exists)
     var vOpening=(w&&w.promptPrefix)?buildFixed()+' '+w.promptPrefix:buildFixed()+' ';
+    // Directive: skip for worlds with promptPrefix (they already define visual style)
+    var vDir=(w&&w.promptPrefix)?'':VARIANT_DIRECTIVES[i];
+    // Suffix: world-specific or standard mood note
     var vMood='';
     if(w&&w.promptSuffix){vMood=' '+w.promptSuffix;}
     else if(S.tension){vMood=' The emotional tension ('+S.tension+') is a mood and atmosphere directive only — do not illustrate it literally.';}
