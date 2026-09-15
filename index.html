@@ -103,7 +103,7 @@ header{display:flex;align-items:center;justify-content:space-between;
   height:44px;min-height:44px;
   background:linear-gradient(90deg,#1a1028,#0f1e28 50%,#1c0f22);
   border-bottom:1px solid rgba(255,255,255,.06);
-  position:sticky;top:52px;z-index:90;cursor:pointer;
+  position:sticky;top:88px;z-index:90;cursor:pointer;
   -webkit-tap-highlight-color:transparent}
 .strip-dot{width:6px;height:6px;border-radius:50%;background:var(--gold);
   flex-shrink:0;animation:sdot 2s ease-in-out infinite}
@@ -127,7 +127,7 @@ header{display:flex;align-items:center;justify-content:space-between;
 .prompt-panel{display:none;padding:16px 20px 18px;
   background:linear-gradient(180deg,#1a1028,#0f1e28 60%,#1c0f22);
   border-bottom:1px solid rgba(255,255,255,.06);
-  position:sticky;top:calc(52px + 44px);z-index:89;
+  position:sticky;top:calc(52px + 36px + 44px);z-index:89;
   animation:panelIn .2s ease}
 @keyframes panelIn{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
 .prompt-label{font-size:9px;font-weight:700;letter-spacing:.14em;
@@ -380,7 +380,18 @@ footer a:hover{color:var(--gold)}
 /* ── MISC ── */
 @keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
 .spacer{height:16px}
-</style>
+
+.world-bar{display:flex;align-items:center;gap:9px;padding:0 16px;height:36px;min-height:36px;
+  background:var(--lift);border-bottom:1px solid var(--rim);
+  position:sticky;top:52px;z-index:99;cursor:pointer;
+  -webkit-tap-highlight-color:transparent;transition:border-bottom-color .4s ease}
+.world-bar:hover .wb-change{color:var(--gold)}
+.wb-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;transition:background .4s ease;background:var(--mute)}
+.wb-name{font-family:"DM Serif Display",serif;font-size:13px;color:var(--text);white-space:nowrap}
+.wb-sub{font-family:"Inter",sans-serif;font-size:10px;color:var(--mute);flex:1;min-width:0;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.wb-change{margin-left:auto;font-size:10px;color:var(--mute);flex-shrink:0;transition:color var(--t)}
+.world-bar.empty .wb-name{font-family:"Inter",sans-serif;font-style:italic;font-size:11px;color:var(--mute)}</style>
 </head>
 <body>
 
@@ -473,6 +484,14 @@ footer a:hover{color:var(--gold)}
 </header>
 
 <!-- WORLD TICKER -->
+<!-- WORLD BAR -->
+<div class="world-bar empty" id="world-bar" onclick="jumpToWorld()">
+  <div class="wb-dot" id="wb-dot"></div>
+  <span class="wb-name" id="wb-name">Choose a world to begin</span>
+  <span class="wb-sub" id="wb-sub"></span>
+  <span class="wb-change" id="wb-change"></span>
+</div>
+
 <!-- PROMPT STRIP -->
 <div class="prompt-strip" id="prompt-strip" onclick="togglePromptBar()">
   <span class="strip-dot"></span>
@@ -1087,11 +1106,13 @@ function refineLocal(){
   for(let i=0;i<TEMPLATES.length;i++){
     const conn=connectors[i%connectors.length];
     const t={...baseT,connector:conn};
-    const inner=VARIANT_DIRECTIVES[i]+(TEMPLATES[i](t).replace(/^,\s*/,'').replace(/,\s*,/g,',').replace(/,\s*\./g,'.'));
-    // Use world-specific prefix/suffix if available
-    // Worlds with promptPrefix already define their visual style — skip variant directive
-    var vDir=(w&&w.promptPrefix)?'':VARIANT_DIRECTIVES[i];
+    // Pure scene content — no directive baked in
+    const inner=TEMPLATES[i](t).replace(/^,\s*/,'').replace(/,\s*,/g,',').replace(/,\s*\./g,'.');
+    // World-specific opening (ratio+subject + world style if prefix exists)
     var vOpening=(w&&w.promptPrefix)?buildFixed()+' '+w.promptPrefix:buildFixed()+' ';
+    // Directive: skip for worlds with promptPrefix (they already define visual style)
+    var vDir=(w&&w.promptPrefix)?'':VARIANT_DIRECTIVES[i];
+    // Suffix: world-specific or standard mood note
     var vMood='';
     if(w&&w.promptSuffix){vMood=' '+w.promptSuffix;}
     else if(S.tension){vMood=' The emotional tension ('+S.tension+') is a mood and atmosphere directive only — do not illustrate it literally.';}
@@ -1237,12 +1258,42 @@ function smartRandomize(){
   var btn=document.getElementById('btn-rand');
   if(btn){btn.textContent=anyLocked?'✦ Spin Unlocked':'✦ Randomize';setTimeout(function(){var b=document.getElementById('btn-rand');if(b)b.textContent='✦ Randomize';},1200);}
 }
+function updateWorldBar(){
+  var bar=document.getElementById('world-bar');
+  var dot=document.getElementById('wb-dot');
+  var nm=document.getElementById('wb-name');
+  var sb=document.getElementById('wb-sub');
+  var ch=document.getElementById('wb-change');
+  if(!bar) return;
+  var w=getWorld();
+  if(w){
+    bar.classList.remove('empty');
+    dot.style.background=w.color||'var(--gold)';
+    bar.style.borderBottomColor=w.color?w.color+'33':'var(--rim)';
+    nm.textContent=w.name;
+    sb.textContent=w.sub||'';
+    ch.textContent='Change ›';
+  } else {
+    bar.classList.add('empty');
+    dot.style.background='var(--mute)';
+    bar.style.borderBottomColor='var(--rim)';
+    nm.textContent='Choose a world to begin';
+    sb.textContent='';
+    ch.textContent='';
+  }
+}
+function jumpToWorld(){
+  openStep(2);
+  var ws=document.getElementById('world-search');
+  if(ws) setTimeout(function(){ws.focus();},200);
+}
 function updateLogoColour(){
   var dot=document.getElementById('logo-mark');
   if(!dot) return;
   var w=getWorld();
   dot.style.color=w&&w.color?w.color:'var(--gold)';
   dot.style.transition='color .4s ease';
+  if(typeof updateWorldBar==='function') updateWorldBar();
 }
 
 function updateRandBtn(){
@@ -1873,6 +1924,7 @@ init();
 // Step 2 open by default, Step 1 collapsed
 openStep(2);
 if(typeof updateStripPreview==='function') updateStripPreview();
+if(typeof updateWorldBar==='function') updateWorldBar();
 if(hadURL){
   // Restore dropdowns after init populated them
   var sw=document.getElementById('s-world');
