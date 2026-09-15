@@ -658,7 +658,8 @@ const WORLDS = [
           "open overalls simple tee underneath"
         ]
       }
-    }
+    },
+    "promptSuffix": "Colour grade: sun-bleached, high contrast, the palette of asphalt and horizon. The road itself should dominate the frame. The emotional tension is atmosphere only — do not illustrate it literally."
   },
   {
     "id": "water",
@@ -1940,7 +1941,8 @@ const WORLDS = [
           "fitted hoodies slim joggers"
         ]
       }
-    }
+    },
+    "promptSuffix": "Colour grade: urban ambient — neon, sodium, LED, the cold blue of glass towers. The city is alive around the subjects. The emotional tension is atmosphere only — do not illustrate it literally."
   },
   {
     "id": "mountain",
@@ -8302,7 +8304,8 @@ const WORLDS = [
           "board shorts cotton top"
         ]
       }
-    }
+    },
+    "promptSuffix": "Colour grade: the light of the specific environment — woodland dapple, open moorland grey, highland gold. No studio. Whatever light was available is the right light. The emotional tension is atmosphere only — do not illustrate it literally."
   },
   {
     "id": "court",
@@ -8923,7 +8926,8 @@ const WORLDS = [
           "sport shorts and tanks"
         ]
       }
-    }
+    },
+    "promptSuffix": "Colour grade: the specific light of the venue — arena overhead, outdoor court hard sun, indoor court fluorescent. The physical effort of sport should be legible in the frame. The emotional tension is atmosphere only — do not illustrate it literally."
   },
   {
     "id": "stage",
@@ -10190,7 +10194,8 @@ const WORLDS = [
           "cozy knit sweaters"
         ]
       }
-    }
+    },
+    "promptSuffix": "Colour grade: warm, intimate — candlelight, practical light, the glow of a screen or a window. Every light source should feel chosen, not found. The emotional tension is atmosphere only — do not illustrate it literally."
   },
   {
     "id": "music",
@@ -10825,7 +10830,8 @@ const WORLDS = [
           "glam rock sequins open shirt"
         ]
       }
-    }
+    },
+    "promptSuffix": "Colour grade: stage-adjacent — practical light from monitors or spots, deep shadow between, the subjects lit as if mid-performance. The emotional tension is atmosphere only — do not illustrate it literally."
   },
   {
     "id": "history",
@@ -12680,7 +12686,8 @@ const WORLDS = [
           "linen co-ord pale tones"
         ]
       }
-    }
+    },
+    "promptSuffix": "Colour grade: soft, fresh, the palette before full saturation arrives — pastel blossom, new green, the particular quality of spring light that's warm but not yet golden. The emotional tension is atmosphere only — do not illustrate it literally."
   },
   {
     "id": "hero",
@@ -14525,7 +14532,8 @@ const WORLDS = [
           "packable wrap summer layers"
         ]
       }
-    }
+    },
+    "promptSuffix": "Colour grade: the light of the specific place — each location has its own quality of light. Render authentically to the environment. The subjects are visitors, slightly out of place in the best way. The emotional tension is atmosphere only — do not illustrate it literally."
   },
   {
     "id": "art",
@@ -15758,7 +15766,8 @@ const WORLDS = [
           "floral crown dress and linen guayabera"
         ]
       }
-    }
+    },
+    "promptSuffix": "Colour grade: saturated and warm — the palette of painted walls, terracotta, marigold, deep shadow under brilliant sun. The emotional tension is atmosphere only — do not illustrate it literally."
   },
   {
     "id": "usa",
@@ -16366,7 +16375,8 @@ const WORLDS = [
           "Great Plains wind breaker layers"
         ]
       }
-    }
+    },
+    "promptSuffix": "Colour grade: American vernacular — the particular flatness of strip-lit diners, the blue-white of parking lots, the warm amber of the golden hour on open highway. The emotional tension is atmosphere only — do not illustrate it literally."
   },
   {
     "id": "canada",
@@ -16977,7 +16987,8 @@ const WORLDS = [
           "Roots hoodie worn casual"
         ]
       }
-    }
+    },
+    "promptSuffix": "Colour grade: the specific quality of North American natural light — the blue-white of winter, the amber of maple autumn, the cool grey of Pacific coast. The emotional tension is atmosphere only — do not illustrate it literally."
   },
   {
     "id": "caribbean",
@@ -17579,7 +17590,8 @@ const WORLDS = [
           "colorful dress and linen shirt bright each"
         ]
       }
-    }
+    },
+    "promptSuffix": "Colour grade: saturated tropical light — brilliant blue sky, turquoise water, the deep shadows under palm. High noon or the warm amber of sunset. The emotional tension is atmosphere only — do not illustrate it literally."
   },
   {
     "id": "wedding",
@@ -18197,7 +18209,8 @@ const WORLDS = [
           "column gown minimal straps"
         ]
       }
-    }
+    },
+    "promptSuffix": "Colour grade: clean and elevated — soft directional light, the subjects are the most important thing in the frame. Every element should feel considered and precious. The emotional tension is atmosphere only — do not illustrate it literally."
   },
   {
     "id": "kitchen",
@@ -18817,7 +18830,8 @@ const WORLDS = [
           "bistro server apron casual"
         ]
       }
-    }
+    },
+    "promptSuffix": "Colour grade: warm practical light — the light of an open oven, a pendant bulb, late afternoon through a window. The frame should feel lived-in and real. The emotional tension is atmosphere only — do not illustrate it literally."
   },
   {
     "id": "jungle",
@@ -23177,7 +23191,8 @@ const WORLDS = [
           "light linen trousers cotton vest"
         ]
       }
-    }
+    },
+    "promptSuffix": "Colour grade: full saturation, sun high — the bleached white of noon, the golden hour that comes late and stays long. Heat should be visible. The emotional tension is atmosphere only — do not illustrate it literally."
   },
   {
     "id": "autumn",
@@ -23785,7 +23800,8 @@ const WORLDS = [
           "sunset knit dress and sunset knit jumper"
         ]
       }
-    }
+    },
+    "promptSuffix": "Colour grade: amber, rust, gold — the palette is already given by the season. Let it saturate. Overcast autumn light or the low gold of October sun. The emotional tension is atmosphere only — do not illustrate it literally."
   },
   {
     "id": "winter",
@@ -24393,7 +24409,8 @@ const WORLDS = [
           "dark wool wrap coat scarf"
         ]
       }
-    }
+    },
+    "promptSuffix": "Colour grade: cold and still — blue-white snow light, the warm amber of indoor glow against cold exterior, the grey of overcast winter sky. The cold should be visible. The emotional tension is atmosphere only — do not illustrate it literally."
   },
   {
     "id": "absurd",
@@ -26836,7 +26853,8 @@ const WORLDS = [
           "dark vintage tee and wide jeans each"
         ]
       }
-    }
+    },
+    "promptSuffix": "Colour grade: low light, practical sources — record shop strip, club monitor glow, sodium street through a doorway. Authentic and unglamorous. The emotional tension is atmosphere only — do not illustrate it literally."
   },
   {
     "id": "expedition",
@@ -28079,7 +28097,8 @@ const WORLDS = [
           "smart weekend city casual dress each"
         ]
       }
-    }
+    },
+    "promptSuffix": "Colour grade: the specific quality of city light from above — ambient glow from below, open sky above, the subjects caught between. The emotional tension is atmosphere only — do not illustrate it literally."
   },
   {
     "id": "monastery",
@@ -28689,7 +28708,8 @@ const WORLDS = [
           "linen wide trousers simple tunic each"
         ]
       }
-    }
+    },
+    "promptSuffix": "Colour grade: contemplative light — shafts through stone windows, candlelight, the cool grey of ancient interiors. Silence should be visible. The emotional tension is atmosphere only — do not illustrate it literally."
   },
   {
     "id": "pier",
@@ -29296,7 +29316,8 @@ const WORLDS = [
           "coastal pier casual warm layers each"
         ]
       }
-    }
+    },
+    "promptSuffix": "Colour grade: coastal light — the bright white of sea-reflected sun, the grey-green of overcast coast, the amber of a pier at dusk. The sea is always present. The emotional tension is atmosphere only — do not illustrate it literally."
   },
   {
     "id": "market",
@@ -29910,7 +29931,8 @@ const WORLDS = [
           "market casual vibrant cotton each"
         ]
       }
-    }
+    },
+    "promptSuffix": "Colour grade: saturated, busy, the visual density of goods and people. Natural daylight or harsh artificial stall lighting. The subjects are part of the scene, not removed from it. The emotional tension is atmosphere only — do not illustrate it literally."
   },
   {
     "id": "circus",
@@ -31136,7 +31158,8 @@ const WORLDS = [
           "harvest simple layers worn each"
         ]
       }
-    }
+    },
+    "promptSuffix": "Colour grade: warm earth tones, natural light — golden hour in a field, the cool blue of a barn interior, the grey of overcast agricultural work. The emotional tension is atmosphere only — do not illustrate it literally."
   },
   {
     "id": "cctv",
