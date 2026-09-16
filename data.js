@@ -31524,7 +31524,6 @@ const TEMPLATES=[
     if(t.era) sentence+=', '+t.era+' aesthetic';
     return sentence+'.';
   },
-,
   // Variant 6 — Human Scale
   function(t){
     var ten=t.tension?translateTension(t.tension):null;
@@ -32768,8 +32767,4 @@ const TENSION_TRANSLATIONS = {
   "routine vs. rupture": "the exact frame where ordinary became something else",
   "expected vs. surprising": "what the algorithm flagged as an anomaly",
   "mechanical vs. human": "the human moment inside the mechanical system"
-},
-    'Variant 6 — Human Scale'
-  ],
-    'Variant 6 — Human Scale'
-  ];
+};
