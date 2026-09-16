@@ -31524,6 +31524,21 @@ const TEMPLATES=[
     if(t.era) sentence+=', '+t.era+' aesthetic';
     return sentence+'.';
   },
+,
+  // Variant 6 — Human Scale
+  function(t){
+    var ten=t.tension?translateTension(t.tension):null;
+    var conn=t.connector||'amid';
+    var sentence='';
+    if(t.pose&&t.loc) sentence=t.pose+', '+conn+' '+t.loc;
+    else if(t.pose) sentence=t.pose;
+    else if(t.loc) sentence=t.loc;
+    if(ten) sentence=(sentence?sentence+' — ':'')+ten;
+    if(t.look) sentence+=', wearing '+t.look;
+    if(t.lighting) sentence+=', '+t.lighting;
+    if(t.era) sentence+=', '+t.era+' aesthetic';
+    return sentence+'.';
+  }
 ];
 
 
@@ -32754,5 +32769,7 @@ const TENSION_TRANSLATIONS = {
   "expected vs. surprising": "what the algorithm flagged as an anomaly",
   "mechanical vs. human": "the human moment inside the mechanical system"
 },
+    'Variant 6 — Human Scale'
+  ],
     'Variant 6 — Human Scale'
   ];
