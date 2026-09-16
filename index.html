@@ -889,7 +889,7 @@ function buildPromptString(){
   if(w&&w.promptSuffix){
     moodNote=' '+w.promptSuffix;
   } else if(ten){
-    moodNote=' The emotional tension ('+S.tension+') is a mood and atmosphere directive only — do not illustrate it literally.';
+    moodNote=' The emotional tension — '+S.tension+' — is atmosphere only. Do not illustrate it literally.';
   }
 
   return opening+sentence+'.'+moodNote;
@@ -1121,7 +1121,7 @@ function refineLocal(){
   setTimeout(()=>{
     variants.forEach((v,i)=>{
       const block=document.createElement('div'); block.className='variant';
-      const vC=['#e8a030','#38c8b8','#e05870','#3ec97a','#a07af0'];
+      const vC=['#e8a030','#38c8b8','#e05870','#3ec97a','#a07af0','#f0a060'];
       block.style.borderLeft='3px solid '+(vC[i]||vC[0]);
       const labelEl=document.createElement('div'); labelEl.className='v-label'; labelEl.textContent=v.label; block.appendChild(labelEl);
       const pEl=document.createElement('div'); pEl.className='v-text'; pEl.textContent=v.full; block.appendChild(pEl);
