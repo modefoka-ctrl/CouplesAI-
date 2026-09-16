@@ -32753,4 +32753,6 @@ const TENSION_TRANSLATIONS = {
   "routine vs. rupture": "the exact frame where ordinary became something else",
   "expected vs. surprising": "what the algorithm flagged as an anomaly",
   "mechanical vs. human": "the human moment inside the mechanical system"
-};
+},
+    'Variant 6 — Human Scale'
+  ];
