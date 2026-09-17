@@ -413,9 +413,8 @@ footer a:hover{color:var(--gold)}
       <div class="tip-block"><div class="tip-label">8 — Shareable links</div><div class="tip-text">Every selection encodes into the URL in real time. Hit <strong>Share</strong> in the prompt panel to copy a link restoring the exact same state for anyone who opens it. Browser back/forward navigates between states.</div></div>
       <div class="tip-block"><div class="tip-label">9 — Coherence badge</div><div class="tip-text">Green <strong>✦ Cohesive</strong> / amber <strong>◐ Moderate</strong> / red <strong>○ Scattered</strong> scores your combination against the tension's affinity map. Tap or hover to see exactly why. Scattered can produce more distinctive images.</div></div>
       <div class="tip-block"><div class="tip-label">10 — Era filter</div><div class="tip-text">Era appends a period and palette modifier. 1970s on Mountain nudges earth tones and grain. Tap the active pill again — or hit the <strong>✕ clear</strong> button — to deselect.</div></div>
-      <div class="tip-block"><div class="tip-label">11 — Rewrite auto-generates</div><div class="tip-text">Opening Rewrite &amp; Tighten when a prompt exists automatically generates all 5 variants. A ⚠ banner appears if selections change after generating. History saves your last 20 prompts — tap to expand, tap again to copy.</div></div>
-      <div class="tip-block"><div class="tip-label">12 — Recommended pairings</div><div class="tip-text"><em>GLASS × real vs. reflected</em> · <em>STAGE × spotlight vs. shadow</em> · <em>UNDERWORLD × love vs. loss eternal</em> · <em>EXPEDITION × wonder vs. fear</em> · <em>CIRCUS × trust vs. fear</em> · <em>MONASTERY × devotion vs. doubt</em> · <em>STORM × force vs. shelter</em> · <em>FARM × seed vs. harvest</em> · <em>PIER × end vs. beginning</em> · <em>ROOFTOP × golden hour vs. blue hour</em></div></div>
-      <div class="tip-block" style="border-top:1px solid var(--rim2)"><div class="tip-label" style="color:var(--purple)">The 5 Rewrite Variants</div><div class="tip-text"><strong>1 Cinematic Scale:</strong> Tension leads, pose fused with location.<br><strong>2 Intimacy:</strong> Pose leads, location frames, tension last.<br><strong>3 Essential:</strong> Compressed — tension as statement.<br><strong>4 Location-Led:</strong> Location opens, tension embedded.<br><strong>5 Wardrobe-Led:</strong> Look establishes register, tension follows.</div></div>
+      <div class="tip-block"><div class="tip-label">11 — Rewrite auto-generates</div><div class="tip-text">Opening Rewrite &amp; Tighten when a prompt exists automatically generates all 6 variants. A ⚠ banner appears if selections change after generating. History saves your last 20 prompts — tap to expand, tap again to copy.</div></div>
+      <div class="tip-block"><div class="tip-label" style="color:var(--purple)">The 6 Rewrite Variants</div><div class="tip-text"><strong>1 Cinematic Scale:</strong> Wide angle — environment leads, subjects small in frame.<br><strong>2 Human Scale:</strong> 50mm, full body or three-quarter — body language carries the weight.<br><strong>3 Intimacy:</strong> 85mm, shallow depth of field — faces fill the frame.<br><strong>4 Essential:</strong> Single light, compressed — one powerful image.<br><strong>5 Location-Led:</strong> Space and architecture lead, subjects secondary.<br><strong>6 Wardrobe-Led:</strong> Garments as protagonist, fashion editorial treatment.</div></div>
     </div>
   </div>
 </div>
@@ -456,7 +455,7 @@ footer a:hover{color:var(--gold)}
         <div class="hs-n sr">&#x2726;</div>
         <div><div class="hs-title">Rewrite &amp; Tighten</div>
         <div class="hs-desc">Open Rewrite &amp; Tighten — 5 variants generate automatically. Each restructures your selections with a different editorial strategy. History saves your last 20 prompts.</div>
-        <span class="hs-tag tag-tip">&#x25B8; Try all 5 variants for different compositions</span></div>
+        <span class="hs-tag tag-tip">&#x25B8; Try all 6 variants for genuinely different photographs</span></div>
       </div>
     </div>
     <div class="howto-footer">
@@ -716,8 +715,8 @@ footer a:hover{color:var(--gold)}
     <div class="step-hdr rewrite-hdr" onclick="toggleStep('r')">
       <div class="step-n sn-r">&#x2726;</div>
       <div class="step-info">
-        <div class="step-title">5 Cinematic Variants</div>
-        <div class="step-sub">Same elements &middot; different editorial angle</div>
+        <div class="step-title">6 Cinematic Variants</div>
+        <div class="step-sub">Six photographic strategies &middot; same scene</div>
       </div>
       <span class="chev" id="step-chev-r">&#x203A;</span>
     </div>
@@ -1087,15 +1086,17 @@ function refineLocal(){
   };
   if(eraD&&!baseT.look&&eraD.hint) baseT.look=eraD.hint;
   const VARIANT_LABELS=[
-    'Variant 1 \u2014 Cinematic Scale',
-    'Variant 2 \u2014 Intimacy',
-    'Variant 3 \u2014 Essential',
-    'Variant 4 \u2014 Location-Led',
-    'Variant 5 \u2014 Wardrobe-Led'
+    'Variant 1 — Cinematic Scale',
+    'Variant 2 — Human Scale',
+    'Variant 3 — Intimacy',
+    'Variant 4 — Essential',
+    'Variant 5 — Location-Led',
+    'Variant 6 — Wardrobe-Led'
   ];
   // Photographic directives — one per variant, meaningfully distinct
   const VARIANT_DIRECTIVES=[
     'Wide angle, environmental scale — subjects small within the frame, scene tells the story: ',
+    '50mm equivalent, full body or three-quarter frame — body language and gesture carry the emotional weight: ',
     '85mm equivalent, wide open aperture, shallow depth of field, faces fill the frame: ',
     'Single light source, graphic simplicity, compressed — one powerful image: ',
     'Architecture and environment lead — subjects secondary to the space around them: ',
