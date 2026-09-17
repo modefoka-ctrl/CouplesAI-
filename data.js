@@ -31432,7 +31432,7 @@ const CONNECTORS={
   farm:['across','through','beside','amid','at the edge of']};;
 
 const TEMPLATES=[
-  // Variant 1 \u2014 Cinematic Scale: tension sets tone, action happens inside location
+  // Variant 1 — Cinematic Scale
   function(t){
     var ten=t.tension?translateTension(t.tension):null;
     var conn=t.connector||'amid';
@@ -31452,7 +31452,21 @@ const TEMPLATES=[
     if(t.era) sentence+=', '+t.era+' aesthetic';
     return sentence+'.';
   },
-  // Variant 2 \u2014 Intimacy: pose leads as the central act, location frames it
+  // Variant 2 — Human Scale: 50mm reportage, full body, body language reads
+  function(t){
+    var ten=t.tension?translateTension(t.tension):null;
+    var conn=t.connector||'amid';
+    var sentence='';
+    if(t.pose&&t.loc) sentence=t.pose+', '+conn+' '+t.loc;
+    else if(t.pose) sentence=t.pose;
+    else if(t.loc) sentence=t.loc;
+    if(ten) sentence=(sentence?sentence+' — ':'')+ten;
+    if(t.look) sentence+=', wearing '+t.look;
+    if(t.lighting) sentence+=', '+t.lighting;
+    if(t.era) sentence+=', '+t.era+' aesthetic';
+    return sentence+'.';
+  },
+  // Variant 3 — Intimacy
   function(t){
     var ten=t.tension?translateTension(t.tension):null;
     var conn=t.connector||'inside';
@@ -31470,7 +31484,7 @@ const TEMPLATES=[
     if(t.era) sentence+=', '+t.era+' palette';
     return sentence+'.';
   },
-  // Variant 3 \u2014 Essential: fuse pose and location into one image, drop the rest
+  // Variant 4 — Essential
   function(t){
     var ten=t.tension?translateTension(t.tension):null;
     var conn=t.connector||'against';
@@ -31487,7 +31501,7 @@ const TEMPLATES=[
     if(t.shot) sentence=t.shot+'. '+sentence;
     return sentence+'.';
   },
-  // Variant 4 \u2014 Location-Led: world built first, figures placed inside it
+  // Variant 5 — Location-Led
   function(t){
     var ten=t.tension?translateTension(t.tension):null;
     var conn=t.connector||'where';
@@ -31505,7 +31519,7 @@ const TEMPLATES=[
     if(t.era) sentence+=', '+t.era+' era';
     return sentence+'.';
   },
-  // Variant 5 \u2014 Wardrobe-Led: look defines register first, action follows
+  // Variant 6 — Wardrobe-Led
   function(t){
     var ten=t.tension?translateTension(t.tension):null;
     var conn=t.connector||'amid';
@@ -31523,22 +31537,9 @@ const TEMPLATES=[
     if(t.shot) sentence=t.shot+'. '+sentence;
     if(t.era) sentence+=', '+t.era+' aesthetic';
     return sentence+'.';
-  },
-  // Variant 6 — Human Scale
-  function(t){
-    var ten=t.tension?translateTension(t.tension):null;
-    var conn=t.connector||'amid';
-    var sentence='';
-    if(t.pose&&t.loc) sentence=t.pose+', '+conn+' '+t.loc;
-    else if(t.pose) sentence=t.pose;
-    else if(t.loc) sentence=t.loc;
-    if(ten) sentence=(sentence?sentence+' — ':'')+ten;
-    if(t.look) sentence+=', wearing '+t.look;
-    if(t.lighting) sentence+=', '+t.lighting;
-    if(t.era) sentence+=', '+t.era+' aesthetic';
-    return sentence+'.';
   }
 ];
+
 
 
 function buildFixed(){
