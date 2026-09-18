@@ -659,7 +659,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: sun-bleached, high contrast, the palette of asphalt and horizon. The road itself should dominate the frame. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: sun-bleached, high contrast, the palette of asphalt and horizon. The road itself should dominate the frame."
   },
   {
     "id": "water",
@@ -1302,7 +1302,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "The subjects must be in, on, or entering water — not beside it. Colour grade varies by water body: ocean is grey-green, pool is turquoise, river is brown-gold, lake is still and reflective. Wet skin, wet fabric, the physics of water must be present. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "The subjects must be in, on, or entering water — not beside it. Colour grade varies by water body: ocean is grey-green, pool is turquoise, river is brown-gold, lake is still and reflective. Wet skin, wet fabric, the physics of water must be present."
   },
   {
     "id": "city",
@@ -1942,7 +1942,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: urban ambient — neon, sodium, LED, the cold blue of glass towers. The city is alive around the subjects. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: urban ambient — neon, sodium, LED, the cold blue of glass towers. The city is alive around the subjects."
   },
   {
     "id": "mountain",
@@ -2582,7 +2582,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: high altitude clarity — crisp air, vivid blue sky or dramatic cloud. The scale of the mountain environment should be present in the frame. Alpenglow, snow, rock and sky. The subjects are in the landscape, not posed before it. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: high altitude clarity — crisp air, vivid blue sky or dramatic cloud. The scale of the mountain environment should be present in the frame. Alpenglow, snow, rock and sky. The subjects are in the landscape, not posed before it."
   },
   {
     "id": "night",
@@ -3218,7 +3218,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: deep blacks, pools of artificial light — neon, sodium, LED. Available light only, no fill flash. Let the darkness be darkness. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: deep blacks, pools of artificial light — neon, sodium, LED. Available light only, no fill flash. Let the darkness be darkness."
   },
   {
     "id": "rain",
@@ -3856,7 +3856,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "The subjects must be visibly wet — soaked clothing, wet hair, rain on skin. Colour grade: desaturated, cool blue-grey tones, reflections in wet surfaces. The rain itself should be visible in the frame where possible. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "The subjects must be visibly wet — soaked clothing, wet hair, rain on skin. Colour grade: desaturated, cool blue-grey tones, reflections in wet surfaces. The rain itself should be visible in the frame where possible."
   },
   {
     "id": "dust",
@@ -4496,7 +4496,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: bleached, sun-baked, the palette of drought and heat — ochre, sienna, bone white. Dust in the air where possible. Harsh overhead or raking light. No fill, no softbox. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: bleached, sun-baked, the palette of drought and heat — ochre, sienna, bone white. Dust in the air where possible. Harsh overhead or raking light. No fill, no softbox."
   },
   {
     "id": "gold",
@@ -5127,7 +5127,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: warm, rich, indulgent — deep shadows with warm amber highlights. The lighting should feel expensive: practicals, candlelight, the glow of a city at night. Every surface should look as if it's worth something. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: warm, rich, indulgent — deep shadows with warm amber highlights. The lighting should feel expensive: practicals, candlelight, the glow of a city at night. Every surface should look as if it's worth something."
   },
   {
     "id": "cold",
@@ -5768,7 +5768,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: cool, de-saturated, blue-white palette. Visible breath where temperatures warrant it. The cold should be palpable — not a backdrop but a physical presence. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: cool, de-saturated, blue-white palette. Visible breath where temperatures warrant it. The cold should be palpable — not a backdrop but a physical presence."
   },
   {
     "id": "concrete",
@@ -6404,7 +6404,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: desaturated, cool, grey on grey on grey. Brutalist architecture should dominate the frame — the humans are small within it. Flat overcast light or harsh industrial light. No warmth. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: desaturated, cool, grey on grey on grey. Brutalist architecture should dominate the frame — the humans are small within it. Flat overcast light or harsh industrial light. No warmth."
   },
   {
     "id": "iron",
@@ -7036,7 +7036,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: warm industrial — the orange glow of forge fire, rust-red steel, smoke and steam in the air. The scale of industrial machinery should dwarf the subjects. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: warm industrial — the orange glow of forge fire, rust-red steel, smoke and steam in the air. The scale of industrial machinery should dwarf the subjects."
   },
   {
     "id": "glass",
@@ -7665,7 +7665,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Use reflections, refractions and transparency as compositional elements — the subjects should appear in, through, or multiplied by glass surfaces. Colour grade: clean, cool, architectural. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Use reflections, refractions and transparency as compositional elements — the subjects should appear in, through, or multiplied by glass surfaces. Colour grade: clean, cool, architectural."
   },
   {
     "id": "wild",
@@ -8305,7 +8305,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: the light of the specific environment — woodland dapple, open moorland grey, highland gold. No studio. Whatever light was available is the right light. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: the light of the specific environment — woodland dapple, open moorland grey, highland gold. No studio. Whatever light was available is the right light."
   },
   {
     "id": "court",
@@ -8927,7 +8927,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: the specific light of the venue — arena overhead, outdoor court hard sun, indoor court fluorescent. The physical effort of sport should be legible in the frame. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: the specific light of the venue — arena overhead, outdoor court hard sun, indoor court fluorescent. The physical effort of sport should be legible in the frame."
   },
   {
     "id": "stage",
@@ -9564,7 +9564,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Render with theatrical lighting: dramatic pools of stage light, deep shadow in the wings, the texture of performance — sweat, effort, presence. The lighting should be impractical and beautiful, the way stage lighting is. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Render with theatrical lighting: dramatic pools of stage light, deep shadow in the wings, the texture of performance — sweat, effort, presence. The lighting should be impractical and beautiful, the way stage lighting is."
   },
   {
     "id": "romance",
@@ -10195,7 +10195,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: warm, intimate — candlelight, practical light, the glow of a screen or a window. Every light source should feel chosen, not found. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: warm, intimate — candlelight, practical light, the glow of a screen or a window. Every light source should feel chosen, not found."
   },
   {
     "id": "music",
@@ -10831,7 +10831,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: stage-adjacent — practical light from monitors or spots, deep shadow between, the subjects lit as if mid-performance. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: stage-adjacent — practical light from monitors or spots, deep shadow between, the subjects lit as if mid-performance."
   },
   {
     "id": "history",
@@ -11458,7 +11458,7 @@ const WORLDS = [
       }
     },
     "promptPrefix": "Period-accurate historical photograph, authentic to the era and location depicted — ",
-    "promptSuffix": "Render with period-accurate costume, lighting and setting. The photographic style should match the era: daguerreotype for 1840s, sepia albumen print for Victorian, black-and-white documentary for mid-20th century, colour photography from the 1970s onward. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Render with period-accurate costume, lighting and setting. The photographic style should match the era: daguerreotype for 1840s, sepia albumen print for Victorian, black-and-white documentary for mid-20th century, colour photography from the 1970s onward."
   },
   {
     "id": "mystery",
@@ -12074,7 +12074,7 @@ const WORLDS = [
       }
     },
     "promptPrefix": "Cinematic noir photograph, film grain, deep shadows, high contrast chiaroscuro lighting, atmosphere of unease or suspense — ",
-    "promptSuffix": "Render with film noir visual language: deep blacks, practical light sources, fog or haze where appropriate, shadows that obscure as much as they reveal. The mood should feel like a still from a psychological thriller. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Render with film noir visual language: deep blacks, practical light sources, fog or haze where appropriate, shadows that obscure as much as they reveal. The mood should feel like a still from a psychological thriller."
   },
   {
     "id": "spring",
@@ -12687,7 +12687,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: soft, fresh, the palette before full saturation arrives — pastel blossom, new green, the particular quality of spring light that's warm but not yet golden. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: soft, fresh, the palette before full saturation arrives — pastel blossom, new green, the particular quality of spring light that's warm but not yet golden."
   },
   {
     "id": "hero",
@@ -13301,7 +13301,7 @@ const WORLDS = [
       }
     },
     "promptPrefix": "Cinematic action film still, widescreen composition, dramatic lighting, high production value — ",
-    "promptSuffix": "Render as a frame from a major action or thriller film: cinematic colour grade, dramatic practical lighting, the subjects look like leads, not extras. Scale and stakes should feel enormous even in intimate moments. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Render as a frame from a major action or thriller film: cinematic colour grade, dramatic practical lighting, the subjects look like leads, not extras. Scale and stakes should feel enormous even in intimate moments."
   },
   {
     "id": "space",
@@ -13913,7 +13913,7 @@ const WORLDS = [
       }
     },
     "promptPrefix": "NASA-quality space photography, scientifically accurate, the profound emptiness and scale of space as backdrop — ",
-    "promptSuffix": "Render with the visual authenticity of real space imagery: hard vacuum lighting (one-directional sun, deep shadow, no atmosphere), accurate spacecraft or suit details, the overwhelming scale of space. Avoid science fiction clichés — this should feel like it could be a real NASA photograph. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Render with the visual authenticity of real space imagery: hard vacuum lighting (one-directional sun, deep shadow, no atmosphere), accurate spacecraft or suit details, the overwhelming scale of space. Avoid science fiction clichés — this should feel like it could be a real NASA photograph."
   },
   {
     "id": "travel",
@@ -14533,7 +14533,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: the light of the specific place — each location has its own quality of light. Render authentically to the environment. The subjects are visitors, slightly out of place in the best way. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: the light of the specific place — each location has its own quality of light. Render authentically to the environment. The subjects are visitors, slightly out of place in the best way."
   },
   {
     "id": "art",
@@ -15162,7 +15162,7 @@ const WORLDS = [
       }
     },
     "promptPrefix": "Contemporary fine art photography, museum or gallery quality, conceptually driven — ",
-    "promptSuffix": "Render as a serious fine art photograph: the image should have a clear conceptual or emotional intention, not merely document a scene. The quality and intentionality should read as gallery-worthy. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Render as a serious fine art photograph: the image should have a clear conceptual or emotional intention, not merely document a scene. The quality and intentionality should read as gallery-worthy."
   },
   {
     "id": "mexico",
@@ -15767,7 +15767,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: saturated and warm — the palette of painted walls, terracotta, marigold, deep shadow under brilliant sun. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: saturated and warm — the palette of painted walls, terracotta, marigold, deep shadow under brilliant sun."
   },
   {
     "id": "usa",
@@ -16376,7 +16376,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: American vernacular — the particular flatness of strip-lit diners, the blue-white of parking lots, the warm amber of the golden hour on open highway. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: American vernacular — the particular flatness of strip-lit diners, the blue-white of parking lots, the warm amber of the golden hour on open highway."
   },
   {
     "id": "canada",
@@ -16988,7 +16988,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: the specific quality of North American natural light — the blue-white of winter, the amber of maple autumn, the cool grey of Pacific coast. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: the specific quality of North American natural light — the blue-white of winter, the amber of maple autumn, the cool grey of Pacific coast."
   },
   {
     "id": "caribbean",
@@ -17591,7 +17591,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: saturated tropical light — brilliant blue sky, turquoise water, the deep shadows under palm. High noon or the warm amber of sunset. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: saturated tropical light — brilliant blue sky, turquoise water, the deep shadows under palm. High noon or the warm amber of sunset."
   },
   {
     "id": "wedding",
@@ -18210,7 +18210,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: clean and elevated — soft directional light, the subjects are the most important thing in the frame. Every element should feel considered and precious. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: clean and elevated — soft directional light, the subjects are the most important thing in the frame. Every element should feel considered and precious."
   },
   {
     "id": "kitchen",
@@ -18831,7 +18831,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: warm practical light — the light of an open oven, a pendant bulb, late afternoon through a window. The frame should feel lived-in and real. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: warm practical light — the light of an open oven, a pendant bulb, late afternoon through a window. The frame should feel lived-in and real."
   },
   {
     "id": "jungle",
@@ -19472,7 +19472,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: deep, saturated greens with shafts of filtered light. The jungle should feel dense and enveloping — not a backdrop but a presence. Humidity, dappled light through canopy, the subjects dwarfed by vegetation. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: deep, saturated greens with shafts of filtered light. The jungle should feel dense and enveloping — not a backdrop but a presence. Humidity, dappled light through canopy, the subjects dwarfed by vegetation."
   },
   {
     "id": "runway",
@@ -20100,7 +20100,7 @@ const WORLDS = [
       }
     },
     "promptPrefix": "High fashion editorial photograph, fashion week or luxury magazine quality — ",
-    "promptSuffix": "Render with the precision and intentionality of high fashion photography: every element of the frame is considered, the garments are the protagonist, the lighting is deliberate and sculptural. The quality should read as Vogue, i-D or AnOther Magazine. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Render with the precision and intentionality of high fashion photography: every element of the frame is considered, the garments are the protagonist, the lighting is deliberate and sculptural. The quality should read as Vogue, i-D or AnOther Magazine."
   },
   {
     "id": "protest",
@@ -20717,7 +20717,7 @@ const WORLDS = [
       }
     },
     "promptPrefix": "Documentary reportage photograph, editorial quality, photojournalism aesthetic — ",
-    "promptSuffix": "Render as a serious documentary photograph: available light, the energy of the real moment, not a staged portrait. The quality should feel like it belongs in a newspaper front page or a World Press Photo submission. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Render as a serious documentary photograph: available light, the energy of the real moment, not a staged portrait. The quality should feel like it belongs in a newspaper front page or a World Press Photo submission."
   },
   {
     "id": "dusk",
@@ -21328,7 +21328,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: warm amber and gold tones, long shadows, the last directional light of the day raking across the scene. Expose for the sky, let the subjects be slightly silhouetted or rim-lit. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: warm amber and gold tones, long shadows, the last directional light of the day raking across the scene. Expose for the sky, let the subjects be slightly silhouetted or rim-lit."
   },
   {
     "id": "desert",
@@ -21971,7 +21971,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: bleached ochre and terracotta, vast empty sky. Scale is everything — the landscape should make the subjects feel small. Heat haze where appropriate. Harsh unfiltered sun or the blue hour of desert dusk. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: bleached ochre and terracotta, vast empty sky. Scale is everything — the landscape should make the subjects feel small. Heat haze where appropriate. Harsh unfiltered sun or the blue hour of desert dusk."
   },
   {
     "id": "surreal",
@@ -22577,7 +22577,7 @@ const WORLDS = [
       }
     },
     "promptPrefix": "Surrealist fine art photograph, dreamlike and impossible, rendered with photographic realism but depicting something that cannot exist — ",
-    "promptSuffix": "The impossible element should feel completely natural within the frame. Render with the crisp, hyper-real quality of fine art photography — the surrealism comes from the subject matter, not degraded image quality. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "The impossible element should feel completely natural within the frame. Render with the crisp, hyper-real quality of fine art photography — the surrealism comes from the subject matter, not degraded image quality."
   },
   {
     "id": "summer",
@@ -23192,7 +23192,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: full saturation, sun high — the bleached white of noon, the golden hour that comes late and stays long. Heat should be visible. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: full saturation, sun high — the bleached white of noon, the golden hour that comes late and stays long. Heat should be visible."
   },
   {
     "id": "autumn",
@@ -23801,7 +23801,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: amber, rust, gold — the palette is already given by the season. Let it saturate. Overcast autumn light or the low gold of October sun. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: amber, rust, gold — the palette is already given by the season. Let it saturate. Overcast autumn light or the low gold of October sun."
   },
   {
     "id": "winter",
@@ -24410,7 +24410,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: cold and still — blue-white snow light, the warm amber of indoor glow against cold exterior, the grey of overcast winter sky. The cold should be visible. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: cold and still — blue-white snow light, the warm amber of indoor glow against cold exterior, the grey of overcast winter sky. The cold should be visible."
   },
   {
     "id": "absurd",
@@ -25014,7 +25014,7 @@ const WORLDS = [
       }
     },
     "promptPrefix": "Deadpan documentary photograph, shot as if entirely normal, no reaction to the absurd situation — ",
-    "promptSuffix": "The comedy comes entirely from the contrast between the ridiculous situation and the utterly straight-faced treatment. Shoot it like a news photograph. No winking at the camera. No exaggerated expressions. Just the absurd thing, treated as completely ordinary. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "The comedy comes entirely from the contrast between the ridiculous situation and the utterly straight-faced treatment. Shoot it like a news photograph. No winking at the camera. No exaggerated expressions. Just the absurd thing, treated as completely ordinary."
   },
   {
     "id": "underworld",
@@ -25620,7 +25620,7 @@ const WORLDS = [
       }
     },
     "promptPrefix": "Mythological fine art, painterly and dramatic, the visual language of classical mythology or dark fantasy — ",
-    "promptSuffix": "Render with the dramatic, painterly quality of mythological art: deep atmospheric lighting, symbolic visual elements, the subjects feel timeless and archetypal rather than contemporary. Draw on the visual language of Gustave Moreau, John William Waterhouse or contemporary dark fantasy photography. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Render with the dramatic, painterly quality of mythological art: deep atmospheric lighting, symbolic visual elements, the subjects feel timeless and archetypal rather than contemporary. Draw on the visual language of Gustave Moreau, John William Waterhouse or contemporary dark fantasy photography."
   },
   {
     "id": "storm",
@@ -26233,7 +26233,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: dramatic pre-storm or mid-storm light — bruised purple-green sky, hard directional light breaking through cloud, or the flat grey of total overcast. The atmosphere should feel volatile. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: dramatic pre-storm or mid-storm light — bruised purple-green sky, hard directional light breaking through cloud, or the flat grey of total overcast. The atmosphere should feel volatile."
   },
   {
     "id": "underground",
@@ -26854,7 +26854,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: low light, practical sources — record shop strip, club monitor glow, sodium street through a doorway. Authentic and unglamorous. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: low light, practical sources — record shop strip, club monitor glow, sodium street through a doorway. Authentic and unglamorous."
   },
   {
     "id": "expedition",
@@ -27466,7 +27466,7 @@ const WORLDS = [
       }
     },
     "promptPrefix": "National Geographic quality expedition photograph, documentary and awe-inspiring — ",
-    "promptSuffix": "Render with the quality of serious expedition photography: the location is the protagonist, the humans are the measure of its scale. The lighting should be what was available — no studio, no fill. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Render with the quality of serious expedition photography: the location is the protagonist, the humans are the measure of its scale. The lighting should be what was available — no studio, no fill."
   },
   {
     "id": "rooftop",
@@ -28098,7 +28098,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: the specific quality of city light from above — ambient glow from below, open sky above, the subjects caught between. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: the specific quality of city light from above — ambient glow from below, open sky above, the subjects caught between."
   },
   {
     "id": "monastery",
@@ -28709,7 +28709,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: contemplative light — shafts through stone windows, candlelight, the cool grey of ancient interiors. Silence should be visible. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: contemplative light — shafts through stone windows, candlelight, the cool grey of ancient interiors. Silence should be visible."
   },
   {
     "id": "pier",
@@ -29317,7 +29317,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: coastal light — the bright white of sea-reflected sun, the grey-green of overcast coast, the amber of a pier at dusk. The sea is always present. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: coastal light — the bright white of sea-reflected sun, the grey-green of overcast coast, the amber of a pier at dusk. The sea is always present."
   },
   {
     "id": "market",
@@ -29932,7 +29932,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: saturated, busy, the visual density of goods and people. Natural daylight or harsh artificial stall lighting. The subjects are part of the scene, not removed from it. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: saturated, busy, the visual density of goods and people. Natural daylight or harsh artificial stall lighting. The subjects are part of the scene, not removed from it."
   },
   {
     "id": "circus",
@@ -30547,7 +30547,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Render with circus lighting: dramatic spotlights, deep black background, the performers lit from below or above as if by stage rigs. The image should feel like it was taken mid-performance, not in rehearsal. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Render with circus lighting: dramatic spotlights, deep black background, the performers lit from below or above as if by stage rigs. The image should feel like it was taken mid-performance, not in rehearsal."
   },
   {
     "id": "farm",
@@ -31159,7 +31159,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: warm earth tones, natural light — golden hour in a field, the cool blue of a barn interior, the grey of overcast agricultural work. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Colour grade: warm earth tones, natural light — golden hour in a field, the cool blue of a barn interior, the grey of overcast agricultural work."
   },
   {
     "id": "cctv",
@@ -31368,7 +31368,7 @@ const WORLDS = [
       "cargo shorts work shirt each trades"
     ],
     "promptPrefix": "CCTV security camera footage, fish-eye wide-angle lens, elevated corner bracket mount, heavy grain and noise, blue-grey institutional colour cast, low resolution surveillance aesthetic, timestamp overlay 23:47 bottom-right, static camera position — ",
-    "promptSuffix": "Render as authentic CCTV surveillance footage: fish-eye distortion, elevated angle, grain and noise, timestamp, institutional blue-grey palette, static camera. The subjects are unaware of or ignoring the camera. The emotional tension is atmosphere only — do not illustrate it literally."
+    "promptSuffix": "Render as authentic CCTV surveillance footage: fish-eye distortion, elevated angle, grain and noise, timestamp, institutional blue-grey palette, static camera. The subjects are unaware of or ignoring the camera."
   }
 ];
 
