@@ -1048,8 +1048,8 @@ document.addEventListener('click',function(e){
 
 // ── COPY ──────────────────────────────────────────────────────
 function copyPrompt(){
-  const p=document.getElementById('pt').innerText;
-  if(!p||p.includes('Select a world')) return;
+  const p=buildPromptString();
+  if(!p) return;
   navigator.clipboard.writeText(p).then(function(){
     pushHistory(p);
     var btn=document.getElementById('btn-copy');
