@@ -31633,6 +31633,7 @@ function onWorldChange(){
   populateTension();
   populateDials();
   updatePrompt();
+  if(typeof updateWorldBar==='function') updateWorldBar();
 }
 
 function populateTension(){
