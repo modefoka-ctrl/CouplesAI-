@@ -886,7 +886,8 @@ function buildPromptString(){
   // World-specific mood suffix (overrides standard mood note)
   var moodNote='';
   if(w&&w.promptSuffix){
-    moodNote=' '+w.promptSuffix;
+    var tensionNote=S.tension?' The emotional tension — '+S.tension+' — is atmosphere only. Do not illustrate it literally. ':' ';
+    moodNote=tensionNote+w.promptSuffix;
   } else if(ten){
     moodNote=' The emotional tension — '+S.tension+' — is atmosphere only. Do not illustrate it literally.';
   }
@@ -1115,7 +1116,7 @@ function refineLocal(){
     var vDir=(w&&w.promptPrefix)?'':VARIANT_DIRECTIVES[i];
     // Suffix: world-specific or standard mood note
     var vMood='';
-    if(w&&w.promptSuffix){vMood=' '+w.promptSuffix;}
+    if(w&&w.promptSuffix){var tn=S.tension?' The emotional tension — '+S.tension+' — is atmosphere only. Do not illustrate it literally. ':' ';vMood=tn+w.promptSuffix;}
     else if(S.tension){vMood=' The emotional tension — '+S.tension+' — is atmosphere only. Do not illustrate it literally.';}
     variants.push({full:vOpening+(vDir?vDir+inner:inner)+vMood,wc:inner.split(/\s+/).filter(Boolean).length,label:VARIANT_LABELS[i]});
   }
