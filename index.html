@@ -404,7 +404,7 @@ footer a:hover{color:var(--gold)}
     </div>
     <div class="modal-body">
       <div class="tip-block"><div class="tip-label">1 — Start with World &amp; Tension</div><div class="tip-text">Step 2 opens automatically. Search 50 worlds or browse by category. Pick a tension — a poetic translation appears beneath it. Tension unlocks affinity-matched locations, poses and looks at the top of every dropdown.</div></div>
-      <div class="tip-block"><div class="tip-label">2 — Tension is mood, not instruction</div><div class="tip-text">Every prompt ends with: <em>"The emotional tension (X) is a mood and atmosphere directive only — do not illustrate it literally."</em> This prevents AI models from rendering tensions literally.</div></div>
+      <div class="tip-block"><div class="tip-label">2 — Tension is mood, not instruction</div><div class="tip-text">Every prompt ends with: <em>"The emotional tension — X — is atmosphere only. Do not illustrate it literally."</em> This prevents AI models from rendering tensions literally.</div></div>
       <div class="tip-block"><div class="tip-label">3 — Lock &amp; Spin Unlocked</div><div class="tip-text">Lock any field with the padlock. Hit <strong>Spin Unlocked</strong> to explore every combination within your locked anchor. Locks survive Randomize All and Clear.</div></div>
       <div class="tip-block"><div class="tip-label">4 — Keyboard shortcuts</div><div class="tip-text">Press <strong>/</strong> to jump to world search. Press <strong>1 2 3 4</strong> to toggle steps. Press <strong>Alt+R</strong> to randomize. Press <strong>Alt+C</strong> to copy. Press <strong>Escape</strong> to close modals.</div></div>
       <div class="tip-block"><div class="tip-label">5 — &#x2726; AI decides</div><div class="tip-text">Every field has a <strong>&#x2726; AI</strong> button. Setting 2–3 fields manually and leaving 1–2 to AI often produces the strongest results. The button spins briefly to confirm.</div></div>
@@ -568,7 +568,7 @@ footer a:hover{color:var(--gold)}
           oninput="filterWorlds(this.value)">
         <div class="sel-row">
           <div class="sw">
-            <select id="s-world" onchange="onWorldChange();clearWorldSearch();clearTensionSearch();updateLogoColour();">
+            <select id="s-world" onchange="onWorldChange();clearWorldSearch();clearTensionSearch();updateLogoColour();updateWorldBar();">
               <option value="">&#x2014; choose world &#x2014;</option>
             </select>
           </div>
@@ -951,7 +951,7 @@ function updatePrompt(){
   if(parts.length) html+=' '+parts.join(sep)+dot;
   else html+=' <span class="pt-empty">\u2014 pick tension, location, pose or look</span>';
   if(S.tension && parts.length){
-    html+='<span class="pt-mood"> The emotional tension ('+S.tension+') is a mood and atmosphere directive only \u2014 do not illustrate it literally.</span>';
+    html+='<span class="pt-mood"> The emotional tension — '+S.tension+' — is atmosphere only. Do not illustrate it literally.</span>';
   }
   ptEl.innerHTML=html;
 
@@ -1116,7 +1116,7 @@ function refineLocal(){
     // Suffix: world-specific or standard mood note
     var vMood='';
     if(w&&w.promptSuffix){vMood=' '+w.promptSuffix;}
-    else if(S.tension){vMood=' The emotional tension ('+S.tension+') is a mood and atmosphere directive only — do not illustrate it literally.';}
+    else if(S.tension){vMood=' The emotional tension — '+S.tension+' — is atmosphere only. Do not illustrate it literally.';}
     variants.push({full:vOpening+(vDir?vDir+inner:inner)+vMood,wc:inner.split(/\s+/).filter(Boolean).length,label:VARIANT_LABELS[i]});
   }
   setTimeout(()=>{
