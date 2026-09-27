@@ -31945,13 +31945,26 @@ function renderEras(){
 
 
 const LIGHTING_OPTIONS = [
-  "golden hour backlight","harsh overhead sun","overcast flat light",
-  "blue hour dusk glow","single practical lamp","neon underlighting",
-  "candlelight close","misty diffused light","hard side light",
-  "dramatic chiaroscuro","soft window light","strobe freeze light",
-  "fire glow warm","stadium floodlight","moonlight cold blue",
-  "fog-diffused ambient","sunrise rim light","deep shadow low key",
-  "high key bright flat","desert bleached light"
+  "golden hour backlight",
+  "harsh overhead midday sun",
+  "flat overcast diffused light",
+  "blue hour last light before dark",
+  "sunrise side rim light",
+  "moonlight cold and directional",
+  "fog-diffused ambient no source",
+  "desert bleached high noon",
+  "storm light bruised pre-rain",
+  "dappled forest canopy light",
+  "open shade soft directional",
+  "tungsten window light warm interior",
+  "candlelight close intimate warm",
+  "fire glow flickering warm orange",
+  "neon spill city night colour",
+  "sodium street light orange night",
+  "fluorescent flat institutional",
+  "deep shadow minimal available light",
+  "backlight silhouette blown out behind",
+  "rain-diffused ambient wet reflections"
 ];
 
 const SHOT_OPTIONS = [
