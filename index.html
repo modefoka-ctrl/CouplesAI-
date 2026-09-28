@@ -1448,7 +1448,8 @@ function clearAll(){
   if(S.world){ populateTension(); populateDials(); }
   var vd=document.getElementById('variants'); if(vd){vd.classList.remove('vis');vd.innerHTML='';}
   updatePrompt();
-}
+
+  if(typeof repopulateLighting==='function') repopulateLighting();}
 
 // ── HELP MODAL ────────────────────────────────────────────────
 function openHowTo(){
