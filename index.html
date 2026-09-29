@@ -1344,16 +1344,19 @@ function randomizeAll(){
   // Update subtitles and translation immediately so they're ready when steps open
   updateStepStatuses();
   if(typeof refreshTensionTranslation==='function') refreshTensionTranslation();
-  // Randomize lighting and shot
+  // Randomize lighting — repopulate first so pool matches loc, then pick
+  var _lpool=typeof getLightingForLoc==='function'?getLightingForLoc(S.loc):LIGHTING_OPTIONS;
+  var _lsel=document.getElementById('s-lighting');
+  if(_lsel){
+    _lsel.innerHTML='<option value="">— lighting —</option><option value="__ai__">✦ AI decides</option>';
+    _lpool.forEach(function(v){var o=document.createElement('option');o.value=v;o.textContent=v;_lsel.appendChild(o);});
+  }
   if(Math.random()>.4){
-    var _lpool=typeof getLightingForLoc==='function'?getLightingForLoc(S.loc):LIGHTING_OPTIONS;
     S.lighting=pick(_lpool);
-    const ls=document.getElementById('s-lighting');
-    if(ls){ls.value=S.lighting;ls.classList.add('has-val');}
+    if(_lsel){_lsel.value=S.lighting;_lsel.classList.add('has-val');}
   } else {
     S.lighting=null;
-    const ls=document.getElementById('s-lighting');
-    if(ls){ls.value='';ls.classList.remove('has-val');}
+    if(_lsel){_lsel.value='';_lsel.classList.remove('has-val');}
   }
   if(Math.random()>.5){
     S.shot=pick(SHOT_OPTIONS);
@@ -1383,7 +1386,7 @@ function randomizeAll(){
   });
 
   if(typeof updateWorldBar==='function') updateWorldBar();
-  if(typeof repopulateLighting==='function') repopulateLighting();}
+}
 
 // ── SPIN UNLOCKED ─────────────────────────────────────────────
 function spinUnlocked(){
