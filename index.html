@@ -1346,7 +1346,8 @@ function randomizeAll(){
   if(typeof refreshTensionTranslation==='function') refreshTensionTranslation();
   // Randomize lighting and shot
   if(Math.random()>.4){
-    S.lighting=pick(LIGHTING_OPTIONS);
+    var _lpool=typeof getLightingForLoc==='function'?getLightingForLoc(S.loc):LIGHTING_OPTIONS;
+    S.lighting=pick(_lpool);
     const ls=document.getElementById('s-lighting');
     if(ls){ls.value=S.lighting;ls.classList.add('has-val');}
   } else {
@@ -1405,10 +1406,12 @@ function spinUnlocked(){
       if(!LOCKS[key]){ const sel=document.getElementById('s-'+key); sel.value=S[key]||''; }
     });
   }
-  // Spin lighting too
-  S.lighting=pick(LIGHTING_OPTIONS);
+  // Spin lighting too (filtered by loc type)
+  var _spool=typeof getLightingForLoc==='function'?getLightingForLoc(S.loc):LIGHTING_OPTIONS;
+  S.lighting=pick(_spool);
   const lsel=document.getElementById('s-lighting');
   if(lsel){lsel.value=S.lighting;lsel.classList.add('has-val');}
+  if(typeof repopulateLighting==='function') repopulateLighting();
   updatePrompt();
 }
 
