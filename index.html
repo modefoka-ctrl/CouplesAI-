@@ -1615,6 +1615,27 @@ function aiClick(key){
     }
   }, 800);
 }
+function getLightingForLoc(locVal){
+  if(!locVal||locVal==='__ai__') return LIGHTING_OPTIONS;
+  var t=(typeof LOC_TYPES!=='undefined')&&LOC_TYPES[locVal]||'both';
+  var OUT=typeof LIGHTING_OUTDOOR!=='undefined'?LIGHTING_OUTDOOR:LIGHTING_OPTIONS;
+  var IND=typeof LIGHTING_INDOOR!=='undefined'?LIGHTING_INDOOR:LIGHTING_OPTIONS;
+  if(t==='indoor') return IND;
+  if(t==='outdoor') return OUT;
+  var merged=[],seen={};
+  OUT.concat(IND).forEach(function(v){if(!seen[v]){seen[v]=1;merged.push(v);}});
+  return merged;
+}
+function repopulateLighting(){
+  var lsel=document.getElementById('s-lighting');
+  if(!lsel) return;
+  var prev=S.lighting||'';
+  var opts=getLightingForLoc(S.loc);
+  lsel.innerHTML='<option value="">— lighting —</option><option value="__ai__">✦ AI decides</option>';
+  opts.forEach(function(v){var o=document.createElement('option');o.value=v;o.textContent=v;lsel.appendChild(o);});
+  if(prev&&opts.indexOf(prev)>-1){lsel.value=prev;lsel.classList.add('has-val');}
+  else{lsel.value='';lsel.classList.remove('has-val');S.lighting=null;}
+}
 function initLightingShot(){
   const ls=document.getElementById('s-lighting');
   const ss=document.getElementById('s-shot');
