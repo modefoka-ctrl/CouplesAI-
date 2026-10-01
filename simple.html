@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CouplesAI — Quick Generate</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ink:#0e0c14;--lift:#17141f;--raise:#1f1b2e;
+  --rim:#2e2840;--rim2:#3d3558;
+  --text:#f0ece4;--sub:#9b94ae;--mute:#5c5470;
+  --gold:#e8a030;--gold2:#f5c060;
+  --green:#3ec97a;--rose:#e05870;--teal:#38c8b8;--purple:#a07af0;
+  --r:10px;--r-lg:14px;--t:.16s ease;
+}
+html,body{background:var(--ink);color:var(--text);font-family:"Inter",sans-serif;
+  font-size:16px;min-height:100vh;-webkit-text-size-adjust:100%;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px)}
+
+/* ── HEADER ── */
+.hdr{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 16px;height:52px;
+  background:rgba(14,12,20,.96);border-bottom:1px solid var(--rim);
+  position:sticky;top:0;z-index:100;
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+}
+.logo{font-family:"DM Serif Display",serif;font-size:18px;
+  display:flex;align-items:center;gap:7px}
+.logo-mark{transition:color .4s ease;color:var(--gold)}
+.logo-sub{font-size:11px;color:var(--mute);padding-left:8px;
+  border-left:1px solid var(--rim);margin-left:2px;font-family:"Inter",sans-serif}
+
+/* ── MODE TOGGLE ── */
+.mode-toggle{
+  display:flex;align-items:center;
+  background:var(--raise);border-radius:20px;padding:3px;
+  border:1px solid var(--rim);gap:2px;
+}
+.mode-btn{
+  padding:5px 14px;border-radius:16px;border:none;cursor:pointer;
+  font-family:"Inter",sans-serif;font-size:11px;font-weight:600;
+  letter-spacing:.04em;transition:all var(--t);color:var(--mute);
+  background:transparent;text-decoration:none;display:block;
+}
+.mode-btn.active{background:var(--gold);color:var(--ink);}
+.mode-btn:hover:not(.active){color:var(--text)}
+
+/* ── WORLD BAR ── */
+.world-bar{
+  display:flex;align-items:center;gap:9px;padding:0 16px;
+  height:36px;background:var(--lift);border-bottom:1px solid var(--rim);
+  position:sticky;top:52px;z-index:99;transition:border-bottom-color .4s ease;
+}
+.wb-dot{width:8px;height:8px;border-radius:50%;background:var(--mute);
+  flex-shrink:0;transition:background .4s ease}
+.wb-name{font-family:"DM Serif Display",serif;font-size:13px;color:var(--text)}
+.wb-sub{font-size:10px;color:var(--mute);flex:1;min-width:0;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.wb-refresh{
+  margin-left:auto;flex-shrink:0;
+  background:none;border:1px solid var(--rim);border-radius:16px;
+  color:var(--mute);font-size:10px;font-weight:600;letter-spacing:.04em;
+  padding:4px 12px;cursor:pointer;transition:all var(--t);font-family:"Inter",sans-serif;
+}
+.wb-refresh:hover{color:var(--gold);border-color:var(--gold)}
+
+/* ── MAIN ── */
+.main{padding:16px 14px 48px;max-width:600px;margin:0 auto}
+
+/* ── LOADING STATE ── */
+.loading{
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  min-height:60vh;gap:16px;
+}
+.spin{
+  width:32px;height:32px;border-radius:50%;
+  border:2px solid var(--rim2);border-top-color:var(--gold);
+  animation:spin 1s linear infinite;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
+.loading-text{font-size:13px;color:var(--mute)}
+
+/* ── VARIANT CARDS ── */
+.variants{display:flex;flex-direction:column;gap:12px}
+.vcard{
+  background:var(--lift);border-radius:var(--r-lg);
+  border:1px solid var(--rim);
+  border-left:3px solid var(--gold);
+  overflow:hidden;
+}
+.vcard-header{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:10px 14px 8px;
+}
+.vlabel{font-size:10px;font-weight:700;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--sub)}
+.vwc{font-size:10px;color:var(--mute)}
+.vtext{
+  font-family:"JetBrains Mono",monospace;font-size:11px;line-height:1.7;
+  color:var(--text);padding:0 14px 12px;
+}
+.vcopy{
+  display:flex;align-items:center;justify-content:flex-end;
+  padding:8px 14px 12px;border-top:1px solid var(--rim);
+}
+.btn-copy{
+  height:30px;padding:0 14px;border-radius:15px;border:none;
+  background:var(--gold);color:var(--ink);font-size:11px;font-weight:700;
+  cursor:pointer;font-family:"Inter",sans-serif;transition:all var(--t);
+}
+.btn-copy:hover{background:var(--gold2)}
+.btn-copy.copied{background:linear-gradient(135deg,#1a8f5a,#22aa6a);color:#fff}
+
+/* ── REGENERATE BUTTON ── */
+.regen-wrap{padding:20px 0 0;display:flex;justify-content:center}
+.btn-regen{
+  height:48px;padding:0 32px;border-radius:24px;border:none;
+  background:linear-gradient(135deg,var(--gold),var(--gold2));
+  color:var(--ink);font-size:14px;font-weight:700;
+  cursor:pointer;font-family:"Inter",sans-serif;
+  display:flex;align-items:center;gap:8px;
+  transition:all var(--t);box-shadow:0 4px 20px rgba(232,160,48,.25);
+}
+.btn-regen:hover{transform:translateY(-1px);box-shadow:0 6px 28px rgba(232,160,48,.35)}
+.btn-regen:active{transform:translateY(0)}
+</style>
+</head>
+<body>
+
+<header class="hdr">
+  <div class="logo">
+    <span class="logo-mark" id="logo-mark">✦</span>
+    CouplesAI
+    <span class="logo-sub">Portrait Generator</span>
+  </div>
+  <div class="mode-toggle">
+    <span class="mode-btn active">Quick</span>
+    <a class="mode-btn" href="index.html">Full</a>
+  </div>
+</header>
+
+<div class="world-bar" id="world-bar">
+  <div class="wb-dot" id="wb-dot"></div>
+  <span class="wb-name" id="wb-name">Generating...</span>
+  <span class="wb-sub" id="wb-sub"></span>
+  <button class="wb-refresh" onclick="generate()">↻ New prompt</button>
+</div>
+
+<main class="main">
+  <div class="loading" id="loading">
+    <div class="spin"></div>
+    <div class="loading-text">Building your prompt...</div>
+  </div>
+  <div class="variants" id="variants" style="display:none"></div>
+  <div class="regen-wrap" id="regen-wrap" style="display:none">
+    <button class="btn-regen" onclick="generate()">✦ Generate New Prompt</button>
+  </div>
+</main>
+
+<script src="data.js"></script>
+<script>
+// ── State ─────────────────────────────────────────────────────
+var S = {world:null,tension:null,loc:null,pose:null,look:null,
+         era:null,lighting:null,shot:null,ratio:'4:5',subject:'couple'};
+var LOCKS = {world:false,tension:false,loc:false,pose:false,look:false,lighting:false};
+
+var VARIANT_LABELS=[
+  'Variant 1 — Cinematic Scale',
+  'Variant 2 — Human Scale',
+  'Variant 3 — Intimacy',
+  'Variant 4 — Essential',
+  'Variant 5 — Location-Led',
+  'Variant 6 — Wardrobe-Led'
+];
+const VARIANT_DIRECTIVES=[
+  'Wide angle, environmental scale — subjects small within the frame, scene tells the story: ',
+  '50mm equivalent, full body or three-quarter frame — body language and gesture carry the emotional weight: ',
+  '85mm equivalent, wide open aperture, shallow depth of field, faces fill the frame: ',
+  'Single light source, graphic simplicity, compressed — one powerful image: ',
+  'Architecture and environment lead — subjects secondary to the space around them: ',
+  'Fashion editorial treatment — garments are the protagonist, bodies as canvas: '
+];
+var vC=['#e8a030','#f0a060','#38c8b8','#e05870','#3ec97a','#a07af0'];
+
+// ── Helpers ───────────────────────────────────────────────────
+function pick(a){return a[Math.floor(Math.random()*a.length)];}
+
+function getLightingForLoc(locVal){
+  if(!locVal) return LIGHTING_OPTIONS;
+  var t=(typeof LOC_TYPES!=='undefined')&&LOC_TYPES[locVal]||'both';
+  var OUT=typeof LIGHTING_OUTDOOR!=='undefined'?LIGHTING_OUTDOOR:LIGHTING_OPTIONS;
+  var IND=typeof LIGHTING_INDOOR!=='undefined'?LIGHTING_INDOOR:LIGHTING_OPTIONS;
+  if(t==='indoor') return IND;
+  if(t==='outdoor') return OUT;
+  var merged=[],seen={};
+  OUT.concat(IND).forEach(function(v){if(!seen[v]){seen[v]=1;merged.push(v);}});
+  return merged;
+}
+
+function translateTension(t){
+  if(!t) return null;
+  return (typeof TENSION_TRANSLATIONS!=='undefined'&&TENSION_TRANSLATIONS[t])||t;
+}
+
+function pickConn(w){
+  if(!w) return 'amid';
+  var pool=CONNECTORS&&CONNECTORS[w.id]||['amid','against','beside'];
+  if(S.tension){
+    var seed=S.tension.length+w.id.length;
+    return pool[seed%pool.length];
+  }
+  return pick(pool);
+}
+
+function getWorld(){return WORLDS.find(function(w){return w.id===S.world;});}
+
+function buildFixed(){
+  var subj=SUBJECTS.find(function(s){return s.value===S.subject;})||SUBJECTS[1];
+  return 'Create '+S.ratio+' '+subj.prefix+' \u2014';
+}
+
+function buildPromptString(){
+  if(!S.world) return null;
+  var w=getWorld();
+  var conn=pickConn(w);
+  var ten=S.tension?translateTension(S.tension):null;
+  var sentence='';
+  if(ten&&S.pose&&S.loc) sentence=ten+' \u2014 '+S.pose+' '+conn+' '+S.loc;
+  else if(ten&&S.pose) sentence=ten+', '+S.pose;
+  else if(ten&&S.loc) sentence=ten+' '+conn+' '+S.loc;
+  else if(S.pose&&S.loc) sentence=S.pose+' '+conn+' '+S.loc;
+  else if(ten) sentence=ten;
+  else if(S.pose) sentence=S.pose;
+  else if(S.loc) sentence=S.loc;
+  if(S.look) sentence+=', wearing '+S.look;
+  if(S.lighting) sentence+=', bathed in '+S.lighting;
+  var _w=getWorld();
+  if(S.era&&!(_w&&_w.promptPrefix)){
+    var e=ERAS&&ERAS.find(function(x){return x.label===S.era;});
+    if(e) sentence+=', '+e.tone+' aesthetic';
+  }
+  if(S.shot) sentence+='. Shot as: '+S.shot;
+  if(!sentence) return null;
+  var opening=(_w&&_w.promptPrefix)?buildFixed()+' '+_w.promptPrefix:buildFixed()+' ';
+  var moodNote='';
+  if(_w&&_w.promptSuffix){
+    moodNote=(S.tension?' The emotional tension \u2014 '+S.tension+' \u2014 is atmosphere only. Do not illustrate it literally. ':'')+_w.promptSuffix;
+  } else if(ten){
+    moodNote=' The emotional tension \u2014 '+S.tension+' \u2014 is atmosphere only. Do not illustrate it literally.';
+  }
+  return opening+sentence+'.'+moodNote;
+}
+
+// ── Random selection ──────────────────────────────────────────
+function randomize(){
+  // Pick world
+  var world=pick(WORLDS);
+  S.world=world.id;
+  // Pick tension
+  var tensions=world.tensions||[];
+  if(tensions.length) S.tension=pick(tensions);
+  // Pick loc, pose, look
+  if(world.locs&&world.locs.length) S.loc=pick(world.locs);
+  if(world.poses&&world.poses.length) S.pose=pick(world.poses);
+  if(world.looks&&world.looks.length) S.look=pick(world.looks);
+  // Pick lighting filtered by loc
+  if(Math.random()>.3){
+    var lpool=getLightingForLoc(S.loc);
+    S.lighting=pick(lpool);
+  } else { S.lighting=null; }
+  // Shot occasionally
+  if(Math.random()>.6&&SHOT_OPTIONS&&SHOT_OPTIONS.length){
+    S.shot=pick(SHOT_OPTIONS);
+  } else { S.shot=null; }
+  // Era occasionally
+  S.era=null;
+  if(Math.random()>.7&&ERAS&&ERAS.length){
+    S.era=pick(ERAS).label;
+  }
+}
+
+// ── Build variants ────────────────────────────────────────────
+function buildVariants(){
+  var w=getWorld();
+  var ten=S.tension?translateTension(S.tension):null;
+  var conn=pickConn(w);
+  var variants=[];
+
+  // Template functions — same 6 as main generator
+  var baseT={
+    tension:S.tension||null,
+    loc:S.loc||null,
+    pose:S.pose||null,
+    look:S.look||null,
+    lighting:S.lighting||null,
+    shot:S.shot||null,
+    era:null,
+    worldSub:w?w.sub.toLowerCase():'',
+    hasPrefix:!!(w&&w.promptPrefix)
+  };
+
+  for(var i=0;i<Math.min(TEMPLATES.length,6);i++){
+    var t=Object.assign({},baseT,{connector:conn});
+    var inner=TEMPLATES[i](t)
+      .replace(/^,\s*/,'').replace(/,\s*,/g,',').replace(/,\s*\./g,'.');
+    var vDir=(w&&w.promptPrefix)?'':VARIANT_DIRECTIVES[i];
+    var vOpening=(w&&w.promptPrefix)?buildFixed()+' '+w.promptPrefix:buildFixed()+' ';
+    var vMood='';
+    if(w&&w.promptSuffix){
+      vMood=(S.tension?' The emotional tension \u2014 '+S.tension+' \u2014 is atmosphere only. Do not illustrate it literally. ':'')+w.promptSuffix;
+    } else if(S.tension){
+      vMood=' The emotional tension \u2014 '+S.tension+' \u2014 is atmosphere only. Do not illustrate it literally.';
+    }
+    var full=vOpening+(vDir?vDir+inner:inner)+'.'+vMood;
+    var wc=inner.split(/\s+/).filter(Boolean).length;
+    variants.push({full:full,wc:wc,label:VARIANT_LABELS[i]});
+  }
+  return variants;
+}
+
+// ── Render variants ───────────────────────────────────────────
+function renderVariants(variants){
+  var el=document.getElementById('variants');
+  el.innerHTML='';
+  variants.forEach(function(v,i){
+    var card=document.createElement('div');
+    card.className='vcard';
+    card.style.borderLeftColor=vC[i]||vC[0];
+    card.innerHTML=(
+      '<div class="vcard-header">'+
+        '<span class="vlabel">'+v.label+'</span>'+
+        '<span class="vwc">'+v.wc+' words</span>'+
+      '</div>'+
+      '<div class="vtext">'+escHtml(v.full)+'</div>'+
+      '<div class="vcopy">'+
+        '<button class="btn-copy" onclick="copyVariant(this,'+JSON.stringify(v.full)+')">Copy</button>'+
+      '</div>'
+    );
+    el.appendChild(card);
+  });
+}
+
+function escHtml(s){
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function copyVariant(btn,text){
+  navigator.clipboard.writeText(text).then(function(){
+    btn.textContent='\u2713 Copied';
+    btn.classList.add('copied');
+    setTimeout(function(){btn.textContent='Copy';btn.classList.remove('copied');},1500);
+  });
+  if(navigator.vibrate) navigator.vibrate(6);
+}
+
+// ── Update world bar ──────────────────────────────────────────
+function updateWorldBar(){
+  var w=getWorld();
+  var dot=document.getElementById('wb-dot');
+  var nm=document.getElementById('wb-name');
+  var sb=document.getElementById('wb-sub');
+  var mark=document.getElementById('logo-mark');
+  if(w){
+    dot.style.background=w.color||'var(--gold)';
+    nm.textContent=w.name;
+    sb.textContent=w.sub||'';
+    if(mark){mark.style.color=w.color||'var(--gold)';}
+  }
+}
+
+// ── Main generate flow ────────────────────────────────────────
+function generate(){
+  document.getElementById('loading').style.display='flex';
+  document.getElementById('variants').style.display='none';
+  document.getElementById('regen-wrap').style.display='none';
+
+  // Small timeout so loading state renders before heavy work
+  setTimeout(function(){
+    randomize();
+    updateWorldBar();
+    var variants=buildVariants();
+    renderVariants(variants);
+    document.getElementById('loading').style.display='none';
+    document.getElementById('variants').style.display='flex';
+    document.getElementById('regen-wrap').style.display='flex';
+  }, 80);
+}
+
+// ── Boot ──────────────────────────────────────────────────────
+window.addEventListener('load', function(){
+  // Wait for data.js globals to be available
+  if(typeof WORLDS !== 'undefined' && WORLDS.length){
+    generate();
+  } else {
+    var tries=0;
+    var check=setInterval(function(){
+      tries++;
+      if(typeof WORLDS !== 'undefined' && WORLDS.length){
+        clearInterval(check);
+        generate();
+      }
+      if(tries>20) clearInterval(check);
+    },100);
+  }
+});
+</script>
+</body>
+</html>
