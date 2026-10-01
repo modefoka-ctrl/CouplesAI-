@@ -872,8 +872,9 @@ function buildPromptString(){
   if(S.lighting&&S.lighting!=='__ai__') sentence+=', bathed in '+S.lighting;
   else if(S.lighting==='__ai__') sentence+=', [AI: lighting]';
 
-  // Era as softest modifier
-  if(S.era){var e=ERAS.find(function(x){return x.label===S.era;});if(e)sentence+=', '+e.tone+' aesthetic';}
+  // Era suppressed for prefix worlds (they define their own era)
+  var _w=getWorld();
+  if(S.era&&!(_w&&_w.promptPrefix)){var e=ERAS.find(function(x){return x.label===S.era;});if(e)sentence+=', '+e.tone+' aesthetic';}
 
   // Shot type appended at END as composition directive (not before the scene)
   if(S.shot&&S.shot!=='__ai__') sentence+='. Shot as: '+S.shot;
@@ -1083,7 +1084,8 @@ function refineLocal(){
     lighting:S.lighting&&S.lighting!=='__ai__'?S.lighting:null,
     shot:S.shot&&S.shot!=='__ai__'?S.shot:null,
     era:eraD?eraD.tone:null,
-    worldSub:w?w.sub.toLowerCase():''
+    worldSub:w?w.sub.toLowerCase():'',
+    hasPrefix:!!(w&&w.promptPrefix)
   };
   if(eraD&&!baseT.look&&eraD.hint) baseT.look=eraD.hint;
   const VARIANT_LABELS=[
