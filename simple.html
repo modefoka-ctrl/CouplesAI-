@@ -164,10 +164,7 @@ html,body{background:var(--ink);color:var(--text);font-family:"Inter",sans-serif
 
 <script src="data.js"></script>
 <script>
-// ── State ─────────────────────────────────────────────────────
-var S = {world:null,tension:null,loc:null,pose:null,look:null,
-         era:null,lighting:null,shot:null,ratio:'4:5',subject:'couple'};
-var LOCKS = {world:false,tension:false,loc:false,pose:false,look:false,lighting:false};
+// S and LOCKS defined in data.js
 
 var VARIANT_LABELS=[
   'Variant 1 — Cinematic Scale',
@@ -188,7 +185,7 @@ const VARIANT_DIRECTIVES=[
 var vC=['#e8a030','#f0a060','#38c8b8','#e05870','#3ec97a','#a07af0'];
 
 // ── Helpers ───────────────────────────────────────────────────
-function pick(a){return a[Math.floor(Math.random()*a.length)];}
+// pick() defined in data.js
 
 function getLightingForLoc(locVal){
   if(!locVal) return LIGHTING_OPTIONS;
@@ -395,14 +392,14 @@ function generate(){
 window.addEventListener('load', function(){
   // Wait for data.js globals to be available
   if(typeof WORLDS !== 'undefined' && WORLDS.length){
-    generate();
+    S.ratio='4:5'; S.subject='couple'; generate();
   } else {
     var tries=0;
     var check=setInterval(function(){
       tries++;
       if(typeof WORLDS !== 'undefined' && WORLDS.length){
         clearInterval(check);
-        generate();
+        S.ratio='4:5'; S.subject='couple'; generate();
       }
       if(tries>20) clearInterval(check);
     },100);
