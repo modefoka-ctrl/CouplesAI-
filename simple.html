@@ -152,6 +152,21 @@ html,body{background:var(--ink);color:var(--text);font-family:"Inter",sans-serif
 </div>
 
 <main class="main">
+  <div class="intro" id="intro" style="display:none;margin-bottom:16px;background:var(--lift);border-radius:var(--r-lg);border:1px solid var(--rim);padding:14px 16px">
+    <div style="font-size:12px;color:var(--sub);line-height:1.7;margin-bottom:10px">
+      A random world, tension, location, pose and wardrobe are selected automatically.
+      Each variant is a different photographic strategy for the same scene.
+      Copy any prompt and paste it directly into your AI image generator.
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px">
+      <div style="font-size:10px;color:var(--mute);display:flex;align-items:center;gap:6px"><span style="width:10px;height:10px;border-radius:50%;background:#e8a030;flex-shrink:0;display:inline-block"></span>Cinematic Scale</div>
+      <div style="font-size:10px;color:var(--mute);display:flex;align-items:center;gap:6px"><span style="width:10px;height:10px;border-radius:50%;background:#f0a060;flex-shrink:0;display:inline-block"></span>Human Scale</div>
+      <div style="font-size:10px;color:var(--mute);display:flex;align-items:center;gap:6px"><span style="width:10px;height:10px;border-radius:50%;background:#38c8b8;flex-shrink:0;display:inline-block"></span>Intimacy</div>
+      <div style="font-size:10px;color:var(--mute);display:flex;align-items:center;gap:6px"><span style="width:10px;height:10px;border-radius:50%;background:#e05870;flex-shrink:0;display:inline-block"></span>Essential</div>
+      <div style="font-size:10px;color:var(--mute);display:flex;align-items:center;gap:6px"><span style="width:10px;height:10px;border-radius:50%;background:#3ec97a;flex-shrink:0;display:inline-block"></span>Location-Led</div>
+      <div style="font-size:10px;color:var(--mute);display:flex;align-items:center;gap:6px"><span style="width:10px;height:10px;border-radius:50%;background:#a07af0;flex-shrink:0;display:inline-block"></span>Wardrobe-Led</div>
+    </div>
+  </div>
   <div class="loading" id="loading">
     <div class="spin"></div>
     <div class="loading-text">Building your prompt...</div>
@@ -335,9 +350,10 @@ function renderVariants(variants){
       '</div>'+
       '<div class="vtext">'+escHtml(v.full)+'</div>'+
       '<div class="vcopy">'+
-        '<button class="btn-copy" onclick="copyVariant(this,'+JSON.stringify(v.full)+')">Copy</button>'+
+        '<button class="btn-copy" onclick="copyVariant(this)">Copy</button>'+
       '</div>'
     );
+    card.dataset.prompt=v.full;
     el.appendChild(card);
   });
 }
@@ -346,7 +362,10 @@ function escHtml(s){
   return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
 
-function copyVariant(btn,text){
+function copyVariant(btn){
+  var card=btn.closest('.vcard');
+  var text=card?card.dataset.prompt:'';
+  if(!text) return;
   navigator.clipboard.writeText(text).then(function(){
     btn.textContent='\u2713 Copied';
     btn.classList.add('copied');
@@ -385,6 +404,7 @@ function generate(){
     document.getElementById('loading').style.display='none';
     document.getElementById('variants').style.display='flex';
     document.getElementById('regen-wrap').style.display='flex';
+    document.getElementById('intro').style.display='block';
   }, 80);
 }
 
