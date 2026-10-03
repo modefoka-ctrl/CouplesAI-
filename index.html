@@ -391,7 +391,16 @@ footer a:hover{color:var(--gold)}
 .wb-sub{font-family:"Inter",sans-serif;font-size:10px;color:var(--mute);flex:1;min-width:0;
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .wb-change{margin-left:auto;font-size:10px;color:var(--mute);flex-shrink:0;transition:color var(--t)}
-.world-bar.empty .wb-name{font-family:"Inter",sans-serif;font-style:italic;font-size:11px;color:var(--mute)}</style>
+.world-bar.empty .wb-name{font-family:"Inter",sans-serif;font-style:italic;font-size:11px;color:var(--mute)}
+/* ── MODE TOGGLE ── */
+.mode-toggle{display:flex;align-items:center;background:var(--raise);
+  border-radius:20px;padding:3px;border:1px solid var(--rim);gap:2px}
+.mode-btn{padding:5px 14px;border-radius:16px;border:none;cursor:pointer;
+  font-family:"Inter",sans-serif;font-size:11px;font-weight:600;
+  letter-spacing:.04em;transition:all var(--t);color:var(--mute);
+  background:transparent;text-decoration:none;display:block}
+.mode-btn.active{background:var(--gold);color:var(--ink)}
+.mode-btn:hover:not(.active){color:var(--text)}</style>
 </head>
 <body>
 
@@ -466,11 +475,15 @@ footer a:hover{color:var(--gold)}
 </div>
 
 <!-- HEADER -->
-<header>
+<header class="hdr">
   <div class="logo">
     <span class="logo-mark" id="logo-mark">&#x2726;</span>
     CouplesAI
     <span class="logo-sub">Portrait Generator</span>
+  </div>
+  <div class="mode-toggle">
+    <a class="mode-btn" href="simple.html">Quick</a>
+    <span class="mode-btn active">Full</span>
   </div>
   <div class="hdr-btns">
     <button class="hdr-btn how" onclick="openHowTo()">
