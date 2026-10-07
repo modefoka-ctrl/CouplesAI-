@@ -229,7 +229,7 @@ function getWorld(){return WORLDS.find(function(w){return w.id===S.world;});}
 
 function buildFixed(){
   var subj=SUBJECTS.find(function(s){return s.value===S.subject;})||SUBJECTS[1];
-  return 'Create '+S.ratio+' '+subj.prefix+' \u2014';
+  return 'Create a '+S.ratio+' '+subj.prefix+' \u2014';
 }
 
 function buildPromptString(){
@@ -315,7 +315,7 @@ function buildVariants(){
   for(var i=0;i<Math.min(TEMPLATES.length,6);i++){
     var t=Object.assign({},baseT,{connector:conn});
     var inner=TEMPLATES[i](t)
-      .replace(/^,\s*/,'').replace(/,\s*,/g,',').replace(/,\s*\./g,'.');
+      .replace(/^,\s*/,'').replace(/,\s*,/g,',').replace(/,\s*\./g,'.').replace(/\.$/,'');
     var vDir=(w&&w.promptPrefix)?'':VARIANT_DIRECTIVES[i];
     var vOpening=(w&&w.promptPrefix)?buildFixed()+' '+w.promptPrefix:buildFixed()+' ';
     var vMood='';
