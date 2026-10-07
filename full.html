@@ -885,9 +885,11 @@ function buildPromptString(){
   if(S.look&&S.look!=='__ai__') sentence+=', wearing '+S.look;
   else if(S.look==='__ai__') sentence+=', [AI: wardrobe]';
 
-  // Lighting as atmospheric clause
-  if(S.lighting&&S.lighting!=='__ai__') sentence+=', bathed in '+S.lighting;
-  else if(S.lighting==='__ai__') sentence+=', [AI: lighting]';
+  // Lighting suppressed for prefix worlds
+  if(!(_w&&_w.promptPrefix)){
+    if(S.lighting&&S.lighting!=='__ai__') sentence+=', bathed in '+S.lighting;
+    else if(S.lighting==='__ai__') sentence+=', [AI: lighting]';
+  }
 
   // Era suppressed for prefix worlds (they define their own era)
   var _w=getWorld();
@@ -1128,7 +1130,7 @@ function refineLocal(){
     const conn=connectors[i%connectors.length];
     const t={...baseT,connector:conn};
     // Pure scene content — no directive baked in
-    const inner=TEMPLATES[i](t).replace(/^,\s*/,'').replace(/,\s*,/g,',').replace(/,\s*\./g,'.');
+    const inner=TEMPLATES[i](t).replace(/^,\s*/,'').replace(/,\s*,/g,',').replace(/,\s*\./g,'.').replace(/\.$/,'');
     // World-specific opening (ratio+subject + world style if prefix exists)
     var vOpening=(w&&w.promptPrefix)?buildFixed()+' '+w.promptPrefix:buildFixed()+' ';
     // Directive: skip for worlds with promptPrefix (they already define visual style)
