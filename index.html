@@ -172,6 +172,46 @@ html,body{background:var(--ink);color:var(--text);font-family:"Inter",sans-serif
 }
 .btn-regen:hover{transform:translateY(-1px);box-shadow:0 6px 28px rgba(232,160,48,.35)}
 .btn-regen:active{transform:translateY(0)}
+
+.vpreview{margin:0 14px 12px;display:none}
+.thumb-wrap{
+  position:relative;width:72px;height:90px;border-radius:8px;overflow:hidden;
+  cursor:pointer;background:var(--raise);border:1px solid var(--rim);
+  display:inline-flex;align-items:center;justify-content:center;
+}
+.thumb-wrap img{width:100%;height:100%;object-fit:cover;display:block}
+.thumb-wrap:hover img{opacity:.85}
+.thumb-spinner{display:flex;align-items:center;justify-content:center;
+  position:absolute;inset:0;background:var(--raise)}
+.thumb-spin{width:18px;height:18px;border-radius:50%;
+  border:2px solid var(--rim2);border-top-color:var(--gold);
+  animation:spin 1s linear infinite}
+.thumb-expand{position:absolute;bottom:3px;right:3px;font-size:9px;
+  color:var(--sub);background:rgba(14,12,20,.7);border-radius:3px;padding:1px 3px}
+.btn-preview{height:30px;padding:0 12px;border-radius:15px;
+  border:1px solid var(--rim2);background:transparent;color:var(--sub);
+  font-size:10px;font-weight:600;letter-spacing:.04em;cursor:pointer;
+  font-family:"Inter",sans-serif;transition:all var(--t);white-space:nowrap}
+.btn-preview:hover{border-color:var(--gold);color:var(--gold)}
+.btn-preview.loading{opacity:.5;pointer-events:none}
+.btn-preview.done{border-color:var(--green);color:var(--green)}
+.vcopy{display:flex;align-items:center;justify-content:flex-end;gap:8px;
+  padding:8px 14px 12px;border-top:1px solid var(--rim)}
+.lightbox{display:none;position:fixed;inset:0;z-index:1000;
+  background:rgba(14,12,20,.92);align-items:center;justify-content:center;
+  padding:20px;cursor:pointer;backdrop-filter:blur(8px)}
+.lightbox.open{display:flex}
+.lightbox img{max-width:min(480px,calc(100vw - 40px));
+  max-height:calc(100vh - 80px);border-radius:12px;
+  box-shadow:0 20px 60px rgba(0,0,0,.8);cursor:default}
+.lightbox-close{position:fixed;top:16px;right:16px;width:36px;height:36px;
+  border-radius:50%;background:var(--raise);border:1px solid var(--rim2);
+  color:var(--text);font-size:18px;display:flex;align-items:center;
+  justify-content:center;cursor:pointer;transition:all var(--t)}
+.lightbox-close:hover{background:var(--rose);border-color:var(--rose)}
+.lightbox-cap{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);
+  font-size:10px;color:var(--mute);letter-spacing:.06em;text-transform:uppercase;
+  pointer-events:none}
 </style>
 </head>
 <body>
@@ -389,11 +429,19 @@ function renderVariants(variants){
         '<span class="vwc">'+v.wc+' words</span>'+
       '</div>'+
       '<div class="vtext">'+escHtml(v.full)+'</div>'+
+      '<div class="vpreview" id="vpreview-'+i+'">'+
+        '<div class="thumb-wrap" id="thumb-'+i+'" onclick="openLightbox('+i+')">'+
+          '<div class="thumb-spinner"><div class="thumb-spin"></div></div>'+
+          '<div class="thumb-expand">⛶</div>'+
+        '</div>'+
+      '</div>'+
       '<div class="vcopy">'+
+        '<button class="btn-preview" id="bprev-'+i+'" onclick="generatePreview('+i+')"> Preview</button>'+
         '<button class="btn-copy" onclick="copyVariant(this)">Copy</button>'+
       '</div>'
     );
     card.dataset.prompt=v.full;
+    card.dataset.idx=String(i);
     el.appendChild(card);
   });
 }
@@ -465,7 +513,57 @@ window.addEventListener('load', function(){
     },100);
   }
 });
+
+// ── Pollinations preview ──────────────────────────────────────
+var _prev={};
+function generatePreview(idx){
+  var card=document.querySelector('[data-idx="'+idx+'"]');
+  if(!card) return;
+  var prompt=card.dataset.prompt||'';
+  if(!prompt) return;
+  var btn=document.getElementById('bprev-'+idx);
+  var panel=document.getElementById('vpreview-'+idx);
+  btn.classList.add('loading');
+  btn.textContent='... Generating';
+  panel.style.display='block';
+  var p=prompt.split('. The emotional tension')[0]
+    .split('. Render ')[0].split('. Colour grade')[0]
+    .split('. This is a controlled')[0]
+    .replace(/Create a [0-9:]+/,'').trim();
+  var url='https://image.pollinations.ai/prompt/'+encodeURIComponent(p)
+    +'?width=512&height=640&nologo=true&seed='+Math.floor(Math.random()*99999);
+  _prev[idx]=url;
+  var img=new Image();
+  img.onload=function(){
+    var wrap=document.getElementById('thumb-'+idx);
+    if(wrap){wrap.innerHTML='<img src="'+url+'" alt="preview"><div class="thumb-expand">⛶</div>';}
+    btn.classList.remove('loading');btn.classList.add('done');btn.textContent=' Preview';
+  };
+  img.onerror=function(){
+    btn.classList.remove('loading');btn.textContent=' Retry';
+  };
+  img.src=url;
+}
+function openLightbox(idx){
+  var url=_prev[idx];if(!url)return;
+  var full=url.replace('width=512','width=1024').replace('height=640','height=1280');
+  document.getElementById('lightbox-img').src=full;
+  document.getElementById('lightbox').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function closeLightbox(e){
+  if(e&&e.target&&e.target.id==='lightbox-img')return;
+  document.getElementById('lightbox').classList.remove('open');
+  document.getElementById('lightbox-img').src='';
+  document.body.style.overflow='';
+}
+document.addEventListener('keydown',function(e){if(e.key==='Escape')closeLightbox();});
 </script>
+<div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+  <div class="lightbox-close" onclick="closeLightbox()">&#x2715;</div>
+  <img id="lightbox-img" src="" alt="AI preview">
+  <div class="lightbox-cap">Pollinations.ai &middot; tap to close</div>
+</div>
 <!-- Buy Me a Coffee Widget -->
 <script data-name="BMC-Widget" data-cfasync="false"
   src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
