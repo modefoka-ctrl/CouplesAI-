@@ -442,6 +442,11 @@ function renderVariants(variants){
     );
     card.dataset.prompt=v.full;
     card.dataset.idx=String(i);
+    // Build clean image prompt: directive + scene only, no reference image instruction
+    var imgPrompt = (vDir||'') + inner
+      + (S.loc ? '' : '')
+      + (w && w.promptSuffix ? '. ' + w.promptSuffix.split('.')[0] : '');
+    card.dataset.imgPrompt=imgPrompt;
     el.appendChild(card);
   });
 }
@@ -526,10 +531,19 @@ function generatePreview(idx){
   btn.classList.add('loading');
   btn.textContent='... Generating';
   panel.style.display='block';
-  var p=prompt.split('. The emotional tension')[0]
-    .split('. Render ')[0].split('. Colour grade')[0]
-    .split('. This is a controlled')[0]
-    .replace(/Create a [0-9:]+/,'').trim();
+  // Use dedicated image prompt (includes variant directive + scene, no reference image text)
+  var imgP=card.dataset.imgPrompt||'';
+  if(!imgP){
+    imgP=prompt.split('. The emotional tension')[0]
+      .split('. Render ')[0].split('. Colour grade')[0]
+      .split('. This is a controlled')[0];
+  }
+  // Strip the 'in the provided image keeping their facial features exactly the same' instruction
+  var p=imgP
+    .replace(/portrait of the couple in the provided image keeping their facial features exactly the same/gi,'cinematic couple portrait')
+    .replace(/portrait of the person in the provided image keeping their facial features exactly the same/gi,'cinematic portrait')
+    .replace(/Create a [\d:]+\s*/gi,'')
+    .trim();
   var url='https://image.pollinations.ai/prompt/'+encodeURIComponent(p)
     +'?width=512&height=640&nologo=true&seed='+Math.floor(Math.random()*99999);
   _prev[idx]=url;
