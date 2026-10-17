@@ -410,7 +410,8 @@ function buildVariants(){
     }
     var full=vOpening+(vDir?vDir+inner:inner)+'.'+vMood;
     var wc=inner.split(/\s+/).filter(Boolean).length;
-    variants.push({full:full,wc:wc,label:VARIANT_LABELS[i]});
+    var imgPrompt=(vDir||'')+inner;
+    variants.push({full:full,wc:wc,label:VARIANT_LABELS[i],imgPrompt:imgPrompt});
   }
   return variants;
 }
@@ -442,11 +443,7 @@ function renderVariants(variants){
     );
     card.dataset.prompt=v.full;
     card.dataset.idx=String(i);
-    // Build clean image prompt: directive + scene only, no reference image instruction
-    var imgPrompt = (vDir||'') + inner
-      + (S.loc ? '' : '')
-      + (w && w.promptSuffix ? '. ' + w.promptSuffix.split('.')[0] : '');
-    card.dataset.imgPrompt=imgPrompt;
+    card.dataset.imgPrompt=v.imgPrompt||'';
     el.appendChild(card);
   });
 }
