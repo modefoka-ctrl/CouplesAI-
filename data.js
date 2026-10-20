@@ -31670,7 +31670,11 @@ const WORLDS = [
       "gas station night rural isolated",
       "lighthouse beam night fog",
       "bowling alley at night empty",
-      "roadside motel neon sign night"
+      "roadside motel neon sign night",
+      "alien mothership interior command deck retro blinking",
+      "bowling alley night creature in shadows 1950s",
+      "high school gymnasium prom night monster gate-crashes",
+      "giant spider web forest clearing victims wrapped"
     ],
     "poses": [
       "both frozen looking at something off-frame in horror",
