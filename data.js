@@ -14538,631 +14538,170 @@ const WORLDS = [
   {
     "id": "art",
     "name": "THE ART",
-    "sub": "Illustration & Painting Styles",
-    "color": "#cc7744",
+    "sub": "Masters, Movements & Visual Language",
+    "color": "#7a5c2e",
     "tensions": [
-      "caricature vs. portrait",
-      "illustration vs. photograph",
-      "watercolor wash vs. oil precision",
-      "line vs. color",
-      "sketch vs. finished",
-      "abstract vs. realistic",
-      "bold stroke vs. fine detail",
-      "flat color vs. depth",
-      "graphic novel vs. fine art",
-      "character vs. likeness",
-      "exaggerated vs. restrained",
-      "painted vs. drawn",
-      "monochrome vs. vivid",
-      "impressionist vs. exact",
-      "pop art vs. classical",
-      "editorial vs. gallery",
-      "comic vs. serious",
-      "brushwork vs. pencil",
-      "saturated vs. muted palette",
-      "spontaneous vs. deliberate"
-    ],
-    "locs": [
-      "artist studio with skylight afternoon",
-      "blank canvas before first stroke",
-      "watercolour wash drying table",
-      "life drawing class empty",
-      "white cube gallery installation",
-      "Tate Modern Turbine Hall London",
-      "Turbine Hall vast floor looking up",
-      "National Gallery London grand stair",
-      "Royal Academy London courtyard",
-      "Serpentine Pavilion exterior",
-      "Hayward Gallery concrete London",
-      "MoMA atrium New York",
-      "Whitney Museum terrace New York",
-      "Guggenheim spiral New York",
-      "Met Roof Garden New York",
-      "Pace Gallery New York white",
-      "Chelsea gallery white New York",
-      "Centre Pompidou escalator exterior Paris",
-      "Louvre Pyramid interior glass",
-      "Musée d'Orsay clock window",
-      "Fondation Louis Vuitton hull Paris",
-      "Palais de Tokyo raw space Paris",
-      "Fondation Cartier exterior Paris",
-      "Uffizi courtyard Florence",
-      "Galleria Borghese garden Rome",
-      "MAXXI Rome interior",
-      "Palazzo Grassi Venice",
-      "Punta della Dogana Venice",
-      "Biennale Giardini pavilion",
-      "Städel Museum Frankfurt",
-      "Pinakothek Munich white room",
-      "Documenta Kassel site",
-      "Hamburger Bahnhof Berlin industrial",
-      "KW Institute Berlin raw",
-      "Hamburger Kunsthalle",
-      "Rijksmuseum Amsterdam hall",
-      "Stedelijk Museum Amsterdam",
-      "Eye Film Museum Amsterdam",
-      "Guggenheim Bilbao titanium exterior",
-      "MACBA Barcelona terrace",
-      "Reina Sofia Madrid",
-      "Serralves Porto garden",
-      "Moderna Museet Stockholm island",
-      "Kiasma Helsinki interior",
-      "Ateneum Helsinki stair",
-      "Louisiana Museum Denmark sea view",
-      "Arken Museum Denmark"
-    ],
-    "poses": [
-      "one painting portrait of the other sitting still",
-      "both studying same canvas close different reactions",
-      "one sketching other who holds still posing",
-      "both posing exaggerated mimicking artwork",
-      "one applying brushstroke other watches critically",
-      "both examining brushwork with loupe",
-      "back-to-back each studying different artwork",
-      "one mixing palette other checks reference",
-      "both lying on gallery floor looking at ceiling installation",
-      "face-to-face in debate about artwork",
-      "one on ladder other handing materials",
-      "both surrounded by sculpture looking up",
-      "one photographing artwork other blocks the frame",
-      "both sitting in contemplation same work",
-      "one recreating pose of sculpture other photos",
-      "drawing each other simultaneously",
-      "both at life drawing easels",
-      "one critiquing other's work honest face",
-      "both washing brushes together at sink",
-      "one framing other's face studying composition",
-      "both at gallery opening glasses in hand looking at work",
-      "looking through sketchbook together",
-      "one holding colour swatch to other's face",
-      "both at print press pulling proof",
-      "one clay-covered other handing tools",
-      "both at camera obscura watching image",
-      "examining etching plate together magnified",
-      "one screen-printing other checks registration",
-      "both at loom weaving together",
-      "both at printmaking bench rolling ink",
-      "face reflected in highly polished sculpture both",
-      "one casting plaster of other's hand",
-      "both sorting through slides on lightbox",
-      "examining large-format photo together",
-      "one stretching canvas other checks tension",
-      "both at drawing table planning large work",
-      "sitting in gallery doorway between shows both",
-      "one photographing installation other in it",
-      "both reading artist statement questioning",
-      "one measuring for hanging other notes",
-      "both looking up at enormous sculpture towering",
-      "one gesturing explaining other listening intently"
-    ],
-    "looks": [
-      "paint-splattered smock open linen shirt each",
-      "ink-stained linen shirt rolled sleeves both",
-      "artist overalls tee each practical",
-      "watercolour-stained hands minimal outfit both",
-      "charcoal-dusted studio tee and trousers both",
-      "gallery-opening smart casual both",
-      "art school cool layered both",
-      "creative professional smart-casual each",
-      "printed shirt gallery trousers each",
-      "all-black gallery professional both",
-      "linen wide trouser fitted top both",
-      "raw denim and interesting shirt each",
-      "silk shirt wide trousers both artist",
-      "creative layers interesting each",
-      "minimalist gallery black white both",
-      "artsy mixed-print combination both",
-      "sculptors cotton overall tee boots each",
-      "printmaker apron jeans each",
-      "gallery director sharp clean each",
-      "ceramicist clay-adjacent practical both",
-      "bold colour-block outfit both editorial",
-      "deconstructed suit both creative",
-      "conceptual fashion both wearable art",
-      "natural undyed fabric both",
-      "repaired and re-dyed fabric both",
-      "vintage creative find each",
-      "found-object jewellery minimal outfit both",
-      "deliberately unfinished aesthetic both",
-      "paint-covered jeans clean shirt ironic mix both",
-      "architectural fashion both interesting",
-      "oversized art-school knit both",
-      "cotton tee with visible mend each",
-      "slogan tee about art and jeans each",
-      "natural linen suit both gallery",
-      "handmade garment both visible craft",
-      "artist collective uniform both matching",
-      "fashion school graduate piece each worn",
-      "reclaimed fabric garment both",
-      "photographic print on fabric both",
-      "collaboration piece garment both",
-      "zero-waste fashion garment both",
-      "slow fashion carefully considered both"
+      "classical vs. modern",
+      "realism vs. abstraction",
+      "the subject vs. the style",
+      "beauty vs. truth",
+      "the portrait vs. the painting",
+      "light vs. shadow",
+      "form vs. feeling",
+      "the visible vs. the implied",
+      "flesh vs. paint",
+      "the sitter vs. the artist's vision",
+      "intimate vs. monumental",
+      "tender vs. brutal",
+      "colour vs. line",
+      "the moment vs. the eternal",
+      "raw vs. refined",
+      "the face vs. the mask",
+      "observed vs. invented",
+      "still vs. movement",
+      "the body vs. the soul",
+      "past vs. present tense"
     ],
     "affinities": {
-      "caricature vs. portrait": {
+      "classical vs. modern": {
         "locs": [
-          "caricature booth boardwalk",
-          "portrait painter studio chair",
-          "life drawing class empty",
-          "art gallery white wall hung",
-          "figure drawing open session"
+          "Velázquez royal court portrait deep shadow warm",
+          "Picasso cubist fractured planes bold colour",
+          "Rembrandt Dutch Golden Age chiaroscuro"
         ],
         "poses": [
-          "one doing caricature of other close",
-          "caricature exaggeration both laughing",
-          "oil portrait sitting formal ironic",
-          "one painting portrait of the other",
-          "both posing exaggerated caricature style"
+          "both in formal court portrait Velázquez composition",
+          "both fragmented cubist multiple viewpoints Picasso"
         ],
         "looks": [
-          "caricature booth bright color set",
-          "portrait painter formal apron",
-          "caricature-bold color block outfit",
-          "oil paint smock open collar",
-          "life drawing tutor linen open"
+          "17th century Spanish court dress formal Velázquez",
+          "deconstructed cubist shapes Picasso each"
         ]
       },
-      "illustration vs. photograph": {
+      "light vs. shadow": {
         "locs": [
-          "illustration desk lamp lit",
-          "photography studio backdrop",
-          "editorial illustration desk",
-          "comic art studio panels pinned",
-          "photo darkroom enlarger glow"
+          "Rembrandt Dutch Golden Age chiaroscuro warm amber",
+          "Caravaggio dramatic tenebrism darkness single light",
+          "Goya dark period black paint expressive"
         ],
         "poses": [
-          "one painting portrait of the other",
-          "one photographing other for reference",
-          "both making editorial illustration pose",
-          "one inking other's sketch lines",
-          "both making editorial illustration pose"
+          "both Rembrandt lit from single source amber glow",
+          "both Caravaggio emerged from absolute darkness"
         ],
         "looks": [
-          "illustration-flat color simple set",
-          "photo studio minimal all-black",
-          "editorial illustrator minimal black",
-          "graphic tee dark jeans minimal",
-          "illustration studio clean minimal"
-        ]
-      },
-      "watercolor wash vs. oil precision": {
-        "locs": [
-          "watercolor wash drying table",
-          "oil painting studio easel",
-          "watercolor paper wet table",
-          "open air plein air hillside",
-          "old master copy museum easel"
-        ],
-        "poses": [
-          "one splashing watercolor other's canvas",
-          "one watercolor wash other holds paper",
-          "watercolor wash pose soft diffused",
-          "oil portrait sitting formal ironic",
-          "one applying brushstroke other watching"
-        ],
-        "looks": [
-          "watercolor pigment-stained hands minimal",
-          "oil paint smock open collar",
-          "watercolor artist linen layers",
-          "paint-splattered smock open",
-          "old master copy formal minimal"
-        ]
-      },
-      "line vs. color": {
-        "locs": [
-          "illustration desk lamp lit",
-          "charcoal life drawing corner",
-          "lettering artist bench",
-          "graphic novel storyboard room",
-          "silkscreen print studio"
-        ],
-        "poses": [
-          "one inking other's sketch lines",
-          "one charcoal sketch other watches",
-          "both looking at color swatch together",
-          "screen print flat pop pose",
-          "bold graphic novel silhouette pose"
-        ],
-        "looks": [
-          "ink-stained linen shirt",
-          "charcoal-dusted studio tee",
-          "graphic tee dark jeans minimal",
-          "printmaker ink-stained set",
-          "lettering artist minimal ink-stained"
-        ]
-      },
-      "sketch vs. finished": {
-        "locs": [
-          "artist studio with skylight",
-          "blank canvas before first stroke",
-          "charcoal life drawing corner",
-          "art school critique wall",
-          "figure drawing open session"
-        ],
-        "poses": [
-          "one sketching other who holds still",
-          "gesture drawing quick loose pose",
-          "one drawing other from life",
-          "both studying same canvas close",
-          "both examining same illustration detail"
-        ],
-        "looks": [
-          "charcoal-dusted studio tee",
-          "paint-splattered smock open",
-          "art school critique casual layers",
-          "artist overalls short sleeve tee",
-          "charcoal artist dark smock"
-        ]
-      },
-      "abstract vs. realistic": {
-        "locs": [
-          "art gallery white wall hung",
-          "oil painting studio easel",
-          "open air plein air hillside",
-          "art residency barn studio",
-          "museum conservation lab"
-        ],
-        "poses": [
-          "one applying brushstroke other watching",
-          "impressionist blur pose soft focus",
-          "standing beside finished portrait",
-          "both arms out bold illustration style",
-          "both studying same canvas close"
-        ],
-        "looks": [
-          "paint-splattered smock open",
-          "oil paint smock open collar",
-          "art residency casual worn layers",
-          "artist overalls short sleeve tee",
-          "gallery opening smart casual"
-        ]
-      },
-      "bold stroke vs. fine detail": {
-        "locs": [
-          "street mural scaffold wall",
-          "street mural scaffold wall",
-          "botanical illustration table",
-          "medieval illumination room",
-          "muralist scaffold city wall"
-        ],
-        "poses": [
-          "one painting mural other watching",
-          "botanical illustration holding specimen",
-          "bold graphic novel silhouette pose",
-          "one applying brushstroke other watching",
-          "one mosaic tile laying other watching"
-        ],
-        "looks": [
-          "mural painter grunge layers",
-          "botanical illustrator soft natural tones",
-          "street art dark hoodie spray cap",
-          "artist overalls short sleeve tee",
-          "paint-splattered smock open"
-        ]
-      },
-      "flat color vs. depth": {
-        "locs": [
-          "silkscreen print studio",
-          "graphic novel storyboard room",
-          "vintage poster print shop",
-          "comic art studio panels pinned",
-          "animation desk lightbox"
-        ],
-        "poses": [
-          "screen print flat pop pose",
-          "comic panel freeze frame pose",
-          "bold graphic novel silhouette pose",
-          "vintage poster graphic double pose",
-          "animation keyframe freeze pose"
-        ],
-        "looks": [
-          "silkscreen bright color work set",
-          "graphic tee dark jeans minimal",
-          "comic artist casual graphic tee",
-          "illustration-flat color simple set",
-          "caricature-bold color block outfit"
-        ]
-      },
-      "graphic novel vs. fine art": {
-        "locs": [
-          "comic art studio panels pinned",
-          "graphic novel storyboard room",
-          "art gallery white wall hung",
-          "old master copy museum easel",
-          "comic convention artist alley"
-        ],
-        "poses": [
-          "reading graphic novel side by side",
-          "comic panel freeze frame pose",
-          "two characters mid-story scene",
-          "bold graphic novel silhouette pose",
-          "oil portrait sitting formal ironic"
-        ],
-        "looks": [
-          "comic artist casual graphic tee",
-          "graphic novel creator dark casual",
-          "graphic tee dark jeans minimal",
-          "old master copy formal minimal",
-          "gallery opening smart casual"
-        ]
-      },
-      "character vs. likeness": {
-        "locs": [
-          "caricature booth boardwalk",
-          "portrait painter studio chair",
-          "animation desk lightbox",
-          "children's book studio cozy",
-          "concept art digital studio"
-        ],
-        "poses": [
-          "both posing exaggerated caricature style",
-          "one doing caricature of other close",
-          "caricature exaggeration both laughing",
-          "animation keyframe freeze pose",
-          "one painting portrait of the other"
-        ],
-        "looks": [
-          "caricature-bold color block outfit",
-          "caricature booth bright color set",
-          "animation desk casual hoodie",
-          "children's book artist soft casual",
-          "portrait painter formal apron"
-        ]
-      },
-      "exaggerated vs. restrained": {
-        "locs": [
-          "caricature booth boardwalk",
-          "editorial illustration desk",
-          "comic convention artist alley",
-          "art gallery white wall hung",
-          "art gallery white wall hung"
-        ],
-        "poses": [
-          "caricature exaggeration both laughing",
-          "both posing exaggerated caricature style",
-          "both making editorial illustration pose",
-          "both making editorial illustration pose",
-          "oil portrait sitting formal ironic"
-        ],
-        "looks": [
-          "caricature-bold color block outfit",
-          "caricature booth bright color set",
-          "editorial illustrator minimal black",
-          "gallery opening smart casual",
-          "comic convention bright casual"
-        ]
-      },
-      "painted vs. drawn": {
-        "locs": [
-          "oil painting studio easel",
-          "charcoal life drawing corner",
-          "watercolor wash drying table",
-          "illustration desk lamp lit",
-          "portrait painter studio chair"
-        ],
-        "poses": [
-          "one painting portrait of the other",
-          "one charcoal sketch other watches",
-          "one sketching other who holds still",
-          "one drawing other from life",
-          "oil portrait sitting formal ironic"
-        ],
-        "looks": [
-          "oil paint smock open collar",
-          "charcoal-dusted studio tee",
-          "ink-stained linen shirt",
-          "watercolor artist linen layers",
-          "paint-splattered smock open"
-        ]
-      },
-      "monochrome vs. vivid": {
-        "locs": [
-          "charcoal life drawing corner",
-          "silkscreen print studio",
-          "photo darkroom enlarger glow",
-          "vintage poster print shop",
-          "stencil artist urban wall"
-        ],
-        "poses": [
-          "one charcoal sketch other watches",
-          "screen print flat pop pose",
-          "both silhouetted illustration style",
-          "one spraying stencil other beside",
-          "vintage poster graphic double pose"
-        ],
-        "looks": [
-          "charcoal-dusted studio tee",
-          "charcoal artist dark smock",
-          "photo studio minimal all-black",
-          "silkscreen bright color work set",
-          "caricature-bold color block outfit"
-        ]
-      },
-      "impressionist vs. exact": {
-        "locs": [
-          "open air plein air hillside",
-          "oil painting studio easel",
-          "watercolor wash drying table",
-          "old master copy museum easel",
-          "art gallery white wall hung"
-        ],
-        "poses": [
-          "impressionist blur pose soft focus",
-          "watercolor wash pose soft diffused",
-          "one applying brushstroke other watching",
-          "oil portrait sitting formal ironic",
-          "both studying same canvas close"
-        ],
-        "looks": [
-          "watercolor artist linen layers",
-          "oil paint smock open collar",
-          "paint-splattered smock open",
-          "old master copy formal minimal",
-          "artist overalls short sleeve tee"
-        ]
-      },
-      "pop art vs. classical": {
-        "locs": [
-          "silkscreen print studio",
-          "old master copy museum easel",
-          "vintage poster print shop",
-          "art gallery white wall hung",
-          "comic convention artist alley"
-        ],
-        "poses": [
-          "screen print flat pop pose",
-          "oil portrait sitting formal ironic",
-          "vintage poster graphic double pose",
-          "bold graphic novel silhouette pose",
-          "comic panel freeze frame pose"
-        ],
-        "looks": [
-          "silkscreen bright color work set",
-          "caricature-bold color block outfit",
-          "old master copy formal minimal",
-          "gallery opening smart casual",
-          "comic artist casual graphic tee"
-        ]
-      },
-      "editorial vs. gallery": {
-        "locs": [
-          "editorial illustration desk",
-          "art gallery white wall hung",
-          "art fair outdoor booth",
-          "museum conservation lab",
-          "art book library reading room"
-        ],
-        "poses": [
-          "both making editorial illustration pose",
-          "standing beside finished portrait",
-          "both studying same canvas close",
-          "both examining same illustration detail",
-          "one painting portrait of the other"
-        ],
-        "looks": [
-          "editorial illustrator minimal black",
-          "gallery opening smart casual",
-          "art fair casual creative layers",
-          "museum conservator lab coat open",
-          "illustration studio clean minimal"
-        ]
-      },
-      "comic vs. serious": {
-        "locs": [
-          "comic art studio panels pinned",
-          "comic convention artist alley",
-          "graphic novel storyboard room",
-          "art gallery white wall hung",
-          "portrait painter studio chair"
-        ],
-        "poses": [
-          "comic panel freeze frame pose",
-          "caricature exaggeration both laughing",
-          "two characters mid-story scene",
-          "oil portrait sitting formal ironic",
-          "reading graphic novel side by side"
-        ],
-        "looks": [
-          "comic artist casual graphic tee",
-          "comic convention bright casual",
-          "graphic novel creator dark casual",
-          "graphic tee dark jeans minimal",
-          "portrait painter formal apron"
-        ]
-      },
-      "brushwork vs. pencil": {
-        "locs": [
-          "oil painting studio easel",
-          "charcoal life drawing corner",
-          "illustration desk lamp lit",
-          "watercolor paper wet table",
-          "artist studio with skylight"
-        ],
-        "poses": [
-          "one applying brushstroke other watching",
-          "one charcoal sketch other watches",
-          "one sketching other who holds still",
-          "gesture drawing quick loose pose",
-          "one inking other's sketch lines"
-        ],
-        "looks": [
-          "paint-splattered smock open",
-          "charcoal-dusted studio tee",
-          "ink-stained linen shirt",
-          "oil paint smock open collar",
-          "artist overalls short sleeve tee"
-        ]
-      },
-      "saturated vs. muted palette": {
-        "locs": [
-          "watercolor wash drying table",
-          "pastel studio dusty light",
-          "watercolor paper wet table",
-          "art residency barn studio",
-          "open air plein air hillside"
-        ],
-        "poses": [
-          "watercolor wash pose soft diffused",
-          "one pastel drawing other posed",
-          "both looking at color swatch together",
-          "impressionist blur pose soft focus",
-          "one splashing watercolor other's canvas"
-        ],
-        "looks": [
-          "watercolor artist linen layers",
-          "pastel artist soft dusty set",
-          "watercolor pigment-stained hands minimal",
-          "pastel-tone casual artist set",
-          "art residency casual worn layers"
-        ]
-      },
-      "spontaneous vs. deliberate": {
-        "locs": [
-          "street mural scaffold wall",
-          "blank canvas before first stroke",
-          "graffiti wall night spray",
-          "art residency barn studio",
-          "stencil artist urban wall"
-        ],
-        "poses": [
-          "one spraying stencil other beside",
-          "one painting mural other watching",
-          "gesture drawing quick loose pose",
-          "both covered in paint laughing",
-          "one splashing watercolor other's canvas"
-        ],
-        "looks": [
-          "graffiti artist dark layers cap",
-          "mural painter grunge layers",
-          "stencil artist dark minimal",
-          "street art dark hoodie spray cap",
-          "paint-splattered smock open"
+          "Dutch Golden Age formal dress dark Rembrandt each",
+          "Spanish baroque formal Goya court each"
         ]
       }
     },
-    "promptPrefix": "Contemporary fine art photography, museum or gallery quality, conceptually driven — ",
-    "promptSuffix": "Render as a serious fine art photograph: the image should have a clear conceptual or emotional intention, not merely document a scene. The quality and intentionality should read as gallery-worthy."
+    "locs": [
+      "Rembrandt Dutch Golden Age chiaroscuro warm amber light",
+      "Caravaggio tenebrism absolute darkness single candle source",
+      "Velázquez Spanish royal court portrait deep atmospheric shadow",
+      "Goya dark period black paint raw expressive ground",
+      "Vermeer domestic interior window light soft pearl",
+      "Rubens Flemish baroque rich colour monumental composition",
+      "El Greco elongated figures spiritual light Spanish",
+      "Titian Venetian Renaissance warm glowing flesh tones",
+      "Holbein Tudor court portrait flat precise detail",
+      "Van Eyck Flemish primitive jewelled precise miniature detail",
+      "Poussin French classical mythological landscape",
+      "Watteau French Rococo pastoral idyll soft colour",
+      "Ingres neoclassical cool precise academic French",
+      "Delacroix Romantic movement colour and passion",
+      "Gauguin Tahiti flat saturated colour bold outline",
+      "Toulouse-Lautrec Montmartre cabaret flat graphic line",
+      "Degas pastel movement ballet intimate observation",
+      "Renoir Impressionist dappled light warm flesh",
+      "Manet Impressionist bold flat patches modern subject",
+      "Courbet Realist earthy dark honest observation",
+      "Whistler tonal harmony muted atmospheric Japanese influence",
+      "Sargent virtuoso brushwork society portrait confident",
+      "Van Gogh swirling impasto emotional yellow thick paint",
+      "Cézanne geometric simplified planes proto-Cubist",
+      "Seurat Pointillist dot pattern light scientific",
+      "Klimt Art Nouveau gold leaf decorative ornamental Vienna",
+      "Schiele Expressionist raw angular Vienna psychological",
+      "Munch Expressionist anguish colour emotional distortion",
+      "Picasso Cubist fragmented multiple viewpoints bold",
+      "Braque Cubist analytical grey brown fragmented",
+      "Matisse Fauve flat colour bold outline joyful",
+      "Modigliani elongated oval face simplified form",
+      "Hopper American Realist lonely light interior",
+      "Bacon distorted flesh psychological tortured",
+      "Freud Lucian raw psychological flesh paint thick",
+      "Hockney flat colour California pool clear light",
+      "Basquiat Neo-Expressionist raw text crown urban",
+      "Koons pop shiny reflective surface commercial",
+      "Roy Lichtenstein comic book Ben-Day dots bold outline",
+      "Andy Warhol Pop Art screen print flat colour repeated",
+      "Frank Miller noir graphic novel high contrast ink",
+      "Jack Kirby comic book bold dynamic Kirby Krackle",
+      "Robert Crumb underground comix raw grotesque line",
+      "Mucha Art Nouveau poster flowing line floral ornament",
+      "Banksy stencil street art stark graphic",
+      "Norman Rockwell American illustration narrative warm",
+      "political caricature exaggerated features satirical ink",
+      "Daumier 19th century caricature lithograph satirical",
+      "classical caricature Annibale Carracci exaggerated features",
+      "modern editorial caricature bold exaggeration ink"
+    ],
+    "poses": [
+      "both in Velázquez royal portrait composition formal court",
+      "both Rembrandt lit amber from single source chiaroscuro",
+      "both Caravaggio emerged from absolute darkness dramatic",
+      "both Goya dark period raw expressive ground confrontational",
+      "both Vermeer domestic window light soft intimate",
+      "both Van Eyck Flemish precise jewelled formal",
+      "one Holbein Tudor court frontal other three-quarter precise",
+      "both Rubens Flemish monumental baroque composition",
+      "both Picasso cubist fragmented multiple simultaneous viewpoints",
+      "both Matisse flat colour simplified joyful",
+      "both Modigliani elongated oval faces simplified tender",
+      "both Klimt decorative gold ornamental embrace",
+      "both Schiele angular raw psychological Vienna",
+      "both Munch anguished colour distorted emotional",
+      "both Van Gogh swirling impasto emotional charged",
+      "both Hockney flat clear California simplified",
+      "both Hopper lonely interior light melancholy American",
+      "both Bacon distorted psychological raw flesh",
+      "both Lichtenstein Ben-Day dots bold comic book",
+      "both Warhol screen print repeated flat colour",
+      "both Frank Miller noir high contrast graphic novel",
+      "both Kirby dynamic comic book heroic Krackle",
+      "both Mucha Art Nouveau flowing ornamental poster",
+      "both Banksy stencil graphic stark street",
+      "both caricature exaggerated defining features satirical",
+      "one as caricature other as straight portrait contrast",
+      "both political caricature bold ink exaggerated",
+      "both Daumier lithograph satirical 19th century"
+    ],
+    "looks": [
+      "17th century Dutch formal dark dress Rembrandt each",
+      "Spanish court dress 16th century Velázquez each",
+      "Flemish baroque rich fabric Rubens each",
+      "Tudor court formal Holbein each precise",
+      "19th century formal Ingres neoclassical each",
+      "Goya Spanish court late 18th century each",
+      "Impressionist summer dress and suit Renoir each",
+      "Montmartre cabaret costume Toulouse-Lautrec each",
+      "Tahitian simple cloth Gauguin each vibrant",
+      "society portrait Edwardian Sargent each elegant",
+      "deconstructed cubist planes Picasso each fragmented",
+      "flat colour simplified Matisse each bold",
+      "Art Nouveau decorative Klimt each gold ornament",
+      "Expressionist distorted Vienna Schiele each angular",
+      "California casual flat Hockney each clear colour",
+      "Pop Art screen print Warhol each flat",
+      "comic book costume superhero Kirby each dynamic",
+      "Ben-Day dots Lichtenstein bold outline each",
+      "noir black white graphic Miller each stark",
+      "underground comix raw Crumb each grotesque",
+      "caricature exaggerated each defining features satirical",
+      "Art Nouveau poster Mucha each flowing ornamental"
+    ],
+    "promptPrefix": "Fine art portrait in the visual language of a specific artist or movement — rendered as if painted, drawn or printed in that style, not a photograph of people near art — ",
+    "promptSuffix": "This image should look like an actual artwork in the named style: the brushwork, colour palette, composition and rendering technique of that artist or movement. Not people posing near paintings. The image IS the painting. Reference the specific visual qualities: Rembrandt's amber chiaroscuro, Picasso's fractured cubist planes, Gauguin's flat saturated colour, Lichtenstein's Ben-Day dots, Warhol's screen print, Goya's dark raw ground. The subjects exist within the artwork's world, not in front of it."
   },
   {
     "id": "mexico",
