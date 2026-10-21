@@ -15090,8 +15090,8 @@ const WORLDS = [
       "political caricature period dress exaggerated each satirical",
       "caricature simplified exaggerated clothes each bold line"
     ],
-    "promptPrefix": "Fine art portrait rendered entirely in the visual language of the named artist or movement — the image IS the artwork, painted or drawn in that style — ",
-    "promptSuffix": "Render this as a genuine artwork in the named artist's style: their specific brushwork, palette, composition and technique. Rembrandt: amber chiaroscuro, Dutch interior, dark velvet. Picasso: fragmented Cubist planes, multiple viewpoints. Gauguin: flat saturated Tahitian colour, bold outline. Lichtenstein: Ben-Day dots, bold black outline, primary colour. Warhol: screen print, flat repeated colour. Mucha: flowing Art Nouveau line, botanical ornament. The subjects exist inside the artwork — not in front of it. Period-accurate dress, composition and technique throughout."
+    "promptPrefix": "Fine art portrait rendered in the visual language of the named artist or movement — the image IS the artwork — ",
+    "promptSuffix": "Render entirely in the named artist's visual language — their brushwork, palette, composition and technique. The subjects exist inside the artwork, not in front of it."
   },
   {
     "id": "mexico",
@@ -31939,7 +31939,7 @@ const WORLDS = [
       "working clothes everyday period candid"
     ],
     "promptPrefix": "Authentic period portrait photograph, historically accurate to the era and photographic technology depicted — ",
-    "promptSuffix": "The image must look like a genuine photograph from its era: daguerreotype for 1840s–1860s (silvery, reversed, cased), albumen print for 1870s–1900s (sepia, soft), gelatin silver for 1920s–1940s (sharp black and white, high contrast), Kodachrome colour for 1950s–1960s (saturated, warm), Polaroid for 1970s–1980s (instant border, slightly faded), digital for 1990s onward (clean, high resolution). Period-accurate costume, lighting technology, and photographic format are essential. The image should feel like it was genuinely taken in that era."
+    "promptSuffix": "The image must look like a genuine photograph from its era: period-accurate photographic format, lighting technology, costume and aesthetic throughout. The image should feel like it was genuinely taken then."
   },
   {
     "id": "carnival",
