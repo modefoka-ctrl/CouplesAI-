@@ -4578,7 +4578,7 @@ const WORLDS = [
       "Beverly Hills casual expensive each",
       "Yacht Mediterranean linen tan each"
     ],
-    "promptSuffix": "Colour grade: gold, dark wood, the cold gleam of glass towers at night. The specific palette of different kinds of wealth — Texas gilt, Dubai glass, old money oak. Warm and cold at once. The emotional tension is atmosphere only. Do not illustrate it literally."
+    "promptSuffix": "Colour grade: gold, dark wood, cold glass tower gleam at night. Warm and cold at once."
   },
   {
     "id": "cold",
@@ -5937,7 +5937,7 @@ const WORLDS = [
       "industrial union worker practical each 1970s",
       "abandoned factory explorer casual each contemporary"
     ],
-    "promptSuffix": "Colour grade: the specific light of industrial work — Pittsburgh furnace orange, Sheffield grinding sparks, Soviet night blast furnace, Victorian foundry amber. Heat and shadow. The dignity of the made thing. The emotional tension is atmosphere only. Do not illustrate it literally."
+    "promptSuffix": "Colour grade: Pittsburgh furnace orange, Sheffield grinding sparks, Soviet blast furnace night, Victorian foundry amber."
   },
   {
     "id": "glass",
@@ -6019,7 +6019,7 @@ const WORLDS = [
       "botanical garden practical each layered",
       "ice hotel thermal underlayers practical each"
     ],
-    "promptSuffix": "Colour grade: the specific qualities of light through glass — greenhouse diffused green, aquarium deep blue, Victorian conservatory warm amber, rain on glass neon reflection. Transparent and layered. The emotional tension is atmosphere only. Do not illustrate it literally."
+    "promptSuffix": "Colour grade: greenhouse diffused green, aquarium deep blue, Victorian conservatory amber, neon on rain-wet glass."
   },
   {
     "id": "wild",
@@ -6741,7 +6741,7 @@ const WORLDS = [
       "boxing ring robe dramatic entrance each",
       "sports hall kit 1970s fluorescent each"
     ],
-    "promptSuffix": "Colour grade: the specific light of sporting arenas — clay dust red, gymnasium fluorescent, boxing ring single overhead. Gritty, physical, the weight of competition. The emotional tension is atmosphere only. Do not illustrate it literally."
+    "promptSuffix": "Colour grade: clay dust red, gymnasium fluorescent, boxing ring single overhead light. Gritty and physical."
   },
   {
     "id": "stage",
@@ -7480,7 +7480,7 @@ const WORLDS = [
       "formal undone each complicated evening",
       "simple dark clothes each night intimate"
     ],
-    "promptSuffix": "Colour grade: deep, saturated, cinematic — the specific darkness of romantic obsession. Wet streets, neon, the blue-black of midnight. Not sweet. The emotional tension is atmosphere only. Do not illustrate it literally."
+    "promptSuffix": "Colour grade: deep saturated cinematic darkness — wet streets, neon, blue-black midnight. Not sweet."
   },
   {
     "id": "music",
@@ -9441,7 +9441,7 @@ const WORLDS = [
       "hardboiled detective rumpled suit each",
       "western outlaw duster hat each"
     ],
-    "promptSuffix": "Colour grade: the specific palette of the genre — Leone dust and extreme close-up, noir rain and shadow, samurai mist and ink, Hong Kong neon action. The genre IS the visual language. The emotional tension is atmosphere only. Do not illustrate it literally."
+    "promptSuffix": "Colour grade: Leone dust and extreme close-up, noir rain and shadow, samurai mist and ink, Hong Kong neon action."
   },
   {
     "id": "space",
@@ -10085,530 +10085,530 @@ const WORLDS = [
     "affinities": {
       "Rembrandt": {
         "locs": [
-          "Rembrandt Dutch Golden Age chiaroscuro amber interior warm shadow",
-          "Rembrandt Self-portrait study rich dark background amber glow",
-          "Rembrandt Night Watch composition dramatic group amber light"
+          "Rembrandt intimate portrait amber glow single candle dark ground",
+          "Rembrandt grand biblical scene figures emerging from darkness dramatic",
+          "Rembrandt landscape winter bare trees cold grey sky Dutch"
         ],
         "poses": [
-          "Rembrandt composition both lit from single amber source rich shadow",
-          "Rembrandt portrait three-quarter turn both formal dark ground",
-          "Rembrandt dramatic group both emerging from deep shadow"
+          "Rembrandt intimate portrait both close dark ground amber warmth",
+          "Rembrandt both figures dramatic gesture biblical emerging darkness",
+          "Rembrandt both in winter landscape cold grey small against bare trees"
         ],
         "looks": [
-          "Dutch Golden Age formal dark velvet collar Rembrandt period each",
-          "17th century Dutch merchant dress fur trim dark Rembrandt each",
-          "Rembrandt period lace collar dark doublet formal each"
+          "Dutch Golden Age formal dark velvet gold chain Rembrandt each",
+          "Rembrandt period simple working dress linen collar each",
+          "Rembrandt biblical loose draped cloth period each"
         ]
       },
       "Caravaggio": {
         "locs": [
-          "Caravaggio tenebrism absolute darkness single candle source dramatic",
-          "Caravaggio biblical scene stone floor darkness single light beam",
-          "Caravaggio dramatic chiaroscuro deep shadow sharp light shaft"
+          "Caravaggio single candle absolute darkness tenebrism stone floor",
+          "Caravaggio outdoor dramatic scene strong sunlight deep shadow",
+          "Caravaggio tavern interior low life scene dramatic light"
         ],
         "poses": [
-          "Caravaggio both emerging from absolute darkness single light source",
-          "Caravaggio dramatic reaching gesture both strong shadow",
-          "Caravaggio composition both caught mid-action darkness behind"
+          "Caravaggio both lit candle absolute darkness stone floor dramatic",
+          "Caravaggio both strong outdoor sunlight deep shadow diagonal",
+          "Caravaggio tavern scene both caught mid-action realist low life"
         ],
         "looks": [
-          "Italian Baroque period dress Caravaggio each dramatic",
-          "16th century Roman dress simple cloth Caravaggio each",
-          "Caravaggio period rough cloth dramatic each chiaroscuro"
+          "16th century Roman formal dress Caravaggio dramatic each",
+          "Caravaggio simple linen working clothes rough fabric each",
+          "Caravaggio biblical loose cloth period draped each"
         ]
       },
       "Velázquez": {
         "locs": [
-          "Velázquez Spanish royal court deep atmospheric shadow warm",
-          "Velázquez Las Meninas studio composition interior atmospheric",
-          "Velázquez portrait deep background receding space warm shadow"
+          "Velázquez royal portrait deep receding space atmospheric court",
+          "Velázquez kitchen scene domestic realist foreground background",
+          "Velázquez landscape outdoor light airy Spanish countryside"
         ],
         "poses": [
-          "Velázquez royal portrait both formal court composition dignified",
-          "Velázquez three-quarter portrait both confident composed",
-          "Velázquez Las Meninas group both aware of viewer"
+          "Velázquez royal portrait both formal dignified confident court",
+          "Velázquez domestic scene both in kitchen realist natural",
+          "Velázquez both in landscape outdoor airy light Spanish"
         ],
         "looks": [
-          "Spanish Habsburg court dress 17th century Velázquez each formal",
-          "16th century Spanish formal black dress gold trim Velázquez each",
-          "Velázquez period court formal dress elaborate each regal"
+          "Spanish Habsburg court black formal dress Velázquez each 17th century",
+          "Velázquez domestic working dress simple servant each",
+          "Velázquez period hunting casual outdoor Spanish each"
         ]
       },
       "Goya": {
         "locs": [
-          "Goya dark period black paint expressive raw ground visceral",
-          "Goya Saturn devouring dark expressive atmospheric horror",
-          "Goya court portrait formal yet psychologically raw"
+          "Goya dark period black paint visceral raw nightmare ground",
+          "Goya court portrait formal yet psychologically exposed bright",
+          "Goya Disasters of War documentary raw horror outdoor"
         ],
         "poses": [
-          "Goya dark period both confrontational raw expressive ground",
-          "Goya court portrait both formal yet psychologically exposed",
-          "Goya black painting both dramatic dark atmospheric"
+          "Goya dark period both visceral raw expressive black ground",
+          "Goya court portrait both formally posed yet psychologically raw",
+          "Goya documentary both caught in moment horror outdoor raw"
         ],
         "looks": [
-          "Spanish late 18th century court dress Goya each formal dark",
-          "Goya period maja dress and cape each Spanish traditional",
-          "Goya court period dress formal dark Spanish each"
+          "Goya dark period simple clothes dissolving into black ground each",
+          "Spanish court late 18th century formal Goya each dress",
+          "Goya maja traditional Spanish costume each dramatic"
         ]
       },
       "Vermeer": {
         "locs": [
-          "Vermeer domestic interior window light soft pearl left side",
-          "Vermeer Dutch interior tile floor map on wall window light",
-          "Vermeer intimate domestic scene soft window light pearl glow"
+          "Vermeer domestic interior pearl window light left soft tile floor",
+          "Vermeer intimate detail close object foreground soft background",
+          "Vermeer outdoor view through window city beyond interior frame"
         ],
         "poses": [
-          "Vermeer both lit from left window soft domestic intimate",
-          "Vermeer composition one turned window other observes soft",
-          "Vermeer domestic both quiet absorbed in task window light"
+          "Vermeer both domestic lit soft left window pearl absorbed in task",
+          "Vermeer one attending to detail other observes domestic still",
+          "Vermeer both at window city seen beyond interior frame"
         ],
         "looks": [
-          "Dutch domestic 17th century simple dress Vermeer each soft",
-          "Vermeer period yellow jacket blue cloth domestic each",
-          "17th century Dutch interior dress simple Vermeer each"
+          "Vermeer domestic yellow jacket blue skirt Dutch 17th century each",
+          "Vermeer simple linen domestic dress head covering each",
+          "Vermeer formal Dutch merchant dress dark Vermeer each"
         ]
       },
       "Rubens": {
         "locs": [
-          "Rubens Flemish baroque rich colour monumental composition dynamic",
-          "Rubens mythological landscape dramatic sky rich warm",
-          "Rubens allegorical composition rich drapery baroque dynamic"
+          "Rubens mythological scene dramatic sky dynamic figures outdoor",
+          "Rubens hunting scene outdoor energetic movement horses",
+          "Rubens allegorical interior rich drapery baroque dramatic"
         ],
         "poses": [
-          "Rubens monumental baroque both dynamic movement drapery",
-          "Rubens both in movement baroque composition energetic",
-          "Rubens allegorical both dramatic gesture rich baroque"
+          "Rubens mythological both dynamic movement outdoor dramatic sky",
+          "Rubens hunting both action energetic movement horses outdoor",
+          "Rubens allegorical both draped baroque dramatic rich interior"
         ],
         "looks": [
-          "Flemish baroque rich velvet silk drapery Rubens each",
-          "17th century Flemish formal dress rich colour Rubens each",
-          "Rubens period mythological drapery draped each classical"
+          "Rubens baroque mythological dressed as gods each dramatic",
+          "Rubens hunting dress practical outdoor Flemish each",
+          "Rubens rich drapery baroque velvet silk each formal"
         ]
       },
       "Van Gogh": {
         "locs": [
-          "Van Gogh swirling impasto background emotional thick paint yellow",
-          "Van Gogh Arles bedroom flat saturated colour swirling",
-          "Van Gogh Starry Night swirling sky impasto emotional charged"
+          "Van Gogh Arles outdoor wheat field swirling sky impasto noon",
+          "Van Gogh night café interior yellow gaslight swirling impasto",
+          "Van Gogh bedroom Arles flat colour pattern simplified interior"
         ],
         "poses": [
-          "Van Gogh portrait both swirling impasto background emotional",
-          "Van Gogh composition both thick paint impasto charged colour",
-          "Van Gogh both flat frontal portrait swirling emotional ground"
+          "Van Gogh outdoor wheat field both swirling sky noon impasto",
+          "Van Gogh night café both interior yellow gaslight swirling",
+          "Van Gogh bedroom interior both flat colour simplified Arles"
         ],
         "looks": [
-          "Van Gogh period simple French provincial dress each 1880s",
-          "Post-Impressionist 1880s simple dress jacket each Van Gogh",
-          "Van Gogh subject simple working dress each peasant 1880s"
+          "Van Gogh subject peasant simple dress outdoor each 1880s Arles",
+          "Van Gogh café patron working clothes interior each",
+          "Van Gogh self portrait simple jacket each expressive brushwork"
         ]
       },
       "Klimt": {
         "locs": [
-          "Klimt gold leaf decorative ornamental surface Art Nouveau Vienna",
-          "Klimt The Kiss gold embrace ornamental decorative flat",
-          "Klimt portrait gold background decorative pattern Vienna"
+          "Klimt The Kiss embrace gold leaf ornamental flat decorative",
+          "Klimt portrait woman gold background decorative pattern vertical",
+          "Klimt landscape tree of life flat gold decorative scrolling"
         ],
         "poses": [
-          "Klimt both in embrace gold decorative ornamental The Kiss",
-          "Klimt portrait both ornamental gold flat decorative Vienna",
-          "Klimt composition both draped gold leaf decorative surface"
+          "Klimt The Kiss both in gold embrace ornamental draped flat",
+          "Klimt portrait one standing ornamental gold background vertical",
+          "Klimt landscape both small against tree of life gold pattern"
         ],
         "looks": [
-          "Klimt Art Nouveau gown gold decorative pattern each Vienna",
-          "Vienna Secession 1900s ornamental dress gold Klimt each",
-          "Klimt period decorative robe gold pattern each flat"
+          "Klimt The Kiss gold patterned robe each ornamental draped",
+          "Klimt portrait gown gold decorative pattern each Vienna",
+          "Klimt period Vienna Secession dress ornamental each 1900s"
         ]
       },
       "Picasso": {
         "locs": [
-          "Picasso Cubist fractured planes multiple viewpoints bold colour",
-          "Picasso Blue Period melancholy blue monochrome flat",
-          "Picasso Rose Period warm terracotta acrobats soft"
+          "Picasso Cubist fractured planes multiple viewpoints ochre grey",
+          "Picasso Blue Period sparse melancholy blue tones flat",
+          "Picasso Rose Period warm terracotta soft circus acrobats light"
         ],
         "poses": [
-          "Picasso Cubist both fragmented multiple simultaneous viewpoints",
-          "Picasso Blue Period both melancholy flat monochrome blue",
-          "Picasso both deconstructed face frontal and profile simultaneously"
+          "Picasso Cubist both fragmented simultaneously front profile sideways",
+          "Picasso Blue Period both melancholy sparse blue interior flat",
+          "Picasso Rose Period both soft terracotta acrobats tender warm"
         ],
         "looks": [
-          "Picasso Cubist deconstructed geometric shapes each fragmented",
-          "Picasso Blue Period simple dress blue monochrome each",
-          "Picasso Rose Period soft terracotta simple each acrobat"
+          "Picasso Cubist deconstructed geometric fractured dress each",
+          "Picasso Blue Period thin ragged melancholy clothes each",
+          "Picasso Rose Period acrobat costume soft terracotta each"
         ]
       },
       "Matisse": {
         "locs": [
-          "Matisse Fauve flat bold colour joyful interior pattern",
-          "Matisse cut-outs flat colour shape bold simple",
-          "Matisse decorative interior bold pattern colour flat"
+          "Matisse Odalisque interior pattern on pattern flat colour decorative",
+          "Matisse Dance flat colour figures outdoor against blue sky",
+          "Matisse paper cut-out flat colour shape simplified collage"
         ],
         "poses": [
-          "Matisse both flat bold colour simplified joyful composition",
-          "Matisse cut-out both flat colour shape simplified",
-          "Matisse decorative both flat outlined bold colour pattern"
+          "Matisse interior pattern both reclining flat colour decorative",
+          "Matisse Dance both movement figures flat blue sky outdoor",
+          "Matisse cut-out both flat simplified colour shape collage"
         ],
         "looks": [
-          "Matisse period bold colour flat dress each simplified",
-          "Fauve bold simple flat dress each Matisse colour",
-          "Matisse decorative patterned dress each bold flat"
+          "Matisse Odalisque patterned robe decorative interior each flat",
+          "Matisse Dance simple draped each movement outdoor flat",
+          "Matisse cut-out flat simplified colour silhouette each"
         ]
       },
       "Modigliani": {
         "locs": [
-          "Modigliani elongated oval face simplified warm ground Montparnasse",
-          "Modigliani portrait neutral warm ground elongated simplified",
-          "Modigliani Parisian studio warm ochre ground simplified"
+          "Modigliani portrait warm ochre ground neutral Montparnasse simplified",
+          "Modigliani reclining figure horizontal warm simplified ground",
+          "Modigliani couple portrait warm ground two elongated simplified"
         ],
         "poses": [
-          "Modigliani both elongated oval faces simplified tender warm",
-          "Modigliani portrait both long necks simplified warm ground",
-          "Modigliani both tilted oval simplified three-quarter warm"
+          "Modigliani portrait both elongated oval faces warm ochre ground",
+          "Modigliani reclining one horizontal simplified warm other observes",
+          "Modigliani couple both oval elongated facing each warm ground"
         ],
         "looks": [
-          "Modigliani period simple dress Montparnasse 1910s each warm",
-          "1910s Parisian simple dress simple Modigliani each",
-          "Modigliani subject simple undress draped each warm ochre"
+          "Modigliani subject simple open collar Montparnasse 1910s each",
+          "Modigliani draped undress simple warm each ochre ground",
+          "Modigliani period simple jacket dress 1910s Parisian each"
         ]
       },
       "Gauguin": {
         "locs": [
-          "Gauguin Tahiti flat saturated colour bold outline tropical",
-          "Gauguin Polynesian landscape flat colour simplified tropical",
-          "Gauguin Where Do We Come From flat mural colour tropical"
+          "Gauguin Tahitian outdoor flat colour tropical lush dense",
+          "Gauguin interior domestic Polynesian flat pattern mat floor",
+          "Gauguin Breton outdoor pre-Tahiti flat colour Pont-Aven"
         ],
         "poses": [
-          "Gauguin both flat frontal Tahitian simplified bold colour",
-          "Gauguin composition both seated flat tropical colour bold",
-          "Gauguin both outlined simplified flat tropical saturated"
+          "Gauguin Tahitian outdoor both flat frontal tropical lush",
+          "Gauguin domestic interior both seated mat floor Polynesian flat",
+          "Gauguin Breton both outdoor Pont-Aven flat colour Pre-Tahiti"
         ],
         "looks": [
-          "Gauguin Tahitian simple cloth pareo each flat colour",
-          "Polynesian traditional simple dress Gauguin each bold",
-          "Gauguin period simple tropical dress each flat colour"
+          "Gauguin Tahitian pareo cloth simple each flat tropical",
+          "Gauguin Polynesian domestic dress each mat floor interior",
+          "Gauguin Breton traditional dress each Pont-Aven flat colour"
         ]
       },
       "Toulouse-Lautrec": {
         "locs": [
-          "Toulouse-Lautrec Moulin Rouge poster flat graphic line colour",
-          "Toulouse-Lautrec Montmartre cabaret flat graphic silhouette",
-          "Toulouse-Lautrec poster art flat bold line shadow"
+          "Toulouse-Lautrec Moulin Rouge stage performance night poster flat",
+          "Toulouse-Lautrec backstage dressing room intimate observation",
+          "Toulouse-Lautrec brothel interior intimate domestic observation"
         ],
         "poses": [
-          "Toulouse-Lautrec both flat graphic silhouette Montmartre",
-          "Toulouse-Lautrec poster both bold outline flat colour",
-          "Toulouse-Lautrec cabaret both movement flat graphic line"
+          "Toulouse-Lautrec Moulin Rouge stage performance both flat graphic",
+          "Toulouse-Lautrec backstage both intimate dressing room observation",
+          "Toulouse-Lautrec brothel interior both domestic intimate flat"
         ],
         "looks": [
-          "Toulouse-Lautrec Moulin Rouge period 1890s dress each flat",
-          "Montmartre cabaret 1890s dress can-can each Toulouse-Lautrec",
-          "1890s Parisian flat graphic dress each Toulouse-Lautrec"
+          "Toulouse-Lautrec can-can dancer dress stage each Moulin Rouge",
+          "Toulouse-Lautrec backstage casual undress intimate each",
+          "Toulouse-Lautrec 1890s Parisian street dress bourgeois each"
         ]
       },
       "Hopper": {
         "locs": [
-          "Hopper American Realist lonely interior light melancholy window",
-          "Hopper Nighthawks diner interior light isolation",
-          "Hopper New England exterior hard light loneliness American"
+          "Hopper Nighthawks diner late night three figures counter fluorescent",
+          "Hopper interior woman alone window light morning melancholy",
+          "Hopper New England exterior hard sunlight white house isolated"
         ],
         "poses": [
-          "Hopper both isolated interior window light melancholy American",
-          "Hopper composition both in diner light isolation not touching",
-          "Hopper both in hard American light separate interior window"
+          "Hopper Nighthawks diner both at counter late night not touching",
+          "Hopper interior one alone window light other enters melancholy",
+          "Hopper exterior both hard sunlight white building isolated"
         ],
         "looks": [
-          "Hopper period 1940s American simple dress each melancholy",
-          "1940s American casual simple clothes Hopper each",
-          "Hopper subject 1940s American formal simple each"
+          "Hopper Nighthawks 1942 diner clothes each casual working",
+          "Hopper interior 1940s woman dress each melancholy American",
+          "Hopper New England 1930s practical clothes each American"
         ]
       },
       "Bacon": {
         "locs": [
-          "Bacon distorted flesh psychological raw dark ground triptych",
-          "Bacon isolated figure on armature dark ground raw",
-          "Bacon studio dark ground raw paint distorted psychological"
+          "Bacon triptych three panels dark ground armature isolated figure",
+          "Bacon Screaming Pope velvet curtain compressed space dark",
+          "Bacon studio floor newspaper raw paint dark ground"
         ],
         "poses": [
-          "Bacon both distorted flesh psychological raw dark ground",
-          "Bacon triptych both isolated raw paint dark ground",
-          "Bacon both contorted raw expressive dark ground psychological"
+          "Bacon triptych both isolated separate panels dark ground raw",
+          "Bacon Screaming Pope both compressed velvet curtain dark distorted",
+          "Bacon studio both raw floor newspaper paint dark ground"
         ],
         "looks": [
-          "Bacon period simple suit distorted raw each psychological",
-          "Simple dress suit Bacon each raw distorted dark",
-          "Bacon subject simple clothes raw distorted each dark ground"
+          "Bacon triptych simple suit distorted raw dark each",
+          "Bacon compressed figure simple clothes dark ground each",
+          "Bacon raw paint simple dress dark studio floor each"
         ]
       },
       "Warhol": {
         "locs": [
-          "Warhol Pop Art screen print flat repeated colour silk",
-          "Warhol Factory silver mylar balloons flat colour",
-          "Warhol repeated portrait grid flat colour screen print"
+          "Warhol screen print single portrait repeated flat colour four grid",
+          "Warhol Factory silver mylar balloons interior New York 1960s",
+          "Warhol Death and Disaster flat newspaper image silkscreen"
         ],
         "poses": [
-          "Warhol both screen print flat repeated colour Pop Art",
-          "Warhol portrait both flat frontal repeated grid colour",
-          "Warhol Factory both flat colour repeated silk screen"
+          "Warhol screen print both repeated flat colour four-panel grid",
+          "Warhol Factory interior both silver mylar casual 1960s New York",
+          "Warhol Disaster both flat newspaper image silkscreen stark"
         ],
         "looks": [
-          "Warhol Factory 1960s New York each flat colour Pop",
-          "1960s Pop Art flat colour dress each Warhol",
-          "Warhol period simple flat each screen print colour"
+          "Warhol screen print flat colour simplified dress each repeated",
+          "Warhol Factory 1960s New York casual underground each",
+          "Warhol Disaster plain clothes flat silkscreen stark each"
         ]
       },
       "Lichtenstein": {
         "locs": [
-          "Lichtenstein Ben-Day dots bold black outline comic book panel",
-          "Lichtenstein comic panel bold outline dots primary colour",
-          "Lichtenstein Pop Art comic strip bold dots black outline"
+          "Lichtenstein comic romance panel crying girl Ben-Day dots bold",
+          "Lichtenstein war comic explosion Whaam bold primary action",
+          "Lichtenstein brushstroke painting meta parody abstract Ben-Day"
         ],
         "poses": [
-          "Lichtenstein both Ben-Day dots bold black outline comic panel",
-          "Lichtenstein composition both comic book primary colour dots",
-          "Lichtenstein both bold outline flat dots comic strip panel"
+          "Lichtenstein romance panel one crying dramatic Ben-Day dots",
+          "Lichtenstein war comic both action explosion bold primary",
+          "Lichtenstein brushstroke meta both parody abstract bold"
         ],
         "looks": [
-          "Lichtenstein comic book costume bold outline dots each",
-          "1960s comic strip clothes bold outline Lichtenstein each",
-          "Lichtenstein period flat bold colour dress each dots"
+          "Lichtenstein romance comic girl dress bold outline dots each",
+          "Lichtenstein war comic pilot uniform bold primary each",
+          "Lichtenstein meta parody simple clothes Ben-Day dots each"
         ]
       },
       "Banksy": {
         "locs": [
-          "Banksy stencil street wall stark graphic urban black white",
-          "Banksy urban wall stencil rat graphic stark",
-          "Banksy stencil graphic protest stark wall urban"
+          "Banksy urban wall stencil rat protest placard graphic street",
+          "Banksy beach wall stencil girl balloon lost naive graphic",
+          "Banksy museum wall stencil caveman shopping trolley subversive"
         ],
         "poses": [
-          "Banksy stencil both stark graphic urban black white",
-          "Banksy both stencil graphic flat protest stark",
-          "Banksy composition both graphic stark stencil wall"
+          "Banksy stencil both protest graphic urban stark wall rat",
+          "Banksy girl balloon one reaching other watching graphic naive",
+          "Banksy museum both stencil subversive graphic wall context"
         ],
         "looks": [
-          "Banksy stencil simple graphic clothes each stark black",
-          "Urban stark simple clothes Banksy each graphic",
-          "Banksy subject simple stark stencil each graphic"
+          "Banksy stencil urban protest clothes each graphic stark",
+          "Banksy naive child clothes each simple graphic stencil",
+          "Banksy stencil simple silhouette each stark graphic"
         ]
       },
       "Mucha": {
         "locs": [
-          "Mucha Art Nouveau poster flowing line floral ornament gold",
-          "Mucha decorative panel flowing hair ornamental border botanical",
-          "Mucha poster art flowing line botanical ornament soft colour"
+          "Mucha poster art nouveau flowing hair botanical border soft gold",
+          "Mucha decorative panel four seasons circular border ornamental",
+          "Mucha theatre poster dramatic flowing line colour spot flat"
         ],
         "poses": [
-          "Mucha both Art Nouveau flowing ornamental border botanical",
-          "Mucha poster both flowing hair ornamental soft colour",
-          "Mucha composition both decorative flowing line botanical"
+          "Mucha poster both flowing hair botanical ornamental border gold",
+          "Mucha four seasons both circular ornamental border decorative",
+          "Mucha theatre poster both dramatic flowing colour spot flat"
         ],
         "looks": [
-          "Mucha Art Nouveau flowing gown botanical ornament each",
-          "1900s Art Nouveau decorative dress flowing Mucha each",
-          "Mucha period flowing robe ornamental botanical each soft"
+          "Mucha flowing gown botanical ornamental border each soft gold",
+          "Mucha four seasons draped each decorative ornamental circular",
+          "Mucha theatre flowing dramatic dress each colour spot flat"
         ]
       },
       "caricature": {
         "locs": [
-          "political caricature ink line exaggerated satirical bold",
-          "Daumier 19th century lithograph satirical caricature stark",
-          "classical caricature Carracci exaggerated features pen ink"
+          "political caricature ink bold exaggerated satirical broadsheet",
+          "Daumier 19th century lithograph street scene Paris satirical",
+          "Gillray Georgian caricature excess grotesque colour hand"
         ],
         "poses": [
-          "caricature both exaggerated defining features satirical bold",
-          "Daumier lithograph both satirical stark exaggerated 19th century",
-          "classical caricature both exaggerated features ink bold"
+          "political caricature both exaggerated defining features bold ink",
+          "Daumier lithograph both Paris street scene satirical observation",
+          "Gillray Georgian both grotesque excess colour hand caricature"
         ],
         "looks": [
-          "caricature exaggerated costume satirical each bold ink",
-          "political caricature period dress exaggerated each satirical",
-          "caricature simplified exaggerated clothes each bold line"
+          "political caricature exaggerated costume satirical each bold",
+          "Daumier 19th century bourgeois dress satirical each Paris",
+          "Gillray Georgian excess dress grotesque each hand coloured"
         ]
       }
     },
     "locs": [
-      "Rembrandt Dutch Golden Age chiaroscuro amber interior warm shadow",
-      "Rembrandt Self-portrait study rich dark background amber glow",
-      "Rembrandt Night Watch composition dramatic group amber light",
-      "Caravaggio tenebrism absolute darkness single candle source dramatic",
-      "Caravaggio biblical scene stone floor darkness single light beam",
-      "Caravaggio dramatic chiaroscuro deep shadow sharp light shaft",
-      "Velázquez Spanish royal court deep atmospheric shadow warm",
-      "Velázquez Las Meninas studio composition interior atmospheric",
-      "Velázquez portrait deep background receding space warm shadow",
-      "Goya dark period black paint expressive raw ground visceral",
-      "Goya Saturn devouring dark expressive atmospheric horror",
-      "Goya court portrait formal yet psychologically raw",
-      "Vermeer domestic interior window light soft pearl left side",
-      "Vermeer Dutch interior tile floor map on wall window light",
-      "Vermeer intimate domestic scene soft window light pearl glow",
-      "Rubens Flemish baroque rich colour monumental composition dynamic",
-      "Rubens mythological landscape dramatic sky rich warm",
-      "Rubens allegorical composition rich drapery baroque dynamic",
-      "Van Gogh swirling impasto background emotional thick paint yellow",
-      "Van Gogh Arles bedroom flat saturated colour swirling",
-      "Van Gogh Starry Night swirling sky impasto emotional charged",
-      "Klimt gold leaf decorative ornamental surface Art Nouveau Vienna",
-      "Klimt The Kiss gold embrace ornamental decorative flat",
-      "Klimt portrait gold background decorative pattern Vienna",
-      "Picasso Cubist fractured planes multiple viewpoints bold colour",
-      "Picasso Blue Period melancholy blue monochrome flat",
-      "Picasso Rose Period warm terracotta acrobats soft",
-      "Matisse Fauve flat bold colour joyful interior pattern",
-      "Matisse cut-outs flat colour shape bold simple",
-      "Matisse decorative interior bold pattern colour flat",
-      "Modigliani elongated oval face simplified warm ground Montparnasse",
-      "Modigliani portrait neutral warm ground elongated simplified",
-      "Modigliani Parisian studio warm ochre ground simplified",
-      "Gauguin Tahiti flat saturated colour bold outline tropical",
-      "Gauguin Polynesian landscape flat colour simplified tropical",
-      "Gauguin Where Do We Come From flat mural colour tropical",
-      "Toulouse-Lautrec Moulin Rouge poster flat graphic line colour",
-      "Toulouse-Lautrec Montmartre cabaret flat graphic silhouette",
-      "Toulouse-Lautrec poster art flat bold line shadow",
-      "Hopper American Realist lonely interior light melancholy window",
-      "Hopper Nighthawks diner interior light isolation",
-      "Hopper New England exterior hard light loneliness American",
-      "Bacon distorted flesh psychological raw dark ground triptych",
-      "Bacon isolated figure on armature dark ground raw",
-      "Bacon studio dark ground raw paint distorted psychological",
-      "Warhol Pop Art screen print flat repeated colour silk",
-      "Warhol Factory silver mylar balloons flat colour",
-      "Warhol repeated portrait grid flat colour screen print",
-      "Lichtenstein Ben-Day dots bold black outline comic book panel",
-      "Lichtenstein comic panel bold outline dots primary colour",
-      "Lichtenstein Pop Art comic strip bold dots black outline",
-      "Banksy stencil street wall stark graphic urban black white",
-      "Banksy urban wall stencil rat graphic stark",
-      "Banksy stencil graphic protest stark wall urban",
-      "Mucha Art Nouveau poster flowing line floral ornament gold",
-      "Mucha decorative panel flowing hair ornamental border botanical",
-      "Mucha poster art flowing line botanical ornament soft colour",
-      "political caricature ink line exaggerated satirical bold",
-      "Daumier 19th century lithograph satirical caricature stark",
-      "classical caricature Carracci exaggerated features pen ink"
+      "Rembrandt intimate portrait amber glow single candle dark ground",
+      "Rembrandt grand biblical scene figures emerging from darkness dramatic",
+      "Rembrandt landscape winter bare trees cold grey sky Dutch",
+      "Caravaggio single candle absolute darkness tenebrism stone floor",
+      "Caravaggio outdoor dramatic scene strong sunlight deep shadow",
+      "Caravaggio tavern interior low life scene dramatic light",
+      "Velázquez royal portrait deep receding space atmospheric court",
+      "Velázquez kitchen scene domestic realist foreground background",
+      "Velázquez landscape outdoor light airy Spanish countryside",
+      "Goya dark period black paint visceral raw nightmare ground",
+      "Goya court portrait formal yet psychologically exposed bright",
+      "Goya Disasters of War documentary raw horror outdoor",
+      "Vermeer domestic interior pearl window light left soft tile floor",
+      "Vermeer intimate detail close object foreground soft background",
+      "Vermeer outdoor view through window city beyond interior frame",
+      "Rubens mythological scene dramatic sky dynamic figures outdoor",
+      "Rubens hunting scene outdoor energetic movement horses",
+      "Rubens allegorical interior rich drapery baroque dramatic",
+      "Van Gogh Arles outdoor wheat field swirling sky impasto noon",
+      "Van Gogh night café interior yellow gaslight swirling impasto",
+      "Van Gogh bedroom Arles flat colour pattern simplified interior",
+      "Klimt The Kiss embrace gold leaf ornamental flat decorative",
+      "Klimt portrait woman gold background decorative pattern vertical",
+      "Klimt landscape tree of life flat gold decorative scrolling",
+      "Picasso Cubist fractured planes multiple viewpoints ochre grey",
+      "Picasso Blue Period sparse melancholy blue tones flat",
+      "Picasso Rose Period warm terracotta soft circus acrobats light",
+      "Matisse Odalisque interior pattern on pattern flat colour decorative",
+      "Matisse Dance flat colour figures outdoor against blue sky",
+      "Matisse paper cut-out flat colour shape simplified collage",
+      "Modigliani portrait warm ochre ground neutral Montparnasse simplified",
+      "Modigliani reclining figure horizontal warm simplified ground",
+      "Modigliani couple portrait warm ground two elongated simplified",
+      "Gauguin Tahitian outdoor flat colour tropical lush dense",
+      "Gauguin interior domestic Polynesian flat pattern mat floor",
+      "Gauguin Breton outdoor pre-Tahiti flat colour Pont-Aven",
+      "Toulouse-Lautrec Moulin Rouge stage performance night poster flat",
+      "Toulouse-Lautrec backstage dressing room intimate observation",
+      "Toulouse-Lautrec brothel interior intimate domestic observation",
+      "Hopper Nighthawks diner late night three figures counter fluorescent",
+      "Hopper interior woman alone window light morning melancholy",
+      "Hopper New England exterior hard sunlight white house isolated",
+      "Bacon triptych three panels dark ground armature isolated figure",
+      "Bacon Screaming Pope velvet curtain compressed space dark",
+      "Bacon studio floor newspaper raw paint dark ground",
+      "Warhol screen print single portrait repeated flat colour four grid",
+      "Warhol Factory silver mylar balloons interior New York 1960s",
+      "Warhol Death and Disaster flat newspaper image silkscreen",
+      "Lichtenstein comic romance panel crying girl Ben-Day dots bold",
+      "Lichtenstein war comic explosion Whaam bold primary action",
+      "Lichtenstein brushstroke painting meta parody abstract Ben-Day",
+      "Banksy urban wall stencil rat protest placard graphic street",
+      "Banksy beach wall stencil girl balloon lost naive graphic",
+      "Banksy museum wall stencil caveman shopping trolley subversive",
+      "Mucha poster art nouveau flowing hair botanical border soft gold",
+      "Mucha decorative panel four seasons circular border ornamental",
+      "Mucha theatre poster dramatic flowing line colour spot flat",
+      "political caricature ink bold exaggerated satirical broadsheet",
+      "Daumier 19th century lithograph street scene Paris satirical",
+      "Gillray Georgian caricature excess grotesque colour hand"
     ],
     "poses": [
-      "Rembrandt composition both lit from single amber source rich shadow",
-      "Rembrandt portrait three-quarter turn both formal dark ground",
-      "Rembrandt dramatic group both emerging from deep shadow",
-      "Caravaggio both emerging from absolute darkness single light source",
-      "Caravaggio dramatic reaching gesture both strong shadow",
-      "Caravaggio composition both caught mid-action darkness behind",
-      "Velázquez royal portrait both formal court composition dignified",
-      "Velázquez three-quarter portrait both confident composed",
-      "Velázquez Las Meninas group both aware of viewer",
-      "Goya dark period both confrontational raw expressive ground",
-      "Goya court portrait both formal yet psychologically exposed",
-      "Goya black painting both dramatic dark atmospheric",
-      "Vermeer both lit from left window soft domestic intimate",
-      "Vermeer composition one turned window other observes soft",
-      "Vermeer domestic both quiet absorbed in task window light",
-      "Rubens monumental baroque both dynamic movement drapery",
-      "Rubens both in movement baroque composition energetic",
-      "Rubens allegorical both dramatic gesture rich baroque",
-      "Van Gogh portrait both swirling impasto background emotional",
-      "Van Gogh composition both thick paint impasto charged colour",
-      "Van Gogh both flat frontal portrait swirling emotional ground",
-      "Klimt both in embrace gold decorative ornamental The Kiss",
-      "Klimt portrait both ornamental gold flat decorative Vienna",
-      "Klimt composition both draped gold leaf decorative surface",
-      "Picasso Cubist both fragmented multiple simultaneous viewpoints",
-      "Picasso Blue Period both melancholy flat monochrome blue",
-      "Picasso both deconstructed face frontal and profile simultaneously",
-      "Matisse both flat bold colour simplified joyful composition",
-      "Matisse cut-out both flat colour shape simplified",
-      "Matisse decorative both flat outlined bold colour pattern",
-      "Modigliani both elongated oval faces simplified tender warm",
-      "Modigliani portrait both long necks simplified warm ground",
-      "Modigliani both tilted oval simplified three-quarter warm",
-      "Gauguin both flat frontal Tahitian simplified bold colour",
-      "Gauguin composition both seated flat tropical colour bold",
-      "Gauguin both outlined simplified flat tropical saturated",
-      "Toulouse-Lautrec both flat graphic silhouette Montmartre",
-      "Toulouse-Lautrec poster both bold outline flat colour",
-      "Toulouse-Lautrec cabaret both movement flat graphic line",
-      "Hopper both isolated interior window light melancholy American",
-      "Hopper composition both in diner light isolation not touching",
-      "Hopper both in hard American light separate interior window",
-      "Bacon both distorted flesh psychological raw dark ground",
-      "Bacon triptych both isolated raw paint dark ground",
-      "Bacon both contorted raw expressive dark ground psychological",
-      "Warhol both screen print flat repeated colour Pop Art",
-      "Warhol portrait both flat frontal repeated grid colour",
-      "Warhol Factory both flat colour repeated silk screen",
-      "Lichtenstein both Ben-Day dots bold black outline comic panel",
-      "Lichtenstein composition both comic book primary colour dots",
-      "Lichtenstein both bold outline flat dots comic strip panel",
-      "Banksy stencil both stark graphic urban black white",
-      "Banksy both stencil graphic flat protest stark",
-      "Banksy composition both graphic stark stencil wall",
-      "Mucha both Art Nouveau flowing ornamental border botanical",
-      "Mucha poster both flowing hair ornamental soft colour",
-      "Mucha composition both decorative flowing line botanical",
-      "caricature both exaggerated defining features satirical bold",
-      "Daumier lithograph both satirical stark exaggerated 19th century",
-      "classical caricature both exaggerated features ink bold"
+      "Rembrandt intimate portrait both close dark ground amber warmth",
+      "Rembrandt both figures dramatic gesture biblical emerging darkness",
+      "Rembrandt both in winter landscape cold grey small against bare trees",
+      "Caravaggio both lit candle absolute darkness stone floor dramatic",
+      "Caravaggio both strong outdoor sunlight deep shadow diagonal",
+      "Caravaggio tavern scene both caught mid-action realist low life",
+      "Velázquez royal portrait both formal dignified confident court",
+      "Velázquez domestic scene both in kitchen realist natural",
+      "Velázquez both in landscape outdoor airy light Spanish",
+      "Goya dark period both visceral raw expressive black ground",
+      "Goya court portrait both formally posed yet psychologically raw",
+      "Goya documentary both caught in moment horror outdoor raw",
+      "Vermeer both domestic lit soft left window pearl absorbed in task",
+      "Vermeer one attending to detail other observes domestic still",
+      "Vermeer both at window city seen beyond interior frame",
+      "Rubens mythological both dynamic movement outdoor dramatic sky",
+      "Rubens hunting both action energetic movement horses outdoor",
+      "Rubens allegorical both draped baroque dramatic rich interior",
+      "Van Gogh outdoor wheat field both swirling sky noon impasto",
+      "Van Gogh night café both interior yellow gaslight swirling",
+      "Van Gogh bedroom interior both flat colour simplified Arles",
+      "Klimt The Kiss both in gold embrace ornamental draped flat",
+      "Klimt portrait one standing ornamental gold background vertical",
+      "Klimt landscape both small against tree of life gold pattern",
+      "Picasso Cubist both fragmented simultaneously front profile sideways",
+      "Picasso Blue Period both melancholy sparse blue interior flat",
+      "Picasso Rose Period both soft terracotta acrobats tender warm",
+      "Matisse interior pattern both reclining flat colour decorative",
+      "Matisse Dance both movement figures flat blue sky outdoor",
+      "Matisse cut-out both flat simplified colour shape collage",
+      "Modigliani portrait both elongated oval faces warm ochre ground",
+      "Modigliani reclining one horizontal simplified warm other observes",
+      "Modigliani couple both oval elongated facing each warm ground",
+      "Gauguin Tahitian outdoor both flat frontal tropical lush",
+      "Gauguin domestic interior both seated mat floor Polynesian flat",
+      "Gauguin Breton both outdoor Pont-Aven flat colour Pre-Tahiti",
+      "Toulouse-Lautrec Moulin Rouge stage performance both flat graphic",
+      "Toulouse-Lautrec backstage both intimate dressing room observation",
+      "Toulouse-Lautrec brothel interior both domestic intimate flat",
+      "Hopper Nighthawks diner both at counter late night not touching",
+      "Hopper interior one alone window light other enters melancholy",
+      "Hopper exterior both hard sunlight white building isolated",
+      "Bacon triptych both isolated separate panels dark ground raw",
+      "Bacon Screaming Pope both compressed velvet curtain dark distorted",
+      "Bacon studio both raw floor newspaper paint dark ground",
+      "Warhol screen print both repeated flat colour four-panel grid",
+      "Warhol Factory interior both silver mylar casual 1960s New York",
+      "Warhol Disaster both flat newspaper image silkscreen stark",
+      "Lichtenstein romance panel one crying dramatic Ben-Day dots",
+      "Lichtenstein war comic both action explosion bold primary",
+      "Lichtenstein brushstroke meta both parody abstract bold",
+      "Banksy stencil both protest graphic urban stark wall rat",
+      "Banksy girl balloon one reaching other watching graphic naive",
+      "Banksy museum both stencil subversive graphic wall context",
+      "Mucha poster both flowing hair botanical ornamental border gold",
+      "Mucha four seasons both circular ornamental border decorative",
+      "Mucha theatre poster both dramatic flowing colour spot flat",
+      "political caricature both exaggerated defining features bold ink",
+      "Daumier lithograph both Paris street scene satirical observation",
+      "Gillray Georgian both grotesque excess colour hand caricature"
     ],
     "looks": [
-      "Dutch Golden Age formal dark velvet collar Rembrandt period each",
-      "17th century Dutch merchant dress fur trim dark Rembrandt each",
-      "Rembrandt period lace collar dark doublet formal each",
-      "Italian Baroque period dress Caravaggio each dramatic",
-      "16th century Roman dress simple cloth Caravaggio each",
-      "Caravaggio period rough cloth dramatic each chiaroscuro",
-      "Spanish Habsburg court dress 17th century Velázquez each formal",
-      "16th century Spanish formal black dress gold trim Velázquez each",
-      "Velázquez period court formal dress elaborate each regal",
-      "Spanish late 18th century court dress Goya each formal dark",
-      "Goya period maja dress and cape each Spanish traditional",
-      "Goya court period dress formal dark Spanish each",
-      "Dutch domestic 17th century simple dress Vermeer each soft",
-      "Vermeer period yellow jacket blue cloth domestic each",
-      "17th century Dutch interior dress simple Vermeer each",
-      "Flemish baroque rich velvet silk drapery Rubens each",
-      "17th century Flemish formal dress rich colour Rubens each",
-      "Rubens period mythological drapery draped each classical",
-      "Van Gogh period simple French provincial dress each 1880s",
-      "Post-Impressionist 1880s simple dress jacket each Van Gogh",
-      "Van Gogh subject simple working dress each peasant 1880s",
-      "Klimt Art Nouveau gown gold decorative pattern each Vienna",
-      "Vienna Secession 1900s ornamental dress gold Klimt each",
-      "Klimt period decorative robe gold pattern each flat",
-      "Picasso Cubist deconstructed geometric shapes each fragmented",
-      "Picasso Blue Period simple dress blue monochrome each",
-      "Picasso Rose Period soft terracotta simple each acrobat",
-      "Matisse period bold colour flat dress each simplified",
-      "Fauve bold simple flat dress each Matisse colour",
-      "Matisse decorative patterned dress each bold flat",
-      "Modigliani period simple dress Montparnasse 1910s each warm",
-      "1910s Parisian simple dress simple Modigliani each",
-      "Modigliani subject simple undress draped each warm ochre",
-      "Gauguin Tahitian simple cloth pareo each flat colour",
-      "Polynesian traditional simple dress Gauguin each bold",
-      "Gauguin period simple tropical dress each flat colour",
-      "Toulouse-Lautrec Moulin Rouge period 1890s dress each flat",
-      "Montmartre cabaret 1890s dress can-can each Toulouse-Lautrec",
-      "1890s Parisian flat graphic dress each Toulouse-Lautrec",
-      "Hopper period 1940s American simple dress each melancholy",
-      "1940s American casual simple clothes Hopper each",
-      "Hopper subject 1940s American formal simple each",
-      "Bacon period simple suit distorted raw each psychological",
-      "Simple dress suit Bacon each raw distorted dark",
-      "Bacon subject simple clothes raw distorted each dark ground",
-      "Warhol Factory 1960s New York each flat colour Pop",
-      "1960s Pop Art flat colour dress each Warhol",
-      "Warhol period simple flat each screen print colour",
-      "Lichtenstein comic book costume bold outline dots each",
-      "1960s comic strip clothes bold outline Lichtenstein each",
-      "Lichtenstein period flat bold colour dress each dots",
-      "Banksy stencil simple graphic clothes each stark black",
-      "Urban stark simple clothes Banksy each graphic",
-      "Banksy subject simple stark stencil each graphic",
-      "Mucha Art Nouveau flowing gown botanical ornament each",
-      "1900s Art Nouveau decorative dress flowing Mucha each",
-      "Mucha period flowing robe ornamental botanical each soft",
-      "caricature exaggerated costume satirical each bold ink",
-      "political caricature period dress exaggerated each satirical",
-      "caricature simplified exaggerated clothes each bold line"
+      "Dutch Golden Age formal dark velvet gold chain Rembrandt each",
+      "Rembrandt period simple working dress linen collar each",
+      "Rembrandt biblical loose draped cloth period each",
+      "16th century Roman formal dress Caravaggio dramatic each",
+      "Caravaggio simple linen working clothes rough fabric each",
+      "Caravaggio biblical loose cloth period draped each",
+      "Spanish Habsburg court black formal dress Velázquez each 17th century",
+      "Velázquez domestic working dress simple servant each",
+      "Velázquez period hunting casual outdoor Spanish each",
+      "Goya dark period simple clothes dissolving into black ground each",
+      "Spanish court late 18th century formal Goya each dress",
+      "Goya maja traditional Spanish costume each dramatic",
+      "Vermeer domestic yellow jacket blue skirt Dutch 17th century each",
+      "Vermeer simple linen domestic dress head covering each",
+      "Vermeer formal Dutch merchant dress dark Vermeer each",
+      "Rubens baroque mythological dressed as gods each dramatic",
+      "Rubens hunting dress practical outdoor Flemish each",
+      "Rubens rich drapery baroque velvet silk each formal",
+      "Van Gogh subject peasant simple dress outdoor each 1880s Arles",
+      "Van Gogh café patron working clothes interior each",
+      "Van Gogh self portrait simple jacket each expressive brushwork",
+      "Klimt The Kiss gold patterned robe each ornamental draped",
+      "Klimt portrait gown gold decorative pattern each Vienna",
+      "Klimt period Vienna Secession dress ornamental each 1900s",
+      "Picasso Cubist deconstructed geometric fractured dress each",
+      "Picasso Blue Period thin ragged melancholy clothes each",
+      "Picasso Rose Period acrobat costume soft terracotta each",
+      "Matisse Odalisque patterned robe decorative interior each flat",
+      "Matisse Dance simple draped each movement outdoor flat",
+      "Matisse cut-out flat simplified colour silhouette each",
+      "Modigliani subject simple open collar Montparnasse 1910s each",
+      "Modigliani draped undress simple warm each ochre ground",
+      "Modigliani period simple jacket dress 1910s Parisian each",
+      "Gauguin Tahitian pareo cloth simple each flat tropical",
+      "Gauguin Polynesian domestic dress each mat floor interior",
+      "Gauguin Breton traditional dress each Pont-Aven flat colour",
+      "Toulouse-Lautrec can-can dancer dress stage each Moulin Rouge",
+      "Toulouse-Lautrec backstage casual undress intimate each",
+      "Toulouse-Lautrec 1890s Parisian street dress bourgeois each",
+      "Hopper Nighthawks 1942 diner clothes each casual working",
+      "Hopper interior 1940s woman dress each melancholy American",
+      "Hopper New England 1930s practical clothes each American",
+      "Bacon triptych simple suit distorted raw dark each",
+      "Bacon compressed figure simple clothes dark ground each",
+      "Bacon raw paint simple dress dark studio floor each",
+      "Warhol screen print flat colour simplified dress each repeated",
+      "Warhol Factory 1960s New York casual underground each",
+      "Warhol Disaster plain clothes flat silkscreen stark each",
+      "Lichtenstein romance comic girl dress bold outline dots each",
+      "Lichtenstein war comic pilot uniform bold primary each",
+      "Lichtenstein meta parody simple clothes Ben-Day dots each",
+      "Banksy stencil urban protest clothes each graphic stark",
+      "Banksy naive child clothes each simple graphic stencil",
+      "Banksy stencil simple silhouette each stark graphic",
+      "Mucha flowing gown botanical ornamental border each soft gold",
+      "Mucha four seasons draped each decorative ornamental circular",
+      "Mucha theatre flowing dramatic dress each colour spot flat",
+      "political caricature exaggerated costume satirical each bold",
+      "Daumier 19th century bourgeois dress satirical each Paris",
+      "Gillray Georgian excess dress grotesque each hand coloured"
     ],
     "promptPrefix": "Fine art portrait rendered in the visual language of the named artist or movement — the image IS the artwork — ",
     "promptSuffix": "Render entirely in the named artist's visual language — their brushwork, palette, composition and technique. The subjects exist inside the artwork, not in front of it."
@@ -11907,7 +11907,7 @@ const WORLDS = [
       "Flannel and work boots each Canadian practical",
       "Ski gear mountain each colourful"
     ],
-    "promptSuffix": "Colour grade: the specific palette of Canada — aurora green, ice blue, Pacific grey, Quebec stone grey, prairie gold. Vast and cold and beautiful. The emotional tension is atmosphere only. Do not illustrate it literally."
+    "promptSuffix": "Colour grade: aurora green, ice blue, Pacific grey, Quebec stone, prairie gold. Vast and cold."
   },
   {
     "id": "caribbean",
@@ -11989,7 +11989,7 @@ const WORLDS = [
       "Creole dress colonial French Caribbean each",
       "Caribbean casual colourful cotton each"
     ],
-    "promptSuffix": "Colour grade: the specific palettes of the Caribbean — Havana ochre and decay, Kingston neon night, Trinidad carnival saturated, the impossible blue of the sea. Hot, vivid, complicated. The emotional tension is atmosphere only. Do not illustrate it literally."
+    "promptSuffix": "Colour grade: Havana ochre and decay, Kingston neon night, Trinidad carnival saturated, impossible Caribbean blue."
   },
   {
     "id": "wedding",
@@ -12071,7 +12071,7 @@ const WORLDS = [
       "Mexican wedding vibrant traditional each",
       "morning after dishevelled formal each complicated"
     ],
-    "promptSuffix": "Colour grade: the specific atmosphere of the wedding type — city hall morning light, Las Vegas neon night, cliffside golden hour, church formal candlelight. The vow and everything underneath it. The emotional tension is atmosphere only. Do not illustrate it literally."
+    "promptSuffix": "Colour grade: city hall morning light, Las Vegas neon night, cliffside golden hour, church formal candlelight."
   },
   {
     "id": "jungle",
@@ -17111,7 +17111,7 @@ const WORLDS = [
       "night subway late casual each tired",
       "commuter formal work clothes each"
     ],
-    "promptSuffix": "Colour grade: the specific light of underground systems — 1970s NYC fluorescent and graffiti, Paris Métro amber and iron, London Tube wartime, Moscow marble and chandelier, Tokyo neon flood. Each its own world below. The emotional tension is atmosphere only. Do not illustrate it literally."
+    "promptSuffix": "Colour grade: 1970s NYC fluorescent and graffiti, Paris Métro amber iron, London Tube wartime, Moscow marble chandelier."
   },
   {
     "id": "expedition",
@@ -18437,7 +18437,7 @@ const WORLDS = [
       "contortionist costume flexible each",
       "tightrope walker minimal balanced each"
     ],
-    "promptSuffix": "Colour grade: big top red and gold, Soviet poster saturated primary, Depression sepia and dust, Cirque du Soleil dramatic modern. The light of the ring — single spot in darkness. The emotional tension is atmosphere only. Do not illustrate it literally."
+    "promptSuffix": "Colour grade: big top red and gold, Soviet poster primary, Depression sepia and dust, single ring spotlight darkness."
   },
   {
     "id": "cctv",
