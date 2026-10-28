@@ -1307,642 +1307,121 @@ const WORLDS = [
   {
     "id": "city",
     "name": "THE CITY",
-    "sub": "Urban Pressure",
-    "color": "#8a78cc",
+    "sub": "Noir, Neon, Brutalist & Golden",
+    "color": "#2a4a6a",
     "tensions": [
-      "private vs. public",
-      "individual vs. mass",
-      "old vs. new",
-      "order vs. chaos",
-      "up vs. down",
-      "seen vs. invisible",
-      "rushing vs. stopped",
-      "inside vs. outside",
-      "owned vs. borrowed",
-      "clean vs. worn",
-      "alone vs. surrounded",
-      "noise vs. silence",
-      "vertical vs. horizontal",
-      "built vs. broken",
-      "fast vs. stranded",
-      "center vs. edge",
-      "lit vs. shadow",
-      "open vs. caged",
-      "moving vs. watched",
-      "temporary vs. permanent"
-    ],
-    "locs": [
-      "empty intersection at night signal change",
-      "parking structure roof level top",
-      "fire escape above street view",
-      "overpass concrete shadow below",
-      "dawn construction site steel and scaffold",
-      "subway platform empty off-peak",
-      "city park bench early morning",
-      "coffee shop window condensation",
-      "laundromat 4am",
-      "24h bodega neon light",
-      "rooftop water tower base",
-      "alley between glass towers",
-      "bridge pedestrian walkway empty",
-      "skateable plaza granite empty",
-      "civic square fountain off",
-      "brutalist estate courtyard",
-      "social housing balcony tower block",
-      "independent cinema marquee",
-      "corner phone box smashed",
-      "urban canal towpath",
-      "disused railway viaduct arch",
-      "street art mural two-story",
-      "fire station apron empty",
-      "police precinct steps empty night",
-      "boxing gym exterior early",
-      "record store closing time",
-      "bookshop after hours window",
-      "bus station predawn",
-      "taxi rank 3am",
-      "dive bar exterior empty",
-      "New York Meatpacking district predawn",
-      "Brooklyn bridge walk empty",
-      "Manhattan skyline from Queens",
-      "Chicago L track level",
-      "Los Angeles freeway overpass empty",
-      "San Francisco Castro slope",
-      "London Borough Market early",
-      "East London railway arch",
-      "Manchester Northern Quarter",
-      "Berlin Kreuzberg street dawn",
-      "Paris Canal St Martin",
-      "Lyon traboule passage",
-      "Tokyo Shinjuku empty 5am",
-      "Tokyo Harajuku street alone",
-      "Osaka Dotonbori night reflection",
-      "Seoul Hongdae street art",
-      "Singapore shop house row",
-      "Hong Kong back street incense",
-      "Mumbai Marine Drive empty",
-      "Delhi Lodi Estate night",
-      "Cairo Khan el Khalili at dusk"
-    ],
-    "poses": [
-      "back-to-back street behind both",
-      "mid-run through crowd gap hand-in-hand",
-      "scaling chain-link fence both helping",
-      "nose to nose on fire escape close",
-      "sitting on ledge city far below",
-      "crossing empty intersection arms out both",
-      "one flagging cab other watching",
-      "leaning in doorway same side facing out",
-      "both watching building demolition dust",
-      "side by side escalator facing forward",
-      "one sitting subway bench other standing holding pole",
-      "both looking at street map lost",
-      "pushing through heavy doors together",
-      "back against same wall street staring out",
-      "both on fire escape looking down at street",
-      "running down alley toward camera both",
-      "one holding umbrella over both light rain",
-      "looking at phone same map turning",
-      "both buying hot dog from cart together",
-      "sitting on concrete barrier feet swinging",
-      "one pointing at rooftop other tilts head",
-      "both waiting for signal hands lightly touching",
-      "leaning out of window both looking down",
-      "carrying bags both heavily loaded together",
-      "both photographing same thing from different angles",
-      "both sleeping standing holding pole subway",
-      "one lifting other for better view",
-      "back-to-back on bench opposite sides",
-      "sharing headphones standing on platform",
-      "both watching busker together still",
-      "one fixing other's hair in glass reflection",
-      "looking up at skyscraper both necks craned",
-      "both at hot takeaway window ordering together",
-      "one hailing taxi other looking elsewhere",
-      "both at cash machine impatient night",
-      "sharing shelter doorway rain both pressed",
-      "both seated on steps people watching",
-      "one behind other in revolving door laughing",
-      "back-to-back reading different graffiti",
-      "running for bus just missing it both",
-      "one catching other's falling coffee cup",
-      "both looking down from overpass cars below",
-      "pressed against each other cold night bus stop",
-      "both watching city wake up rooftop"
-    ],
-    "looks": [
-      "fitted hoodies slim joggers both city casual",
-      "cropped leather jackets jeans both urban",
-      "raw denim oversized tees both",
-      "moto jackets black jeans both",
-      "varsity jackets straight jeans both",
-      "oversized blazer tee slim trousers each",
-      "all-black streetwear both",
-      "colourblock tech wear both",
-      "denim jacket and jeans different washes both",
-      "workwear jacket tee trousers each",
-      "puffer jacket slim trousers both",
-      "track jacket and pants matched both",
-      "structured coat tee slim jeans each smart-casual",
-      "bomber jacket tee jeans both classic",
-      "longline coat turtleneck slim pants each",
-      "hooded tech-jacket and pants both performance",
-      "cargo pants fitted tee sneakers both",
-      "relaxed chinos and fitted tee each",
-      "statement coat and understated underneath both",
-      "slip dress blazer over each",
-      "linen blazer tee trousers each smart summer",
-      "vintage denim jacket dress and jeans respectively",
-      "fitted roll-neck slim pants both",
-      "oversized tee slim jeans both",
-      "bucket hat hoodie joggers both",
-      "graphic tee and chinos each",
-      "checked shirt slim jeans both",
-      "band tee and black jeans each",
-      "chore coat tee cords each",
-      "fleece and cords both",
-      "suede jacket tee slim jeans each",
-      "technical vest tee pants each",
-      "collarless jacket shirt trousers each smart",
-      "knit polo slim chinos each smart",
-      "washed denim shirt jeans double-denim both",
-      "printed shirt plain trousers each",
-      "minimal tee and wide trousers both",
-      "coach jacket tee joggers each",
-      "quarter-zip and trousers each",
-      "anorak tee slim pants each",
-      "fitted t-dress and slim jeans respectively",
-      "oversized hoodie biker shorts each",
-      "relaxed suit unmatched both casual power",
-      "mesh top and trousers each editorial",
-      "heavy cotton tee and cargo shorts each",
-      "longline tee and fitted trousers each",
-      "asymmetric cut pieces both creative",
-      "vintage windbreaker and jeans both"
+      "noir vs. neon",
+      "anonymous vs. seen",
+      "the crowd vs. the individual",
+      "above vs. below",
+      "new vs. decayed",
+      "fast vs. still",
+      "the city vs. the person",
+      "lost vs. found",
+      "public vs. private",
+      "the promise vs. the reality"
     ],
     "affinities": {
-      "private vs. public": {
+      "noir vs. neon": {
         "locs": [
-          "derelict rooftop",
-          "service alley behind venue",
-          "utility corridor",
-          "late-night laundromat exterior",
-          "diner at 3am exterior"
+          "Los Angeles rain 1940s noir street lamp wet",
+          "Tokyo Shinjuku neon night alley narrow dense",
+          "East Berlin Plattenbau brutalist block 1970s grey"
         ],
         "poses": [
-          "back-to-back street behind",
-          "silhouette under street lamp",
-          "framed in alley shadow",
-          "seated facing opposite on steps",
-          "face to glass shopfront"
+          "both noir Los Angeles rain street lamp wet 1940s",
+          "both Tokyo neon alley night narrow dense"
         ],
         "looks": [
-          "dark athletic sets",
-          "minimal black layers",
-          "fitted hoodies slim joggers",
-          "dark separates minimal",
-          "slim blazer fitted tee each"
+          "1940s noir trench coat each Los Angeles rain",
+          "Tokyo street fashion neon each"
         ]
       },
-      "individual vs. mass": {
+      "anonymous vs. seen": {
         "locs": [
-          "empty intersection at night",
-          "brutalist plaza",
-          "city square at 4am",
-          "metro station concourse",
-          "stadium exterior at night"
+          "Hong Kong Mong Kok neon night dense crowd",
+          "Paris Haussmann boulevard golden stone dawn",
+          "São Paulo favela rooftop dense city below"
         ],
         "poses": [
-          "standing on overpass rail",
-          "spinning in empty plaza",
-          "mid-run through crowd gap",
-          "both looking up at tower",
-          "racing across empty junction"
+          "both Hong Kong neon night dense crowd",
+          "both Paris Haussmann dawn golden stone boulevard"
         ],
         "looks": [
-          "raw denim oversized tees",
-          "fitted hoodies slim joggers",
-          "dark athletic sets",
-          "structured bombers fitted tees",
-          "wide cargo pants crop tops"
-        ]
-      },
-      "old vs. new": {
-        "locs": [
-          "underpass mural wall",
-          "dawn construction site",
-          "council estate courtyard",
-          "glass tower lobby after hours",
-          "urban canyon street"
-        ],
-        "poses": [
-          "both looking up at tower",
-          "crouching low behind wall",
-          "walking fast late",
-          "one climbing wall one watching",
-          "lying on rooftop looking up"
-        ],
-        "looks": [
-          "raw denim oversized tees",
-          "varsity jackets straight jeans",
-          "double denim white tees",
-          "moto jackets black jeans",
-          "slim blazer fitted tee each"
-        ]
-      },
-      "order vs. chaos": {
-        "locs": [
-          "empty intersection at night",
-          "city square at 4am",
-          "closed market at midnight",
-          "skate park at midnight",
-          "urban sports court"
-        ],
-        "poses": [
-          "spinning in empty plaza",
-          "racing across empty junction",
-          "frozen in crosswalk",
-          "sprint against traffic light",
-          "mid-jump between buildings"
-        ],
-        "looks": [
-          "dark athletic sets",
-          "structured bombers fitted tees",
-          "fitted hoodies slim joggers",
-          "wide cargo pants crop tops",
-          "technical windbreakers jeans"
-        ]
-      },
-      "up vs. down": {
-        "locs": [
-          "parking structure roof",
-          "fire escape above street",
-          "derelict rooftop",
-          "urban rooftop garden",
-          "glass tower lobby after hours"
-        ],
-        "poses": [
-          "looking down from rooftop edge",
-          "mid-jump rooftop gap",
-          "seated on concrete ledge feet hanging",
-          "mid-jump between buildings",
-          "lying on rooftop looking up"
-        ],
-        "looks": [
-          "slim blazer fitted tee each",
-          "structured bombers fitted tees",
-          "dark technical sets",
-          "minimal black layers",
-          "fitted hoodies slim joggers"
-        ]
-      },
-      "seen vs. invisible": {
-        "locs": [
-          "service alley behind venue",
-          "utility corridor",
-          "city tunnel entrance",
-          "underpass mural wall",
-          "overpass concrete shadow"
-        ],
-        "poses": [
-          "silhouette under street lamp",
-          "framed in alley shadow",
-          "back to wall watching",
-          "crouching low behind wall",
-          "facing each other at tunnel mouth"
-        ],
-        "looks": [
-          "dark athletic sets",
-          "minimal black layers",
-          "dark separates minimal",
-          "dark technical sets",
-          "fitted hoodies slim joggers"
-        ]
-      },
-      "rushing vs. stopped": {
-        "locs": [
-          "empty intersection at night",
-          "metro station concourse",
-          "bus shelter at midnight",
-          "traffic junction empty",
-          "city square at 4am"
-        ],
-        "poses": [
-          "frozen in crosswalk",
-          "sprint against traffic light",
-          "walking fast late",
-          "mid-run through crowd gap",
-          "both arms out in empty street"
-        ],
-        "looks": [
-          "fitted hoodies slim joggers",
-          "dark athletic sets",
-          "structured bombers fitted tees",
-          "raw denim oversized tees",
-          "technical windbreakers jeans"
-        ]
-      },
-      "inside vs. outside": {
-        "locs": [
-          "glass tower lobby after hours",
-          "closed shopping mall interior",
-          "diner at 3am exterior",
-          "late-night laundromat exterior",
-          "metro station concourse"
-        ],
-        "poses": [
-          "face to glass shopfront",
-          "glass reflection double pose",
-          "standing on overpass rail",
-          "leaning over bridge rail",
-          "walking into headlights"
-        ],
-        "looks": [
-          "slim blazer fitted tee each",
-          "minimal black layers",
-          "satin track tops slim denim",
-          "dark technical sets",
-          "tailored joggers zip-ups"
-        ]
-      },
-      "owned vs. borrowed": {
-        "locs": [
-          "derelict rooftop",
-          "council estate courtyard",
-          "urban rooftop garden",
-          "service alley behind venue",
-          "city dock at night"
-        ],
-        "poses": [
-          "back-to-back street behind",
-          "crouching low behind wall",
-          "one hoisted over fence",
-          "scaling chain-link fence",
-          "seated on loading dock"
-        ],
-        "looks": [
-          "wide cargo pants crop tops",
-          "cargo pants fitted tanks",
-          "utility pants cropped tees",
-          "raw denim oversized tees",
-          "dark athletic sets"
-        ]
-      },
-      "clean vs. worn": {
-        "locs": [
-          "dawn construction site",
-          "underpass mural wall",
-          "urban freight yard",
-          "industrial district street",
-          "city mural wall predawn"
-        ],
-        "poses": [
-          "one climbing wall one watching",
-          "both against concrete pillar",
-          "stairwell bottom looking up",
-          "crouched under overpass",
-          "back to wall watching"
-        ],
-        "looks": [
-          "raw denim oversized tees",
-          "double denim white tees",
-          "boxy leather straight jeans",
-          "utility pants cropped tees",
-          "cargo pants fitted tanks"
-        ]
-      },
-      "alone vs. surrounded": {
-        "locs": [
-          "brutalist plaza",
-          "city square at 4am",
-          "empty intersection at night",
-          "parking structure roof",
-          "derelict rooftop"
-        ],
-        "poses": [
-          "back-to-back street behind",
-          "spinning in empty plaza",
-          "both arms out in empty street",
-          "lying on rooftop looking up",
-          "seated on concrete ledge feet hanging"
-        ],
-        "looks": [
-          "dark athletic sets",
-          "minimal black layers",
-          "fitted hoodies slim joggers",
-          "slim blazer fitted tee each",
-          "structured bombers fitted tees"
-        ]
-      },
-      "noise vs. silence": {
-        "locs": [
-          "city square at 4am",
-          "empty intersection at night",
-          "metro station concourse",
-          "bus shelter at midnight",
-          "late-night laundromat exterior"
-        ],
-        "poses": [
-          "frozen in crosswalk",
-          "both looking up at tower",
-          "silhouette under street lamp",
-          "seated facing opposite on steps",
-          "lying on rooftop looking up"
-        ],
-        "looks": [
-          "dark athletic sets",
-          "minimal black layers",
-          "fitted hoodies slim joggers",
-          "dark separates minimal",
-          "slim blazer fitted tee each"
-        ]
-      },
-      "vertical vs. horizontal": {
-        "locs": [
-          "fire escape above street",
-          "parking structure roof",
-          "derelict rooftop",
-          "urban rooftop garden",
-          "brutalist plaza"
-        ],
-        "poses": [
-          "looking down from rooftop edge",
-          "both looking up at tower",
-          "mid-jump between buildings",
-          "lying on rooftop looking up",
-          "seated on concrete ledge feet hanging"
-        ],
-        "looks": [
-          "slim blazer fitted tee each",
-          "structured bombers fitted tees",
-          "dark technical sets",
-          "minimal black layers",
-          "fitted hoodies slim joggers"
-        ]
-      },
-      "built vs. broken": {
-        "locs": [
-          "dawn construction site",
-          "derelict rooftop",
-          "underpass mural wall",
-          "council estate courtyard",
-          "industrial district street"
-        ],
-        "poses": [
-          "one climbing wall one watching",
-          "crouching low behind wall",
-          "both against concrete pillar",
-          "back to wall watching",
-          "stairwell bottom looking up"
-        ],
-        "looks": [
-          "raw denim oversized tees",
-          "utility pants cropped tees",
-          "cargo pants fitted tanks",
-          "double denim white tees",
-          "dark athletic sets"
-        ]
-      },
-      "fast vs. stranded": {
-        "locs": [
-          "bus shelter at midnight",
-          "metro station concourse",
-          "traffic junction empty",
-          "city square at 4am",
-          "empty intersection at night"
-        ],
-        "poses": [
-          "frozen in crosswalk",
-          "sprint against traffic light",
-          "walking fast late",
-          "mid-run through crowd gap",
-          "both arms out in empty street"
-        ],
-        "looks": [
-          "fitted hoodies slim joggers",
-          "dark athletic sets",
-          "technical windbreakers jeans",
-          "raw denim oversized tees",
-          "structured bombers fitted tees"
-        ]
-      },
-      "center vs. edge": {
-        "locs": [
-          "brutalist plaza",
-          "city square at 4am",
-          "parking structure roof",
-          "derelict rooftop",
-          "urban rooftop pool edge"
-        ],
-        "poses": [
-          "spinning in empty plaza",
-          "both arms out in empty street",
-          "looking down from rooftop edge",
-          "seated on concrete ledge feet hanging",
-          "back-to-back street behind"
-        ],
-        "looks": [
-          "dark athletic sets",
-          "minimal black layers",
-          "slim blazer fitted tee each",
-          "structured bombers fitted tees",
-          "fitted hoodies slim joggers"
-        ]
-      },
-      "lit vs. shadow": {
-        "locs": [
-          "overpass concrete shadow",
-          "underpass mural wall",
-          "service alley behind venue",
-          "city tunnel entrance",
-          "glass tower lobby after hours"
-        ],
-        "poses": [
-          "silhouette under street lamp",
-          "framed in alley shadow",
-          "facing each other at tunnel mouth",
-          "walking into headlights",
-          "one standing car roof one street"
-        ],
-        "looks": [
-          "dark athletic sets",
-          "minimal black layers",
-          "dark separates minimal",
-          "dark technical sets",
-          "fitted hoodies slim joggers"
-        ]
-      },
-      "open vs. caged": {
-        "locs": [
-          "brutalist plaza",
-          "parking structure roof",
-          "carpark spiral ramp",
-          "multi-storey car park",
-          "city square at 4am"
-        ],
-        "poses": [
-          "spinning in empty plaza",
-          "scaling chain-link fence",
-          "one hoisted over fence",
-          "both arms out in empty street",
-          "mid-jump between buildings"
-        ],
-        "looks": [
-          "wide cargo pants crop tops",
-          "cargo pants fitted tanks",
-          "dark athletic sets",
-          "fitted hoodies slim joggers",
-          "technical windbreakers jeans"
-        ]
-      },
-      "moving vs. watched": {
-        "locs": [
-          "empty intersection at night",
-          "metro station concourse",
-          "glass tower lobby after hours",
-          "stadium exterior at night",
-          "glass office building exterior"
-        ],
-        "poses": [
-          "mid-run through crowd gap",
-          "sprint against traffic light",
-          "walking fast late",
-          "frozen in crosswalk",
-          "back to wall watching"
-        ],
-        "looks": [
-          "fitted hoodies slim joggers",
-          "dark athletic sets",
-          "structured bombers fitted tees",
-          "technical windbreakers jeans",
-          "minimal black layers"
-        ]
-      },
-      "temporary vs. permanent": {
-        "locs": [
-          "dawn construction site",
-          "closed market at midnight",
-          "street market at close",
-          "urban freight yard",
-          "city mural wall predawn"
-        ],
-        "poses": [
-          "seated on loading dock",
-          "back-to-back street behind",
-          "both catching breath wall side",
-          "crouching low behind wall",
-          "stairwell bottom looking up"
-        ],
-        "looks": [
-          "raw denim oversized tees",
-          "utility pants cropped tees",
-          "cargo pants fitted tanks",
-          "dark athletic sets",
-          "fitted hoodies slim joggers"
+          "Hong Kong street casual dense crowd each",
+          "Paris boulevard chic each golden stone"
         ]
       }
     },
-    "promptSuffix": "Colour grade: urban ambient — neon, sodium, LED, the cold blue of glass towers. The city is alive around the subjects."
+    "locs": [
+      "Los Angeles rain 1940s noir street lamp wet reflection",
+      "Chicago noir El train overhead rain night shadow",
+      "San Francisco Chandler fog hill cable car night",
+      "New York fire escape rain night noir",
+      "Tokyo Shinjuku neon night alley narrow dense kanji",
+      "Hong Kong Mong Kok neon night dense vertical signs",
+      "Seoul Gangnam neon night K-beauty signage",
+      "Osaka Dotonbori neon canal reflection night",
+      "Las Vegas strip neon day garish",
+      "Bangkok Chinatown neon night dense traffic",
+      "East Berlin Plattenbau brutalist block 1970s grey",
+      "Moscow Khrushchyovka block estate winter",
+      "London Barbican brutalist concrete walkways",
+      "Marseille Unité d'Habitation Le Corbusier",
+      "Belgrade brutalist monument vast dramatic",
+      "Minsk Soviet boulevard vast ceremonial",
+      "Paris Haussmann boulevard golden stone dawn",
+      "Edinburgh Old Town stone alley gaslight",
+      "Prague Old Town square golden cobblestone dawn",
+      "Budapest Parliament Danube reflection night",
+      "Vienna Ringstrasse imperial architecture dusk",
+      "Barcelona Gothic Quarter narrow golden",
+      "Shanghai Pudong glass tower forest night",
+      "Dubai glass tower desert edge dawn",
+      "Singapore Marina Bay night reflection water",
+      "New York Hudson Yards contemporary glass",
+      "London Canary Wharf glass canyon night",
+      "Singapore Jewel Changi waterfall interior",
+      "New York City steam vent night dramatic",
+      "Paris catacombs skull lined narrow torch",
+      "London Soho alley night neon sign",
+      "New York Chinatown night dense narrow"
+    ],
+    "poses": [
+      "both noir Los Angeles rain street lamp wet reflection",
+      "both Tokyo neon alley narrow night dense",
+      "both brutalist block exterior vast grey behind",
+      "both Paris Haussmann golden boulevard dawn",
+      "both Hong Kong neon night crowd dense",
+      "both Edinburgh stone alley gaslight",
+      "both Shanghai glass tower night small",
+      "both fire escape rain night noir",
+      "both steam vent night dramatic urban",
+      "both city crossing night light trails",
+      "both looking down from above city vast",
+      "both lost in crowd city anonymous",
+      "both corner cafe city watching street",
+      "both underground city passage narrow",
+      "both rooftop city spread below night",
+      "both city construction site dramatic",
+      "both city subway rush hour",
+      "both city park bench urban green",
+      "both city alley dramatic urban light",
+      "both city dawn empty before it starts"
+    ],
+    "looks": [
+      "1940s noir trench coat fedora each Los Angeles",
+      "Tokyo street fashion layered neon night each",
+      "brutalist city practical dark each Eastern European",
+      "Paris boulevard chic each golden stone",
+      "Hong Kong street dense casual each",
+      "contemporary city smart casual each",
+      "city night dark each urban",
+      "Seoul street fashion each K-style",
+      "city casual commuter each",
+      "city formal out of place each incongruous"
+    ],
+    "promptSuffix": "Colour grade by register: noir rain and shadow, Tokyo neon saturated vertical, brutalist grey and flat, Haussmann golden warm stone. The city IS the character."
   },
   {
     "id": "mountain",
@@ -3223,1280 +2702,104 @@ const WORLDS = [
   {
     "id": "rain",
     "name": "THE RAIN",
-    "sub": "Wet & Heavy",
-    "color": "#6699bb",
+    "sub": "Monsoon, Drizzle, Downpour & the In-Between",
+    "color": "#3a5a6a",
     "tensions": [
-      "shelter vs. exposure",
-      "clean vs. soaked",
-      "warm vs. cold",
-      "clear vs. obscured",
-      "light vs. heavy",
-      "moving vs. drenched",
-      "outside vs. inside",
-      "running vs. standing",
-      "chosen vs. caught",
-      "soft vs. violent",
-      "glass vs. torrent",
-      "protected vs. soaked",
-      "face up vs. face down",
-      "still vs. swept",
-      "dry memory vs. wet reality",
-      "noise vs. silence",
-      "through vs. under",
-      "forward vs. stopped",
-      "soaked vs. wringing",
-      "surrendered vs. fighting"
-    ],
-    "locs": [
-      "rain-soaked empty intersection",
-      "wet concrete underpass columns",
-      "open field in downpour dark sky",
-      "flooded alley mid-storm",
-      "motorway hard shoulder rain",
-      "coastal path in gale rain horizontal",
-      "park bench under tree both soaked",
-      "railway platform empty rain",
-      "market awning shelter shelter",
-      "canal towpath downpour reflection",
-      "football pitch waterlogged rain",
-      "dockside warehouse rain sheeting",
-      "London night rain street empty",
-      "Tokyo rain alley lanterns",
-      "New York rain fire escape dripping",
-      "Paris rain cobblestones reflecting",
-      "Edinburgh castle rain mist",
-      "Dublin rain Georgian terrace",
-      "Amsterdam canal bridge rain",
-      "Prague rain old town cobble",
-      "Lisbon rain hills tram tracks",
-      "Barcelona rain Gothic quarter",
-      "Rome rain colosseum deserted",
-      "Naples rain narrow alley",
-      "Bangkok rain monsoon street",
-      "Ho Chi Minh rain street vendor",
-      "Mumbai monsoon empty road",
-      "Dhaka monsoon flooding knee-deep",
-      "Kolkata rain tram tracks",
-      "Jakarta monsoon flooded lane",
-      "Manila typhoon shelter overpass",
-      "Seoul rain Cheonggyecheon stream",
-      "Taipei rain night market closed",
-      "Hong Kong rain typhoon shelter",
-      "Singapore rain Marina Bay",
-      "Kuala Lumpur rain twin towers mist",
-      "Sydney rain opera house steps",
-      "Melbourne rain tram city",
-      "Auckland rain harbour bridge",
-      "Cape Town rain waterfront",
-      "Rio rain favela rooftop",
-      "Bogota rain colonial centre",
-      "Lima rain Pacific mist",
-      "Buenos Aires rain cobblestone",
-      "Santiago rain Andes clouds",
-      "Mexico City rain Zocalo",
-      "Havana rain Malecon wave spray",
-      "Kingston rain waterfront",
-      "Lagos rain flooded street",
-      "Nairobi rain red earth road",
-      "Addis Ababa rain mountain mist"
-    ],
-    "poses": [
-      "running through heavy rain both laughing",
-      "standing completely still in downpour facing each other",
-      "both soaked forehead to forehead",
-      "pushing through rain toward camera heads down",
-      "sharing one small umbrella too close both soaked",
-      "one umbrella-less other holding theirs over both",
-      "arms around each other rain streaming both",
-      "one wiping rain from other's face gentle",
-      "both looking up into rain eyes closed",
-      "running hand-in-hand through puddles",
-      "sheltering in doorway both watching rain",
-      "both pressed against wall under dripping eave",
-      "one behind other arms wrapped both soaked",
-      "both laughing at how wet they are",
-      "both making a run for it hand-in-hand",
-      "silhouette against rain-lit street behind",
-      "one jumping puddle other stands watching",
-      "both sitting on wet steps rain around",
-      "dancing slowly in rain not caring",
-      "one covering other's head with jacket hoisted",
-      "both head-down into driving rain walking",
-      "standing at bus shelter both soaking through",
-      "one catching other who slipped on wet ground",
-      "looking out from underpass at rain curtain",
-      "both watching street flood rise",
-      "one pulling other back from flooding road",
-      "both with hands out catching rain upturned",
-      "rain running down faces in profile both",
-      "nose to nose rain streaming between",
-      "running and sliding in puddle both laughing",
-      "back-to-back standing in open downpour",
-      "both leaning on wet railing watching storm",
-      "one trying to light cigarette rain impossible other laughs",
-      "wringing out wet clothing together",
-      "both exhausted rain-soaked sitting in shelter",
-      "finding each other through heavy rain fog",
-      "one pointing at rainbow after rain other turns",
-      "both shaking rain from hair laughing",
-      "sitting in car watching rain on windscreen",
-      "both arms wide in tropical downpour warm rain",
-      "hailing cab together both soaked arm out",
-      "both studying phone under last dry patch",
-      "one splashing puddle at other both laughing",
-      "both in rain staring at each other quietly"
-    ],
-    "looks": [
-      "soaked white tees dark jeans both clingy",
-      "soaked cotton any colour both drenched",
-      "sport gear fully soaked both clinging",
-      "wet dark denim plain tees both",
-      "soaked athletic wear both pale against skin",
-      "rain-soaked sundress and soaked linen shirt both",
-      "heavy rain mac layers underneath each",
-      "oversized coat one sharing both inside",
-      "dark denim soaked jacket layers each",
-      "waterproof jacket over soaked clothes each",
-      "clear plastic rain poncho outfit beneath both",
-      "bright yellow rain slicker both",
-      "trench coat belted soaking both classic",
-      "lightweight waterproof both patterned",
-      "transparent umbrella outfit chosen carefully each",
-      "soaked formal wear dishevelled rain both",
-      "soaked wool coat dripping both",
-      "rain jacket hood up face visible each",
-      "water-resistant athletic layers each practical",
-      "soaked festival layers mud-hem both",
-      "navy rain slicker over tee jeans each",
-      "waxed cotton jacket soaked through each",
-      "soaked silk dress and soaked dress shirt each",
-      "thin leather jacket soaked through each",
-      "military rain cape poncho each",
-      "bright red raincoat one dark the other contrast",
-      "pac-a-mac bright over outfit each",
-      "colour-pop waterproof both mismatched fun",
-      "soaked linen suit both crumpled rain",
-      "rain gear practical head to toe each",
-      "soaked denim jacket tee jeans each",
-      "light summer dress soaked through both warm rain",
-      "soaked wool sweater jeans boots each",
-      "thin down jacket soaked defeated each",
-      "reflective rain gear visibility each",
-      "all-black soaked layers each minimal wet",
-      "soaked striped shirt dark jeans each",
-      "soaked school uniform-adjacent layers both",
-      "matching rain suits couple set both",
-      "thin cotton soaked revealing warmth only each",
-      "soaked fleece over base layer each trekking",
-      "bright umbrella visible chosen carefully",
-      "soaked khakis and checked shirt each",
-      "soaked festival wear colourful both",
-      "soaked bomber jacket tee jeans each casual",
-      "premium rain gear still not quite enough each"
+      "soaked vs. sheltered",
+      "the umbrella vs. the giving up",
+      "before vs. after",
+      "the drizzle vs. the downpour",
+      "together in it vs. alone",
+      "refreshed vs. ruined",
+      "the grey vs. the colour after",
+      "rain as blessing vs. curse",
+      "waiting it out vs. walking through",
+      "the sound of it vs. the silence after"
     ],
     "affinities": {
-      "shelter vs. exposure": {
+      "soaked vs. sheltered": {
         "locs": [
-          "open field in downpour",
-          "rooftop in storm",
-          "open moorland storm",
-          "coastal promenade storm",
-          "rain-swept beach"
+          "Mumbai monsoon street flooding first rain joy",
+          "London grey drizzle umbrella commute Waterloo Bridge",
+          "Blade Runner noir rain alley neon wet reflection"
         ],
         "poses": [
-          "standing still in downpour",
-          "opening arms to rain",
-          "face to rain eyes closed",
-          "both caught in wall of rain",
-          "looking up into rain"
+          "both Mumbai monsoon first rain joy arms open",
+          "both London drizzle umbrella commute bridge"
         ],
         "looks": [
-          "soaked white tees dark jeans",
-          "soaked cotton any color",
-          "drenched minimal sets",
-          "wet fitted tees shorts",
-          "rain-soaked minimal wear"
-        ]
-      },
-      "clean vs. soaked": {
-        "locs": [
-          "rain-hit glass plaza",
-          "wet cobblestone alley",
-          "rain-soaked empty intersection",
-          "flooded alley mid-storm",
-          "wet road at night"
-        ],
-        "poses": [
-          "both soaked forehead to forehead",
-          "hair plastered nose to nose",
-          "soaked to bone static stare",
-          "shaking rain from hair both",
-          "one wringing shirt out one watching"
-        ],
-        "looks": [
-          "soaked white tees dark jeans",
-          "wet denim plain tops",
-          "soaked button-up shirts dark jeans",
-          "soaked fitted layers",
-          "rain-heavy linen shirts"
-        ]
-      },
-      "warm vs. cold": {
-        "locs": [
-          "open field in downpour",
-          "farm field mid-storm",
-          "wet jungle clearing",
-          "rain-swept beach",
-          "seafront in rain"
-        ],
-        "poses": [
-          "both soaked forehead to forehead",
-          "shielding each other from rain",
-          "arms linked in sideways rain",
-          "both drenched still smiling",
-          "one carrying other through flood"
-        ],
-        "looks": [
-          "soaked cotton any color",
-          "wet fitted tees shorts",
-          "soaked athletic wear",
-          "layered cotton rain-through",
-          "drenched sport sets"
-        ]
-      },
-      "clear vs. obscured": {
-        "locs": [
-          "rain-hit glass plaza",
-          "wet concrete underpass",
-          "wet road at night",
-          "rain-soaked empty intersection",
-          "bus shelter heavy rain"
-        ],
-        "poses": [
-          "rain-obscured silhouette walk",
-          "forehead pressed to wet glass",
-          "two soaked silhouettes apart",
-          "pushing through rain toward camera",
-          "standing still in downpour"
-        ],
-        "looks": [
-          "soaked white tees dark jeans",
-          "drenched minimal sets",
-          "soaked fitted layers",
-          "wet denim plain tops",
-          "rain-soaked minimal wear"
-        ]
-      },
-      "light vs. heavy": {
-        "locs": [
-          "open field in downpour",
-          "open moorland storm",
-          "farm field mid-storm",
-          "rain-swept beach",
-          "open sports ground storm"
-        ],
-        "poses": [
-          "laughing in rain arms out",
-          "spinning in rain arms wide",
-          "mid-jump into large puddle",
-          "racing through puddle line",
-          "both lying in rain face up"
-        ],
-        "looks": [
-          "soaked cotton any color",
-          "wet fitted tees shorts",
-          "drenched minimal sets",
-          "soaked athletic wear",
-          "rain-soaked minimal wear"
-        ]
-      },
-      "moving vs. drenched": {
-        "locs": [
-          "motorway hard shoulder",
-          "highway in rain",
-          "running track in rain",
-          "rain-soaked empty intersection",
-          "wet road at night"
-        ],
-        "poses": [
-          "running through heavy rain",
-          "mid-sprint through puddle spray",
-          "pushing through rain toward camera",
-          "racing each other in rain",
-          "running hand-in-hand in rain"
-        ],
-        "looks": [
-          "sport gear fully drenched",
-          "soaked running gear",
-          "drenched sport sets",
-          "wet compression sets",
-          "soaked athletic wear"
-        ]
-      },
-      "outside vs. inside": {
-        "locs": [
-          "bus shelter heavy rain",
-          "wet concrete underpass",
-          "rain-hit glass plaza",
-          "gas station forecourt rain",
-          "train platform in rain"
-        ],
-        "poses": [
-          "forehead pressed to wet glass",
-          "crouched under small overhang",
-          "seated on wet steps rain falling",
-          "both stopped at flooded road",
-          "rain-obscured silhouette walk"
-        ],
-        "looks": [
-          "wet denim plain tops",
-          "soaked button-up shirts dark jeans",
-          "layered cotton rain-through",
-          "soaked polo shirts chinos",
-          "wet flannel shirts jeans"
-        ]
-      },
-      "running vs. standing": {
-        "locs": [
-          "rain-soaked empty intersection",
-          "running track in rain",
-          "highway in rain",
-          "motorway hard shoulder",
-          "wet road at night"
-        ],
-        "poses": [
-          "running through heavy rain",
-          "standing still in downpour",
-          "mid-sprint through puddle spray",
-          "both sitting in rain not moving",
-          "racing each other in rain"
-        ],
-        "looks": [
-          "soaked running gear",
-          "soaked athletic wear",
-          "sport gear fully drenched",
-          "soaked white tees dark jeans",
-          "wet athletic shorts tanks"
-        ]
-      },
-      "chosen vs. caught": {
-        "locs": [
-          "open field in downpour",
-          "rain-swept beach",
-          "farm field mid-storm",
-          "wet jungle clearing",
-          "seafront in rain"
-        ],
-        "poses": [
-          "opening arms to rain",
-          "face to rain eyes closed",
-          "laughing in rain arms out",
-          "spinning in rain arms wide",
-          "caught running soaked through"
-        ],
-        "looks": [
-          "soaked cotton any color",
-          "drenched minimal sets",
-          "wet fitted tees shorts",
-          "soaked athletic wear",
-          "rain-soaked minimal wear"
-        ]
-      },
-      "soft vs. violent": {
-        "locs": [
-          "seafront in rain",
-          "coastal promenade storm",
-          "open moorland storm",
-          "harbor wall rain squall",
-          "pier end in storm"
-        ],
-        "poses": [
-          "both caught in wall of rain",
-          "bent forward against rain force",
-          "both leaning into headwind rain",
-          "pushing through rain toward camera",
-          "one carrying other through flood"
-        ],
-        "looks": [
-          "soaked cotton any color",
-          "drenched sport sets",
-          "wet compression sets",
-          "soaked running gear",
-          "rain-heavy hoodies jeans"
-        ]
-      },
-      "glass vs. torrent": {
-        "locs": [
-          "rain-hit glass plaza",
-          "flooded stone bridge",
-          "wet concrete underpass",
-          "wet road at night",
-          "flooded alley mid-storm"
-        ],
-        "poses": [
-          "forehead pressed to wet glass",
-          "rain-obscured silhouette walk",
-          "both caught in wall of rain",
-          "mid-sprint through puddle spray",
-          "standing in gutter stream"
-        ],
-        "looks": [
-          "soaked white tees dark jeans",
-          "wet denim plain tops",
-          "soaked fitted layers",
-          "drenched minimal sets",
-          "rain-soaked minimal wear"
-        ]
-      },
-      "protected vs. soaked": {
-        "locs": [
-          "bus shelter heavy rain",
-          "wet concrete underpass",
-          "train platform in rain",
-          "gas station forecourt rain",
-          "flooded underpass foot"
-        ],
-        "poses": [
-          "crouched under small overhang",
-          "shielding each other from rain",
-          "sheltering each other neither dry",
-          "forehead pressed to wet glass",
-          "both stopped at flooded road"
-        ],
-        "looks": [
-          "waterproof jackets open soaked",
-          "wet knit tops slim pants",
-          "layered cotton rain-through",
-          "rain-heavy hoodies jeans",
-          "soaked polo shirts chinos"
-        ]
-      },
-      "face up vs. face down": {
-        "locs": [
-          "open field in downpour",
-          "rain-swept beach",
-          "farm field mid-storm",
-          "open sports ground storm",
-          "rain-soaked football pitch"
-        ],
-        "poses": [
-          "both lying in rain face up",
-          "face to rain eyes closed",
-          "looking up into rain",
-          "opening arms to rain",
-          "bent forward against rain force"
-        ],
-        "looks": [
-          "soaked cotton any color",
-          "wet fitted tees shorts",
-          "soaked athletic wear",
-          "drenched minimal sets",
-          "soaked white tees dark jeans"
-        ]
-      },
-      "still vs. swept": {
-        "locs": [
-          "coastal promenade storm",
-          "open moorland storm",
-          "seafront in rain",
-          "pier end in storm",
-          "harbor wall rain squall"
-        ],
-        "poses": [
-          "standing still in downpour",
-          "both leaning into headwind rain",
-          "bent forward against rain force",
-          "both caught in wall of rain",
-          "back to back in storm"
-        ],
-        "looks": [
-          "soaked cotton any color",
-          "drenched minimal sets",
-          "wet compression sets",
-          "rain-heavy hoodies jeans",
-          "soaked athletic wear"
-        ]
-      },
-      "dry memory vs. wet reality": {
-        "locs": [
-          "rain-soaked empty intersection",
-          "wet cobblestone alley",
-          "flooded alley mid-storm",
-          "wet road at night",
-          "rain-hit glass plaza"
-        ],
-        "poses": [
-          "soaked to bone static stare",
-          "both sitting in rain not moving",
-          "hair plastered nose to nose",
-          "walking away in rain together",
-          "rain-obscured silhouette walk"
-        ],
-        "looks": [
-          "soaked white tees dark jeans",
-          "wet denim plain tops",
-          "soaked button-up shirts dark jeans",
-          "soaked fitted layers",
-          "soaked formal wear layers open"
-        ]
-      },
-      "noise vs. silence": {
-        "locs": [
-          "open moorland storm",
-          "farm field mid-storm",
-          "rain-swept beach",
-          "open field in downpour",
-          "open sports ground storm"
-        ],
-        "poses": [
-          "standing still in downpour",
-          "both sitting in rain not moving",
-          "soaked to bone static stare",
-          "face to rain eyes closed",
-          "both lying in rain face up"
-        ],
-        "looks": [
-          "soaked cotton any color",
-          "drenched minimal sets",
-          "wet fitted tees shorts",
-          "rain-soaked minimal wear",
-          "soaked white tees dark jeans"
-        ]
-      },
-      "through vs. under": {
-        "locs": [
-          "wet concrete underpass",
-          "bus shelter heavy rain",
-          "flooded stone bridge",
-          "rain-hit glass plaza",
-          "flooded underpass foot"
-        ],
-        "poses": [
-          "pushing through rain toward camera",
-          "crouched under small overhang",
-          "sheltering each other neither dry",
-          "running through heavy rain",
-          "forehead pressed to wet glass"
-        ],
-        "looks": [
-          "soaked cotton any color",
-          "wet denim plain tops",
-          "layered cotton rain-through",
-          "waterproof jackets open soaked",
-          "rain-heavy hoodies jeans"
-        ]
-      },
-      "forward vs. stopped": {
-        "locs": [
-          "motorway hard shoulder",
-          "highway in rain",
-          "rain-soaked empty intersection",
-          "running track in rain",
-          "wet road at night"
-        ],
-        "poses": [
-          "both stopped at flooded road",
-          "running through heavy rain",
-          "standing still in downpour",
-          "mid-sprint through puddle spray",
-          "racing each other in rain"
-        ],
-        "looks": [
-          "sport gear fully drenched",
-          "soaked running gear",
-          "drenched sport sets",
-          "soaked athletic wear",
-          "wet athletic shorts tanks"
-        ]
-      },
-      "soaked vs. wringing": {
-        "locs": [
-          "rain-soaked empty intersection",
-          "wet cobblestone alley",
-          "wet concrete underpass",
-          "gas station forecourt rain",
-          "train platform in rain"
-        ],
-        "poses": [
-          "one wringing shirt out one watching",
-          "shaking rain from hair both",
-          "both soaked forehead to forehead",
-          "hair plastered nose to nose",
-          "soaked to bone static stare"
-        ],
-        "looks": [
-          "soaked white tees dark jeans",
-          "wet denim plain tops",
-          "soaked cotton any color",
-          "waterlogged denim sets",
-          "soaked fitted layers"
-        ]
-      },
-      "surrendered vs. fighting": {
-        "locs": [
-          "open field in downpour",
-          "seafront in rain",
-          "coastal promenade storm",
-          "open moorland storm",
-          "harbor wall rain squall"
-        ],
-        "poses": [
-          "opening arms to rain",
-          "face to rain eyes closed",
-          "bent forward against rain force",
-          "pushing through rain toward camera",
-          "both caught in wall of rain"
-        ],
-        "looks": [
-          "soaked cotton any color",
-          "drenched minimal sets",
-          "soaked athletic wear",
-          "rain-heavy hoodies jeans",
-          "wet compression sets"
+          "Mumbai monsoon soaked cotton each joy",
+          "London commuter umbrella practical each"
         ]
       }
     },
-    "promptSuffix": "The subjects must be visibly wet — soaked clothing, wet hair, rain on skin. Colour grade: desaturated, cool blue-grey tones, reflections in wet surfaces. The rain itself should be visible in the frame where possible."
-  },
-  {
-    "id": "dust",
-    "name": "THE DUST",
-    "sub": "Heat & Desolation",
-    "color": "#c49a5a",
-    "tensions": [
-      "endurance vs. surrender",
-      "lost vs. found",
-      "parched vs. sustained",
-      "moving vs. stopped",
-      "shade vs. blaze",
-      "mirage vs. real",
-      "far vs. near",
-      "ancient vs. now",
-      "eroded vs. standing",
-      "alone vs. together",
-      "dry vs. memory of water",
-      "heat vs. body",
-      "wind vs. stillness",
-      "worked vs. abandoned",
-      "bleached vs. vivid",
-      "open sky vs. no shelter",
-      "walked vs. driven",
-      "known vs. unmapped",
-      "animal vs. landscape",
-      "dust vs. bone"
-    ],
     "locs": [
-      "salt flat at noon heat shimmer",
-      "cracked desert floor geometric pattern",
-      "ghost town main street tumbleweed",
-      "red rock canyon base shadow",
-      "dry riverbed sand exposed",
-      "abandoned mine entrance dust motes",
-      "ranch road dirt horizon heat",
-      "western film set deserted main street",
-      "dried-up lake bed white crust",
-      "Oklahoma dust bowl farmhouse ruin",
-      "Texas panhandle flat nothing",
-      "New Mexico arroyo red earth",
-      "Arizona mesa top wind",
-      "Nevada high desert empty",
-      "Utah canyon narrows sand",
-      "Kansas wheat field harvest dust",
-      "Colorado eastern plains empty",
-      "Nebraska sandhills ridge wind",
-      "Montana badlands dry ravine",
-      "Wyoming oil field pump jack",
-      "Idaho lava plain empty",
-      "Australia outback red earth track",
-      "Pilbara red dust horizon",
-      "Kimberley dry season gorge",
-      "Northern Territory red rock formation",
-      "South Australia Flinders dry",
-      "Victorian mallee scrub dust",
-      "New South Wales western plains heat",
-      "Queensland channel country dry",
-      "Tasmania dry east coast scrub",
-      "South Africa Karoo scrub kopje",
-      "Namibia Fish River Canyon dry",
-      "Botswana Makgadikgadi salt pan",
-      "Zimbabwe Matobo boulders dry grass",
-      "Zambia dry season valley",
-      "Tanzania dry savannah dust",
-      "Kenya Amboseli dust with Kilimanjaro",
-      "Ethiopia Danakil salt flat heat",
-      "Mali Sahel scrub dry",
-      "Senegal Sahel dust harmattan",
-      "Niger river bend dry season",
-      "Chad scrubland dry season",
-      "Sudan Meroe pyramids sand",
-      "Egypt desert plateau beyond pyramid",
-      "Libya Akakus rock desert",
-      "Algeria Grand Erg dune sea",
-      "Morocco pre-Sahara plains dust",
-      "Tunisia Chott el-Jerid salt",
-      "Iraq Mesopotamia dust plain",
-      "Syria ancient ruins dust",
-      "Jordan desert highway empty"
+      "Mumbai monsoon first rain flooding street joy dancing",
+      "Kerala monsoon paddy field rain dramatic",
+      "Bangkok monsoon flood street motorbike spray",
+      "Hanoi monsoon street rain dramatic tropical",
+      "Kolkata monsoon street rain reflection puddle",
+      "Blade Runner noir rain alley neon wet reflection night",
+      "Los Angeles rain 1940s noir street",
+      "Chandler rain San Francisco fog hill night",
+      "film noir wet pavement street lamp reflection",
+      "Tokyo alley rain neon reflection night narrow",
+      "London grey drizzle Waterloo Bridge umbrella commute",
+      "Edinburgh drizzle grey castle behind mist",
+      "Dublin drizzle grey Georgian street umbrella",
+      "Glasgow drizzle grey tenement street",
+      "Portland Oregon grey drizzle everyday",
+      "tropical downpour beach shelter dramatic",
+      "Scottish highland sudden downpour open moor",
+      "New York summer downpour steam street",
+      "Paris summer downpour cafe awning shelter",
+      "Rome sudden downpour fountain piazza",
+      "Icelandic rain dramatic rainbow cliff",
+      "Vancouver rain forest dramatic mist",
+      "Japanese rain bamboo forest atmospheric",
+      "Norwegian fjord rain mist dramatic",
+      "New Zealand rain rainforest dramatic lush",
+      "after rain Paris cobblestone reflection puddle golden",
+      "after rain Tokyo neon reflection puddle night",
+      "after rain London Victorian street reflection lamp",
+      "rainbow after storm field dramatic",
+      "after monsoon street reflection India dramatic"
     ],
     "poses": [
-      "walking toward camera through dust haze resolve",
-      "shielding eyes from glare and dust together",
-      "one carrying other across open dry ground",
-      "both looking at same far horizon squinting",
-      "back-to-back wind and dust behind them",
-      "both pulling scarves over mouths dust incoming",
-      "one helping other remove boot filled with sand",
-      "sitting on rusted truck bed both looking out",
-      "both crouched examining dry soil cracks",
-      "one wiping dust from other's face gently",
-      "walking into dust storm heads down holding",
-      "back-to-back on fence post between fields",
-      "both looking back at dust cloud they drove through",
-      "standing at crossroads no sign four directions",
-      "one drawing in dust other watches",
-      "both lying on truck hood looking at stars",
-      "drinking last water together careful sip",
-      "both pressing into shade of single rock",
-      "walking single file through dust track",
-      "one behind the other pointing at far structure",
-      "both arms wide in wind standing resolute",
-      "sitting at abandoned diner booth facing each other",
-      "one hand on shoulder of other looking horizon",
-      "walking toward camera one slightly ahead",
-      "both covered in road dust shaking it off laughing",
-      "leaning on fence post same direction looking",
-      "both faces up into dust wind eyes closed",
-      "one behind steering wheel one in window dust",
-      "kicking through dried tumbleweed both",
-      "both silhouette against dust-red sunset",
-      "back-to-back outside abandoned building",
-      "running from dust wall approaching laughing",
-      "one pointing at vulture circling other looks",
-      "crouching at dry waterhole empty examining",
-      "both watching dust devil cross plain ahead",
-      "one footprints in dust other follows same",
-      "both at dry well looking down into dark",
-      "face to face in dust after long road",
-      "one bandana around neck other around face",
-      "both sitting on ground backs against wall shade",
-      "looking up at water tower rusted both",
-      "silhouette against red earth road horizon",
-      "one lifting dust-heavy boot other watches",
-      "both squinting at map in high noon dust"
+      "both Mumbai monsoon first rain arms open joy soaked",
+      "both London drizzle umbrella one sharing",
+      "both soaked downpour not caring laughing",
+      "both shelter doorway watching rain fall",
+      "both puddle reflection rain street",
+      "both running through rain laughing",
+      "both huddled umbrella rain diagonal",
+      "both facing rain dramatic open",
+      "both after rain reflection puddle city",
+      "both monsoon flood wading street",
+      "both rain window watching from inside",
+      "both tropical downpour beach dramatic",
+      "both noir rain street lamp night dramatic",
+      "both Tokyo alley rain neon reflection",
+      "both drizzle grey city umbrella commute",
+      "both soaked through still walking",
+      "both looking up rain falling on faces",
+      "both rain garden dramatic natural",
+      "both under single shop awning rain",
+      "both rainbow aftermath dramatic field"
     ],
     "looks": [
-      "sun-bleached linen worn boots both",
-      "faded cotton sets short sleeves both earth tone",
-      "washed-out denim open shirts both",
-      "light canvas shorts simple tanks both",
-      "worn work shirts slim pants both",
-      "faded ranch shirt and jeans both worn",
-      "chambray shirt worn jeans boots both",
-      "sun-faded western shirt and worn jeans both",
-      "worn flannel rolled sleeves jeans both",
-      "dusty linen suit undone both wilted heat",
-      "work coverall worn both utility",
-      "cotton duck trouser work shirt both",
-      "sun-faded trucker jacket tee jeans both",
-      "canvas work shirt suspenders jeans boots both",
-      "worn chore coat jeans work boots both",
-      "faded bandana shirt jeans both ranch",
-      "carpenter pants work tee both practical",
-      "washed denim bib overalls tee both",
-      "worn khaki field pants tee both",
-      "sun-faded army surplus shirt pants boots both",
-      "old cotton dress and worn shirt respectively",
-      "patched denim jacket tee jeans both",
-      "light canvas jacket tee cotton pants both",
-      "work pants suspenders rolled-sleeve shirt both",
-      "worn linen shirt wide cotton pant sandals both",
-      "ranch hand cotton shirt jeans boots both",
-      "sun-bleached military shirt cotton trousers both",
-      "dust-red cotton shirt and jeans both",
-      "faded plaid cotton shirt slim worn jeans both",
-      "worn camp shirt and cotton pants both",
-      "simple cotton tee and worn jeans both classic",
-      "beaten-up leather jacket tee jeans both",
-      "worn duster coat tee jeans boots both western",
-      "faded cotton three-piece worn both heat",
-      "vintage workwear shirt trousers suspenders both",
-      "cotton windbreaker tee slim pants both",
-      "worn prairie dress and simple work shirt each",
-      "faded chambray shorts and tee both",
-      "worn straw hat shirt pants boots each",
-      "dusty canvas vest shirt trousers both",
-      "cotton sarong and tank top both hot climate",
-      "worn cotton jumpsuit unzipped to waist each",
-      "sun-faded linen coord both bleached",
-      "beat cotton trousers plain shirt sandals both",
-      "worn overalls and cotton tee boots each",
-      "washed-out denim shorts work shirt each",
-      "heat-worn field dress and worn work shirt each",
-      "faded sun coord both lived-in"
+      "Mumbai monsoon soaked cotton each colourful joy",
+      "London commuter umbrella practical dark each",
+      "noir rain trench coat each dramatic",
+      "soaked through clothes each don't care",
+      "Tokyo street fashion rain layer each",
+      "dramatic coat rain each cinematic",
+      "simple soaked each rain natural",
+      "waterproof practical each rain outdoors",
+      "festival rain casual mud each",
+      "elegant soaked each formal rain"
     ],
-    "affinities": {
-      "endurance vs. surrender": {
-        "locs": [
-          "salt flat at noon",
-          "Nevada hardpan",
-          "Death Valley salt crack",
-          "Namibian pan flat",
-          "open prairie under heat"
-        ],
-        "poses": [
-          "walking toward camera through dust haze",
-          "both panting in heat",
-          "drinking last water together",
-          "resting on truck hood sunbaked",
-          "one carrying other across open ground"
-        ],
-        "looks": [
-          "sun-bleached linen worn boots",
-          "faded cotton sets short sleeves",
-          "washed-out denim open shirts",
-          "sun-faded tees dusty jeans",
-          "worn work shirts slim pants"
-        ]
-      },
-      "lost vs. found": {
-        "locs": [
-          "dust road at crossroads",
-          "ghost town main street",
-          "abandoned ranch road",
-          "scrub plain horizon",
-          "sand sea edge"
-        ],
-        "poses": [
-          "both looking at same far horizon",
-          "hands over eyes scanning horizon",
-          "walking into dust cloud",
-          "both at canyon rim edge looking out",
-          "watching distant storm approach"
-        ],
-        "looks": [
-          "worn khakis faded tees",
-          "faded cotton sets short sleeves",
-          "washed-out denim open shirts",
-          "sun-faded tees dusty jeans",
-          "worn linen separates"
-        ]
-      },
-      "parched vs. sustained": {
-        "locs": [
-          "dry riverbed",
-          "desert oasis dried up",
-          "dry lake bed",
-          "bone-dry creek bed",
-          "dried dam reservoir"
-        ],
-        "poses": [
-          "drinking last water together",
-          "kneeling at dry creek bed",
-          "both feet in dried riverbed",
-          "resting on truck hood sunbaked",
-          "standing on cracked lake bed"
-        ],
-        "looks": [
-          "sun-bleached linen worn boots",
-          "minimal linen layers sandals",
-          "thin linen wide pants nothing",
-          "canvas shorts work vest",
-          "thin worn cotton earth tones"
-        ]
-      },
-      "moving vs. stopped": {
-        "locs": [
-          "salt flat at noon",
-          "Nevada hardpan",
-          "Namibian pan flat",
-          "open prairie under heat",
-          "desert airport runway"
-        ],
-        "poses": [
-          "walking toward camera through dust haze",
-          "sprinting across cracked earth",
-          "racing across flat hardpan",
-          "resting on truck hood sunbaked",
-          "both sitting on hot hood"
-        ],
-        "looks": [
-          "faded cotton sets short sleeves",
-          "washed-out denim open shirts",
-          "worn work shirts slim pants",
-          "sun-faded tees dusty jeans",
-          "worn joggers sun-faded crop tops"
-        ]
-      },
-      "shade vs. blaze": {
-        "locs": [
-          "eroded canyon slot",
-          "red rock canyon base",
-          "canyon mouth at dawn",
-          "adobe ruin exterior",
-          "abandoned ranch road"
-        ],
-        "poses": [
-          "crouched low in shade of rock",
-          "one in shadow one in sun",
-          "back against sandstone wall",
-          "both crouched in shadow",
-          "canyon slot squeeze together"
-        ],
-        "looks": [
-          "sun-bleached linen worn boots",
-          "minimal linen layers sandals",
-          "draped linen nothing structured",
-          "lightweight desert layers",
-          "sun-protective long sleeves shorts"
-        ]
-      },
-      "mirage vs. real": {
-        "locs": [
-          "salt flat at noon",
-          "Nevada hardpan",
-          "Death Valley salt crack",
-          "Namibian pan flat",
-          "desert airport runway"
-        ],
-        "poses": [
-          "heat wave distortion silhouette",
-          "walking into dust cloud",
-          "dust spiral run-through",
-          "striding side by side through heat shimmer",
-          "walking toward camera through dust haze"
-        ],
-        "looks": [
-          "thin worn cotton layers",
-          "thin worn cotton earth tones",
-          "sun-marked cotton minimal layers",
-          "minimal sandals cotton shorts",
-          "sun-pale athletic set"
-        ]
-      },
-      "far vs. near": {
-        "locs": [
-          "scrub plain horizon",
-          "open prairie under heat",
-          "salt flat at noon",
-          "Namibian pan flat",
-          "sand sea edge"
-        ],
-        "poses": [
-          "both looking at same far horizon",
-          "watching distant storm approach",
-          "walking into setting sun",
-          "open arms on flat plain",
-          "two silhouettes on heat shimmer"
-        ],
-        "looks": [
-          "sun-bleached linen worn boots",
-          "faded cotton sets short sleeves",
-          "washed-out denim open shirts",
-          "sun-faded tees dusty jeans",
-          "worn linen separates"
-        ]
-      },
-      "ancient vs. now": {
-        "locs": [
-          "Utah arch base",
-          "wind-carved sandstone",
-          "eroded rock column base",
-          "Sahara dune crest",
-          "red rock canyon base"
-        ],
-        "poses": [
-          "lying flat on warm rock looking up",
-          "kneeling at dry creek bed",
-          "both at canyon rim edge looking out",
-          "looking down from mesa edge",
-          "back against sandstone wall"
-        ],
-        "looks": [
-          "raw cotton separates earth tones",
-          "minimal linen layers sandals",
-          "draped linen nothing structured",
-          "thin linen wide pants nothing",
-          "worn linen separates"
-        ]
-      },
-      "eroded vs. standing": {
-        "locs": [
-          "wind-carved sandstone",
-          "eroded canyon slot",
-          "eroded rock column base",
-          "dry riverbed",
-          "red rock canyon base"
-        ],
-        "poses": [
-          "back against sandstone wall",
-          "leaning into each other in wind",
-          "canyon slot squeeze together",
-          "one above one below canyon wall",
-          "looking down from mesa edge"
-        ],
-        "looks": [
-          "sun-bleached linen worn boots",
-          "faded utility wear",
-          "worn work shirts slim pants",
-          "canvas work pants rolled fitted vest",
-          "dust-stained cotton worn boots"
-        ]
-      },
-      "alone vs. together": {
-        "locs": [
-          "scrub plain horizon",
-          "open prairie under heat",
-          "salt flat at noon",
-          "sand sea edge",
-          "Namibian pan flat"
-        ],
-        "poses": [
-          "back-to-back wind behind them",
-          "walking parallel in dust road",
-          "open arms on flat plain",
-          "sitting back to back on boulder",
-          "side by side on dune crest"
-        ],
-        "looks": [
-          "faded cotton sets short sleeves",
-          "washed-out denim open shirts",
-          "sun-faded tees dusty jeans",
-          "minimal linen layers sandals",
-          "worn linen separates"
-        ]
-      },
-      "dry vs. memory of water": {
-        "locs": [
-          "dry riverbed",
-          "dry lake bed",
-          "bone-dry creek bed",
-          "desert oasis dried up",
-          "dried dam reservoir"
-        ],
-        "poses": [
-          "kneeling at dry creek bed",
-          "both feet in dried riverbed",
-          "drinking last water together",
-          "digging in dry earth together",
-          "standing on cracked lake bed"
-        ],
-        "looks": [
-          "sun-bleached linen worn boots",
-          "minimal linen layers sandals",
-          "thin linen wide pants nothing",
-          "dust-stained cotton worn boots",
-          "thin worn cotton earth tones"
-        ]
-      },
-      "heat vs. body": {
-        "locs": [
-          "salt flat at noon",
-          "Nevada hardpan",
-          "Death Valley salt crack",
-          "open prairie under heat",
-          "Namibian pan flat"
-        ],
-        "poses": [
-          "both panting in heat",
-          "resting on truck hood sunbaked",
-          "drinking last water together",
-          "arms out against gust",
-          "shielding eyes from glare together"
-        ],
-        "looks": [
-          "thin worn cotton layers",
-          "thin worn cotton earth tones",
-          "sun-marked cotton minimal layers",
-          "canvas shorts work vest",
-          "minimal sandals cotton shorts"
-        ]
-      },
-      "wind vs. stillness": {
-        "locs": [
-          "Sahara dune crest",
-          "sand dune ridge",
-          "open prairie under heat",
-          "desert wind farm edge",
-          "scrub plain horizon"
-        ],
-        "poses": [
-          "arms out against gust",
-          "back-to-back wind behind them",
-          "leaning into each other in wind",
-          "facing into hot wind",
-          "dust fall shake off"
-        ],
-        "looks": [
-          "sun-bleached linen worn boots",
-          "draped linen nothing structured",
-          "thin linen wide pants nothing",
-          "loose cotton shorts nothing",
-          "worn linen separates"
-        ]
-      },
-      "worked vs. abandoned": {
-        "locs": [
-          "abandoned mining town",
-          "ghost town main street",
-          "abandoned ranch road",
-          "oil pumpjack field",
-          "dried dam reservoir"
-        ],
-        "poses": [
-          "resting against abandoned truck",
-          "truck bed seated legs out",
-          "both sitting on hot hood",
-          "dust fall shake off",
-          "one steadying other mid-climb"
-        ],
-        "looks": [
-          "worn work shirts slim pants",
-          "washed-out army surplus",
-          "faded utility wear",
-          "canvas work pants rolled fitted vest",
-          "sweat-stained cotton earth tones"
-        ]
-      },
-      "bleached vs. vivid": {
-        "locs": [
-          "salt flat at noon",
-          "Nevada hardpan",
-          "Namibian pan flat",
-          "Arizona wash after storm",
-          "Utah arch base"
-        ],
-        "poses": [
-          "walking toward camera through dust haze",
-          "heat wave distortion silhouette",
-          "walking into dust cloud",
-          "open arms on flat plain",
-          "both looking at same far horizon"
-        ],
-        "looks": [
-          "sun-bleached linen worn boots",
-          "faded cotton sets short sleeves",
-          "washed-out denim open shirts",
-          "thin worn cotton layers",
-          "sun-pale athletic set"
-        ]
-      },
-      "open sky vs. no shelter": {
-        "locs": [
-          "salt flat at noon",
-          "open prairie under heat",
-          "Namibian pan flat",
-          "sand sea edge",
-          "scrub plain horizon"
-        ],
-        "poses": [
-          "both looking at same far horizon",
-          "open arms on flat plain",
-          "walking into setting sun",
-          "two silhouettes on heat shimmer",
-          "back-to-back wind behind them"
-        ],
-        "looks": [
-          "sun-bleached linen worn boots",
-          "minimal linen layers sandals",
-          "draped linen nothing structured",
-          "sun-protective long sleeves shorts",
-          "lightweight desert layers"
-        ]
-      },
-      "walked vs. driven": {
-        "locs": [
-          "desert highway shoulder",
-          "abandoned ranch road",
-          "desert railroad track",
-          "dust road at crossroads",
-          "desert power line road"
-        ],
-        "poses": [
-          "walking toward camera through dust haze",
-          "resting on truck hood sunbaked",
-          "truck bed seated legs out",
-          "striding side by side through heat shimmer",
-          "walking parallel in dust road"
-        ],
-        "looks": [
-          "worn work shirts slim pants",
-          "washed-out denim open shirts",
-          "sun-faded tees dusty jeans",
-          "worn khakis faded tees",
-          "desert-worn denim open shirt"
-        ]
-      },
-      "known vs. unmapped": {
-        "locs": [
-          "scrub plain horizon",
-          "open prairie under heat",
-          "sand sea edge",
-          "Namibian pan flat",
-          "high desert plateau"
-        ],
-        "poses": [
-          "hands over eyes scanning horizon",
-          "one steadying other mid-climb",
-          "both at canyon rim edge looking out",
-          "watching distant storm approach",
-          "looking down from mesa edge"
-        ],
-        "looks": [
-          "worn khakis faded tees",
-          "faded utility wear",
-          "canvas work pants rolled fitted vest",
-          "worn work shirts slim pants",
-          "sun-protective long sleeves shorts"
-        ]
-      },
-      "animal vs. landscape": {
-        "locs": [
-          "Sahara dune crest",
-          "sand dune ridge",
-          "volcanic plain",
-          "red rock canyon base",
-          "scrub plain horizon"
-        ],
-        "poses": [
-          "crouched low in shade of rock",
-          "mid-jump dune crest",
-          "running along dune edge",
-          "back against sandstone wall",
-          "lying flat on warm rock looking up"
-        ],
-        "looks": [
-          "minimal sandals cotton shorts",
-          "thin worn cotton earth tones",
-          "raw cotton separates earth tones",
-          "canvas shorts work vest",
-          "dust-stained cotton worn boots"
-        ]
-      },
-      "dust vs. bone": {
-        "locs": [
-          "dry riverbed",
-          "bone-dry creek bed",
-          "Death Valley salt crack",
-          "cracked desert floor",
-          "dry lake bed"
-        ],
-        "poses": [
-          "both feet in dried riverbed",
-          "kneeling at dry creek bed",
-          "digging in dry earth together",
-          "dust fall shake off",
-          "lying flat on warm rock looking up"
-        ],
-        "looks": [
-          "sun-bleached linen worn boots",
-          "washed-out army surplus",
-          "dust-stained cotton worn boots",
-          "thin worn cotton earth tones",
-          "thin worn cotton layers"
-        ]
-      }
-    },
-    "promptSuffix": "Colour grade: bleached, sun-baked, the palette of drought and heat — ochre, sienna, bone white. Dust in the air where possible. Harsh overhead or raking light. No fill, no softbox."
+    "promptSuffix": "Colour grade: the specific quality of different rains — Mumbai monsoon first rain joy, London grey drizzle flat, noir rain neon reflection, tropical downpour dramatic. The rain defines the world."
   },
   {
     "id": "gold",
@@ -5220,806 +3523,6 @@ const WORLDS = [
       }
     },
     "promptSuffix": "Colour grade: cool, de-saturated, blue-white palette. Visible breath where temperatures warrant it. The cold should be palpable — not a backdrop but a physical presence."
-  },
-  {
-    "id": "concrete",
-    "name": "THE CONCRETE",
-    "sub": "Brutalism & Weight",
-    "color": "#9988aa",
-    "tensions": [
-      "soft vs. hard",
-      "organic vs. built",
-      "human vs. structure",
-      "color vs. grey",
-      "fragile vs. permanent",
-      "free vs. surrounded",
-      "warmth vs. cold geometry",
-      "made vs. natural",
-      "above vs. below",
-      "open vs. enclosed",
-      "body vs. mass",
-      "lived vs. monumental",
-      "small vs. scale",
-      "planted vs. cast",
-      "worn vs. set",
-      "human mark vs. concrete blank",
-      "light vs. density",
-      "breath vs. weight",
-      "skin vs. aggregate",
-      "singular vs. repeated"
-    ],
-    "locs": [
-      "brutalist tower base shadow",
-      "empty car park top floor",
-      "underpass pillar zone",
-      "stadium concourse predawn",
-      "modernist housing block exterior",
-      "Barbican London estate walkway",
-      "Robin Hood Gardens ramp",
-      "Trellick Tower base London",
-      "Park Hill Sheffield walkway",
-      "Keeling House balcony",
-      "Balfron Tower base London",
-      "Spa Green Estate London",
-      "Boston City Hall plaza",
-      "Buffalo City Court exterior",
-      "Chicago Daley Center",
-      "Detroit Civic Centre",
-      "Berlin Plattenbauwohnung stairwell",
-      "East Berlin Plattenbau exterior",
-      "Prague Panelák courtyard",
-      "Warsaw Muranów block",
-      "Budapest Kelenföld block",
-      "Bucharest Ceaușescu block",
-      "Moscow Khrushchevka courtyard",
-      "St Petersburg industrial canal",
-      "Minsk Government House",
-      "Kyiv modernist institute",
-      "Tbilisi Soviet bloc courtyard",
-      "Yerevan opera square concrete",
-      "Almaty Soviet district",
-      "Tashkent Lenin era concrete",
-      "Pyongyang broad avenue concrete",
-      "Shanghai brutalist university",
-      "Beijing Soviet-era ministry",
-      "Hong Kong public estate walkway",
-      "Singapore HDB void deck",
-      "Chandigarh High Court Le Corbusier",
-      "Ahmedabad IIM Kahn building",
-      "Dhaka National Assembly Louis Kahn",
-      "Islamabad secretariat",
-      "Brasília Oscar Niemeyer piloti",
-      "São Paulo Copan building",
-      "Caracas 23 de Enero block",
-      "Bogotá El Tunal estate",
-      "Mexico City Tlatelolco plaza",
-      "Havana Soviet-era ministry",
-      "Santiago brutalist university",
-      "Lima housing estate concrete",
-      "Lagos National Theatre",
-      "Accra State House exterior"
-    ],
-    "poses": [
-      "both pressed against raw concrete wall",
-      "one lifting other against pillar close",
-      "running along empty concourse both",
-      "back-to-back between columns symmetrical",
-      "sitting on concrete ledge feet over city",
-      "one tracing texture of concrete wall other watches",
-      "both silhouette in brutalist archway",
-      "lying on concrete floor both arms out",
-      "both in elevator doors opening pose",
-      "leaning on bare concrete balcony together",
-      "one photographing other against grey wall",
-      "both looking up brutalist tower facade",
-      "back-to-back on concrete bench different direction",
-      "sitting in brutalist window both framed",
-      "both standing in perfect symmetry concrete frame",
-      "one catching other in open concrete space",
-      "running across empty concrete plaza both",
-      "leaning on concrete pillar one each",
-      "both crouching at concrete floor graffiti",
-      "standing in shaft of light through slit window",
-      "one pushing other on concrete skateable ledge",
-      "both looking down long empty corridor",
-      "face-to-face in stairwell both",
-      "both descending parallel staircases mirror",
-      "one helping other over concrete barrier",
-      "sitting in brutalist fountain pool dry",
-      "both in rain on exposed concrete walkway",
-      "looking out from concrete balcony grid below",
-      "one behind other in brutalist door frame",
-      "both at top of empty concrete ramp",
-      "posing against enormous blank wall both small",
-      "both at brutalist bus shelter waiting",
-      "one writing on concrete other watches",
-      "both in motion blur long corridor sprint",
-      "lying on concrete rooftop looking at sky",
-      "both reflected in puddle on grey concrete",
-      "pressing against warm sun-hit concrete wall",
-      "both silhouette in modernist window grid",
-      "one lifting leg on concrete plinth other balances",
-      "walking toward camera in huge empty plaza",
-      "both in dramatic shadow concrete overhang",
-      "standing in car park stripe line both",
-      "back to back at stairwell bottom looking up",
-      "one sitting wall-edge other standing beside"
-    ],
-    "looks": [
-      "fitted all-grey athletic sets both",
-      "monochrome minimalist separates both",
-      "raw denim plain white tees both",
-      "slim dark joggers structured tops both",
-      "muted tonal outfits clean sneakers both",
-      "all-black technical wear both",
-      "grey washed denim and plain tees both",
-      "matching grey sets minimal both",
-      "oversized grey sweatshirt and slim pants each",
-      "chalk-white tee and raw denim both",
-      "charcoal slim trousers and fitted tee each",
-      "stone-colour linen jacket and pants both",
-      "washed-out black outfit both",
-      "utilitarian grey cargo pants and tee both",
-      "slate blue denim jacket and jeans both",
-      "concrete-tone trousers and jumper both",
-      "structured grey coat and slim pants each",
-      "off-white turtleneck and wide grey pants both",
-      "grey marl sweatsuit both",
-      "dark slim pants white tee minimal each",
-      "asymmetric grey top and pants both editorial",
-      "mixed grey textures tonal both",
-      "industrial-feel metal-grey jacket pants both",
-      "slate technical wear functional both",
-      "raw hem grey denim both",
-      "cement-colour wide trousers plain top both",
-      "slim black trousers fitted grey jumper each",
-      "wool grey coat and charcoal pants each",
-      "dove grey shirt and straight pants both",
-      "chalk-linen trousers and grey knit both",
-      "faded black and grey streetwear both",
-      "grey wool beret coat slim pants both",
-      "work-grey cotton overall each unzipped",
-      "stone washed denim set both",
-      "pale grey knit wide grey trousers both",
-      "dark denim grey sweatshirt each",
-      "matching grey fleece sets both",
-      "pewter-toned technical jacket and pants each",
-      "steel blue denim and white tee each",
-      "dark grey jogger and crew-neck each",
-      "raw concrete palette outfit mixed greys both",
-      "grey linen suit relaxed both",
-      "monochrome beige-adjacent tonal both",
-      "grey check flannel and slim pants both",
-      "charcoal wool trousers roll-neck sweater both",
-      "slate cargo and slim fitted top both"
-    ],
-    "affinities": {
-      "soft vs. hard": {
-        "locs": [
-          "raw concrete gallery",
-          "concrete sculpture park",
-          "raw concrete plaza pool",
-          "brutalist library exterior",
-          "modernist housing block exterior"
-        ],
-        "poses": [
-          "both pressed against raw concrete wall",
-          "lying flat on concrete looking up",
-          "both seated on raw concrete floor",
-          "concrete floor low angle arms out",
-          "leaning into concrete corner"
-        ],
-        "looks": [
-          "fitted all-grey athletic sets",
-          "monochrome minimalist separates",
-          "raw denim plain white tees",
-          "muted tonal outfits clean sneakers",
-          "cotton basics tonal palette"
-        ]
-      },
-      "organic vs. built": {
-        "locs": [
-          "concrete sculpture park",
-          "raw concrete gallery",
-          "brutalist library exterior",
-          "modernist concrete bridge",
-          "industrial estate at golden hour"
-        ],
-        "poses": [
-          "arms spread against monolith facade",
-          "both looking up concrete tower face",
-          "monolith framing both small",
-          "stepping through concrete doorframe",
-          "one framing other against grid of windows"
-        ],
-        "looks": [
-          "raw denim plain white tees",
-          "unbleached cotton minimal cut",
-          "off-white raw cotton",
-          "cotton basics tonal palette",
-          "raw aggregate-toned linen"
-        ]
-      },
-      "human vs. structure": {
-        "locs": [
-          "brutalist tower base",
-          "socialist realist monument base",
-          "monolithic building threshold",
-          "concrete cooling tower",
-          "raw concrete dam face"
-        ],
-        "poses": [
-          "monolith framing both small",
-          "both looking up concrete tower face",
-          "arms spread against monolith facade",
-          "one lifting other against pillar",
-          "both on concrete pier edge"
-        ],
-        "looks": [
-          "fitted all-grey athletic sets",
-          "monochrome minimalist separates",
-          "slim cargo pants minimal tops",
-          "structural minimalist sportswear",
-          "muted tonal outfits clean sneakers"
-        ]
-      },
-      "color vs. grey": {
-        "locs": [
-          "empty plaza between towers",
-          "raw concrete plaza pool",
-          "concrete sculpture park",
-          "raw concrete gallery",
-          "brutalist civic centre"
-        ],
-        "poses": [
-          "both pressed against raw concrete wall",
-          "both seated on raw concrete floor",
-          "lying flat on concrete looking up",
-          "concrete floor low angle arms out",
-          "standing in raw concrete echo space"
-        ],
-        "looks": [
-          "fitted all-grey athletic sets",
-          "monochrome minimalist separates",
-          "charcoal fitted sets",
-          "tonal grey layers",
-          "grey-scale layered minimal"
-        ]
-      },
-      "fragile vs. permanent": {
-        "locs": [
-          "WWII concrete fortification",
-          "concrete bunker exterior",
-          "cold war shelter entrance",
-          "raw concrete dam face",
-          "concrete reservoir interior"
-        ],
-        "poses": [
-          "huddled in concrete shelter",
-          "one kneeling on concrete one standing",
-          "both pressed against raw concrete wall",
-          "leaning into concrete corner",
-          "back to cold tower facing out"
-        ],
-        "looks": [
-          "fitted all-grey athletic sets",
-          "raw denim plain white tees",
-          "muted tonal outfits clean sneakers",
-          "slim cargo pants minimal tops",
-          "cotton basics tonal palette"
-        ]
-      },
-      "free vs. surrounded": {
-        "locs": [
-          "parking structure helix",
-          "car park column grid",
-          "flyover pillar forest",
-          "concrete industrial chimney base",
-          "multistory concrete walkway"
-        ],
-        "poses": [
-          "circling concrete pillar",
-          "back-to-back between columns",
-          "concrete corridor standoff",
-          "both beneath flyover shadow",
-          "running from concrete behind"
-        ],
-        "looks": [
-          "dark grey slim fit sets",
-          "matte black minimal wear",
-          "slim dark joggers structured tops",
-          "charcoal fitted sets",
-          "concrete-grey technical wear"
-        ]
-      },
-      "warmth vs. cold geometry": {
-        "locs": [
-          "raw concrete gallery",
-          "brutalist library exterior",
-          "modernist housing block exterior",
-          "concrete sculpture park",
-          "aggregate finish building"
-        ],
-        "poses": [
-          "both seated on raw concrete floor",
-          "lying flat on concrete looking up",
-          "one kneeling on concrete one standing",
-          "concrete floor low angle arms out",
-          "leaning into concrete corner"
-        ],
-        "looks": [
-          "raw denim plain white tees",
-          "unbleached cotton minimal cut",
-          "off-white raw cotton",
-          "cotton basics tonal palette",
-          "pale grey structured tops dark bottoms"
-        ]
-      },
-      "made vs. natural": {
-        "locs": [
-          "brutalist tower base",
-          "concrete cooling tower",
-          "raw concrete dam face",
-          "concrete reservoir interior",
-          "motorway concrete barrier run"
-        ],
-        "poses": [
-          "arms spread against monolith facade",
-          "both looking up concrete tower face",
-          "concrete stairwell ascent",
-          "running along empty concourse",
-          "walking across concrete plaza toward"
-        ],
-        "looks": [
-          "fitted all-grey athletic sets",
-          "monochrome minimalist separates",
-          "structural minimalist sportswear",
-          "charcoal fitted sets",
-          "tonal grey layers"
-        ]
-      },
-      "above vs. below": {
-        "locs": [
-          "empty car park top floor",
-          "flyover shadow zone",
-          "multistory concrete walkway",
-          "stadium concourse predawn",
-          "concrete overpass midspan"
-        ],
-        "poses": [
-          "one above on walkway one below",
-          "sitting on concrete ledge feet over city",
-          "one on wall one below looking up",
-          "mid-jump from block to block",
-          "both silhouette on concrete bridge"
-        ],
-        "looks": [
-          "slim dark joggers structured tops",
-          "dark grey slim fit sets",
-          "matte black minimal wear",
-          "concrete-grey technical wear",
-          "graphite athletic sets"
-        ]
-      },
-      "open vs. enclosed": {
-        "locs": [
-          "empty plaza between towers",
-          "stadium concourse predawn",
-          "brutalist civic centre",
-          "concrete tram terminus",
-          "airport concrete apron"
-        ],
-        "poses": [
-          "arms spread against monolith facade",
-          "concrete canyon sprint",
-          "running toward camera through column grid",
-          "walking across concrete plaza toward",
-          "sprint through concrete column field"
-        ],
-        "looks": [
-          "fitted all-grey athletic sets",
-          "monochrome minimalist separates",
-          "structural minimalist sportswear",
-          "muted tonal outfits clean sneakers",
-          "slate-toned athletic wear"
-        ]
-      },
-      "body vs. mass": {
-        "locs": [
-          "brutalist tower base",
-          "socialist realist monument base",
-          "monolithic building threshold",
-          "concrete cooling tower",
-          "raw concrete dam face"
-        ],
-        "poses": [
-          "monolith framing both small",
-          "both looking up concrete tower face",
-          "arms spread against monolith facade",
-          "one lifting other against pillar",
-          "both pressed against raw concrete wall"
-        ],
-        "looks": [
-          "fitted all-grey athletic sets",
-          "slim cargo pants minimal tops",
-          "structural minimalist sportswear",
-          "charcoal fitted sets",
-          "raw denim plain white tees"
-        ]
-      },
-      "lived vs. monumental": {
-        "locs": [
-          "council estate stairwell",
-          "precast concrete estate",
-          "modernist housing block exterior",
-          "brutalist school exterior",
-          "concrete silos base"
-        ],
-        "poses": [
-          "concrete stairwell ascent",
-          "seated top of parking structure",
-          "concrete balcony lean both",
-          "running from concrete behind",
-          "both beneath flyover shadow"
-        ],
-        "looks": [
-          "raw denim plain white tees",
-          "cotton basics tonal palette",
-          "unbleached cotton minimal cut",
-          "muted tonal outfits clean sneakers",
-          "fitted stone-grey sets"
-        ]
-      },
-      "small vs. scale": {
-        "locs": [
-          "brutalist tower base",
-          "socialist realist monument base",
-          "concrete cooling tower",
-          "raw concrete dam face",
-          "stadium raw concrete interior"
-        ],
-        "poses": [
-          "monolith framing both small",
-          "both looking up concrete tower face",
-          "lying flat on concrete looking up",
-          "concrete floor low angle arms out",
-          "one lifting other against pillar"
-        ],
-        "looks": [
-          "fitted all-grey athletic sets",
-          "monochrome minimalist separates",
-          "slim cargo pants minimal tops",
-          "structural minimalist sportswear",
-          "tonal grey layers"
-        ]
-      },
-      "planted vs. cast": {
-        "locs": [
-          "concrete sculpture park",
-          "raw concrete plaza pool",
-          "brutalist civic centre",
-          "raw concrete gallery",
-          "aggregate finish building"
-        ],
-        "poses": [
-          "both pressed against raw concrete wall",
-          "both seated on raw concrete floor",
-          "standing in raw concrete echo space",
-          "concrete floor low angle arms out",
-          "lying flat on concrete looking up"
-        ],
-        "looks": [
-          "raw denim plain white tees",
-          "unbleached cotton minimal cut",
-          "off-white raw cotton",
-          "cotton basics tonal palette",
-          "fitted stone-grey sets"
-        ]
-      },
-      "worn vs. set": {
-        "locs": [
-          "WWII concrete fortification",
-          "concrete bunker exterior",
-          "cold war shelter entrance",
-          "soviet-era concrete block",
-          "concrete industrial chimney base"
-        ],
-        "poses": [
-          "huddled in concrete shelter",
-          "back to cold tower facing out",
-          "one shadowed one lit on facade",
-          "standing in concrete shadow stripe",
-          "leaning into concrete corner"
-        ],
-        "looks": [
-          "washed grey denim sets",
-          "dim-toned earth layers",
-          "washed-out denim grey tone",
-          "dim tonal street wear",
-          "cool-toned minimal wear"
-        ]
-      },
-      "human mark vs. concrete blank": {
-        "locs": [
-          "raw concrete gallery",
-          "concrete sculpture park",
-          "aggregate finish building",
-          "unfinished concrete building",
-          "raw concrete dam face"
-        ],
-        "poses": [
-          "both pressed against raw concrete wall",
-          "concrete wall climb together",
-          "one framing other against grid of windows",
-          "stepping through concrete doorframe",
-          "arms spread against monolith facade"
-        ],
-        "looks": [
-          "raw denim plain white tees",
-          "fitted all-grey athletic sets",
-          "monochrome minimalist separates",
-          "unbleached cotton minimal cut",
-          "off-white raw cotton"
-        ]
-      },
-      "light vs. density": {
-        "locs": [
-          "flyover shadow zone",
-          "underpass pillar zone",
-          "concrete overpass midspan",
-          "stadium concourse predawn",
-          "car park column grid"
-        ],
-        "poses": [
-          "standing in concrete shadow stripe",
-          "one shadowed one lit on facade",
-          "one in shadow slot one bright",
-          "running toward camera through column grid",
-          "both beneath flyover shadow"
-        ],
-        "looks": [
-          "dark grey slim fit sets",
-          "matte black minimal wear",
-          "charcoal fitted sets",
-          "concrete-grey technical wear",
-          "graphite athletic sets"
-        ]
-      },
-      "breath vs. weight": {
-        "locs": [
-          "raw concrete gallery",
-          "brutalist library exterior",
-          "concrete sculpture park",
-          "modernist housing block exterior",
-          "aggregate finish building"
-        ],
-        "poses": [
-          "lying flat on concrete looking up",
-          "both seated on raw concrete floor",
-          "concrete floor low angle arms out",
-          "standing in raw concrete echo space",
-          "both pressed against raw concrete wall"
-        ],
-        "looks": [
-          "fitted all-grey athletic sets",
-          "raw denim plain white tees",
-          "monochrome minimalist separates",
-          "unbleached cotton minimal cut",
-          "cotton basics tonal palette"
-        ]
-      },
-      "skin vs. aggregate": {
-        "locs": [
-          "raw concrete plaza pool",
-          "concrete sculpture park",
-          "raw concrete gallery",
-          "aggregate finish building",
-          "brutalist civic centre"
-        ],
-        "poses": [
-          "both pressed against raw concrete wall",
-          "lying flat on concrete looking up",
-          "concrete wall climb together",
-          "concrete floor low angle arms out",
-          "leaning into concrete corner"
-        ],
-        "looks": [
-          "raw denim plain white tees",
-          "unbleached cotton minimal cut",
-          "off-white raw cotton",
-          "minimal cool palette sets",
-          "concrete-dyed cotton"
-        ]
-      },
-      "singular vs. repeated": {
-        "locs": [
-          "car park column grid",
-          "flyover pillar forest",
-          "multistory concrete walkway",
-          "parking structure helix",
-          "precast concrete estate"
-        ],
-        "poses": [
-          "circling concrete pillar",
-          "back-to-back between columns",
-          "running toward camera through column grid",
-          "both beneath flyover shadow",
-          "sprint through concrete column field"
-        ],
-        "looks": [
-          "fitted all-grey athletic sets",
-          "monochrome minimalist separates",
-          "tonal grey layers",
-          "grey-scale layered minimal",
-          "structural minimalist sportswear"
-        ]
-      }
-    },
-    "promptSuffix": "Colour grade: desaturated, cool, grey on grey on grey. Brutalist architecture should dominate the frame — the humans are small within it. Flat overcast light or harsh industrial light. No warmth."
-  },
-  {
-    "id": "iron",
-    "name": "THE IRON",
-    "sub": "Foundry, Forge & the Weight of Industry",
-    "color": "#4a3a2a",
-    "tensions": [
-      "labour vs. capital",
-      "the worker vs. the machine",
-      "heat vs. cold",
-      "strength vs. fragility",
-      "the maker vs. the made",
-      "pride vs. exhaustion",
-      "the shift vs. the life",
-      "industrial vs. human",
-      "past vs. automation",
-      "the forge vs. the end of the forge"
-    ],
-    "affinities": {
-      "labour vs. capital": {
-        "locs": [
-          "Pittsburgh steel mill 1950s molten pour furnace",
-          "Sheffield cutlery works grinding 1960s",
-          "Soviet industrial forge propaganda poster aesthetic 1930s"
-        ],
-        "poses": [
-          "both Pittsburgh steel 1950s furnace pour dramatic heat",
-          "both Sheffield grinders 1960s work practical"
-        ],
-        "looks": [
-          "1950s steelworker overalls hard hat each Pittsburgh",
-          "Sheffield grinder apron leather each 1960s"
-        ]
-      }
-    },
-    "locs": [
-      "Pittsburgh steel mill 1950s furnace molten pour",
-      "Sheffield cutlery works grinding wheel 1960s",
-      "Soviet Magnitogorsk steel propaganda aesthetic 1930s",
-      "Victorian foundry iron casting crucible",
-      "Welsh coal mining valley pithead 1950s",
-      "Ruhr industrial complex Germany 1930s",
-      "Detroit auto plant assembly line 1960s",
-      "Glasgow shipyard Clyde 1960s hull",
-      "Birmingham metal works Victorian forge",
-      "Manchester cotton mill interior 1900s",
-      "Newcastle tyne bridge construction workers",
-      "Soviet Donbass industrial night furnace",
-      "Sheffield steel works 1970s night shift",
-      "Glasgow Beardmore works 1916 wartime",
-      "Pittsburgh blast furnace exterior vast night",
-      "Middlesbrough steel transporter bridge fog",
-      "Sunderland shipyard launch ceremony 1950s",
-      "Bethlehem steel night shift Pennsylvania 1940s",
-      "Krupp works Essen industrial Germany 1920s",
-      "abandoned Detroit auto plant now ruins"
-    ],
-    "poses": [
-      "both Pittsburgh 1950s steel furnace molten heat dramatic",
-      "both Sheffield grinding wheel 1960s work practical",
-      "both Soviet forge propaganda composition 1930s heroic",
-      "both Welsh pithead colliery 1950s end of shift",
-      "both Detroit auto line 1960s work pace",
-      "both Glasgow shipyard Clyde hull 1960s vast",
-      "both Victorian foundry iron casting dramatic light",
-      "both night shift steel works exhausted end",
-      "both assembly line workers Detroit solidarity",
-      "both industrial workers portrait dignity 1950s"
-    ],
-    "looks": [
-      "1950s steelworker overalls hard hat Pittsburgh each",
-      "Sheffield grinder leather apron goggles each 1960s",
-      "Soviet heroic worker propaganda dress each 1930s",
-      "Welsh miner black dust lamp each 1950s",
-      "Detroit auto worker overalls each 1960s",
-      "Glasgow shipyard worker cap jacket each",
-      "Victorian foundry worker leather apron each",
-      "night shift steel worker overalls each",
-      "industrial union worker practical each 1970s",
-      "abandoned factory explorer casual each contemporary"
-    ],
-    "promptSuffix": "Colour grade: Pittsburgh furnace orange, Sheffield grinding sparks, Soviet blast furnace night, Victorian foundry amber."
-  },
-  {
-    "id": "glass",
-    "name": "THE GLASS",
-    "sub": "Transparency, Reflection & What Shows Through",
-    "color": "#5a8a9a",
-    "tensions": [
-      "seen vs. hidden",
-      "transparent vs. opaque",
-      "inside vs. outside",
-      "reflection vs. reality",
-      "fragile vs. strong",
-      "the window vs. what it shows",
-      "visible vs. invisible",
-      "the surface vs. the depth",
-      "contained vs. free",
-      "clarity vs. distortion"
-    ],
-    "affinities": {
-      "seen vs. hidden": {
-        "locs": [
-          "greenhouse glass structure plants mist morning",
-          "glass house forest transparency trees outside",
-          "aquarium glass tank deep blue light"
-        ],
-        "poses": [
-          "both in greenhouse glass walls plants morning",
-          "both aquarium blue light fish passing"
-        ],
-        "looks": [
-          "greenhouse casual botanist each soft",
-          "aquarium visit casual each lit blue"
-        ]
-      }
-    },
-    "locs": [
-      "greenhouse Victorian glass structure mist morning plants",
-      "glass house mid-century forest transparent trees outside",
-      "aquarium large tank deep blue fish passing",
-      "phone box red rain night reflection outside",
-      "conservatory Victorian glass plants afternoon light",
-      "glass lift hotel atrium rising view",
-      "greenhouse commercial flowers for cutting winter",
-      "glass bridge walkway transparent beneath",
-      "Crystal Palace style glass exhibition hall Victorian",
-      "glass pyramid Louvre evening Paris",
-      "glazed Victorian arcade shopping covered",
-      "greenhouse botanical garden tropical plants mist",
-      "glass floored walkway cliff edge transparent",
-      "Mies van der Rohe glass house interior forest",
-      "greenhouse winter forcing house tomatoes",
-      "bus shelter glass rain night neon reflection",
-      "glass pavilion modern art park transparent",
-      "ice hotel interior ice walls translucent",
-      "glass observatory dome night stars above",
-      "glass floored pool underwater below"
-    ],
-    "poses": [
-      "both in greenhouse glass walls plants misty morning",
-      "both aquarium blue light fish moving behind glass",
-      "both at glass house wall forest visible through",
-      "both in glass lift ascending atrium view",
-      "both reflected glass surface distorted double",
-      "both looking through glass at something outside",
-      "both in conservatory plants all around glass light",
-      "both pressing hands to glass opposite sides",
-      "both in glazed arcade Victorian covered street",
-      "both at glass wall night city beyond"
-    ],
-    "looks": [
-      "greenhouse botanical casual each soft layers",
-      "aquarium visit casual each blue lit",
-      "glass house mid-century smart casual each",
-      "Victorian conservatory afternoon tea each",
-      "modern architecture casual each clean",
-      "glass lift formal hotel each smart",
-      "rain shelter night casual each wet",
-      "glass pavilion gallery visit each considered",
-      "botanical garden practical each layered",
-      "ice hotel thermal underlayers practical each"
-    ],
-    "promptSuffix": "Colour grade: greenhouse diffused green, aquarium deep blue, Victorian conservatory amber, neon on rain-wet glass."
   },
   {
     "id": "wild",
@@ -6746,639 +4249,104 @@ const WORLDS = [
   {
     "id": "stage",
     "name": "THE STAGE",
-    "sub": "Performance & Tension",
-    "color": "#cc8844",
+    "sub": "Performance, Theatricality & the Everyday Drama",
+    "color": "#8a1a6a",
     "tensions": [
-      "performer vs. audience",
-      "mask vs. face",
-      "rehearsal vs. real",
-      "effort vs. effortless",
-      "character vs. self",
-      "present vs. past",
-      "applause vs. silence",
-      "light vs. dark",
-      "built vs. felt",
-      "desire vs. restraint",
-      "seen vs. unseen",
-      "beginning vs. end",
-      "control vs. abandon",
-      "trained vs. raw",
-      "spotlight vs. shadow",
-      "scored vs. free",
-      "choreographed vs. instinct",
-      "rehearsed vs. broken",
-      "artist vs. craft",
-      "moment vs. eternity"
-    ],
-    "locs": [
-      "theater wings offstage spotlight beyond",
-      "empty stage single spotlight overhead",
-      "dressing room mirror strip lights",
-      "backstage corridor low ceiling",
-      "loading dock behind venue",
-      "rehearsal space bare walls marked",
-      "fly tower above stage looking down",
-      "pit level orchestra empty",
-      "empty auditorium performer POV",
-      "stage door external night",
-      "green room pre-show nervous",
-      "Royal Opera House stage London",
-      "Sydney Opera House stage",
-      "New York Metropolitan Opera stage",
-      "Vienna Staatsoper stage empty",
-      "La Scala Milan stage",
-      "Paris Opéra Garnier stage",
-      "Moscow Bolshoi stage empty",
-      "Berlin Deutsche Oper stage",
-      "Barcelona Liceu stage",
-      "RSC Stratford stage empty",
-      "National Theatre London Lyttelton",
-      "Globe Theatre stage London",
-      "Carnegie Hall stage empty",
-      "Lincoln Center stage New York",
-      "Kennedy Center stage Washington",
-      "Royal Albert Hall stage London",
-      "Barbican Pit London",
-      "Almeida Theatre London stage",
-      "Young Vic stage London",
-      "Donmar Warehouse stage London",
-      "Gate Theatre Dublin stage",
-      "Abbey Theatre Dublin stage",
-      "Gaiety Theatre Dublin",
-      "National Theatre Dublin stage",
-      "Broadway stage empty 42nd",
-      "Off-Broadway black box stage",
-      "Edinburgh Fringe venue stage",
-      "Festival Theatre Edinburgh",
-      "Traverse Edinburgh stage",
-      "Usher Hall Edinburgh empty",
-      "Sage Gateshead stage empty",
-      "Bridgewater Hall Manchester stage",
-      "City Varieties Leeds stage",
-      "Theatre Royal Glasgow stage",
-      "Citizens Theatre Glasgow",
-      "King's Theatre Glasgow stage",
-      "Welsh Millennium Centre stage Cardiff",
-      "Sherman Theatre Cardiff",
-      "Chapter Arts Cardiff"
-    ],
-    "poses": [
-      "mid-salsa dip full stretch floor close",
-      "tango lock eye to eye face-to-face",
-      "contemporary lift peak arms wide above",
-      "breaking into street dance free",
-      "slow ballroom turn close hold classic",
-      "both in dramatic tableau freeze",
-      "one lifting other in ballet partnering",
-      "facing audience back in spotlight both",
-      "mirror dance same move symmetrical",
-      "one in character other watching wings",
-      "both mid-jazz run hands back flying",
-      "emotional scene climax both still",
-      "curtain call both hands joined",
-      "bowing both to empty house",
-      "rehearsal marked positions both studying",
-      "one belting other silent close harmony",
-      "improvisation response both attentive",
-      "character fight choreographed careful",
-      "both in character completely absorbed",
-      "aerial silk one holding other aloft",
-      "tap dance in sync feet blur",
-      "acro base and flyer matched",
-      "Irish jig both feet flying",
-      "flamenco stomp both dramatic",
-      "contemporary roll across floor together",
-      "physical comedy both straight face impossible",
-      "cabaret stance both microphone shared",
-      "classical pas de deux supported",
-      "musical theatre finish hold arms",
-      "dramatic monologue one other listens in scene",
-      "both mid-turn spotting ceiling",
-      "character confrontation inches apart tension",
-      "physical theatre weight share both",
-      "both at microphone stand harmonising",
-      "lighting change caught mid-pose both",
-      "ensemble moment both in physical mass",
-      "solo spotlight watching from wings other",
-      "both falling in choreographed trust fall",
-      "character song climax both committed",
-      "pre-show kiss for luck close",
-      "final bow one hand raised both",
-      "scene in profile both stage lighting",
-      "mirror exercise both face-to-face matching",
-      "both lying stage floor looking up flies",
-      "standing ovation both receiving arms wide",
-      "physical warm-up together partner stretching"
-    ],
-    "looks": [
-      "fitted dance wear minimal movement-ready both",
-      "sleek leotard and fitted dance pants each",
-      "crop tops wide pants dance both",
-      "bodysuit tailored trousers both sharp",
-      "simple evening wear stage each",
-      "rehearsal clothes activewear both",
-      "ballet rehearsal wear both classic",
-      "tap shoes jazz outfit both smart",
-      "character costume fitted both",
-      "stage formal wear elevated both",
-      "flamenco dress and fitted trousers each",
-      "tango performance dress and suit each",
-      "jazz dance outfit both contemporary",
-      "contemporary dance minimal both",
-      "musical theatre costume both character",
-      "cabaret costume both glamorous minimal",
-      "stage blacks both technical crew adjacent",
-      "physical theatre minimal both free",
-      "fitted suit stage both smart performance",
-      "silks and satins performance both",
-      "ballet white both classical",
-      "character dressing gown pre-show each",
-      "stage makeup visible casual dress both backstage",
-      "costumes half-on both mid-change",
-      "performance tracksuit warm-up both",
-      "skin-toned base layer dance both",
-      "beaded performance costume both",
-      "feather trim show costume both",
-      "dramatic make-up visible rehearsal clothes both",
-      "high-drama costume both committed",
-      "circus performance costume both",
-      "vaudeville costume both vintage",
-      "opera costume both period drama",
-      "burlesque inspired costume tasteful both",
-      "street dance outfit both urban",
-      "ballroom competition dress and tails each",
-      "hip hop performance outfit both",
-      "k-pop stage costume both coordinated",
-      "showgirl costume both theatrical",
-      "acrobatic performance costume both fitted",
-      "period drama costume both accurate",
-      "contemporary performance minimal both",
-      "ice dance costume figure-appropriate both",
-      "dramatic character shoe and costume each"
+      "performance vs. sincerity",
+      "audience vs. performer",
+      "the role vs. the person",
+      "watched vs. unwatched",
+      "the mask vs. the face",
+      "staged vs. caught",
+      "the speech vs. the feeling",
+      "dramatic vs. mundane",
+      "playing vs. being",
+      "the gesture vs. the truth"
     ],
     "affinities": {
-      "performer vs. audience": {
+      "performance vs. sincerity": {
         "locs": [
-          "empty stage single spot",
-          "empty opera house stalls",
-          "front of house empty",
-          "empty festival stage",
-          "arena floor post-show"
+          "petrol station forecourt dramatic speech nobody watching",
+          "supermarket aisle operatic gesture fluorescent",
+          "laundromat 3am theatrical monologue empty"
         ],
         "poses": [
-          "face-to-face in spotlight",
-          "tableau vivant pose",
-          "lighting rig silhouette pose",
-          "frozen bow to each other",
-          "freeze in conflict pose"
+          "one delivering speech other is audience petrol station",
+          "both theatrical gesture mundane location fluorescent"
         ],
         "looks": [
-          "fitted dress and tailored trousers each",
-          "fitted unitard",
-          "fitted concert blacks",
-          "minimal black on black",
-          "performance sport set"
-        ]
-      },
-      "mask vs. face": {
-        "locs": [
-          "dressing room mirror",
-          "cold dressing room",
-          "costume department",
-          "prop storage room",
-          "ballet studio mirror wall"
-        ],
-        "poses": [
-          "mirror movement face to face",
-          "freeze in conflict pose",
-          "physical theater tableau",
-          "tableau vivant pose",
-          "lighting rig silhouette pose"
-        ],
-        "looks": [
-          "theatrical costume layered open",
-          "neutral base costume layer",
-          "rehearsal leotard warm-up pants",
-          "open rehearsal kit",
-          "rehearsal clothes well-worn"
-        ]
-      },
-      "rehearsal vs. real": {
-        "locs": [
-          "rehearsal room bare",
-          "dance rehearsal studio",
-          "ballet studio mirror wall",
-          "black box theater bare",
-          "backstage corridor"
-        ],
-        "poses": [
-          "synchronized arm sequence",
-          "partner stretch hold",
-          "floor sequence together",
-          "contact improv floor work",
-          "weight share lean"
-        ],
-        "looks": [
-          "rehearsal clothes well-worn",
-          "open rehearsal kit",
-          "practice wear no shoes",
-          "athletic dance sets",
-          "rehearsal leotard warm-up pants"
-        ]
-      },
-      "effort vs. effortless": {
-        "locs": [
-          "ballet studio mirror wall",
-          "empty stage single spot",
-          "concert hall predawn",
-          "dance studio rooftop",
-          "outdoor arena at dusk"
-        ],
-        "poses": [
-          "pas de deux arabesque support",
-          "contemporary lift at peak",
-          "suspended hold mid-air",
-          "one en pointe supported",
-          "hand to hand balance"
-        ],
-        "looks": [
-          "sleek dance wear minimal",
-          "fitted unitard",
-          "contemporary dance minimal",
-          "leotard and wide trousers",
-          "athletic dance sets"
-        ]
-      },
-      "character vs. self": {
-        "locs": [
-          "dressing room mirror",
-          "costume department",
-          "stage door exterior",
-          "cold dressing room",
-          "green room at midnight"
-        ],
-        "poses": [
-          "physical theater tableau",
-          "freeze in conflict pose",
-          "mirror movement face to face",
-          "tableau vivant pose",
-          "lighting rig silhouette pose"
-        ],
-        "looks": [
-          "theatrical costume layered open",
-          "neutral base costume layer",
-          "deconstructed formalwear",
-          "character shoes rehearsal wear",
-          "rehearsal clothes well-worn"
-        ]
-      },
-      "present vs. past": {
-        "locs": [
-          "empty opera house stalls",
-          "theater fly tower",
-          "conductor podium",
-          "empty opera wings",
-          "concert grand piano beside"
-        ],
-        "poses": [
-          "frozen bow to each other",
-          "slow dance close hold",
-          "slow ballroom turn close hold",
-          "tableau vivant pose",
-          "lighting rig silhouette pose"
-        ],
-        "looks": [
-          "simple evening wear",
-          "fitted dress and tailored trousers each",
-          "silk tops structured trousers",
-          "deconstructed formalwear",
-          "minimal black on black"
-        ]
-      },
-      "applause vs. silence": {
-        "locs": [
-          "empty stage single spot",
-          "empty opera house stalls",
-          "front of house empty",
-          "amphitheater at dawn",
-          "outdoor stage pre-storm"
-        ],
-        "poses": [
-          "frozen bow to each other",
-          "face-to-face in spotlight",
-          "tableau vivant pose",
-          "final scene freeze",
-          "lighting rig silhouette pose"
-        ],
-        "looks": [
-          "fitted dress and tailored trousers each",
-          "fitted concert blacks",
-          "simple evening wear",
-          "minimal black on black",
-          "fitted unitard"
-        ]
-      },
-      "light vs. dark": {
-        "locs": [
-          "theater wings offstage",
-          "lighting grid walkway",
-          "follow-spot operator position",
-          "empty stage single spot",
-          "catwalk above stage"
-        ],
-        "poses": [
-          "face-to-face in spotlight",
-          "lighting rig silhouette pose",
-          "freeze in conflict pose",
-          "physical theater tableau",
-          "frozen bow to each other"
-        ],
-        "looks": [
-          "minimal black on black",
-          "fitted all-black dance set",
-          "fitted concert blacks",
-          "fitted unitard",
-          "sleek dance wear minimal"
-        ]
-      },
-      "built vs. felt": {
-        "locs": [
-          "theater fly tower",
-          "stage manager wing",
-          "sound booth interior",
-          "trap door stage",
-          "orchestra pit empty"
-        ],
-        "poses": [
-          "contact improv floor work",
-          "duet floor roll",
-          "partnered floorwork hold",
-          "modern collapse catch",
-          "physical theater tableau"
-        ],
-        "looks": [
-          "rehearsal clothes well-worn",
-          "open rehearsal kit",
-          "practice wear no shoes",
-          "athletic dance sets",
-          "contemporary dance minimal"
-        ]
-      },
-      "desire vs. restraint": {
-        "locs": [
-          "empty stage single spot",
-          "jazz club after close",
-          "cabaret stage cleared",
-          "black box theater bare",
-          "club floor at close"
-        ],
-        "poses": [
-          "tango lock eye to eye",
-          "slow dance close hold",
-          "mid-salsa dip at full stretch",
-          "reaching away from each other",
-          "contra body slow turn"
-        ],
-        "looks": [
-          "fitted dress and tailored trousers each",
-          "body suit tailored pants",
-          "leather shorts fitted tops",
-          "corset top wide pants and open shirt wide trousers",
-          "silk trousers fitted cami"
-        ]
-      },
-      "seen vs. unseen": {
-        "locs": [
-          "theater wings offstage",
-          "backstage corridor",
-          "stage door alley",
-          "lighting grid walkway",
-          "stage manager wing"
-        ],
-        "poses": [
-          "freeze in conflict pose",
-          "one carrying other offstage",
-          "lighting rig silhouette pose",
-          "physical theater tableau",
-          "final scene freeze"
-        ],
-        "looks": [
-          "minimal black on black",
-          "fitted all-black dance set",
-          "fitted concert blacks",
-          "rehearsal clothes well-worn",
-          "practice wear no shoes"
-        ]
-      },
-      "beginning vs. end": {
-        "locs": [
-          "empty stage single spot",
-          "concert hall predawn",
-          "amphitheater at dawn",
-          "street outside theater",
-          "stage door exterior"
-        ],
-        "poses": [
-          "frozen bow to each other",
-          "final scene freeze",
-          "running toward each other freeze",
-          "slow motion run approach",
-          "lighting rig silhouette pose"
-        ],
-        "looks": [
-          "simple evening wear",
-          "fitted dress and tailored trousers each",
-          "fitted concert blacks",
-          "minimal black on black",
-          "fitted unitard"
-        ]
-      },
-      "control vs. abandon": {
-        "locs": [
-          "ballet studio mirror wall",
-          "dance rehearsal studio",
-          "jazz club after close",
-          "club floor at close",
-          "outdoor arena at dusk"
-        ],
-        "poses": [
-          "breaking into street dance",
-          "hip-hop freeze midstep",
-          "swing dance aerial peak",
-          "contact improv floor work",
-          "jazz split reach"
-        ],
-        "looks": [
-          "athletic dance sets",
-          "contemporary dance minimal",
-          "keyhole performance wear",
-          "mesh performance top shorts",
-          "dance belt and shorts"
-        ]
-      },
-      "trained vs. raw": {
-        "locs": [
-          "rehearsal room bare",
-          "dance rehearsal studio",
-          "ballet studio mirror wall",
-          "black box theater bare",
-          "club floor at close"
-        ],
-        "poses": [
-          "breaking into street dance",
-          "hip-hop freeze midstep",
-          "contact improv floor work",
-          "floor sequence together",
-          "duet floor roll"
-        ],
-        "looks": [
-          "rehearsal clothes well-worn",
-          "open rehearsal kit",
-          "athletic dance sets",
-          "contemporary dance minimal",
-          "practice wear no shoes"
-        ]
-      },
-      "spotlight vs. shadow": {
-        "locs": [
-          "empty stage single spot",
-          "follow-spot operator position",
-          "theater wings offstage",
-          "catwalk above stage",
-          "lighting grid walkway"
-        ],
-        "poses": [
-          "face-to-face in spotlight",
-          "lighting rig silhouette pose",
-          "freeze in conflict pose",
-          "physical theater tableau",
-          "frozen bow to each other"
-        ],
-        "looks": [
-          "minimal black on black",
-          "fitted all-black dance set",
-          "fitted concert blacks",
-          "sleek dance wear minimal",
-          "fitted unitard"
-        ]
-      },
-      "scored vs. free": {
-        "locs": [
-          "concert hall predawn",
-          "conductor podium",
-          "ballet studio mirror wall",
-          "jazz club after close",
-          "outdoor stage pre-storm"
-        ],
-        "poses": [
-          "synchronized arm sequence",
-          "unison jump freeze",
-          "mirror movement face to face",
-          "contact improv floor work",
-          "breaking into street dance"
-        ],
-        "looks": [
-          "fitted concert blacks",
-          "fitted unitard",
-          "rehearsal clothes well-worn",
-          "athletic dance sets",
-          "contemporary dance minimal"
-        ]
-      },
-      "choreographed vs. instinct": {
-        "locs": [
-          "ballet studio mirror wall",
-          "dance rehearsal studio",
-          "rehearsal room bare",
-          "club floor at close",
-          "jazz club after close"
-        ],
-        "poses": [
-          "synchronized arm sequence",
-          "unison jump freeze",
-          "breaking into street dance",
-          "hip-hop freeze midstep",
-          "contact improv floor work"
-        ],
-        "looks": [
-          "rehearsal clothes well-worn",
-          "athletic dance sets",
-          "contemporary dance minimal",
-          "open rehearsal kit",
-          "practice wear no shoes"
-        ]
-      },
-      "rehearsed vs. broken": {
-        "locs": [
-          "rehearsal room bare",
-          "dance rehearsal studio",
-          "black box theater bare",
-          "backstage corridor",
-          "theater wings offstage"
-        ],
-        "poses": [
-          "modern collapse catch",
-          "dramatic fall catch hold",
-          "contact catch midfall",
-          "physical theater tableau",
-          "freeze in conflict pose"
-        ],
-        "looks": [
-          "rehearsal clothes well-worn",
-          "open rehearsal kit",
-          "practice wear no shoes",
-          "theatrical costume layered open",
-          "athletic dance sets"
-        ]
-      },
-      "artist vs. craft": {
-        "locs": [
-          "ballet studio mirror wall",
-          "dance rehearsal studio",
-          "rehearsal room bare",
-          "concert grand piano beside",
-          "conductor podium"
-        ],
-        "poses": [
-          "partner stretch hold",
-          "floor sequence together",
-          "synchronized arm sequence",
-          "contact improv floor work",
-          "weight share lean"
-        ],
-        "looks": [
-          "rehearsal clothes well-worn",
-          "open rehearsal kit",
-          "practice wear no shoes",
-          "athletic dance sets",
-          "fitted unitard"
-        ]
-      },
-      "moment vs. eternity": {
-        "locs": [
-          "empty stage single spot",
-          "outdoor arena at dusk",
-          "amphitheater at dawn",
-          "concert hall predawn",
-          "outdoor stage pre-storm"
-        ],
-        "poses": [
-          "frozen bow to each other",
-          "final scene freeze",
-          "suspended hold mid-air",
-          "tableau vivant pose",
-          "lighting rig silhouette pose"
-        ],
-        "looks": [
-          "simple evening wear",
-          "fitted dress and tailored trousers each",
-          "fitted concert blacks",
-          "minimal black on black",
-          "fitted unitard"
+          "formal evening wear incongruous mundane location each",
+          "theatrical dramatic clothes wrong context each"
         ]
       }
     },
-    "promptSuffix": "Render with theatrical lighting: dramatic pools of stage light, deep shadow in the wings, the texture of performance — sweat, effort, presence. The lighting should be impractical and beautiful, the way stage lighting is."
+    "locs": [
+      "petrol station forecourt dramatic speech nobody watching night",
+      "supermarket aisle operatic gesture fluorescent ordinary",
+      "laundromat 3am theatrical monologue washing machines",
+      "bus stop theatrical declaration nobody waiting",
+      "hospital waiting room dramatic exit door",
+      "car park rooftop theatrical confrontation empty night",
+      "kebab shop 2am grand gesture fluorescent",
+      "train carriage theatrical aside fellow passengers ignore",
+      "airport arrivals hall dramatic reunion theatrical",
+      "lift lobby theatrical pause before doors open",
+      "office corridor dramatic walk away slow motion",
+      "phone box raining theatrical call dramatic",
+      "motorway services dramatic tableau ordinary setting",
+      "underpass theatrical freeze frame urban",
+      "corner shop theatrical argument fluorescent",
+      "post office queue theatrical monologue",
+      "swimming pool changing room dramatic exit",
+      "railway platform theatrical goodbye overplayed",
+      "department store escalator theatrical descent",
+      "bowling alley theatrical celebration strike",
+      "bus upper deck theatrical speech empty",
+      "car wash theatrical moment soap suds",
+      "dentist waiting room theatrical anxiety performance",
+      "betting shop theatrical reaction to result",
+      "library theatrical whispered intensity quiet",
+      "chip shop 11pm theatrical romance counter",
+      "newsagent morning theatrical significance ordinary",
+      "cemetery theatrical grief performative",
+      "wedding registry office theatrical entrance late",
+      "rooftop car park theatrical last stand night"
+    ],
+    "poses": [
+      "one delivering speech other is sole audience mundane location",
+      "both theatrical freeze frame mid-mundane-task dramatic",
+      "one dramatic exit mundane space other watches",
+      "both operatic gesture ordinary fluorescent setting",
+      "one monologue other bored mundane location",
+      "both theatrical slow motion ordinary context",
+      "one dramatic fall other nonplussed mundane",
+      "both mid-theatrical-argument mundane public space",
+      "one grand romantic gesture other embarrassed public space",
+      "both theatrical curtain call wrong location entirely",
+      "one pointing dramatically other indifferent ordinary",
+      "both staged tableau mundane background",
+      "one theatrical aside to camera other unaware",
+      "both dramatic embrace incongruous mundane setting",
+      "one theatrical collapse other steps over them ordinary",
+      "both theatrical bow mundane location",
+      "one soliloquy other on phone mundane",
+      "both theatrical reconciliation supermarket aisle",
+      "one dramatic entrance through ordinary door",
+      "both theatrical freeze mid-ordinary-action"
+    ],
+    "looks": [
+      "formal evening wear incongruous mundane location each",
+      "theatrical costume wrong context entirely each",
+      "dramatic cape ordinary setting each incongruous",
+      "Shakespearean costume petrol station each",
+      "opera costume supermarket each absurd",
+      "everyday clothes performed theatrically each",
+      "tuxedo and gown laundromat each",
+      "Victorian theatrical ordinary location each",
+      "commuter clothes performed grandly each",
+      "casual clothes maximum theatrical intensity each"
+    ],
+    "promptSuffix": "Colour grade: the specific contrast of theatrical drama in mundane light — fluorescent supermarket, petrol station sodium, laundromat neon. Heightened emotion in ordinary space."
   },
   {
     "id": "romance",
@@ -9364,7 +6332,7 @@ const WORLDS = [
   {
     "id": "hero",
     "name": "THE HERO",
-    "sub": "Spaghetti Western, Samurai, Noir & the Last Stand",
+    "sub": "Spaghetti Western, Noir, Samurai & the Last Stand",
     "color": "#5a3a1a",
     "tensions": [
       "the code vs. the cost",
@@ -9381,679 +6349,206 @@ const WORLDS = [
     "affinities": {
       "the code vs. the cost": {
         "locs": [
-          "Sergio Leone spaghetti western dust street high noon",
-          "film noir private detective rain 1940s Los Angeles",
-          "Kurosawa samurai feudal Japan mist dawn"
+          "Leone extreme close-up eyes standoff dust noon sun",
+          "Kurosawa samurai dawn mist field two opponents",
+          "film noir Los Angeles rain street 1940s dynamic"
         ],
         "poses": [
-          "both spaghetti western standoff dust street noon",
-          "both film noir rain Los Angeles 1940s night"
+          "both Leone extreme close-up eyes standoff dust noon",
+          "both Kurosawa dawn mist draw dynamic samurai"
         ],
         "looks": [
-          "spaghetti western poncho dust each Leone",
-          "film noir trench coat hat rain 1940s each"
+          "Leone spaghetti western poncho dust each",
+          "Kurosawa samurai robes practical worn each"
+        ]
+      },
+      "honour vs. survival": {
+        "locs": [
+          "1970s Hong Kong rooftop kung fu choreography Shaws",
+          "Peckinpah slow motion dust blood dramatic western",
+          "French New Wave Paris chase streets 1960s"
+        ],
+        "poses": [
+          "both Shaw Brothers kung fu rooftop 1970s dynamic mid-kick",
+          "both Peckinpah slow motion dust dramatic mid-action"
+        ],
+        "looks": [
+          "Shaw Brothers kung fu practical 1970s each",
+          "Peckinpah western outlaw worn each"
         ]
       }
     },
     "locs": [
-      "Sergio Leone spaghetti western dust main street high noon",
-      "film noir Los Angeles rain 1940s street lamp",
-      "Kurosawa samurai village mist dawn feudal Japan",
-      "1970s Hong Kong kung fu rooftop fight choreography",
-      "Sam Peckinpah slow motion western dust blood",
-      "French New Wave Paris existential street 1960s",
-      "John Woo Hong Kong action slow motion 1980s",
-      "Chandler Los Angeles detective office venetian blinds",
-      "Dashiell Hammett San Francisco noir fog rain",
-      "Leone close up extreme dust eyes standoff",
-      "1950s western saloon interior practical light",
-      "samurai dojo interior dawn training",
-      "noir hotel room venetian blinds shadow",
-      "1970s cop car American interior night",
-      "western desert landscape vast Leone",
-      "Japanese chambara sword fight cherry blossom",
-      "Blaxploitation 1970s urban exterior night",
-      "Shaw Brothers 1970s set fight choreography",
-      "hardboiled detective office rain window",
-      "western station platform dust one train leaving"
+      "Leone spaghetti western main street standoff noon dust extreme",
+      "Leone close-up eyes sweat dust standoff dramatic",
+      "western saloon swing doors dramatic entrance",
+      "western canyon ambush dramatic rocks dust",
+      "western train robbery moving dramatic dynamic",
+      "western dawn cemetery standoff dramatic light",
+      "Kurosawa samurai dawn mist field two opponents dynamic",
+      "Kurosawa rain mud samurai fight low angle dynamic",
+      "samurai bamboo forest duel dynamic light",
+      "Edo period Japan village samurai arrival dramatic",
+      "samurai castle rooftop fight dramatic dynamic",
+      "feudal Japan bridge standoff samurai dramatic",
+      "film noir Los Angeles rain alley 1940s dynamic chase",
+      "Chandler detective office venetian blind shadow dramatic",
+      "noir San Francisco fog chase hill dramatic",
+      "noir night club chase dramatic 1940s",
+      "noir car chase night Los Angeles dynamic",
+      "noir rooftop confrontation rain dramatic 1940s",
+      "Shaw Brothers rooftop kung fu 1970s dynamic mid-fight",
+      "John Woo dual pistol dramatic slow motion 1980s",
+      "Hong Kong alley chase dynamic parkour dramatic",
+      "Bruce Lee dojo fight scene dramatic dynamic",
+      "1970s Hong Kong street fight dramatic dynamic",
+      "kung fu training hall dramatic dynamic 1970s",
+      "Peckinpah slow motion dust blood dramatic western shot",
+      "great plains western final showdown dramatic vast",
+      "western desert chase horses dramatic dynamic",
+      "Blaxploitation 1970s urban chase night dynamic",
+      "hardboiled detective rain chase dramatic dynamic",
+      "film noir bridge confrontation rain dramatic"
     ],
     "poses": [
-      "both spaghetti western standoff dust high noon extreme close",
-      "both film noir rain street Los Angeles night 1940s",
-      "both samurai dawn mist feudal Japan drawing",
-      "both kung fu 1970s Hong Kong rooftop choreography",
-      "both noir venetian blinds shadow office interior",
-      "both western saloon confrontation interior",
-      "both slow motion Peckinpah dust dramatic",
-      "both French New Wave Paris existential 1960s",
-      "both chambara cherry blossom Japan sword",
-      "both Chandler detective rain Los Angeles night"
+      "both Leone standoff extreme close-up eyes sweat dust noon",
+      "both Kurosawa samurai draw dynamic dawn mist dramatic",
+      "both Shaw Brothers mid-kick rooftop dynamic 1970s",
+      "both Peckinpah slow motion falling dramatic western",
+      "both John Woo dual pistol back to back dramatic",
+      "both noir chase rain alley dynamic running",
+      "both western saloon brawl dynamic action",
+      "both samurai rain mud fight low angle dynamic",
+      "both kung fu bamboo forest duel dynamic",
+      "both noir rooftop confrontation rain dramatic",
+      "both western train robbery moving dramatic",
+      "both Blaxploitation chase urban night dynamic",
+      "both hardboiled detective pursuit rain dynamic",
+      "both samurai castle rooftop fight dramatic",
+      "both western canyon ambush rocks dramatic",
+      "both noir fog chase San Francisco hill",
+      "both western final showdown vast plain dramatic",
+      "both kung fu training dynamic dramatic",
+      "both noir car chase night dynamic",
+      "both samurai dawn cemetery dramatic light draw"
     ],
     "looks": [
-      "spaghetti western poncho duster dust each Leone",
+      "Leone spaghetti western poncho duster dust each",
+      "Kurosawa samurai practical worn robes each",
+      "Shaw Brothers kung fu practical 1970s each",
+      "Peckinpah western outlaw worn dust blood each",
       "film noir trench coat fedora 1940s each",
-      "samurai kimono armor feudal each Japan",
-      "1970s Hong Kong kung fu each practical",
-      "Blaxploitation 1970s urban each",
-      "Shaw Brothers kung fu each 1970s set",
-      "French New Wave 1960s casual each existential",
-      "Peckinpah western outlaw each dust",
-      "hardboiled detective rumpled suit each",
-      "western outlaw duster hat each"
+      "John Woo suit dramatic each 1980s",
+      "Blaxploitation 1970s urban each dynamic",
+      "Bruce Lee practical training each",
+      "western gunfighter duster hat each",
+      "noir detective rumpled suit each"
     ],
-    "promptSuffix": "Colour grade: Leone dust and extreme close-up, noir rain and shadow, samurai mist and ink, Hong Kong neon action."
+    "promptPrefix": "Cinematic genre still — spaghetti western, noir, samurai, kung fu — dynamic mid-action composition, low angles, extreme close-ups, Dutch tilts — ",
+    "promptSuffix": "This is a mid-action genre film still. Dynamic angle, motion implied. Not a poster — a frame from the action. Low angle, extreme close-up, Dutch tilt, motion blur on the world. The subjects are in motion or about to move."
   },
   {
     "id": "space",
     "name": "THE SPACE",
-    "sub": "Sci-Fi & The Cosmos",
-    "color": "#4466cc",
+    "sub": "Mission Control, Pale Blue Dot & the Long Way Home",
+    "color": "#0a1a4a",
     "tensions": [
-      "vast vs. small",
-      "known vs. unknown",
-      "gravity vs. weightless",
-      "oxygen vs. void",
-      "signal vs. silence",
-      "mission vs. survival",
-      "human vs. cosmos",
-      "orbit vs. freefall",
-      "light speed vs. still",
-      "launch vs. landing",
-      "planet vs. star",
-      "crew vs. alone",
-      "system vs. chaos",
-      "discovery vs. dread",
-      "terraform vs. accept",
-      "transmission vs. static",
-      "countdown vs. abort",
-      "artifact vs. void",
-      "first contact vs. solitude",
-      "return vs. lost"
-    ],
-    "locs": [
-      "launch pad pre-ignition T-minus hold",
-      "mission control empty overnight",
-      "space station observation cupola window Earth",
-      "lunar surface crater rim Earth above",
-      "Mars red dust plain horizon flat",
-      "asteroid mining platform exterior",
-      "exoplanet first landing alien sky",
-      "black hole research vessel safe distance",
-      "Jupiter cloud layer research station",
-      "Saturn ring station exterior",
-      "Pluto flyby exterior frozen",
-      "comet surface landing tethered",
-      "deep space transit vessel corridor",
-      "cryosleep chamber awakening",
-      "space elevator ascent halfway",
-      "orbital hotel view deck Earth",
-      "Kennedy Space Centre launch control",
-      "Houston JSC mission simulator",
-      "Baikonur Cosmodrome launch site Kazakhstan",
-      "Star City training facility Russia",
-      "ESA training centre Cologne",
-      "Astronaut hall of fame Florida",
-      "Space Shuttle Atlantis display interior",
-      "Saturn V rocket base Florida",
-      "Soyuz capsule training interior",
-      "ISS training pool underwater",
-      "neutral buoyancy pool astronaut training",
-      "zero-G aircraft parabola inside",
-      "planetarium dome below projection",
-      "observatory telescope control room",
-      "radio telescope base signal listening",
-      "space museum corridor display both",
-      "observatory on volcano Mauna Kea Hawaii",
-      "Atacama Observatory Chile exterior night",
-      "Very Large Telescope Chile exterior",
-      "Arecibo-equivalent structure exterior",
-      "Control room Hubble maintenance",
-      "James Webb team celebration room",
-      "Mars Curiosity control room JPL",
-      "New Horizons flyby celebration JPL",
-      "Apollo mission anniversary meeting",
-      "Artemis crew announcement",
-      "SpaceX factory floor Falcon",
-      "Blue Origin factory Shepard beside",
-      "Virgin Galactic spaceport exterior",
-      "JAXA control room Tokyo"
-    ],
-    "poses": [
-      "floating face to face weightless calm",
-      "both looking at Earth from porthole close",
-      "one tethered one free spacewalk exterior",
-      "visor to visor suited both",
-      "one catching other mid-drift corridor",
-      "both at controls focused mission",
-      "floating in bunk asleep zero-G one watches",
-      "both at meal floating food around them",
-      "one performing EVA other inside watching",
-      "both examining sample container collected",
-      "back to back floating vertical both",
-      "both pointing at same feature planet below",
-      "one suit check other checking carefully",
-      "mission patch moment both ceremonial",
-      "both looking at hologram planetary mission",
-      "one consoling other loss signal grief",
-      "both celebrating touchdown arms up",
-      "one first steps planet surface other photographs",
-      "connected tether between both spacewalk",
-      "both looking at sun behind solar filter",
-      "both floating toward camera corridor",
-      "one recording message home other waits",
-      "both at airlock preparing to exit EVA",
-      "one behind other helping suit seal check",
-      "both looking at critical display alarm",
-      "mission photograph official both straight",
-      "both exhausted after EVA suited down",
-      "floating chess game both absorbed",
-      "birthday celebration microgravity both",
-      "award ceremony in space both floating",
-      "both at window watching meteorite shower",
-      "one at telescope other holds position",
-      "both at hatch exterior view first time",
-      "one behind other at manual docking controls",
-      "both in sleep rotation pods connected",
-      "first contact response both serious"
-    ],
-    "looks": [
-      "EVA pressure suit visor open both",
-      "mission jumpsuit chest insignia both",
-      "flight suit open unzipped practical both",
-      "crew jumpsuit sleeves rolled both",
-      "reflective suit collar open both",
-      "liquid cooling garment inner layer both",
-      "launch and entry suit bright orange both",
-      "Advanced Crew Escape Suit both",
-      "ISS crew casual jumpsuit logo both",
-      "off-duty station clothes soft layers both",
-      "training flight suit simulation both",
-      "spacesuit concept art future both",
-      "civilian space tourist premium suit both",
-      "commercial crew Boeing suit white both",
-      "SpaceX Dragon suit sleek black both",
-      "Axiom Mission suit white design both",
-      "pressure suit partial donning each",
-      "helmet off suit collar up both",
-      "mission patch collection visible suits both",
-      "national flag patch visible suits both",
-      "EVA gloves off hands exposed both",
-      "footstrap boots visible zero-G both",
-      "mission polo shirt embroidered both",
-      "mission tee commemorative both",
-      "NASA hoodie casual station both",
-      "ESA casual station wear both",
-      "Roscosmos casual wear both",
-      "JAXA station casual both",
-      "launch day suit formal pressure both",
-      "re-entry suit preparation both",
-      "suit up sequence partial both",
-      "full pressure suit sealed EVA ready both"
+      "the mission vs. the person",
+      "vastness vs. the small craft",
+      "home vs. the void",
+      "the launch vs. the return",
+      "earth vs. orbit",
+      "the astronaut vs. the human",
+      "technical vs. emotional",
+      "the countdown vs. the silence",
+      "going vs. coming back",
+      "the pale blue dot vs. the infinite"
     ],
     "affinities": {
-      "vast vs. small": {
+      "the mission vs. the person": {
         "locs": [
-          "space station observation cupola",
-          "lunar surface crater edge",
-          "alien planet horizon line",
-          "deep space relay station",
-          "void between galaxies"
+          "NASA mission control 1969 Apollo celebration genuine Houston",
+          "astronaut portrait before launch suit up genuine NASA",
+          "ISS cupola window Earth below blue atmosphere"
         ],
         "poses": [
-          "both looking out porthole at planet",
-          "looking down at Earth together",
-          "both pressed against observation glass",
-          "both staring into void together",
-          "one pointing at nebula other looking"
+          "both NASA mission control 1969 genuine celebration",
+          "both ISS cupola window Earth below looking"
         ],
         "looks": [
-          "EVA pressure suit visor lifted",
-          "mission jumpsuit chest insignia",
-          "colony linen light layers",
-          "deep crew dark layers",
-          "mission tee flight pants"
-        ]
-      },
-      "known vs. unknown": {
-        "locs": [
-          "alien ruins excavation site",
-          "wormhole aperture edge",
-          "alien planet horizon line",
-          "alien planet horizon line",
-          "exoplanet canyon rim"
-        ],
-        "poses": [
-          "crouched at alien artifact examining",
-          "kneeling at alien ruins together",
-          "standing at wormhole edge looking",
-          "first step on new planet together",
-          "scanning horizon alien world"
-        ],
-        "looks": [
-          "encounter suit collar open",
-          "first contact layers unsealed",
-          "exploration layers open chest",
-          "survival layers alien world",
-          "ruins explorer layers worn"
-        ]
-      },
-      "gravity vs. weightless": {
-        "locs": [
-          "space station gym zero-g",
-          "space station observation cupola",
-          "orbital ring walkway",
-          "space elevator base platform",
-          "escape pod interior cramped"
-        ],
-        "poses": [
-          "floating face to face weightless",
-          "slow spin together in zero gravity",
-          "both arms wide in zero gravity",
-          "drifting hands linked slow rotation",
-          "slow somersault together zero-g"
-        ],
-        "looks": [
-          "zero-g training layers light",
-          "mission jumpsuit chest insignia",
-          "pressure suit base layer only",
-          "EVA base layer simple tee",
-          "thermal underlayer light suit"
-        ]
-      },
-      "oxygen vs. void": {
-        "locs": [
-          "airlock threshold space outside",
-          "spacewalk tether point",
-          "derelict spacecraft hull exterior",
-          "space station docking bay",
-          "space rescue station dock"
-        ],
-        "poses": [
-          "one helping other seal helmet",
-          "one anchoring other to hull",
-          "one pulling other back to airlock",
-          "one holding oxygen line for other",
-          "one fixing the other's suit"
-        ],
-        "looks": [
-          "EVA pressure suit visor lifted",
-          "rebreather lowered flight suit open",
-          "EVA base layer simple tee",
-          "pressure suit base layer only",
-          "tactical suit layers minimal"
-        ]
-      },
-      "signal vs. silence": {
-        "locs": [
-          "deep space relay station",
-          "communication array rooftop",
-          "quantum navigation chamber",
-          "space station observation cupola",
-          "pulsar lighthouse exterior"
-        ],
-        "poses": [
-          "one transmitting signal other watching",
-          "both reading same navigation screen",
-          "visor reflection of star field",
-          "both staring into void together",
-          "one pointing at nebula other looking"
-        ],
-        "looks": [
-          "deep crew dark layers",
-          "navigation layers rolled sleeves",
-          "cartographer layers open",
-          "navigator uniform open collar",
-          "warp crew dark layers"
-        ]
-      },
-      "mission vs. survival": {
-        "locs": [
-          "asteroid mining platform",
-          "deep space fuel depot",
-          "space quarantine corridor",
-          "terraforming rig site",
-          "engine room thruster bay"
-        ],
-        "poses": [
-          "emergency repair side by side hull",
-          "one securing other's tether line",
-          "one carrying the other across moon",
-          "one pulling other through airlock",
-          "crouched at alien artifact examining"
-        ],
-        "looks": [
-          "orbital work suit dust-marked",
-          "terraformer work layers dusty",
-          "rescue layers minimal open",
-          "long-haul worn layers marked",
-          "expedition layers mission-worn"
-        ]
-      },
-      "human vs. cosmos": {
-        "locs": [
-          "void between galaxies",
-          "black hole accretion vista",
-          "binary star system vista",
-          "nebula visible through porthole",
-          "interstellar dust cloud pass"
-        ],
-        "poses": [
-          "both staring into void together",
-          "both looking at binary stars",
-          "both reaching toward same star",
-          "visor reflection of star field",
-          "both pressed against observation glass"
-        ],
-        "looks": [
-          "mission tee flight pants",
-          "colony linen light layers",
-          "deep crew dark layers",
-          "pressure suit base layer only",
-          "mission tee worn cargo pants"
-        ]
-      },
-      "orbit vs. freefall": {
-        "locs": [
-          "orbital ring walkway",
-          "planetary orbit transition zone",
-          "space elevator base platform",
-          "shuttle cockpit on approach",
-          "escape pod interior cramped"
-        ],
-        "poses": [
-          "floating face to face weightless",
-          "one catching the other mid-drift",
-          "both pushing off walls zero-g",
-          "one steadying other in zero-g",
-          "drifting toward each other arms out"
-        ],
-        "looks": [
-          "flight suit open unzipped",
-          "mission jumpsuit chest insignia",
-          "zero-g training layers light",
-          "shuttle crew layers open",
-          "decompression layers open collar"
-        ]
-      },
-      "light speed vs. still": {
-        "locs": [
-          "starship bridge view screen",
-          "wormhole aperture edge",
-          "quantum navigation chamber",
-          "deep space relay station",
-          "interstellar dust cloud pass"
-        ],
-        "poses": [
-          "suited up visor to visor",
-          "both reading same navigation screen",
-          "countdown embrace mission control",
-          "one pointing at nebula other looking",
-          "both staring into void together"
-        ],
-        "looks": [
-          "warp crew dark layers",
-          "pilot layers open collar",
-          "navigator uniform open collar",
-          "command layers open collar",
-          "tactical dark space layers"
-        ]
-      },
-      "launch vs. landing": {
-        "locs": [
-          "launch pad pre-ignition",
-          "mission control empty",
-          "shuttle cockpit on approach",
-          "lunar module landing leg",
-          "space station docking bay"
-        ],
-        "poses": [
-          "suited up visor to visor",
-          "countdown embrace mission control",
-          "suited hands locked pre-launch",
-          "one catching other drifting away",
-          "standing victorious on alien planet"
-        ],
-        "looks": [
-          "EVA pressure suit visor lifted",
-          "flight suit open unzipped",
-          "mission jumpsuit chest insignia",
-          "shuttle landing suit relieved open",
-          "command layers open collar"
-        ]
-      },
-      "planet vs. star": {
-        "locs": [
-          "binary star system vista",
-          "planetary ring surface walk",
-          "observation deck planet below",
-          "solar sail deployment deck",
-          "nebula visible through porthole"
-        ],
-        "poses": [
-          "both looking out porthole at planet",
-          "looking down at Earth together",
-          "both reaching toward same star",
-          "both looking at binary stars",
-          "one pointing at nebula other looking"
-        ],
-        "looks": [
-          "cartographer layers open",
-          "mission tee flight pants",
-          "deep crew dark layers",
-          "crew jumpsuit sleeves rolled",
-          "colony linen light layers"
-        ]
-      },
-      "crew vs. alone": {
-        "locs": [
-          "space station docking bay",
-          "cryosleep chamber corridor",
-          "mission control empty",
-          "colonist transport lower deck",
-          "deep space relay station"
-        ],
-        "poses": [
-          "floating side by side hands linked",
-          "back to back floating in zero-g",
-          "one anchoring other to hull",
-          "drifting hands linked slow rotation",
-          "both anchored outside hull starfield"
-        ],
-        "looks": [
-          "mission jumpsuit chest insignia",
-          "crew jumpsuit sleeves rolled",
-          "command layers open collar",
-          "shuttle crew layers open",
-          "science division open layers"
-        ]
-      },
-      "system vs. chaos": {
-        "locs": [
-          "engine room thruster bay",
-          "space debris field passage",
-          "derelict spacecraft hull exterior",
-          "space quarantine corridor",
-          "engine room thruster bay"
-        ],
-        "poses": [
-          "emergency repair side by side hull",
-          "one securing other's tether line",
-          "one fixing the other's suit",
-          "crouched at alien artifact examining",
-          "one pulling other through airlock"
-        ],
-        "looks": [
-          "engineering coverall open",
-          "orbital work suit dust-marked",
-          "rescue layers minimal open",
-          "miner layers worn marked",
-          "field suit visor raised"
-        ]
-      },
-      "discovery vs. dread": {
-        "locs": [
-          "alien ruins excavation site",
-          "wormhole aperture edge",
-          "alien planet horizon line",
-          "derelict spacecraft hull exterior",
-          "black hole accretion vista"
-        ],
-        "poses": [
-          "crouched at alien artifact examining",
-          "standing at wormhole edge looking",
-          "kneeling at alien ruins together",
-          "scanning horizon alien world",
-          "first step on new planet together"
-        ],
-        "looks": [
-          "encounter suit collar open",
-          "first contact layers unsealed",
-          "exploration layers open chest",
-          "survival layers alien world",
-          "ruins explorer layers worn"
-        ]
-      },
-      "terraform vs. accept": {
-        "locs": [
-          "terraforming rig site",
-          "space colony greenhouse dome",
-          "crater lake alien world",
-          "moon base habitat dome",
-          "comet surface ice field"
-        ],
-        "poses": [
-          "crouched on comet surface together",
-          "standing on asteroid surface together",
-          "kneeling at alien ruins together",
-          "one carrying the other across moon",
-          "both reading same navigation screen"
-        ],
-        "looks": [
-          "terraformer work layers dusty",
-          "colony work layers worn",
-          "greenhouse work smock soft",
-          "colony linen light layers",
-          "medic light layers open"
-        ]
-      },
-      "transmission vs. static": {
-        "locs": [
-          "communication array rooftop",
-          "deep space relay station",
-          "pulsar lighthouse exterior",
-          "quantum navigation chamber",
-          "starship bridge view screen"
-        ],
-        "poses": [
-          "one transmitting signal other watching",
-          "both reading same navigation screen",
-          "visor reflection of star field",
-          "both staring into void together",
-          "countdown embrace mission control"
-        ],
-        "looks": [
-          "deep crew dark layers",
-          "navigation layers rolled sleeves",
-          "navigator uniform open collar",
-          "cartographer layers open",
-          "warp crew dark layers"
-        ]
-      },
-      "countdown vs. abort": {
-        "locs": [
-          "launch pad pre-ignition",
-          "mission control empty",
-          "shuttle cockpit on approach",
-          "airlock threshold space outside",
-          "space station docking bay"
-        ],
-        "poses": [
-          "countdown embrace mission control",
-          "suited hands locked pre-launch",
-          "one helping other seal helmet",
-          "suited up visor to visor",
-          "one pulling other back to airlock"
-        ],
-        "looks": [
-          "EVA pressure suit visor lifted",
-          "flight suit open unzipped",
-          "mission jumpsuit chest insignia",
-          "decompression layers open collar",
-          "tactical suit layers minimal"
-        ]
-      },
-      "artifact vs. void": {
-        "locs": [
-          "alien ruins excavation site",
-          "void between galaxies",
-          "derelict spacecraft hull exterior",
-          "black hole accretion vista",
-          "comet surface ice field"
-        ],
-        "poses": [
-          "kneeling at alien ruins together",
-          "crouched at alien artifact examining",
-          "both staring into void together",
-          "standing at wormhole edge looking",
-          "crouched on comet surface together"
-        ],
-        "looks": [
-          "ruins explorer layers worn",
-          "exploration layers open chest",
-          "encounter suit collar open",
-          "deep crew dark layers",
-          "first contact layers unsealed"
-        ]
-      },
-      "first contact vs. solitude": {
-        "locs": [
-          "alien planet horizon line",
-          "alien ruins excavation site",
-          "deep space relay station",
-          "void between galaxies",
-          "exoplanet canyon rim"
-        ],
-        "poses": [
-          "first step on new planet together",
-          "scanning horizon alien world",
-          "crouched at alien artifact examining",
-          "both staring into void together",
-          "standing on asteroid surface together"
-        ],
-        "looks": [
-          "first contact layers unsealed",
-          "encounter suit collar open",
-          "survival layers alien world",
-          "deep crew dark layers",
-          "mission tee worn cargo pants"
-        ]
-      },
-      "return vs. lost": {
-        "locs": [
-          "mission control empty",
-          "space station docking bay",
-          "lunar module landing leg",
-          "cryosleep chamber corridor",
-          "space rescue station dock"
-        ],
-        "poses": [
-          "countdown embrace mission control",
-          "standing victorious on alien planet",
-          "one carrying the other across moon",
-          "helmet off hair floating",
-          "standing victorious on alien planet"
-        ],
-        "looks": [
-          "shuttle landing suit relieved open",
-          "expedition layers mission-worn",
-          "mission tee flight pants",
-          "long-haul worn layers marked",
-          "medical wrap open light"
+          "NASA 1960s mission control shirt tie each",
+          "ISS flight suit practical each"
         ]
       }
     },
-    "promptPrefix": "NASA-quality space photography, scientifically accurate, the profound emptiness and scale of space as backdrop — ",
-    "promptSuffix": "Render with the visual authenticity of real space imagery: hard vacuum lighting (one-directional sun, deep shadow, no atmosphere), accurate spacecraft or suit details, the overwhelming scale of space. Avoid science fiction clichés — this should feel like it could be a real NASA photograph."
+    "locs": [
+      "NASA mission control 1969 Apollo celebration consoles Houston",
+      "NASA astronaut suit-up room pre-launch genuine candid",
+      "Cape Canaveral launch pad Saturn V 1969 dramatic",
+      "NASA cafeteria astronaut training casual 1960s",
+      "NASA press conference Apollo 1960s genuine",
+      "Baikonur launch pad Soviet cosmonaut dramatic",
+      "ISS cupola window Earth below blue atmosphere vast",
+      "ISS interior cramped equipment floating objects",
+      "ISS airlock EVA preparation suited dramatic",
+      "space shuttle cockpit pre-launch countdown",
+      "Earth from orbit blue marble vast",
+      "terminator line Earth day night from orbit",
+      "city lights Earth night from orbit dramatic",
+      "aurora from orbit Earth green curtain",
+      "deep space nebula vast colour impossible",
+      "Mars surface mission dramatic vast rust",
+      "moon surface Earth rise Apollo dramatic",
+      "asteroid belt interior dramatic science fiction",
+      "space station exterior dramatic Earth below",
+      "spacecraft interior long journey dramatic",
+      "1960s NASA space centre control room vintage",
+      "Soviet space programme poster aesthetic Sputnik",
+      "retro rocket cockpit chrome analogue 1950s",
+      "space age furniture interior 1960s optimistic",
+      "NASA canteen astronauts 1960s candid casual",
+      "cosmonaut training pool weightless simulation",
+      "SpaceX control room contemporary launch celebration",
+      "Virgin Galactic window experience first time",
+      "private space interior billionaire drama contemporary",
+      "space tourism window first look Earth below"
+    ],
+    "poses": [
+      "both NASA mission control 1969 genuine celebration consoles",
+      "both ISS cupola window Earth vast below looking",
+      "both astronaut suit-up room pre-launch genuine candid",
+      "both Cape Canaveral launch pad dramatic countdown",
+      "both NASA 1960s cafeteria casual astronaut training",
+      "both Earth from orbit tiny spacecraft vast",
+      "both ISS interior floating objects weightless candid",
+      "both space shuttle cockpit dramatic launch countdown",
+      "both mission control celebration screen dramatic",
+      "both retro rocket cockpit chrome analogue dramatic",
+      "both cosmonaut pool weightless training dramatic",
+      "both Soviet poster aesthetic heroic dramatic",
+      "both SpaceX control room contemporary celebration",
+      "both space tourism window first Earth view genuine",
+      "both astronaut portrait before launch serious genuine",
+      "both moon surface Earth rise dramatic",
+      "both deep space vast colour impossible behind",
+      "both ISS airlock EVA preparation dramatic",
+      "both NASA press conference 1960s candid genuine",
+      "both space canteen candid casual astronaut"
+    ],
+    "looks": [
+      "NASA 1960s mission control shirt tie short sleeve each",
+      "ISS flight suit practical orange each",
+      "Apollo spacesuit helmet visor dramatic each",
+      "Soviet cosmonaut suit dramatic each",
+      "1960s space age fashion optimistic each",
+      "NASA casual training clothes 1960s each",
+      "SpaceX contemporary flight suit each",
+      "space tourist first time civilian each",
+      "retro chrome space age 1950s each",
+      "NASA formal presentation 1960s each"
+    ],
+    "promptPrefix": "Space photography aesthetic — the specific visual language of real space imagery from NASA, ESA and the Soviet programme — documentary candid quality — ",
+    "promptSuffix": "Render with the specific quality of real space imagery: NASA film grain 1960s, ISS digital candid, the overwhelming scale of Earth from orbit. Human and warm despite the void. Not science fiction — real space, real humans."
   },
   {
     "id": "art",
@@ -13962,645 +10457,104 @@ const WORLDS = [
   {
     "id": "desert",
     "name": "THE DESERT",
-    "sub": "Sand & Silence",
-    "color": "#c8894a",
+    "sub": "Vast, Ancient & Indifferent",
+    "color": "#c87820",
     "tensions": [
-      "heat vs. mirage",
-      "buried vs. exposed",
-      "lost vs. found",
-      "ancient vs. eroded",
-      "stillness vs. wind",
-      "thirst vs. water",
-      "vast vs. alone",
-      "dune vs. horizon",
-      "shadow vs. sun",
+      "vastness vs. intimacy",
+      "ancient vs. present",
+      "heat vs. cold night",
+      "the mirage vs. the real",
       "survival vs. surrender",
-      "map vs. nothing",
-      "oasis vs. illusion",
-      "day vs. blue hour",
-      "nomad vs. settled",
-      "bone vs. bloom",
-      "silence vs. storm",
-      "scorched vs. cool night",
-      "small vs. infinite sand",
-      "track vs. dune",
-      "sacred vs. forgotten"
-    ],
-    "locs": [
-      "Sahara dune ridge at dawn",
-      "Atacama salt flat mirror surface",
-      "Arizona red rock canyon base",
-      "Namibia dead vlei white trees",
-      "Arabian Rub al Khali endless dunes",
-      "Gobi Desert rock plain heat",
-      "Sonoran cactus saguaro forest",
-      "Patagonian steppe endless wind",
-      "Iranian salt desert cracked",
-      "Wadi Rum Jordan red sandstone",
-      "Dasht-e Kavir Iran salt crust",
-      "Taklamakan China dune sea",
-      "Tibetan plateau windswept gravel",
-      "Karakum Turkmenistan gas crater",
-      "Chilean Atacama geysers dawn",
-      "Peruvian coastal desert fog",
-      "Baja California cardon cactus",
-      "Mojave Joshua tree silhouette",
-      "White Sands New Mexico gypsum",
-      "Death Valley salt pan noon",
-      "Bonneville salt flat Utah",
-      "Namib coastal dune sea fog",
-      "Kalahari red dune grassland",
-      "Great Karoo kopje rock",
-      "Sudan Nubian desert ruins",
-      "Libya Fezzan sand sea",
-      "Tunisia Erg Chebbi dune",
-      "Morocco Draa valley palms",
-      "Egypt Sinai mountain desert",
-      "Jordan Wadi Mujib canyon",
-      "Oman Wahiba Sands camp",
-      "UAE Liwa Oasis dune",
-      "Kuwait desert sunset flat",
-      "Qatar desert scrub evening",
-      "Pakistan Thar desert village edge",
-      "India Thar camel track",
-      "Rajasthan sand dunes sunset",
-      "Ladakh Nubra Valley sand",
-      "Pakistan Cholistan dune",
-      "Afghanistan Hindu Kush foothills dry",
-      "Uzbekistan Kyzylkum steppe",
-      "Kazakhstan steppe flat horizon",
-      "Mongolia Gobi dune oasis",
-      "China Badain Jaran singing dunes",
-      "Russia Kalmyk steppe dry",
-      "Peru Nazca lines plateau",
-      "Chile Valle de la Luna Moon Valley",
-      "Bolivia Uyuni salt flat season",
-      "Argentina Atacama extension"
-    ],
-    "poses": [
-      "both shielding eyes from glare scanning horizon",
-      "one pointing at distant dune other looks",
-      "back-to-back desert wind behind both",
-      "both lying on dune crest looking out",
-      "walking single file dune ridge",
-      "both crouched in shade of rock face",
-      "one leading other by hand across open pan",
-      "both arms out in wind on dune peak",
-      "sitting on dune watching sunset together",
-      "one behind other pointing at mirage together",
-      "both lying on back looking at stars night desert",
-      "walking toward camera through heat haze",
-      "one carrying other on back exhausted crossing",
-      "both drinking from same water bottle seriously",
-      "kneeling at desert oasis pool both relief",
-      "one photographing other dune behind",
-      "both sheltering behind single rock wind",
-      "running down dune face laughing together",
-      "one writing in sand other watches",
-      "both watching sandstorm approach distant",
-      "both arms wide silhouette against setting sun",
-      "sitting facing each other in tent door",
-      "one helping other with sand-filled boot",
-      "back-to-back watching different horizons",
-      "both hands over nose sandstorm hit",
-      "one pulling other up steep dune face",
-      "camel either side of both pose",
-      "both looking at map in shade of vehicle",
-      "lying flat on hot rock together eyes closed",
-      "both watching desert fox from distance",
-      "one tracing sand drawing other watches",
-      "standing at canyon rim both looking down",
-      "both wading through sand dune thigh-deep",
-      "holding hands walking toward oasis",
-      "both in profile against red rock face",
-      "watching stars hand-in-hand both lying",
-      "one catching other blown by desert wind",
-      "both crouched at desert flower rare",
-      "walking in each other's footsteps dune",
-      "both silhouette against red sandstone arch",
-      "looking down into canyon both cautious edge",
-      "one shadowing other from sun creative",
-      "both turning into golden hour light eyes closed",
-      "sunset camel silhouette both beside",
-      "both pressed against cool canyon wall midday",
-      "one reading compass other shields it from glare",
-      "back-to-back at rock art site studying",
-      "both at desert well rope-hauling"
-    ],
-    "looks": [
-      "sun-bleached linen open layers both earth tone",
-      "desert wrap keffiyeh neutral tones each",
-      "worn cotton sun shirt wide pants both",
-      "nomad wrap loose earth tones each",
-      "expedition linen minimal open both",
-      "cotton tunic worn wide pants sandals each",
-      "sand-coloured loose shirt and pants each",
-      "linen wide trouser simple tank each cool",
-      "camel tone loose cotton both traditional",
-      "breathable sun protection shirt wide pants each",
-      "loose woven shirt cotton trousers both",
-      "desert field shirt many pockets pants each",
-      "natural linen two-piece each heat management",
-      "lightweight long-sleeve cotton and pants both protect",
-      "faded sun shirt wide linen pants each",
-      "Bedouin-influenced wrap layers each",
-      "cotton kaftan-style shirt and pants each",
-      "sun protection long sleeve both minimal",
-      "earth tone technical shirt trail pants each",
-      "worn denim open collar wide cotton pants each",
-      "linen camp shirt cotton trousers each classic",
-      "moisture-wicking long-sleeve shirt pants each",
-      "cotton sun dress and loose cotton shirt each",
-      "local textile wrap shirt cotton pants each",
-      "open cotton layers both multi-function",
-      "loose trousers sun hooded top both light",
-      "shade hat linen shirt rolled pants each",
-      "sand-proof zip-neck tee trail pants each",
-      "vented sun hat open shirt trousers each",
-      "traditional dishdasha style loose layers each",
-      "collarless linen shirt wide cotton pant each",
-      "worn canvas shirt shorts ankle gaiters each",
-      "ripstop pants long sleeve sun shirt each",
-      "UPF-rated long sleeve pants each practical",
-      "faded field shirt and shorts above-knee each",
-      "cotton layers worn with salt and dust each",
-      "sand-coloured cargo pants tee each functional",
-      "packable wide-brim hat linen shirt pants each",
-      "loose cotton block-print layers both",
-      "open cotton overshirt base tee pants each",
-      "vintage military khaki worn down soft each",
-      "handwoven cotton local pattern pants each",
-      "sand-coloured linen suit relaxed each",
-      "cotton muslin layers wound loose both",
-      "worn expedition cotton aged practical both",
-      "natural undyed cotton wrap and trousers each",
-      "indigo dyed cotton layers both traditional",
-      "terracotta cotton top wide pants both",
-      "ivory linen both minimal hot climate"
+      "the dune vs. the horizon",
+      "silence vs. the wind",
+      "small vs. infinite",
+      "lost vs. found",
+      "the oasis vs. the illusion"
     ],
     "affinities": {
-      "heat vs. mirage": {
+      "vastness vs. intimacy": {
         "locs": [
-          "Death Valley cracked earth flat",
-          "desert salt pan heat shimmer",
-          "Iranian Dasht-e Kavir salt crust",
-          "Libyan sand sea open",
-          "Atacama salt flat mirror"
+          "Wadi Rum red rock Jordan dawn long shadow",
+          "Sahara dune sea sunset two figures tiny",
+          "Death Valley salt flat noon bleached vast"
         ],
         "poses": [
-          "both shielding eyes from sun scanning",
-          "one draping cloth over other sun",
-          "both hands covering face sand wind",
-          "face to face wind between them",
-          "silhouette two figures dune ridge"
+          "both tiny against vast Wadi Rum red rock dawn",
+          "both Sahara dune crest sunset figures small horizon"
         ],
         "looks": [
-          "sun-bleached linen open layers",
-          "heat-light linen open shirt",
-          "light minimal linen layers",
-          "desert survival light layers",
-          "heat-worn open shirt rolled"
-        ]
-      },
-      "buried vs. exposed": {
-        "locs": [
-          "Namibian dead vlei white trees",
-          "Sahara dune ridge at dawn",
-          "sand dune slip face shadow",
-          "sand dune peak wind crest",
-          "New Mexico white sands dunes"
-        ],
-        "poses": [
-          "both lying on dune crest looking out",
-          "one pulling other up steep dune face",
-          "dramatic fall into sand laughing",
-          "running down dune together laughing",
-          "one throwing sand arc other watches"
-        ],
-        "looks": [
-          "worn cotton sun shirt wide pants",
-          "desert explorer worn linen open",
-          "heat-worn open shirt rolled",
-          "sun-faded cotton open collar",
-          "desert linen co-ord sand colour"
-        ]
-      },
-      "lost vs. found": {
-        "locs": [
-          "empty desert highway vanishing",
-          "Saharan caravan route track",
-          "desert dry riverbed stones",
-          "ancient desert caravan well",
-          "Sahara oasis palm shadow"
-        ],
-        "poses": [
-          "one mapping ground other watches sky",
-          "one pointing at distant dune other looks",
-          "one leading other by hand desert walk",
-          "both looking at horizon hands shielding",
-          "walking away into desert distance"
-        ],
-        "looks": [
-          "expedition linen minimal open",
-          "desert explorer worn linen open",
-          "desert journey worn layers",
-          "nomad journey worn minimal",
-          "desert journey linen wrap"
-        ]
-      },
-      "ancient vs. eroded": {
-        "locs": [
-          "Omani desert fort ruins",
-          "Sudanese Nubian desert ruins",
-          "desert ruin doorway arch",
-          "Egyptian desert pyramid horizon",
-          "Algerian desert plateau cliff"
-        ],
-        "poses": [
-          "both crouched at ancient carving",
-          "both looking through ancient doorway",
-          "both crouched examining desert bloom",
-          "one kneeling other stands dune crest",
-          "both looking up at canyon walls"
-        ],
-        "looks": [
-          "traditional Tuareg indigo wrap",
-          "Bedouin inspired wrap layers",
-          "Moroccan djellaba open cotton",
-          "traditional desert headwrap cloth",
-          "traditional indigo cotton wrap"
-        ]
-      },
-      "stillness vs. wind": {
-        "locs": [
-          "Patagonian desert wind plain",
-          "sand dune peak wind crest",
-          "Sahara storm wall approaching",
-          "Gobi desert stone steppe",
-          "Wadi Rum red sand Jordan"
-        ],
-        "poses": [
-          "back to back desert wind",
-          "both arms out desert wind balance",
-          "leaning into wind together angled",
-          "one steadying other in wind",
-          "both wrapped in cloth desert night"
-        ],
-        "looks": [
-          "nomad wrap loose earth tones",
-          "desert wrap keffiyeh neutral tones",
-          "wind-worn cotton desert layers",
-          "traditional wrap earth colours",
-          "Saharan cotton light layers"
-        ]
-      },
-      "thirst vs. water": {
-        "locs": [
-          "Sahara oasis palm shadow",
-          "desert oasis water reflection",
-          "Atacama salt flat mirror",
-          "desert spring bloom wildflower",
-          "Death Valley cracked earth flat"
-        ],
-        "poses": [
-          "both at oasis water edge crouching",
-          "both drinking from same canteen",
-          "one carrying water other waits",
-          "hand in hand walking salt flat",
-          "both looking down at cracked earth"
-        ],
-        "looks": [
-          "lightweight cotton layers sun worn",
-          "desert camp relaxed linen set",
-          "sun-bleached linen open layers",
-          "cotton dress and sun shirt each",
-          "earth tone linen wide leg"
-        ]
-      },
-      "vast vs. alone": {
-        "locs": [
-          "Arabian Rub al Khali endless dunes",
-          "Libyan sand sea open",
-          "Namibian dead vlei white trees",
-          "desert starfield open sky night",
-          "Mongolian Gobi sand dunes"
-        ],
-        "poses": [
-          "back of heads facing vast dune sea",
-          "silhouette two figures dune ridge",
-          "walking away into desert distance",
-          "both flat on back starfield above",
-          "silhouette against dying light both"
-        ],
-        "looks": [
-          "desert linen co-ord sand colour",
-          "sand coloured cotton minimal",
-          "desert pale light cotton",
-          "sandy minimal desert layers",
-          "sun-bleached linen open layers"
-        ]
-      },
-      "dune vs. horizon": {
-        "locs": [
-          "Sahara dune ridge at dawn",
-          "Arabian Rub al Khali endless dunes",
-          "sand dune peak wind crest",
-          "Mongolian Gobi sand dunes",
-          "Algerian desert plateau cliff"
-        ],
-        "poses": [
-          "one foot on dune crest triumphant",
-          "both lying on dune crest looking out",
-          "walking single file dune ridge",
-          "both spinning in open flat",
-          "slow walk toward camera desert behind"
-        ],
-        "looks": [
-          "sun-bleached linen open layers",
-          "expedition linen minimal open",
-          "desert linen co-ord sand colour",
-          "sand coloured cotton minimal",
-          "lightweight wrap minimal open"
-        ]
-      },
-      "shadow vs. sun": {
-        "locs": [
-          "Utah canyon slot narrow light",
-          "desert canyon floor looking up",
-          "Arizona red rock canyon",
-          "red sand desert dawn light",
-          "sand dune slip face shadow"
-        ],
-        "poses": [
-          "seated back to rock shade together",
-          "one standing other seated rock shade",
-          "both looking up at canyon walls",
-          "dramatic fall into sand laughing",
-          "silhouette two figures dune ridge"
-        ],
-        "looks": [
-          "desert linen shirt wide pants",
-          "heat-light linen open shirt",
-          "sun-bleached linen open layers",
-          "open weave linen desert",
-          "desert pale linen open"
-        ]
-      },
-      "survival vs. surrender": {
-        "locs": [
-          "Death Valley cracked earth flat",
-          "Sahara storm wall approaching",
-          "dry lake bed cracked grey",
-          "desert dry riverbed stones",
-          "Gobi desert stone steppe"
-        ],
-        "poses": [
-          "both looking at horizon hands shielding",
-          "side by side watching storm approach",
-          "slow embrace desert stillness",
-          "one asleep other keeps watch camp",
-          "seated at camp fire facing each other"
-        ],
-        "looks": [
-          "desert survival light layers",
-          "worn cotton sun shirt wide pants",
-          "desert journey worn layers",
-          "heat-light open linen layers",
-          "beaten cotton desert worn"
-        ]
-      },
-      "map vs. nothing": {
-        "locs": [
-          "empty desert highway vanishing",
-          "stone desert hammada plain",
-          "Saharan caravan route track",
-          "desert mesa flat top wide",
-          "Patagonian desert wind plain"
-        ],
-        "poses": [
-          "one mapping ground other watches sky",
-          "both looking at horizon hands shielding",
-          "one pointing at distant dune other looks",
-          "walking single file dune ridge",
-          "back of heads facing vast dune sea"
-        ],
-        "looks": [
-          "expedition linen minimal open",
-          "desert explorer worn linen open",
-          "lightweight cotton layers sun worn",
-          "nomad journey worn minimal",
-          "desert journey linen wrap"
-        ]
-      },
-      "oasis vs. illusion": {
-        "locs": [
-          "Sahara oasis palm shadow",
-          "desert oasis water reflection",
-          "desert salt pan heat shimmer",
-          "Atacama salt flat mirror",
-          "Iranian Dasht-e Kavir salt crust"
-        ],
-        "poses": [
-          "both at oasis water edge crouching",
-          "face to face wind between them",
-          "nose to nose desert silence close",
-          "both looking at horizon hands shielding",
-          "one pointing at distant dune other looks"
-        ],
-        "looks": [
-          "cotton dress and sun shirt each",
-          "desert camp relaxed linen set",
-          "sun-bleached linen open layers",
-          "earth tone linen wide leg",
-          "sandy cotton relaxed layers"
-        ]
-      },
-      "day vs. blue hour": {
-        "locs": [
-          "Sahara blue hour cold sand",
-          "red sand desert dawn light",
-          "desert ridge silhouette dusk",
-          "desert cold blue dawn camp",
-          "desert starfield open sky night"
-        ],
-        "poses": [
-          "silhouette two figures dune ridge",
-          "silhouette against dying light both",
-          "both flat on back starfield above",
-          "seated at camp fire facing each other",
-          "both wrapped in cloth desert night"
-        ],
-        "looks": [
-          "desert night warm wool layers",
-          "desert dawn layered warm",
-          "desert camp evening wrap",
-          "warm earth cotton co-ord",
-          "faded cotton desert simple"
-        ]
-      },
-      "nomad vs. settled": {
-        "locs": [
-          "Moroccan desert camp fire",
-          "Jordanian Wadi Rum camp",
-          "Tunisian desert village edge",
-          "Saudi desert rock arch",
-          "Saharan caravan route track"
-        ],
-        "poses": [
-          "seated cross-legged fire camp both",
-          "seated at camp fire facing each other",
-          "both wrapped in cloth desert night",
-          "one asleep other keeps watch camp",
-          "both crouched at ancient carving"
-        ],
-        "looks": [
-          "traditional Tuareg indigo wrap",
-          "Bedouin inspired wrap layers",
-          "Moroccan djellaba open cotton",
-          "Bedouin cotton simple wrap",
-          "traditional indigo cotton wrap"
-        ]
-      },
-      "bone vs. bloom": {
-        "locs": [
-          "Namibian dead vlei white trees",
-          "desert spring bloom wildflower",
-          "dry lake bed cracked grey",
-          "Death Valley cracked earth flat",
-          "Atacama salt flat mirror"
-        ],
-        "poses": [
-          "both crouched examining desert bloom",
-          "both looking down at cracked earth",
-          "one kneeling other stands dune crest",
-          "slow embrace desert stillness",
-          "desert prayer pose both kneeling"
-        ],
-        "looks": [
-          "sand coloured cotton minimal",
-          "cotton dress and sun shirt each",
-          "earth linen open minimal",
-          "desert pale linen open",
-          "sun-bleached linen open layers"
-        ]
-      },
-      "silence vs. storm": {
-        "locs": [
-          "Sahara storm wall approaching",
-          "Patagonian desert wind plain",
-          "Gobi desert stone steppe",
-          "desert salt pan heat shimmer",
-          "Arabian Rub al Khali endless dunes"
-        ],
-        "poses": [
-          "side by side watching storm approach",
-          "back to back desert wind",
-          "leaning into wind together angled",
-          "both arms out desert wind balance",
-          "one steadying other in wind"
-        ],
-        "looks": [
-          "wind-worn cotton desert layers",
-          "desert wrap keffiyeh neutral tones",
-          "nomad wrap loose earth tones",
-          "traditional desert headwrap cloth",
-          "Saharan cotton light layers"
-        ]
-      },
-      "scorched vs. cool night": {
-        "locs": [
-          "desert cold blue dawn camp",
-          "desert starfield open sky night",
-          "Sahara blue hour cold sand",
-          "Moroccan desert camp fire",
-          "Jordanian Wadi Rum camp"
-        ],
-        "poses": [
-          "both flat on back starfield above",
-          "both wrapped in cloth desert night",
-          "seated at camp fire facing each other",
-          "one asleep other keeps watch camp",
-          "slow embrace desert stillness"
-        ],
-        "looks": [
-          "desert night warm wool layers",
-          "desert dawn layered warm",
-          "desert camp evening wrap",
-          "warm earth cotton co-ord",
-          "faded earth tone cotton set"
-        ]
-      },
-      "small vs. infinite sand": {
-        "locs": [
-          "Arabian Rub al Khali endless dunes",
-          "Libyan sand sea open",
-          "Mongolian Gobi sand dunes",
-          "Sahara dune ridge at dawn",
-          "Namib coastal fog desert"
-        ],
-        "poses": [
-          "back of heads facing vast dune sea",
-          "silhouette two figures dune ridge",
-          "both arms raised canyon echo",
-          "both spinning in open flat",
-          "both arms out desert wind balance"
-        ],
-        "looks": [
-          "desert linen co-ord sand colour",
-          "sand coloured cotton minimal",
-          "sun-bleached linen open layers",
-          "sandy minimal desert layers",
-          "expedition linen minimal open"
-        ]
-      },
-      "track vs. dune": {
-        "locs": [
-          "Saharan caravan route track",
-          "Australian outback red dirt road",
-          "empty desert highway vanishing",
-          "sand dune peak wind crest",
-          "Sahara dune ridge at dawn"
-        ],
-        "poses": [
-          "walking single file dune ridge",
-          "one leading other by hand desert walk",
-          "slow walk toward camera desert behind",
-          "walking away into desert distance",
-          "hand in hand walking salt flat"
-        ],
-        "looks": [
-          "expedition linen minimal open",
-          "desert explorer worn linen open",
-          "worn cotton sun shirt wide pants",
-          "nomad journey worn minimal",
-          "desert journey worn layers"
-        ]
-      },
-      "sacred vs. forgotten": {
-        "locs": [
-          "Sudanese Nubian desert ruins",
-          "Omani desert fort ruins",
-          "desert ruin doorway arch",
-          "Egyptian desert pyramid horizon",
-          "Saudi desert rock arch"
-        ],
-        "poses": [
-          "desert prayer pose both kneeling",
-          "both crouched at ancient carving",
-          "both looking through ancient doorway",
-          "both looking up at canyon walls",
-          "one mapping ground other watches sky"
-        ],
-        "looks": [
-          "traditional Tuareg indigo wrap",
-          "Moroccan djellaba open cotton",
-          "traditional desert headwrap cloth",
-          "Bedouin inspired wrap layers",
-          "traditional indigo cotton wrap"
+          "desert traveller wrapped cloth dust each",
+          "explorer practical desert each heat"
         ]
       }
     },
-    "promptSuffix": "Colour grade: bleached ochre and terracotta, vast empty sky. Scale is everything — the landscape should make the subjects feel small. Heat haze where appropriate. Harsh unfiltered sun or the blue hour of desert dusk."
+    "locs": [
+      "Wadi Rum red rock Jordan dawn long shadow",
+      "Sahara dune sea sunset two figures tiny horizon",
+      "Death Valley salt flat noon bleached vast white",
+      "Atacama Chile night sky clearest stars world",
+      "Namib vlei dead trees orange dune dawn iconic",
+      "Jordanian desert ancient Nabataean rock city Petra dusk",
+      "Moroccan desert Merzouga dune sea sunset gold",
+      "Arizona Monument Valley sandstone butte long shadow",
+      "White Sands New Mexico gypsum dune noon",
+      "Sossusvlei Namibia dune red iron oxide dawn",
+      "Gobi Mongolia vast flat sand storm approaching",
+      "Rub al Khali Empty Quarter dune sea endless",
+      "Sonoran desert saguaro cactus sunset Arizona",
+      "Atacama salt flat mirror sky reflection",
+      "Death Valley Zabriskie Point badlands dawn",
+      "Sahara oasis palm trees mirage heat shimmer",
+      "Wadi Rum desert camp fire night stars",
+      "Arabian desert camel caravan horizon line dawn",
+      "Painted Desert Arizona colour band formation",
+      "Great Sand Dunes Colorado snow mountain beyond",
+      "Lencois Maranhenses Brazil white dune lagoon",
+      "Black Rock Desert Nevada vast flat nothing",
+      "Danakil Depression Ethiopia hottest place earth",
+      "Simpson Desert Australia red dune noon",
+      "Taklamakan China Silk Road ancient route",
+      "Namib fog coastal desert ghost ship distant",
+      "Negev desert Ramon crater vast geological",
+      "Judean desert cave dwelling ancient",
+      "Chilean Atacama lava field volcanic moon",
+      "Rub al Khali dune crest wind sand stream"
+    ],
+    "poses": [
+      "both tiny against vast desert landscape horizon",
+      "both dune crest sunset silhouette small against sky",
+      "both salt flat white vast foreground tiny",
+      "both long shadow dawn desert red rock",
+      "both walking toward horizon desert vast behind",
+      "both resting shade rock desert noon",
+      "both looking out over dune sea sunset",
+      "both standing apart vast desert between them implied",
+      "both silhouette against desert dawn colour",
+      "both at oasis edge real or mirage",
+      "both back to back desert vast all directions",
+      "both kneeling desert floor something discovered",
+      "both facing each other desert wind",
+      "both looking up night sky Atacama stars",
+      "both emerging from dust storm approaching",
+      "both at ancient rock dwelling desert cliff",
+      "both desert floor heat exhaustion late afternoon",
+      "both camel caravan horizon line dawn",
+      "both watching sand storm approach vast",
+      "both at desert camp fire night vast dark"
+    ],
+    "looks": [
+      "desert traveller wrapped linen cloth dust protection each",
+      "explorer practical desert hat shade each",
+      "Bedouin inspired wrapped cloth each desert",
+      "adventurer practical layers desert each",
+      "minimal simple clothes desert heat each",
+      "desert worn clothes dust stained each",
+      "wrapped keffiyeh desert dust each",
+      "lightweight layers desert traveller each",
+      "simple cotton desert pale each heat",
+      "expedition practical desert technical each"
+    ],
+    "promptSuffix": "Colour grade: the specific palettes of specific deserts — Wadi Rum red, Sahara gold, Death Valley bleached white, Atacama violet night. The scale of the land against the smallness of the person."
   },
   {
     "id": "surreal",
@@ -15207,610 +11161,6 @@ const WORLDS = [
     },
     "promptPrefix": "Surrealist fine art photograph, dreamlike and impossible, rendered with photographic realism but depicting something that cannot exist — ",
     "promptSuffix": "The impossible element should feel completely natural within the frame. Render with the crisp, hyper-real quality of fine art photography — the surrealism comes from the subject matter, not degraded image quality."
-  },
-  {
-    "id": "absurd",
-    "name": "THE ABSURD",
-    "sub": "Comedy & Impossible Situations",
-    "color": "#dd4499",
-    "tensions": [
-      "dignified vs. ridiculous",
-      "straight face vs. chaos",
-      "formal vs. completely wrong",
-      "expert vs. hopeless",
-      "planned vs. catastrophic",
-      "serious vs. slapstick",
-      "composed vs. unravelling",
-      "correct vs. spectacular failure",
-      "stubborn vs. obvious",
-      "refined vs. chaotic",
-      "pretending vs. panicking",
-      "winning vs. losing spectacularly",
-      "proud vs. covered in something",
-      "sophisticated vs. total disaster",
-      "calm vs. everything on fire",
-      "prepared vs. completely unprepared",
-      "confident vs. hopelessly lost",
-      "polished vs. falling apart",
-      "maintaining dignity vs. impossible",
-      "graceful exit vs. memorable crash"
-    ],
-    "locs": [
-      "tightrope between two office buildings",
-      "wedding cake slowly sinking in park",
-      "grocery superstore catwalk runway",
-      "stuck in revolving door together still",
-      "formal dinner wrong restaurant joined anyway",
-      "queue for something invisible both",
-      "meeting in total blank white void both",
-      "underwater office normal working both",
-      "upside-down room both acting right way up",
-      "gravity wrong direction both stepping carefully",
-      "too small car both squeezed comfortable",
-      "elevator too full both last in",
-      "wrong film set wandered onto both",
-      "background extras main action elsewhere",
-      "waiting room for something unspecified both",
-      "form-filling for impossible thing together",
-      "race track on foot very slowly both",
-      "airport runway walking to gate too far",
-      "wrong wedding both sitting front row",
-      "someone else's birthday party both",
-      "wrong job interview both together",
-      "wrong city both realising slowly",
-      "wrong century both confused period clothes",
-      "wrong planet both unconcerned",
-      "wrong size room both too tall or small",
-      "mirror showing different room both",
-      "train going both directions same time",
-      "bus route circle back to start endlessly",
-      "museum exhibit become both looking out",
-      "portrait frame both looking from painting",
-      "clock tower manually turning time both",
-      "world on pause both walking through",
-      "single spotlight everything else dark both",
-      "stage set obviously fake both acting real",
-      "weather presenter map not matching both",
-      "newsreader reading impossible news both",
-      "customer service call centre impossible hold",
-      "automated phone menu labyrinth both"
-    ],
-    "poses": [
-      "both ignoring enormous impossible thing behind them stoic",
-      "one pointing wrong direction confidently other follows",
-      "straight face while other loses composure one",
-      "both pretending nothing is happening whatever it is",
-      "one teaching other wrong thing confidently both",
-      "both enormously overdressed for mundane situation",
-      "both underdressed for formal situation unaware",
-      "holding cup of tea very seriously surreal context",
-      "both reading different parts same newspaper simultaneously",
-      "one on phone imaginary other listens genuinely",
-      "both dancing to music only they hear",
-      "conducting invisible orchestra both very seriously",
-      "both waiting for bus that will never come patiently",
-      "explaining something to the other in impossible location",
-      "both filling in form that makes no sense carefully",
-      "both looking at watch in place with no time",
-      "one behind shopping trolley other sitting in basket",
-      "both on escalator going wrong direction calmly",
-      "both acting in scene as if normal context bizarre",
-      "formal handshake in completely wrong setting both",
-      "both seated at table with nothing on it eating",
-      "both looking at menu that only has one thing",
-      "tasting wine very seriously in wrong context both",
-      "job interview in absurd location both professional",
-      "business meeting underwater both briefcases",
-      "PowerPoint presentation in forest both suits",
-      "both having picnic in impossible location normal",
-      "garden party at edge of space both civilised",
-      "both jogging in formal wear very seriously",
-      "gym workout fully formal both determined",
-      "parallel parking enormous vehicle tiny space both",
-      "both reading map in location with no roads",
-      "both waiting for lift in building with no floors",
-      "handshake lasting too long both committed"
-    ],
-    "looks": [
-      "casual jeans plain tee everyday completely normal both",
-      "weekend errands comfortable layers both",
-      "ordinary workday smart casual both",
-      "relaxed hoodie jeans both unremarkable",
-      "Saturday morning casual both appropriate for normal",
-      "wrong era clothing both 1950s in space",
-      "wrong environment formal in jungle each",
-      "overdressed formal at supermarket both",
-      "underdressed casual at state occasion both",
-      "formal swimwear in office both",
-      "ski gear in desert both unconcerned",
-      "swimwear at snowfield both determined",
-      "wedding dress and suit at beach both",
-      "ball gown and tux at camping both",
-      "military uniform at wedding both formal",
-      "chef whites at police station both",
-      "doctor scrubs at restaurant both",
-      "astronaut suit at supermarket both",
-      "diver suit in library both",
-      "Victorian dress in space age both",
-      "futuristic in medieval setting both",
-      "medieval in futuristic setting both",
-      "slightly wrong version of normal both",
-      "mismatched formal top casual bottom each",
-      "formal hat casual everything else both",
-      "one shoe different each and comfortable",
-      "inside out clothing both confident",
-      "backwards clothing both assured",
-      "labels visible all clothing both",
-      "price tags on all clothing both",
-      "same outfit different sizes each",
-      "too big clothing both pleased",
-      "too small clothing both fine with it",
-      "inside out and backwards confident both"
-    ],
-    "affinities": {
-      "dignified vs. ridiculous": {
-        "locs": [
-          "formal portrait session with escaped animal",
-          "formal garden party bee incident",
-          "penguin enclosure wrong gate",
-          "wedding cake slowly sinking",
-          "grocery store catwalk runway"
-        ],
-        "poses": [
-          "straight face while other loses composure",
-          "both ignoring enormous thing behind them",
-          "formal pose while chaos erupts around",
-          "one maintaining poise other splattered",
-          "dignified walk wrong way one following"
-        ],
-        "looks": [
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday"
-        ]
-      },
-      "straight face vs. chaos": {
-        "locs": [
-          "library with increasingly loud sneeze",
-          "formal dinner table wrong restaurant",
-          "museum tour audio guide wrong exhibit",
-          "office fire drill everyone forgot",
-          "cooking class smoke alarm"
-        ],
-        "poses": [
-          "straight face while other loses composure",
-          "both pretending nothing is happening",
-          "both acting casual suspicious situation",
-          "one very calm other completely panicking",
-          "both mid-laugh trying to stop"
-        ],
-        "looks": [
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday"
-        ]
-      },
-      "formal vs. completely wrong": {
-        "locs": [
-          "wrong wedding entirely",
-          "birthday party wrong house",
-          "train to wrong destination same name",
-          "tightrope between two skyscrapers",
-          "museum tour audio guide wrong exhibit"
-        ],
-        "poses": [
-          "both wrong side of door confused",
-          "formal handshake very wrong moment",
-          "formal bow at extremely wrong moment",
-          "formal speech wrong occasion confused",
-          "wrong costume right event both"
-        ],
-        "looks": [
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday"
-        ]
-      },
-      "expert vs. hopeless": {
-        "locs": [
-          "cooking class smoke alarm",
-          "escape room with obvious solution missed",
-          "building ikea furniture final piece wrong",
-          "yoga class unexpected pose difficulty",
-          "tandem bicycle going downhill fast"
-        ],
-        "poses": [
-          "one teaching other wrong thing confidently",
-          "one very lost other confidently wrong",
-          "one juggling badly other applauding",
-          "one teaching dance wrong steps confident",
-          "both looking at instructions upside down"
-        ],
-        "looks": [
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday"
-        ]
-      },
-      "planned vs. catastrophic": {
-        "locs": [
-          "birthday party wrong house",
-          "moving day all boxes labelled wrong",
-          "boat trip wrong direction",
-          "pitch presentation with wrong slides",
-          "cooking class smoke alarm"
-        ],
-        "poses": [
-          "both pointing at each other to blame",
-          "one covered in something other pristine",
-          "proud presentation everyone looking elsewhere",
-          "caught eating before official photo",
-          "both attempting dignified exit going wrong"
-        ],
-        "looks": [
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday"
-        ]
-      },
-      "serious vs. slapstick": {
-        "locs": [
-          "supermarket trolley with one bad wheel",
-          "escalator going wrong direction",
-          "zip wire landing wrong spot",
-          "parking attempt watched by crowd",
-          "beach volleyball serve goes wrong"
-        ],
-        "poses": [
-          "mid-slapstick freeze frame both",
-          "one caught other not warning them",
-          "both attempting run elegant very slow",
-          "one slipping other watching frozen",
-          "both ignoring enormous thing behind them"
-        ],
-        "looks": [
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday"
-        ]
-      },
-      "composed vs. unravelling": {
-        "locs": [
-          "self-checkout machine rebellion",
-          "job interview with malfunctioning chair",
-          "elevator stuck between floors",
-          "airport moving walkway mishap",
-          "bus that keeps circling same roundabout"
-        ],
-        "poses": [
-          "one very calm other completely panicking",
-          "both pretending nothing is happening",
-          "one explaining disaster other not listening",
-          "both acting casual suspicious situation",
-          "overly casual pose enormous emergency behind"
-        ],
-        "looks": [
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday"
-        ]
-      },
-      "correct vs. spectacular failure": {
-        "locs": [
-          "magician volunteer goes wrong",
-          "haunted house tour guide scared",
-          "skydive instructor very relaxed",
-          "safari vehicle stuck dramatic animal",
-          "aquarium visit fish watching back"
-        ],
-        "poses": [
-          "one triumphant other witnessing failure",
-          "both extremely proud of bad result",
-          "one teaching other wrong thing confidently",
-          "formal pose while chaos erupts around",
-          "one behind other completely unaware"
-        ],
-        "looks": [
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday"
-        ]
-      },
-      "stubborn vs. obvious": {
-        "locs": [
-          "building ikea furniture final piece wrong",
-          "escape room with obvious solution missed",
-          "bus that keeps circling same roundabout",
-          "self-checkout machine rebellion",
-          "tightrope between two skyscrapers"
-        ],
-        "poses": [
-          "both looking at instructions upside down",
-          "one very lost other confidently wrong",
-          "both wrong side of door confused",
-          "one explaining disaster other not listening",
-          "both pointing at each other to blame"
-        ],
-        "looks": [
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday"
-        ]
-      },
-      "refined vs. chaotic": {
-        "locs": [
-          "formal garden party bee incident",
-          "grocery store catwalk runway",
-          "hot air balloon low over town",
-          "formal dinner table wrong restaurant",
-          "museum tour audio guide wrong exhibit"
-        ],
-        "poses": [
-          "overly formal pose completely wrong setting",
-          "formal handshake very wrong moment",
-          "both acting casual suspicious situation",
-          "straight face while other loses composure",
-          "dignified walk wrong way one following"
-        ],
-        "looks": [
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday"
-        ]
-      },
-      "pretending vs. panicking": {
-        "locs": [
-          "office fire drill everyone forgot",
-          "cooking class smoke alarm",
-          "elevator stuck between floors",
-          "stuck in revolving door together",
-          "airport moving walkway mishap"
-        ],
-        "poses": [
-          "both pretending nothing is happening",
-          "one very calm other completely panicking",
-          "both acting casual suspicious situation",
-          "overly casual pose enormous emergency behind",
-          "both ignoring enormous thing behind them"
-        ],
-        "looks": [
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday"
-        ]
-      },
-      "winning vs. losing spectacularly": {
-        "locs": [
-          "beach volleyball serve goes wrong",
-          "tandem bicycle going downhill fast",
-          "zip wire landing wrong spot",
-          "magician volunteer goes wrong",
-          "supermarket trolley with one bad wheel"
-        ],
-        "poses": [
-          "one triumphant other witnessing failure",
-          "both extremely proud of bad result",
-          "mid-slapstick freeze frame both",
-          "both attempting run elegant very slow",
-          "one juggling badly other applauding"
-        ],
-        "looks": [
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday"
-        ]
-      },
-      "proud vs. covered in something": {
-        "locs": [
-          "cooking class smoke alarm",
-          "formal portrait session with escaped animal",
-          "birthday party wrong house",
-          "formal garden party bee incident",
-          "wedding cake slowly sinking"
-        ],
-        "poses": [
-          "one covered in something other pristine",
-          "one maintaining poise other splattered",
-          "both extremely proud of bad result",
-          "proud presentation everyone looking elsewhere",
-          "caught eating before official photo"
-        ],
-        "looks": [
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday"
-        ]
-      },
-      "sophisticated vs. total disaster": {
-        "locs": [
-          "wedding cake slowly sinking",
-          "hot air balloon low over town",
-          "formal portrait session with escaped animal",
-          "wrong wedding entirely",
-          "pitch presentation with wrong slides"
-        ],
-        "poses": [
-          "formal pose while chaos erupts around",
-          "both ignoring enormous thing behind them",
-          "one maintaining poise other splattered",
-          "dignified walk wrong way one following",
-          "formal bow at extremely wrong moment"
-        ],
-        "looks": [
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday"
-        ]
-      },
-      "calm vs. everything on fire": {
-        "locs": [
-          "cooking class smoke alarm",
-          "office fire drill everyone forgot",
-          "kitchen disaster scene calm",
-          "elevator stuck between floors",
-          "self-checkout machine rebellion"
-        ],
-        "poses": [
-          "one very calm other completely panicking",
-          "overly casual pose enormous emergency behind",
-          "both pretending nothing is happening",
-          "straight face while other loses composure",
-          "one behind other completely unaware"
-        ],
-        "looks": [
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday"
-        ]
-      },
-      "prepared vs. completely unprepared": {
-        "locs": [
-          "haunted house tour guide scared",
-          "skydive instructor very relaxed",
-          "safari vehicle stuck dramatic animal",
-          "escape room with obvious solution missed",
-          "moving day all boxes labelled wrong"
-        ],
-        "poses": [
-          "both looking at instructions upside down",
-          "one very lost other confidently wrong",
-          "one asleep other frantic situation",
-          "caught eating before official photo",
-          "both pointing at each other to blame"
-        ],
-        "looks": [
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday"
-        ]
-      },
-      "confident vs. hopelessly lost": {
-        "locs": [
-          "train to wrong destination same name",
-          "bus that keeps circling same roundabout",
-          "wrong wedding entirely",
-          "birthday party wrong house",
-          "museum tour audio guide wrong exhibit"
-        ],
-        "poses": [
-          "one pointing wrong direction confidently",
-          "one very lost other confidently wrong",
-          "dignified walk wrong way one following",
-          "formal speech wrong occasion confused",
-          "both wrong side of door confused"
-        ],
-        "looks": [
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday"
-        ]
-      },
-      "polished vs. falling apart": {
-        "locs": [
-          "job interview with malfunctioning chair",
-          "airport moving walkway mishap",
-          "escalator going wrong direction",
-          "trying on one outfit share cubicle",
-          "parking attempt watched by crowd"
-        ],
-        "poses": [
-          "both attempting dignified exit going wrong",
-          "both ignoring enormous thing behind them",
-          "mid-slapstick freeze frame both",
-          "one slipping other watching frozen",
-          "both attempting tango no rhythm"
-        ],
-        "looks": [
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday"
-        ]
-      },
-      "maintaining dignity vs. impossible": {
-        "locs": [
-          "tightrope between two skyscrapers",
-          "grocery store catwalk runway",
-          "formal portrait session with escaped animal",
-          "penguin enclosure wrong gate",
-          "stuck in revolving door together"
-        ],
-        "poses": [
-          "straight face while other loses composure",
-          "both ignoring enormous thing behind them",
-          "one maintaining poise other splattered",
-          "overly formal pose completely wrong setting",
-          "formal handshake very wrong moment"
-        ],
-        "looks": [
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday"
-        ]
-      },
-      "graceful exit vs. memorable crash": {
-        "locs": [
-          "zip wire landing wrong spot",
-          "tandem bicycle going downhill fast",
-          "beach volleyball serve goes wrong",
-          "escalator going wrong direction",
-          "airport moving walkway mishap"
-        ],
-        "poses": [
-          "both attempting dignified exit going wrong",
-          "mid-slapstick freeze frame both",
-          "one triumphant other witnessing failure",
-          "both attempting run elegant very slow",
-          "one caught other not warning them"
-        ],
-        "looks": [
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday",
-          "casual jeans plain tee everyday"
-        ]
-      }
-    },
-    "promptPrefix": "Deadpan documentary photograph, shot as if entirely normal, no reaction to the absurd situation — ",
-    "promptSuffix": "The comedy comes entirely from the contrast between the ridiculous situation and the utterly straight-faced treatment. Shoot it like a news photograph. No winking at the camera. No exaggerated expressions. Just the absurd thing, treated as completely ordinary."
   },
   {
     "id": "underworld",
@@ -16421,615 +11771,104 @@ const WORLDS = [
   {
     "id": "storm",
     "name": "THE STORM",
-    "sub": "Force & Shelter",
-    "color": "#445577",
+    "sub": "Before, During & the Silence After",
+    "color": "#4a4a6a",
     "tensions": [
-      "force vs. shelter",
-      "exposed vs. protected",
-      "fear vs. exhilaration",
-      "chaos vs. calm",
       "before vs. after",
-      "inside vs. outside pull",
-      "wild vs. still",
+      "calm vs. chaos",
+      "the warning vs. the arrival",
+      "shelter vs. exposure",
       "power vs. fragility",
-      "run vs. stand",
-      "dark sky vs. open ground",
-      "drenched vs. dry",
-      "warning vs. arrival",
-      "damage vs. survive",
-      "roar vs. silence after",
-      "lightning vs. dark",
-      "push vs. hold",
-      "sky vs. earth tension",
-      "lost vs. found in storm",
-      "small vs. vast weather",
-      "break vs. hold on"
-    ],
-    "locs": [
-      "open field storm wall approaching dark",
-      "cliff edge dark sky building",
-      "car sheltering underpass rain heavy",
-      "doorway watching storm arrive lightning",
-      "empty beach dark clouds low horizon",
-      "tornado alley plain Oklahoma warning",
-      "hurricane shelter exterior shuttered",
-      "cyclone coast Queensland aftermath",
-      "monsoon street Mumbai flooded",
-      "typhoon shelter Hong Kong boat",
-      "blizzard highway car stopped white-out",
-      "ice storm city trees snapping",
-      "storm surge coast sandbag line",
-      "hailstorm shelter awning both",
-      "lightning field observation tower",
-      "weather station exterior highest point",
-      "storm chasers vehicle prairie",
-      "doppler radar facility exterior",
-      "waterspout coastal distance watching",
-      "storm cell interior aircraft research",
-      "atmospheric research balloon launch",
-      "weather ship deck Atlantic swell",
-      "North Sea platform wave impact",
-      "Antarctic station storm wind sustained",
-      "Arctic research camp blizzard",
-      "volcano storm lightning ash",
-      "dust storm approaching ahead running",
-      "haboob wall Arizona red",
-      "wildfires near smoke orange sky",
-      "flood evacuation boat street",
-      "earthquake aftershock ruin exterior",
-      "tsunami warning coast running",
-      "derecho linear wind damage trail",
-      "supercell thunderhead base approaching",
-      "mesocyclone rotation visible base",
-      "wall cloud lowering both watching",
-      "shelf cloud roll extending horizon",
-      "mammatus cloud field looking up both",
-      "rainbow after storm double light",
-      "clearing storm sun breaking through",
-      "storm-washed beach debris aftermath",
-      "river flood subsiding mud",
-      "ice storm aftermath trees glazed",
-      "snow aftermath city still"
-    ],
-    "poses": [
-      "running hand in hand toward camera rain behind",
-      "both arms wide facing storm wind both",
-      "hug from behind arms wrapped swaying storm",
-      "one shielding other from wind and rain",
-      "both heads down into driving wind walking",
-      "both watching lightning strike distance safe",
-      "one pulling other from flood water urgent",
-      "both clinging to tree in gale force",
-      "sheltering under same poncho too small both",
-      "running from funnel cloud visible laughing terrified",
-      "both frozen at window watching tornado approach",
-      "one pointing at gathering clouds other looks",
-      "hands joined crossing flood street together",
-      "both pushing against gale to reach shelter",
-      "back to back in storm both watching different",
-      "both crouched under concrete overpass waiting",
-      "one steadying other in wind gust strong",
-      "both checking phone weather alert together",
-      "running into shelter both last second",
-      "looking back at storm just escaped both",
-      "both arms locked against fence holding",
-      "face-to-face rain between them both",
-      "one behind other in doorway shelter both",
-      "both at sandbag line working together",
-      "loading sandbags passing both working",
-      "both helping stranger stranded flood",
-      "two figures in orange sky smoke forest",
-      "both in hail arms over head running",
-      "one catching other blown by gust hold tight",
-      "both silhouette lightning flash behind",
-      "both at radar screen watching cell approach",
-      "debris blowing past both low crouch",
-      "both watching sea swell height extraordinary",
-      "one behind both leaning into wind",
-      "hand over mouth dust storm hit both",
-      "both emerging from shelter aftermath looking",
-      "rainbow behind both looking back at storm",
-      "clearing sky both looking up relief"
-    ],
-    "looks": [
-      "drenched jeans dark jacket each functional",
-      "heavy rain mac layers underneath each",
-      "soaked cotton layers simple each",
-      "oversized jacket one sharing both inside",
-      "dark denim soaked layers each",
-      "waterproof overall storm gear each",
-      "bright yellow storm slicker each visible",
-      "high-vis rain gear each safety",
-      "emergency poncho over clothes each",
-      "technical waterproof full body each",
-      "flood waders over clothes each",
-      "life vest over jacket each water safety",
-      "storm chaser body armour layers each",
-      "NWS uniform standard each",
-      "coast guard overalls each rescue ready",
-      "lifeboat crew dry suit each",
-      "mountain rescue gear each technical",
-      "emergency services uniform each",
-      "shelter worker practical both",
-      "evacuation casual grabbed quickly both",
-      "soaked business wear wrong place both",
-      "soaked wedding wear wrong timing each",
-      "soaked camping clothes practical both",
-      "cold weather storm gear layered both",
-      "tropical storm light soaked both",
-      "subtropical storm appropriate light both",
-      "blizzard gear complete technical both",
-      "ice storm heavy insulated both",
-      "dust storm covered wrapped layers both",
-      "smoke-filtered mask and clothes both",
-      "lightning risk non-conductive both practical",
-      "flood-wading appropriate both",
-      "general emergency grab-bag clothes both",
-      "shelter-in-place casual both"
+      "the eye vs. the edge",
+      "held vs. broken",
+      "the sky vs. the earth",
+      "inevitable vs. preventable",
+      "the storm within vs. the storm without"
     ],
     "affinities": {
-      "force vs. shelter": {
-        "locs": [
-          "doorway watching storm arrive",
-          "barn interior watching storm outside",
-          "car sheltering underpass rain heavy",
-          "storm shelter waiting together",
-          "church porch storm shelter"
-        ],
-        "poses": [
-          "one shielding other from wind",
-          "one sheltering other under jacket",
-          "one pulling other into shelter",
-          "hug from behind arms wrapped swaying",
-          "both wrapped in same cloth or jacket"
-        ],
-        "looks": [
-          "heavy rain mac layers underneath each",
-          "oversized jacket one sharing it both",
-          "waterproof layers hood up each",
-          "storm jacket over casual layers each",
-          "heavy jacket jeans boots each"
-        ]
-      },
-      "exposed vs. protected": {
-        "locs": [
-          "hilltop nothing between them and sky",
-          "cliff edge dark sky building",
-          "open moor dark sky vast",
-          "open field storm wall approaching",
-          "cliff top lookout storm"
-        ],
-        "poses": [
-          "both arms wide facing storm wind",
-          "both heads down into wind walking",
-          "one arm around other shelter",
-          "back to back wind between them",
-          "both silhouette against storm light"
-        ],
-        "looks": [
-          "drenched jeans dark jacket each",
-          "heavy weather layers each practical",
-          "dark layers hood and coat each",
-          "waterproof parka layers each",
-          "storm-ready layers dark simple each"
-        ]
-      },
-      "fear vs. exhilaration": {
-        "locs": [
-          "cliff edge dark sky building",
-          "rooftop storm light dramatic",
-          "lighthouse storm base rocks",
-          "pier end dark water churning",
-          "open field storm wall approaching"
-        ],
-        "poses": [
-          "both arms raised storm energy",
-          "both laughing in heavy rain",
-          "surprise spin one runs behind other",
-          "both arms wide facing storm wind",
-          "both caught mid-run laughing"
-        ],
-        "looks": [
-          "soaked cotton layers each simple",
-          "drenched jeans dark jacket each",
-          "dark denim soaked layers each",
-          "wet layers open collar each",
-          "drenched casual layers each"
-        ]
-      },
-      "chaos vs. calm": {
-        "locs": [
-          "field post-storm quiet aftermath",
-          "park after storm debris calm",
-          "village square storm aftermath",
-          "puddle reflection storm aftermath",
-          "woodland clearing storm break"
-        ],
-        "poses": [
-          "both frozen watching storm arrive",
-          "seated back to back storm behind",
-          "both looking at horizon dark sky",
-          "forehead to forehead eyes closed",
-          "both lying on ground post storm looking up"
-        ],
-        "looks": [
-          "soaked layers simple cotton each",
-          "drenched smart casual layers each",
-          "dark practical storm layers each",
-          "wet simple dark layers each",
-          "soaked dark casual each layers"
-        ]
-      },
       "before vs. after": {
         "locs": [
-          "open field storm wall approaching",
-          "field post-storm quiet aftermath",
-          "village square storm aftermath",
-          "park after storm debris calm",
-          "doorway watching storm arrive"
+          "pre-storm sky bruised purple green light eerie flat",
+          "tornado alley Great Plains storm wall approaching vast",
+          "North Sea storm wave lighthouse spray dramatic"
         ],
         "poses": [
-          "both frozen watching storm arrive",
-          "both pointing at incoming storm",
-          "both lying on ground post storm looking up",
-          "both looking at horizon dark sky",
-          "slow walk toward camera both drenched"
+          "both watching storm wall approach Great Plains vast sky",
+          "both lighthouse storm spray sea dramatic"
         ],
         "looks": [
-          "storm-grey layers practical each",
-          "dark storm layers simple practical",
-          "soaked casual smart layers each",
-          "drenched layers each simple dark",
-          "grey layers practical waterproof each"
-        ]
-      },
-      "inside vs. outside pull": {
-        "locs": [
-          "glass window storm behind",
-          "open field storm wall approaching",
-          "diner window rain outside",
-          "barn interior watching storm outside",
-          "bus shelter rain streaming"
-        ],
-        "poses": [
-          "both looking up at sky arms out",
-          "one pulling other into shelter",
-          "cheek to cheek watching same direction",
-          "one shielding other from wind",
-          "forehead to forehead eyes closed"
-        ],
-        "looks": [
-          "heavy knit soaked layers each",
-          "oversized jacket one sharing it both",
-          "dark layers hood and coat each",
-          "soaked casual layers warm each",
-          "heavy weather dark layers each"
-        ]
-      },
-      "wild vs. still": {
-        "locs": [
-          "open moor dark sky vast",
-          "wheat field storm light dramatic",
-          "empty beach dark clouds low",
-          "cliff top lookout storm",
-          "hilltop nothing between them and sky"
-        ],
-        "poses": [
-          "both arms wide facing storm wind",
-          "both silhouette against storm light",
-          "arms wide both facing vast space",
-          "running hand in hand toward camera",
-          "back to back wind between them"
-        ],
-        "looks": [
-          "drenched white shirt dark jeans each",
-          "dark navy layers storm practical",
-          "grey storm practical layers each",
-          "heavy dark outdoor layers each",
-          "storm-ready layers dark simple each"
-        ]
-      },
-      "power vs. fragility": {
-        "locs": [
-          "lighthouse storm base rocks",
-          "harbour storm waves building",
-          "pier end dark water churning",
-          "coastal path storm spray",
-          "bridge over river storm"
-        ],
-        "poses": [
-          "both arms raised storm energy",
-          "one holding other's face rain streaming",
-          "hug full arms wrapped tight",
-          "one picking other up off ground",
-          "princess carry lifted under the knees spinning"
-        ],
-        "looks": [
-          "heavy coat soaked layers each",
-          "drenched jeans dark jacket each",
-          "waterproof layers hood up each",
-          "dark waterproof layers each simple",
-          "heavy weather layers each practical"
-        ]
-      },
-      "run vs. stand": {
-        "locs": [
-          "open field storm wall approaching",
-          "two-lane road dark sky ahead",
-          "country road power lines storm",
-          "empty car park storm light",
-          "motorway bridge high wind"
-        ],
-        "poses": [
-          "running hand in hand toward camera",
-          "both caught mid-run laughing",
-          "both heads down into wind walking",
-          "both frozen watching storm arrive",
-          "slow walk toward camera both drenched"
-        ],
-        "looks": [
-          "dark denim soaked layers each",
-          "soaked cotton layers each simple",
-          "heavy jacket jeans boots each",
-          "drenched casual layers each",
-          "dark practical layers each storm"
-        ]
-      },
-      "dark sky vs. open ground": {
-        "locs": [
-          "wheat field storm light dramatic",
-          "hilltop nothing between them and sky",
-          "open moor dark sky vast",
-          "stadium empty pre-storm light",
-          "stone wall low country storm"
-        ],
-        "poses": [
-          "both silhouette against storm light",
-          "both arms wide facing storm wind",
-          "both looking up at sky arms out",
-          "arms wide both facing vast space",
-          "dramatic dip one supporting other"
-        ],
-        "looks": [
-          "drenched white shirt dark jeans each",
-          "dark navy layers storm practical",
-          "storm grey dark layers each",
-          "grey layers practical waterproof each",
-          "dark practical storm layers each"
-        ]
-      },
-      "drenched vs. dry": {
-        "locs": [
-          "broken umbrella city street",
-          "flooded street reflections",
-          "open field storm wall approaching",
-          "old telephone box shelter",
-          "underpass shelter rain streaming"
-        ],
-        "poses": [
-          "both laughing in heavy rain",
-          "slow walk toward camera both drenched",
-          "one sheltering other under jacket",
-          "both caught mid-run laughing",
-          "one holding other's face rain streaming"
-        ],
-        "looks": [
-          "soaked cotton layers each simple",
-          "drenched jeans dark jacket each",
-          "drenched white shirt dark jeans each",
-          "wet practical outdoor layers each",
-          "soaked outdoor layers practical each"
-        ]
-      },
-      "warning vs. arrival": {
-        "locs": [
-          "doorway watching storm arrive",
-          "two-lane road dark sky ahead",
-          "open field storm wall approaching",
-          "harbour storm waves building",
-          "caravan park storm arriving"
-        ],
-        "poses": [
-          "both frozen watching storm arrive",
-          "both pointing at incoming storm",
-          "both looking at horizon dark sky",
-          "cheek to cheek watching same direction",
-          "running hand in hand toward camera"
-        ],
-        "looks": [
-          "storm-grey layers practical each",
-          "dark layers hood and coat each",
-          "heavy weather layers each practical",
-          "waterproof parka layers each",
-          "grey storm practical layers each"
-        ]
-      },
-      "damage vs. survive": {
-        "locs": [
-          "storm shelter waiting together",
-          "field post-storm quiet aftermath",
-          "park after storm debris calm",
-          "village square storm aftermath",
-          "riverbank flooding edge storm"
-        ],
-        "poses": [
-          "hug from behind arms wrapped swaying",
-          "hug full arms wrapped tight",
-          "both hands pressed together warmth",
-          "running hand in hand toward camera",
-          "both wrapped in same cloth or jacket"
-        ],
-        "looks": [
-          "heavy knit soaked layers each",
-          "soaked layers simple cotton each",
-          "casual soaked dark layers each",
-          "storm practical layers each warm",
-          "soaked casual layers warm each"
-        ]
-      },
-      "roar vs. silence after": {
-        "locs": [
-          "field post-storm quiet aftermath",
-          "woodland clearing storm break",
-          "puddle reflection storm aftermath",
-          "park after storm debris calm",
-          "valley bottom storm above"
-        ],
-        "poses": [
-          "both lying on ground post storm looking up",
-          "running hand in hand toward camera",
-          "forehead to forehead eyes closed",
-          "seated back to back storm behind",
-          "both frozen looking same point"
-        ],
-        "looks": [
-          "soaked dark casual each layers",
-          "drenched smart casual layers each",
-          "dark cotton soaked each simple",
-          "wet simple dark layers each",
-          "drenched layers each simple dark"
-        ]
-      },
-      "lightning vs. dark": {
-        "locs": [
-          "rooftop storm light dramatic",
-          "lighthouse storm base rocks",
-          "wheat field storm light dramatic",
-          "rooftop water tower storm",
-          "stadium empty pre-storm light"
-        ],
-        "poses": [
-          "both silhouette against storm light",
-          "both arms raised storm energy",
-          "dramatic dip one supporting other",
-          "both arms wide facing storm wind",
-          "slow dance spin soft twirl"
-        ],
-        "looks": [
-          "drenched white shirt dark jeans each",
-          "dark navy layers storm practical",
-          "heavy coat soaked layers each",
-          "storm-ready layers dark simple each",
-          "dark waterproof layers each simple"
-        ]
-      },
-      "push vs. hold": {
-        "locs": [
-          "cliff edge dark sky building",
-          "motorway bridge high wind",
-          "coastal path storm spray",
-          "pier end dark water churning",
-          "bridge over river storm"
-        ],
-        "poses": [
-          "one shielding other from wind",
-          "one arm around other shelter",
-          "back to back wind between them",
-          "one pulling other into shelter",
-          "hug full arms wrapped tight"
-        ],
-        "looks": [
-          "heavy rain mac layers underneath each",
-          "waterproof layers hood up each",
-          "dark practical storm layers each",
-          "wet denim jacket layers each",
-          "storm jacket over casual layers each"
-        ]
-      },
-      "sky vs. earth tension": {
-        "locs": [
-          "hilltop nothing between them and sky",
-          "open moor dark sky vast",
-          "cliff top lookout storm",
-          "stone wall low country storm",
-          "valley bottom storm above"
-        ],
-        "poses": [
-          "both looking up at sky arms out",
-          "arms wide both facing vast space",
-          "both pointing at incoming storm",
-          "both looking at horizon dark sky",
-          "tandem walk one step behind hands linked"
-        ],
-        "looks": [
-          "drenched jeans dark jacket each",
-          "grey storm practical layers each",
-          "dark storm layers simple practical",
-          "heavy dark outdoor layers each",
-          "storm-grey layers practical each"
-        ]
-      },
-      "lost vs. found in storm": {
-        "locs": [
-          "abandoned petrol station storm",
-          "two-lane road dark sky ahead",
-          "forest path wind bending trees",
-          "country road power lines storm",
-          "old telephone box shelter"
-        ],
-        "poses": [
-          "running hand in hand toward camera",
-          "walking hand in hand arms swaying",
-          "one pulling other into shelter",
-          "classic piggyback one on other's back",
-          "surprise spin one runs behind other"
-        ],
-        "looks": [
-          "soaked cotton layers each simple",
-          "dark denim soaked layers each",
-          "drenched casual layers each",
-          "heavy jacket jeans boots each",
-          "wet layers open collar each"
-        ]
-      },
-      "small vs. vast weather": {
-        "locs": [
-          "open moor dark sky vast",
-          "wheat field storm light dramatic",
-          "open field storm wall approaching",
-          "valley bottom storm above",
-          "empty beach dark clouds low"
-        ],
-        "poses": [
-          "both arms wide facing storm wind",
-          "arms wide both facing vast space",
-          "both silhouette against storm light",
-          "both looking up at sky arms out",
-          "ring around the rosie spinning hands held"
-        ],
-        "looks": [
-          "drenched white shirt dark jeans each",
-          "soaked layers simple cotton each",
-          "storm grey dark layers each",
-          "dark navy layers storm practical",
-          "grey layers practical waterproof each"
-        ]
-      },
-      "break vs. hold on": {
-        "locs": [
-          "storm shelter waiting together",
-          "church porch storm shelter",
-          "bus shelter rain streaming",
-          "barn interior watching storm outside",
-          "stairwell emergency storm shelter"
-        ],
-        "poses": [
-          "hug full arms wrapped tight",
-          "both hands pressed together warmth",
-          "forehead to forehead eyes closed",
-          "one holding other's face rain streaming",
-          "noses touching about to kiss"
-        ],
-        "looks": [
-          "oversized jacket one sharing it both",
-          "soaked casual layers warm each",
-          "heavy knit soaked layers each",
-          "storm practical layers each warm",
-          "drenched smart casual layers each"
+          "storm watcher practical layers wind each",
+          "caught in storm soaked dramatic each"
         ]
       }
     },
-    "promptSuffix": "Colour grade: dramatic pre-storm or mid-storm light — bruised purple-green sky, hard directional light breaking through cloud, or the flat grey of total overcast. The atmosphere should feel volatile."
+    "locs": [
+      "pre-storm sky bruised purple green light eerie flat calm",
+      "tornado alley Great Plains storm wall approaching vast",
+      "North Sea storm wave lighthouse spray dramatic",
+      "tropical storm eye wall approach Caribbean coast",
+      "Scottish moor storm approaching dramatic light shafts",
+      "Turner painting storm sea ship dramatic",
+      "storm aftermath debris calm eerie light",
+      "lightning strike plain night dramatic single bolt",
+      "monsoon India storm wall approaching dust first",
+      "storm light dramatic shafts through cloud dramatic countryside",
+      "Patagonia storm mountain dramatic wind bent tree",
+      "Norwegian coast storm fjord dramatic wave",
+      "Great Plains supercell storm rotating vast sky",
+      "storm tide surge coastal town dramatic",
+      "Alpine storm lightning peak dramatic",
+      "Australian outback storm red dust approaching wall",
+      "storm drain rushing water urban aftermath",
+      "storm at sea container ship wave dramatic",
+      "Yorkshire moor storm approaching Brontë register",
+      "Mediterranean storm dramatic cliff wave spray",
+      "Great Lakes storm grey vast water horizon",
+      "storm shelter doorway waiting dramatic light",
+      "hurricane eye approach coast dramatic satellite",
+      "winter storm blizzard white out reduced visibility",
+      "dust storm haboob Arizona wall approaching",
+      "storm electricity pylon lightning dramatic",
+      "Cornish coast storm wave dramatic heritage",
+      "storm abandoned car park flooding dramatic",
+      "typhoon approach Hong Kong dramatic sky",
+      "storm rainbow aftermath dramatic light field"
+    ],
+    "poses": [
+      "both watching storm wall approach vast sky behind",
+      "both storm spray lighthouse dramatic sea",
+      "both pre-storm light eerie dramatic pause",
+      "both caught mid-storm wind and rain dramatic",
+      "both storm aftermath calm eerie light around",
+      "both running from storm approaching",
+      "both sheltering doorway storm outside dramatic",
+      "both looking up at storm sky dramatic",
+      "both lightning illuminated dramatic night flash",
+      "both storm wind dramatic lean against",
+      "both watching storm drain rush past feet",
+      "both storm beach wave dramatic behind",
+      "both emerging after storm calm dramatic",
+      "both in eye of storm brief calm dramatic",
+      "both pre-storm field light dramatic shafts",
+      "both storm debris aftermath walking through",
+      "both dramatic storm light portrait dramatic",
+      "both blizzard white out barely visible",
+      "both storm tide flooding dramatic wading",
+      "both watching distant lightning plain night"
+    ],
+    "looks": [
+      "storm caught soaked dramatic each",
+      "storm watcher practical layers wind each",
+      "dramatic coat storm wind dramatic each",
+      "oilskin waterproof storm coastal each",
+      "dramatic dark clothes storm light each",
+      "exposed to elements simple each storm",
+      "storm practical outdoors each",
+      "dramatic formal wrong weather each incongruous",
+      "storm ready practical each technical",
+      "simple exposed storm dramatic each"
+    ],
+    "promptSuffix": "Colour grade: the specific drama of storm light — bruised purple-green pre-storm, lightning white flash, aftermath golden eerie. Turner at sea. The sky is the subject."
   },
   {
     "id": "underground",
@@ -17116,1246 +11955,209 @@ const WORLDS = [
   {
     "id": "expedition",
     "name": "THE EXPEDITION",
-    "sub": "Discovery & Wonder",
-    "color": "#4a7a6a",
+    "sub": "Lost Worlds, Impossible Geography & the Edge of the Map",
+    "color": "#1a6a4a",
     "tensions": [
       "known vs. unknown",
-      "human vs. alien natural",
-      "discovery vs. danger",
-      "wonder vs. fear",
-      "ancient vs. alive",
-      "map vs. unmapped",
-      "light vs. deep dark",
-      "creature vs. observer",
-      "fragile vs. vast",
-      "science vs. myth",
+      "discovery vs. intrusion",
+      "the map vs. the territory",
+      "the creature vs. the human",
+      "ancient vs. present",
+      "myth vs. reality",
+      "the explorer vs. the explored",
+      "wonder vs. danger",
       "found vs. lost",
-      "still vs. moving world",
-      "near vs. unearthly",
-      "threshold vs. beyond",
-      "tool vs. instinct",
-      "record vs. experience",
-      "alone vs. witnessed",
-      "small vs. impossible scale",
-      "ordinary vs. luminous",
-      "arrival vs. what comes next"
-    ],
-    "locs": [
-      "bioluminescent bay dinoflagellate night",
-      "moss-covered ancient volcanic field glowing",
-      "crystal cave entrance light within",
-      "obsidian formation field mist rolling",
-      "giant mushroom grove twilight fog",
-      "deep ocean floor research vessel window",
-      "cave system river underground boat",
-      "lava tube Hawaii interior light end",
-      "ice cave Vatnajokull interior Iceland",
-      "sea cave bioluminescent grotto",
-      "underground lake chamber vaulted",
-      "sinkhole edge looking down",
-      "canyon slot light beam narrow",
-      "cave painting ancient torch-lit",
-      "geothermal vent field bubbling ground",
-      "fumarole Iceland steam column",
-      "Waitomo glowworm cave New Zealand",
-      "Son Doong cave Vietnam enormous",
-      "Carlsbad Caverns New Mexico vast",
-      "Mammoth Cave Kentucky historic",
-      "Cappadocia underground city Turkey",
-      "Derinkuyu underground city Turkey",
-      "Lalibela rock-hewn church Ethiopia",
-      "Ajanta caves India carved",
-      "Ellora caves India exterior",
-      "Petra carved rose-red facade",
-      "Barabar caves Bihar oldest",
-      "Dunhuang Mogao caves China",
-      "Longmen grottoes Luoyang China",
-      "Yungang grottoes Datong China",
-      "Tiger's Nest monastery Bhutan approach",
-      "Meteora monastery rock Greece approach",
-      "Taktsang Palphug monastery above Paro",
-      "Kellie's Castle ruin Malaysia",
-      "Sigiriya Lion Rock Sri Lanka top",
-      "Pidurangala Rock above Sri Lanka",
-      "Adam's Peak Sri Lanka predawn",
-      "Shwe Dagon Pagoda Myanmar dusk",
-      "Bagan temple plain balloon Myanmar",
-      "Inle Lake floating garden Myanmar",
-      "Ha Long Bay limestone karst Vietnam",
-      "Phong Nha cave Vietnam river",
-      "Mulu cave Sarawak deer cave entrance",
-      "Gunung Mulu plateau Sarawak"
-    ],
-    "poses": [
-      "both looking at discovered phenomenon close wonder",
-      "one holding compass other reads journal map",
-      "back to back scanning different directions vigilant",
-      "one hand raised other watches creature still",
-      "both crouched examining ground level specimen",
-      "both descending rope into dark space below",
-      "torch-lit faces both looking at cave art",
-      "both standing in bioluminescent water glow",
-      "one photographing other in incredible location",
-      "both looking up at vast cave ceiling",
-      "measuring something together both focused",
-      "collecting sample both careful technique",
-      "both at cave entrance preparing to enter",
-      "one in cave one outside communication",
-      "both setting up base camp equipment",
-      "one climbing other belaying steady below",
-      "diving together mask up underwater cave",
-      "both at underwater entrance looking in",
-      "one pointing at geological formation other notes",
-      "both at crystal formation hands reaching",
-      "boat in cave both looking up at ceiling",
-      "both watching bioluminescence night shore",
-      "one emerging from cave other waits outside",
-      "first humans here feeling both reverent",
-      "discovery moment both faces lit by phone light",
-      "both looking at data readings together",
-      "one treating other's rock abrasion both",
-      "both sharing water ration careful",
-      "both looking at map underground system",
-      "lost in cave both thinking different way",
-      "both waiting for guide to return calm",
-      "rope system setup one anchors other descends",
-      "both in formation fossil site careful",
-      "both in narrow passage squeeze through",
-      "camp inside cave both resting torch",
-      "stargazing after expedition both lying"
-    ],
-    "looks": [
-      "pale linen shirt canvas vest leather bag each",
-      "white canvas vest worn scarf linen shirt each",
-      "muted linen layers canvas pack leather belt each",
-      "expedition linen shirt canvas jacket leather satchel each",
-      "natural cotton layers vest aged leather strap each",
-      "caving overalls headlamp harness both",
-      "wetsuit cave diving both fitted",
-      "technical climbing gear caving both",
-      "cave research practical layers both",
-      "dive skin crystal cave both",
-      "bioluminescent bay white cotton shows glow each",
-      "night expedition dark practical both",
-      "research expedition technical practical each",
-      "documentation team layers camera each",
-      "botanist field wear practical each",
-      "zoologist field wear practical each",
-      "archaeologist field wear practical each",
-      "geologist field wear practical each",
-      "cartographer field practical each",
-      "anthropologist respectful practical each",
-      "speleologist specialist both practical",
-      "marine biologist wetsuit each",
-      "volcanologist heat-proof layers each",
-      "glaciologist cold technical each",
-      "expedition leader experienced layers each",
-      "local guide traditional dress each",
-      "documentary crew practical each",
-      "photographer layers dusty each",
-      "film crew expedition layers each",
-      "scientist casual practical each",
-      "academic observer neat practical each",
-      "adventurer well-worn practical each",
-      "naturalist classic field layers each",
-      "explorer traditional expedition layers each"
+      "the impossible vs. the real"
     ],
     "affinities": {
       "known vs. unknown": {
         "locs": [
-          "cave mouth towering ancient scale",
-          "ruin doorway first entry moment",
-          "ancient map location discovered real",
-          "abandoned expedition camp reclaimed",
-          "cliff edge unknown world below"
+          "bioluminescent cave impossible blue vast underground",
+          "lost temple jungle consumed impossible vegetation",
+          "giant creature footprint fresh impossible scale"
         ],
         "poses": [
-          "slow walk forward together into unknown",
-          "back of heads facing discovered vista",
-          "face to face decision moment",
-          "one pointing other follows gaze creature",
-          "both frozen mid-step aware of creature"
+          "both bioluminescent cave blue light impossible wonder",
+          "both lost temple jungle consumed finding"
         ],
         "looks": [
-          "pale sand linen shirt and canvas vest each with leather bag",
-          "pale sand linen shirt and canvas vest each with leather bag",
-          "linen canvas explorer layers aged leather journal compass",
-          "worn expedition linen canvas field jacket leather bag each",
-          "aged linen explorer shirt canvas vest and worn leather bag"
-        ]
-      },
-      "human vs. alien natural": {
-        "locs": [
-          "bioluminescent forest clearing crystal formations",
-          "forest clearing creatures watching",
-          "creature nest ancient and vast",
-          "giant mushroom grove twilight fog",
-          "fog valley creatures moving distant"
-        ],
-        "poses": [
-          "both frozen mid-step aware of creature",
-          "one hand raised other watches creature",
-          "one pointing other follows gaze creature",
-          "both pressed against surface hiding watching",
-          "both at water edge creatures reflected"
-        ],
-        "looks": [
-          "white canvas vest sky-blue worn scarf and linen shirt each",
-          "expedition canvas jacket pale linen and worn leather bag",
-          "worn natural linen layers canvas vest aged map tube",
-          "field expedition cotton layers worn canvas vest leather pack",
-          "expedition natural cotton canvas jacket worn leather strap each"
-        ]
-      },
-      "discovery vs. danger": {
-        "locs": [
-          "creature nest ancient and vast",
-          "fog valley creatures moving distant",
-          "deep canyon bioluminescent waterfall",
-          "forest clearing creatures watching",
-          "mountaintop above clouds creature silhouette"
-        ],
-        "poses": [
-          "back to back scanning different directions",
-          "both pressed against surface hiding watching",
-          "one steadying other on difficult terrain",
-          "seated back to back watching each direction",
-          "one behind other hand on shoulder both still"
-        ],
-        "looks": [
-          "muted linen layers canvas pack and worn leather belt",
-          "field linen shirt worn vest and natural leather bag each",
-          "expedition sand cotton worn canvas jacket aged leather satchel",
-          "worn expedition natural layers canvas vest aged satchel each",
-          "natural expedition layers worn canvas vest aged leather bag"
-        ]
-      },
-      "wonder vs. fear": {
-        "locs": [
-          "bioluminescent forest clearing crystal formations",
-          "giant mushroom grove twilight fog",
-          "river of bioluminescent water night",
-          "night jungle bioluminescent floor",
-          "subterranean lake bioluminescent shores"
-        ],
-        "poses": [
-          "arms wide both facing vast open world",
-          "both looking up at vast scale above",
-          "both silhouette against bioluminescent light",
-          "both at water edge creatures reflected",
-          "one hand raised other watches creature"
-        ],
-        "looks": [
-          "pale sand linen shirt and canvas vest each with leather bag",
-          "white canvas vest sky-blue worn scarf and linen shirt each",
-          "linen explorer shirt worn vest vintage compass each",
-          "faded sand linen and canvas over shirt leather bag each",
-          "linen canvas explorer layers aged leather journal compass"
-        ]
-      },
-      "ancient vs. alive": {
-        "locs": [
-          "moss-covered ancient rock field glowing blue",
-          "ancient stone arch overgrown glowing",
-          "stone circle ancient glowing moss",
-          "forest of petrified trees glowing veins",
-          "cave painting wall ancient lit"
-        ],
-        "poses": [
-          "hands outstretched touching unknown surface",
-          "both crouched examining ground level",
-          "one sketching other keeps watch",
-          "both kneeling at discovery ground level",
-          "one lifting veil or cloth from discovery"
-        ],
-        "looks": [
-          "aged linen layers canvas field jacket and worn map case",
-          "pale explorer linen and worn canvas vest leather journal holder",
-          "worn linen expedition layers canvas pack and map holder",
-          "aged expedition linen canvas over shirt worn satchel",
-          "pale aged linen canvas vest worn expedition journal each"
-        ]
-      },
-      "map vs. unmapped": {
-        "locs": [
-          "ancient map location discovered real",
-          "island interior never mapped",
-          "abandoned expedition camp reclaimed",
-          "river source deep forest found",
-          "plateau edge world below revealed"
-        ],
-        "poses": [
-          "one holding compass other reads journal",
-          "side by side reading same thing together",
-          "one sketching other keeps watch",
-          "both looking at discovered thing close",
-          "tandem walk one step behind hands linked"
-        ],
-        "looks": [
-          "expedition linen shirt worn canvas jacket and leather satchel",
-          "linen explorer shirt worn vest vintage compass each",
-          "aged linen layers canvas field jacket and worn map case",
-          "worn expedition linen canvas field jacket leather bag each",
-          "linen canvas explorer layers aged leather journal compass"
-        ]
-      },
-      "light vs. deep dark": {
-        "locs": [
-          "crystal cave entrance faint inner light",
-          "ice cave blue light crystal walls",
-          "deep canyon bioluminescent waterfall",
-          "subterranean lake bioluminescent shores",
-          "tidal cave bioluminescent pool"
-        ],
-        "poses": [
-          "both silhouette against bioluminescent light",
-          "both looking down into deep below",
-          "both looking up at vast scale above",
-          "one behind other arms wrapped relief",
-          "both at water edge creatures reflected"
-        ],
-        "looks": [
-          "pale sand linen shirt and canvas vest each with leather bag",
-          "white canvas vest sky-blue worn scarf and linen shirt each",
-          "sand expedition layers worn canvas field vest leather satchel",
-          "pale cotton layers worn canvas field jacket and leather map",
-          "muted pale linen canvas jacket aged expedition leather pack"
-        ]
-      },
-      "creature vs. observer": {
-        "locs": [
-          "forest clearing creatures watching",
-          "creature nest ancient and vast",
-          "fog valley creatures moving distant",
-          "giant mushroom grove twilight fog",
-          "night jungle bioluminescent floor"
-        ],
-        "poses": [
-          "both frozen mid-step aware of creature",
-          "one hand raised other watches creature",
-          "one pointing other follows gaze creature",
-          "both pressed against surface hiding watching",
-          "one behind other hand on shoulder both still"
-        ],
-        "looks": [
-          "muted linen layers canvas pack and worn leather belt",
-          "natural cotton layers worn vest and aged leather strap each",
-          "field linen shirt worn vest and natural leather bag each",
-          "worn natural linen layers canvas vest aged map tube",
-          "natural worn linen canvas jacket aged compass and satchel"
-        ]
-      },
-      "fragile vs. vast": {
-        "locs": [
-          "floating island edge mist below",
-          "cliff edge unknown world below",
-          "enormous skeleton overgrown forest",
-          "root system enormous cathedral scale",
-          "canyon wall ancient markings found"
-        ],
-        "poses": [
-          "arms wide both facing vast open world",
-          "both looking up at vast scale above",
-          "back of heads facing discovered vista",
-          "both silhouette against bioluminescent light",
-          "piggyback arms wide airplane stretch"
-        ],
-        "looks": [
-          "linen canvas explorer layers aged leather journal compass",
-          "pale explorer linen and worn canvas vest leather journal holder",
-          "sand linen expedition canvas layers worn leather journal each",
-          "faded natural layers canvas field jacket and leather bag each",
-          "expedition pale cotton canvas field jacket and leather strap"
-        ]
-      },
-      "science vs. myth": {
-        "locs": [
-          "cave painting wall ancient lit",
-          "stone circle ancient glowing moss",
-          "ancient library overgrown found",
-          "ancient road reclaimed by nature",
-          "geothermal vent alien landscape"
-        ],
-        "poses": [
-          "one sketching other keeps watch",
-          "both crouched examining ground level",
-          "side by side reading same thing together",
-          "one holding compass other reads journal",
-          "hands outstretched touching unknown surface"
-        ],
-        "looks": [
-          "aged linen layers canvas field jacket and worn map case",
-          "expedition linen shirt worn canvas jacket and leather satchel",
-          "linen explorer shirt worn vest vintage compass each",
-          "linen canvas explorer layers aged leather journal compass",
-          "aged expedition linen canvas over shirt worn satchel"
-        ]
-      },
-      "found vs. lost": {
-        "locs": [
-          "river source deep forest found",
-          "ancient map location discovered real",
-          "abandoned expedition camp reclaimed",
-          "ravine floor ancient and hidden",
-          "ruin doorway first entry moment"
-        ],
-        "poses": [
-          "forehead to forehead eyes closed relief",
-          "forehead to forehead eyes closed",
-          "both mid-laugh relief after tension",
-          "one behind other arms wrapped relief",
-          "hug from behind arms wrapped swaying"
-        ],
-        "looks": [
-          "worn expedition natural layers canvas vest aged satchel each",
-          "faded expedition layers canvas vest worn leather satchel",
-          "worn sand linen canvas over shirt and aged leather pack",
-          "aged pale linen canvas jacket worn expedition pack each",
-          "natural linen layers canvas pack worn expedition journal"
-        ]
-      },
-      "still vs. moving world": {
-        "locs": [
-          "valley floor strange flora fog",
-          "deep jungle clearing first light",
-          "fog valley creatures moving distant",
-          "ancient stone arch overgrown glowing",
-          "moss-covered ancient rock field glowing blue"
-        ],
-        "poses": [
-          "both frozen mid-step aware of creature",
-          "one behind other hand on shoulder both still",
-          "seated back to back watching each direction",
-          "cheek to cheek looking same direction",
-          "back of heads facing discovered vista"
-        ],
-        "looks": [
-          "muted cotton explorer layers vest and leather journal each",
-          "pale sand layers canvas vest and aged compass holder each",
-          "sand cotton expedition layers worn canvas vest each",
-          "field linen and canvas layers worn leather expedition bag",
-          "worn expedition linen canvas field jacket leather bag each"
-        ]
-      },
-      "near vs. unearthly": {
-        "locs": [
-          "Himalayan foothills meet crystal cave",
-          "obsidian formation field mist rolling",
-          "hot spring strange mineral colours",
-          "volcanic rock field new flora emerging",
-          "crystal formation field dawn light"
-        ],
-        "poses": [
-          "hands outstretched touching unknown surface",
-          "cheek to cheek looking same direction",
-          "noses touching about to kiss",
-          "face cupped in both hands close",
-          "one traces other's face gently"
-        ],
-        "looks": [
-          "pale sand linen shirt and canvas vest each with leather bag",
-          "white canvas vest sky-blue worn scarf and linen shirt each",
-          "natural cotton layers worn vest and aged leather strap each",
-          "faded sand linen and canvas over shirt leather bag each",
-          "expedition natural linen worn canvas vest leather pack"
-        ]
-      },
-      "threshold vs. beyond": {
-        "locs": [
-          "cave mouth towering ancient scale",
-          "ruin doorway first entry moment",
-          "bridge of vines over misty gorge",
-          "ancient stone arch overgrown glowing",
-          "floating island edge mist below"
-        ],
-        "poses": [
-          "slow walk forward together into unknown",
-          "face to face decision moment",
-          "one lifting veil or cloth from discovery",
-          "walking hand in hand arms swaying",
-          "both looking at discovered thing close"
-        ],
-        "looks": [
-          "expedition linen shirt worn canvas jacket and leather satchel",
-          "pale explorer linen and worn canvas vest leather journal holder",
-          "aged linen explorer shirt canvas vest and worn leather bag",
-          "field expedition cotton layers worn canvas vest leather pack",
-          "linen explorer layers canvas field jacket worn leather pack"
-        ]
-      },
-      "tool vs. instinct": {
-        "locs": [
-          "ancient map location discovered real",
-          "abandoned expedition camp reclaimed",
-          "high plateau strange rock formations",
-          "river source deep forest found",
-          "geothermal vent alien landscape"
-        ],
-        "poses": [
-          "one holding compass other reads journal",
-          "face to face decision moment",
-          "one steadying other on difficult terrain",
-          "side by side reading same thing together",
-          "one sketching other keeps watch"
-        ],
-        "looks": [
-          "linen explorer shirt worn vest vintage compass each",
-          "aged linen layers canvas field jacket and worn map case",
-          "expedition linen shirt worn canvas jacket and leather satchel",
-          "natural worn linen canvas jacket aged compass and satchel",
-          "linen canvas explorer layers aged leather journal compass"
-        ]
-      },
-      "record vs. experience": {
-        "locs": [
-          "cave painting wall ancient lit",
-          "canyon wall ancient markings found",
-          "ancient library overgrown found",
-          "forest clearing creatures watching",
-          "night jungle bioluminescent floor"
-        ],
-        "poses": [
-          "one sketching other keeps watch",
-          "side by side reading same thing together",
-          "one traces other's face gently",
-          "eyes closed leaning toward each other",
-          "noses touching about to kiss"
-        ],
-        "looks": [
-          "aged expedition linen canvas over shirt worn satchel",
-          "pale aged linen canvas vest worn expedition journal each",
-          "muted linen layers worn canvas vest natural leather pack",
-          "worn expedition natural layers canvas vest aged satchel each",
-          "sand linen worn canvas layers and aged expedition satchel"
-        ]
-      },
-      "alone vs. witnessed": {
-        "locs": [
-          "forest clearing creatures watching",
-          "creature nest ancient and vast",
-          "mountaintop above clouds creature silhouette",
-          "fog valley creatures moving distant",
-          "bioluminescent forest clearing crystal formations"
-        ],
-        "poses": [
-          "both frozen mid-step aware of creature",
-          "one behind other hand on shoulder both still",
-          "both at water edge creatures reflected",
-          "cheek to cheek looking same direction",
-          "back of heads facing discovered vista"
-        ],
-        "looks": [
-          "muted linen layers canvas pack and worn leather belt",
-          "natural cotton layers worn vest and aged leather strap each",
-          "pale cotton layers worn canvas field jacket and leather map",
-          "expedition natural cotton canvas jacket worn leather strap each",
-          "worn expedition natural layers canvas vest aged satchel each"
-        ]
-      },
-      "small vs. impossible scale": {
-        "locs": [
-          "enormous skeleton overgrown forest",
-          "root system enormous cathedral scale",
-          "floating island edge mist below",
-          "deep canyon bioluminescent waterfall",
-          "giant fern canopy light filtering"
-        ],
-        "poses": [
-          "arms wide both facing vast open world",
-          "both looking up at vast scale above",
-          "both silhouette against bioluminescent light",
-          "piggyback arms wide airplane stretch",
-          "dramatic dip one supporting other"
-        ],
-        "looks": [
-          "pale sand linen shirt and canvas vest each with leather bag",
-          "expedition canvas jacket pale linen and worn leather bag",
-          "field linen shirt worn vest and natural leather bag each",
-          "expedition pale cotton canvas field jacket and leather strap",
-          "sand linen expedition canvas layers worn leather journal each"
-        ]
-      },
-      "ordinary vs. luminous": {
-        "locs": [
-          "bioluminescent forest clearing crystal formations",
-          "night jungle bioluminescent floor",
-          "river of bioluminescent water night",
-          "subterranean lake bioluminescent shores",
-          "tidal cave bioluminescent pool"
-        ],
-        "poses": [
-          "both silhouette against bioluminescent light",
-          "hands outstretched touching unknown surface",
-          "both at water edge creatures reflected",
-          "arms wide both facing vast open world",
-          "slow dance spin soft twirl"
-        ],
-        "looks": [
-          "white canvas vest sky-blue worn scarf and linen shirt each",
-          "pale sand linen shirt and canvas vest each with leather bag",
-          "faded sand linen and canvas over shirt leather bag each",
-          "sand expedition layers worn canvas field vest leather satchel",
-          "natural linen shirt aged canvas jacket and worn leather strap"
-        ]
-      },
-      "arrival vs. what comes next": {
-        "locs": [
-          "ruin doorway first entry moment",
-          "plateau edge world below revealed",
-          "cliff edge unknown world below",
-          "mountaintop above clouds creature silhouette",
-          "island interior never mapped"
-        ],
-        "poses": [
-          "back of heads facing discovered vista",
-          "arms wide both facing vast open world",
-          "face to face decision moment",
-          "slow walk forward together into unknown",
-          "both looking down into deep below"
-        ],
-        "looks": [
-          "pale sand linen shirt and canvas vest each with leather bag",
-          "linen canvas explorer layers aged leather journal compass",
-          "aged linen explorer shirt canvas vest and worn leather bag",
-          "pale explorer linen and worn canvas vest leather journal holder",
-          "worn expedition linen canvas field jacket leather bag each"
+          "expedition practical worn each discovery",
+          "explorer Victorian impossible location each"
         ]
       }
     },
-    "promptPrefix": "National Geographic quality expedition photograph, documentary and awe-inspiring — ",
-    "promptSuffix": "Render with the quality of serious expedition photography: the location is the protagonist, the humans are the measure of its scale. The lighting should be what was available — no studio, no fill."
+    "locs": [
+      "bioluminescent cave impossible blue vast underground",
+      "bioluminescent sea bay night blue fire water",
+      "bioluminescent forest floor impossible blue mushroom",
+      "bioluminescent waterfall cave impossible beauty",
+      "lost temple jungle consumed impossible vegetation",
+      "sunken city coral reef impossible underwater",
+      "ancient city cloud forest mist impossible",
+      "impossible library cave books water inside",
+      "underground ocean vast impossible cave vast",
+      "crystal cave geode impossible giant interior",
+      "floating island chain impossible geology vast",
+      "inverted waterfall water goes up impossible",
+      "door in cliff face ancient impossible",
+      "impossible vertical forest hanging cliff",
+      "sky island above cloud vast impossible",
+      "underground river cave impossible blue",
+      "giant footprint fresh impossible scale jungle",
+      "bone structure vast impossible creature ancient",
+      "impossible nest vast woven jungle canopy",
+      "cave painting moving animated ancient impossible",
+      "ancient creature track impossible fresh desert",
+      "enormous egg impossible scale discovered",
+      "Victorian expedition camp impossible landscape tent",
+      "explorer notebook impossible creature sketch",
+      "expedition map edge of known world illustrated",
+      "Victorian naturalist discovery impossible creature",
+      "deep sea vent impossible creature thermal",
+      "cave diving impossible blue darkness vast",
+      "polar expedition impossible light phenomenon",
+      "high altitude impossible landscape oxygen thin",
+      "volcano crater impossible approach dramatic",
+      "ancient cave impossible size interior vast"
+    ],
+    "poses": [
+      "both bioluminescent cave blue wonder impossible vast",
+      "both lost temple jungle consumed discovering",
+      "both impossible giant footprint scale found",
+      "both crystal cave interior impossible wonder",
+      "both floating island impossible vast below",
+      "both sunken city coral impossible wonder",
+      "both ancient impossible creature bone structure vast",
+      "both Victorian expedition camp impossible landscape",
+      "both cave diving impossible blue dark vast",
+      "both sky island above cloud impossible",
+      "both impossible nest found jungle canopy",
+      "both deep sea vent impossible creature watching",
+      "both ancient cave painting moving impossible",
+      "both inverted waterfall impossible wonder",
+      "both impossible underground ocean vast cave",
+      "both enormous egg impossible discovery",
+      "both bioluminescent sea night blue fire",
+      "both edge of map illustrated impossible",
+      "both impossible vertical forest cliff hanging",
+      "both volcanic crater impossible approach"
+    ],
+    "looks": [
+      "Victorian expedition practical impossible location each",
+      "explorer worn practical each discovery",
+      "expedition technical contemporary each wonder",
+      "naturalist practical each field impossible",
+      "cave diver wetsuit impossible blue each",
+      "deep sea diving suit impossible pressure each",
+      "polar expedition extreme gear each",
+      "high altitude technical each thin air",
+      "jungle expedition practical each worn",
+      "expedition simple layers each discovery"
+    ],
+    "promptPrefix": "Documentary exploration photography at the edge of what is possible — impossible geography, lost worlds, fantastical natural phenomena, the sense of discovery of something that should not exist — ",
+    "promptSuffix": "The world in this image should feel like it should not exist: bioluminescent, impossible in scale, ancient beyond reckoning, or simply too beautiful to be real. The subjects are the witnesses. Their scale against the impossible makes the image."
   },
   {
     "id": "rooftop",
     "name": "THE ROOFTOP",
-    "sub": "City & Sky",
-    "color": "#667799",
+    "sub": "Havana Lines, Tokyo Neon & the City from Above",
+    "color": "#2a6a5a",
     "tensions": [
-      "city vs. sky",
-      "ground vs. above",
-      "seen vs. unseen",
+      "above vs. below",
+      "escape vs. city",
       "private vs. public height",
-      "near vs. far city",
-      "day vs. night city",
-      "wind vs. stillness",
-      "small vs. vast skyline",
-      "illegal vs. belonging",
-      "noise below vs. quiet above",
-      "work vs. escape",
-      "concrete vs. open air",
-      "alone vs. city around",
-      "warm light vs. cold city",
-      "moment vs. permanence",
-      "secret vs. shared",
-      "high vs. falling",
-      "dawn vs. city waking",
-      "golden hour vs. blue hour",
-      "ordinary vs. elevated"
-    ],
-    "locs": [
-      "New York water tower rooftop dusk",
-      "city skyline rooftop golden hour",
-      "rooftop terrace bar evening lights",
-      "fire escape landing city view",
-      "rooftop garden planted city behind",
-      "industrial rooftop downtown gravel",
-      "converted warehouse rooftop party space",
-      "Tokyo rooftop shrine torii gate",
-      "Seoul rooftop hanok traditional tile",
-      "Hong Kong rooftop dense stack city",
-      "Shanghai rooftop art space Bund visible",
-      "Singapore rooftop MBFC towers around",
-      "Dubai rooftop glass building forest",
-      "Istanbul rooftop Bosphorus view",
-      "Athens rooftop Acropolis lit",
-      "Rome rooftop San Pietro visible",
-      "Paris rooftop Sacre Coeur visible",
-      "Barcelona rooftop Sagrada Familia behind",
-      "Milan rooftop Duomo behind",
-      "Florence rooftop Brunelleschi dome",
-      "London Tate Modern rooftop",
-      "London Borough Market rooftop chimney",
-      "London Shard base terrace",
-      "Edinburgh rooftop castle behind",
-      "Glasgow rooftop riverside crane",
-      "Manchester rooftop converted mill",
-      "Liverpool rooftop docks Royal Liver",
-      "Berlin Alexanderplatz TV tower behind",
-      "Munich rooftop beer garden above",
-      "Vienna rooftop Stephansdom",
-      "Amsterdam rooftop canal grid below",
-      "Brussels rooftop Grand Place",
-      "Copenhagen rooftop Nyhavn colour",
-      "Stockholm rooftop Gamla Stan below",
-      "Oslo rooftop Operahuset below",
-      "Helsinki rooftop harbour ferry",
-      "Warsaw rooftop Palace of Culture",
-      "Prague rooftop Charles Bridge",
-      "Budapest rooftop Parliament below",
-      "Bratislava rooftop castle above",
-      "Bucharest rooftop People's Palace",
-      "Sofia rooftop Alexander Nevsky",
-      "Lisbon rooftop Alfama terracotta",
-      "Porto rooftop Douro river below",
-      "Seville rooftop Giralda beside",
-      "Granada rooftop Alhambra lit",
-      "Cape Town rooftop Table Mountain"
-    ],
-    "poses": [
-      "both leaning on railing looking out at city",
-      "one arm around other city behind",
-      "back to back city skyline each direction",
-      "both looking up at sky arms wide",
-      "forehead to forehead city lights behind",
-      "both silhouette against lit city",
-      "one pointing at landmark other follows gaze",
-      "both sitting on ledge edge city drop",
-      "arms around each other watching sunset city",
-      "both lying on rooftop looking at stars",
-      "one standing on raised section other below reaching",
-      "both watching helicopter passing",
-      "slow dance rooftop string lights",
-      "sitting on cooling unit both dangling feet",
-      "one behind other binoculars sharing city",
-      "both with drinks watching city wake",
-      "both running along rooftop with wind",
-      "face to face gravel roof both standing",
-      "one carrying other over threshold rooftop",
-      "both arms wide into city wind",
-      "back to back different city views each direction",
-      "both crouching at rooftop garden planters",
-      "watching fireworks from rooftop both",
-      "taking photo of city one taking photo of both",
-      "sitting cross-legged face-to-face eating takeaway",
-      "one helping other over access hatch",
-      "both in rooftop pool looking out over city",
-      "watching storm roll in toward city both",
-      "one sketching city view other looks on",
-      "both in morning light first city view",
-      "lying on blanket rooftop night stars city lights",
-      "both watching sun go down last light",
-      "one behind steadying other near edge",
-      "both pressed against rooftop wall cold wind",
-      "looking down on street below together",
-      "both watching drone fly over city",
-      "one foot up on railing other standing back",
-      "sharing coat on cold rooftop together",
-      "both climbing out of roof hatch onto roof",
-      "sitting back to back pillars between",
-      "one catching other mid-trip on uneven roof",
-      "both looking at same city landmark"
-    ],
-    "looks": [
-      "leather jacket city casual dress each",
-      "smart casual coat and dress city night each",
-      "oversized knit wide trousers both city",
-      "denim jacket casual dress city each",
-      "dark city layers minimal both",
-      "blazer tee slim jeans city smart each",
-      "bomber jacket dress each",
-      "cotton dress and chinos both smart casual",
-      "wide trouser silk blouse each city evening",
-      "maxi skirt and city shirt each",
-      "trench coat and slim outfit underneath each",
-      "linen blazer cotton pants city summer each",
-      "colour-pop coord and smart shirt each",
-      "fitted co-ord and relaxed shirt each",
-      "rooftop occasion dress and smart trousers each",
-      "city mini dress and blazer each",
-      "wrap dress and open shirt jacket each",
-      "patterned dress and solid suit each",
-      "slouchy knit and smart pants each mixed formal",
-      "city casual layers wind-appropriate both",
-      "both in light summer evening wear city",
-      "utility jacket dress each",
-      "soft blazer and tailored shorts each",
-      "asymmetric top and slim trousers each",
-      "draped jersey and smart pants each",
-      "evening casual both city-ready",
-      "embroidered jacket and plain pants each",
-      "plisse fabric both editorial rooftop",
-      "city-smart knit dress and trousers each",
-      "relaxed linen suit and dress each",
-      "velvet detail jacket and smart pants each",
-      "city evening both tonal navy",
-      "open coat evening layers both",
-      "ruched dress and tailored jacket each",
-      "coloured blazer city outfit underneath each",
-      "printed top plain trousers each",
-      "city maxi dress and smart shirt each",
-      "smart weekend casual both",
-      "elevated basics both city-chic",
-      "split-hem skirt and city shirt each",
-      "smart jumpsuit and blazer each",
-      "floaty city dress and summer suit each",
-      "evening both in complementary city colours",
-      "belted dress and open blazer each",
-      "all-cream city evening both tonal",
-      "textured knit and tailored each"
+      "the city vs. the person on it",
+      "seen from above vs. unseen",
+      "the roof vs. the world beneath",
+      "freedom vs. exposure",
+      "the edge vs. the centre",
+      "dawn vs. dusk from above",
+      "small vs. vast city spread"
     ],
     "affinities": {
-      "city vs. sky": {
+      "above vs. below": {
         "locs": [
-          "New York water tower rooftop dusk",
-          "city skyline rooftop golden hour",
-          "rooftop at golden hour shadows long",
-          "rooftop night city lights spread",
-          "rooftop at blue hour city glow"
+          "Havana rooftop washing lines crumbling colonial city below",
+          "Tokyo neon rooftop water tower city spread night",
+          "New York water tower rooftop Manhattan skyline dawn"
         ],
         "poses": [
-          "both leaning on railing looking out at city",
-          "both arms wide facing open city sky",
-          "both silhouette against sunset city",
-          "both looking up at sky arms wide",
-          "back to back city skyline each direction"
+          "both Havana rooftop washing lines colonial city below",
+          "both Tokyo neon rooftop water tower night city"
         ],
         "looks": [
-          "leather jacket and city casual dress each",
-          "smart casual coat and dress city night each",
-          "dark city casual layers each simple",
-          "city evening layers each relaxed",
-          "dark layers city evening dress each"
-        ]
-      },
-      "ground vs. above": {
-        "locs": [
-          "skyscraper edge glass railing",
-          "rooftop edge looking down city",
-          "city rooftop at midnight still",
-          "lower Manhattan rooftop view",
-          "rooftop helipad empty dramatic"
-        ],
-        "poses": [
-          "both looking down at city below",
-          "one behind other pointing at city",
-          "both sitting on ledge legs dangling city",
-          "seated back to back rooftop edge",
-          "both counting city lights below"
-        ],
-        "looks": [
-          "dark knit and city casual dress each",
-          "city casual coat and dress night each",
-          "smart casual city layers and dress",
-          "dark layers city evening dress each",
-          "city chic layers relaxed each"
-        ]
-      },
-      "seen vs. unseen": {
-        "locs": [
-          "old building rooftop access",
-          "abandoned rooftop overgrown city",
-          "rooftop access door open sky",
-          "rooftop graffiti art city behind",
-          "fire escape top floor city view"
-        ],
-        "poses": [
-          "one arm around other city behind",
-          "both silhouette against sunset city",
-          "seated back to back rooftop edge",
-          "one behind other pointing at city",
-          "both watching city from seated position"
-        ],
-        "looks": [
-          "denim jacket and casual dress city each",
-          "dark city casual layers each simple",
-          "casual chic layers city rooftop each",
-          "city rooftop layers warm casual each",
-          "dark casual city layers and dress each"
-        ]
-      },
-      "private vs. public height": {
-        "locs": [
-          "apartment rooftop terrace night",
-          "hotel rooftop infinity pool",
-          "penthouse terrace night city",
-          "rooftop terrace bar evening lights",
-          "rooftop bar twinkling lights"
-        ],
-        "poses": [
-          "forehead to forehead city lights behind",
-          "nose to nose city lights bokeh behind",
-          "both wrapped in blanket city night",
-          "slow dance spin soft twirl city behind",
-          "one whispering in other's ear close"
-        ],
-        "looks": [
-          "smart casual coat and dress city night each",
-          "city night layers smart casual each",
-          "dark city night dress and layers each",
-          "city evening smart coat and dress",
-          "smart dark layers city casual each"
-        ]
-      },
-      "near vs. far city": {
-        "locs": [
-          "city rooftop dawn first light",
-          "rooftop morning coffee city waking",
-          "rooftop at sunset orange sky city",
-          "Paris rooftop zinc tiles view",
-          "London rooftop cranes and towers"
-        ],
-        "poses": [
-          "both leaning on railing looking out at city",
-          "cheek to cheek looking same direction city",
-          "both at railing hands linked looking out",
-          "tandem walk one step behind hands linked",
-          "chin on other's shoulder from behind"
-        ],
-        "looks": [
-          "oversized knit and wide trousers each city",
-          "warm coat and knit dress city night",
-          "city casual coat layers and dress",
-          "warm city layers and knit dress each",
-          "city smart casual layers wind each"
-        ]
-      },
-      "day vs. night city": {
-        "locs": [
-          "city rooftop dawn first light",
-          "rooftop night city lights spread",
-          "rooftop at blue hour city glow",
-          "rooftop at golden hour shadows long",
-          "city rooftop at midnight still"
-        ],
-        "poses": [
-          "both silhouette against sunset city",
-          "both lying on back looking up at sky",
-          "forehead to forehead eyes closed",
-          "slow dance spin soft twirl city behind",
-          "both watching city from seated position"
-        ],
-        "looks": [
-          "dark city casual layers each simple",
-          "city night layers smart casual each",
-          "dark city night dress and layers each",
-          "warm city evening layers dress each",
-          "dark dress and city casual coat each"
-        ]
-      },
-      "wind vs. stillness": {
-        "locs": [
-          "rooftop storm approaching city",
-          "New York water tower rooftop dusk",
-          "industrial rooftop chimney stacks",
-          "rooftop at sunset orange sky city",
-          "city rooftop foggy morning"
-        ],
-        "poses": [
-          "one sheltering other from wind rooftop",
-          "arms around each other cold wind",
-          "both laughing wind in hair city",
-          "hug from behind arms wrapped city view",
-          "both arms wide facing open city sky"
-        ],
-        "looks": [
-          "warm coat and knit dress city night",
-          "smart city layers wind-ready each",
-          "warm layers city rooftop wind each",
-          "city rooftop casual smart wind each",
-          "warm smart casual city wind layers"
-        ]
-      },
-      "small vs. vast skyline": {
-        "locs": [
-          "lower Manhattan rooftop view",
-          "Tokyo rooftop vending machine dusk",
-          "city skyline rooftop golden hour",
-          "skyscraper edge glass railing",
-          "rooftop helipad empty dramatic"
-        ],
-        "poses": [
-          "piggyback arms wide airplane stretch city",
-          "both jumping mid-air city behind",
-          "dramatic dip city skyline behind",
-          "both leaning on railing looking out at city",
-          "princess carry lifted under the knees city"
-        ],
-        "looks": [
-          "dark city casual layers each simple",
-          "leather jacket and city casual dress each",
-          "smart casual coat and dress city night each",
-          "city casual coat and dress night each",
-          "dark smart casual city night layers"
-        ]
-      },
-      "illegal vs. belonging": {
-        "locs": [
-          "old building rooftop access",
-          "abandoned rooftop overgrown city",
-          "rooftop graffiti art city behind",
-          "fire escape landing city view",
-          "construction rooftop steel frame"
-        ],
-        "poses": [
-          "both laughing wind in hair city",
-          "stumble walk close together camera",
-          "both mid-laugh heads together city",
-          "one lifting other off ground city behind",
-          "surprise spin one runs behind other"
-        ],
-        "looks": [
-          "denim jacket and casual dress city each",
-          "oversized knit and wide trousers each city",
-          "casual chic layers city rooftop each",
-          "city rooftop layers warm casual each",
-          "dark denim and smart casual dress each"
-        ]
-      },
-      "noise below vs. quiet above": {
-        "locs": [
-          "city rooftop at midnight still",
-          "rooftop meditation city below",
-          "rooftop winter snow city quiet",
-          "city rooftop full moon behind",
-          "rooftop empty chair city view"
-        ],
-        "poses": [
-          "forehead to forehead eyes closed",
-          "lying across other's lap hair stroked",
-          "soft face caress both still city",
-          "seated face to face close rooftop",
-          "eyes closed leaning toward each other"
-        ],
-        "looks": [
-          "oversized knit and wide trousers each city",
-          "dark knit and city casual dress each",
-          "relaxed city smart layers dress each",
-          "warm city layers and knit dress each",
-          "city casual dress and coat each"
-        ]
-      },
-      "work vs. escape": {
-        "locs": [
-          "rooftop farm urban greenery",
-          "rooftop solar panels urban garden",
-          "rooftop greenhouse city backdrop",
-          "rooftop garden city behind",
-          "rooftop cinema outdoor screen"
-        ],
-        "poses": [
-          "both leaning on railing looking out at city",
-          "walking hand in hand arms swaying city",
-          "both sitting on ledge legs dangling city",
-          "side by side legs stretched out city",
-          "slow embrace wind around them city"
-        ],
-        "looks": [
-          "weekend smart layers city each",
-          "smart casual blazer and dress each",
-          "city casual coat layers and dress",
-          "relaxed city smart layers dress each",
-          "smart weekend city casual dress each"
-        ]
-      },
-      "concrete vs. open air": {
-        "locs": [
-          "industrial rooftop chimney stacks",
-          "construction rooftop steel frame",
-          "flat rooftop suburban view",
-          "rooftop pigeons city morning",
-          "billboard rooftop city view"
-        ],
-        "poses": [
-          "back to back city skyline each direction",
-          "both watching city from seated position",
-          "one arm around other city behind",
-          "seated back to back rooftop edge",
-          "both leaning on railing looking out at city"
-        ],
-        "looks": [
-          "denim jacket and casual dress city each",
-          "dark city casual layers each simple",
-          "casual chic layers city rooftop each",
-          "dark casual city layers and dress each",
-          "city rooftop casual smart wind each"
-        ]
-      },
-      "alone vs. city around": {
-        "locs": [
-          "city rooftop at midnight still",
-          "rooftop meditation city below",
-          "rooftop empty chair city view",
-          "rooftop winter snow city quiet",
-          "city rooftop full moon behind"
-        ],
-        "poses": [
-          "forehead to forehead eyes closed",
-          "both lying on back looking up at sky",
-          "seated face to face close rooftop",
-          "lying across other's lap hair stroked",
-          "both wrapped in blanket city night"
-        ],
-        "looks": [
-          "oversized knit and wide trousers each city",
-          "dark knit and city casual dress each",
-          "warm coat and knit dress city night",
-          "warm city layers and knit dress each",
-          "city casual dress and coat each"
-        ]
-      },
-      "warm light vs. cold city": {
-        "locs": [
-          "rooftop bar twinkling lights",
-          "rooftop at sunset orange sky city",
-          "rooftop summer party string lights",
-          "rooftop cinema outdoor screen",
-          "apartment rooftop terrace night"
-        ],
-        "poses": [
-          "slow dance spin soft twirl city behind",
-          "nose to nose city lights bokeh behind",
-          "dramatic dip city skyline behind",
-          "one traces other's face gently",
-          "noses touching about to kiss city behind"
-        ],
-        "looks": [
-          "smart casual coat and dress city night each",
-          "city night layers smart casual each",
-          "light jacket and flowing dress city each",
-          "smart city layers wind-ready each",
-          "city evening smart coat and dress"
-        ]
-      },
-      "moment vs. permanence": {
-        "locs": [
-          "rooftop New Year fireworks behind",
-          "rooftop at sunset orange sky city",
-          "city skyline rooftop golden hour",
-          "rooftop at golden hour shadows long",
-          "rooftop at blue hour city glow"
-        ],
-        "poses": [
-          "both silhouette against sunset city",
-          "forehead to forehead city lights behind",
-          "dramatic dip city skyline behind",
-          "both jumping mid-air city behind",
-          "slow dance spin soft twirl city behind"
-        ],
-        "looks": [
-          "leather jacket and city casual dress each",
-          "smart casual coat and dress city night each",
-          "dark layers city evening dress each",
-          "city evening layers each relaxed",
-          "dark city night dress and layers each"
-        ]
-      },
-      "secret vs. shared": {
-        "locs": [
-          "old building rooftop access",
-          "rooftop access door open sky",
-          "fire escape top floor city view",
-          "abandoned rooftop overgrown city",
-          "rooftop graffiti art city behind"
-        ],
-        "poses": [
-          "one whispering in other's ear close",
-          "forehead to forehead eyes closed",
-          "face cupped in both hands close",
-          "nose to nose city lights bokeh behind",
-          "eyes closed leaning toward each other"
-        ],
-        "looks": [
-          "denim jacket and casual dress city each",
-          "dark city casual layers each simple",
-          "city rooftop layers warm casual each",
-          "casual chic layers city rooftop each",
-          "dark casual city layers and dress each"
-        ]
-      },
-      "high vs. falling": {
-        "locs": [
-          "skyscraper edge glass railing",
-          "rooftop helipad empty dramatic",
-          "rooftop edge looking down city",
-          "construction rooftop steel frame",
-          "lower Manhattan rooftop view"
-        ],
-        "poses": [
-          "one lifting other off ground city behind",
-          "princess carry lifted under the knees city",
-          "piggyback arms wide airplane stretch city",
-          "both arms wide facing open city sky",
-          "dramatic dip city skyline behind"
-        ],
-        "looks": [
-          "leather jacket and city casual dress each",
-          "dark city casual layers each simple",
-          "smart casual blazer and dress each",
-          "city chic layers relaxed each",
-          "dark smart casual city night layers"
-        ]
-      },
-      "dawn vs. city waking": {
-        "locs": [
-          "city rooftop dawn first light",
-          "rooftop morning coffee city waking",
-          "rooftop pigeons city morning",
-          "city rooftop foggy morning",
-          "rooftop at golden hour shadows long"
-        ],
-        "poses": [
-          "both lying on back looking up at sky",
-          "both leaning on railing looking out at city",
-          "walking hand in hand arms swaying city",
-          "cheek to cheek looking same direction city",
-          "both at railing hands linked looking out"
-        ],
-        "looks": [
-          "oversized knit and wide trousers each city",
-          "warm coat and knit dress city night",
-          "weekend smart layers city each",
-          "relaxed smart city casual coat dress",
-          "city casual coat layers and dress"
-        ]
-      },
-      "golden hour vs. blue hour": {
-        "locs": [
-          "rooftop at golden hour shadows long",
-          "rooftop at blue hour city glow",
-          "rooftop at sunset orange sky city",
-          "city skyline rooftop golden hour",
-          "rooftop night city lights spread"
-        ],
-        "poses": [
-          "both silhouette against sunset city",
-          "slow dance spin soft twirl city behind",
-          "forehead to forehead city lights behind",
-          "one arm around other city behind",
-          "both watching city from seated position"
-        ],
-        "looks": [
-          "smart casual coat and dress city night each",
-          "light jacket and flowing dress city each",
-          "dark layers city evening dress each",
-          "city evening smart coat and dress",
-          "dark city night dress and layers each"
-        ]
-      },
-      "ordinary vs. elevated": {
-        "locs": [
-          "rooftop morning coffee city waking",
-          "rooftop summer party string lights",
-          "rooftop farm urban greenery",
-          "terrace washing line city view",
-          "flat rooftop suburban view"
-        ],
-        "poses": [
-          "walking hand in hand arms swaying city",
-          "both mid-laugh heads together city",
-          "ring around the rosie spinning city",
-          "stumble walk close together camera",
-          "tickle fight both laughing city behind"
-        ],
-        "looks": [
-          "weekend smart layers city each",
-          "casual chic layers city rooftop each",
-          "city casual coat layers and dress",
-          "relaxed city smart layers dress each",
-          "smart weekend city casual dress each"
+          "Havana casual rooftop heat each",
+          "Tokyo rooftop street fashion neon each"
         ]
       }
     },
-    "promptSuffix": "Colour grade: the specific quality of city light from above — ambient glow from below, open sky above, the subjects caught between."
+    "locs": [
+      "Havana rooftop washing lines crumbling colonial city below",
+      "Havana rooftop 1950s Chevrolet visible below dawn",
+      "Havana rooftop Malecón sea beyond crumbling beautiful",
+      "Tokyo neon rooftop water tank city spread night dense",
+      "Hong Kong cage home rooftop dense city beyond dramatic",
+      "Seoul rooftop Han River beyond night neon",
+      "Osaka rooftop dense city night neon sign",
+      "New York water tower rooftop Manhattan skyline dawn",
+      "Brooklyn rooftop Manhattan bridge view sunset",
+      "New York rooftop 1970s vintage city behind",
+      "New York rooftop party night skyline",
+      "Paris Haussmann rooftop chimney zinc dawn golden",
+      "Paris rooftop Eiffel visible golden light",
+      "Paris rooftop 6th arrondissement zinc slate dawn",
+      "Lisbon Alfama rooftop tile fado city below",
+      "Porto rooftop azulejo tile city below river",
+      "Rome rooftop terracotta dome city eternal",
+      "Naples rooftop Vesuvius beyond city below",
+      "Athens rooftop Acropolis visible dramatic dusk",
+      "Istanbul rooftop mosque minaret city both sides",
+      "Detroit abandoned factory rooftop city below dramatic",
+      "Chicago water tower rooftop industrial city",
+      "São Paulo rooftop favela meets glass tower",
+      "Beirut rooftop bullet holes city rebuild",
+      "Cairo rooftop minaret city ancient sprawl",
+      "Mumbai rooftop slum city beyond contrast",
+      "rooftop garden city dawn first light plants",
+      "rooftop pool city below luxury night reflection",
+      "rooftop helipad empty city spread dramatic",
+      "rooftop solar panels practical city beyond"
+    ],
+    "poses": [
+      "both Havana rooftop washing lines colonial city below",
+      "both Tokyo neon water tank city night",
+      "both Paris chimney zinc rooftop dawn golden",
+      "both New York water tower Manhattan skyline",
+      "both Istanbul minaret rooftop city both sides",
+      "both Rome terracotta rooftop eternal city",
+      "both Barcelona rooftop Gaudí visible dramatic",
+      "both Lisbon rooftop tile city fado below",
+      "both Detroit rooftop abandoned dramatic city",
+      "both Seoul rooftop Han River night neon",
+      "both rooftop edge city vast below dramatic",
+      "both rooftop garden dawn city waking",
+      "both rooftop pool night city reflection luxury",
+      "both looking down on city street far below",
+      "both rooftop back to city looking at each other",
+      "both rooftop watching city sunrise",
+      "both rooftop dramatic wind city spread",
+      "both rooftop simple moment city noise below",
+      "both rooftop night cold city bright below",
+      "both rooftop dawn city waking around them"
+    ],
+    "looks": [
+      "Havana casual summer rooftop heat each",
+      "Tokyo street fashion rooftop neon each",
+      "Paris rooftop chic morning each dawn",
+      "New York rooftop casual city view each",
+      "Istanbul casual rooftop city each",
+      "dramatic coat rooftop wind each",
+      "simple casual rooftop city each",
+      "rooftop party dressed up each night",
+      "practical urban each rooftop exploration",
+      "simple dawn rooftop casual each"
+    ],
+    "promptSuffix": "Colour grade: specific to each city rooftop — Havana ochre and decay, Tokyo neon dense, Paris zinc dawn gold, New York water tower dramatic. The city below is always part of the frame."
   },
   {
     "id": "circus",
@@ -18442,211 +12244,105 @@ const WORLDS = [
   {
     "id": "cctv",
     "name": "THE CCTV",
-    "sub": "Surveillance & Intimacy",
-    "color": "#3a5a7a",
+    "sub": "Caught, Candid & Gloriously Human",
+    "color": "#5a5a3a",
     "tensions": [
-      "seen vs. invisible",
-      "watched vs. unwatched",
-      "caught vs. escaping",
+      "caught vs. private",
+      "the camera vs. the moment",
+      "seen vs. unaware",
       "public vs. private",
-      "ordinary vs. extraordinary",
-      "observed vs. observer",
-      "recorded vs. forgotten",
-      "exposed vs. hidden",
-      "documented vs. erased",
-      "framed vs. unframed",
-      "evidence vs. absence",
-      "archive vs. present",
-      "timestamp vs. timeless",
-      "surveillance vs. intimacy",
-      "proximity vs. distance",
-      "mundane vs. transcendent",
-      "banal vs. beautiful",
-      "routine vs. rupture",
-      "expected vs. surprising",
-      "mechanical vs. human"
+      "the record vs. the feeling",
+      "surveilled vs. free",
+      "the accidental vs. the posed",
+      "the mundane vs. the extraordinary",
+      "the system vs. the human",
+      "watched vs. forgotten"
     ],
     "affinities": {
-      "seen vs. invisible": {
+      "caught vs. private": {
         "locs": [
-          "empty supermarket aisle 23:47",
-          "ATM vestibule timestamp corner",
-          "lift interior descending",
-          "car park level 3 stairwell",
-          "convenience store entrance"
+          "casino CCTV overhead roulette table caught mid-celebration",
+          "supermarket CCTV caught spontaneous dance aisle midnight",
+          "ATM CCTV night proposal outside caught"
         ],
         "poses": [
-          "mid-transaction unaware of camera",
-          "tender moment public space both oblivious",
-          "one noticing camera other oblivious mid-sentence",
-          "both in lift silence floor numbers descending"
+          "both casino CCTV overhead mid-celebration genuine",
+          "both supermarket CCTV caught dancing midnight aisle"
         ],
         "looks": [
-          "civilian clothes unremarkable each everyday",
-          "ordinary errand clothes casual each",
-          "night shift practical layers each worker"
-        ]
-      },
-      "public vs. private": {
-        "locs": [
-          "hospital corridor night shift fluorescent",
-          "office lobby after hours motion triggered",
-          "pedestrian underpass sodium light bracket"
-        ],
-        "poses": [
-          "private conversation public setting both leaning",
-          "one comforting other corridor bench camera above",
-          "both oblivious to observation"
-        ],
-        "looks": [
-          "commuter layers each practical morning",
-          "smart casual commuter each",
-          "visitor badge visible lanyard each"
+          "casino night out each caught genuine",
+          "supermarket casual midnight each"
         ]
       }
     },
     "locs": [
-      "empty supermarket aisle 23:47 timestamp corner",
-      "ATM vestibule ceiling camera angle",
-      "lift interior descending floor counter",
-      "car park level 3 stairwell emergency exit",
-      "convenience store entrance fish-eye lens",
-      "bus station waiting hall overhead bracket",
-      "underground station concourse sweep camera",
-      "hospital corridor night shift fluorescent",
-      "office lobby after hours motion triggered",
-      "pedestrian underpass sodium light bracket",
-      "service station forecourt pump 4 elevated",
-      "airport security queue serpentine elevated",
-      "border crossing checkpoint queue angle",
-      "railway platform number board behind",
-      "shopping centre escalator top bracket",
-      "empty fast food restaurant 3am corner",
-      "hotel corridor room numbers stretching",
-      "casino floor above density crowd",
-      "nightclub cloakroom queue elevated",
-      "sports stadium concourse between halves",
-      "school corridor empty holidays ceiling",
-      "library study room motion sensor angle",
-      "museum gallery after hours motion",
-      "post office counter above queuing",
-      "bank interior counter queue angle",
-      "pharmacy counter overhead prescription",
-      "laundromat 4am all machines running",
-      "car wash tunnel entrance elevated",
-      "petrol station shop interior overnight",
-      "off-licence corner camera high",
-      "kebab shop 2am entrance overhead",
-      "taxi rank camera pole overnight",
-      "bus interior forward-facing elevated",
-      "train carriage end camera both",
-      "police station entrance high security",
-      "court building exterior elevated sweep",
-      "social housing communal entrance",
-      "council flat corridor overhead strip",
-      "multi-storey top floor open concrete",
-      "industrial estate unit row camera pole",
-      "road junction camera housing bracket",
-      "motorway overhead gantry sweep",
-      "port container terminal elevated wide",
-      "dock security camera sweep night",
-      "underground car park exit ramp",
-      "back of department store loading bay",
-      "prison exercise yard elevated corner",
-      "immigration hall queue angle overhead",
-      "cash and carry warehouse interior overhead",
-      "wholesaler loading area exterior overnight"
+      "casino CCTV overhead roulette table win celebration genuine",
+      "casino corridor CCTV caught running toward exit laughing",
+      "casino elevator CCTV caught mid-argument resolved",
+      "supermarket CCTV midnight spontaneous dance empty aisle",
+      "supermarket CCTV proposal breakfast cereal aisle",
+      "supermarket CCTV caught sharing earphones frozen food",
+      "ATM CCTV night proposal caught genuine unposed",
+      "street corner CCTV caught reunion unexpected",
+      "petrol station CCTV caught slow dance forecourt night",
+      "bus stop CCTV caught first kiss waiting",
+      "taxi dashcam caught back seat conversation genuine",
+      "underground CCTV platform caught missing train laughing",
+      "airport CCTV arrivals hall reunion genuine caught",
+      "train station CCTV platform caught unexpected meeting",
+      "bus CCTV upper deck caught secret told",
+      "ferry CCTV deck caught storm reaction genuine",
+      "hospital corridor CCTV good news received genuine",
+      "school corridor CCTV caught celebration exam result",
+      "office CCTV lift caught honest conversation",
+      "library CCTV caught laughing inappropriate",
+      "street CCTV fishmonger caught proposal over ice",
+      "market CCTV caught argument over price genuine",
+      "park CCTV caught spontaneous picnic rain coming",
+      "beach CCTV lifeguard station caught sunset watching",
+      "gym CCTV caught giving up gracefully",
+      "café CCTV caught reading same book at same time",
+      "cinema CCTV foyer caught reaction to film genuine",
+      "bookshop CCTV caught same book reached for same time",
+      "museum CCTV caught asleep in gallery same painting",
+      "laundrette CCTV 3am caught genuine conversation"
     ],
     "poses": [
-      "both unaware of camera mid-conversation genuine",
-      "one noticing camera other oblivious mid-sentence",
-      "tender moment public space both oblivious watched",
-      "mid-argument quiet public both unaware of footage",
-      "one comforting other corridor bench camera above",
-      "both mid-transaction unaware of angle",
-      "one protecting other from view instinct surveillance",
-      "both caught mid-laugh strangers watching",
-      "private conversation public setting both leaning",
-      "one spotting camera other looks then both ignore",
-      "both in lift silence floor numbers descending",
-      "both in queue phone out both separate worlds",
-      "one behind other car park both cautious late",
-      "two figures crossing same frame different directions",
-      "both at ATM one shielding keypad one watches",
-      "both running for door last minute before close",
-      "one waiting outside other inside glass both",
-      "both frozen in motion blur long exposure",
-      "both at vending machine 3am selection serious",
-      "one sleeping waiting room other on watch",
-      "both entering frame from different doors simultaneously",
-      "one leaving frame other entering same",
-      "both checking surroundings before speaking quietly",
-      "mid-dance empty shop floor before opening",
-      "both pointing at camera then laughing",
-      "one waving at camera other mortified",
-      "both doing something mundane beautifully rendered",
-      "walking through frame neither looking up",
-      "both at barrier one token short both patient",
-      "slipping past security gate both nonchalant",
-      "both at desk after hours working late",
-      "both in empty office corridor after midnight",
-      "one waiting in corridor other being interviewed",
-      "both at fire door propped open smoke break",
-      "both mid-sprint through empty station concourse",
-      "one buying flowers from machine other waits",
-      "both reading notice board together late night",
-      "one helping other with heavy bags corridor",
-      "both sheltering in doorway rain outside",
-      "standing at lift door both looking at floor numbers",
-      "one filming other on phone security unaware",
-      "both at self-checkout struggling same machine"
+      "CCTV overhead angle both caught mid-genuine-celebration casino",
+      "CCTV fisheye both caught dancing supermarket midnight",
+      "CCTV high angle both caught reunion unexpected genuine",
+      "CCTV dashcam both caught back seat conversation honest",
+      "CCTV platform both caught missing train laughing",
+      "CCTV airport arrivals both caught genuine reunion",
+      "CCTV corner both caught first kiss unposed genuine",
+      "CCTV overhead both caught spontaneous dance petrol station",
+      "CCTV lift both caught honest conversation nobody watching",
+      "CCTV hospital both caught good news genuine reaction",
+      "CCTV high angle both unaware of camera natural",
+      "CCTV fisheye both mid-argument that just resolved",
+      "CCTV overhead both caught sharing something secret",
+      "CCTV street both caught moment of pure joy",
+      "CCTV angle both caught helping stranger genuine",
+      "CCTV both caught laughing inappropriate quiet place",
+      "CCTV both caught reading same page same time",
+      "CCTV both caught same impulse same moment",
+      "CCTV both caught sleeping same gallery bench",
+      "CCTV both caught mid-proposal ordinary location"
     ],
     "looks": [
-      "civilian clothes unremarkable each everyday",
-      "ordinary errand clothes casual each",
-      "night shift practical layers each worker",
-      "high street casual both unremarkable",
-      "commuter layers each practical morning",
-      "off-duty worker casual clothes each",
-      "student casual each unremarkable background",
-      "dark hoodie jeans trainers each night",
-      "light casual jacket jeans each any colour",
-      "uniform identifiable each job-appropriate",
-      "visitor badge visible lanyard each",
-      "hospital scrubs off shift each",
-      "office smart-casual end of day each",
-      "dark coat collar up each night",
-      "light mac raincoat practical each",
-      "sportswear casual each tracksuit",
-      "delivery uniform each branded recognisable",
-      "security uniform each high-vis adjacent",
-      "retail uniform each end of shift",
-      "cleaning uniform each overalls visible",
-      "maintenance coverall each identifiable",
-      "night-out clothes end of night each dishevelled",
-      "fast food uniform each recognisable",
-      "courier layers each practical hi-vis",
-      "builder site clothes end of day each",
-      "kitchen whites off shift each",
-      "nurse uniform off shift each",
-      "winter coat dark jeans each anonymous",
-      "summer dress casual each warm city",
-      "both in identical brands accidental same",
-      "same coat different colour each",
-      "both in dark clothes night blend",
-      "slightly too smart for location each conspicuous",
-      "slightly too casual for location each",
-      "one work one casual contrast each",
-      "one uniform one civilian contrast each",
-      "both in grey nothing memorable",
-      "both in hi-vis practical working",
-      "school run casual layers each",
-      "gym clothes post-workout each",
-      "scrubs and lanyard each healthcare",
-      "cargo shorts work shirt each trades"
+      "casino night out each genuine caught",
+      "supermarket casual midnight each real",
+      "airport arrival clothes each travel worn genuine",
+      "office work clothes each caught off guard",
+      "hospital visitor clothes each emotional genuine",
+      "street casual each caught unaware",
+      "gym clothes each caught giving up",
+      "date night each caught in genuine moment",
+      "casual everyday each CCTV reality",
+      "commuter clothes each caught human moment"
     ],
-    "promptPrefix": "CCTV security camera footage, fish-eye wide-angle lens, elevated corner bracket mount, heavy grain and noise, blue-grey institutional colour cast, low resolution surveillance aesthetic, timestamp overlay 23:47 bottom-right, static camera position — ",
-    "promptSuffix": "Render as authentic CCTV surveillance footage: fish-eye distortion, elevated angle, grain and noise, timestamp, institutional blue-grey palette, static camera. The subjects are unaware of or ignoring the camera."
+    "promptPrefix": "Security camera or dashcam footage aesthetic — overhead or wide angle, slightly grainy, timestamp in corner optional, the subjects completely unaware they are being filmed — ",
+    "promptSuffix": "This is candid surveillance footage of a genuinely human moment. The subjects do not know they are being filmed. The camera catches something real — joy, love, argument resolved, spontaneous dance, unexpected reunion. Grainy, overhead, wide angle, real."
   },
   {
     "id": "studio",
@@ -19000,148 +12696,6 @@ const WORLDS = [
     ],
     "promptPrefix": "Vintage science-fiction or horror B-movie film still, 1950s to 1970s aesthetic, Technicolor or grainy monochrome, theatrical lighting, low-budget practical effects aesthetic — ",
     "promptSuffix": "Render as an authentic B-movie film still: theatrical lighting, practical effects aesthetic, period-accurate costume and setting. Alternate between saturated Technicolor and high-contrast black and white. The image should feel like a frame from a real 1950s–1970s genre film — camp, earnest, visually dramatic."
-  },
-  {
-    "id": "diner",
-    "name": "THE DINER",
-    "sub": "American Light & Longing",
-    "color": "#c4382a",
-    "tensions": [
-      "staying vs. leaving",
-      "ordinary vs. transcendent",
-      "together vs. alone",
-      "past vs. present",
-      "full vs. empty",
-      "home vs. elsewhere",
-      "routine vs. rupture",
-      "hope vs. resignation",
-      "belonging vs. exile",
-      "hunger vs. satisfaction",
-      "late night vs. early morning",
-      "local vs. passing through",
-      "spoken vs. unspoken",
-      "comfort vs. restlessness",
-      "real vs. dreamed",
-      "known vs. stranger",
-      "order vs. chaos",
-      "warmth vs. cold outside",
-      "familiar vs. foreign",
-      "one more cup vs. time to leave"
-    ],
-    "affinities": {
-      "staying vs. leaving": {
-        "locs": [
-          "corner booth red vinyl diner night",
-          "counter stools chrome diner 2am",
-          "window booth rain outside diner"
-        ],
-        "poses": [
-          "both at counter coffee cups hands wrapped both looking ahead",
-          "one about to leave other reaching across table"
-        ],
-        "looks": [
-          "waitress uniform pink each",
-          "trucker jacket and jeans each road-worn"
-        ]
-      }
-    },
-    "locs": [
-      "corner booth red vinyl diner night",
-      "counter stools chrome diner 2am",
-      "window booth rain outside diner",
-      "parking lot diner neon sign reflection",
-      "diner counter late night single cook",
-      "pie case glass diner fluorescent",
-      "jukebox corner diner neon glow",
-      "diner exterior neon night roadside",
-      "booth back of diner near kitchen",
-      "diner restroom corridor narrow",
-      "diner kitchen pass-through window",
-      "truck stop diner highway dawn",
-      "small town diner main street morning",
-      "diner exterior parking lot night",
-      "diner counter end seat alone",
-      "diner booth sunday morning sunlight",
-      "diner steps outside night rain",
-      "diner pay phone corner night",
-      "highway diner dawn truckers",
-      "diner coat rack entrance winter",
-      "diner window seat fog outside",
-      "diner counter spin stool chrome",
-      "breakfast diner morning light golden",
-      "diner table laminate formica",
-      "diner exterior dawn empty lot",
-      "roadside diner desert highway",
-      "diner booth torn vinyl red",
-      "diner counter pie slice coffee",
-      "diner neon sign night reflections puddle",
-      "diner exterior small town snow",
-      "diner back booth private corner",
-      "diner counter newspaper morning",
-      "drive-in diner car hop night",
-      "diner exterior holiday lights christmas",
-      "diner stool end counter alone night",
-      "diner exit door rain outside",
-      "diner booth couple window night city",
-      "diner interior empty 4am",
-      "diner counter dawn regulars",
-      "diner parking lot summer night moths",
-      "diner jukebox selection 1960s",
-      "diner booth anniversary dinner simple",
-      "diner exterior morning mist rural",
-      "diner counter coffee refill steam",
-      "diner table salt pepper ketchup foreground",
-      "diner exterior neon red blue night",
-      "diner kitchen pass window orders up",
-      "diner booth near door cold draft",
-      "diner back alley delivery entrance",
-      "diner counter late shift end"
-    ],
-    "poses": [
-      "both at counter coffee cups hands wrapped looking ahead",
-      "one about to leave other reaching across table",
-      "both in booth facing each other mid-conversation",
-      "one stirring coffee other watching out window",
-      "both looking at same menu different thoughts",
-      "one just arrived other already waiting",
-      "over shoulder booth both leaning toward each other",
-      "both at counter not quite touching",
-      "one head down on arms other watching them sleep",
-      "both laughing at something off menu",
-      "one paying check other already outside glass",
-      "both hands around same cup of coffee",
-      "one looking at door other watching them",
-      "both mid-bite caught unaware",
-      "one elbows on counter chin in hand other talking",
-      "both looking out window at rain",
-      "one writing on napkin other reading it",
-      "both in last booth available",
-      "one getting up other staying seated",
-      "both watching something happen outside window"
-    ],
-    "looks": [
-      "waitress uniform pink apron each",
-      "trucker jacket worn jeans each road-worn",
-      "diner regular casual each everyday",
-      "night shift worker uniform each tired",
-      "high school dater formal prom night each",
-      "road tripper casual layers each",
-      "business traveller dishevelled each",
-      "local regular plaid flannel each",
-      "couple post-fight casual each",
-      "early morning commuter coat each",
-      "night owl dark clothes each",
-      "late shift nurse scrubs each off-duty",
-      "college students casual each",
-      "drifter worn layers each",
-      "sunday best church clothes each",
-      "holiday traveller casual luggage implied",
-      "construction worker flannel each",
-      "late night drinker casual each",
-      "couple anniversary simple best each",
-      "small town teenager bored each"
-    ],
-    "promptSuffix": "Colour grade: the specific warmth of American diner light — fluorescent overhead, neon from the sign, the warm amber of coffee and chrome. Edward Hopper quality of light: the intimacy of being awake when most people aren’t. The emotional tension is atmosphere only. Do not illustrate it literally."
   },
   {
     "id": "archive",
@@ -20362,149 +13916,6 @@ const WORLDS = [
       "gold and red festive each chinese new year"
     ],
     "promptSuffix": "Colour grade: deep red, gold, the warm orange of lantern light — the palette of Chinese New Year. Fireworks, silk, the warmth of family reunion. Rich and celebratory. The emotional tension is atmosphere only. Do not illustrate it literally."
-  },
-  {
-    "id": "still",
-    "name": "THE STILL",
-    "sub": "Fixed Point in a Moving World",
-    "color": "#4a6a8a",
-    "tensions": [
-      "still vs. moving",
-      "fixed vs. fleeting",
-      "permanent vs. passing",
-      "rooted vs. rushing",
-      "clarity vs. blur",
-      "the anchor vs. the current",
-      "held vs. dissolved",
-      "seen vs. ghosted",
-      "sharp vs. streaked",
-      "present vs. passing through",
-      "the centre vs. the spin",
-      "solid vs. liquid",
-      "waiting vs. rushing past",
-      "the chosen vs. the crowd",
-      "time stopped vs. time flowing"
-    ],
-    "affinities": {
-      "still vs. moving": {
-        "locs": [
-          "Tokyo Shibuya crossing rush hour crowd blur long exposure night",
-          "Grand Central Station commuter rush blur light trails",
-          "waterfall silk water long exposure forest sharp rocks"
-        ],
-        "poses": [
-          "both completely still crowd rushing past blur around them",
-          "both fixed foreground waterfall silk behind sharp"
-        ],
-        "looks": [
-          "dark still clothes crowd blur around each",
-          "simple neutral clothes waterfall mist each"
-        ]
-      },
-      "permanent vs. passing": {
-        "locs": [
-          "city intersection traffic light trails night long exposure",
-          "train platform train blur passing both still on edge",
-          "Times Square neon night crowd ghost blur long exposure"
-        ],
-        "poses": [
-          "both still intersection light trails streak past them",
-          "both platform edge train blur streak past sharp"
-        ],
-        "looks": [
-          "city night clothes still each dark",
-          "platform wait clothes each practical still"
-        ]
-      }
-    },
-    "locs": [
-      "Tokyo Shibuya crossing rush hour crowd blur long exposure night",
-      "New York Times Square neon night crowd ghost streaks long exposure",
-      "London Oxford Street Christmas crowd blur long exposure day",
-      "Hong Kong central crossing crowd blur night neon streaks",
-      "Grand Central Station commuter rush hour blur shafts light",
-      "Paris Gare du Nord rush hour crowd blur platform long exposure",
-      "Shanghai Nanjing Road night crowd blur neon long exposure",
-      "Naples street market crowd blur afternoon long exposure",
-      "Istanbul Grand Bazaar crowd blur interior long exposure",
-      "Mumbai train station rush hour blur crowd platform",
-      "city intersection traffic light trails night long exposure",
-      "motorway overpass light trails night long exposure city beyond",
-      "San Francisco cable car blur street long exposure night",
-      "Times Square taxi yellow streak night long exposure",
-      "Tokyo expressway flyover light trails night long exposure",
-      "New York bridge traffic blur night long exposure",
-      "Las Vegas Strip light trails night long exposure crowd blur",
-      "Chicago Lake Shore Drive light trails night long exposure",
-      "Seoul Gangnam crossing light trails night crowd blur",
-      "Bangkok traffic night light trails chaos long exposure",
-      "waterfall silk water long exposure forest sharp rocks",
-      "mountain stream silk water long exposure boulders sharp",
-      "ocean wave silk blur long exposure rock foreground sharp",
-      "fountain city square silk water long exposure crowd blur",
-      "Niagara Falls silk mist long exposure edge sharp",
-      "Norwegian fjord waterfall silk long exposure",
-      "Icelandic river silk water long exposure lava rock sharp",
-      "Scottish highland waterfall silk long exposure heather sharp",
-      "Japanese onsen steam and silk water long exposure",
-      "Venice canal water silk blur gondola long exposure night",
-      "train platform train blur streak past both still",
-      "Tokyo Metro platform train blur long exposure",
-      "London Tube platform train streak blur long exposure",
-      "Paris Métro blur streak train platform long exposure",
-      "Berlin U-Bahn platform train blur long exposure",
-      "airport concourse crowd blur long exposure both still",
-      "train station clock crowd blur below long exposure",
-      "subway escalator blur crowd long exposure sharp",
-      "railway station concourse pigeons blur long exposure",
-      "ferry terminal crowd boarding blur long exposure",
-      "carnival parade crowd blur float passing both still",
-      "street protest march blur crowd both still long exposure",
-      "concert crowd blur movement both still foreground",
-      "marathon runners blur both still pavement long exposure",
-      "carnival dancers blur both still watching long exposure",
-      "fireworks streak blur both still looking up long exposure",
-      "stock exchange trading floor blur crowd both still",
-      "airport departure board flicker blur long exposure",
-      "sports stadium crowd blur wave both still pitch long exposure",
-      "night market crowd blur both still stall long exposure"
-    ],
-    "poses": [
-      "both completely still crowd rushing past blur all around them",
-      "both standing still back to back crowd blur streaming past",
-      "both facing each other still crowd blur passes between and around",
-      "both looking directly at camera still crowd ghost blur behind",
-      "one holding other still crowd blur motion all around",
-      "both arms around each other still crowd blur streams past",
-      "both looking up still crowd blur below and around",
-      "both seated still crowd of standing commuters blur around",
-      "both in doorway still crowd blur streaming past on street",
-      "both standing close still light trails and crowd blur surround",
-      "both completely still waterfall silk blur behind them sharp",
-      "both still ocean wave silk blur around their feet foreground",
-      "both still fountain silk water cascading around blur",
-      "both still river silk water long exposure sharp against flow",
-      "both still mountain stream blur rocks and water around",
-      "both still intersection light trails streak past around them night",
-      "both still bridge light trails stream past either side night",
-      "both still platform edge train blur streak past close",
-      "both still motorway overpass light trails below and beside",
-      "both still city crossing light trails all directions night"
-    ],
-    "looks": [
-      "dark still clothes each sharp against crowd blur",
-      "simple neutral clothes each sharp waterfall mist",
-      "all black each sharp against neon light trail blur",
-      "white shirt each sharp against dark crowd ghost blur",
-      "dark coat each sharp against traffic light trails night",
-      "simple dress and suit each sharp crowd blur behind",
-      "casual dark each sharp train blur platform",
-      "formal evening each sharp carnival blur night",
-      "monochrome each sharp colour light trails around",
-      "simple layers each sharp ocean silk water blur"
-    ],
-    "promptPrefix": "Long-exposure photograph — the subjects are completely sharp and stationary, in precise focus, while everything around them is motion-blurred into streaks, ghost trails and smears — slow shutter speed, the world in motion, the subjects still — ",
-    "promptSuffix": "The shutter was open long enough for the world to move but the subjects held perfectly still. Everything around them shows motion — blurred pedestrians, light trails, ghosted figures, silk water, streak crowds. The subjects alone are tack sharp. This is a long-exposure photograph. The contrast between sharp subjects and blurred world is the entire image."
   }
 ];
 
@@ -20711,11 +14122,11 @@ function init(){
   const WORLD_CATS=[
     ['❤️  Emotion & Relationship',['romance','stage','mystery','protest','wedding','underworld']],
     ['🌏  Nature & Landscape',['mountain','water','wild','jungle','desert','rain','cold']],
-    ['🌆  Time & Atmosphere',['night','history','dust','storm','still']],
+    ['🌆  Time & Atmosphere',['night','history','dust','storm']],
     ['🌍  Place & Culture',['city','road','canada','caribbean','mexico','usa','rooftop']],
-    ['🎵  Performance & Life',['music','court','circus','hero','diner']],
-    ['✨  Style & Craft',['gold','art','runway','glass','studio','archive','iron']],
-    ['🚀  Beyond Reality',['space','surreal','absurd','underground','expedition','cctv','bmovie']],
+    ['🎵  Performance & Life',['music','court','circus','hero']],
+    ['✨  Style & Craft',['gold','art','runway','studio','archive']],
+    ['🚀  Beyond Reality',['space','surreal','underground','expedition','cctv','bmovie']],
     ['🎉  Celebrations & Holidays',['valentines','mothersday','fourthofjuly','septiembre16','thanksgiving','halloween','diadelosmuertos','christmas','newyearseve','diwali','chinesenewyear']]
   ];
   const wMap={};
@@ -20894,7 +14305,7 @@ const LIGHTING_OPTIONS = [
 
 const LIGHTING_OUTDOOR = ["golden hour backlight", "harsh overhead midday sun", "flat overcast diffused light", "blue hour last light before dark", "sunrise side rim light", "moonlight cold and directional", "fog-diffused ambient no source", "desert bleached high noon", "storm light bruised pre-rain", "dappled forest canopy light", "open shade soft directional", "rain-diffused ambient wet reflections", "backlight silhouette blown out behind", "deep shadow minimal available light"];
 const LIGHTING_INDOOR = ["tungsten window light warm interior", "candlelight close intimate warm", "fire glow flickering warm orange", "neon spill city night colour", "sodium street light orange night", "fluorescent flat institutional", "deep shadow minimal available light", "backlight silhouette blown out behind", "single window soft side light", "bare bulb overhead warm", "practical lamp warm pool", "strip light cool overhead"];
-const LOC_TYPES = {"desert highway at dusk heat shimmer": "outdoor", "empty highway rest stop": "outdoor", "wet asphalt overpass night reflection": "outdoor", "mountain switchback edge vertiginous": "outdoor", "motorway at night light trails": "outdoor", "freeway on-ramp shoulder": "outdoor", "interstate service road empty": "outdoor", "empty airstrip tarmac heat": "outdoor", "state highway no buildings horizon": "outdoor", "Route 66 desert diner exterior": "outdoor", "Route 66 motel sign rusted": "outdoor", "Route 66 filling station abandoned": "outdoor", "road tunnel exit light end": "outdoor", "bridge expansion joint middle": "outdoor", "highway billboard empty": "outdoor", "level crossing arms down alone": "outdoor", "toll booth abandoned": "outdoor", "weigh station closed": "outdoor", "truck stop empty 3am": "outdoor", "drive-in movie screen empty": "outdoor", "car wash tunnel entrance": "outdoor", "highway flyover construction": "outdoor", "motorway service park dark": "outdoor", "roundabout centre at dawn": "outdoor", "main road empty market town": "outdoor", "B-road countryside both verges": "outdoor", "coastal highway cliff edge": "outdoor", "mountain pass summit road": "outdoor", "valley road river beside": "outdoor", "forest road canopy over": "outdoor", "desert road mirage ahead": "outdoor", "dirt road becoming tarmac": "outdoor", "gravel road end tarmac starts": "outdoor", "North American highway billboard": "outdoor", "Australian outback highway road train track": "outdoor", "Irish bog road endless narrow": "outdoor", "Scottish single-track passing place": "outdoor", "Norwegian fjord road tunnel": "outdoor", "Icelandic ring road empty": "outdoor", "New Zealand coastal highway": "outdoor", "South African coastal road": "outdoor", "Patagonian ruta 40 gravel": "outdoor", "Chilean carretera austral": "outdoor", "Bolivian salar crossing white": "outdoor", "Brazilian BR-116 jungle edge": "outdoor", "Colombian Pan-American mountain": "outdoor", "Peru Cusco mountain road": "outdoor", "Mexico highway free road": "outdoor", "Trans-Siberian highway winter": "outdoor", "Silk Road Kyrgyzstan pass": "outdoor", "ocean at horizon golden hour": "outdoor", "empty pool at dawn": "both", "harbor pier edge": "outdoor", "cliff above ocean": "outdoor", "surf break line": "both", "sea cave entrance low tide": "both", "rocky tidal pool exposed": "both", "kelp forest shallows": "outdoor", "lake at first light still water": "outdoor", "waterfall base mist rising": "outdoor", "river bend at dusk": "outdoor", "open sea swell no land": "outdoor", "estuary at golden hour": "outdoor", "coral reef shallows clear": "both", "mountain lake snow-edged": "outdoor", "mangrove channel slow water": "both", "delta mouth wide sky": "both", "ocean trench research vessel deck": "outdoor", "fjord still water reflection": "both", "reservoir concrete dam edge": "both", "hot spring sulfur mist": "both", "geyser field Iceland": "outdoor", "alpine lake turquoise": "outdoor", "cenote entrance Mexico": "both", "limestone pool Halong Bay": "both", "infinity pool edge ocean drop": "outdoor", "lido pool 1930s architecture": "both", "sea loch Scotland mist": "outdoor", "frozen lake crack line": "outdoor", "lagoon atoll Pacific": "both", "beach at low tide sandbars": "outdoor", "submerged ruins shallow water": "outdoor", "rain-swollen river bank": "outdoor", "dam spillway roar": "both", "canal Venice dawn": "outdoor", "Venice canal gondola point": "outdoor", "tide pool Oregon coast": "outdoor", "Amazon tributary dawn": "both", "Lake Baikal winter ice": "outdoor", "Lake Titicaca reed island": "outdoor", "Dead Sea float horizon": "outdoor", "Maldives lagoon clear": "both", "Irish sea cliffs base": "outdoor", "Sardinia grotto entrance": "both", "Faroe Islands sea stack": "outdoor", "Iceland black sand waves": "both", "Nile at dusk feluccas": "both", "Ganges ghat at dawn": "both", "Thames at low tide mud": "both", "Hudson River pier dusk": "outdoor", "empty intersection at night signal change": "both", "parking structure roof level top": "outdoor", "fire escape above street view": "outdoor", "overpass concrete shadow below": "outdoor", "dawn construction site steel and scaffold": "outdoor", "subway platform empty off-peak": "indoor", "city park bench early morning": "outdoor", "coffee shop window condensation": "both", "laundromat 4am": "indoor", "24h bodega neon light": "both", "rooftop water tower base": "outdoor", "alley between glass towers": "outdoor", "bridge pedestrian walkway empty": "outdoor", "skateable plaza granite empty": "outdoor", "civic square fountain off": "both", "brutalist estate courtyard": "outdoor", "social housing balcony tower block": "both", "independent cinema marquee": "indoor", "corner phone box smashed": "both", "urban canal towpath": "outdoor", "disused railway viaduct arch": "both", "street art mural two-story": "outdoor", "fire station apron empty": "both", "police precinct steps empty night": "both", "boxing gym exterior early": "outdoor", "record store closing time": "both", "bookshop after hours window": "both", "bus station predawn": "both", "taxi rank 3am": "both", "dive bar exterior empty": "outdoor", "New York Meatpacking district predawn": "both", "Brooklyn bridge walk empty": "outdoor", "Manhattan skyline from Queens": "both", "Chicago L track level": "outdoor", "Los Angeles freeway overpass empty": "outdoor", "San Francisco Castro slope": "both", "London Borough Market early": "both", "East London railway arch": "both", "Manchester Northern Quarter": "both", "Berlin Kreuzberg street dawn": "outdoor", "Paris Canal St Martin": "outdoor", "Lyon traboule passage": "both", "Tokyo Shinjuku empty 5am": "both", "Tokyo Harajuku street alone": "outdoor", "Osaka Dotonbori night reflection": "outdoor", "Seoul Hongdae street art": "outdoor", "Singapore shop house row": "both", "Hong Kong back street incense": "outdoor", "Mumbai Marine Drive empty": "both", "Delhi Lodi Estate night": "both", "Cairo Khan el Khalili at dusk": "both", "ridge at altitude blue sky above": "outdoor", "snowfield at dusk pink light": "outdoor", "glacier crevasse edge": "outdoor", "rock face midway pitch": "outdoor", "alpine meadow wildflowers": "outdoor", "summit cairn wind-blown": "outdoor", "tree line edge looking up": "outdoor", "scree slope descent": "outdoor", "high camp tent door morning": "outdoor", "alpine lake reflection": "outdoor", "frozen waterfall ice wall": "outdoor", "boulder field at sunrise": "outdoor", "mountain hut exterior dawn": "outdoor", "narrow couloir ice": "outdoor", "ridgeline silhouette both sides visible": "outdoor", "cable car tower base": "outdoor", "rocky summit cross": "outdoor", "lookout tower wooden stairs": "outdoor", "talus slope scramble": "outdoor", "snow cornice edge careful": "outdoor", "Dolomite rock tower base": "outdoor", "Patagonia spire mist": "outdoor", "Himalayan base camp prayer flags": "outdoor", "Alaska glacier terminus": "outdoor", "Scottish highland ridge": "outdoor", "Swiss alpine meadow cowbell": "outdoor", "Rocky Mountain aspen grove autumn": "outdoor", "Norwegian fjord above": "outdoor", "New Zealand Southern Alps": "outdoor", "Andes condor sky above": "outdoor", "Atlas Mountains red earth": "outdoor", "Ethiopian Simien ridge": "outdoor", "Caucasus range ancient stone": "outdoor", "Pyrenees pass stone refuge": "outdoor", "Japanese Alps cedar forest": "outdoor", "Taiwan high mountain fog": "outdoor", "Philippine volcano caldera rim": "outdoor", "East African rift escarpment": "outdoor", "Carpathian forest ridge": "outdoor", "Urals ancient low ridge": "outdoor", "Appalachian bald summit": "outdoor", "Sierra Nevada granite dome": "outdoor", "Rockies moraine lake": "outdoor", "Mt Cook glacier New Zealand": "outdoor", "Iceland lava field above cloud": "outdoor", "Faroe plateau edge cliff": "outdoor", "Ben Nevis CIC hut below": "outdoor", "Chamonix aiguille needle": "outdoor", "street lamp cone of light empty": "outdoor", "predawn empty boulevard": "outdoor", "24h diner at 3am": "outdoor", "rooftop at midnight city below": "outdoor", "rain-soaked empty street lamp reflection": "outdoor", "neon sign alley close": "outdoor", "night club exterior queue gone": "outdoor", "casino exit early hours": "outdoor", "hotel lobby late night": "indoor", "city bridge walking both sides empty": "outdoor", "underground car park empty level": "outdoor", "hospital exterior 4am": "outdoor", "night bus last stop end line": "outdoor", "kebab shop 2am queue": "outdoor", "phone box interior lit": "indoor", "underpass graffiti night colour": "outdoor", "harbour lights reflection water night": "outdoor", "ferry terminal last boat gone": "outdoor", "train station concourse empty night": "outdoor", "airport arrivals 5am": "outdoor", "fuel station forecourt night": "outdoor", "empty beach night city beyond": "outdoor", "park night fountain lit": "outdoor", "botanical garden night event": "outdoor", "stadium exterior night event over": "outdoor", "theatre stage door night": "both", "concert venue exit after": "outdoor", "bar exterior last call street": "outdoor", "arcade empty closing time": "outdoor", "bowling alley last game": "outdoor", "Tokyo Shinjuku Kabukicho neon": "outdoor", "Seoul Hongdae night street": "outdoor", "Hong Kong Mong Kok night dense": "outdoor", "Taipei night market open": "outdoor", "Bangkok Patpong night market": "outdoor", "Ho Chi Minh night street food": "outdoor", "Singapore Clarke Quay night": "outdoor", "Kuala Lumpur Petaling night": "outdoor", "New York Times Square 4am": "outdoor", "Las Vegas strip 3am": "outdoor", "Chicago Riverwalk night": "outdoor", "Miami South Beach night": "outdoor", "New Orleans Bourbon St late": "outdoor", "Nashville Broadway night": "outdoor", "London West End 2am": "outdoor", "Paris Pigalle night": "outdoor", "Berlin Kurfürstendamm night": "outdoor", "Amsterdam red light area outside": "outdoor", "Brussels Grande Place night": "outdoor", "Prague Wenceslas night": "outdoor", "rain-soaked empty intersection": "outdoor", "wet concrete underpass columns": "outdoor", "open field in downpour dark sky": "outdoor", "flooded alley mid-storm": "outdoor", "motorway hard shoulder rain": "outdoor", "coastal path in gale rain horizontal": "outdoor", "park bench under tree both soaked": "outdoor", "railway platform empty rain": "outdoor", "market awning shelter shelter": "outdoor", "canal towpath downpour reflection": "outdoor", "football pitch waterlogged rain": "outdoor", "dockside warehouse rain sheeting": "outdoor", "London night rain street empty": "outdoor", "Tokyo rain alley lanterns": "outdoor", "New York rain fire escape dripping": "outdoor", "Paris rain cobblestones reflecting": "outdoor", "Edinburgh castle rain mist": "outdoor", "Dublin rain Georgian terrace": "outdoor", "Amsterdam canal bridge rain": "outdoor", "Prague rain old town cobble": "outdoor", "Lisbon rain hills tram tracks": "outdoor", "Barcelona rain Gothic quarter": "outdoor", "Rome rain colosseum deserted": "outdoor", "Naples rain narrow alley": "outdoor", "Bangkok rain monsoon street": "outdoor", "Ho Chi Minh rain street vendor": "outdoor", "Mumbai monsoon empty road": "outdoor", "Dhaka monsoon flooding knee-deep": "outdoor", "Kolkata rain tram tracks": "outdoor", "Jakarta monsoon flooded lane": "outdoor", "Manila typhoon shelter overpass": "outdoor", "Seoul rain Cheonggyecheon stream": "outdoor", "Taipei rain night market closed": "outdoor", "Hong Kong rain typhoon shelter": "outdoor", "Singapore rain Marina Bay": "outdoor", "Kuala Lumpur rain twin towers mist": "outdoor", "Sydney rain opera house steps": "outdoor", "Melbourne rain tram city": "outdoor", "Auckland rain harbour bridge": "outdoor", "Cape Town rain waterfront": "outdoor", "Rio rain favela rooftop": "outdoor", "Bogota rain colonial centre": "outdoor", "Lima rain Pacific mist": "outdoor", "Buenos Aires rain cobblestone": "outdoor", "Santiago rain Andes clouds": "outdoor", "Mexico City rain Zocalo": "outdoor", "Havana rain Malecon wave spray": "outdoor", "Kingston rain waterfront": "outdoor", "Lagos rain flooded street": "outdoor", "Nairobi rain red earth road": "outdoor", "Addis Ababa rain mountain mist": "outdoor", "salt flat at noon heat shimmer": "outdoor", "cracked desert floor geometric pattern": "outdoor", "ghost town main street tumbleweed": "outdoor", "red rock canyon base shadow": "outdoor", "dry riverbed sand exposed": "outdoor", "abandoned mine entrance dust motes": "outdoor", "ranch road dirt horizon heat": "outdoor", "western film set deserted main street": "outdoor", "dried-up lake bed white crust": "outdoor", "Oklahoma dust bowl farmhouse ruin": "outdoor", "Texas panhandle flat nothing": "outdoor", "New Mexico arroyo red earth": "outdoor", "Arizona mesa top wind": "outdoor", "Nevada high desert empty": "outdoor", "Utah canyon narrows sand": "outdoor", "Kansas wheat field harvest dust": "outdoor", "Colorado eastern plains empty": "outdoor", "Nebraska sandhills ridge wind": "outdoor", "Montana badlands dry ravine": "outdoor", "Wyoming oil field pump jack": "outdoor", "Idaho lava plain empty": "outdoor", "Australia outback red earth track": "outdoor", "Pilbara red dust horizon": "outdoor", "Kimberley dry season gorge": "outdoor", "Northern Territory red rock formation": "outdoor", "South Australia Flinders dry": "outdoor", "Victorian mallee scrub dust": "outdoor", "New South Wales western plains heat": "outdoor", "Queensland channel country dry": "outdoor", "Tasmania dry east coast scrub": "outdoor", "South Africa Karoo scrub kopje": "outdoor", "Namibia Fish River Canyon dry": "outdoor", "Botswana Makgadikgadi salt pan": "outdoor", "Zimbabwe Matobo boulders dry grass": "outdoor", "Zambia dry season valley": "outdoor", "Tanzania dry savannah dust": "outdoor", "Kenya Amboseli dust with Kilimanjaro": "outdoor", "Ethiopia Danakil salt flat heat": "outdoor", "Mali Sahel scrub dry": "outdoor", "Senegal Sahel dust harmattan": "outdoor", "Niger river bend dry season": "outdoor", "Chad scrubland dry season": "outdoor", "Sudan Meroe pyramids sand": "outdoor", "Egypt desert plateau beyond pyramid": "outdoor", "Libya Akakus rock desert": "outdoor", "Algeria Grand Erg dune sea": "outdoor", "Morocco pre-Sahara plains dust": "outdoor", "Tunisia Chott el-Jerid salt": "outdoor", "Iraq Mesopotamia dust plain": "outdoor", "Syria ancient ruins dust": "outdoor", "Jordan desert highway empty": "outdoor", "penthouse terrace at dusk city gold": "both", "private pool party after last guests": "both", "hotel corridor at 2am marble": "indoor", "empty casino floor chips scattered": "both", "rooftop helipad edge gold hour": "outdoor", "yacht deck Mediterranean sun": "both", "private club interior empty morning": "indoor", "art deco ballroom empty night": "both", "museum gala after hours": "both", "champagne bar last bottle": "both", "five-star hotel suite terrace": "both", "private jet interior leather": "indoor", "Concorde Lounge empty Heathrow now museum": "both", "airport first class lounge": "outdoor", "Paris Ritz bar last guest": "both", "Paris George V lobby empty": "indoor", "Monaco Casino terrace": "both", "Cannes Hotel Martinez terrace": "both", "Venice Cipriani water entrance": "both", "Amalfi cliffside hotel pool": "outdoor", "Lake Como villa terrace water": "outdoor", "Portofino harbour superyacht": "outdoor", "Capri faraglioni rocks view hotel": "both", "Côte d'Azur beach club": "outdoor", "Saint-Tropez pampelonne beach": "outdoor", "Antibes villa garden": "outdoor", "Marbella Golden Mile terrace": "both", "Ibiza Destino cliffside pool": "outdoor", "Mykonos Scorpios terrace": "both", "Santorini caldera infinity pool": "both", "Athens Acropolis view hotel": "both", "Istanbul Bosphorus hotel terrace": "both", "Dubai Burj Al Arab suite": "both", "Abu Dhabi Emirates Palace pool": "both", "Doha Museum of Islamic Art terrace": "both", "Singapore Marina Bay Sands pool rooftop": "outdoor", "Hong Kong Mandarin Oriental bar": "both", "Tokyo Park Hyatt bar Lost in Translation": "outdoor", "Bali Four Seasons rice terrace pool": "outdoor", "Maldives overwater villa deck": "both", "Seychelles Fregate private pool": "both", "New York Plaza Oak Bar empty": "outdoor", "New York Mandarin Oriental bar": "both", "LA Chateau Marmont garden": "outdoor", "Miami Faena pool dawn": "both", "London Claridge's bar empty": "outdoor", "London Savoy terrace": "both", "Edinburgh Balmoral palm court": "both", "Paris L'Espadon empty Ritz": "both", "Barcelona Arts hotel pool": "both", "frozen lake at first light crack pattern": "outdoor", "snowfield before storm dark sky": "outdoor", "ice hall empty arena": "outdoor", "ski resort predawn gondola loading": "outdoor", "tundra flat under white sky": "outdoor", "Lapland reindeer forest snow": "outdoor", "Svalbard glacier calving edge": "outdoor", "Iceland black sand and snow": "outdoor", "Greenland ice sheet horizon": "outdoor", "Alaska Brooks Range winter": "outdoor", "Canada Yukon wilderness freeze": "outdoor", "Siberian taiga frozen river": "outdoor", "Russia Baikal clear ice walking": "outdoor", "Finland ice lake sauna shore": "outdoor", "Norway frozen fjord reflection": "outdoor", "Sweden frozen archipelago island": "outdoor", "Faroe Islands frozen waterfall": "outdoor", "Scotland winter glen frozen burn": "outdoor", "Canada Quebec winter ice hotel": "outdoor", "Vermont maple forest snow": "outdoor", "Maine coast harbor frozen": "outdoor", "Colorado high alpine winter meadow": "outdoor", "Utah Bryce Canyon snow hoodoos": "outdoor", "Montana big sky winter open": "outdoor", "Wyoming Yellowstone winter steam": "outdoor", "Patagonia winter wind ice lake": "outdoor", "Antarctic research station exterior": "outdoor", "Sub-Antarctic island storm snow": "outdoor", "New Zealand South Island winter": "outdoor", "Japan Hokkaido snow forest": "outdoor", "Japan Aomori snow trees": "outdoor", "China Harbin ice sculpture": "outdoor", "South Korea Jiri mountain snow": "outdoor", "Kazakhstan steppe winter deep": "outdoor", "Kyrgyz winter yurt snow": "outdoor", "Tibet winter plateau wind": "outdoor", "Bhutan winter mountain dzong": "outdoor", "Pakistan K2 base camp winter": "outdoor", "Nepal Thorong La winter crossing": "outdoor", "Lesotho highland snow blanket": "outdoor", "Drakensberg winter frost dawn": "outdoor", "Morocco Atlas snow": "outdoor", "Spain Pyrenees winter pass": "outdoor", "Austria Dachstein glacier winter": "outdoor", "Switzerland Jungfrau winter": "outdoor", "Italy Dolomites winter ice": "outdoor", "Slovenia Triglav winter snow": "outdoor", "Poland Tatra winter ridge": "outdoor", "Czech Krkonose winter forest": "outdoor", "Romania Fagaras winter ridge": "outdoor", "Bulgaria Rila winter monastery": "outdoor", "brutalist tower base shadow": "both", "empty car park top floor": "outdoor", "underpass pillar zone": "both", "stadium concourse predawn": "both", "modernist housing block exterior": "outdoor", "Barbican London estate walkway": "both", "Robin Hood Gardens ramp": "outdoor", "Trellick Tower base London": "both", "Park Hill Sheffield walkway": "outdoor", "Keeling House balcony": "both", "Balfron Tower base London": "both", "Spa Green Estate London": "both", "Boston City Hall plaza": "outdoor", "Buffalo City Court exterior": "outdoor", "Chicago Daley Center": "both", "Detroit Civic Centre": "both", "Berlin Plattenbauwohnung stairwell": "indoor", "East Berlin Plattenbau exterior": "outdoor", "Prague Panelák courtyard": "outdoor", "Warsaw Muranów block": "both", "Budapest Kelenföld block": "both", "Bucharest Ceaușescu block": "both", "Moscow Khrushchevka courtyard": "outdoor", "St Petersburg industrial canal": "outdoor", "Minsk Government House": "both", "Kyiv modernist institute": "both", "Tbilisi Soviet bloc courtyard": "outdoor", "Yerevan opera square concrete": "both", "Almaty Soviet district": "both", "Tashkent Lenin era concrete": "both", "Pyongyang broad avenue concrete": "outdoor", "Shanghai brutalist university": "both", "Beijing Soviet-era ministry": "both", "Hong Kong public estate walkway": "both", "Singapore HDB void deck": "both", "Chandigarh High Court Le Corbusier": "both", "Ahmedabad IIM Kahn building": "both", "Dhaka National Assembly Louis Kahn": "both", "Islamabad secretariat": "both", "Brasília Oscar Niemeyer piloti": "both", "São Paulo Copan building": "both", "Caracas 23 de Enero block": "both", "Bogotá El Tunal estate": "both", "Mexico City Tlatelolco plaza": "outdoor", "Havana Soviet-era ministry": "both", "Santiago brutalist university": "both", "Lima housing estate concrete": "both", "Lagos National Theatre": "both", "Accra State House exterior": "outdoor", "steel mill floor at shift end glow": "both", "foundry catwalk heat below": "both", "shipyard dry dock ship above": "outdoor", "rail yard at dusk engine steam": "outdoor", "power plant turbine hall enormous": "both", "blast furnace taphole red glow": "both", "crane cab above dock": "outdoor", "rolling mill steel strip bright": "both", "coking plant tower exterior": "outdoor", "drop forge press building interior": "indoor", "scrap metal yard crusher": "outdoor", "industrial chimney base ladder": "both", "welder's bay sparks falling": "outdoor", "rivet hall aircraft construction": "both", "submarine dry dock interior": "indoor", "oil rig platform deck sea around": "outdoor", "bridge construction steel above": "outdoor", "tunnel boring machine front": "both", "viaduct under construction arches": "both", "railway workshop steam": "indoor", "Bessemer converter museum Sheffield": "outdoor", "Ironbridge Telford original location": "outdoor", "Blaenavon ironworks Wales ruin": "outdoor", "Cyfarthfa Castle Merthyr iron": "both", "Port Talbot steelworks Wales": "outdoor", "Scunthorpe steelworks exterior": "outdoor", "Redcar blast furnace ruin": "outdoor", "Motherwell steelworks ruin Scotland": "outdoor", "Cambuslang iron ruin Scotland": "outdoor", "Coatbridge ironworks Scotland": "outdoor", "Essen Zollverein colliery Germany": "both", "Duisburg Landschaftspark industrial ruin": "outdoor", "Völklingen Hütte ironworks Saar": "both", "Bochum industrial museum Ruhr": "both", "Dortmund Hoesch steelwork ruin": "outdoor", "Pittsburgh steel mill converted": "both", "Gary Indiana mill exterior": "outdoor", "Bethlehem PA blast furnace": "both", "Youngstown mill ruin Ohio": "outdoor", "Cleveland Flats industrial": "both", "Detroit industrial waterfront": "both", "Chicago industrial south side": "both", "Birmingham Alabama blast furnace": "both", "Gadsden Alabama iron ruin": "outdoor", "Pueblo Colorado steelwork": "both", "Provo Utah steel mill": "both", "Fontana California Kaiser mill ruin": "outdoor", "Hamilton Ontario Stelco exterior": "outdoor", "Sydney Steelworks Newcastle Australia": "both", "glass tower atrium morning": "both", "floor-to-ceiling window high rise": "both", "mirrored elevator interior": "indoor", "greenhouse botanical winter garden": "outdoor", "glass bridge high crossing": "outdoor", "transparent observation deck": "both", "ice rink glass-enclosed winter": "both", "glass-floored walkway canyon": "outdoor", "crystal palace replica interior": "indoor", "Lloyd's of London interior atrium": "both", "Shard viewing level London": "both", "Gherkin lobby London": "indoor", "Shanghai Tower sky bridge": "outdoor", "Burj Khalifa observation floor": "both", "Taipei 101 observation sky": "both", "One World Trade observation New York": "both", "Rockefeller Center Top of Rock": "both", "Empire State observation day": "both", "Eiffel Tower glass floor second level": "both", "Louvre glass pyramid interior": "indoor", "Centre Pompidou pipe exterior": "outdoor", "Fondation Louis Vuitton glass hull": "both", "Apple Store glass staircase New York": "indoor", "Apple Fifth Ave glass cube": "both", "Milan Galleria Vittorio floor detail": "both", "Crystal Palace Barcelona Ciutadella": "both", "Palacio de Cristal Madrid": "both", "Glass Museum Corning New York": "both", "Corning glass bridge walkway": "outdoor", "Glass Museum Tacoma Washington": "both", "Glassmuseum Ebeltoft Denmark": "both", "Palm House Kew Gardens London": "outdoor", "Temperate House Kew London": "both", "Barbican conservatory London": "both", "Eden Project biome interior": "indoor", "National Glass Centre Sunderland": "both", "Olympic Park velodrome interior": "indoor", "National Aquatics Centre Beijing": "both", "Grimshaw greenhouse Darwin": "both", "Frankfurt glass finance district": "both", "Munich BMW Welt glass atrium": "both", "Hamburg Elbphilharmonie interior": "indoor", "Copenhagen Diamanten glass building": "both", "Helsinki library Oodi interior": "indoor", "Lahti Sibelius Hall interior": "indoor", "Oslo Opera House glass slope": "both", "Bergen Aquarium glass corridor": "indoor", "Stavanger Oil Museum interior": "indoor", "cliff face at golden hour lichen-covered": "outdoor", "dense forest clearing shafts of light": "outdoor", "tidal flat at low tide exposed": "outdoor", "open grassland in wind": "outdoor", "river gorge base spray rising": "outdoor", "bog moorland at dusk": "outdoor", "ancient woodland root tangle": "outdoor", "estuarine mudflat wide sky": "outdoor", "heath in flower purple wide": "outdoor", "chalk downland escarpment edge": "outdoor", "limestone pavement bare": "outdoor", "peat highland loch reflected": "outdoor", "sand dune blowout hollow": "outdoor", "flint shingle beach storm": "outdoor", "reed bed at dawn mist": "outdoor", "old growth redwood base": "outdoor", "Scottish glen river crossing": "outdoor", "Welsh upland reservoir edge": "outdoor", "Peak District gritstone edge": "outdoor", "New Forest ancient oak hollow": "outdoor", "Lake District fell top": "outdoor", "Dartmoor tor wind": "outdoor", "Exmoor coastline cliff path": "outdoor", "Pembrokeshire sea stack distant": "outdoor", "Cairngorm plateau tundra": "outdoor", "Skye Cuillin black rock": "outdoor", "Hebrides machair wildflowers": "outdoor", "Norwegian birch forest autumn": "outdoor", "Swedish elk forest dawn": "outdoor", "Finnish lake island landing": "outdoor", "Estonian bog wooden walkway": "outdoor", "Baltic sea coast pine": "outdoor", "Breton coastal heathland": "outdoor", "Galician mountain forest green": "outdoor", "Sardinian maquis scrub": "outdoor", "Corsican gorge river": "outdoor", "Croatian karst spring": "outdoor", "Slovenian Triglav plateau": "outdoor", "Turkish mountain lake turquoise": "outdoor", "Georgian Caucasus meadow": "outdoor", "Mongolian steppe endless": "outdoor", "Kyrgyz alpine pasture yurt distant": "outdoor", "Tibetan plateau wind-scoured": "outdoor", "Bhutanese forest monastery visible above": "outdoor", "Indian hill station mist": "outdoor", "Sri Lanka highland tea": "outdoor", "New Zealand beech forest": "outdoor", "Australian blue mountain heath": "outdoor", "Tasmanian alpine meadow": "outdoor", "Kiwi rainforest fern gully": "outdoor", "basketball court empty dusk streetlights on": "outdoor", "floodlit court night summer empty": "both", "outdoor basketball court chalk lines faded": "outdoor", "half-court concrete urban playground": "both", "rooftop basketball court city below": "outdoor", "community centre court folded bleachers": "both", "high school gym court morning empty": "both", "college court arena empty pre-game": "both", "NBA arena floor level empty": "both", "Madison Square Garden court empty": "outdoor", "Staples Center floor level empty": "both", "United Center floor empty Chicago": "both", "TD Garden floor Boston empty": "outdoor", "Chase Center floor San Francisco empty": "both", "Barclays Center floor Brooklyn empty": "both", "Crypto.com Arena floor LA empty": "both", "Kia Center floor Orlando empty": "both", "FTX Arena floor Miami empty": "both", "American Airlines Center floor Dallas empty": "both", "Toyota Center floor Houston empty": "both", "tennis clay court Roland Garros empty": "both", "Wimbledon Centre Court grass empty": "both", "US Open hard court Flushing Meadows empty": "outdoor", "Australian Open hard court Melbourne empty": "both", "indoor hard court evening session empty": "indoor", "grass court country club summer": "both", "clay court private estate Mediterranean": "both", "beach volleyball court sand": "outdoor", "volleyball indoor court sports hall": "indoor", "badminton court sports centre": "outdoor", "squash court glass back wall": "both", "racquetball court enclosed": "both", "bocce ball court Italian village": "both", "pétanque court French village shade": "both", "boules court South of France": "both", "table tennis outdoor park": "outdoor", "handball court urban outdoor": "outdoor", "five-a-side astroturf floodlit": "both", "futsal court indoor competitive": "indoor", "padel court glass enclosed modern": "both", "pickleball court USA growing sport": "outdoor", "netball court UK school": "both", "hockey pitch astroturf Olympic": "both", "lacrosse field open": "outdoor", "polo field open expanse": "outdoor", "croquet lawn country house summer": "both", "bowls green English village": "both", "martial arts dojo wooden floor": "both", "boxing ring corner pre-fight": "both", "theater wings offstage spotlight beyond": "both", "empty stage single spotlight overhead": "both", "dressing room mirror strip lights": "both", "backstage corridor low ceiling": "indoor", "loading dock behind venue": "outdoor", "rehearsal space bare walls marked": "both", "fly tower above stage looking down": "both", "pit level orchestra empty": "both", "empty auditorium performer POV": "both", "stage door external night": "both", "green room pre-show nervous": "both", "Royal Opera House stage London": "both", "Sydney Opera House stage": "both", "New York Metropolitan Opera stage": "indoor", "Vienna Staatsoper stage empty": "both", "La Scala Milan stage": "both", "Paris Opéra Garnier stage": "both", "Moscow Bolshoi stage empty": "both", "Berlin Deutsche Oper stage": "both", "Barcelona Liceu stage": "both", "RSC Stratford stage empty": "both", "National Theatre London Lyttelton": "both", "Globe Theatre stage London": "both", "Carnegie Hall stage empty": "both", "Lincoln Center stage New York": "both", "Kennedy Center stage Washington": "both", "Royal Albert Hall stage London": "both", "Barbican Pit London": "both", "Almeida Theatre London stage": "both", "Young Vic stage London": "both", "Donmar Warehouse stage London": "indoor", "Gate Theatre Dublin stage": "both", "Abbey Theatre Dublin stage": "both", "Gaiety Theatre Dublin": "both", "National Theatre Dublin stage": "both", "Broadway stage empty 42nd": "outdoor", "Off-Broadway black box stage": "outdoor", "Edinburgh Fringe venue stage": "both", "Festival Theatre Edinburgh": "both", "Traverse Edinburgh stage": "both", "Usher Hall Edinburgh empty": "both", "Sage Gateshead stage empty": "both", "Bridgewater Hall Manchester stage": "outdoor", "City Varieties Leeds stage": "both", "Theatre Royal Glasgow stage": "both", "Citizens Theatre Glasgow": "both", "King's Theatre Glasgow stage": "both", "Welsh Millennium Centre stage Cardiff": "both", "Sherman Theatre Cardiff": "both", "Chapter Arts Cardiff": "both", "candlelit table for two restaurant": "both", "rooftop golden hour fairy lights": "outdoor", "empty late-night diner last customers": "both", "bookshop aisle corner hidden": "both", "record store listening booth small": "both", "beach at sunset last light": "outdoor", "train carriage night long journey": "both", "cinema back row late showing": "indoor", "corner of a house party quieter": "both", "coffee shop rain outside window": "outdoor", "botanical garden bench afternoon": "outdoor", "night market lanterns above": "both", "ferry crossing at dusk city both sides": "both", "art gallery quieter room afternoon": "both", "park lake bench autumn light": "outdoor", "hotel room curtains light through": "indoor", "breakfast in bed hotel morning": "both", "balcony Mediterranean morning": "both", "bridge over river evening": "outdoor", "kitchen cooking together evening": "indoor", "vintage car drive-in movie": "both", "lakeside dock summer evening": "outdoor", "picnic in park blanket afternoon": "outdoor", "wine bar last two there": "both", "flower market morning": "both", "bed-and-breakfast terrace morning": "both", "lighthouse keeper's cottage exterior": "outdoor", "canal boat evening": "outdoor", "log fire evening cottage interior": "indoor", "hammock between trees afternoon": "both", "ice cream parlour window seat": "outdoor", "vintage diner both side booth": "both", "cinema foyer pre-show": "indoor", "jazz club intimate table": "both", "library reading room empty afternoon": "indoor", "botanical glass house steamy": "both", "sea front promenade evening": "outdoor", "fairground ferris wheel top": "both", "Christmas market mulled wine": "both", "rooftop at sunrise both still up": "outdoor", "apartment window city night": "both", "record shop listening station": "both", "second-hand bookshop afternoon browsing": "both", "independent café rainy Sunday": "both", "vintage theatre matinee": "both", "gallery café after exhibition": "both", "cathedral cloister quiet afternoon": "both", "walled garden summer": "outdoor", "open-air cinema summer evening": "indoor", "food market Saturday both": "both", "empty concert hall seats": "outdoor", "vinyl record store aisle": "both", "garage band practice space": "indoor", "piano shop showroom evening": "both", "rooftop speaker setup": "outdoor", "recording studio control room": "indoor", "mixing desk session both": "both", "live venue empty soundcheck": "both", "tour bus bunk corridor": "indoor", "backstage catering area quiet": "both", "green room pre-gig": "both", "busker pitch underground empty": "both", "jazz club stage between sets": "both", "acoustic session stairwell": "indoor", "music school practice room": "both", "Abbey Road Studios crosswalk London": "indoor", "Sun Studio Memphis empty": "indoor", "Electric Lady Studio New York": "indoor", "Muscle Shoals Alabama studio": "indoor", "Criteria Studios Miami": "indoor", "Capitol Studios Los Angeles": "indoor", "Hansa Tonstudio Berlin": "indoor", "Polar Studios Stockholm": "indoor", "RAK Studios London": "indoor", "Rockfield Studios Wales": "indoor", "Rockfield Quadrangle Wales": "outdoor", "Konk Studios London": "indoor", "Maida Vale Studios BBC London": "indoor", "Air Studios Lyndhurst Hall London": "indoor", "British Grove London": "both", "Metropolis London": "indoor", "Olympic Studios Barnes London": "indoor", "Master Rock London": "both", "Madison Square Garden empty": "outdoor", "O2 Arena London empty": "both", "Radio City Music Hall empty": "both", "Royal Albert Hall stage level": "both", "Wembley Arena empty": "both", "La Cigale Paris empty": "both", "Olympia Paris empty": "both", "Zenith Paris empty": "both", "Berghain Berlin empty": "both", "Fabric London empty": "both", "Printworks London empty": "both", "Tobacco Dock London empty": "outdoor", "The Warehouse Leeds empty": "indoor", "Sub Club Glasgow empty": "both", "Barrowland Glasgow stage": "both", "King Tut's Glasgow stage": "both", "SWG3 Glasgow warehouse": "indoor", "Latitude Festival stage dawn": "both", "ancient amphitheater stepped seats Athens": "outdoor", "crumbling castle courtyard Scotland": "outdoor", "battlefield memorial dawn silence": "outdoor", "abandoned monastery cloister Portugal": "both", "colonial port warehouse Jamaica": "indoor", "Roman forum at sunrise empty": "both", "Egyptian pyramid at dawn no tourists": "both", "Angkor Wat sunrise reflection pool": "both", "Machu Picchu sun gate first light": "both", "Colosseum interior arch looking up": "indoor", "Parthenon pillars Athens dusk": "both", "Stonehenge solstice dawn mist": "both", "Avebury stone circle walking": "both", "Newgrange Ireland winter solstice": "both", "Hadrian's Wall northern edge": "both", "Vindolanda excavation trench": "both", "Viking longship museum interior": "indoor", "Jorvik Viking Centre York exterior": "outdoor", "Norman castle motte and bailey": "both", "Medieval cathedral chapter house": "both", "Tudor manor hall interior timber": "indoor", "Civil War battlefield marker dawn": "outdoor", "Napoleonic battlefield monument France": "outdoor", "Waterloo battlefield Belgium": "outdoor", "Auschwitz-Birkenau memorial path": "outdoor", "Berlin Wall remaining section": "both", "Checkpoint Charlie museum exterior": "outdoor", "Stasi prison Leipzig exterior": "indoor", "Dresden Frauenkirche rebuilt exterior": "outdoor", "Hiroshima Peace Memorial exterior": "outdoor", "Nagasaki museum exterior": "outdoor", "Pearl Harbor USS Arizona memorial water": "outdoor", "Gettysburg battlefield Pennsylvania": "outdoor", "Antietam battlefield Maryland dawn": "outdoor", "Bunker Hill monument Boston": "indoor", "Independence Hall Philadelphia": "both", "Colonial Williamsburg street": "outdoor", "Jamestown reconstruction Virginia": "both", "Plymouth Rock Massachusetts coast": "outdoor", "Salem witch trial memorial": "both", "Tombstone Arizona OK Corral": "both", "Little Bighorn battlefield Montana": "outdoor", "Alamo San Antonio Texas exterior": "outdoor", "Mesa Verde cliff dwelling Colorado": "outdoor", "Chaco Canyon ruins New Mexico": "outdoor", "Cahokia mounds Illinois": "both", "Serpent Mound Ohio aerial view possible": "both", "Cahokia Monks Mound base": "both", "abandoned asylum corridor tiles": "indoor", "fog-bound forest path no end": "outdoor", "empty motel parking lot night": "both", "derelict carnival midway": "both", "candlelit cellar steps": "indoor", "lighthouse keeper's cottage at night": "both", "ruined manor house exterior": "outdoor", "fog-covered graveyard path": "outdoor", "drowned village reservoir edge": "both", "Victorian factory floor dark": "indoor", "underground tunnel bricked-up end": "both", "secret passage bookcase entrance": "both", "locked library night window": "indoor", "empty theatre balcony creaking": "both", "old hotel corridor 3am": "indoor", "basement flooded ankle deep": "indoor", "attic trapdoor looking down": "indoor", "church crypt entrance stone": "both", "estate maze centre alone": "both", "walled garden overgrown locked": "outdoor", "old clock tower interior": "indoor", "photography darkroom red light": "both", "radio station night empty": "both", "print room old newspaper rotary": "both", "museum after hours case lit": "both", "archive basement box rows": "indoor", "police evidence room dim": "both", "detective agency door frosted glass": "both", "private eye office desk": "indoor", "smoke-filled bar information": "both", "dockside warehouse meeting": "indoor", "industrial estate unit door": "both", "abandoned school classroom": "indoor", "empty hospital corridor night": "indoor", "sanatorium courtyard overgrown": "outdoor", "institution corridor peeling": "indoor", "haunted B&B corridor creaking": "indoor", "village pub empty late": "both", "country house library fire out": "indoor", "whodunit manor hall chandelier": "both", "locked room diagram scene": "both", "crime scene before police arrive": "both", "film noir street lamp rain": "outdoor", "1940s diner counter night": "both", "jazz club back room door": "both", "speakeasy behind bookcase": "outdoor", "numbers station forest clearing": "outdoor", "black site exterior ordinary": "outdoor", "cherry blossom grove path Japan": "outdoor", "tulip field Keukenhof Netherlands rows": "outdoor", "wildflower meadow at dawn mist": "outdoor", "botanical garden greenhouse glass warm": "outdoor", "apple orchard in bloom England": "outdoor", "wisteria tunnel Japan Kawachi": "outdoor", "bluebell wood England May carpet": "outdoor", "lavender field early Provence France": "outdoor", "jasmine market India Madurai": "outdoor", "magnolia grove Central Park New York": "outdoor", "peach blossom field China Guilin": "outdoor", "Korean azalea mountain Hwangmaesan": "outdoor", "Dutch daffodil bulb fields early": "outdoor", "allium field purple English garden": "outdoor", "ranunculus flower farm California": "outdoor", "dahlia field September to spring": "outdoor", "sunflower first field France baby heads": "outdoor", "poppy field Flanders Belgium": "outdoor", "rapeseed field England yellow": "outdoor", "mustard field California Napa golden": "outdoor", "vine blossom Burgundy France early": "outdoor", "citrus blossom grove Sicily": "outdoor", "almond blossom Spain Extremadura": "outdoor", "olive blossom grove Italy Umbria": "outdoor", "camellia garden Cornwall England": "outdoor", "rhododendron garden Cornwall estate": "outdoor", "azalea garden Exbury England": "outdoor", "garden open day English country house": "outdoor", "allotment spring first dig": "outdoor", "community garden first planting": "outdoor", "Kyoto Philosopher's Path cherry": "outdoor", "Yoshino Mountain Japan cherry blossom": "outdoor", "Washington DC tidal basin cherry": "outdoor", "Vancouver Stanley Park cherry": "outdoor", "Seoul Yeouido park cherry Korea": "outdoor", "Taipei Yangmingshan azalea mountain": "outdoor", "Canberra Floriade festival tulips": "outdoor", "Melbourne Royal Botanic Garden": "outdoor", "Sydney Royal Botanic Garden first spring": "outdoor", "Adelaide Botanic Garden spring": "outdoor", "Buenos Aires Parque Tres de Febrero jacaranda": "outdoor", "Montevideo Rambla jacaranda street": "outdoor", "collapsing building exterior running from": "outdoor", "rooftop helicopter pad extraction": "outdoor", "exploding gas station forecourt": "outdoor", "car chase highway overpass": "outdoor", "burning warehouse interior smoke": "indoor", "abandoned factory fight sequence": "indoor", "dockside container confrontation": "outdoor", "airport tarmac last minute": "outdoor", "jungle compound extraction": "outdoor", "embassy exterior hostage situation": "outdoor", "desert oil field explosion": "outdoor", "arctic facility escape": "both", "submarine control room emergency": "both", "space shuttle launch pad": "both", "nuclear plant control room": "both", "dam spillway chase on foot": "both", "bridge car fall below car chase": "outdoor", "tunnel chase underground": "both", "mountain pass vehicle standoff": "outdoor", "forest pursuit on foot both": "outdoor", "villain's lair interior reveal": "indoor", "underground bunker finale": "indoor", "ancient temple booby trap": "outdoor", "underwater ruins race against time": "outdoor", "mine shaft descent together": "both", "crane top city confrontation": "both", "skyscraper window cleaner exterior": "outdoor", "radio tower climb final": "both", "power station roof fight": "both", "cargo plane tail ramp drop": "both", "helicopter exterior city hover": "outdoor", "speed boat chase coastal": "outdoor", "submarine exterior underwater suit": "outdoor", "jet ski dock escape": "outdoor", "sports stadium crowd finale": "outdoor", "opera house roof confrontation": "both", "casino vault escape": "indoor", "museum gallery heist escape": "both", "art auction interruption": "both", "black tie gala gone wrong": "both", "embassy rooftop garden escape": "outdoor", "safe house interior blow": "indoor", "railway carriage fight sequence": "both", "metro station platform confrontation": "indoor", "bus roof fight moving": "both", "taxi chase narrow streets": "outdoor", "launch pad pre-ignition T-minus hold": "both", "mission control empty overnight": "both", "space station observation cupola window Earth": "both", "lunar surface crater rim Earth above": "both", "Mars red dust plain horizon flat": "outdoor", "asteroid mining platform exterior": "outdoor", "exoplanet first landing alien sky": "both", "black hole research vessel safe distance": "outdoor", "Jupiter cloud layer research station": "outdoor", "Saturn ring station exterior": "outdoor", "Pluto flyby exterior frozen": "outdoor", "comet surface landing tethered": "both", "deep space transit vessel corridor": "indoor", "cryosleep chamber awakening": "both", "space elevator ascent halfway": "both", "orbital hotel view deck Earth": "both", "Kennedy Space Centre launch control": "both", "Houston JSC mission simulator": "both", "Baikonur Cosmodrome launch site Kazakhstan": "both", "Star City training facility Russia": "both", "ESA training centre Cologne": "both", "Astronaut hall of fame Florida": "both", "Space Shuttle Atlantis display interior": "indoor", "Saturn V rocket base Florida": "both", "Soyuz capsule training interior": "indoor", "ISS training pool underwater": "both", "neutral buoyancy pool astronaut training": "both", "zero-G aircraft parabola inside": "indoor", "planetarium dome below projection": "both", "observatory telescope control room": "both", "radio telescope base signal listening": "both", "space museum corridor display both": "indoor", "observatory on volcano Mauna Kea Hawaii": "both", "Atacama Observatory Chile exterior night": "outdoor", "Very Large Telescope Chile exterior": "outdoor", "Arecibo-equivalent structure exterior": "outdoor", "Control room Hubble maintenance": "both", "James Webb team celebration room": "both", "Mars Curiosity control room JPL": "both", "New Horizons flyby celebration JPL": "outdoor", "Apollo mission anniversary meeting": "both", "Artemis crew announcement": "both", "SpaceX factory floor Falcon": "indoor", "Blue Origin factory Shepard beside": "indoor", "Virgin Galactic spaceport exterior": "outdoor", "JAXA control room Tokyo": "both", "Eiffel Tower base Paris predawn": "both", "Colosseum arch Rome morning empty": "both", "Times Square empty early morning": "both", "Santorini caldera edge sunset domes": "both", "Machu Picchu sun gate at dawn": "both", "Taj Mahal garden axis front": "outdoor", "Great Wall of China isolated section": "both", "Great Barrier Reef underwater snorkelling": "both", "Victoria Falls Zambia mist platform": "both", "Iguazu Falls Argentina walkway": "both", "Grand Canyon south rim early empty": "outdoor", "Yellowstone hot spring boardwalk": "outdoor", "Northern Lights field Iceland wide": "outdoor", "Bora Bora overwater bungalow deck": "both", "Easter Island Moai row dawn": "both", "Angkor Wat reflection pool sunrise": "both", "Petra treasury facade dawn first light": "both", "Wadi Rum Jordan camp fire night": "both", "Sahara camel dune sunrise": "outdoor", "Serengeti migration open plain": "outdoor", "Masai Mara balloon morning drift": "both", "Cape of Good Hope lighthouse": "both", "Table Mountain cable car arrival": "outdoor", "Robben Island ferry approach": "both", "Kruger Park sunset vehicle": "outdoor", "Okavango Delta mokoro boat": "both", "Nile felucca sailing sunset": "both", "Abu Simbel facade dawn laser show": "both", "Pyramids Giza sunset alone": "both", "Luxor temple night lit": "both", "Valley of Kings tomb entrance": "both", "Karnak temple hypostyle dawn": "both", "Dead Sea float horizon Jordan": "outdoor", "Wailing Wall Jerusalem quiet": "both", "Church of Holy Sepulchre Jerusalem": "both", "Hagia Sophia Istanbul interior": "indoor", "Cappadocia balloon field dawn": "outdoor", "Pamukkale travertine pool Turkey": "both", "Ephesus library facade Turkey": "indoor", "Bosphorus strait crossing sunrise": "both", "Dubrovnik walls morning empty": "both", "Plitvice Lakes Croatia boardwalk": "outdoor", "Kotor Bay Montenegro water edge": "both", "Mostar bridge Bosnia clear water": "outdoor", "artist studio with skylight afternoon": "indoor", "blank canvas before first stroke": "both", "watercolour wash drying table": "both", "life drawing class empty": "both", "white cube gallery installation": "both", "Tate Modern Turbine Hall London": "both", "Turbine Hall vast floor looking up": "both", "National Gallery London grand stair": "both", "Royal Academy London courtyard": "outdoor", "Serpentine Pavilion exterior": "outdoor", "Hayward Gallery concrete London": "both", "MoMA atrium New York": "both", "Whitney Museum terrace New York": "both", "Guggenheim spiral New York": "both", "Met Roof Garden New York": "outdoor", "Pace Gallery New York white": "both", "Chelsea gallery white New York": "outdoor", "Centre Pompidou escalator exterior Paris": "outdoor", "Louvre Pyramid interior glass": "indoor", "Musée d'Orsay clock window": "both", "Fondation Louis Vuitton hull Paris": "both", "Palais de Tokyo raw space Paris": "both", "Fondation Cartier exterior Paris": "outdoor", "Uffizi courtyard Florence": "outdoor", "Galleria Borghese garden Rome": "outdoor", "MAXXI Rome interior": "indoor", "Palazzo Grassi Venice": "both", "Punta della Dogana Venice": "both", "Biennale Giardini pavilion": "both", "Städel Museum Frankfurt": "both", "Pinakothek Munich white room": "both", "Documenta Kassel site": "both", "Hamburger Bahnhof Berlin industrial": "both", "KW Institute Berlin raw": "both", "Hamburger Kunsthalle": "both", "Rijksmuseum Amsterdam hall": "both", "Stedelijk Museum Amsterdam": "both", "Eye Film Museum Amsterdam": "both", "Guggenheim Bilbao titanium exterior": "outdoor", "MACBA Barcelona terrace": "both", "Reina Sofia Madrid": "both", "Serralves Porto garden": "outdoor", "Moderna Museet Stockholm island": "both", "Kiasma Helsinki interior": "indoor", "Ateneum Helsinki stair": "both", "Louisiana Museum Denmark sea view": "outdoor", "Arken Museum Denmark": "both", "Oaxacan market stall morning colour": "outdoor", "Chichen Itza pyramid sunrise empty": "outdoor", "Lucha libre arena ring between bouts": "outdoor", "Mexico City Zócalo plaza evening": "outdoor", "Frida Kahlo blue house Coyoacán": "outdoor", "Xochimilco trajinera canal flower boat": "outdoor", "Oaxaca Monte Albán ruins": "outdoor", "Teotihuacan pyramids dawn": "outdoor", "Palenque jungle ruins Chiapas": "outdoor", "Uxmal Yucatan ruins": "outdoor", "Merida colonial plaza Sunday": "outdoor", "San Cristóbal de las Casas highland": "outdoor", "Puerto Escondido surf beach Oaxaca": "outdoor", "Huatulco bay beach Oaxaca": "outdoor", "Sayulita beach Nayarit village": "outdoor", "Puerto Vallarta old town Jalisco": "outdoor", "Guadalajara Tlaquepaque craft market": "outdoor", "Guanajuato callejón del Beso lane": "outdoor", "Guanajuato Festival Cervantino stage": "outdoor", "San Miguel de Allende jardin": "outdoor", "Tulum ruins cliff sea below": "outdoor", "Tulum cenote swim jungle": "outdoor", "Bacalar lake colours Quintana Roo": "outdoor", "Coba pyramid climb top jungle": "outdoor", "Valladolid cenote swim Yucatan": "outdoor", "Izamal yellow town Yucatan": "outdoor", "Campeche colonial colour walls": "outdoor", "Veracruz malecon evening": "outdoor", "Xalapa anthro museum Veracruz": "outdoor", "Tlaxcala smallest state capital": "outdoor", "Morelia cathedral evening Michoacán": "outdoor", "Pátzcuaro Day of Dead lake": "outdoor", "Janitzio island midnight ceremony": "outdoor", "Cholula pyramid church top": "outdoor", "Puebla Azulejo tile building": "outdoor", "Taxco silver town hilltop": "outdoor", "Acapulco cliff diver platform": "outdoor", "Mazatlán old town Sinaloa": "outdoor", "Los Cabos arch sea rock": "outdoor", "Baja peninsula road trip": "outdoor", "Copper Canyon train Chihuahua": "outdoor", "Creel Tarahumara area Chihuahua": "outdoor", "New York Times Square 5am empty": "outdoor", "Route 66 Cadillac Ranch Texas art": "outdoor", "Nashville Broadway honky-tonk stage exterior": "outdoor", "New Orleans French Quarter Bourbon exterior": "outdoor", "Brooklyn rooftop summer Manhattan behind": "outdoor", "LA Venice Beach boardwalk morning": "outdoor", "San Francisco Lombard Street": "outdoor", "Chicago Bean Millennium Park reflection": "outdoor", "Miami South Beach art deco morning": "outdoor", "Seattle Pike Place Market dawn": "outdoor", "Portland Oregon Powell's Books exterior": "outdoor", "Austin 6th Street music row": "outdoor", "New Orleans Garden District mansion": "outdoor", "Savannah mossy square Georgia": "outdoor", "Charleston Rainbow Row South Carolina": "outdoor", "Annapolis harbour Maryland": "outdoor", "Cape Cod beach Massachusetts summer": "outdoor", "Maine Portland lobster pier": "outdoor", "Vermont fall foliage road General Store": "outdoor", "New Hampshire White Mountains": "outdoor", "Alaska Denali clear day base": "outdoor", "Hawaii Na Pali coast Kauai": "outdoor", "Grand Canyon south rim early": "outdoor", "Bryce Canyon hoodoos Utah dawn": "outdoor", "Zion Narrows Utah hiking": "outdoor", "Arches Utah Delicate Arch sunrise": "outdoor", "Monument Valley Arizona Navajo": "outdoor", "Death Valley salt pan California": "outdoor", "Yosemite Valley El Capitan view": "outdoor", "Sequoia forest drive-through tree": "outdoor", "Pacific Coast Highway Big Sur": "outdoor", "Malibu beach LA adjacent": "outdoor", "Santa Monica pier evening": "outdoor", "Hollywood Sign hillside view": "outdoor", "Bourbon Street parade day": "outdoor", "Mardi Gras New Orleans crowd": "outdoor", "Super Bowl adjacent city street": "outdoor", "NBA Finals watch party bar": "outdoor", "Fourth of July fireworks open": "outdoor", "Thanksgiving parade New York both": "outdoor", "Black Friday mall opening queue": "outdoor", "American diner any state any time": "outdoor", "Banff Lake Louise turquoise shoreline": "outdoor", "Niagara Falls mist observation deck": "outdoor", "Toronto CN Tower base exterior": "outdoor", "Vancouver Stanley Park seawall": "outdoor", "Quebec City Old Town cobblestone": "outdoor", "Montreal Plateau neighbourhood mural": "outdoor", "Ottawa Parliament Hill exterior": "outdoor", "Victoria Inner Harbour BC": "outdoor", "Whistler village snow BC": "outdoor", "Jasper National Park Alberta": "outdoor", "Icefields Parkway Alberta drive": "outdoor", "Columbia Icefield glacier walk": "outdoor", "Tofino beach BC surf remote": "outdoor", "Pacific Rim National Park BC": "outdoor", "Haida Gwaii remote BC island": "outdoor", "Nahanni River Yukon remote": "outdoor", "Kluane National Park Yukon": "outdoor", "Dawson City Yukon gold rush": "outdoor", "Whitehorse northern lights Yukon": "outdoor", "Yellowknife Great Slave Lake NWT": "outdoor", "Inuvik tundra NWT remote": "outdoor", "Churchill polar bear season Manitoba": "outdoor", "Churchill beluga whale summer Manitoba": "outdoor", "Prince Edward Island red sand beach": "outdoor", "Cape Breton Cabot Trail NS": "outdoor", "Halifax waterfront NS": "outdoor", "Saint John covered bridge NB": "outdoor", "Fredericton legislative assembly NB": "outdoor", "Charlottetown Green Gables PEI": "outdoor", "Confederation Bridge crossing PEI": "outdoor", "Newfoundland L'Anse aux Meadows": "outdoor", "Signal Hill St John's Newfoundland": "outdoor", "Fogo Island Newfoundland remote": "outdoor", "Gros Morne Newfoundland fjord": "outdoor", "Toronto Kensington Market": "outdoor", "Toronto Distillery District": "outdoor", "Montreal Mile End neighbourhood": "outdoor", "Vancouver Granville Island market": "outdoor", "Calgary Heritage Park historic": "outdoor", "Edmonton Ice Palace winter": "outdoor", "Saskatoon riverbank trail": "outdoor", "Regina Wascana Centre park": "outdoor", "Jamaica Negril cliff sunset dive spot": "outdoor", "Trinidad Carnival Queen Park Savannah stage": "outdoor", "Barbados Bathsheba Atlantic coast rock": "outdoor", "Cuba Havana Malecón sea wall sunset": "outdoor", "Puerto Rico Old San Juan cobblestone blue": "outdoor", "Dominican Republic Samaná waterfall pool": "outdoor", "Haiti Citadelle la Ferrière approach": "outdoor", "Martinique Saint-Pierre volcanic ruin": "outdoor", "Guadeloupe Basse-Terre waterfall": "outdoor", "Saint Lucia Pitons beach between": "outdoor", "Dominica Boiling Lake trail approach": "outdoor", "Grenada spice plantation nutmeg": "outdoor", "Barbados Bridgetown Cheapside market": "outdoor", "Antigua English Harbour Nelson's Dockyard": "outdoor", "Sint Maarten both sides beach": "outdoor", "Saint Kitts Brimstone Hill fortress": "outdoor", "Montserrat volcano exclusion edge": "outdoor", "Anguilla Shoal Bay beach quiet": "outdoor", "British Virgin Islands tortola bay": "outdoor", "US Virgin Islands Charlotte Amalie": "outdoor", "Turks and Caicos Grace Bay clear": "outdoor", "Cayman Islands 7 Mile Beach": "outdoor", "Bahamas Exuma swimming pigs": "outdoor", "Nassau Atlantis approach": "outdoor", "Cuba Viñales valley tobacco farm": "outdoor", "Cuba Trinidad colonial pastel": "outdoor", "Cuba Varadero beach resort": "outdoor", "Cuba Santiago Carnival": "outdoor", "Jamaica Blue Mountains coffee tour": "outdoor", "Jamaica Cockpit Country remote": "outdoor", "Jamaica Port Antonio Blue Lagoon": "outdoor", "Jamaica Dunn's River Falls climb": "outdoor", "Trinidad Caroni swamp scarlet ibis": "outdoor", "Trinidad Maracas Bay beach": "outdoor", "Barbados Fish Fry Oistins Friday": "outdoor", "Barbados Morgan Lewis sugar mill": "outdoor", "Puerto Rico Bioluminescent Bay night": "outdoor", "Puerto Rico Arecibo radio telescope": "outdoor", "Dominican Republic Pico Duarte hike": "outdoor", "Dominican Republic Saona Island beach": "outdoor", "chapel altar candlelit intimate": "both", "outdoor ceremony wildflower arch": "outdoor", "bridal suite mirror morning light": "both", "registry office stone steps": "indoor", "vineyard ceremony at dusk vines": "outdoor", "country house parkland ceremony": "outdoor", "cathedral nave enormous light shafts": "both", "marquee interior lanterns hung": "indoor", "city rooftop ceremony skyline": "outdoor", "beach ceremony barefoot sand": "outdoor", "cliff top ceremony sea below": "outdoor", "walled garden ceremony flower walls": "outdoor", "barn interior dressed timber": "indoor", "greenhouse botanical ceremony": "both", "castle courtyard ceremony Scotland": "outdoor", "Lake District fell backdrop ceremony": "indoor", "Cotswold church exterior yew trees": "outdoor", "Scottish loch ceremony shoreline": "outdoor", "Irish country house ceremony": "both", "Devon coast ceremony headland": "outdoor", "Cornwall sea ceremony cliff": "outdoor", "Norfolk barn ceremony harvest feel": "both", "Suffolk church flint exterior": "outdoor", "Yorkshire moors ceremony exposed": "both", "Peak District ceremony hill above": "outdoor", "Welsh mountain ceremony Snowdonia": "outdoor", "Tuscan villa ceremony cypress trees": "both", "Amalfi Villa ceremony cliff terrace": "outdoor", "Positano ceremony sea stack": "outdoor", "Ravello Villa Rufolo ceremony": "both", "Lake Como ceremony jetty": "outdoor", "French château ceremony formal garden": "outdoor", "Provence lavender field ceremony": "outdoor", "Côte d'Azur villa ceremony": "both", "Greek island ceremony whitewashed": "both", "Santorini ceremony caldera edge": "both", "Mykonos windmill ceremony": "both", "Crete beach ceremony taverna": "outdoor", "Portuguese Alentejo vineyard ceremony": "outdoor", "Douro Valley ceremony terraced vines": "outdoor", "Sintra Palace ceremony garden": "outdoor", "Lisbon rooftop ceremony tiles": "outdoor", "New York City Hall ceremony": "both", "Brooklyn ceremony Williamsburg loft": "both", "home kitchen counter morning coffee": "indoor", "professional kitchen pass window service": "indoor", "street food cart night busy": "outdoor", "wood-fired pizza oven exterior": "outdoor", "outdoor market prep table": "outdoor", "restaurant kitchen mid-service": "indoor", "cafe counter opening ritual": "both", "butcher's cold room doorway": "both", "fish market slab first light": "both", "vegetable market stall sorting": "both", "fermentation cellar shelves rows": "indoor", "bakery 4am before opening": "both", "patisserie counter morning": "both", "ramen shop kitchen small hectic": "both", "sushi counter chef preparation": "both", "teppanyaki grill both sides": "both", "pizza restaurant back kitchen": "indoor", "pasta restaurant handmade bench": "both", "wine cellar tasting table": "indoor", "farmhouse kitchen AGA morning": "indoor", "Georgian kitchen hearth fire": "indoor", "Victorian scullery restoration": "both", "Basque pintxos bar kitchen small": "both", "Madrid tapas bar kitchen": "indoor", "Barcelona market stall La Boqueria": "both", "Paris boulangerie counter morning": "both", "Lyon bouchon kitchen small": "both", "Marseille fish quay morning": "outdoor", "Neapolitan pizza back kitchen": "indoor", "Roman trattoria kitchen simple": "indoor", "Sicilian kitchen nonna's": "indoor", "Moroccan riad kitchen courtyard": "indoor", "Lebanese kitchen mezze spread": "indoor", "Turkish gözleme street stall": "outdoor", "Japanese izakaya small kitchen": "both", "Korean BBQ grill table": "both", "Vietnamese pho kitchen 4am": "indoor", "Thai street wok cart night": "outdoor", "Indian dhal kitchen simple": "indoor", "Bengali fish curry kitchen": "indoor", "Mexican cocina simple home": "both", "Peruvian ceviche kitchen fresh": "indoor", "Argentine asado fire outdoor": "outdoor", "New York deli counter": "both", "New Orleans creole kitchen": "indoor", "Louisiana cajun outdoor cook": "outdoor", "Borneo rainforest canopy walkway": "outdoor", "Amazon river camp at dawn": "outdoor", "Costa Rica cloud forest mist": "outdoor", "Cambodia temple overgrown vines": "outdoor", "Papua New Guinea highland trail": "outdoor", "Daintree rainforest Queensland": "outdoor", "Congo basin clearing giant trees": "outdoor", "Sumatra jungle river crossing": "outdoor", "Thailand hill tribe forest edge": "outdoor", "Vietnam karst limestone jungle": "outdoor", "Ecuador Amazon tributary camp": "outdoor", "Peru cloud forest epiphyte trees": "outdoor", "Belize cenote jungle clearing": "outdoor", "Guatemala Tikal temple above canopy": "outdoor", "Mexico Yucatan jungle ruin": "outdoor", "Sri Lanka jungle leopard territory": "outdoor", "India Corbett forest trail edge": "outdoor", "Kenya jungle border savannah": "outdoor", "Rwanda gorilla trekking forest": "outdoor", "Uganda Bwindi forest trail": "outdoor", "Pantanal waterway jungle edge Brazil": "outdoor", "Orinoco delta mangrove channel": "outdoor", "Mekong river bank jungle Cambodia": "outdoor", "Irrawaddy river jungle bank Myanmar": "outdoor", "Salween river jungle edge": "outdoor", "Kinabalu rainforest lower slope": "outdoor", "Sabah jungle river crossing": "outdoor", "Sarawak longhouse river arrival": "outdoor", "Sulawesi jungle crater lake": "outdoor", "Flores jungle volcanic forest": "outdoor", "Philippines Palawan jungle cove": "outdoor", "Mindanao highland forest trail": "outdoor", "Luzon rice terrace edge forest": "outdoor", "Hawaii fern gully waterfall": "outdoor", "Maui bamboo forest path": "outdoor", "Kauai Na Pali coast jungle": "outdoor", "Puerto Rico El Yunque cloud forest": "outdoor", "Jamaica Blue Mountain forest": "outdoor", "Trinidad Northern Range forest": "outdoor", "Trinidad Caroni swamp dawn": "outdoor", "Grenada Grand Etang crater forest": "outdoor", "Dominica rainforest river gorge": "outdoor", "St Lucia banana plantation edge": "outdoor", "Martinique Pelée lower forest": "outdoor", "Guadeloupe volcanic forest": "outdoor", "Madagascar rainforest lemur clearing": "outdoor", "Comoros forest ancient tree": "outdoor", "Reunion Cirque de Cilaos": "outdoor", "Seychelles Vallée de Mai palm": "outdoor", "Mauritius Black River Gorges": "outdoor", "Paris fashion week backstage Palais Royal": "both", "empty runway post-show dust settling": "outdoor", "Milan Brera showroom white space": "both", "studio white cyc wall full-length": "indoor", "New York garment district loft": "both", "London Somerset House courtyard show": "outdoor", "Copenhagen show space industrial": "both", "Berlin show space former power plant": "both", "Lagos Lagos Fashion Week backstage": "both", "Seoul DDP show exterior": "outdoor", "Tokyo Rainbow Bridge show exterior": "outdoor", "Shanghai former factory show space": "indoor", "Palais de Tokyo Paris show": "both", "Grand Palais Paris interior nave": "indoor", "Louvre Cour Carrée show Paris": "both", "Champs-Elysées midnight show": "both", "Eiffel Tower platform show Paris": "both", "Versailles garden show Paris": "outdoor", "Uffizi Piazzale Michelangelo show Florence": "both", "Colosseum exterior show Rome": "outdoor", "Guggenheim rotunda show New York": "both", "Whitney Biennial adjacent show": "both", "MoMA garden show New York": "outdoor", "Brooklyn Navy Yard show space": "outdoor", "Hudson Yards public show New York": "outdoor", "Met Stairs show New York": "both", "Tate Modern Bankside show London": "both", "V&A Cromwell Road steps London": "outdoor", "Natural History Museum London show": "both", "BFI Southbank show London": "both", "Barbican Centre show London": "both", "Roundhouse show London": "both", "BAFTA 195 Piccadilly show London": "both", "Selfridges rooftop show London": "outdoor", "Fashion East venue London": "both", "Goldsmiths show London": "both", "Central Saint Martins BA show": "both", "RCA show London": "both", "LCF MA show London": "both", "Birmingham Custard Factory show": "indoor", "Manchester Victoria Warehouse show": "indoor", "Glasgow SWG3 show": "both", "Edinburgh Dovecot Studios show": "indoor", "Dublin National Museum show": "both", "Lisbon LX Factory show": "indoor", "Barcelona Palo Alto show": "both", "city street march crowd placard density": "outdoor", "courthouse steps vigil candles": "outdoor", "barricade police line stand-off": "outdoor", "memorial vigil square candles wind": "outdoor", "occupation sit-in steps long-stay": "outdoor", "university campus quad gathering": "outdoor", "Parliament Square Westminster London": "outdoor", "Trafalgar Square London gathering": "outdoor", "Tiananmen Square adjacent Beijing": "outdoor", "Tahrir Square Cairo archive feeling": "outdoor", "Maidan Square Kyiv historic feeling": "outdoor", "Wenceslas Square Prague historic": "outdoor", "Zuccotti Park New York Occupy": "outdoor", "Union Square New York rally": "outdoor", "Hyde Park Speakers' Corner London": "outdoor", "The Mall Washington DC march": "outdoor", "Lafayette Square Washington DC": "outdoor", "Martin Luther King Memorial Washington": "outdoor", "Lincoln Memorial steps Washington": "outdoor", "Capitol Building exterior demonstration": "outdoor", "Selma bridge Edmund Pettus Alabama": "outdoor", "Birmingham Alabama Kelly Ingram Park": "outdoor", "Montgomery Alabama Dexter Avenue": "outdoor", "Little Rock Arkansas school exterior": "outdoor", "Stonewall Inn New York exterior": "outdoor", "Stonewall National Monument area": "outdoor", "Harvey Milk Plaza San Francisco": "outdoor", "Castro District San Francisco march": "outdoor", "Grant Park Chicago rally point": "outdoor", "Federal Plaza Chicago march": "outdoor", "Millennium Park Chicago gathering": "outdoor", "City Hall Los Angeles steps": "outdoor", "Pershing Square Los Angeles rally": "outdoor", "Venice Beach boardwalk demonstration": "outdoor", "Rodeo Drive protest Palm Springs": "outdoor", "Climate march London Embankment": "outdoor", "XR blockade London bridge": "outdoor", "Anti-war vigil Grosvenor Square London": "outdoor", "Greenham Common memorial Berkshire": "outdoor", "Faslane Peace Camp Scotland gate": "outdoor", "G8 Gleneagles approach road": "outdoor", "COP26 Glasgow approach march": "outdoor", "George Square Glasgow rally": "outdoor", "Kelvingrove Glasgow vigil": "outdoor", "rooftop golden hour city amber": "outdoor", "coastal cliff dusk edge last light": "outdoor", "open field last light warm": "outdoor", "lake surface golden hour reflection": "outdoor", "mountain ridge dusk silhouette": "outdoor", "desert highway dusk warm": "outdoor", "vineyard last light harvest rows": "outdoor", "harbour dusk boats rocking": "outdoor", "beach last light families leaving": "outdoor", "park bench dusk city behind": "outdoor", "canal towpath dusk reflection": "outdoor", "river bridge dusk city both sides": "outdoor", "cathedral steps dusk warm stone": "outdoor", "castle ramparts dusk light": "outdoor", "country house lawn dusk evening": "outdoor", "walled garden dusk last bees": "outdoor", "orchard dusk fruit heavy": "outdoor", "meadow dusk grass gold": "outdoor", "clifftop bench dusk coast": "outdoor", "lighthouse dusk beam starting": "outdoor", "sea front promenade dusk stroll": "outdoor", "pier end dusk water colour": "outdoor", "esplanade dusk families evening": "outdoor", "nature reserve dusk birds settling": "outdoor", "bog moorland dusk purple heather": "outdoor", "upland tarn dusk reflected": "outdoor", "Sahara dusk orange sky vast": "outdoor", "Rajasthan dusk pink stone": "outdoor", "Bali rice terrace dusk green gold": "outdoor", "Ha Long Bay dusk karst silhouette": "outdoor", "Angkor Wat dusk reflection gold": "outdoor", "Petra dusk rose-red fade": "outdoor", "Cappadocia dusk balloon silhouette": "outdoor", "Santorini dusk caldera famous": "outdoor", "Positano dusk colour stack": "outdoor", "Dubrovnik walls dusk Adriatic": "outdoor", "Oia dusk famous blue dome": "outdoor", "Mykonos windmill dusk": "outdoor", "Lisbon dusk Tagus golden": "outdoor", "Porto dusk Douro bridge": "outdoor", "Istanbul dusk Bosphorus gold": "outdoor", "Marrakech dusk rooftop call": "outdoor", "Cairo dusk pyramids outline": "outdoor", "Kenya dusk Acacia tree line": "outdoor", "Sahara dune ridge at dawn": "outdoor", "Atacama salt flat mirror surface": "outdoor", "Arizona red rock canyon base": "outdoor", "Namibia dead vlei white trees": "outdoor", "Arabian Rub al Khali endless dunes": "outdoor", "Gobi Desert rock plain heat": "outdoor", "Sonoran cactus saguaro forest": "outdoor", "Patagonian steppe endless wind": "outdoor", "Iranian salt desert cracked": "outdoor", "Wadi Rum Jordan red sandstone": "outdoor", "Dasht-e Kavir Iran salt crust": "outdoor", "Taklamakan China dune sea": "outdoor", "Tibetan plateau windswept gravel": "outdoor", "Karakum Turkmenistan gas crater": "outdoor", "Chilean Atacama geysers dawn": "outdoor", "Peruvian coastal desert fog": "outdoor", "Baja California cardon cactus": "outdoor", "Mojave Joshua tree silhouette": "outdoor", "White Sands New Mexico gypsum": "outdoor", "Death Valley salt pan noon": "outdoor", "Bonneville salt flat Utah": "outdoor", "Namib coastal dune sea fog": "outdoor", "Kalahari red dune grassland": "outdoor", "Great Karoo kopje rock": "outdoor", "Sudan Nubian desert ruins": "outdoor", "Libya Fezzan sand sea": "outdoor", "Tunisia Erg Chebbi dune": "outdoor", "Morocco Draa valley palms": "outdoor", "Egypt Sinai mountain desert": "outdoor", "Jordan Wadi Mujib canyon": "outdoor", "Oman Wahiba Sands camp": "outdoor", "UAE Liwa Oasis dune": "outdoor", "Kuwait desert sunset flat": "outdoor", "Qatar desert scrub evening": "outdoor", "Pakistan Thar desert village edge": "outdoor", "India Thar camel track": "outdoor", "Rajasthan sand dunes sunset": "outdoor", "Ladakh Nubra Valley sand": "outdoor", "Pakistan Cholistan dune": "outdoor", "Afghanistan Hindu Kush foothills dry": "outdoor", "Uzbekistan Kyzylkum steppe": "outdoor", "Kazakhstan steppe flat horizon": "outdoor", "Mongolia Gobi dune oasis": "outdoor", "China Badain Jaran singing dunes": "outdoor", "Russia Kalmyk steppe dry": "outdoor", "Peru Nazca lines plateau": "outdoor", "Chile Valle de la Luna Moon Valley": "outdoor", "Bolivia Uyuni salt flat season": "outdoor", "Argentina Atacama extension": "outdoor", "room floating in open sky above clouds": "both", "staircase descending into ocean depth": "both", "corridor of infinite identical doors": "both", "forest growing on ceiling roots up": "both", "library with books falling upward slowly": "both", "clock face enormous walkable surface": "both", "mirror room reflecting into infinity": "both", "chess board landscape full size": "both", "giant flower field house-sized blooms": "both", "city inverted above head walking": "both", "door in middle of open field nowhere": "both", "bed floating in dark space": "both", "kitchen with ocean instead of floor": "both", "office with desert instead of carpet": "both", "wedding beneath water both dry somehow": "both", "train arriving through bedroom wall": "both", "telephone booth inside out ringing": "both", "painting stepped into both inside art": "both", "mouth of cave that is a face enormous": "both", "eye looking back from pond surface": "both", "shadows going wrong direction both": "both", "clocks all different times melting": "both", "hands visible not the body they belong": "both", "spiral staircase going both up and down same": "both", "window looking at same room from inside": "both", "door knob too large to turn reasonable": "both", "tree growing sideways defying gravity": "both", "rain falling upward both normal about it": "both", "snow falling in one spot only precision": "both", "crowd all moving same direction both still": "both", "moon on ground everyone else ignores": "both", "sun underground ceiling window": "both", "horizon too close walking impossible": "both", "sky below feet walking on clouds solid": "both", "two of the same place same time both": "both", "echo of selves visible slight delay": "both", "objects frozen mid-fall both normal": "both", "animals acting human ignored by both": "both", "architecture bending around both normally": "both", "two moons different sizes both checking": "both", "crowded beach high noon heat": "outdoor", "empty beach early morning first light": "outdoor", "rooftop pool city summer late afternoon": "outdoor", "outdoor festival field heat dust": "outdoor", "beachside bar open air wave sound": "outdoor", "public lido 1930s tiles noon": "outdoor", "outdoor cinema summer evening": "outdoor", "beer garden pub afternoon": "outdoor", "coastal path headland summer": "outdoor", "beach hut row colourful": "outdoor", "seaside pier amusement end": "outdoor", "bucket and spade beach family": "outdoor", "harbour wall fishing boats": "outdoor", "marina sailboat deck": "outdoor", "outdoor market summer Saturday": "outdoor", "street food festival summer": "outdoor", "park fountain summer city splash": "outdoor", "river towpath cycle summer": "outdoor", "botanic garden summer afternoon": "outdoor", "outdoor theatre shakespeare summer": "outdoor", "county show agricultural summer": "outdoor", "village fete quintessential English": "outdoor", "garden party summer best behaviour": "outdoor", "tennis club summer heatwave": "outdoor", "cricket ground pavilion summer": "outdoor", "polo ground spectators summer": "outdoor", "Wimbledon queue strawberries summer": "outdoor", "Henley Regatta riverside summer": "outdoor", "Goodwood Festival of Speed summer": "outdoor", "Isle of Wight Festival summer": "outdoor", "Glastonbury wellies mud summer": "outdoor", "Latitude festival Suffolk summer": "outdoor", "La Tomatina Spain Buñol August": "outdoor", "San Fermin Pamplona white red summer": "outdoor", "Ibiza San Antonio summer sunset": "outdoor", "Mykonos windmill summer evening": "outdoor", "Santorini pool summer heat noon": "outdoor", "Positano beach coloured houses summer": "outdoor", "Cinque Terre harbour summer": "outdoor", "Amalfi coastal walk summer": "outdoor", "Barcelona Barceloneta beach summer": "outdoor", "Valencia beach summer chiringuito": "outdoor", "Seville rooftop evening summer late": "outdoor", "Lisbon miradouro summer evening": "outdoor", "New England forest peak colour road": "outdoor", "orchard apple harvest rows England": "outdoor", "bonfire field twilight smoke": "outdoor", "fog-covered valley morning October": "outdoor", "pumpkin patch open farm England": "outdoor", "Japanese momiji maple garden Kyoto": "outdoor", "Korean naejangsan national park autumn": "outdoor", "Seoraksan peak colour Korea": "outdoor", "Changgyeonggung Palace garden Seoul": "outdoor", "Vermont road tunnel colour": "outdoor", "Catskills NY peak autumn weekend": "outdoor", "Blue Ridge Parkway Virginia colour": "outdoor", "Great Smoky Mountains NC peak colour": "outdoor", "Acadia National Park Maine autumn": "outdoor", "Adirondacks NY peak colour": "outdoor", "Lake District fells England autumn": "outdoor", "Yorkshire Dales autumn bracken gold": "outdoor", "Dartmoor Devon autumn bracken": "outdoor", "Exmoor Somerset red deer rut autumn": "outdoor", "New Forest Hampshire autumn": "outdoor", "Richmond Park London rutting season": "outdoor", "Epping Forest Essex autumn": "outdoor", "Kew Gardens autumn colour walk": "outdoor", "Westonbirt Arboretum Gloucestershire peak": "outdoor", "Nymans West Sussex autumn garden": "outdoor", "Bodnant Garden Wales autumn": "outdoor", "Crarae Garden Argyll Scotland autumn": "outdoor", "Brodick Castle Arran autumn": "outdoor", "Glenfinnich distillery autumn Scotland": "outdoor", "Speyside autumn whisky country": "outdoor", "Black Forest Germany Schwarzwald autumn": "outdoor", "Bavarian forest autumn Germany": "outdoor", "Vienna Prater park autumn Austria": "outdoor", "Budapest City Park autumn Hungary": "outdoor", "Prague Stromovka park autumn Czech": "outdoor", "Bialowieza Forest Poland primeval autumn": "outdoor", "Białka Valley Tatra autumn Poland": "outdoor", "Rila Monastery Bulgaria autumn": "outdoor", "Rhodopes mountain autumn Bulgaria": "outdoor", "Carpathian forest Romania autumn": "outdoor", "Retezat National Park Romania autumn": "outdoor", "Piatra Craiului autumn Romania": "outdoor", "snow-covered city street morning fresh": "outdoor", "log fire living room evening cosy": "indoor", "Christmas market glühwein stall Germany": "outdoor", "frozen pond edge ice skate": "outdoor", "snow-covered forest path silent": "outdoor", "outdoor ice rink city centre": "outdoor", "Christmas tree farm choosing": "outdoor", "winter market late evening lights": "outdoor", "indoor ski slope practice area": "indoor", "luxury chalet balcony mountain below": "outdoor", "après-ski bar exterior snow boots": "outdoor", "ski resort village evening": "outdoor", "Lapland reindeer sleigh destination": "outdoor", "Rovaniemi Santa experience Finland": "outdoor", "Jokkmokk winter market Sweden": "outdoor", "Tromsø northern lights field Norway": "outdoor", "Lofoten Islands winter red cabin": "outdoor", "Bergen Bryggen winter Norway": "outdoor", "Copenhagen Tivoli winter lights": "outdoor", "Stockholm Gamla Stan snow winter": "outdoor", "Helsinki Christmas market Senate Square": "outdoor", "Tallinn old town Christmas Estonia": "outdoor", "Riga Christmas market Latvia historic": "outdoor", "Vilnius Christmas market Lithuania": "outdoor", "Krakow Christmas market Cloth Hall Poland": "both", "Vienna Christmas market Rathausplatz": "outdoor", "Prague Christmas market Old Town Square": "outdoor", "Budapest Christmas market Vörösmarty": "outdoor", "Strasbourg Christmas market France": "outdoor", "Colmar Christmas market Alsace": "outdoor", "Rothenburg ob der Tauber Christmas Germany": "outdoor", "Nuremberg Christmas market Germany": "outdoor", "Bath Christmas market England Abbey": "outdoor", "Edinburgh Christmas market Scotland": "outdoor", "York Christmas market England medieval": "outdoor", "Winchester Christmas market Cathedral": "outdoor", "Canterbury Christmas market Cathedral": "outdoor", "Lincoln Christmas market Castle": "outdoor", "New York Bryant Park winter rink": "outdoor", "New York Rockefeller Center tree": "outdoor", "Montreal Igloofest winter festival": "outdoor", "Quebec Winter Carnival ice palace": "outdoor", "tightrope between two office buildings": "indoor", "wedding cake slowly sinking in park": "outdoor", "grocery superstore catwalk runway": "outdoor", "stuck in revolving door together still": "both", "formal dinner wrong restaurant joined anyway": "both", "queue for something invisible both": "both", "meeting in total blank white void both": "both", "underwater office normal working both": "indoor", "upside-down room both acting right way up": "both", "gravity wrong direction both stepping carefully": "both", "too small car both squeezed comfortable": "both", "elevator too full both last in": "both", "wrong film set wandered onto both": "both", "background extras main action elsewhere": "both", "waiting room for something unspecified both": "indoor", "form-filling for impossible thing together": "both", "race track on foot very slowly both": "outdoor", "airport runway walking to gate too far": "both", "wrong wedding both sitting front row": "both", "someone else's birthday party both": "both", "wrong job interview both together": "both", "wrong city both realising slowly": "both", "wrong century both confused period clothes": "both", "wrong planet both unconcerned": "both", "wrong size room both too tall or small": "both", "mirror showing different room both": "both", "train going both directions same time": "both", "bus route circle back to start endlessly": "both", "museum exhibit become both looking out": "both", "portrait frame both looking from painting": "outdoor", "clock tower manually turning time both": "both", "world on pause both walking through": "both", "single spotlight everything else dark both": "both", "stage set obviously fake both acting real": "both", "weather presenter map not matching both": "both", "newsreader reading impossible news both": "both", "customer service call centre impossible hold": "both", "automated phone menu labyrinth both": "both", "river Styx dark water crossing ferry": "outdoor", "Hades palace obsidian hall throne": "both", "Elysian fields golden light peace": "outdoor", "Charon ferry dark river midpoint": "outdoor", "Fields of Asphodel pale grey wandering": "outdoor", "Tartarus edge looking down abyss": "both", "Persephone garden pomegranate tree": "outdoor", "Oracle at Delphi smoke chamber below": "both", "Orpheus descent path backward": "outdoor", "Hero's journey threshold crossing": "both", "Dante's inscription gate above": "both", "Virgil's guided path dark forest": "outdoor", "Egyptian Duat weighing hall scales": "both", "Ma'at feather judgement chamber": "both", "Norse Helheim mist entrance Hel gate": "both", "Valhalla great hall feast": "both", "Bifrost bridge approaching end Asgard side": "outdoor", "Niflheim frost mist plain": "outdoor", "Aztec Mictlan ninth level dark": "both", "Xibalba Mayan lords' hall": "both", "Japanese Yomi dark world descent": "both", "Buddhist hell realms border": "outdoor", "Chinese Diyu court first judgement": "both", "Ten Kings of Hell court formal": "both", "Hindu Naraka gate boundary": "both", "Bardo Tibetan intermediate state mist": "both", "Celtic Tir na nÓg island approach": "both", "Annwn Welsh otherworld entrance": "both", "Slavic Nav dark world fog": "both", "Inuit Adlivun cold underworld": "both", "Yoruba underworld crossroads": "outdoor", "Candomblé spirit world threshold": "both", "Vodou spirit world intersection": "both", "New Orleans cemetery midnight": "outdoor", "Mexican Day of Dead altar approach": "both", "Ofrenda marigold path": "outdoor", "Guatemalan cemetery coloured tombs": "outdoor", "Bolivian Ñatitas festival skull ceremony": "both", "Peruvian Pachamama offering ground": "both", "Andean sacred mountain spirit": "outdoor", "Shinto Yomi crossing Izanagi's retreat": "both", "Shinto spirit gate torii path": "both", "open field storm wall approaching dark": "outdoor", "cliff edge dark sky building": "outdoor", "car sheltering underpass rain heavy": "outdoor", "doorway watching storm arrive lightning": "outdoor", "empty beach dark clouds low horizon": "outdoor", "tornado alley plain Oklahoma warning": "outdoor", "hurricane shelter exterior shuttered": "outdoor", "cyclone coast Queensland aftermath": "outdoor", "monsoon street Mumbai flooded": "outdoor", "typhoon shelter Hong Kong boat": "outdoor", "blizzard highway car stopped white-out": "outdoor", "ice storm city trees snapping": "outdoor", "storm surge coast sandbag line": "outdoor", "hailstorm shelter awning both": "outdoor", "lightning field observation tower": "outdoor", "weather station exterior highest point": "outdoor", "storm chasers vehicle prairie": "outdoor", "doppler radar facility exterior": "outdoor", "waterspout coastal distance watching": "outdoor", "storm cell interior aircraft research": "outdoor", "atmospheric research balloon launch": "outdoor", "weather ship deck Atlantic swell": "outdoor", "North Sea platform wave impact": "outdoor", "Antarctic station storm wind sustained": "outdoor", "Arctic research camp blizzard": "outdoor", "volcano storm lightning ash": "outdoor", "dust storm approaching ahead running": "outdoor", "haboob wall Arizona red": "outdoor", "wildfires near smoke orange sky": "outdoor", "flood evacuation boat street": "outdoor", "earthquake aftershock ruin exterior": "outdoor", "tsunami warning coast running": "outdoor", "derecho linear wind damage trail": "outdoor", "supercell thunderhead base approaching": "outdoor", "mesocyclone rotation visible base": "outdoor", "wall cloud lowering both watching": "outdoor", "shelf cloud roll extending horizon": "outdoor", "mammatus cloud field looking up both": "outdoor", "rainbow after storm double light": "outdoor", "clearing storm sun breaking through": "outdoor", "storm-washed beach debris aftermath": "outdoor", "river flood subsiding mud": "outdoor", "ice storm aftermath trees glazed": "outdoor", "snow aftermath city still": "outdoor", "record shop basement listening booth": "indoor", "late night diner corner booth": "both", "graffiti wall back alley": "outdoor", "skate park dusk empty bowls": "outdoor", "underground club low ceiling bass": "both", "warehouse party corridor between rooms": "indoor", "DIY venue basement show": "indoor", "art squat corridor": "indoor", "bookshop basement cult section": "indoor", "comic shop back room": "both", "zine fair tables community": "both", "independent cinema screening room small": "both", "repertory theatre foyer before show": "both", "coffee shop poetry open mic": "both", "spoken word venue small intimate": "both", "pub back room acoustic gig": "both", "folk club cellar intimate": "indoor", "roots reggae sound system": "both", "hip-hop cipher circle outdoor": "outdoor", "grime scene studio corridor": "indoor", "UK garage era venue exterior": "indoor", "jungle rave warehouse 1993 feel": "indoor", "drum and bass club basement": "indoor", "techno bunker low concrete ceiling": "indoor", "LGBTQ bar historic gay bar": "both", "lesbian bar small intimate corner": "both", "trans venue safe community space": "both", "queer arts festival venue small": "both", "punk DIY venue toilet adjacent": "both", "hardcore show basement sweaty": "indoor", "metal club dark corner stage": "both", "goth night ornate Victorian venue": "both", "alternative night eighties venue": "both", "indie disco student union": "both", "skate shop back storage hangout": "both", "tattoo studio waiting area": "indoor", "piercing studio corridor wall art": "indoor", "barber shop waiting chair": "both", "boxing gym between rounds": "both", "wrestling gym wall mats": "both", "martial arts dojo evening class": "both", "parkour spot industrial loading bay": "outdoor", "street art studio planning board": "indoor", "activist meeting above shop": "both", "community radio station booth small": "both", "pirate radio rooftop aerial": "outdoor", "bioluminescent bay dinoflagellate night": "outdoor", "moss-covered ancient volcanic field glowing": "outdoor", "crystal cave entrance light within": "outdoor", "obsidian formation field mist rolling": "outdoor", "giant mushroom grove twilight fog": "outdoor", "deep ocean floor research vessel window": "outdoor", "cave system river underground boat": "outdoor", "lava tube Hawaii interior light end": "outdoor", "ice cave Vatnajokull interior Iceland": "outdoor", "sea cave bioluminescent grotto": "outdoor", "underground lake chamber vaulted": "outdoor", "sinkhole edge looking down": "outdoor", "canyon slot light beam narrow": "outdoor", "cave painting ancient torch-lit": "outdoor", "geothermal vent field bubbling ground": "outdoor", "fumarole Iceland steam column": "outdoor", "Waitomo glowworm cave New Zealand": "outdoor", "Son Doong cave Vietnam enormous": "outdoor", "Carlsbad Caverns New Mexico vast": "outdoor", "Mammoth Cave Kentucky historic": "outdoor", "Cappadocia underground city Turkey": "outdoor", "Derinkuyu underground city Turkey": "outdoor", "Lalibela rock-hewn church Ethiopia": "outdoor", "Ajanta caves India carved": "outdoor", "Ellora caves India exterior": "outdoor", "Petra carved rose-red facade": "outdoor", "Barabar caves Bihar oldest": "outdoor", "Dunhuang Mogao caves China": "outdoor", "Longmen grottoes Luoyang China": "outdoor", "Yungang grottoes Datong China": "outdoor", "Tiger's Nest monastery Bhutan approach": "outdoor", "Meteora monastery rock Greece approach": "outdoor", "Taktsang Palphug monastery above Paro": "outdoor", "Kellie's Castle ruin Malaysia": "outdoor", "Sigiriya Lion Rock Sri Lanka top": "outdoor", "Pidurangala Rock above Sri Lanka": "outdoor", "Adam's Peak Sri Lanka predawn": "outdoor", "Shwe Dagon Pagoda Myanmar dusk": "outdoor", "Bagan temple plain balloon Myanmar": "outdoor", "Inle Lake floating garden Myanmar": "outdoor", "Ha Long Bay limestone karst Vietnam": "outdoor", "Phong Nha cave Vietnam river": "outdoor", "Mulu cave Sarawak deer cave entrance": "outdoor", "Gunung Mulu plateau Sarawak": "outdoor", "New York water tower rooftop dusk": "outdoor", "city skyline rooftop golden hour": "outdoor", "rooftop terrace bar evening lights": "outdoor", "fire escape landing city view": "both", "rooftop garden planted city behind": "outdoor", "industrial rooftop downtown gravel": "outdoor", "converted warehouse rooftop party space": "indoor", "Tokyo rooftop shrine torii gate": "both", "Seoul rooftop hanok traditional tile": "outdoor", "Hong Kong rooftop dense stack city": "outdoor", "Shanghai rooftop art space Bund visible": "outdoor", "Singapore rooftop MBFC towers around": "outdoor", "Dubai rooftop glass building forest": "outdoor", "Istanbul rooftop Bosphorus view": "outdoor", "Athens rooftop Acropolis lit": "outdoor", "Rome rooftop San Pietro visible": "outdoor", "Paris rooftop Sacre Coeur visible": "outdoor", "Barcelona rooftop Sagrada Familia behind": "outdoor", "Milan rooftop Duomo behind": "outdoor", "Florence rooftop Brunelleschi dome": "outdoor", "London Tate Modern rooftop": "outdoor", "London Borough Market rooftop chimney": "outdoor", "London Shard base terrace": "both", "Edinburgh rooftop castle behind": "outdoor", "Glasgow rooftop riverside crane": "outdoor", "Manchester rooftop converted mill": "outdoor", "Liverpool rooftop docks Royal Liver": "outdoor", "Berlin Alexanderplatz TV tower behind": "both", "Munich rooftop beer garden above": "outdoor", "Vienna rooftop Stephansdom": "outdoor", "Amsterdam rooftop canal grid below": "outdoor", "Brussels rooftop Grand Place": "outdoor", "Copenhagen rooftop Nyhavn colour": "outdoor", "Stockholm rooftop Gamla Stan below": "outdoor", "Oslo rooftop Operahuset below": "outdoor", "Helsinki rooftop harbour ferry": "outdoor", "Warsaw rooftop Palace of Culture": "outdoor", "Prague rooftop Charles Bridge": "outdoor", "Budapest rooftop Parliament below": "outdoor", "Bratislava rooftop castle above": "outdoor", "Bucharest rooftop People's Palace": "outdoor", "Sofia rooftop Alexander Nevsky": "outdoor", "Lisbon rooftop Alfama terracotta": "outdoor", "Porto rooftop Douro river below": "outdoor", "Seville rooftop Giralda beside": "outdoor", "Granada rooftop Alhambra lit": "outdoor", "Cape Town rooftop Table Mountain": "outdoor", "cloister walk stone columns dawn light": "both", "candlelit chapel evening vespers": "both", "monastery bell tower stairs narrow": "both", "prayer hall incense slow rising": "both", "Tibetan monastery mountain backdrop": "both", "Bhutanese dzong exterior fortress": "outdoor", "Greek Meteora cliff monastery approach": "outdoor", "Greek Athos mountain peninsula": "outdoor", "Cappadocia rock-cut church interior": "indoor", "Armenian Geghard monastery carved": "both", "Georgian Jvari monastery hilltop": "both", "Mount Athos monastery exterior": "outdoor", "Ethiopian Lalibela underground church": "both", "Ethiopian Debre Damo access rope": "both", "Egyptian Sinai St Catherine's exterior": "outdoor", "Coptic Cairo monastery Egypt": "both", "Syrian Deir Mar Musa monastery": "both", "Lebanese Qadisha valley hermitage": "outdoor", "Jordan Wadi Rum monastery ruin": "outdoor", "Israel Dead Sea Qumran caves approach": "outdoor", "Cyprus Kykkos monastery gold": "both", "Malta Mdina cathedral cloister": "both", "Valletta co-cathedral Malta interior": "indoor", "Hagia Sophia Istanbul Byzantine": "both", "Chora Church Istanbul mosaic": "both", "Kariye museum Istanbul mosaic": "both", "Bulgarian Rila monastery courtyard": "outdoor", "Bulgarian Bachkovo monastery": "both", "Serbian Studenica monastery medieval": "both", "Serbian Sopocani fresco hall": "both", "Romanian Voronet blue monastery": "both", "Romanian Sucevita painted monastery": "both", "Romanian Moldovita monastery exterior": "outdoor", "Romanian Putna monastery": "both", "Polish Jasna Gora monastery Czestochowa": "both", "Czech Kladruby Benedictine": "both", "German Ettal Benedictine exterior Bavaria": "outdoor", "German Andechs pilgrimage hill": "both", "Austrian Melk Benedictine cliff Danube": "outdoor", "Austrian Klosterneuburg exterior": "outdoor", "Spanish Montserrat exterior Catalonia": "outdoor", "Spanish Silos Gregorian chant": "both", "Portuguese Batalha Gothic monastery": "outdoor", "Portuguese Jerónimos cloister Lisbon": "both", "French Mont Saint-Michel tidal approach": "both", "French Sénanque lavender Provençal": "both", "pier end open sea all around": "outdoor", "Victorian pier amusement arcade closed": "outdoor", "pier at dusk golden planks": "outdoor", "empty pier winter morning fog": "outdoor", "pier railing looking out to sea": "outdoor", "fishermen's pier working boats moored": "outdoor", "Brighton Palace Pier England": "outdoor", "Brighton West Pier ruin sea": "outdoor", "Worthing Pier England quiet": "outdoor", "Eastbourne Pier England Victorian": "outdoor", "Southend Pier England longest": "outdoor", "Weston-super-Mare Grand Pier": "outdoor", "Clevedon Pier Somerset Victorian": "outdoor", "Cromer Pier Norfolk crab": "outdoor", "Hunstanton Pier Norfolk sunset": "outdoor", "Colwyn Bay pier Wales": "outdoor", "Bangor pier Wales Victorian": "outdoor", "Beaumaris pier Anglesey Wales": "outdoor", "Penarth pier Wales Victorian": "outdoor", "Swansea pier Wales": "outdoor", "Mumbles pier Gower Wales": "outdoor", "Llandudno pier Wales ornate": "outdoor", "Aberystwyth pier Wales": "outdoor", "Saltburn Pier Yorkshire Victorian": "outdoor", "Redcar Pier Yorkshire site only": "outdoor", "Whitby Pier Yorkshire harbour both sides": "outdoor", "Scarborough South Bay pier": "outdoor", "Blyth Pier Northumberland": "outdoor", "South Shields pier": "outdoor", "Tynemouth pier both sides estuary": "outdoor", "Cullercoats pier Tyne": "outdoor", "Seaham pier County Durham": "outdoor", "Santa Monica pier California": "outdoor", "Venice Beach pier LA": "outdoor", "Hermosa Beach pier California": "outdoor", "Malibu pier California private": "outdoor", "San Clemente pier Southern California": "outdoor", "Oceanside pier California": "outdoor", "Galveston pier Texas Gulf": "outdoor", "Panama City pier Florida": "outdoor", "Jacksonville pier Florida": "outdoor", "Melbourne St Kilda pier": "outdoor", "Geelong Eastern Beach pier": "outdoor", "Busselton Jetty Western Australia longest": "outdoor", "Henley Beach pier Adelaide": "outdoor", "Port Noarlunga jetty South Australia": "outdoor", "Marrakech souk narrow alley spice": "outdoor", "Istanbul Grand Bazaar carpet hall": "outdoor", "Tokyo Tsukiji outer market dawn": "outdoor", "Chelsea Flower Market London early": "outdoor", "Borough Market London cheese stall": "outdoor", "Portobello Road London Saturday antique": "outdoor", "Camden Market London alternative": "outdoor", "Brick Lane Sunday Market East London": "outdoor", "Spitalfields Market London covered": "outdoor", "Columbia Road Flower Market London Sunday": "outdoor", "Billingsgate Fish Market London early": "outdoor", "Smithfield Meat Market London early": "outdoor", "Broadway Market London Saturday": "outdoor", "Maltby Street Market London weekend": "outdoor", "Bermondsey Antique Market London Friday": "outdoor", "Greenwich Market London covered": "outdoor", "Brixton Market London Covered Arcade": "outdoor", "Ridley Road Market Dalston London": "outdoor", "Chapel Market Islington London": "outdoor", "Shepherd's Bush Market London": "outdoor", "Walthamstow Market London open air": "outdoor", "Leather Lane London workers": "outdoor", "Paris Marché d'Aligre antique and food": "outdoor", "Paris Marché Bastille Sunday fresh": "outdoor", "Paris Marché des Enfants Rouges oldest": "outdoor", "Amsterdam Waterlooplein flea market": "outdoor", "Amsterdam Albert Cuyp Market daily": "outdoor", "Barcelona La Boqueria La Rambla": "outdoor", "Madrid El Rastro Sunday flea": "outdoor", "Madrid San Miguel covered gourmet": "outdoor", "Valencia Mercado Central morning": "outdoor", "Bilbao La Ribera indoor": "indoor", "Porto Mercado do Bolhão covered": "outdoor", "Lisbon Mercado da Ribeira covered": "outdoor", "Funchal Mercado dos Lavradores Madeira": "outdoor", "Seville Triana market covered": "outdoor", "Granada covered market central": "outdoor", "Malaga Mercado Atarazanas": "outdoor", "Naschmarkt Vienna oldest": "outdoor", "Fischmarkt Hamburg Sunday dawn": "outdoor", "Viktualienmarkt Munich daily": "outdoor", "Mercato Centrale Florence covered": "outdoor", "Rialto Market Venice morning fish": "outdoor", "Campo de' Fiori Rome morning": "outdoor", "Porta Portese Rome Sunday flea": "outdoor", "Porta Palazzo Turin outdoor largest Europe": "outdoor", "big top entrance sawdust smell": "both", "ring centre spotlight single overhead": "both", "aerial rigging above ring looking down": "both", "backstage circus wagon exterior": "outdoor", "costume wagon mirror strip light": "both", "trapeze platform above ring edge": "both", "tightrope wire strung between platforms": "both", "clown alley backstage makeup": "outdoor", "animal-free circus performance space": "both", "contemporary circus venue industrial": "both", "Cirque du Soleil stage interior": "indoor", "Giffords Circus England summer": "both", "Zippo's Circus England touring": "both", "Moscow State Circus winter tent": "both", "Chinese State Circus UK tour": "both", "Australian Circus Oz contemporary": "both", "Cirque Éloize Montreal contemporary": "both", "No Fit State Circus Wales touring": "both", "Mimbre company London studio": "indoor", "Upswing aerial company space": "both", "National Centre for Circus Arts London": "both", "Centre National des Arts du Cirque France": "both", "ESAC Belgium circus school": "both", "Codarts Rotterdam circus school": "both", "NICA Australia circus school": "both", "Circa Australia Brisbane": "both", "Gravity and Other Myths Adelaide": "both", "Casus Circus Brisbane": "both", "Acrobat company contemporary UK": "both", "Ockham's Razor company aerial UK": "both", "Mechanimal company UK mechanical": "both", "Retina company Spain aerial": "both", "Compagnie Moisés Mahiques Spain": "both", "Gandini Juggling UK company": "both", "Company XY France flying": "both", "Les 7 Doigts de la Main Montreal": "both", "Teatro Zinzanni Seattle supper club": "outdoor", "Spiegeltent festival venue": "both", "vintage circus photograph archive location": "both", "abandoned circus lot winter": "both", "circus school practice space high ceiling": "both", "summer circus school performance space": "both", "site-specific circus urban exterior": "outdoor", "touring circus overnight field": "outdoor", "hay bale field golden hour warm": "outdoor", "barn interior shafts of light dust": "indoor", "tractor field at dawn furrow mist": "outdoor", "farmhouse kitchen morning fire": "indoor", "orchard ladder apple picking autumn": "outdoor", "sheep field lambing spring England": "outdoor", "cow milking parlour morning routine": "outdoor", "pig sty exterior feeding": "outdoor", "chicken coop morning egg collection": "outdoor", "kitchen garden vegetable harvest": "indoor", "greenhouse tomato vine summer": "outdoor", "root cellar stone stair entrance": "outdoor", "grain store exterior harvest": "outdoor", "combine harvester field harvest": "outdoor", "ploughed field winter brown": "outdoor", "seed drill field spring": "outdoor", "irrigation pivot summer heat": "outdoor", "hop garden Kent summer climbing": "outdoor", "lavender farm Provence summer row": "outdoor", "sunflower farm Tuscany summer": "outdoor", "vineyard harvest France": "outdoor", "olive grove harvest Spain": "outdoor", "truffle forest oak edge France": "outdoor", "mushroom shed dark England": "outdoor", "cheese dairy morning England": "outdoor", "cider press apple autumn England": "outdoor", "jam making kitchen preserve": "indoor", "farmers market own stall selling": "outdoor", "CSA box collection farm gate": "outdoor", "U-pick berry farm summer": "outdoor", "pick-your-own pumpkin autumn": "outdoor", "Christmas tree farm winter choosing": "outdoor", "rare breed cattle show summer": "outdoor", "sheepdog trial field Scotland": "outdoor", "horse yard early morning mucking": "outdoor", "stable yard tack room morning": "outdoor", "hay meadow ancient England summer": "outdoor", "wildflower set-aside field spring": "outdoor", "hedgerow restoration both working": "outdoor", "stream bank restoration riparian": "outdoor", "dry stone wall repair Dales": "outdoor", "coppice woodland management both": "outdoor", "reed bed cutting winter both": "outdoor", "empty supermarket aisle 23:47 timestamp corner": "indoor", "ATM vestibule ceiling camera angle": "both", "lift interior descending floor counter": "indoor", "car park level 3 stairwell emergency exit": "indoor", "convenience store entrance fish-eye lens": "both", "bus station waiting hall overhead bracket": "both", "underground station concourse sweep camera": "both", "hospital corridor night shift fluorescent": "indoor", "office lobby after hours motion triggered": "indoor", "pedestrian underpass sodium light bracket": "both", "service station forecourt pump 4 elevated": "outdoor", "airport security queue serpentine elevated": "outdoor", "border crossing checkpoint queue angle": "outdoor", "railway platform number board behind": "both", "shopping centre escalator top bracket": "both", "empty fast food restaurant 3am corner": "both", "hotel corridor room numbers stretching": "indoor", "casino floor above density crowd": "both", "nightclub cloakroom queue elevated": "indoor", "sports stadium concourse between halves": "outdoor", "school corridor empty holidays ceiling": "indoor", "library study room motion sensor angle": "indoor", "museum gallery after hours motion": "both", "post office counter above queuing": "indoor", "bank interior counter queue angle": "indoor", "pharmacy counter overhead prescription": "both", "laundromat 4am all machines running": "indoor", "car wash tunnel entrance elevated": "both", "petrol station shop interior overnight": "indoor", "off-licence corner camera high": "both", "kebab shop 2am entrance overhead": "both", "taxi rank camera pole overnight": "both", "bus interior forward-facing elevated": "indoor", "train carriage end camera both": "both", "police station entrance high security": "both", "court building exterior elevated sweep": "outdoor", "social housing communal entrance": "both", "council flat corridor overhead strip": "indoor", "multi-storey top floor open concrete": "both", "industrial estate unit row camera pole": "both", "road junction camera housing bracket": "outdoor", "motorway overhead gantry sweep": "outdoor", "port container terminal elevated wide": "outdoor", "dock security camera sweep night": "outdoor", "underground car park exit ramp": "outdoor", "back of department store loading bay": "both", "prison exercise yard elevated corner": "indoor", "immigration hall queue angle overhead": "both", "cash and carry warehouse interior overhead": "indoor", "wholesaler loading area exterior overnight": "outdoor", "seamless white paper backdrop studio infinity curve": "indoor", "seamless black paper backdrop studio infinity curve": "indoor", "seamless mid-grey paper backdrop studio": "indoor", "seamless warm grey paper backdrop studio": "indoor", "seamless cream paper backdrop studio": "indoor", "seamless pale blush paper backdrop studio": "indoor", "seamless deep charcoal paper backdrop studio": "indoor", "seamless forest green paper backdrop studio": "indoor", "seamless dusty blue paper backdrop studio": "indoor", "seamless burgundy paper backdrop studio": "indoor", "hand-painted grey muslin backdrop studio": "indoor", "hand-painted white-to-dark graduated muslin studio": "indoor", "cream linen textured backdrop studio": "indoor", "dark velvet fabric backdrop studio deep black": "indoor", "raw canvas unpainted backdrop studio neutral": "indoor", "draped silk fabric backdrop studio ivory": "indoor", "mottled hand-painted backdrop studio warm grey": "indoor", "torn edge paper backdrop studio textured white": "indoor", "layered fabric draped backdrop studio improvised dark": "indoor", "painted concrete effect backdrop studio flat grey": "indoor", "bare white plaster studio wall clean": "indoor", "bare off-white plaster studio wall textured": "indoor", "raw concrete studio wall exposed aggregate": "indoor", "whitewashed interior studio wall flat": "indoor", "painted brick interior studio wall white": "indoor", "dark painted studio wall charcoal matte": "indoor", "studio wall with single large window frame practical": "indoor", "studio wall mirror full length floor to ceiling": "indoor", "white painted studio floor with white backdrop seamless": "indoor", "black painted studio floor with black backdrop seamless": "indoor", "polished concrete studio floor with grey backdrop": "indoor", "light wood studio floor with white backdrop": "indoor", "dark wood studio floor with dark backdrop": "indoor", "white studio floor posing platform raised": "indoor", "plain wooden stool studio white backdrop": "indoor", "plain wooden stool studio black backdrop": "indoor", "director's chair canvas studio grey backdrop": "indoor", "mid-century posing chair studio neutral backdrop": "indoor", "chaise longue upholstered studio white backdrop": "indoor", "chaise longue upholstered studio dark backdrop": "indoor", "floor level white studio both seated": "indoor", "floor level black studio both seated": "indoor", "minimal white cube set studio": "indoor", "minimal black plinth set studio": "indoor", "clear perspex block prop studio white backdrop": "indoor", "seamless silver reflective backdrop studio": "indoor", "seamless gold reflective backdrop studio warm": "indoor", "frosted perspex panel backlit studio white glow": "indoor", "coloured gel background studio deep blue": "indoor", "coloured gel background studio deep red": "indoor", "1950s laboratory neon green glow": "indoor", "abandoned space station corridor flickering": "indoor", "drive-in movie screen at night": "outdoor", "alien landscape matte painting sky": "outdoor", "B-movie spaceship control room retro": "both", "fog-covered graveyard at night practical light": "outdoor", "suburban house at night exterior one light on": "outdoor", "1950s American street night creature approaching": "both", "carnival haunted house entrance": "both", "mad scientist laboratory bubbling tubes": "indoor", "motel room at night single lamp": "both", "dark forest practical torch light": "both", "small town main street deserted night": "both", "underground bunker red emergency lighting": "indoor", "retro rocket ship launch pad": "outdoor", "crumbling mansion exterior night": "outdoor", "1960s diner night fluorescent": "indoor", "rural highway night headlights": "outdoor", "swamp at night fog mist": "outdoor", "abandoned factory night emergency exit green": "both", "vintage observatory dome night": "indoor", "crashed UFO crater smoking": "both", "beach at night bonfirelight": "outdoor", "submarine interior cramped red light": "indoor", "nuclear test site restricted zone": "outdoor", "1950s suburban basement den night": "indoor", "carnival ferris wheel night neon": "outdoor", "research station arctic storm outside": "indoor", "hospital corridor night emergency red": "indoor", "church at night single candle interior": "indoor", "drive-in car park night": "both", "trailer park night one porch light": "outdoor", "cave entrance dark night fog": "outdoor", "radio tower blink red night": "both", "old mill exterior night": "both", "school corridor at night lockers": "indoor", "theatre balcony single spotlight": "indoor", "pier at night fog horn": "outdoor", "power plant cooling towers night": "outdoor", "quarry at night floodlit": "outdoor", "warehouse district night one lamp": "indoor", "rooftop at night city glow below": "outdoor", "funfair ghost train entrance night": "both", "clock tower night storm": "both", "basement stairs single overhead bulb": "indoor", "corn field at night path through": "outdoor", "gas station night rural isolated": "outdoor", "lighthouse beam night fog": "outdoor", "bowling alley at night empty": "indoor", "roadside motel neon sign night": "both", "corner booth red vinyl diner night": "indoor", "counter stools chrome diner 2am": "indoor", "window booth rain outside diner": "indoor", "parking lot diner neon sign reflection": "indoor", "diner counter late night single cook": "indoor", "pie case glass diner fluorescent": "indoor", "jukebox corner diner neon glow": "indoor", "diner exterior neon night roadside": "indoor", "booth back of diner near kitchen": "indoor", "diner restroom corridor narrow": "indoor", "diner kitchen pass-through window": "indoor", "truck stop diner highway dawn": "indoor", "small town diner main street morning": "indoor", "diner exterior parking lot night": "indoor", "diner counter end seat alone": "indoor", "diner booth sunday morning sunlight": "indoor", "diner steps outside night rain": "indoor", "diner pay phone corner night": "indoor", "highway diner dawn truckers": "indoor", "diner coat rack entrance winter": "indoor", "diner window seat fog outside": "indoor", "diner counter spin stool chrome": "indoor", "breakfast diner morning light golden": "indoor", "diner table laminate formica": "indoor", "diner exterior dawn empty lot": "indoor", "roadside diner desert highway": "indoor", "diner booth torn vinyl red": "indoor", "diner counter pie slice coffee": "indoor", "diner neon sign night reflections puddle": "indoor", "diner exterior small town snow": "indoor", "diner back booth private corner": "indoor", "diner counter newspaper morning": "indoor", "drive-in diner car hop night": "indoor", "diner exterior holiday lights christmas": "indoor", "diner stool end counter alone night": "indoor", "diner exit door rain outside": "indoor", "diner booth couple window night city": "indoor", "diner interior empty 4am": "indoor", "diner counter dawn regulars": "indoor", "diner parking lot summer night moths": "indoor", "diner jukebox selection 1960s": "indoor", "diner booth anniversary dinner simple": "indoor", "diner exterior morning mist rural": "indoor", "diner counter coffee refill steam": "indoor", "diner table salt pepper ketchup foreground": "indoor", "diner exterior neon red blue night": "indoor", "diner kitchen pass window orders up": "indoor", "diner booth near door cold draft": "indoor", "diner back alley delivery entrance": "indoor", "diner counter late shift end": "indoor", "darkroom red light developing trays": "indoor", "contact sheet light table loupe": "indoor", "archive box acid-free folders": "indoor", "slide projector beam dust particles": "both", "photo album open on table": "indoor", "negative strips held to light": "both", "old newspaper archive reading room": "indoor", "family photograph on mantelpiece": "both", "shoebox of photographs scattered": "indoor", "darkroom hanging prints drying": "indoor", "film canister collection shelf": "both", "glass plate negative collection": "both", "archive reading room table lamp": "indoor", "microfilm reader old library": "indoor", "photographer's studio 1950s backdrop": "indoor", "attic trunk old photographs": "indoor", "war memorial photographs displayed": "both", "school photograph class 1960s": "both", "family cine projector home movie": "both", "passport photograph strip booth": "indoor", "darkroom chemical trays amber light": "indoor", "contact sheet magnified loupe": "indoor", "old photograph album leather bound": "both", "newspaper morgue filing cabinets": "indoor", "photographic studio Victorian backdrop": "indoor", "archive vault temperature controlled": "indoor", "family home wall of photographs": "both", "wedding album open flowers pressed": "both", "photo lab counter 1970s": "indoor", "developing tank agitation process": "both", "enlarger darkroom printing paper": "indoor", "archive table white gloves documents": "indoor", "old camera collection shelf display": "both", "newspaper clippings pinboard investigation": "both", "family portrait formal 1940s studio": "indoor", "press photo archive filing 1960s": "indoor", "slide carousel projector 1970s": "indoor", "darkroom timer development process": "indoor", "photograph restoration desk magnifying": "both", "archive digitisation scanning desk": "indoor", "press photographer press pool 1950s": "both", "memorial wall photographs flowers": "both", "family reunion photograph lawn 1970s": "both", "old photo booth strip taken together": "indoor", "archive room floor-to-ceiling shelves": "indoor", "darkroom safelight printing session": "indoor", "contact print album 1960s studio": "indoor", "negative filing system archive light": "indoor", "photo kiosk print collection 1980s": "both", "archive conservation bench tools": "indoor", "ferris wheel top night city glow": "outdoor", "waltzers spinning neon blur night": "outdoor", "candyfloss stall dusk light pink": "outdoor", "hook-a-duck stall fairground lights": "outdoor", "ghost train entrance carnival night": "outdoor", "hall of mirrors funfair interior": "both", "carnival midway night both sides lit": "outdoor", "big wheel base looking up night": "both", "coconut shy stall string lights": "outdoor", "dodgems arena carnival neon": "both", "carnival food van candleapple dusk": "both", "helter skelter base night": "both", "fortune teller caravan carnival exterior": "outdoor", "carnival entrance arch neon night": "both", "toffee apple stall amber light": "outdoor", "test your strength tower carnival": "both", "carousel horses night lights spinning": "outdoor", "carnival back lot behind rides": "both", "shooting gallery neon prizes": "both", "carnival crowd midway night": "both", "ferris wheel reflection puddle rain": "outdoor", "funfair at closing time lights going out": "both", "carnival field dawn before opening": "outdoor", "waltzer operator platform night": "both", "carnival generator truck back area": "both", "candy stripe tent interior carnival": "indoor", "prize soft toy stall overloaded": "both", "carnival fireworks above ferris wheel": "outdoor", "trailer park carnival workers housing": "outdoor", "carousel empty morning after": "outdoor", "carnival ticket booth night queue": "both", "funfair field afternoon setup": "both", "cotton candy machine spinning pink": "both", "carnival stage performance area": "both", "hook-a-duck water reflection lights": "both", "big wheel gondola night suspended": "both", "carnival back lot empty evening": "both", "fairground organ carousel music": "outdoor", "carnival field last night season": "outdoor", "ghost train car interior dark": "indoor", "dodgem car stationary waiting": "both", "carnival arc lights full night": "both", "funfair entrance gates daytime": "both", "carnival midway dawn packing up": "outdoor", "waltzer stationary between rides": "both", "hall of mirrors reflection infinite": "both", "carnival fire eater performance area": "both", "prize wheel spin carnival neon": "both", "bumper cars overhead sparks night": "both", "carnival field first light morning": "outdoor", "christmas tree lights interior night warm": "indoor", "halloween porch carved pumpkins night": "outdoor", "day of the dead altar marigolds candles": "outdoor", "easter garden flowers morning light": "outdoor", "thanksgiving table full harvest decorations": "both", "new year eve fireworks rooftop": "outdoor", "valentine's day restaurant candles red roses": "both", "mothers day garden flowers morning": "outdoor", "diwali lights rangoli doorstep night": "outdoor", "hanukkah menorah window evening light": "indoor", "mardi gras street parade night beads": "outdoor", "halloween haunted house decorated exterior": "both", "christmas market stall lights winter": "both", "bonfire night sparklers field dark": "outdoor", "easter egg hunt garden morning": "outdoor", "st patrick's day street celebration green": "outdoor", "eid celebration table food family": "both", "chinese new year lanterns night red": "outdoor", "halloween cemetery decorated night": "outdoor", "christmas stockings fireplace interior": "indoor", "new year countdown party interior": "indoor", "birthday garden party summer flowers": "outdoor", "halloween costume party interior": "indoor", "christmas exterior lights house night": "indoor", "day of the dead parade street costume": "both", "valentine's day park afternoon flowers": "both", "christmas carol singing exterior night": "outdoor", "thanksgiving front porch autumn leaves": "outdoor", "halloween trick or treat suburban night": "outdoor", "christmas morning unwrapping interior light": "indoor", "bonfire night fire glow dark field": "both", "easter church flowers morning light": "both", "midsummer solstice flowers sunset": "outdoor", "carnival rio costume feathers night": "outdoor", "halloween corn maze night torches": "outdoor", "christmas eve anticipation interior": "indoor", "new year morning quiet aftermath": "both", "mothers day breakfast tray bedroom morning": "both", "fathers day garden barbecue afternoon": "outdoor", "halloween school parade daytime": "both", "christmas nativity scene church interior": "indoor", "diwali fireworks rooftop night": "indoor", "hanukkah family game night interior": "indoor", "thanksgiving door wreath autumn exterior": "outdoor", "birthday balloon arch interior party": "indoor", "anniversary celebration restaurant evening": "both", "new year fireworks river bridge night": "outdoor", "christmas eve candle service exterior": "outdoor", "daguerreotype studio 1850s painted backdrop column": "indoor", "Victorian parlour formal sitting 1860s": "both", "early photography studio plate camera 1850s": "indoor", "Victorian conservatory glass light 1860s": "both", "Victorian photographer studio painted garden backdrop": "indoor", "Edwardian seaside portrait studio pier": "indoor", "Victorian cabinet card studio velvet chair": "indoor", "Edwardian country house drawing room formal": "indoor", "Victorian studio painted landscape backdrop": "indoor", "Edwardian portrait studio electric light early": "indoor", "1920s glamour portrait studio dramatic light": "indoor", "1930s Hollywood studio portrait backdrop": "indoor", "1920s art deco portrait studio": "indoor", "1930s press photograph studio flash": "indoor", "1940s studio portrait wartime formal": "indoor", "1940s press photo studio flash powder": "indoor", "1940s wartime goodbye platform station": "both", "1940s family portrait studio Sunday best": "indoor", "1950s colour portrait studio Kodachrome": "indoor", "1950s suburban garden snapshot summer": "outdoor", "1950s school portrait individual backdrop": "indoor", "1950s department store portrait studio": "indoor", "1960s portrait studio soft focus colour": "indoor", "1960s snapshot garden party Kodak": "outdoor", "1960s photobooth strip four frames": "both", "1960s news photograph street candid": "outdoor", "1970s Polaroid instant kitchen casual": "indoor", "1970s family portrait velvet studio backdrop": "indoor", "1970s snapshot holiday beach Kodak": "outdoor", "1970s school photograph class outdoor": "indoor", "1980s portrait studio laser background": "indoor", "1980s snapshot disposable camera party": "both", "1980s passport photograph strip booth": "both", "1980s wedding portrait formal studio": "indoor", "1990s disposable camera snapshot casual": "both", "1990s portrait studio soft focus": "indoor", "1990s photobooth mall strip": "both", "1990s school portrait blue gradient backdrop": "indoor", "early 2000s digital camera party low resolution": "both", "2000s photo print kiosk portrait": "both", "2000s candid phone photograph first generation": "both", "2010s instagram square portrait early": "outdoor", "1930s documentary press photograph street": "outdoor", "1950s news agency portrait flash": "both", "1960s photojournalism candid street": "outdoor", "1970s documentary portrait natural light": "both", "black and white film portrait studio grain": "indoor", "sepia toned portrait formal studio": "indoor", "colour slide transparency 1960s portrait": "both", "instant Polaroid border white portrait": "both", "35mm film grain portrait casual snapshot": "both", "medium format portrait studio sharp": "indoor", "large format studio portrait 1940s sharp": "indoor", "cyanotype portrait early experimental": "both", "candlelit restaurant table for two red roses": "indoor", "paris bridge padlock city view evening": "outdoor", "red roses delivered doorstep evening": "outdoor", "valentine card envelope table morning": "both", "hotel room rose petals champagne evening": "indoor", "restaurant window table rain outside candlelight": "indoor", "home dining table candles simple intimate": "indoor", "florist shop red roses morning selection": "both", "park bench winter afternoon couples": "outdoor", "cinema queue cold evening together": "both", "kitchen table breakfast heart pancakes morning": "indoor", "wine bar intimate corner evening": "both", "bridge city lights reflection evening": "outdoor", "café window seat rainy afternoon": "indoor", "restaurant bar waiting evening dressed up": "indoor", "home sofa evening candles wine": "indoor", "valentine card writing desk lamp evening": "both", "apartment balcony city evening lights": "both", "rooftop restaurant city view evening": "indoor", "harbour evening lights reflection": "outdoor", "small restaurant neighbourhood intimate evening": "indoor", "kitchen cooking together evening home": "indoor", "doorstep moment evening arrival flowers": "outdoor", "park winter afternoon hand in hand": "outdoor", "bedroom morning light flowers on bedside": "indoor", "dining room home candles occasion": "indoor", "flower market morning red roses selection": "outdoor", "letter box valentine card morning discovered": "both", "table for two empty setting waiting": "both", "restaurant exterior evening arriving dressed": "indoor", "spring garden flowers morning sunlight": "outdoor", "breakfast tray bedroom morning flowers": "indoor", "kitchen table Sunday morning flowers bouquet": "indoor", "garden table lunch spring afternoon": "outdoor", "florist shop spring flowers selection morning": "both", "front door flowers delivered morning": "outdoor", "living room spring afternoon light flowers": "indoor", "dining table sunday lunch spring": "both", "garden path spring flowers either side": "outdoor", "restaurant sunday lunch spring afternoon": "indoor", "conservatory morning light spring flowers": "both", "garden bench spring afternoon flowers": "outdoor", "kitchen flowers vase morning light": "indoor", "bedroom morning light flowers bedside": "indoor", "garden gate spring morning arrival": "outdoor", "porch steps spring morning flowers": "outdoor", "park spring afternoon flowers blooming": "outdoor", "café sunday morning flowers on table": "indoor", "home garden spring evening golden hour": "indoor", "sunday morning light through window flowers": "both", "fireworks over city harbour night": "outdoor", "small town parade main street day": "outdoor", "backyard barbecue american flag bunting afternoon": "both", "beach bonfire fourth of july night": "outdoor", "rooftop fireworks city view night": "outdoor", "small town main street flags bunting day": "outdoor", "public park fireworks crowd night": "indoor", "suburban front porch american flag evening": "outdoor", "lake fireworks reflection night": "outdoor", "fairground fourth of july afternoon": "both", "baseball field small town afternoon": "outdoor", "dock lake fireworks night": "outdoor", "small town bandstand afternoon": "both", "suburban backyard pool afternoon": "both", "memorial park flags afternoon": "outdoor", "bridge fireworks city view night": "outdoor", "small town church steps afternoon": "indoor", "carnival midway fourth afternoon": "outdoor", "pier end fireworks over water night": "outdoor", "sunset beach american flags evening": "outdoor", "zocalo mexico city grito de independencia night": "both", "plaza principal pueblo night fireworks grito": "outdoor", "charro escaramuza horse arena afternoon": "both", "traditional market dia de independencia stalls": "both", "cathedral facade green white red lights night": "both", "town square mariachi performance evening": "outdoor", "hacienda colonial courtyard evening": "both", "mexican flag green white red waving plaza": "outdoor", "traditional feast table day of independence": "both", "folk dance performance plaza evening": "outdoor", "colonial town square fireworks night": "outdoor", "traditional dress parade main street day": "outdoor", "charreada arena afternoon traditional": "both", "small pueblo plaza morning independence": "outdoor", "cathedral bells ringing independence night": "both", "market stalls mexican crafts independence": "outdoor", "colonial archway green white red bunting": "both", "traditional kitchen independence feast morning": "indoor", "plaza de armas provincial town evening": "outdoor", "mountain village independence celebration afternoon": "both", "thanksgiving table full harvest decorations afternoon": "both", "front porch autumn leaves afternoon golden": "outdoor", "kitchen cooking thanksgiving morning steam": "indoor", "dining room set table thanksgiving anticipation": "indoor", "living room after dinner thanksgiving evening": "indoor", "backyard afternoon thanksgiving football": "both", "parade crowd thanksgiving morning city": "outdoor", "supermarket thanksgiving eve last minute": "both", "front door wreath autumn thanksgiving": "outdoor", "kitchen table morning coffee thanksgiving preparation": "indoor", "dining table empty setting thanksgiving anticipation": "both", "autumn farm stand harvest thanksgiving morning": "outdoor", "family living room thanksgiving afternoon football": "indoor", "airport arrival thanksgiving reunion": "both", "kitchen sink washing up thanksgiving evening": "indoor", "dining room candles thanksgiving evening": "indoor", "backyard bonfire after thanksgiving evening": "both", "autumn park walk thanksgiving afternoon": "outdoor", "small town parade thanksgiving morning": "outdoor", "neighbourhood thanksgiving morning quiet": "both", "halloween porch carved pumpkins orange night": "outdoor", "suburban trick or treat street night": "outdoor", "halloween costume party interior crowded": "indoor", "haunted house decorated exterior night": "outdoor", "cemetery halloween decorated night moon": "outdoor", "corn maze halloween night torches": "outdoor", "halloween parade street costumes night": "outdoor", "carved pumpkin line porch steps evening": "outdoor", "halloween bonfire field night dark": "outdoor", "school halloween parade daytime": "indoor", "halloween carnival funfair night orange": "outdoor", "graveyard fog machine night halloween": "both", "halloween market stalls night orange": "outdoor", "front door decorated cobwebs night": "outdoor", "haunted hayride field night dark": "outdoor", "halloween street blocked cars candy night": "outdoor", "apple bobbing tub indoor halloween party": "indoor", "halloween disco venue costumes night": "both", "jack o lantern lit porch dark night": "outdoor", "halloween fog street night orange glow": "outdoor", "day of the dead altar ofrenda marigolds candles photographs": "both", "cemetery marigold path candles night procession": "outdoor", "parade dia de los muertos street costume night": "outdoor", "ofrenda home altar photographs candles marigolds": "indoor", "marigold market stalls cempasuchil october": "outdoor", "cemetery grave decorated marigolds candles night": "outdoor", "traditional dia de los muertos performance plaza": "outdoor", "calavera parade float street night elaborate": "indoor", "cemetery night candles thousands marigolds": "outdoor", "altar community display photographs flowers": "both", "traditional market dia de los muertos crafts": "both", "sugar skull making workshop table": "indoor", "paper marigold decorating workshop": "indoor", "home ofrenda setting photographs loved ones": "indoor", "traditional dance dia de los muertos plaza": "outdoor", "cemetery family gathering candles night": "outdoor", "marigold petal path cemetery candles": "outdoor", "procession street candles elaborate costumes night": "indoor", "town plaza altar community display": "outdoor", "colonial church decorated marigolds night": "indoor", "snow exterior house christmas lights evening": "outdoor", "christmas market stall mulled wine lights winter": "outdoor", "fireplace stockings interior christmas eve night": "indoor", "christmas morning unwrapping living room": "indoor", "church midnight mass candles christmas eve": "indoor", "snow street christmas lights evening town": "outdoor", "kitchen christmas cooking morning steam": "indoor", "christmas table set dinner candles formal": "both", "carol singing exterior night lanterns": "outdoor", "christmas window shop lights snow exterior": "outdoor", "train station christmas arrival reunion": "outdoor", "airport arrivals christmas reunion": "outdoor", "bedroom christmas morning first light": "indoor", "snowy landscape christmas day quiet": "outdoor", "christmas fair outdoor stalls lights winter": "outdoor", "pub christmas eve fire interior warm": "indoor", "christmas tree farm choosing morning snow": "outdoor", "chapel candles christmas eve service": "indoor", "christmas dinner table full family afternoon": "both", "rooftop fireworks city view midnight countdown": "outdoor", "bridge city fireworks river reflection midnight": "outdoor", "ballroom countdown midnight champagne": "indoor", "times square style crowd countdown night": "outdoor", "harbour fireworks water reflection midnight": "outdoor", "restaurant midnight countdown champagne toast": "indoor", "house party countdown midnight interior": "indoor", "city street midnight fireworks crowd": "outdoor", "pub midnight new year crowd interior": "indoor", "beach bonfire new year midnight": "outdoor", "rooftop small group midnight city glow": "outdoor", "penthouse view fireworks midnight toast": "outdoor", "countdown clock public square midnight": "indoor", "hotel bar new year midnight formal": "indoor", "quiet home midnight just two champagne": "indoor", "riverside fireworks midnight cold": "outdoor", "theatre new year midnight performance": "indoor", "casino countdown midnight glamour": "indoor", "city park fireworks crowd midnight": "outdoor", "dawn new year morning aftermath quiet": "both", "diwali diyas lit doorstep rangoli night": "outdoor", "rooftop fireworks diwali night city": "outdoor", "home diwali lights decorations lanterns evening": "indoor", "market diwali sweets and lights shopping": "both", "temple diwali celebration lights evening": "both", "street diwali lights procession night": "outdoor", "home puja room diwali candles evening": "indoor", "rangoli design doorstep diwali morning": "outdoor", "diwali mela fairground lights evening": "both", "community diwali celebration hall lights": "both", "balcony diyas lit city lights below diwali": "both", "sweet shop diwali selection morning": "both", "diwali fireworks park night crowd": "outdoor", "home drawing room diwali decorations evening": "indoor", "traditional diwali puja table offerings": "both", "street rangoli competition diwali morning": "outdoor", "diwali lights market shopping evening": "both", "family home diwali gathering evening warm": "indoor", "rooftop diyas city spread below diwali": "outdoor", "diwali lantern release night sky": "both", "chinese new year lanterns street night red gold": "outdoor", "lion dance street performance chinese new year morning": "outdoor", "family reunion dinner table chinese new year eve": "both", "temple prayers new year morning incense": "both", "fireworks chinatown street midnight new year": "outdoor", "lantern festival street night chinese new year": "outdoor", "market new year goods red decorations morning": "both", "chinatown parade dragon lion dance day": "outdoor", "red envelope giving family chinese new year": "both", "family home decorations red gold new year": "indoor", "night market chinese new year lanterns evening": "outdoor", "temple fair new year blessing morning": "outdoor", "dumpling making family table new year eve": "both", "chinese new year fair stalls lights evening": "both", "harbour fireworks chinese new year midnight": "outdoor", "restaurant family new year dinner formal": "indoor", "flower market new year morning purchases": "outdoor", "chinatown exterior red lanterns night": "outdoor", "community hall chinese new year celebration": "indoor", "family home new year eve countdown midnight": "indoor", "1980s Texas oil money ranch interior excess gilt": "indoor", "Dubai penthouse glass tower night city spread": "both", "1920s Wall Street private club oak panelling whiskey": "indoor", "Las Vegas high roller suite gold fixtures midnight": "indoor", "Monaco grand prix paddock exclusive 1970s": "outdoor", "Mayfair private members club 1990s dark wood": "indoor", "Beverly Hills mansion pool twilight excess": "both", "1970s Studio 54 excess night velvet gold": "indoor", "Saudi royal palace reception hall formal": "indoor", "Aspen ski lodge excess fireplace wealthy": "both", "Cannes film festival yacht harbour evening": "outdoor", "Swiss bank vault interior cold formal": "indoor", "Monte Carlo casino floor evening gowns": "indoor", "Hamptons waterfront estate summer": "both", "1980s Wall Street trading floor chaos excess": "outdoor", "Venetian palazzo canal view evening candlelight": "both", "Hong Kong Peninsula hotel lobby formal": "indoor", "New York Plaza Hotel suite excess gold": "indoor", "Marbella villa pool afternoon Spain excess": "both", "Russian oligarch yacht Mediterranean afternoon": "both", "Pittsburgh steel mill 1950s furnace molten pour": "indoor", "Sheffield cutlery works grinding wheel 1960s": "indoor", "Soviet Magnitogorsk steel propaganda aesthetic 1930s": "both", "Victorian foundry iron casting crucible": "indoor", "Welsh coal mining valley pithead 1950s": "outdoor", "Ruhr industrial complex Germany 1930s": "both", "Detroit auto plant assembly line 1960s": "indoor", "Glasgow shipyard Clyde 1960s hull": "outdoor", "Birmingham metal works Victorian forge": "indoor", "Manchester cotton mill interior 1900s": "indoor", "Newcastle tyne bridge construction workers": "outdoor", "Soviet Donbass industrial night furnace": "both", "Sheffield steel works 1970s night shift": "indoor", "Glasgow Beardmore works 1916 wartime": "indoor", "Pittsburgh blast furnace exterior vast night": "outdoor", "Middlesbrough steel transporter bridge fog": "outdoor", "Sunderland shipyard launch ceremony 1950s": "outdoor", "Bethlehem steel night shift Pennsylvania 1940s": "both", "Krupp works Essen industrial Germany 1920s": "indoor", "abandoned Detroit auto plant now ruins": "indoor", "greenhouse Victorian glass structure mist morning plants": "indoor", "glass house mid-century forest transparent trees outside": "outdoor", "aquarium large tank deep blue fish passing": "indoor", "phone box red rain night reflection outside": "outdoor", "conservatory Victorian glass plants afternoon light": "indoor", "glass lift hotel atrium rising view": "indoor", "greenhouse commercial flowers for cutting winter": "indoor", "glass bridge walkway transparent beneath": "outdoor", "Crystal Palace style glass exhibition hall Victorian": "indoor", "glass pyramid Louvre evening Paris": "both", "glazed Victorian arcade shopping covered": "both", "greenhouse botanical garden tropical plants mist": "indoor", "glass floored walkway cliff edge transparent": "outdoor", "Mies van der Rohe glass house interior forest": "indoor", "greenhouse winter forcing house tomatoes": "indoor", "bus shelter glass rain night neon reflection": "both", "glass pavilion modern art park transparent": "outdoor", "ice hotel interior ice walls translucent": "indoor", "glass observatory dome night stars above": "both", "glass floored pool underwater below": "both", "1970s Roland Garros clay court red dust late afternoon": "outdoor", "Harlem street basketball court chain-link night 1990s": "outdoor", "Wimbledon grass court morning dew empty pre-match": "outdoor", "1980s boxing gym ring ropes overhead single light": "indoor", "1960s Flushing Meadows hard court crowd behind": "outdoor", "Soviet sports hall gymnasium late 1970s fluorescent": "indoor", "1990s school gymnasium basketball finals night": "indoor", "Brooklyn boxing gym 1950s leather bag dust": "indoor", "indoor tennis court 1980s green carpet empty": "indoor", "street football pitch Brazil favela evening": "outdoor", "outdoor basketball court Los Angeles sunset 1990s": "outdoor", "fencing hall épée 1970s European championship": "indoor", "Rolland Garros press box 1980s clay below": "both", "squash court white walls echo 1970s": "outdoor", "Olympic velodrome track banking 1980s": "outdoor", "snooker hall green baize single overhead lamp": "indoor", "ice hockey rink empty practice dawn": "both", "horse racing paddock morning dew 1960s": "outdoor", "wrestling mat gymnasium 1970s fluorescent": "indoor", "stadium corridor tunnel pre-match concrete": "indoor", "rain-soaked street night neon reflections": "outdoor", "rooftop city edge midnight confession": "outdoor", "hotel corridor single light night": "indoor", "fire escape night city below": "both", "abandoned ballroom chandelier still lit": "indoor", "lighthouse edge storm approaching": "both", "midnight garden statuary shadow": "outdoor", "train departing platform one left behind": "both", "cinema empty last showing": "both", "rooftop pool city lights reflection midnight": "outdoor", "alleyway rain single lamp": "both", "long corridor hotel night both ends dark": "indoor", "bridge night fog below": "outdoor", "theatre wings backstage curtain": "indoor", "Paris street rain autumn night": "outdoor", "empty restaurant after closing one candle": "indoor", "car park top level night city view": "outdoor", "summer thunderstorm porch lit": "both", "abandoned church single candle": "indoor", "cliff edge storm sea below": "outdoor", "night train compartment moving": "both", "library closed after hours one lamp": "both", "phone box rain night neon": "both", "hotel room morning light complicated": "indoor", "museum closed after hours one guard lamp": "indoor", "empty swimming pool night": "both", "rooftop water tower night city": "outdoor", "jazz club late night last song": "indoor", "night market closing stalls": "outdoor", "boardwalk end of season night": "outdoor", "Sergio Leone spaghetti western dust main street high noon": "outdoor", "film noir Los Angeles rain 1940s street lamp": "outdoor", "Kurosawa samurai village mist dawn feudal Japan": "both", "1970s Hong Kong kung fu rooftop fight choreography": "outdoor", "Sam Peckinpah slow motion western dust blood": "both", "French New Wave Paris existential street 1960s": "outdoor", "John Woo Hong Kong action slow motion 1980s": "both", "Chandler Los Angeles detective office venetian blinds": "indoor", "Dashiell Hammett San Francisco noir fog rain": "both", "Leone close up extreme dust eyes standoff": "both", "1950s western saloon interior practical light": "indoor", "samurai dojo interior dawn training": "indoor", "noir hotel room venetian blinds shadow": "indoor", "1970s cop car American interior night": "indoor", "western desert landscape vast Leone": "outdoor", "Japanese chambara sword fight cherry blossom": "both", "Blaxploitation 1970s urban exterior night": "outdoor", "Shaw Brothers 1970s set fight choreography": "both", "hardboiled detective office rain window": "indoor", "western station platform dust one train leaving": "both", "Rembrandt Dutch Golden Age chiaroscuro amber interior warm shadow": "indoor", "Rembrandt Self-portrait study rich dark background amber glow": "outdoor", "Rembrandt Night Watch composition dramatic group amber light": "both", "Caravaggio tenebrism absolute darkness single candle source dramatic": "both", "Caravaggio biblical scene stone floor darkness single light beam": "both", "Caravaggio dramatic chiaroscuro deep shadow sharp light shaft": "both", "Velázquez Spanish royal court deep atmospheric shadow warm": "outdoor", "Velázquez Las Meninas studio composition interior atmospheric": "indoor", "Velázquez portrait deep background receding space warm shadow": "outdoor", "Goya dark period black paint expressive raw ground visceral": "both", "Goya Saturn devouring dark expressive atmospheric horror": "indoor", "Goya court portrait formal yet psychologically raw": "outdoor", "Vermeer domestic interior window light soft pearl left side": "indoor", "Vermeer Dutch interior tile floor map on wall window light": "indoor", "Vermeer intimate domestic scene soft window light pearl glow": "both", "Rubens Flemish baroque rich colour monumental composition dynamic": "both", "Rubens mythological landscape dramatic sky rich warm": "both", "Rubens allegorical composition rich drapery baroque dynamic": "both", "Van Gogh swirling impasto background emotional thick paint yellow": "both", "Van Gogh Arles bedroom flat saturated colour swirling": "both", "Van Gogh Starry Night swirling sky impasto emotional charged": "both", "Klimt gold leaf decorative ornamental surface Art Nouveau Vienna": "both", "Klimt The Kiss gold embrace ornamental decorative flat": "both", "Klimt portrait gold background decorative pattern Vienna": "outdoor", "Picasso Cubist fractured planes multiple viewpoints bold colour": "both", "Picasso Blue Period melancholy blue monochrome flat": "both", "Picasso Rose Period warm terracotta acrobats soft": "both", "Matisse Fauve flat bold colour joyful interior pattern": "indoor", "Matisse cut-outs flat colour shape bold simple": "both", "Matisse decorative interior bold pattern colour flat": "indoor", "Modigliani elongated oval face simplified warm ground Montparnasse": "both", "Modigliani portrait neutral warm ground elongated simplified": "outdoor", "Modigliani Parisian studio warm ochre ground simplified": "indoor", "Gauguin Tahiti flat saturated colour bold outline tropical": "both", "Gauguin Polynesian landscape flat colour simplified tropical": "both", "Gauguin Where Do We Come From flat mural colour tropical": "both", "Toulouse-Lautrec Moulin Rouge poster flat graphic line colour": "both", "Toulouse-Lautrec Montmartre cabaret flat graphic silhouette": "both", "Toulouse-Lautrec poster art flat bold line shadow": "both", "Hopper American Realist lonely interior light melancholy window": "indoor", "Hopper Nighthawks diner interior light isolation": "indoor", "Hopper New England exterior hard light loneliness American": "outdoor", "Bacon distorted flesh psychological raw dark ground triptych": "both", "Bacon isolated figure on armature dark ground raw": "both", "Bacon studio dark ground raw paint distorted psychological": "indoor", "Warhol Pop Art screen print flat repeated colour silk": "both", "Warhol Factory silver mylar balloons flat colour": "indoor", "Warhol repeated portrait grid flat colour screen print": "outdoor", "Lichtenstein Ben-Day dots bold black outline comic book panel": "both", "Lichtenstein comic panel bold outline dots primary colour": "both", "Lichtenstein Pop Art comic strip bold dots black outline": "both", "Banksy stencil street wall stark graphic urban black white": "outdoor", "Banksy urban wall stencil rat graphic stark": "both", "Banksy stencil graphic protest stark wall urban": "both", "Mucha Art Nouveau poster flowing line floral ornament gold": "both", "Mucha decorative panel flowing hair ornamental border botanical": "both", "Mucha poster art flowing line botanical ornament soft colour": "both", "political caricature ink line exaggerated satirical bold": "both", "Daumier 19th century lithograph satirical caricature stark": "both", "classical caricature Carracci exaggerated features pen ink": "both", "northern lights aurora borealis vast dark sky lake": "outdoor", "ice road frozen lake truck headlights vast night": "outdoor", "Quebec City Old Town winter snow lanterns cobblestone": "both", "Niagara Falls frozen winter mist": "both", "Pacific coast British Columbia old growth forest fog": "outdoor", "Prairie flat horizon grain elevator sky vast": "outdoor", "Cape Breton coastal cliff Atlantic fog": "outdoor", "Banff frozen lake mountain reflection winter": "outdoor", "Toronto winter street snow CN Tower behind": "outdoor", "Churchill Manitoba polar bear tundra twilight": "indoor", "Yukon wilderness log cabin smoke rising winter": "both", "Montreal alley winter snow graffiti": "both", "Vancouver harbour night mountains snow behind": "outdoor", "Newfoundland outport fishing village fog": "outdoor", "Arctic tundra vast flat horizon midnight sun": "outdoor", "Whistler ski run empty dawn fresh snow": "both", "Lake Louise turquoise impossible colour summer": "outdoor", "Canadian Rockies glacier valley vast": "outdoor", "Algonquin Park autumn reflection lake": "outdoor", "Iqaluit Arctic settlement winter dark noon": "both", "Havana crumbling colonial street 1950s Chevrolet midday": "outdoor", "Kingston dancehall night neon Jamaica": "indoor", "Trinidad carnival mas costume street night": "outdoor", "Barbados chattel house painted bright afternoon": "both", "San Juan Old City colonial walls sunset Puerto Rico": "both", "Martinique rum distillery afternoon French colonial": "both", "Cuba tobacco farm interior morning light": "indoor", "Havana rooftop sunset Malecón below": "outdoor", "Jamaica Blue Mountains coffee farm morning mist": "outdoor", "Trinidad Savannah carnival stage night": "both", "Dominican Republic baseball field afternoon dust": "indoor", "Haiti Port-au-Prince street market colour": "outdoor", "Grenada nutmeg plantation afternoon": "indoor", "Antigua English Harbour colonial dockyard": "outdoor", "St Lucia Piton volcanic peak mist morning": "both", "Curaçao Willemstad colonial coloured buildings": "both", "Tobago rainforest waterfall morning": "outdoor", "Barbados rum shop interior afternoon": "indoor", "Cayman Islands turtle farm": "both", "Jamaica country road sugarcane afternoon": "outdoor", "city hall steps elopement simple morning": "indoor", "Las Vegas wedding chapel neon night kitsch": "indoor", "cliffside elopement two and officiant sunset": "outdoor", "church aisle traditional formal procession": "indoor", "marquee reception evening dancing": "both", "courthouse simple just the two civil": "indoor", "beach barefoot ceremony sunset": "outdoor", "greenhouse botanical wedding ceremony": "indoor", "destination wedding Italy villa afternoon": "both", "reception empty after guests gone one couple": "both", "Jewish wedding chuppah traditional formal": "both", "Indian wedding mandap ceremony elaborate": "both", "Mexican civil wedding vibrant tradition": "both", "Scottish highland estate ceremony dramatic": "both", "Paris bridge elopement spontaneous rain": "outdoor", "registry office morning queue practical": "indoor", "chapel of ease rural small ceremony": "indoor", "stately home grand formal traditional": "both", "outdoor festival wedding summer": "outdoor", "hotel suite morning after complicated light": "indoor", "1970s New York subway graffiti covered car moving": "both", "Paris Métro Art Nouveau iron station Abbesses": "both", "London Tube platform 1940s Blitz shelter night": "both", "Tokyo rush hour platform press of people": "both", "Moscow Metro marble hall chandelier Stalin": "indoor", "Berlin U-Bahn East West meeting point": "both", "Chicago elevated train curve city above": "both", "Hong Kong MTR night crowd neon": "both", "São Paulo Metro rush hour colour": "indoor", "New York City Hall station abandoned ghost": "indoor", "Berlin bunker tunnel 1945 historic": "indoor", "Paris catacombs skull lined tunnel": "indoor", "London Tube 1940s carriage wartime": "indoor", "Moscow Metro escalator long marble": "indoor", "New York subway platform late night empty": "both", "Tokyo station corridor endless wayfinding": "indoor", "Chicago riveted steel elevated track exterior": "outdoor", "Berlin U5 DDR era station concrete": "both", "Paris Métro rubber tyres 1960s modern": "both", "San Francisco BART tube underwater bay": "both", "Soviet state circus ring red spotlight 1960s": "indoor", "Depression-era big top sawdust 1930s": "both", "Cirque du Soleil contemporary rig dramatic": "both", "Moscow State Circus dressing room backstage 1970s": "indoor", "Barnum Bailey travelling circus poster backdrop 1920s": "both", "circus ring empty between shows sawdust": "indoor", "wire act high above no net ring below": "indoor", "flying trapeze platform height big top": "both", "Soviet circus animal trainer ring 1960s": "indoor", "1950s Italian circus Fellini register outdoor": "outdoor", "circus train car siding dawn performers": "both", "big top exterior night lights": "outdoor", "clown alley backstage dressing tables": "both", "circus parade street 1920s elephants": "outdoor", "Depression water for elephants register 1930s": "both", "circus ring single spotlight performer dust": "indoor", "big top collapsed in wind aftermath": "both", "Moscow circus school practice hall": "indoor", "circus wagon painted carved travelling": "both", "aerial silks rig warehouse rehearsal contemporary": "indoor", "alien mothership interior command deck retro blinking": "indoor", "bowling alley night creature in shadows 1950s": "both", "high school gymnasium prom night monster gate-crashes": "indoor", "giant spider web forest clearing victims wrapped": "indoor", "Tokyo Shibuya crossing rush hour crowd blur long exposure night": "outdoor", "New York Times Square neon night crowd ghost streaks long exposure": "both", "London Oxford Street Christmas crowd blur long exposure day": "outdoor", "Hong Kong central crossing crowd blur night neon streaks": "outdoor", "Grand Central Station commuter rush hour blur shafts light": "indoor", "Paris Gare du Nord rush hour crowd blur platform long exposure": "indoor", "Shanghai Nanjing Road night crowd blur neon long exposure": "both", "Naples street market crowd blur afternoon long exposure": "outdoor", "Istanbul Grand Bazaar crowd blur interior long exposure": "indoor", "Mumbai train station rush hour blur crowd platform": "outdoor", "city intersection traffic light trails night long exposure": "outdoor", "motorway overpass light trails night long exposure city beyond": "outdoor", "San Francisco cable car blur street long exposure night": "outdoor", "Times Square taxi yellow streak night long exposure": "both", "Tokyo expressway flyover light trails night long exposure": "both", "New York bridge traffic blur night long exposure": "outdoor", "Las Vegas Strip light trails night long exposure crowd blur": "both", "Chicago Lake Shore Drive light trails night long exposure": "both", "Seoul Gangnam crossing light trails night crowd blur": "outdoor", "Bangkok traffic night light trails chaos long exposure": "both", "waterfall silk water long exposure forest sharp rocks": "outdoor", "mountain stream silk water long exposure boulders sharp": "outdoor", "ocean wave silk blur long exposure rock foreground sharp": "outdoor", "fountain city square silk water long exposure crowd blur": "outdoor", "Niagara Falls silk mist long exposure edge sharp": "both", "Norwegian fjord waterfall silk long exposure": "outdoor", "Icelandic river silk water long exposure lava rock sharp": "outdoor", "Scottish highland waterfall silk long exposure heather sharp": "outdoor", "Japanese onsen steam and silk water long exposure": "both", "Venice canal water silk blur gondola long exposure night": "both", "train platform train blur streak past both still": "outdoor", "Tokyo Metro platform train blur long exposure": "indoor", "London Tube platform train streak blur long exposure": "indoor", "Paris Métro blur streak train platform long exposure": "outdoor", "Berlin U-Bahn platform train blur long exposure": "indoor", "airport concourse crowd blur long exposure both still": "indoor", "train station clock crowd blur below long exposure": "indoor", "subway escalator blur crowd long exposure sharp": "indoor", "railway station concourse pigeons blur long exposure": "both", "ferry terminal crowd boarding blur long exposure": "outdoor", "carnival parade crowd blur float passing both still": "outdoor", "street protest march blur crowd both still long exposure": "outdoor", "concert crowd blur movement both still foreground": "indoor", "marathon runners blur both still pavement long exposure": "outdoor", "carnival dancers blur both still watching long exposure": "both", "fireworks streak blur both still looking up long exposure": "both", "stock exchange trading floor blur crowd both still": "indoor", "airport departure board flicker blur long exposure": "outdoor", "sports stadium crowd blur wave both still pitch long exposure": "outdoor", "night market crowd blur both still stall long exposure": "outdoor"};
+const LOC_TYPES = {"desert highway at dusk heat shimmer": "outdoor", "empty highway rest stop": "outdoor", "wet asphalt overpass night reflection": "outdoor", "mountain switchback edge vertiginous": "outdoor", "motorway at night light trails": "outdoor", "freeway on-ramp shoulder": "outdoor", "interstate service road empty": "outdoor", "empty airstrip tarmac heat": "outdoor", "state highway no buildings horizon": "outdoor", "Route 66 desert diner exterior": "outdoor", "Route 66 motel sign rusted": "outdoor", "Route 66 filling station abandoned": "outdoor", "road tunnel exit light end": "outdoor", "bridge expansion joint middle": "outdoor", "highway billboard empty": "outdoor", "level crossing arms down alone": "outdoor", "toll booth abandoned": "outdoor", "weigh station closed": "outdoor", "truck stop empty 3am": "outdoor", "drive-in movie screen empty": "outdoor", "car wash tunnel entrance": "outdoor", "highway flyover construction": "outdoor", "motorway service park dark": "outdoor", "roundabout centre at dawn": "outdoor", "main road empty market town": "outdoor", "B-road countryside both verges": "outdoor", "coastal highway cliff edge": "outdoor", "mountain pass summit road": "outdoor", "valley road river beside": "outdoor", "forest road canopy over": "outdoor", "desert road mirage ahead": "outdoor", "dirt road becoming tarmac": "outdoor", "gravel road end tarmac starts": "outdoor", "North American highway billboard": "outdoor", "Australian outback highway road train track": "outdoor", "Irish bog road endless narrow": "outdoor", "Scottish single-track passing place": "outdoor", "Norwegian fjord road tunnel": "outdoor", "Icelandic ring road empty": "outdoor", "New Zealand coastal highway": "outdoor", "South African coastal road": "outdoor", "Patagonian ruta 40 gravel": "outdoor", "Chilean carretera austral": "outdoor", "Bolivian salar crossing white": "outdoor", "Brazilian BR-116 jungle edge": "outdoor", "Colombian Pan-American mountain": "outdoor", "Peru Cusco mountain road": "outdoor", "Mexico highway free road": "outdoor", "Trans-Siberian highway winter": "outdoor", "Silk Road Kyrgyzstan pass": "outdoor", "ocean at horizon golden hour": "outdoor", "empty pool at dawn": "both", "harbor pier edge": "outdoor", "cliff above ocean": "outdoor", "surf break line": "both", "sea cave entrance low tide": "both", "rocky tidal pool exposed": "both", "kelp forest shallows": "outdoor", "lake at first light still water": "outdoor", "waterfall base mist rising": "outdoor", "river bend at dusk": "outdoor", "open sea swell no land": "outdoor", "estuary at golden hour": "outdoor", "coral reef shallows clear": "both", "mountain lake snow-edged": "outdoor", "mangrove channel slow water": "both", "delta mouth wide sky": "both", "ocean trench research vessel deck": "outdoor", "fjord still water reflection": "both", "reservoir concrete dam edge": "both", "hot spring sulfur mist": "both", "geyser field Iceland": "outdoor", "alpine lake turquoise": "outdoor", "cenote entrance Mexico": "both", "limestone pool Halong Bay": "both", "infinity pool edge ocean drop": "outdoor", "lido pool 1930s architecture": "both", "sea loch Scotland mist": "outdoor", "frozen lake crack line": "outdoor", "lagoon atoll Pacific": "both", "beach at low tide sandbars": "outdoor", "submerged ruins shallow water": "outdoor", "rain-swollen river bank": "outdoor", "dam spillway roar": "both", "canal Venice dawn": "outdoor", "Venice canal gondola point": "outdoor", "tide pool Oregon coast": "outdoor", "Amazon tributary dawn": "both", "Lake Baikal winter ice": "outdoor", "Lake Titicaca reed island": "outdoor", "Dead Sea float horizon": "outdoor", "Maldives lagoon clear": "both", "Irish sea cliffs base": "outdoor", "Sardinia grotto entrance": "both", "Faroe Islands sea stack": "outdoor", "Iceland black sand waves": "both", "Nile at dusk feluccas": "both", "Ganges ghat at dawn": "both", "Thames at low tide mud": "both", "Hudson River pier dusk": "outdoor", "empty intersection at night signal change": "both", "parking structure roof level top": "outdoor", "fire escape above street view": "outdoor", "overpass concrete shadow below": "outdoor", "dawn construction site steel and scaffold": "outdoor", "subway platform empty off-peak": "indoor", "city park bench early morning": "outdoor", "coffee shop window condensation": "both", "laundromat 4am": "indoor", "24h bodega neon light": "both", "rooftop water tower base": "outdoor", "alley between glass towers": "outdoor", "bridge pedestrian walkway empty": "outdoor", "skateable plaza granite empty": "outdoor", "civic square fountain off": "both", "brutalist estate courtyard": "outdoor", "social housing balcony tower block": "both", "independent cinema marquee": "indoor", "corner phone box smashed": "both", "urban canal towpath": "outdoor", "disused railway viaduct arch": "both", "street art mural two-story": "outdoor", "fire station apron empty": "both", "police precinct steps empty night": "both", "boxing gym exterior early": "outdoor", "record store closing time": "both", "bookshop after hours window": "both", "bus station predawn": "both", "taxi rank 3am": "both", "dive bar exterior empty": "outdoor", "New York Meatpacking district predawn": "both", "Brooklyn bridge walk empty": "outdoor", "Manhattan skyline from Queens": "both", "Chicago L track level": "outdoor", "Los Angeles freeway overpass empty": "outdoor", "San Francisco Castro slope": "both", "London Borough Market early": "both", "East London railway arch": "both", "Manchester Northern Quarter": "both", "Berlin Kreuzberg street dawn": "outdoor", "Paris Canal St Martin": "outdoor", "Lyon traboule passage": "both", "Tokyo Shinjuku empty 5am": "both", "Tokyo Harajuku street alone": "outdoor", "Osaka Dotonbori night reflection": "outdoor", "Seoul Hongdae street art": "outdoor", "Singapore shop house row": "both", "Hong Kong back street incense": "outdoor", "Mumbai Marine Drive empty": "both", "Delhi Lodi Estate night": "both", "Cairo Khan el Khalili at dusk": "both", "ridge at altitude blue sky above": "outdoor", "snowfield at dusk pink light": "outdoor", "glacier crevasse edge": "outdoor", "rock face midway pitch": "outdoor", "alpine meadow wildflowers": "outdoor", "summit cairn wind-blown": "outdoor", "tree line edge looking up": "outdoor", "scree slope descent": "outdoor", "high camp tent door morning": "outdoor", "alpine lake reflection": "outdoor", "frozen waterfall ice wall": "outdoor", "boulder field at sunrise": "outdoor", "mountain hut exterior dawn": "outdoor", "narrow couloir ice": "outdoor", "ridgeline silhouette both sides visible": "outdoor", "cable car tower base": "outdoor", "rocky summit cross": "outdoor", "lookout tower wooden stairs": "outdoor", "talus slope scramble": "outdoor", "snow cornice edge careful": "outdoor", "Dolomite rock tower base": "outdoor", "Patagonia spire mist": "outdoor", "Himalayan base camp prayer flags": "outdoor", "Alaska glacier terminus": "outdoor", "Scottish highland ridge": "outdoor", "Swiss alpine meadow cowbell": "outdoor", "Rocky Mountain aspen grove autumn": "outdoor", "Norwegian fjord above": "outdoor", "New Zealand Southern Alps": "outdoor", "Andes condor sky above": "outdoor", "Atlas Mountains red earth": "outdoor", "Ethiopian Simien ridge": "outdoor", "Caucasus range ancient stone": "outdoor", "Pyrenees pass stone refuge": "outdoor", "Japanese Alps cedar forest": "outdoor", "Taiwan high mountain fog": "outdoor", "Philippine volcano caldera rim": "outdoor", "East African rift escarpment": "outdoor", "Carpathian forest ridge": "outdoor", "Urals ancient low ridge": "outdoor", "Appalachian bald summit": "outdoor", "Sierra Nevada granite dome": "outdoor", "Rockies moraine lake": "outdoor", "Mt Cook glacier New Zealand": "outdoor", "Iceland lava field above cloud": "outdoor", "Faroe plateau edge cliff": "outdoor", "Ben Nevis CIC hut below": "outdoor", "Chamonix aiguille needle": "outdoor", "street lamp cone of light empty": "outdoor", "predawn empty boulevard": "outdoor", "24h diner at 3am": "outdoor", "rooftop at midnight city below": "outdoor", "rain-soaked empty street lamp reflection": "outdoor", "neon sign alley close": "outdoor", "night club exterior queue gone": "outdoor", "casino exit early hours": "outdoor", "hotel lobby late night": "indoor", "city bridge walking both sides empty": "outdoor", "underground car park empty level": "outdoor", "hospital exterior 4am": "outdoor", "night bus last stop end line": "outdoor", "kebab shop 2am queue": "outdoor", "phone box interior lit": "indoor", "underpass graffiti night colour": "outdoor", "harbour lights reflection water night": "outdoor", "ferry terminal last boat gone": "outdoor", "train station concourse empty night": "outdoor", "airport arrivals 5am": "outdoor", "fuel station forecourt night": "outdoor", "empty beach night city beyond": "outdoor", "park night fountain lit": "outdoor", "botanical garden night event": "outdoor", "stadium exterior night event over": "outdoor", "theatre stage door night": "both", "concert venue exit after": "outdoor", "bar exterior last call street": "outdoor", "arcade empty closing time": "outdoor", "bowling alley last game": "outdoor", "Tokyo Shinjuku Kabukicho neon": "outdoor", "Seoul Hongdae night street": "outdoor", "Hong Kong Mong Kok night dense": "outdoor", "Taipei night market open": "outdoor", "Bangkok Patpong night market": "outdoor", "Ho Chi Minh night street food": "outdoor", "Singapore Clarke Quay night": "outdoor", "Kuala Lumpur Petaling night": "outdoor", "New York Times Square 4am": "outdoor", "Las Vegas strip 3am": "outdoor", "Chicago Riverwalk night": "outdoor", "Miami South Beach night": "outdoor", "New Orleans Bourbon St late": "outdoor", "Nashville Broadway night": "outdoor", "London West End 2am": "outdoor", "Paris Pigalle night": "outdoor", "Berlin Kurfürstendamm night": "outdoor", "Amsterdam red light area outside": "outdoor", "Brussels Grande Place night": "outdoor", "Prague Wenceslas night": "outdoor", "rain-soaked empty intersection": "outdoor", "wet concrete underpass columns": "outdoor", "open field in downpour dark sky": "outdoor", "flooded alley mid-storm": "outdoor", "motorway hard shoulder rain": "outdoor", "coastal path in gale rain horizontal": "outdoor", "park bench under tree both soaked": "outdoor", "railway platform empty rain": "outdoor", "market awning shelter shelter": "outdoor", "canal towpath downpour reflection": "outdoor", "football pitch waterlogged rain": "outdoor", "dockside warehouse rain sheeting": "outdoor", "London night rain street empty": "outdoor", "Tokyo rain alley lanterns": "outdoor", "New York rain fire escape dripping": "outdoor", "Paris rain cobblestones reflecting": "outdoor", "Edinburgh castle rain mist": "outdoor", "Dublin rain Georgian terrace": "outdoor", "Amsterdam canal bridge rain": "outdoor", "Prague rain old town cobble": "outdoor", "Lisbon rain hills tram tracks": "outdoor", "Barcelona rain Gothic quarter": "outdoor", "Rome rain colosseum deserted": "outdoor", "Naples rain narrow alley": "outdoor", "Bangkok rain monsoon street": "outdoor", "Ho Chi Minh rain street vendor": "outdoor", "Mumbai monsoon empty road": "outdoor", "Dhaka monsoon flooding knee-deep": "outdoor", "Kolkata rain tram tracks": "outdoor", "Jakarta monsoon flooded lane": "outdoor", "Manila typhoon shelter overpass": "outdoor", "Seoul rain Cheonggyecheon stream": "outdoor", "Taipei rain night market closed": "outdoor", "Hong Kong rain typhoon shelter": "outdoor", "Singapore rain Marina Bay": "outdoor", "Kuala Lumpur rain twin towers mist": "outdoor", "Sydney rain opera house steps": "outdoor", "Melbourne rain tram city": "outdoor", "Auckland rain harbour bridge": "outdoor", "Cape Town rain waterfront": "outdoor", "Rio rain favela rooftop": "outdoor", "Bogota rain colonial centre": "outdoor", "Lima rain Pacific mist": "outdoor", "Buenos Aires rain cobblestone": "outdoor", "Santiago rain Andes clouds": "outdoor", "Mexico City rain Zocalo": "outdoor", "Havana rain Malecon wave spray": "outdoor", "Kingston rain waterfront": "outdoor", "Lagos rain flooded street": "outdoor", "Nairobi rain red earth road": "outdoor", "Addis Ababa rain mountain mist": "outdoor", "salt flat at noon heat shimmer": "outdoor", "cracked desert floor geometric pattern": "outdoor", "ghost town main street tumbleweed": "outdoor", "red rock canyon base shadow": "outdoor", "dry riverbed sand exposed": "outdoor", "abandoned mine entrance dust motes": "outdoor", "ranch road dirt horizon heat": "outdoor", "western film set deserted main street": "outdoor", "dried-up lake bed white crust": "outdoor", "Oklahoma dust bowl farmhouse ruin": "outdoor", "Texas panhandle flat nothing": "outdoor", "New Mexico arroyo red earth": "outdoor", "Arizona mesa top wind": "outdoor", "Nevada high desert empty": "outdoor", "Utah canyon narrows sand": "outdoor", "Kansas wheat field harvest dust": "outdoor", "Colorado eastern plains empty": "outdoor", "Nebraska sandhills ridge wind": "outdoor", "Montana badlands dry ravine": "outdoor", "Wyoming oil field pump jack": "outdoor", "Idaho lava plain empty": "outdoor", "Australia outback red earth track": "outdoor", "Pilbara red dust horizon": "outdoor", "Kimberley dry season gorge": "outdoor", "Northern Territory red rock formation": "outdoor", "South Australia Flinders dry": "outdoor", "Victorian mallee scrub dust": "outdoor", "New South Wales western plains heat": "outdoor", "Queensland channel country dry": "outdoor", "Tasmania dry east coast scrub": "outdoor", "South Africa Karoo scrub kopje": "outdoor", "Namibia Fish River Canyon dry": "outdoor", "Botswana Makgadikgadi salt pan": "outdoor", "Zimbabwe Matobo boulders dry grass": "outdoor", "Zambia dry season valley": "outdoor", "Tanzania dry savannah dust": "outdoor", "Kenya Amboseli dust with Kilimanjaro": "outdoor", "Ethiopia Danakil salt flat heat": "outdoor", "Mali Sahel scrub dry": "outdoor", "Senegal Sahel dust harmattan": "outdoor", "Niger river bend dry season": "outdoor", "Chad scrubland dry season": "outdoor", "Sudan Meroe pyramids sand": "outdoor", "Egypt desert plateau beyond pyramid": "outdoor", "Libya Akakus rock desert": "outdoor", "Algeria Grand Erg dune sea": "outdoor", "Morocco pre-Sahara plains dust": "outdoor", "Tunisia Chott el-Jerid salt": "outdoor", "Iraq Mesopotamia dust plain": "outdoor", "Syria ancient ruins dust": "outdoor", "Jordan desert highway empty": "outdoor", "penthouse terrace at dusk city gold": "both", "private pool party after last guests": "both", "hotel corridor at 2am marble": "indoor", "empty casino floor chips scattered": "both", "rooftop helipad edge gold hour": "outdoor", "yacht deck Mediterranean sun": "both", "private club interior empty morning": "indoor", "art deco ballroom empty night": "both", "museum gala after hours": "both", "champagne bar last bottle": "both", "five-star hotel suite terrace": "both", "private jet interior leather": "indoor", "Concorde Lounge empty Heathrow now museum": "both", "airport first class lounge": "outdoor", "Paris Ritz bar last guest": "both", "Paris George V lobby empty": "indoor", "Monaco Casino terrace": "both", "Cannes Hotel Martinez terrace": "both", "Venice Cipriani water entrance": "both", "Amalfi cliffside hotel pool": "outdoor", "Lake Como villa terrace water": "outdoor", "Portofino harbour superyacht": "outdoor", "Capri faraglioni rocks view hotel": "both", "Côte d'Azur beach club": "outdoor", "Saint-Tropez pampelonne beach": "outdoor", "Antibes villa garden": "outdoor", "Marbella Golden Mile terrace": "both", "Ibiza Destino cliffside pool": "outdoor", "Mykonos Scorpios terrace": "both", "Santorini caldera infinity pool": "both", "Athens Acropolis view hotel": "both", "Istanbul Bosphorus hotel terrace": "both", "Dubai Burj Al Arab suite": "both", "Abu Dhabi Emirates Palace pool": "both", "Doha Museum of Islamic Art terrace": "both", "Singapore Marina Bay Sands pool rooftop": "outdoor", "Hong Kong Mandarin Oriental bar": "both", "Tokyo Park Hyatt bar Lost in Translation": "outdoor", "Bali Four Seasons rice terrace pool": "outdoor", "Maldives overwater villa deck": "both", "Seychelles Fregate private pool": "both", "New York Plaza Oak Bar empty": "outdoor", "New York Mandarin Oriental bar": "both", "LA Chateau Marmont garden": "outdoor", "Miami Faena pool dawn": "both", "London Claridge's bar empty": "outdoor", "London Savoy terrace": "both", "Edinburgh Balmoral palm court": "both", "Paris L'Espadon empty Ritz": "both", "Barcelona Arts hotel pool": "both", "frozen lake at first light crack pattern": "outdoor", "snowfield before storm dark sky": "outdoor", "ice hall empty arena": "outdoor", "ski resort predawn gondola loading": "outdoor", "tundra flat under white sky": "outdoor", "Lapland reindeer forest snow": "outdoor", "Svalbard glacier calving edge": "outdoor", "Iceland black sand and snow": "outdoor", "Greenland ice sheet horizon": "outdoor", "Alaska Brooks Range winter": "outdoor", "Canada Yukon wilderness freeze": "outdoor", "Siberian taiga frozen river": "outdoor", "Russia Baikal clear ice walking": "outdoor", "Finland ice lake sauna shore": "outdoor", "Norway frozen fjord reflection": "outdoor", "Sweden frozen archipelago island": "outdoor", "Faroe Islands frozen waterfall": "outdoor", "Scotland winter glen frozen burn": "outdoor", "Canada Quebec winter ice hotel": "outdoor", "Vermont maple forest snow": "outdoor", "Maine coast harbor frozen": "outdoor", "Colorado high alpine winter meadow": "outdoor", "Utah Bryce Canyon snow hoodoos": "outdoor", "Montana big sky winter open": "outdoor", "Wyoming Yellowstone winter steam": "outdoor", "Patagonia winter wind ice lake": "outdoor", "Antarctic research station exterior": "outdoor", "Sub-Antarctic island storm snow": "outdoor", "New Zealand South Island winter": "outdoor", "Japan Hokkaido snow forest": "outdoor", "Japan Aomori snow trees": "outdoor", "China Harbin ice sculpture": "outdoor", "South Korea Jiri mountain snow": "outdoor", "Kazakhstan steppe winter deep": "outdoor", "Kyrgyz winter yurt snow": "outdoor", "Tibet winter plateau wind": "outdoor", "Bhutan winter mountain dzong": "outdoor", "Pakistan K2 base camp winter": "outdoor", "Nepal Thorong La winter crossing": "outdoor", "Lesotho highland snow blanket": "outdoor", "Drakensberg winter frost dawn": "outdoor", "Morocco Atlas snow": "outdoor", "Spain Pyrenees winter pass": "outdoor", "Austria Dachstein glacier winter": "outdoor", "Switzerland Jungfrau winter": "outdoor", "Italy Dolomites winter ice": "outdoor", "Slovenia Triglav winter snow": "outdoor", "Poland Tatra winter ridge": "outdoor", "Czech Krkonose winter forest": "outdoor", "Romania Fagaras winter ridge": "outdoor", "Bulgaria Rila winter monastery": "outdoor", "brutalist tower base shadow": "both", "empty car park top floor": "outdoor", "underpass pillar zone": "both", "stadium concourse predawn": "both", "modernist housing block exterior": "outdoor", "Barbican London estate walkway": "both", "Robin Hood Gardens ramp": "outdoor", "Trellick Tower base London": "both", "Park Hill Sheffield walkway": "outdoor", "Keeling House balcony": "both", "Balfron Tower base London": "both", "Spa Green Estate London": "both", "Boston City Hall plaza": "outdoor", "Buffalo City Court exterior": "outdoor", "Chicago Daley Center": "both", "Detroit Civic Centre": "both", "Berlin Plattenbauwohnung stairwell": "indoor", "East Berlin Plattenbau exterior": "outdoor", "Prague Panelák courtyard": "outdoor", "Warsaw Muranów block": "both", "Budapest Kelenföld block": "both", "Bucharest Ceaușescu block": "both", "Moscow Khrushchevka courtyard": "outdoor", "St Petersburg industrial canal": "outdoor", "Minsk Government House": "both", "Kyiv modernist institute": "both", "Tbilisi Soviet bloc courtyard": "outdoor", "Yerevan opera square concrete": "both", "Almaty Soviet district": "both", "Tashkent Lenin era concrete": "both", "Pyongyang broad avenue concrete": "outdoor", "Shanghai brutalist university": "both", "Beijing Soviet-era ministry": "both", "Hong Kong public estate walkway": "both", "Singapore HDB void deck": "both", "Chandigarh High Court Le Corbusier": "both", "Ahmedabad IIM Kahn building": "both", "Dhaka National Assembly Louis Kahn": "both", "Islamabad secretariat": "both", "Brasília Oscar Niemeyer piloti": "both", "São Paulo Copan building": "both", "Caracas 23 de Enero block": "both", "Bogotá El Tunal estate": "both", "Mexico City Tlatelolco plaza": "outdoor", "Havana Soviet-era ministry": "both", "Santiago brutalist university": "both", "Lima housing estate concrete": "both", "Lagos National Theatre": "both", "Accra State House exterior": "outdoor", "steel mill floor at shift end glow": "both", "foundry catwalk heat below": "both", "shipyard dry dock ship above": "outdoor", "rail yard at dusk engine steam": "outdoor", "power plant turbine hall enormous": "both", "blast furnace taphole red glow": "both", "crane cab above dock": "outdoor", "rolling mill steel strip bright": "both", "coking plant tower exterior": "outdoor", "drop forge press building interior": "indoor", "scrap metal yard crusher": "outdoor", "industrial chimney base ladder": "both", "welder's bay sparks falling": "outdoor", "rivet hall aircraft construction": "both", "submarine dry dock interior": "indoor", "oil rig platform deck sea around": "outdoor", "bridge construction steel above": "outdoor", "tunnel boring machine front": "both", "viaduct under construction arches": "both", "railway workshop steam": "indoor", "Bessemer converter museum Sheffield": "outdoor", "Ironbridge Telford original location": "outdoor", "Blaenavon ironworks Wales ruin": "outdoor", "Cyfarthfa Castle Merthyr iron": "both", "Port Talbot steelworks Wales": "outdoor", "Scunthorpe steelworks exterior": "outdoor", "Redcar blast furnace ruin": "outdoor", "Motherwell steelworks ruin Scotland": "outdoor", "Cambuslang iron ruin Scotland": "outdoor", "Coatbridge ironworks Scotland": "outdoor", "Essen Zollverein colliery Germany": "both", "Duisburg Landschaftspark industrial ruin": "outdoor", "Völklingen Hütte ironworks Saar": "both", "Bochum industrial museum Ruhr": "both", "Dortmund Hoesch steelwork ruin": "outdoor", "Pittsburgh steel mill converted": "both", "Gary Indiana mill exterior": "outdoor", "Bethlehem PA blast furnace": "both", "Youngstown mill ruin Ohio": "outdoor", "Cleveland Flats industrial": "both", "Detroit industrial waterfront": "both", "Chicago industrial south side": "both", "Birmingham Alabama blast furnace": "both", "Gadsden Alabama iron ruin": "outdoor", "Pueblo Colorado steelwork": "both", "Provo Utah steel mill": "both", "Fontana California Kaiser mill ruin": "outdoor", "Hamilton Ontario Stelco exterior": "outdoor", "Sydney Steelworks Newcastle Australia": "both", "glass tower atrium morning": "both", "floor-to-ceiling window high rise": "both", "mirrored elevator interior": "indoor", "greenhouse botanical winter garden": "outdoor", "glass bridge high crossing": "outdoor", "transparent observation deck": "both", "ice rink glass-enclosed winter": "both", "glass-floored walkway canyon": "outdoor", "crystal palace replica interior": "indoor", "Lloyd's of London interior atrium": "both", "Shard viewing level London": "both", "Gherkin lobby London": "indoor", "Shanghai Tower sky bridge": "outdoor", "Burj Khalifa observation floor": "both", "Taipei 101 observation sky": "both", "One World Trade observation New York": "both", "Rockefeller Center Top of Rock": "both", "Empire State observation day": "both", "Eiffel Tower glass floor second level": "both", "Louvre glass pyramid interior": "indoor", "Centre Pompidou pipe exterior": "outdoor", "Fondation Louis Vuitton glass hull": "both", "Apple Store glass staircase New York": "indoor", "Apple Fifth Ave glass cube": "both", "Milan Galleria Vittorio floor detail": "both", "Crystal Palace Barcelona Ciutadella": "both", "Palacio de Cristal Madrid": "both", "Glass Museum Corning New York": "both", "Corning glass bridge walkway": "outdoor", "Glass Museum Tacoma Washington": "both", "Glassmuseum Ebeltoft Denmark": "both", "Palm House Kew Gardens London": "outdoor", "Temperate House Kew London": "both", "Barbican conservatory London": "both", "Eden Project biome interior": "indoor", "National Glass Centre Sunderland": "both", "Olympic Park velodrome interior": "indoor", "National Aquatics Centre Beijing": "both", "Grimshaw greenhouse Darwin": "both", "Frankfurt glass finance district": "both", "Munich BMW Welt glass atrium": "both", "Hamburg Elbphilharmonie interior": "indoor", "Copenhagen Diamanten glass building": "both", "Helsinki library Oodi interior": "indoor", "Lahti Sibelius Hall interior": "indoor", "Oslo Opera House glass slope": "both", "Bergen Aquarium glass corridor": "indoor", "Stavanger Oil Museum interior": "indoor", "cliff face at golden hour lichen-covered": "outdoor", "dense forest clearing shafts of light": "outdoor", "tidal flat at low tide exposed": "outdoor", "open grassland in wind": "outdoor", "river gorge base spray rising": "outdoor", "bog moorland at dusk": "outdoor", "ancient woodland root tangle": "outdoor", "estuarine mudflat wide sky": "outdoor", "heath in flower purple wide": "outdoor", "chalk downland escarpment edge": "outdoor", "limestone pavement bare": "outdoor", "peat highland loch reflected": "outdoor", "sand dune blowout hollow": "outdoor", "flint shingle beach storm": "outdoor", "reed bed at dawn mist": "outdoor", "old growth redwood base": "outdoor", "Scottish glen river crossing": "outdoor", "Welsh upland reservoir edge": "outdoor", "Peak District gritstone edge": "outdoor", "New Forest ancient oak hollow": "outdoor", "Lake District fell top": "outdoor", "Dartmoor tor wind": "outdoor", "Exmoor coastline cliff path": "outdoor", "Pembrokeshire sea stack distant": "outdoor", "Cairngorm plateau tundra": "outdoor", "Skye Cuillin black rock": "outdoor", "Hebrides machair wildflowers": "outdoor", "Norwegian birch forest autumn": "outdoor", "Swedish elk forest dawn": "outdoor", "Finnish lake island landing": "outdoor", "Estonian bog wooden walkway": "outdoor", "Baltic sea coast pine": "outdoor", "Breton coastal heathland": "outdoor", "Galician mountain forest green": "outdoor", "Sardinian maquis scrub": "outdoor", "Corsican gorge river": "outdoor", "Croatian karst spring": "outdoor", "Slovenian Triglav plateau": "outdoor", "Turkish mountain lake turquoise": "outdoor", "Georgian Caucasus meadow": "outdoor", "Mongolian steppe endless": "outdoor", "Kyrgyz alpine pasture yurt distant": "outdoor", "Tibetan plateau wind-scoured": "outdoor", "Bhutanese forest monastery visible above": "outdoor", "Indian hill station mist": "outdoor", "Sri Lanka highland tea": "outdoor", "New Zealand beech forest": "outdoor", "Australian blue mountain heath": "outdoor", "Tasmanian alpine meadow": "outdoor", "Kiwi rainforest fern gully": "outdoor", "basketball court empty dusk streetlights on": "outdoor", "floodlit court night summer empty": "both", "outdoor basketball court chalk lines faded": "outdoor", "half-court concrete urban playground": "both", "rooftop basketball court city below": "outdoor", "community centre court folded bleachers": "both", "high school gym court morning empty": "both", "college court arena empty pre-game": "both", "NBA arena floor level empty": "both", "Madison Square Garden court empty": "outdoor", "Staples Center floor level empty": "both", "United Center floor empty Chicago": "both", "TD Garden floor Boston empty": "outdoor", "Chase Center floor San Francisco empty": "both", "Barclays Center floor Brooklyn empty": "both", "Crypto.com Arena floor LA empty": "both", "Kia Center floor Orlando empty": "both", "FTX Arena floor Miami empty": "both", "American Airlines Center floor Dallas empty": "both", "Toyota Center floor Houston empty": "both", "tennis clay court Roland Garros empty": "both", "Wimbledon Centre Court grass empty": "both", "US Open hard court Flushing Meadows empty": "outdoor", "Australian Open hard court Melbourne empty": "both", "indoor hard court evening session empty": "indoor", "grass court country club summer": "both", "clay court private estate Mediterranean": "both", "beach volleyball court sand": "outdoor", "volleyball indoor court sports hall": "indoor", "badminton court sports centre": "outdoor", "squash court glass back wall": "both", "racquetball court enclosed": "both", "bocce ball court Italian village": "both", "pétanque court French village shade": "both", "boules court South of France": "both", "table tennis outdoor park": "outdoor", "handball court urban outdoor": "outdoor", "five-a-side astroturf floodlit": "both", "futsal court indoor competitive": "indoor", "padel court glass enclosed modern": "both", "pickleball court USA growing sport": "outdoor", "netball court UK school": "both", "hockey pitch astroturf Olympic": "both", "lacrosse field open": "outdoor", "polo field open expanse": "outdoor", "croquet lawn country house summer": "both", "bowls green English village": "both", "martial arts dojo wooden floor": "both", "boxing ring corner pre-fight": "both", "theater wings offstage spotlight beyond": "both", "empty stage single spotlight overhead": "both", "dressing room mirror strip lights": "both", "backstage corridor low ceiling": "indoor", "loading dock behind venue": "outdoor", "rehearsal space bare walls marked": "both", "fly tower above stage looking down": "both", "pit level orchestra empty": "both", "empty auditorium performer POV": "both", "stage door external night": "both", "green room pre-show nervous": "both", "Royal Opera House stage London": "both", "Sydney Opera House stage": "both", "New York Metropolitan Opera stage": "indoor", "Vienna Staatsoper stage empty": "both", "La Scala Milan stage": "both", "Paris Opéra Garnier stage": "both", "Moscow Bolshoi stage empty": "both", "Berlin Deutsche Oper stage": "both", "Barcelona Liceu stage": "both", "RSC Stratford stage empty": "both", "National Theatre London Lyttelton": "both", "Globe Theatre stage London": "both", "Carnegie Hall stage empty": "both", "Lincoln Center stage New York": "both", "Kennedy Center stage Washington": "both", "Royal Albert Hall stage London": "both", "Barbican Pit London": "both", "Almeida Theatre London stage": "both", "Young Vic stage London": "both", "Donmar Warehouse stage London": "indoor", "Gate Theatre Dublin stage": "both", "Abbey Theatre Dublin stage": "both", "Gaiety Theatre Dublin": "both", "National Theatre Dublin stage": "both", "Broadway stage empty 42nd": "outdoor", "Off-Broadway black box stage": "outdoor", "Edinburgh Fringe venue stage": "both", "Festival Theatre Edinburgh": "both", "Traverse Edinburgh stage": "both", "Usher Hall Edinburgh empty": "both", "Sage Gateshead stage empty": "both", "Bridgewater Hall Manchester stage": "outdoor", "City Varieties Leeds stage": "both", "Theatre Royal Glasgow stage": "both", "Citizens Theatre Glasgow": "both", "King's Theatre Glasgow stage": "both", "Welsh Millennium Centre stage Cardiff": "both", "Sherman Theatre Cardiff": "both", "Chapter Arts Cardiff": "both", "candlelit table for two restaurant": "both", "rooftop golden hour fairy lights": "outdoor", "empty late-night diner last customers": "both", "bookshop aisle corner hidden": "both", "record store listening booth small": "both", "beach at sunset last light": "outdoor", "train carriage night long journey": "both", "cinema back row late showing": "indoor", "corner of a house party quieter": "both", "coffee shop rain outside window": "outdoor", "botanical garden bench afternoon": "outdoor", "night market lanterns above": "both", "ferry crossing at dusk city both sides": "both", "art gallery quieter room afternoon": "both", "park lake bench autumn light": "outdoor", "hotel room curtains light through": "indoor", "breakfast in bed hotel morning": "both", "balcony Mediterranean morning": "both", "bridge over river evening": "outdoor", "kitchen cooking together evening": "indoor", "vintage car drive-in movie": "both", "lakeside dock summer evening": "outdoor", "picnic in park blanket afternoon": "outdoor", "wine bar last two there": "both", "flower market morning": "both", "bed-and-breakfast terrace morning": "both", "lighthouse keeper's cottage exterior": "outdoor", "canal boat evening": "outdoor", "log fire evening cottage interior": "indoor", "hammock between trees afternoon": "both", "ice cream parlour window seat": "outdoor", "vintage diner both side booth": "both", "cinema foyer pre-show": "indoor", "jazz club intimate table": "both", "library reading room empty afternoon": "indoor", "botanical glass house steamy": "both", "sea front promenade evening": "outdoor", "fairground ferris wheel top": "both", "Christmas market mulled wine": "both", "rooftop at sunrise both still up": "outdoor", "apartment window city night": "both", "record shop listening station": "both", "second-hand bookshop afternoon browsing": "both", "independent café rainy Sunday": "both", "vintage theatre matinee": "both", "gallery café after exhibition": "both", "cathedral cloister quiet afternoon": "both", "walled garden summer": "outdoor", "open-air cinema summer evening": "indoor", "food market Saturday both": "both", "empty concert hall seats": "outdoor", "vinyl record store aisle": "both", "garage band practice space": "indoor", "piano shop showroom evening": "both", "rooftop speaker setup": "outdoor", "recording studio control room": "indoor", "mixing desk session both": "both", "live venue empty soundcheck": "both", "tour bus bunk corridor": "indoor", "backstage catering area quiet": "both", "green room pre-gig": "both", "busker pitch underground empty": "both", "jazz club stage between sets": "both", "acoustic session stairwell": "indoor", "music school practice room": "both", "Abbey Road Studios crosswalk London": "indoor", "Sun Studio Memphis empty": "indoor", "Electric Lady Studio New York": "indoor", "Muscle Shoals Alabama studio": "indoor", "Criteria Studios Miami": "indoor", "Capitol Studios Los Angeles": "indoor", "Hansa Tonstudio Berlin": "indoor", "Polar Studios Stockholm": "indoor", "RAK Studios London": "indoor", "Rockfield Studios Wales": "indoor", "Rockfield Quadrangle Wales": "outdoor", "Konk Studios London": "indoor", "Maida Vale Studios BBC London": "indoor", "Air Studios Lyndhurst Hall London": "indoor", "British Grove London": "both", "Metropolis London": "indoor", "Olympic Studios Barnes London": "indoor", "Master Rock London": "both", "Madison Square Garden empty": "outdoor", "O2 Arena London empty": "both", "Radio City Music Hall empty": "both", "Royal Albert Hall stage level": "both", "Wembley Arena empty": "both", "La Cigale Paris empty": "both", "Olympia Paris empty": "both", "Zenith Paris empty": "both", "Berghain Berlin empty": "both", "Fabric London empty": "both", "Printworks London empty": "both", "Tobacco Dock London empty": "outdoor", "The Warehouse Leeds empty": "indoor", "Sub Club Glasgow empty": "both", "Barrowland Glasgow stage": "both", "King Tut's Glasgow stage": "both", "SWG3 Glasgow warehouse": "indoor", "Latitude Festival stage dawn": "both", "ancient amphitheater stepped seats Athens": "outdoor", "crumbling castle courtyard Scotland": "outdoor", "battlefield memorial dawn silence": "outdoor", "abandoned monastery cloister Portugal": "both", "colonial port warehouse Jamaica": "indoor", "Roman forum at sunrise empty": "both", "Egyptian pyramid at dawn no tourists": "both", "Angkor Wat sunrise reflection pool": "both", "Machu Picchu sun gate first light": "both", "Colosseum interior arch looking up": "indoor", "Parthenon pillars Athens dusk": "both", "Stonehenge solstice dawn mist": "both", "Avebury stone circle walking": "both", "Newgrange Ireland winter solstice": "both", "Hadrian's Wall northern edge": "both", "Vindolanda excavation trench": "both", "Viking longship museum interior": "indoor", "Jorvik Viking Centre York exterior": "outdoor", "Norman castle motte and bailey": "both", "Medieval cathedral chapter house": "both", "Tudor manor hall interior timber": "indoor", "Civil War battlefield marker dawn": "outdoor", "Napoleonic battlefield monument France": "outdoor", "Waterloo battlefield Belgium": "outdoor", "Auschwitz-Birkenau memorial path": "outdoor", "Berlin Wall remaining section": "both", "Checkpoint Charlie museum exterior": "outdoor", "Stasi prison Leipzig exterior": "indoor", "Dresden Frauenkirche rebuilt exterior": "outdoor", "Hiroshima Peace Memorial exterior": "outdoor", "Nagasaki museum exterior": "outdoor", "Pearl Harbor USS Arizona memorial water": "outdoor", "Gettysburg battlefield Pennsylvania": "outdoor", "Antietam battlefield Maryland dawn": "outdoor", "Bunker Hill monument Boston": "indoor", "Independence Hall Philadelphia": "both", "Colonial Williamsburg street": "outdoor", "Jamestown reconstruction Virginia": "both", "Plymouth Rock Massachusetts coast": "outdoor", "Salem witch trial memorial": "both", "Tombstone Arizona OK Corral": "both", "Little Bighorn battlefield Montana": "outdoor", "Alamo San Antonio Texas exterior": "outdoor", "Mesa Verde cliff dwelling Colorado": "outdoor", "Chaco Canyon ruins New Mexico": "outdoor", "Cahokia mounds Illinois": "both", "Serpent Mound Ohio aerial view possible": "both", "Cahokia Monks Mound base": "both", "abandoned asylum corridor tiles": "indoor", "fog-bound forest path no end": "outdoor", "empty motel parking lot night": "both", "derelict carnival midway": "both", "candlelit cellar steps": "indoor", "lighthouse keeper's cottage at night": "both", "ruined manor house exterior": "outdoor", "fog-covered graveyard path": "outdoor", "drowned village reservoir edge": "both", "Victorian factory floor dark": "indoor", "underground tunnel bricked-up end": "both", "secret passage bookcase entrance": "both", "locked library night window": "indoor", "empty theatre balcony creaking": "both", "old hotel corridor 3am": "indoor", "basement flooded ankle deep": "indoor", "attic trapdoor looking down": "indoor", "church crypt entrance stone": "both", "estate maze centre alone": "both", "walled garden overgrown locked": "outdoor", "old clock tower interior": "indoor", "photography darkroom red light": "both", "radio station night empty": "both", "print room old newspaper rotary": "both", "museum after hours case lit": "both", "archive basement box rows": "indoor", "police evidence room dim": "both", "detective agency door frosted glass": "both", "private eye office desk": "indoor", "smoke-filled bar information": "both", "dockside warehouse meeting": "indoor", "industrial estate unit door": "both", "abandoned school classroom": "indoor", "empty hospital corridor night": "indoor", "sanatorium courtyard overgrown": "outdoor", "institution corridor peeling": "indoor", "haunted B&B corridor creaking": "indoor", "village pub empty late": "both", "country house library fire out": "indoor", "whodunit manor hall chandelier": "both", "locked room diagram scene": "both", "crime scene before police arrive": "both", "film noir street lamp rain": "outdoor", "1940s diner counter night": "both", "jazz club back room door": "both", "speakeasy behind bookcase": "outdoor", "numbers station forest clearing": "outdoor", "black site exterior ordinary": "outdoor", "cherry blossom grove path Japan": "outdoor", "tulip field Keukenhof Netherlands rows": "outdoor", "wildflower meadow at dawn mist": "outdoor", "botanical garden greenhouse glass warm": "outdoor", "apple orchard in bloom England": "outdoor", "wisteria tunnel Japan Kawachi": "outdoor", "bluebell wood England May carpet": "outdoor", "lavender field early Provence France": "outdoor", "jasmine market India Madurai": "outdoor", "magnolia grove Central Park New York": "outdoor", "peach blossom field China Guilin": "outdoor", "Korean azalea mountain Hwangmaesan": "outdoor", "Dutch daffodil bulb fields early": "outdoor", "allium field purple English garden": "outdoor", "ranunculus flower farm California": "outdoor", "dahlia field September to spring": "outdoor", "sunflower first field France baby heads": "outdoor", "poppy field Flanders Belgium": "outdoor", "rapeseed field England yellow": "outdoor", "mustard field California Napa golden": "outdoor", "vine blossom Burgundy France early": "outdoor", "citrus blossom grove Sicily": "outdoor", "almond blossom Spain Extremadura": "outdoor", "olive blossom grove Italy Umbria": "outdoor", "camellia garden Cornwall England": "outdoor", "rhododendron garden Cornwall estate": "outdoor", "azalea garden Exbury England": "outdoor", "garden open day English country house": "outdoor", "allotment spring first dig": "outdoor", "community garden first planting": "outdoor", "Kyoto Philosopher's Path cherry": "outdoor", "Yoshino Mountain Japan cherry blossom": "outdoor", "Washington DC tidal basin cherry": "outdoor", "Vancouver Stanley Park cherry": "outdoor", "Seoul Yeouido park cherry Korea": "outdoor", "Taipei Yangmingshan azalea mountain": "outdoor", "Canberra Floriade festival tulips": "outdoor", "Melbourne Royal Botanic Garden": "outdoor", "Sydney Royal Botanic Garden first spring": "outdoor", "Adelaide Botanic Garden spring": "outdoor", "Buenos Aires Parque Tres de Febrero jacaranda": "outdoor", "Montevideo Rambla jacaranda street": "outdoor", "collapsing building exterior running from": "outdoor", "rooftop helicopter pad extraction": "outdoor", "exploding gas station forecourt": "outdoor", "car chase highway overpass": "outdoor", "burning warehouse interior smoke": "indoor", "abandoned factory fight sequence": "indoor", "dockside container confrontation": "outdoor", "airport tarmac last minute": "outdoor", "jungle compound extraction": "outdoor", "embassy exterior hostage situation": "outdoor", "desert oil field explosion": "outdoor", "arctic facility escape": "both", "submarine control room emergency": "both", "space shuttle launch pad": "both", "nuclear plant control room": "both", "dam spillway chase on foot": "both", "bridge car fall below car chase": "outdoor", "tunnel chase underground": "both", "mountain pass vehicle standoff": "outdoor", "forest pursuit on foot both": "outdoor", "villain's lair interior reveal": "indoor", "underground bunker finale": "indoor", "ancient temple booby trap": "outdoor", "underwater ruins race against time": "outdoor", "mine shaft descent together": "both", "crane top city confrontation": "both", "skyscraper window cleaner exterior": "outdoor", "radio tower climb final": "both", "power station roof fight": "both", "cargo plane tail ramp drop": "both", "helicopter exterior city hover": "outdoor", "speed boat chase coastal": "outdoor", "submarine exterior underwater suit": "outdoor", "jet ski dock escape": "outdoor", "sports stadium crowd finale": "outdoor", "opera house roof confrontation": "both", "casino vault escape": "indoor", "museum gallery heist escape": "both", "art auction interruption": "both", "black tie gala gone wrong": "both", "embassy rooftop garden escape": "outdoor", "safe house interior blow": "indoor", "railway carriage fight sequence": "both", "metro station platform confrontation": "indoor", "bus roof fight moving": "both", "taxi chase narrow streets": "outdoor", "launch pad pre-ignition T-minus hold": "both", "mission control empty overnight": "both", "space station observation cupola window Earth": "both", "lunar surface crater rim Earth above": "both", "Mars red dust plain horizon flat": "outdoor", "asteroid mining platform exterior": "outdoor", "exoplanet first landing alien sky": "both", "black hole research vessel safe distance": "outdoor", "Jupiter cloud layer research station": "outdoor", "Saturn ring station exterior": "outdoor", "Pluto flyby exterior frozen": "outdoor", "comet surface landing tethered": "both", "deep space transit vessel corridor": "indoor", "cryosleep chamber awakening": "both", "space elevator ascent halfway": "both", "orbital hotel view deck Earth": "both", "Kennedy Space Centre launch control": "both", "Houston JSC mission simulator": "both", "Baikonur Cosmodrome launch site Kazakhstan": "both", "Star City training facility Russia": "both", "ESA training centre Cologne": "both", "Astronaut hall of fame Florida": "both", "Space Shuttle Atlantis display interior": "indoor", "Saturn V rocket base Florida": "both", "Soyuz capsule training interior": "indoor", "ISS training pool underwater": "both", "neutral buoyancy pool astronaut training": "both", "zero-G aircraft parabola inside": "indoor", "planetarium dome below projection": "both", "observatory telescope control room": "both", "radio telescope base signal listening": "both", "space museum corridor display both": "indoor", "observatory on volcano Mauna Kea Hawaii": "both", "Atacama Observatory Chile exterior night": "outdoor", "Very Large Telescope Chile exterior": "outdoor", "Arecibo-equivalent structure exterior": "outdoor", "Control room Hubble maintenance": "both", "James Webb team celebration room": "both", "Mars Curiosity control room JPL": "both", "New Horizons flyby celebration JPL": "outdoor", "Apollo mission anniversary meeting": "both", "Artemis crew announcement": "both", "SpaceX factory floor Falcon": "indoor", "Blue Origin factory Shepard beside": "indoor", "Virgin Galactic spaceport exterior": "outdoor", "JAXA control room Tokyo": "both", "Eiffel Tower base Paris predawn": "both", "Colosseum arch Rome morning empty": "both", "Times Square empty early morning": "both", "Santorini caldera edge sunset domes": "both", "Machu Picchu sun gate at dawn": "both", "Taj Mahal garden axis front": "outdoor", "Great Wall of China isolated section": "both", "Great Barrier Reef underwater snorkelling": "both", "Victoria Falls Zambia mist platform": "both", "Iguazu Falls Argentina walkway": "both", "Grand Canyon south rim early empty": "outdoor", "Yellowstone hot spring boardwalk": "outdoor", "Northern Lights field Iceland wide": "outdoor", "Bora Bora overwater bungalow deck": "both", "Easter Island Moai row dawn": "both", "Angkor Wat reflection pool sunrise": "both", "Petra treasury facade dawn first light": "both", "Wadi Rum Jordan camp fire night": "both", "Sahara camel dune sunrise": "outdoor", "Serengeti migration open plain": "outdoor", "Masai Mara balloon morning drift": "both", "Cape of Good Hope lighthouse": "both", "Table Mountain cable car arrival": "outdoor", "Robben Island ferry approach": "both", "Kruger Park sunset vehicle": "outdoor", "Okavango Delta mokoro boat": "both", "Nile felucca sailing sunset": "both", "Abu Simbel facade dawn laser show": "both", "Pyramids Giza sunset alone": "both", "Luxor temple night lit": "both", "Valley of Kings tomb entrance": "both", "Karnak temple hypostyle dawn": "both", "Dead Sea float horizon Jordan": "outdoor", "Wailing Wall Jerusalem quiet": "both", "Church of Holy Sepulchre Jerusalem": "both", "Hagia Sophia Istanbul interior": "indoor", "Cappadocia balloon field dawn": "outdoor", "Pamukkale travertine pool Turkey": "both", "Ephesus library facade Turkey": "indoor", "Bosphorus strait crossing sunrise": "both", "Dubrovnik walls morning empty": "both", "Plitvice Lakes Croatia boardwalk": "outdoor", "Kotor Bay Montenegro water edge": "both", "Mostar bridge Bosnia clear water": "outdoor", "artist studio with skylight afternoon": "indoor", "blank canvas before first stroke": "both", "watercolour wash drying table": "both", "life drawing class empty": "both", "white cube gallery installation": "both", "Tate Modern Turbine Hall London": "both", "Turbine Hall vast floor looking up": "both", "National Gallery London grand stair": "both", "Royal Academy London courtyard": "outdoor", "Serpentine Pavilion exterior": "outdoor", "Hayward Gallery concrete London": "both", "MoMA atrium New York": "both", "Whitney Museum terrace New York": "both", "Guggenheim spiral New York": "both", "Met Roof Garden New York": "outdoor", "Pace Gallery New York white": "both", "Chelsea gallery white New York": "outdoor", "Centre Pompidou escalator exterior Paris": "outdoor", "Louvre Pyramid interior glass": "indoor", "Musée d'Orsay clock window": "both", "Fondation Louis Vuitton hull Paris": "both", "Palais de Tokyo raw space Paris": "both", "Fondation Cartier exterior Paris": "outdoor", "Uffizi courtyard Florence": "outdoor", "Galleria Borghese garden Rome": "outdoor", "MAXXI Rome interior": "indoor", "Palazzo Grassi Venice": "both", "Punta della Dogana Venice": "both", "Biennale Giardini pavilion": "both", "Städel Museum Frankfurt": "both", "Pinakothek Munich white room": "both", "Documenta Kassel site": "both", "Hamburger Bahnhof Berlin industrial": "both", "KW Institute Berlin raw": "both", "Hamburger Kunsthalle": "both", "Rijksmuseum Amsterdam hall": "both", "Stedelijk Museum Amsterdam": "both", "Eye Film Museum Amsterdam": "both", "Guggenheim Bilbao titanium exterior": "outdoor", "MACBA Barcelona terrace": "both", "Reina Sofia Madrid": "both", "Serralves Porto garden": "outdoor", "Moderna Museet Stockholm island": "both", "Kiasma Helsinki interior": "indoor", "Ateneum Helsinki stair": "both", "Louisiana Museum Denmark sea view": "outdoor", "Arken Museum Denmark": "both", "Oaxacan market stall morning colour": "outdoor", "Chichen Itza pyramid sunrise empty": "outdoor", "Lucha libre arena ring between bouts": "outdoor", "Mexico City Zócalo plaza evening": "outdoor", "Frida Kahlo blue house Coyoacán": "outdoor", "Xochimilco trajinera canal flower boat": "outdoor", "Oaxaca Monte Albán ruins": "outdoor", "Teotihuacan pyramids dawn": "outdoor", "Palenque jungle ruins Chiapas": "outdoor", "Uxmal Yucatan ruins": "outdoor", "Merida colonial plaza Sunday": "outdoor", "San Cristóbal de las Casas highland": "outdoor", "Puerto Escondido surf beach Oaxaca": "outdoor", "Huatulco bay beach Oaxaca": "outdoor", "Sayulita beach Nayarit village": "outdoor", "Puerto Vallarta old town Jalisco": "outdoor", "Guadalajara Tlaquepaque craft market": "outdoor", "Guanajuato callejón del Beso lane": "outdoor", "Guanajuato Festival Cervantino stage": "outdoor", "San Miguel de Allende jardin": "outdoor", "Tulum ruins cliff sea below": "outdoor", "Tulum cenote swim jungle": "outdoor", "Bacalar lake colours Quintana Roo": "outdoor", "Coba pyramid climb top jungle": "outdoor", "Valladolid cenote swim Yucatan": "outdoor", "Izamal yellow town Yucatan": "outdoor", "Campeche colonial colour walls": "outdoor", "Veracruz malecon evening": "outdoor", "Xalapa anthro museum Veracruz": "outdoor", "Tlaxcala smallest state capital": "outdoor", "Morelia cathedral evening Michoacán": "outdoor", "Pátzcuaro Day of Dead lake": "outdoor", "Janitzio island midnight ceremony": "outdoor", "Cholula pyramid church top": "outdoor", "Puebla Azulejo tile building": "outdoor", "Taxco silver town hilltop": "outdoor", "Acapulco cliff diver platform": "outdoor", "Mazatlán old town Sinaloa": "outdoor", "Los Cabos arch sea rock": "outdoor", "Baja peninsula road trip": "outdoor", "Copper Canyon train Chihuahua": "outdoor", "Creel Tarahumara area Chihuahua": "outdoor", "New York Times Square 5am empty": "outdoor", "Route 66 Cadillac Ranch Texas art": "outdoor", "Nashville Broadway honky-tonk stage exterior": "outdoor", "New Orleans French Quarter Bourbon exterior": "outdoor", "Brooklyn rooftop summer Manhattan behind": "outdoor", "LA Venice Beach boardwalk morning": "outdoor", "San Francisco Lombard Street": "outdoor", "Chicago Bean Millennium Park reflection": "outdoor", "Miami South Beach art deco morning": "outdoor", "Seattle Pike Place Market dawn": "outdoor", "Portland Oregon Powell's Books exterior": "outdoor", "Austin 6th Street music row": "outdoor", "New Orleans Garden District mansion": "outdoor", "Savannah mossy square Georgia": "outdoor", "Charleston Rainbow Row South Carolina": "outdoor", "Annapolis harbour Maryland": "outdoor", "Cape Cod beach Massachusetts summer": "outdoor", "Maine Portland lobster pier": "outdoor", "Vermont fall foliage road General Store": "outdoor", "New Hampshire White Mountains": "outdoor", "Alaska Denali clear day base": "outdoor", "Hawaii Na Pali coast Kauai": "outdoor", "Grand Canyon south rim early": "outdoor", "Bryce Canyon hoodoos Utah dawn": "outdoor", "Zion Narrows Utah hiking": "outdoor", "Arches Utah Delicate Arch sunrise": "outdoor", "Monument Valley Arizona Navajo": "outdoor", "Death Valley salt pan California": "outdoor", "Yosemite Valley El Capitan view": "outdoor", "Sequoia forest drive-through tree": "outdoor", "Pacific Coast Highway Big Sur": "outdoor", "Malibu beach LA adjacent": "outdoor", "Santa Monica pier evening": "outdoor", "Hollywood Sign hillside view": "outdoor", "Bourbon Street parade day": "outdoor", "Mardi Gras New Orleans crowd": "outdoor", "Super Bowl adjacent city street": "outdoor", "NBA Finals watch party bar": "outdoor", "Fourth of July fireworks open": "outdoor", "Thanksgiving parade New York both": "outdoor", "Black Friday mall opening queue": "outdoor", "American diner any state any time": "outdoor", "Banff Lake Louise turquoise shoreline": "outdoor", "Niagara Falls mist observation deck": "outdoor", "Toronto CN Tower base exterior": "outdoor", "Vancouver Stanley Park seawall": "outdoor", "Quebec City Old Town cobblestone": "outdoor", "Montreal Plateau neighbourhood mural": "outdoor", "Ottawa Parliament Hill exterior": "outdoor", "Victoria Inner Harbour BC": "outdoor", "Whistler village snow BC": "outdoor", "Jasper National Park Alberta": "outdoor", "Icefields Parkway Alberta drive": "outdoor", "Columbia Icefield glacier walk": "outdoor", "Tofino beach BC surf remote": "outdoor", "Pacific Rim National Park BC": "outdoor", "Haida Gwaii remote BC island": "outdoor", "Nahanni River Yukon remote": "outdoor", "Kluane National Park Yukon": "outdoor", "Dawson City Yukon gold rush": "outdoor", "Whitehorse northern lights Yukon": "outdoor", "Yellowknife Great Slave Lake NWT": "outdoor", "Inuvik tundra NWT remote": "outdoor", "Churchill polar bear season Manitoba": "outdoor", "Churchill beluga whale summer Manitoba": "outdoor", "Prince Edward Island red sand beach": "outdoor", "Cape Breton Cabot Trail NS": "outdoor", "Halifax waterfront NS": "outdoor", "Saint John covered bridge NB": "outdoor", "Fredericton legislative assembly NB": "outdoor", "Charlottetown Green Gables PEI": "outdoor", "Confederation Bridge crossing PEI": "outdoor", "Newfoundland L'Anse aux Meadows": "outdoor", "Signal Hill St John's Newfoundland": "outdoor", "Fogo Island Newfoundland remote": "outdoor", "Gros Morne Newfoundland fjord": "outdoor", "Toronto Kensington Market": "outdoor", "Toronto Distillery District": "outdoor", "Montreal Mile End neighbourhood": "outdoor", "Vancouver Granville Island market": "outdoor", "Calgary Heritage Park historic": "outdoor", "Edmonton Ice Palace winter": "outdoor", "Saskatoon riverbank trail": "outdoor", "Regina Wascana Centre park": "outdoor", "Jamaica Negril cliff sunset dive spot": "outdoor", "Trinidad Carnival Queen Park Savannah stage": "outdoor", "Barbados Bathsheba Atlantic coast rock": "outdoor", "Cuba Havana Malecón sea wall sunset": "outdoor", "Puerto Rico Old San Juan cobblestone blue": "outdoor", "Dominican Republic Samaná waterfall pool": "outdoor", "Haiti Citadelle la Ferrière approach": "outdoor", "Martinique Saint-Pierre volcanic ruin": "outdoor", "Guadeloupe Basse-Terre waterfall": "outdoor", "Saint Lucia Pitons beach between": "outdoor", "Dominica Boiling Lake trail approach": "outdoor", "Grenada spice plantation nutmeg": "outdoor", "Barbados Bridgetown Cheapside market": "outdoor", "Antigua English Harbour Nelson's Dockyard": "outdoor", "Sint Maarten both sides beach": "outdoor", "Saint Kitts Brimstone Hill fortress": "outdoor", "Montserrat volcano exclusion edge": "outdoor", "Anguilla Shoal Bay beach quiet": "outdoor", "British Virgin Islands tortola bay": "outdoor", "US Virgin Islands Charlotte Amalie": "outdoor", "Turks and Caicos Grace Bay clear": "outdoor", "Cayman Islands 7 Mile Beach": "outdoor", "Bahamas Exuma swimming pigs": "outdoor", "Nassau Atlantis approach": "outdoor", "Cuba Viñales valley tobacco farm": "outdoor", "Cuba Trinidad colonial pastel": "outdoor", "Cuba Varadero beach resort": "outdoor", "Cuba Santiago Carnival": "outdoor", "Jamaica Blue Mountains coffee tour": "outdoor", "Jamaica Cockpit Country remote": "outdoor", "Jamaica Port Antonio Blue Lagoon": "outdoor", "Jamaica Dunn's River Falls climb": "outdoor", "Trinidad Caroni swamp scarlet ibis": "outdoor", "Trinidad Maracas Bay beach": "outdoor", "Barbados Fish Fry Oistins Friday": "outdoor", "Barbados Morgan Lewis sugar mill": "outdoor", "Puerto Rico Bioluminescent Bay night": "outdoor", "Puerto Rico Arecibo radio telescope": "outdoor", "Dominican Republic Pico Duarte hike": "outdoor", "Dominican Republic Saona Island beach": "outdoor", "chapel altar candlelit intimate": "both", "outdoor ceremony wildflower arch": "outdoor", "bridal suite mirror morning light": "both", "registry office stone steps": "indoor", "vineyard ceremony at dusk vines": "outdoor", "country house parkland ceremony": "outdoor", "cathedral nave enormous light shafts": "both", "marquee interior lanterns hung": "indoor", "city rooftop ceremony skyline": "outdoor", "beach ceremony barefoot sand": "outdoor", "cliff top ceremony sea below": "outdoor", "walled garden ceremony flower walls": "outdoor", "barn interior dressed timber": "indoor", "greenhouse botanical ceremony": "both", "castle courtyard ceremony Scotland": "outdoor", "Lake District fell backdrop ceremony": "indoor", "Cotswold church exterior yew trees": "outdoor", "Scottish loch ceremony shoreline": "outdoor", "Irish country house ceremony": "both", "Devon coast ceremony headland": "outdoor", "Cornwall sea ceremony cliff": "outdoor", "Norfolk barn ceremony harvest feel": "both", "Suffolk church flint exterior": "outdoor", "Yorkshire moors ceremony exposed": "both", "Peak District ceremony hill above": "outdoor", "Welsh mountain ceremony Snowdonia": "outdoor", "Tuscan villa ceremony cypress trees": "both", "Amalfi Villa ceremony cliff terrace": "outdoor", "Positano ceremony sea stack": "outdoor", "Ravello Villa Rufolo ceremony": "both", "Lake Como ceremony jetty": "outdoor", "French château ceremony formal garden": "outdoor", "Provence lavender field ceremony": "outdoor", "Côte d'Azur villa ceremony": "both", "Greek island ceremony whitewashed": "both", "Santorini ceremony caldera edge": "both", "Mykonos windmill ceremony": "both", "Crete beach ceremony taverna": "outdoor", "Portuguese Alentejo vineyard ceremony": "outdoor", "Douro Valley ceremony terraced vines": "outdoor", "Sintra Palace ceremony garden": "outdoor", "Lisbon rooftop ceremony tiles": "outdoor", "New York City Hall ceremony": "both", "Brooklyn ceremony Williamsburg loft": "both", "home kitchen counter morning coffee": "indoor", "professional kitchen pass window service": "indoor", "street food cart night busy": "outdoor", "wood-fired pizza oven exterior": "outdoor", "outdoor market prep table": "outdoor", "restaurant kitchen mid-service": "indoor", "cafe counter opening ritual": "both", "butcher's cold room doorway": "both", "fish market slab first light": "both", "vegetable market stall sorting": "both", "fermentation cellar shelves rows": "indoor", "bakery 4am before opening": "both", "patisserie counter morning": "both", "ramen shop kitchen small hectic": "both", "sushi counter chef preparation": "both", "teppanyaki grill both sides": "both", "pizza restaurant back kitchen": "indoor", "pasta restaurant handmade bench": "both", "wine cellar tasting table": "indoor", "farmhouse kitchen AGA morning": "indoor", "Georgian kitchen hearth fire": "indoor", "Victorian scullery restoration": "both", "Basque pintxos bar kitchen small": "both", "Madrid tapas bar kitchen": "indoor", "Barcelona market stall La Boqueria": "both", "Paris boulangerie counter morning": "both", "Lyon bouchon kitchen small": "both", "Marseille fish quay morning": "outdoor", "Neapolitan pizza back kitchen": "indoor", "Roman trattoria kitchen simple": "indoor", "Sicilian kitchen nonna's": "indoor", "Moroccan riad kitchen courtyard": "indoor", "Lebanese kitchen mezze spread": "indoor", "Turkish gözleme street stall": "outdoor", "Japanese izakaya small kitchen": "both", "Korean BBQ grill table": "both", "Vietnamese pho kitchen 4am": "indoor", "Thai street wok cart night": "outdoor", "Indian dhal kitchen simple": "indoor", "Bengali fish curry kitchen": "indoor", "Mexican cocina simple home": "both", "Peruvian ceviche kitchen fresh": "indoor", "Argentine asado fire outdoor": "outdoor", "New York deli counter": "both", "New Orleans creole kitchen": "indoor", "Louisiana cajun outdoor cook": "outdoor", "Borneo rainforest canopy walkway": "outdoor", "Amazon river camp at dawn": "outdoor", "Costa Rica cloud forest mist": "outdoor", "Cambodia temple overgrown vines": "outdoor", "Papua New Guinea highland trail": "outdoor", "Daintree rainforest Queensland": "outdoor", "Congo basin clearing giant trees": "outdoor", "Sumatra jungle river crossing": "outdoor", "Thailand hill tribe forest edge": "outdoor", "Vietnam karst limestone jungle": "outdoor", "Ecuador Amazon tributary camp": "outdoor", "Peru cloud forest epiphyte trees": "outdoor", "Belize cenote jungle clearing": "outdoor", "Guatemala Tikal temple above canopy": "outdoor", "Mexico Yucatan jungle ruin": "outdoor", "Sri Lanka jungle leopard territory": "outdoor", "India Corbett forest trail edge": "outdoor", "Kenya jungle border savannah": "outdoor", "Rwanda gorilla trekking forest": "outdoor", "Uganda Bwindi forest trail": "outdoor", "Pantanal waterway jungle edge Brazil": "outdoor", "Orinoco delta mangrove channel": "outdoor", "Mekong river bank jungle Cambodia": "outdoor", "Irrawaddy river jungle bank Myanmar": "outdoor", "Salween river jungle edge": "outdoor", "Kinabalu rainforest lower slope": "outdoor", "Sabah jungle river crossing": "outdoor", "Sarawak longhouse river arrival": "outdoor", "Sulawesi jungle crater lake": "outdoor", "Flores jungle volcanic forest": "outdoor", "Philippines Palawan jungle cove": "outdoor", "Mindanao highland forest trail": "outdoor", "Luzon rice terrace edge forest": "outdoor", "Hawaii fern gully waterfall": "outdoor", "Maui bamboo forest path": "outdoor", "Kauai Na Pali coast jungle": "outdoor", "Puerto Rico El Yunque cloud forest": "outdoor", "Jamaica Blue Mountain forest": "outdoor", "Trinidad Northern Range forest": "outdoor", "Trinidad Caroni swamp dawn": "outdoor", "Grenada Grand Etang crater forest": "outdoor", "Dominica rainforest river gorge": "outdoor", "St Lucia banana plantation edge": "outdoor", "Martinique Pelée lower forest": "outdoor", "Guadeloupe volcanic forest": "outdoor", "Madagascar rainforest lemur clearing": "outdoor", "Comoros forest ancient tree": "outdoor", "Reunion Cirque de Cilaos": "outdoor", "Seychelles Vallée de Mai palm": "outdoor", "Mauritius Black River Gorges": "outdoor", "Paris fashion week backstage Palais Royal": "both", "empty runway post-show dust settling": "outdoor", "Milan Brera showroom white space": "both", "studio white cyc wall full-length": "indoor", "New York garment district loft": "both", "London Somerset House courtyard show": "outdoor", "Copenhagen show space industrial": "both", "Berlin show space former power plant": "both", "Lagos Lagos Fashion Week backstage": "both", "Seoul DDP show exterior": "outdoor", "Tokyo Rainbow Bridge show exterior": "outdoor", "Shanghai former factory show space": "indoor", "Palais de Tokyo Paris show": "both", "Grand Palais Paris interior nave": "indoor", "Louvre Cour Carrée show Paris": "both", "Champs-Elysées midnight show": "both", "Eiffel Tower platform show Paris": "both", "Versailles garden show Paris": "outdoor", "Uffizi Piazzale Michelangelo show Florence": "both", "Colosseum exterior show Rome": "outdoor", "Guggenheim rotunda show New York": "both", "Whitney Biennial adjacent show": "both", "MoMA garden show New York": "outdoor", "Brooklyn Navy Yard show space": "outdoor", "Hudson Yards public show New York": "outdoor", "Met Stairs show New York": "both", "Tate Modern Bankside show London": "both", "V&A Cromwell Road steps London": "outdoor", "Natural History Museum London show": "both", "BFI Southbank show London": "both", "Barbican Centre show London": "both", "Roundhouse show London": "both", "BAFTA 195 Piccadilly show London": "both", "Selfridges rooftop show London": "outdoor", "Fashion East venue London": "both", "Goldsmiths show London": "both", "Central Saint Martins BA show": "both", "RCA show London": "both", "LCF MA show London": "both", "Birmingham Custard Factory show": "indoor", "Manchester Victoria Warehouse show": "indoor", "Glasgow SWG3 show": "both", "Edinburgh Dovecot Studios show": "indoor", "Dublin National Museum show": "both", "Lisbon LX Factory show": "indoor", "Barcelona Palo Alto show": "both", "city street march crowd placard density": "outdoor", "courthouse steps vigil candles": "outdoor", "barricade police line stand-off": "outdoor", "memorial vigil square candles wind": "outdoor", "occupation sit-in steps long-stay": "outdoor", "university campus quad gathering": "outdoor", "Parliament Square Westminster London": "outdoor", "Trafalgar Square London gathering": "outdoor", "Tiananmen Square adjacent Beijing": "outdoor", "Tahrir Square Cairo archive feeling": "outdoor", "Maidan Square Kyiv historic feeling": "outdoor", "Wenceslas Square Prague historic": "outdoor", "Zuccotti Park New York Occupy": "outdoor", "Union Square New York rally": "outdoor", "Hyde Park Speakers' Corner London": "outdoor", "The Mall Washington DC march": "outdoor", "Lafayette Square Washington DC": "outdoor", "Martin Luther King Memorial Washington": "outdoor", "Lincoln Memorial steps Washington": "outdoor", "Capitol Building exterior demonstration": "outdoor", "Selma bridge Edmund Pettus Alabama": "outdoor", "Birmingham Alabama Kelly Ingram Park": "outdoor", "Montgomery Alabama Dexter Avenue": "outdoor", "Little Rock Arkansas school exterior": "outdoor", "Stonewall Inn New York exterior": "outdoor", "Stonewall National Monument area": "outdoor", "Harvey Milk Plaza San Francisco": "outdoor", "Castro District San Francisco march": "outdoor", "Grant Park Chicago rally point": "outdoor", "Federal Plaza Chicago march": "outdoor", "Millennium Park Chicago gathering": "outdoor", "City Hall Los Angeles steps": "outdoor", "Pershing Square Los Angeles rally": "outdoor", "Venice Beach boardwalk demonstration": "outdoor", "Rodeo Drive protest Palm Springs": "outdoor", "Climate march London Embankment": "outdoor", "XR blockade London bridge": "outdoor", "Anti-war vigil Grosvenor Square London": "outdoor", "Greenham Common memorial Berkshire": "outdoor", "Faslane Peace Camp Scotland gate": "outdoor", "G8 Gleneagles approach road": "outdoor", "COP26 Glasgow approach march": "outdoor", "George Square Glasgow rally": "outdoor", "Kelvingrove Glasgow vigil": "outdoor", "rooftop golden hour city amber": "outdoor", "coastal cliff dusk edge last light": "outdoor", "open field last light warm": "outdoor", "lake surface golden hour reflection": "outdoor", "mountain ridge dusk silhouette": "outdoor", "desert highway dusk warm": "outdoor", "vineyard last light harvest rows": "outdoor", "harbour dusk boats rocking": "outdoor", "beach last light families leaving": "outdoor", "park bench dusk city behind": "outdoor", "canal towpath dusk reflection": "outdoor", "river bridge dusk city both sides": "outdoor", "cathedral steps dusk warm stone": "outdoor", "castle ramparts dusk light": "outdoor", "country house lawn dusk evening": "outdoor", "walled garden dusk last bees": "outdoor", "orchard dusk fruit heavy": "outdoor", "meadow dusk grass gold": "outdoor", "clifftop bench dusk coast": "outdoor", "lighthouse dusk beam starting": "outdoor", "sea front promenade dusk stroll": "outdoor", "pier end dusk water colour": "outdoor", "esplanade dusk families evening": "outdoor", "nature reserve dusk birds settling": "outdoor", "bog moorland dusk purple heather": "outdoor", "upland tarn dusk reflected": "outdoor", "Sahara dusk orange sky vast": "outdoor", "Rajasthan dusk pink stone": "outdoor", "Bali rice terrace dusk green gold": "outdoor", "Ha Long Bay dusk karst silhouette": "outdoor", "Angkor Wat dusk reflection gold": "outdoor", "Petra dusk rose-red fade": "outdoor", "Cappadocia dusk balloon silhouette": "outdoor", "Santorini dusk caldera famous": "outdoor", "Positano dusk colour stack": "outdoor", "Dubrovnik walls dusk Adriatic": "outdoor", "Oia dusk famous blue dome": "outdoor", "Mykonos windmill dusk": "outdoor", "Lisbon dusk Tagus golden": "outdoor", "Porto dusk Douro bridge": "outdoor", "Istanbul dusk Bosphorus gold": "outdoor", "Marrakech dusk rooftop call": "outdoor", "Cairo dusk pyramids outline": "outdoor", "Kenya dusk Acacia tree line": "outdoor", "Sahara dune ridge at dawn": "outdoor", "Atacama salt flat mirror surface": "outdoor", "Arizona red rock canyon base": "outdoor", "Namibia dead vlei white trees": "outdoor", "Arabian Rub al Khali endless dunes": "outdoor", "Gobi Desert rock plain heat": "outdoor", "Sonoran cactus saguaro forest": "outdoor", "Patagonian steppe endless wind": "outdoor", "Iranian salt desert cracked": "outdoor", "Wadi Rum Jordan red sandstone": "outdoor", "Dasht-e Kavir Iran salt crust": "outdoor", "Taklamakan China dune sea": "outdoor", "Tibetan plateau windswept gravel": "outdoor", "Karakum Turkmenistan gas crater": "outdoor", "Chilean Atacama geysers dawn": "outdoor", "Peruvian coastal desert fog": "outdoor", "Baja California cardon cactus": "outdoor", "Mojave Joshua tree silhouette": "outdoor", "White Sands New Mexico gypsum": "outdoor", "Death Valley salt pan noon": "outdoor", "Bonneville salt flat Utah": "outdoor", "Namib coastal dune sea fog": "outdoor", "Kalahari red dune grassland": "outdoor", "Great Karoo kopje rock": "outdoor", "Sudan Nubian desert ruins": "outdoor", "Libya Fezzan sand sea": "outdoor", "Tunisia Erg Chebbi dune": "outdoor", "Morocco Draa valley palms": "outdoor", "Egypt Sinai mountain desert": "outdoor", "Jordan Wadi Mujib canyon": "outdoor", "Oman Wahiba Sands camp": "outdoor", "UAE Liwa Oasis dune": "outdoor", "Kuwait desert sunset flat": "outdoor", "Qatar desert scrub evening": "outdoor", "Pakistan Thar desert village edge": "outdoor", "India Thar camel track": "outdoor", "Rajasthan sand dunes sunset": "outdoor", "Ladakh Nubra Valley sand": "outdoor", "Pakistan Cholistan dune": "outdoor", "Afghanistan Hindu Kush foothills dry": "outdoor", "Uzbekistan Kyzylkum steppe": "outdoor", "Kazakhstan steppe flat horizon": "outdoor", "Mongolia Gobi dune oasis": "outdoor", "China Badain Jaran singing dunes": "outdoor", "Russia Kalmyk steppe dry": "outdoor", "Peru Nazca lines plateau": "outdoor", "Chile Valle de la Luna Moon Valley": "outdoor", "Bolivia Uyuni salt flat season": "outdoor", "Argentina Atacama extension": "outdoor", "room floating in open sky above clouds": "both", "staircase descending into ocean depth": "both", "corridor of infinite identical doors": "both", "forest growing on ceiling roots up": "both", "library with books falling upward slowly": "both", "clock face enormous walkable surface": "both", "mirror room reflecting into infinity": "both", "chess board landscape full size": "both", "giant flower field house-sized blooms": "both", "city inverted above head walking": "both", "door in middle of open field nowhere": "both", "bed floating in dark space": "both", "kitchen with ocean instead of floor": "both", "office with desert instead of carpet": "both", "wedding beneath water both dry somehow": "both", "train arriving through bedroom wall": "both", "telephone booth inside out ringing": "both", "painting stepped into both inside art": "both", "mouth of cave that is a face enormous": "both", "eye looking back from pond surface": "both", "shadows going wrong direction both": "both", "clocks all different times melting": "both", "hands visible not the body they belong": "both", "spiral staircase going both up and down same": "both", "window looking at same room from inside": "both", "door knob too large to turn reasonable": "both", "tree growing sideways defying gravity": "both", "rain falling upward both normal about it": "both", "snow falling in one spot only precision": "both", "crowd all moving same direction both still": "both", "moon on ground everyone else ignores": "both", "sun underground ceiling window": "both", "horizon too close walking impossible": "both", "sky below feet walking on clouds solid": "both", "two of the same place same time both": "both", "echo of selves visible slight delay": "both", "objects frozen mid-fall both normal": "both", "animals acting human ignored by both": "both", "architecture bending around both normally": "both", "two moons different sizes both checking": "both", "crowded beach high noon heat": "outdoor", "empty beach early morning first light": "outdoor", "rooftop pool city summer late afternoon": "outdoor", "outdoor festival field heat dust": "outdoor", "beachside bar open air wave sound": "outdoor", "public lido 1930s tiles noon": "outdoor", "outdoor cinema summer evening": "outdoor", "beer garden pub afternoon": "outdoor", "coastal path headland summer": "outdoor", "beach hut row colourful": "outdoor", "seaside pier amusement end": "outdoor", "bucket and spade beach family": "outdoor", "harbour wall fishing boats": "outdoor", "marina sailboat deck": "outdoor", "outdoor market summer Saturday": "outdoor", "street food festival summer": "outdoor", "park fountain summer city splash": "outdoor", "river towpath cycle summer": "outdoor", "botanic garden summer afternoon": "outdoor", "outdoor theatre shakespeare summer": "outdoor", "county show agricultural summer": "outdoor", "village fete quintessential English": "outdoor", "garden party summer best behaviour": "outdoor", "tennis club summer heatwave": "outdoor", "cricket ground pavilion summer": "outdoor", "polo ground spectators summer": "outdoor", "Wimbledon queue strawberries summer": "outdoor", "Henley Regatta riverside summer": "outdoor", "Goodwood Festival of Speed summer": "outdoor", "Isle of Wight Festival summer": "outdoor", "Glastonbury wellies mud summer": "outdoor", "Latitude festival Suffolk summer": "outdoor", "La Tomatina Spain Buñol August": "outdoor", "San Fermin Pamplona white red summer": "outdoor", "Ibiza San Antonio summer sunset": "outdoor", "Mykonos windmill summer evening": "outdoor", "Santorini pool summer heat noon": "outdoor", "Positano beach coloured houses summer": "outdoor", "Cinque Terre harbour summer": "outdoor", "Amalfi coastal walk summer": "outdoor", "Barcelona Barceloneta beach summer": "outdoor", "Valencia beach summer chiringuito": "outdoor", "Seville rooftop evening summer late": "outdoor", "Lisbon miradouro summer evening": "outdoor", "New England forest peak colour road": "outdoor", "orchard apple harvest rows England": "outdoor", "bonfire field twilight smoke": "outdoor", "fog-covered valley morning October": "outdoor", "pumpkin patch open farm England": "outdoor", "Japanese momiji maple garden Kyoto": "outdoor", "Korean naejangsan national park autumn": "outdoor", "Seoraksan peak colour Korea": "outdoor", "Changgyeonggung Palace garden Seoul": "outdoor", "Vermont road tunnel colour": "outdoor", "Catskills NY peak autumn weekend": "outdoor", "Blue Ridge Parkway Virginia colour": "outdoor", "Great Smoky Mountains NC peak colour": "outdoor", "Acadia National Park Maine autumn": "outdoor", "Adirondacks NY peak colour": "outdoor", "Lake District fells England autumn": "outdoor", "Yorkshire Dales autumn bracken gold": "outdoor", "Dartmoor Devon autumn bracken": "outdoor", "Exmoor Somerset red deer rut autumn": "outdoor", "New Forest Hampshire autumn": "outdoor", "Richmond Park London rutting season": "outdoor", "Epping Forest Essex autumn": "outdoor", "Kew Gardens autumn colour walk": "outdoor", "Westonbirt Arboretum Gloucestershire peak": "outdoor", "Nymans West Sussex autumn garden": "outdoor", "Bodnant Garden Wales autumn": "outdoor", "Crarae Garden Argyll Scotland autumn": "outdoor", "Brodick Castle Arran autumn": "outdoor", "Glenfinnich distillery autumn Scotland": "outdoor", "Speyside autumn whisky country": "outdoor", "Black Forest Germany Schwarzwald autumn": "outdoor", "Bavarian forest autumn Germany": "outdoor", "Vienna Prater park autumn Austria": "outdoor", "Budapest City Park autumn Hungary": "outdoor", "Prague Stromovka park autumn Czech": "outdoor", "Bialowieza Forest Poland primeval autumn": "outdoor", "Białka Valley Tatra autumn Poland": "outdoor", "Rila Monastery Bulgaria autumn": "outdoor", "Rhodopes mountain autumn Bulgaria": "outdoor", "Carpathian forest Romania autumn": "outdoor", "Retezat National Park Romania autumn": "outdoor", "Piatra Craiului autumn Romania": "outdoor", "snow-covered city street morning fresh": "outdoor", "log fire living room evening cosy": "indoor", "Christmas market glühwein stall Germany": "outdoor", "frozen pond edge ice skate": "outdoor", "snow-covered forest path silent": "outdoor", "outdoor ice rink city centre": "outdoor", "Christmas tree farm choosing": "outdoor", "winter market late evening lights": "outdoor", "indoor ski slope practice area": "indoor", "luxury chalet balcony mountain below": "outdoor", "après-ski bar exterior snow boots": "outdoor", "ski resort village evening": "outdoor", "Lapland reindeer sleigh destination": "outdoor", "Rovaniemi Santa experience Finland": "outdoor", "Jokkmokk winter market Sweden": "outdoor", "Tromsø northern lights field Norway": "outdoor", "Lofoten Islands winter red cabin": "outdoor", "Bergen Bryggen winter Norway": "outdoor", "Copenhagen Tivoli winter lights": "outdoor", "Stockholm Gamla Stan snow winter": "outdoor", "Helsinki Christmas market Senate Square": "outdoor", "Tallinn old town Christmas Estonia": "outdoor", "Riga Christmas market Latvia historic": "outdoor", "Vilnius Christmas market Lithuania": "outdoor", "Krakow Christmas market Cloth Hall Poland": "both", "Vienna Christmas market Rathausplatz": "outdoor", "Prague Christmas market Old Town Square": "outdoor", "Budapest Christmas market Vörösmarty": "outdoor", "Strasbourg Christmas market France": "outdoor", "Colmar Christmas market Alsace": "outdoor", "Rothenburg ob der Tauber Christmas Germany": "outdoor", "Nuremberg Christmas market Germany": "outdoor", "Bath Christmas market England Abbey": "outdoor", "Edinburgh Christmas market Scotland": "outdoor", "York Christmas market England medieval": "outdoor", "Winchester Christmas market Cathedral": "outdoor", "Canterbury Christmas market Cathedral": "outdoor", "Lincoln Christmas market Castle": "outdoor", "New York Bryant Park winter rink": "outdoor", "New York Rockefeller Center tree": "outdoor", "Montreal Igloofest winter festival": "outdoor", "Quebec Winter Carnival ice palace": "outdoor", "tightrope between two office buildings": "indoor", "wedding cake slowly sinking in park": "outdoor", "grocery superstore catwalk runway": "outdoor", "stuck in revolving door together still": "both", "formal dinner wrong restaurant joined anyway": "both", "queue for something invisible both": "both", "meeting in total blank white void both": "both", "underwater office normal working both": "indoor", "upside-down room both acting right way up": "both", "gravity wrong direction both stepping carefully": "both", "too small car both squeezed comfortable": "both", "elevator too full both last in": "both", "wrong film set wandered onto both": "both", "background extras main action elsewhere": "both", "waiting room for something unspecified both": "indoor", "form-filling for impossible thing together": "both", "race track on foot very slowly both": "outdoor", "airport runway walking to gate too far": "both", "wrong wedding both sitting front row": "both", "someone else's birthday party both": "both", "wrong job interview both together": "both", "wrong city both realising slowly": "both", "wrong century both confused period clothes": "both", "wrong planet both unconcerned": "both", "wrong size room both too tall or small": "both", "mirror showing different room both": "both", "train going both directions same time": "both", "bus route circle back to start endlessly": "both", "museum exhibit become both looking out": "both", "portrait frame both looking from painting": "outdoor", "clock tower manually turning time both": "both", "world on pause both walking through": "both", "single spotlight everything else dark both": "both", "stage set obviously fake both acting real": "both", "weather presenter map not matching both": "both", "newsreader reading impossible news both": "both", "customer service call centre impossible hold": "both", "automated phone menu labyrinth both": "both", "river Styx dark water crossing ferry": "outdoor", "Hades palace obsidian hall throne": "both", "Elysian fields golden light peace": "outdoor", "Charon ferry dark river midpoint": "outdoor", "Fields of Asphodel pale grey wandering": "outdoor", "Tartarus edge looking down abyss": "both", "Persephone garden pomegranate tree": "outdoor", "Oracle at Delphi smoke chamber below": "both", "Orpheus descent path backward": "outdoor", "Hero's journey threshold crossing": "both", "Dante's inscription gate above": "both", "Virgil's guided path dark forest": "outdoor", "Egyptian Duat weighing hall scales": "both", "Ma'at feather judgement chamber": "both", "Norse Helheim mist entrance Hel gate": "both", "Valhalla great hall feast": "both", "Bifrost bridge approaching end Asgard side": "outdoor", "Niflheim frost mist plain": "outdoor", "Aztec Mictlan ninth level dark": "both", "Xibalba Mayan lords' hall": "both", "Japanese Yomi dark world descent": "both", "Buddhist hell realms border": "outdoor", "Chinese Diyu court first judgement": "both", "Ten Kings of Hell court formal": "both", "Hindu Naraka gate boundary": "both", "Bardo Tibetan intermediate state mist": "both", "Celtic Tir na nÓg island approach": "both", "Annwn Welsh otherworld entrance": "both", "Slavic Nav dark world fog": "both", "Inuit Adlivun cold underworld": "both", "Yoruba underworld crossroads": "outdoor", "Candomblé spirit world threshold": "both", "Vodou spirit world intersection": "both", "New Orleans cemetery midnight": "outdoor", "Mexican Day of Dead altar approach": "both", "Ofrenda marigold path": "outdoor", "Guatemalan cemetery coloured tombs": "outdoor", "Bolivian Ñatitas festival skull ceremony": "both", "Peruvian Pachamama offering ground": "both", "Andean sacred mountain spirit": "outdoor", "Shinto Yomi crossing Izanagi's retreat": "both", "Shinto spirit gate torii path": "both", "open field storm wall approaching dark": "outdoor", "cliff edge dark sky building": "outdoor", "car sheltering underpass rain heavy": "outdoor", "doorway watching storm arrive lightning": "outdoor", "empty beach dark clouds low horizon": "outdoor", "tornado alley plain Oklahoma warning": "outdoor", "hurricane shelter exterior shuttered": "outdoor", "cyclone coast Queensland aftermath": "outdoor", "monsoon street Mumbai flooded": "outdoor", "typhoon shelter Hong Kong boat": "outdoor", "blizzard highway car stopped white-out": "outdoor", "ice storm city trees snapping": "outdoor", "storm surge coast sandbag line": "outdoor", "hailstorm shelter awning both": "outdoor", "lightning field observation tower": "outdoor", "weather station exterior highest point": "outdoor", "storm chasers vehicle prairie": "outdoor", "doppler radar facility exterior": "outdoor", "waterspout coastal distance watching": "outdoor", "storm cell interior aircraft research": "outdoor", "atmospheric research balloon launch": "outdoor", "weather ship deck Atlantic swell": "outdoor", "North Sea platform wave impact": "outdoor", "Antarctic station storm wind sustained": "outdoor", "Arctic research camp blizzard": "outdoor", "volcano storm lightning ash": "outdoor", "dust storm approaching ahead running": "outdoor", "haboob wall Arizona red": "outdoor", "wildfires near smoke orange sky": "outdoor", "flood evacuation boat street": "outdoor", "earthquake aftershock ruin exterior": "outdoor", "tsunami warning coast running": "outdoor", "derecho linear wind damage trail": "outdoor", "supercell thunderhead base approaching": "outdoor", "mesocyclone rotation visible base": "outdoor", "wall cloud lowering both watching": "outdoor", "shelf cloud roll extending horizon": "outdoor", "mammatus cloud field looking up both": "outdoor", "rainbow after storm double light": "outdoor", "clearing storm sun breaking through": "outdoor", "storm-washed beach debris aftermath": "outdoor", "river flood subsiding mud": "outdoor", "ice storm aftermath trees glazed": "outdoor", "snow aftermath city still": "outdoor", "record shop basement listening booth": "indoor", "late night diner corner booth": "both", "graffiti wall back alley": "outdoor", "skate park dusk empty bowls": "outdoor", "underground club low ceiling bass": "both", "warehouse party corridor between rooms": "indoor", "DIY venue basement show": "indoor", "art squat corridor": "indoor", "bookshop basement cult section": "indoor", "comic shop back room": "both", "zine fair tables community": "both", "independent cinema screening room small": "both", "repertory theatre foyer before show": "both", "coffee shop poetry open mic": "both", "spoken word venue small intimate": "both", "pub back room acoustic gig": "both", "folk club cellar intimate": "indoor", "roots reggae sound system": "both", "hip-hop cipher circle outdoor": "outdoor", "grime scene studio corridor": "indoor", "UK garage era venue exterior": "indoor", "jungle rave warehouse 1993 feel": "indoor", "drum and bass club basement": "indoor", "techno bunker low concrete ceiling": "indoor", "LGBTQ bar historic gay bar": "both", "lesbian bar small intimate corner": "both", "trans venue safe community space": "both", "queer arts festival venue small": "both", "punk DIY venue toilet adjacent": "both", "hardcore show basement sweaty": "indoor", "metal club dark corner stage": "both", "goth night ornate Victorian venue": "both", "alternative night eighties venue": "both", "indie disco student union": "both", "skate shop back storage hangout": "both", "tattoo studio waiting area": "indoor", "piercing studio corridor wall art": "indoor", "barber shop waiting chair": "both", "boxing gym between rounds": "both", "wrestling gym wall mats": "both", "martial arts dojo evening class": "both", "parkour spot industrial loading bay": "outdoor", "street art studio planning board": "indoor", "activist meeting above shop": "both", "community radio station booth small": "both", "pirate radio rooftop aerial": "outdoor", "bioluminescent bay dinoflagellate night": "outdoor", "moss-covered ancient volcanic field glowing": "outdoor", "crystal cave entrance light within": "outdoor", "obsidian formation field mist rolling": "outdoor", "giant mushroom grove twilight fog": "outdoor", "deep ocean floor research vessel window": "outdoor", "cave system river underground boat": "outdoor", "lava tube Hawaii interior light end": "outdoor", "ice cave Vatnajokull interior Iceland": "outdoor", "sea cave bioluminescent grotto": "outdoor", "underground lake chamber vaulted": "outdoor", "sinkhole edge looking down": "outdoor", "canyon slot light beam narrow": "outdoor", "cave painting ancient torch-lit": "outdoor", "geothermal vent field bubbling ground": "outdoor", "fumarole Iceland steam column": "outdoor", "Waitomo glowworm cave New Zealand": "outdoor", "Son Doong cave Vietnam enormous": "outdoor", "Carlsbad Caverns New Mexico vast": "outdoor", "Mammoth Cave Kentucky historic": "outdoor", "Cappadocia underground city Turkey": "outdoor", "Derinkuyu underground city Turkey": "outdoor", "Lalibela rock-hewn church Ethiopia": "outdoor", "Ajanta caves India carved": "outdoor", "Ellora caves India exterior": "outdoor", "Petra carved rose-red facade": "outdoor", "Barabar caves Bihar oldest": "outdoor", "Dunhuang Mogao caves China": "outdoor", "Longmen grottoes Luoyang China": "outdoor", "Yungang grottoes Datong China": "outdoor", "Tiger's Nest monastery Bhutan approach": "outdoor", "Meteora monastery rock Greece approach": "outdoor", "Taktsang Palphug monastery above Paro": "outdoor", "Kellie's Castle ruin Malaysia": "outdoor", "Sigiriya Lion Rock Sri Lanka top": "outdoor", "Pidurangala Rock above Sri Lanka": "outdoor", "Adam's Peak Sri Lanka predawn": "outdoor", "Shwe Dagon Pagoda Myanmar dusk": "outdoor", "Bagan temple plain balloon Myanmar": "outdoor", "Inle Lake floating garden Myanmar": "outdoor", "Ha Long Bay limestone karst Vietnam": "outdoor", "Phong Nha cave Vietnam river": "outdoor", "Mulu cave Sarawak deer cave entrance": "outdoor", "Gunung Mulu plateau Sarawak": "outdoor", "New York water tower rooftop dusk": "outdoor", "city skyline rooftop golden hour": "outdoor", "rooftop terrace bar evening lights": "outdoor", "fire escape landing city view": "both", "rooftop garden planted city behind": "outdoor", "industrial rooftop downtown gravel": "outdoor", "converted warehouse rooftop party space": "indoor", "Tokyo rooftop shrine torii gate": "both", "Seoul rooftop hanok traditional tile": "outdoor", "Hong Kong rooftop dense stack city": "outdoor", "Shanghai rooftop art space Bund visible": "outdoor", "Singapore rooftop MBFC towers around": "outdoor", "Dubai rooftop glass building forest": "outdoor", "Istanbul rooftop Bosphorus view": "outdoor", "Athens rooftop Acropolis lit": "outdoor", "Rome rooftop San Pietro visible": "outdoor", "Paris rooftop Sacre Coeur visible": "outdoor", "Barcelona rooftop Sagrada Familia behind": "outdoor", "Milan rooftop Duomo behind": "outdoor", "Florence rooftop Brunelleschi dome": "outdoor", "London Tate Modern rooftop": "outdoor", "London Borough Market rooftop chimney": "outdoor", "London Shard base terrace": "both", "Edinburgh rooftop castle behind": "outdoor", "Glasgow rooftop riverside crane": "outdoor", "Manchester rooftop converted mill": "outdoor", "Liverpool rooftop docks Royal Liver": "outdoor", "Berlin Alexanderplatz TV tower behind": "both", "Munich rooftop beer garden above": "outdoor", "Vienna rooftop Stephansdom": "outdoor", "Amsterdam rooftop canal grid below": "outdoor", "Brussels rooftop Grand Place": "outdoor", "Copenhagen rooftop Nyhavn colour": "outdoor", "Stockholm rooftop Gamla Stan below": "outdoor", "Oslo rooftop Operahuset below": "outdoor", "Helsinki rooftop harbour ferry": "outdoor", "Warsaw rooftop Palace of Culture": "outdoor", "Prague rooftop Charles Bridge": "outdoor", "Budapest rooftop Parliament below": "outdoor", "Bratislava rooftop castle above": "outdoor", "Bucharest rooftop People's Palace": "outdoor", "Sofia rooftop Alexander Nevsky": "outdoor", "Lisbon rooftop Alfama terracotta": "outdoor", "Porto rooftop Douro river below": "outdoor", "Seville rooftop Giralda beside": "outdoor", "Granada rooftop Alhambra lit": "outdoor", "Cape Town rooftop Table Mountain": "outdoor", "cloister walk stone columns dawn light": "both", "candlelit chapel evening vespers": "both", "monastery bell tower stairs narrow": "both", "prayer hall incense slow rising": "both", "Tibetan monastery mountain backdrop": "both", "Bhutanese dzong exterior fortress": "outdoor", "Greek Meteora cliff monastery approach": "outdoor", "Greek Athos mountain peninsula": "outdoor", "Cappadocia rock-cut church interior": "indoor", "Armenian Geghard monastery carved": "both", "Georgian Jvari monastery hilltop": "both", "Mount Athos monastery exterior": "outdoor", "Ethiopian Lalibela underground church": "both", "Ethiopian Debre Damo access rope": "both", "Egyptian Sinai St Catherine's exterior": "outdoor", "Coptic Cairo monastery Egypt": "both", "Syrian Deir Mar Musa monastery": "both", "Lebanese Qadisha valley hermitage": "outdoor", "Jordan Wadi Rum monastery ruin": "outdoor", "Israel Dead Sea Qumran caves approach": "outdoor", "Cyprus Kykkos monastery gold": "both", "Malta Mdina cathedral cloister": "both", "Valletta co-cathedral Malta interior": "indoor", "Hagia Sophia Istanbul Byzantine": "both", "Chora Church Istanbul mosaic": "both", "Kariye museum Istanbul mosaic": "both", "Bulgarian Rila monastery courtyard": "outdoor", "Bulgarian Bachkovo monastery": "both", "Serbian Studenica monastery medieval": "both", "Serbian Sopocani fresco hall": "both", "Romanian Voronet blue monastery": "both", "Romanian Sucevita painted monastery": "both", "Romanian Moldovita monastery exterior": "outdoor", "Romanian Putna monastery": "both", "Polish Jasna Gora monastery Czestochowa": "both", "Czech Kladruby Benedictine": "both", "German Ettal Benedictine exterior Bavaria": "outdoor", "German Andechs pilgrimage hill": "both", "Austrian Melk Benedictine cliff Danube": "outdoor", "Austrian Klosterneuburg exterior": "outdoor", "Spanish Montserrat exterior Catalonia": "outdoor", "Spanish Silos Gregorian chant": "both", "Portuguese Batalha Gothic monastery": "outdoor", "Portuguese Jerónimos cloister Lisbon": "both", "French Mont Saint-Michel tidal approach": "both", "French Sénanque lavender Provençal": "both", "pier end open sea all around": "outdoor", "Victorian pier amusement arcade closed": "outdoor", "pier at dusk golden planks": "outdoor", "empty pier winter morning fog": "outdoor", "pier railing looking out to sea": "outdoor", "fishermen's pier working boats moored": "outdoor", "Brighton Palace Pier England": "outdoor", "Brighton West Pier ruin sea": "outdoor", "Worthing Pier England quiet": "outdoor", "Eastbourne Pier England Victorian": "outdoor", "Southend Pier England longest": "outdoor", "Weston-super-Mare Grand Pier": "outdoor", "Clevedon Pier Somerset Victorian": "outdoor", "Cromer Pier Norfolk crab": "outdoor", "Hunstanton Pier Norfolk sunset": "outdoor", "Colwyn Bay pier Wales": "outdoor", "Bangor pier Wales Victorian": "outdoor", "Beaumaris pier Anglesey Wales": "outdoor", "Penarth pier Wales Victorian": "outdoor", "Swansea pier Wales": "outdoor", "Mumbles pier Gower Wales": "outdoor", "Llandudno pier Wales ornate": "outdoor", "Aberystwyth pier Wales": "outdoor", "Saltburn Pier Yorkshire Victorian": "outdoor", "Redcar Pier Yorkshire site only": "outdoor", "Whitby Pier Yorkshire harbour both sides": "outdoor", "Scarborough South Bay pier": "outdoor", "Blyth Pier Northumberland": "outdoor", "South Shields pier": "outdoor", "Tynemouth pier both sides estuary": "outdoor", "Cullercoats pier Tyne": "outdoor", "Seaham pier County Durham": "outdoor", "Santa Monica pier California": "outdoor", "Venice Beach pier LA": "outdoor", "Hermosa Beach pier California": "outdoor", "Malibu pier California private": "outdoor", "San Clemente pier Southern California": "outdoor", "Oceanside pier California": "outdoor", "Galveston pier Texas Gulf": "outdoor", "Panama City pier Florida": "outdoor", "Jacksonville pier Florida": "outdoor", "Melbourne St Kilda pier": "outdoor", "Geelong Eastern Beach pier": "outdoor", "Busselton Jetty Western Australia longest": "outdoor", "Henley Beach pier Adelaide": "outdoor", "Port Noarlunga jetty South Australia": "outdoor", "Marrakech souk narrow alley spice": "outdoor", "Istanbul Grand Bazaar carpet hall": "outdoor", "Tokyo Tsukiji outer market dawn": "outdoor", "Chelsea Flower Market London early": "outdoor", "Borough Market London cheese stall": "outdoor", "Portobello Road London Saturday antique": "outdoor", "Camden Market London alternative": "outdoor", "Brick Lane Sunday Market East London": "outdoor", "Spitalfields Market London covered": "outdoor", "Columbia Road Flower Market London Sunday": "outdoor", "Billingsgate Fish Market London early": "outdoor", "Smithfield Meat Market London early": "outdoor", "Broadway Market London Saturday": "outdoor", "Maltby Street Market London weekend": "outdoor", "Bermondsey Antique Market London Friday": "outdoor", "Greenwich Market London covered": "outdoor", "Brixton Market London Covered Arcade": "outdoor", "Ridley Road Market Dalston London": "outdoor", "Chapel Market Islington London": "outdoor", "Shepherd's Bush Market London": "outdoor", "Walthamstow Market London open air": "outdoor", "Leather Lane London workers": "outdoor", "Paris Marché d'Aligre antique and food": "outdoor", "Paris Marché Bastille Sunday fresh": "outdoor", "Paris Marché des Enfants Rouges oldest": "outdoor", "Amsterdam Waterlooplein flea market": "outdoor", "Amsterdam Albert Cuyp Market daily": "outdoor", "Barcelona La Boqueria La Rambla": "outdoor", "Madrid El Rastro Sunday flea": "outdoor", "Madrid San Miguel covered gourmet": "outdoor", "Valencia Mercado Central morning": "outdoor", "Bilbao La Ribera indoor": "indoor", "Porto Mercado do Bolhão covered": "outdoor", "Lisbon Mercado da Ribeira covered": "outdoor", "Funchal Mercado dos Lavradores Madeira": "outdoor", "Seville Triana market covered": "outdoor", "Granada covered market central": "outdoor", "Malaga Mercado Atarazanas": "outdoor", "Naschmarkt Vienna oldest": "outdoor", "Fischmarkt Hamburg Sunday dawn": "outdoor", "Viktualienmarkt Munich daily": "outdoor", "Mercato Centrale Florence covered": "outdoor", "Rialto Market Venice morning fish": "outdoor", "Campo de' Fiori Rome morning": "outdoor", "Porta Portese Rome Sunday flea": "outdoor", "Porta Palazzo Turin outdoor largest Europe": "outdoor", "big top entrance sawdust smell": "both", "ring centre spotlight single overhead": "both", "aerial rigging above ring looking down": "both", "backstage circus wagon exterior": "outdoor", "costume wagon mirror strip light": "both", "trapeze platform above ring edge": "both", "tightrope wire strung between platforms": "both", "clown alley backstage makeup": "outdoor", "animal-free circus performance space": "both", "contemporary circus venue industrial": "both", "Cirque du Soleil stage interior": "indoor", "Giffords Circus England summer": "both", "Zippo's Circus England touring": "both", "Moscow State Circus winter tent": "both", "Chinese State Circus UK tour": "both", "Australian Circus Oz contemporary": "both", "Cirque Éloize Montreal contemporary": "both", "No Fit State Circus Wales touring": "both", "Mimbre company London studio": "indoor", "Upswing aerial company space": "both", "National Centre for Circus Arts London": "both", "Centre National des Arts du Cirque France": "both", "ESAC Belgium circus school": "both", "Codarts Rotterdam circus school": "both", "NICA Australia circus school": "both", "Circa Australia Brisbane": "both", "Gravity and Other Myths Adelaide": "both", "Casus Circus Brisbane": "both", "Acrobat company contemporary UK": "both", "Ockham's Razor company aerial UK": "both", "Mechanimal company UK mechanical": "both", "Retina company Spain aerial": "both", "Compagnie Moisés Mahiques Spain": "both", "Gandini Juggling UK company": "both", "Company XY France flying": "both", "Les 7 Doigts de la Main Montreal": "both", "Teatro Zinzanni Seattle supper club": "outdoor", "Spiegeltent festival venue": "both", "vintage circus photograph archive location": "both", "abandoned circus lot winter": "both", "circus school practice space high ceiling": "both", "summer circus school performance space": "both", "site-specific circus urban exterior": "outdoor", "touring circus overnight field": "outdoor", "hay bale field golden hour warm": "outdoor", "barn interior shafts of light dust": "indoor", "tractor field at dawn furrow mist": "outdoor", "farmhouse kitchen morning fire": "indoor", "orchard ladder apple picking autumn": "outdoor", "sheep field lambing spring England": "outdoor", "cow milking parlour morning routine": "outdoor", "pig sty exterior feeding": "outdoor", "chicken coop morning egg collection": "outdoor", "kitchen garden vegetable harvest": "indoor", "greenhouse tomato vine summer": "outdoor", "root cellar stone stair entrance": "outdoor", "grain store exterior harvest": "outdoor", "combine harvester field harvest": "outdoor", "ploughed field winter brown": "outdoor", "seed drill field spring": "outdoor", "irrigation pivot summer heat": "outdoor", "hop garden Kent summer climbing": "outdoor", "lavender farm Provence summer row": "outdoor", "sunflower farm Tuscany summer": "outdoor", "vineyard harvest France": "outdoor", "olive grove harvest Spain": "outdoor", "truffle forest oak edge France": "outdoor", "mushroom shed dark England": "outdoor", "cheese dairy morning England": "outdoor", "cider press apple autumn England": "outdoor", "jam making kitchen preserve": "indoor", "farmers market own stall selling": "outdoor", "CSA box collection farm gate": "outdoor", "U-pick berry farm summer": "outdoor", "pick-your-own pumpkin autumn": "outdoor", "Christmas tree farm winter choosing": "outdoor", "rare breed cattle show summer": "outdoor", "sheepdog trial field Scotland": "outdoor", "horse yard early morning mucking": "outdoor", "stable yard tack room morning": "outdoor", "hay meadow ancient England summer": "outdoor", "wildflower set-aside field spring": "outdoor", "hedgerow restoration both working": "outdoor", "stream bank restoration riparian": "outdoor", "dry stone wall repair Dales": "outdoor", "coppice woodland management both": "outdoor", "reed bed cutting winter both": "outdoor", "empty supermarket aisle 23:47 timestamp corner": "indoor", "ATM vestibule ceiling camera angle": "both", "lift interior descending floor counter": "indoor", "car park level 3 stairwell emergency exit": "indoor", "convenience store entrance fish-eye lens": "both", "bus station waiting hall overhead bracket": "both", "underground station concourse sweep camera": "both", "hospital corridor night shift fluorescent": "indoor", "office lobby after hours motion triggered": "indoor", "pedestrian underpass sodium light bracket": "both", "service station forecourt pump 4 elevated": "outdoor", "airport security queue serpentine elevated": "outdoor", "border crossing checkpoint queue angle": "outdoor", "railway platform number board behind": "both", "shopping centre escalator top bracket": "both", "empty fast food restaurant 3am corner": "both", "hotel corridor room numbers stretching": "indoor", "casino floor above density crowd": "both", "nightclub cloakroom queue elevated": "indoor", "sports stadium concourse between halves": "outdoor", "school corridor empty holidays ceiling": "indoor", "library study room motion sensor angle": "indoor", "museum gallery after hours motion": "both", "post office counter above queuing": "indoor", "bank interior counter queue angle": "indoor", "pharmacy counter overhead prescription": "both", "laundromat 4am all machines running": "indoor", "car wash tunnel entrance elevated": "both", "petrol station shop interior overnight": "indoor", "off-licence corner camera high": "both", "kebab shop 2am entrance overhead": "both", "taxi rank camera pole overnight": "both", "bus interior forward-facing elevated": "indoor", "train carriage end camera both": "both", "police station entrance high security": "both", "court building exterior elevated sweep": "outdoor", "social housing communal entrance": "both", "council flat corridor overhead strip": "indoor", "multi-storey top floor open concrete": "both", "industrial estate unit row camera pole": "both", "road junction camera housing bracket": "outdoor", "motorway overhead gantry sweep": "outdoor", "port container terminal elevated wide": "outdoor", "dock security camera sweep night": "outdoor", "underground car park exit ramp": "outdoor", "back of department store loading bay": "both", "prison exercise yard elevated corner": "indoor", "immigration hall queue angle overhead": "both", "cash and carry warehouse interior overhead": "indoor", "wholesaler loading area exterior overnight": "outdoor", "seamless white paper backdrop studio infinity curve": "indoor", "seamless black paper backdrop studio infinity curve": "indoor", "seamless mid-grey paper backdrop studio": "indoor", "seamless warm grey paper backdrop studio": "indoor", "seamless cream paper backdrop studio": "indoor", "seamless pale blush paper backdrop studio": "indoor", "seamless deep charcoal paper backdrop studio": "indoor", "seamless forest green paper backdrop studio": "indoor", "seamless dusty blue paper backdrop studio": "indoor", "seamless burgundy paper backdrop studio": "indoor", "hand-painted grey muslin backdrop studio": "indoor", "hand-painted white-to-dark graduated muslin studio": "indoor", "cream linen textured backdrop studio": "indoor", "dark velvet fabric backdrop studio deep black": "indoor", "raw canvas unpainted backdrop studio neutral": "indoor", "draped silk fabric backdrop studio ivory": "indoor", "mottled hand-painted backdrop studio warm grey": "indoor", "torn edge paper backdrop studio textured white": "indoor", "layered fabric draped backdrop studio improvised dark": "indoor", "painted concrete effect backdrop studio flat grey": "indoor", "bare white plaster studio wall clean": "indoor", "bare off-white plaster studio wall textured": "indoor", "raw concrete studio wall exposed aggregate": "indoor", "whitewashed interior studio wall flat": "indoor", "painted brick interior studio wall white": "indoor", "dark painted studio wall charcoal matte": "indoor", "studio wall with single large window frame practical": "indoor", "studio wall mirror full length floor to ceiling": "indoor", "white painted studio floor with white backdrop seamless": "indoor", "black painted studio floor with black backdrop seamless": "indoor", "polished concrete studio floor with grey backdrop": "indoor", "light wood studio floor with white backdrop": "indoor", "dark wood studio floor with dark backdrop": "indoor", "white studio floor posing platform raised": "indoor", "plain wooden stool studio white backdrop": "indoor", "plain wooden stool studio black backdrop": "indoor", "director's chair canvas studio grey backdrop": "indoor", "mid-century posing chair studio neutral backdrop": "indoor", "chaise longue upholstered studio white backdrop": "indoor", "chaise longue upholstered studio dark backdrop": "indoor", "floor level white studio both seated": "indoor", "floor level black studio both seated": "indoor", "minimal white cube set studio": "indoor", "minimal black plinth set studio": "indoor", "clear perspex block prop studio white backdrop": "indoor", "seamless silver reflective backdrop studio": "indoor", "seamless gold reflective backdrop studio warm": "indoor", "frosted perspex panel backlit studio white glow": "indoor", "coloured gel background studio deep blue": "indoor", "coloured gel background studio deep red": "indoor", "1950s laboratory neon green glow": "indoor", "abandoned space station corridor flickering": "indoor", "drive-in movie screen at night": "outdoor", "alien landscape matte painting sky": "outdoor", "B-movie spaceship control room retro": "both", "fog-covered graveyard at night practical light": "outdoor", "suburban house at night exterior one light on": "outdoor", "1950s American street night creature approaching": "both", "carnival haunted house entrance": "both", "mad scientist laboratory bubbling tubes": "indoor", "motel room at night single lamp": "both", "dark forest practical torch light": "both", "small town main street deserted night": "both", "underground bunker red emergency lighting": "indoor", "retro rocket ship launch pad": "outdoor", "crumbling mansion exterior night": "outdoor", "1960s diner night fluorescent": "indoor", "rural highway night headlights": "outdoor", "swamp at night fog mist": "outdoor", "abandoned factory night emergency exit green": "both", "vintage observatory dome night": "indoor", "crashed UFO crater smoking": "both", "beach at night bonfirelight": "outdoor", "submarine interior cramped red light": "indoor", "nuclear test site restricted zone": "outdoor", "1950s suburban basement den night": "indoor", "carnival ferris wheel night neon": "outdoor", "research station arctic storm outside": "indoor", "hospital corridor night emergency red": "indoor", "church at night single candle interior": "indoor", "drive-in car park night": "both", "trailer park night one porch light": "outdoor", "cave entrance dark night fog": "outdoor", "radio tower blink red night": "both", "old mill exterior night": "both", "school corridor at night lockers": "indoor", "theatre balcony single spotlight": "indoor", "pier at night fog horn": "outdoor", "power plant cooling towers night": "outdoor", "quarry at night floodlit": "outdoor", "warehouse district night one lamp": "indoor", "rooftop at night city glow below": "outdoor", "funfair ghost train entrance night": "both", "clock tower night storm": "both", "basement stairs single overhead bulb": "indoor", "corn field at night path through": "outdoor", "gas station night rural isolated": "outdoor", "lighthouse beam night fog": "outdoor", "bowling alley at night empty": "indoor", "roadside motel neon sign night": "both", "corner booth red vinyl diner night": "indoor", "counter stools chrome diner 2am": "indoor", "window booth rain outside diner": "indoor", "parking lot diner neon sign reflection": "indoor", "diner counter late night single cook": "indoor", "pie case glass diner fluorescent": "indoor", "jukebox corner diner neon glow": "indoor", "diner exterior neon night roadside": "indoor", "booth back of diner near kitchen": "indoor", "diner restroom corridor narrow": "indoor", "diner kitchen pass-through window": "indoor", "truck stop diner highway dawn": "indoor", "small town diner main street morning": "indoor", "diner exterior parking lot night": "indoor", "diner counter end seat alone": "indoor", "diner booth sunday morning sunlight": "indoor", "diner steps outside night rain": "indoor", "diner pay phone corner night": "indoor", "highway diner dawn truckers": "indoor", "diner coat rack entrance winter": "indoor", "diner window seat fog outside": "indoor", "diner counter spin stool chrome": "indoor", "breakfast diner morning light golden": "indoor", "diner table laminate formica": "indoor", "diner exterior dawn empty lot": "indoor", "roadside diner desert highway": "indoor", "diner booth torn vinyl red": "indoor", "diner counter pie slice coffee": "indoor", "diner neon sign night reflections puddle": "indoor", "diner exterior small town snow": "indoor", "diner back booth private corner": "indoor", "diner counter newspaper morning": "indoor", "drive-in diner car hop night": "indoor", "diner exterior holiday lights christmas": "indoor", "diner stool end counter alone night": "indoor", "diner exit door rain outside": "indoor", "diner booth couple window night city": "indoor", "diner interior empty 4am": "indoor", "diner counter dawn regulars": "indoor", "diner parking lot summer night moths": "indoor", "diner jukebox selection 1960s": "indoor", "diner booth anniversary dinner simple": "indoor", "diner exterior morning mist rural": "indoor", "diner counter coffee refill steam": "indoor", "diner table salt pepper ketchup foreground": "indoor", "diner exterior neon red blue night": "indoor", "diner kitchen pass window orders up": "indoor", "diner booth near door cold draft": "indoor", "diner back alley delivery entrance": "indoor", "diner counter late shift end": "indoor", "darkroom red light developing trays": "indoor", "contact sheet light table loupe": "indoor", "archive box acid-free folders": "indoor", "slide projector beam dust particles": "both", "photo album open on table": "indoor", "negative strips held to light": "both", "old newspaper archive reading room": "indoor", "family photograph on mantelpiece": "both", "shoebox of photographs scattered": "indoor", "darkroom hanging prints drying": "indoor", "film canister collection shelf": "both", "glass plate negative collection": "both", "archive reading room table lamp": "indoor", "microfilm reader old library": "indoor", "photographer's studio 1950s backdrop": "indoor", "attic trunk old photographs": "indoor", "war memorial photographs displayed": "both", "school photograph class 1960s": "both", "family cine projector home movie": "both", "passport photograph strip booth": "indoor", "darkroom chemical trays amber light": "indoor", "contact sheet magnified loupe": "indoor", "old photograph album leather bound": "both", "newspaper morgue filing cabinets": "indoor", "photographic studio Victorian backdrop": "indoor", "archive vault temperature controlled": "indoor", "family home wall of photographs": "both", "wedding album open flowers pressed": "both", "photo lab counter 1970s": "indoor", "developing tank agitation process": "both", "enlarger darkroom printing paper": "indoor", "archive table white gloves documents": "indoor", "old camera collection shelf display": "both", "newspaper clippings pinboard investigation": "both", "family portrait formal 1940s studio": "indoor", "press photo archive filing 1960s": "indoor", "slide carousel projector 1970s": "indoor", "darkroom timer development process": "indoor", "photograph restoration desk magnifying": "both", "archive digitisation scanning desk": "indoor", "press photographer press pool 1950s": "both", "memorial wall photographs flowers": "both", "family reunion photograph lawn 1970s": "both", "old photo booth strip taken together": "indoor", "archive room floor-to-ceiling shelves": "indoor", "darkroom safelight printing session": "indoor", "contact print album 1960s studio": "indoor", "negative filing system archive light": "indoor", "photo kiosk print collection 1980s": "both", "archive conservation bench tools": "indoor", "ferris wheel top night city glow": "outdoor", "waltzers spinning neon blur night": "outdoor", "candyfloss stall dusk light pink": "outdoor", "hook-a-duck stall fairground lights": "outdoor", "ghost train entrance carnival night": "outdoor", "hall of mirrors funfair interior": "both", "carnival midway night both sides lit": "outdoor", "big wheel base looking up night": "both", "coconut shy stall string lights": "outdoor", "dodgems arena carnival neon": "both", "carnival food van candleapple dusk": "both", "helter skelter base night": "both", "fortune teller caravan carnival exterior": "outdoor", "carnival entrance arch neon night": "both", "toffee apple stall amber light": "outdoor", "test your strength tower carnival": "both", "carousel horses night lights spinning": "outdoor", "carnival back lot behind rides": "both", "shooting gallery neon prizes": "both", "carnival crowd midway night": "both", "ferris wheel reflection puddle rain": "outdoor", "funfair at closing time lights going out": "both", "carnival field dawn before opening": "outdoor", "waltzer operator platform night": "both", "carnival generator truck back area": "both", "candy stripe tent interior carnival": "indoor", "prize soft toy stall overloaded": "both", "carnival fireworks above ferris wheel": "outdoor", "trailer park carnival workers housing": "outdoor", "carousel empty morning after": "outdoor", "carnival ticket booth night queue": "both", "funfair field afternoon setup": "both", "cotton candy machine spinning pink": "both", "carnival stage performance area": "both", "hook-a-duck water reflection lights": "both", "big wheel gondola night suspended": "both", "carnival back lot empty evening": "both", "fairground organ carousel music": "outdoor", "carnival field last night season": "outdoor", "ghost train car interior dark": "indoor", "dodgem car stationary waiting": "both", "carnival arc lights full night": "both", "funfair entrance gates daytime": "both", "carnival midway dawn packing up": "outdoor", "waltzer stationary between rides": "both", "hall of mirrors reflection infinite": "both", "carnival fire eater performance area": "both", "prize wheel spin carnival neon": "both", "bumper cars overhead sparks night": "both", "carnival field first light morning": "outdoor", "christmas tree lights interior night warm": "indoor", "halloween porch carved pumpkins night": "outdoor", "day of the dead altar marigolds candles": "outdoor", "easter garden flowers morning light": "outdoor", "thanksgiving table full harvest decorations": "both", "new year eve fireworks rooftop": "outdoor", "valentine's day restaurant candles red roses": "both", "mothers day garden flowers morning": "outdoor", "diwali lights rangoli doorstep night": "outdoor", "hanukkah menorah window evening light": "indoor", "mardi gras street parade night beads": "outdoor", "halloween haunted house decorated exterior": "both", "christmas market stall lights winter": "both", "bonfire night sparklers field dark": "outdoor", "easter egg hunt garden morning": "outdoor", "st patrick's day street celebration green": "outdoor", "eid celebration table food family": "both", "chinese new year lanterns night red": "outdoor", "halloween cemetery decorated night": "outdoor", "christmas stockings fireplace interior": "indoor", "new year countdown party interior": "indoor", "birthday garden party summer flowers": "outdoor", "halloween costume party interior": "indoor", "christmas exterior lights house night": "indoor", "day of the dead parade street costume": "both", "valentine's day park afternoon flowers": "both", "christmas carol singing exterior night": "outdoor", "thanksgiving front porch autumn leaves": "outdoor", "halloween trick or treat suburban night": "outdoor", "christmas morning unwrapping interior light": "indoor", "bonfire night fire glow dark field": "both", "easter church flowers morning light": "both", "midsummer solstice flowers sunset": "outdoor", "carnival rio costume feathers night": "outdoor", "halloween corn maze night torches": "outdoor", "christmas eve anticipation interior": "indoor", "new year morning quiet aftermath": "both", "mothers day breakfast tray bedroom morning": "both", "fathers day garden barbecue afternoon": "outdoor", "halloween school parade daytime": "both", "christmas nativity scene church interior": "indoor", "diwali fireworks rooftop night": "indoor", "hanukkah family game night interior": "indoor", "thanksgiving door wreath autumn exterior": "outdoor", "birthday balloon arch interior party": "indoor", "anniversary celebration restaurant evening": "both", "new year fireworks river bridge night": "outdoor", "christmas eve candle service exterior": "outdoor", "daguerreotype studio 1850s painted backdrop column": "indoor", "Victorian parlour formal sitting 1860s": "both", "early photography studio plate camera 1850s": "indoor", "Victorian conservatory glass light 1860s": "both", "Victorian photographer studio painted garden backdrop": "indoor", "Edwardian seaside portrait studio pier": "indoor", "Victorian cabinet card studio velvet chair": "indoor", "Edwardian country house drawing room formal": "indoor", "Victorian studio painted landscape backdrop": "indoor", "Edwardian portrait studio electric light early": "indoor", "1920s glamour portrait studio dramatic light": "indoor", "1930s Hollywood studio portrait backdrop": "indoor", "1920s art deco portrait studio": "indoor", "1930s press photograph studio flash": "indoor", "1940s studio portrait wartime formal": "indoor", "1940s press photo studio flash powder": "indoor", "1940s wartime goodbye platform station": "both", "1940s family portrait studio Sunday best": "indoor", "1950s colour portrait studio Kodachrome": "indoor", "1950s suburban garden snapshot summer": "outdoor", "1950s school portrait individual backdrop": "indoor", "1950s department store portrait studio": "indoor", "1960s portrait studio soft focus colour": "indoor", "1960s snapshot garden party Kodak": "outdoor", "1960s photobooth strip four frames": "both", "1960s news photograph street candid": "outdoor", "1970s Polaroid instant kitchen casual": "indoor", "1970s family portrait velvet studio backdrop": "indoor", "1970s snapshot holiday beach Kodak": "outdoor", "1970s school photograph class outdoor": "indoor", "1980s portrait studio laser background": "indoor", "1980s snapshot disposable camera party": "both", "1980s passport photograph strip booth": "both", "1980s wedding portrait formal studio": "indoor", "1990s disposable camera snapshot casual": "both", "1990s portrait studio soft focus": "indoor", "1990s photobooth mall strip": "both", "1990s school portrait blue gradient backdrop": "indoor", "early 2000s digital camera party low resolution": "both", "2000s photo print kiosk portrait": "both", "2000s candid phone photograph first generation": "both", "2010s instagram square portrait early": "outdoor", "1930s documentary press photograph street": "outdoor", "1950s news agency portrait flash": "both", "1960s photojournalism candid street": "outdoor", "1970s documentary portrait natural light": "both", "black and white film portrait studio grain": "indoor", "sepia toned portrait formal studio": "indoor", "colour slide transparency 1960s portrait": "both", "instant Polaroid border white portrait": "both", "35mm film grain portrait casual snapshot": "both", "medium format portrait studio sharp": "indoor", "large format studio portrait 1940s sharp": "indoor", "cyanotype portrait early experimental": "both", "candlelit restaurant table for two red roses": "indoor", "paris bridge padlock city view evening": "outdoor", "red roses delivered doorstep evening": "outdoor", "valentine card envelope table morning": "both", "hotel room rose petals champagne evening": "indoor", "restaurant window table rain outside candlelight": "indoor", "home dining table candles simple intimate": "indoor", "florist shop red roses morning selection": "both", "park bench winter afternoon couples": "outdoor", "cinema queue cold evening together": "both", "kitchen table breakfast heart pancakes morning": "indoor", "wine bar intimate corner evening": "both", "bridge city lights reflection evening": "outdoor", "café window seat rainy afternoon": "indoor", "restaurant bar waiting evening dressed up": "indoor", "home sofa evening candles wine": "indoor", "valentine card writing desk lamp evening": "both", "apartment balcony city evening lights": "both", "rooftop restaurant city view evening": "indoor", "harbour evening lights reflection": "outdoor", "small restaurant neighbourhood intimate evening": "indoor", "kitchen cooking together evening home": "indoor", "doorstep moment evening arrival flowers": "outdoor", "park winter afternoon hand in hand": "outdoor", "bedroom morning light flowers on bedside": "indoor", "dining room home candles occasion": "indoor", "flower market morning red roses selection": "outdoor", "letter box valentine card morning discovered": "both", "table for two empty setting waiting": "both", "restaurant exterior evening arriving dressed": "indoor", "spring garden flowers morning sunlight": "outdoor", "breakfast tray bedroom morning flowers": "indoor", "kitchen table Sunday morning flowers bouquet": "indoor", "garden table lunch spring afternoon": "outdoor", "florist shop spring flowers selection morning": "both", "front door flowers delivered morning": "outdoor", "living room spring afternoon light flowers": "indoor", "dining table sunday lunch spring": "both", "garden path spring flowers either side": "outdoor", "restaurant sunday lunch spring afternoon": "indoor", "conservatory morning light spring flowers": "both", "garden bench spring afternoon flowers": "outdoor", "kitchen flowers vase morning light": "indoor", "bedroom morning light flowers bedside": "indoor", "garden gate spring morning arrival": "outdoor", "porch steps spring morning flowers": "outdoor", "park spring afternoon flowers blooming": "outdoor", "café sunday morning flowers on table": "indoor", "home garden spring evening golden hour": "indoor", "sunday morning light through window flowers": "both", "fireworks over city harbour night": "outdoor", "small town parade main street day": "outdoor", "backyard barbecue american flag bunting afternoon": "both", "beach bonfire fourth of july night": "outdoor", "rooftop fireworks city view night": "outdoor", "small town main street flags bunting day": "outdoor", "public park fireworks crowd night": "indoor", "suburban front porch american flag evening": "outdoor", "lake fireworks reflection night": "outdoor", "fairground fourth of july afternoon": "both", "baseball field small town afternoon": "outdoor", "dock lake fireworks night": "outdoor", "small town bandstand afternoon": "both", "suburban backyard pool afternoon": "both", "memorial park flags afternoon": "outdoor", "bridge fireworks city view night": "outdoor", "small town church steps afternoon": "indoor", "carnival midway fourth afternoon": "outdoor", "pier end fireworks over water night": "outdoor", "sunset beach american flags evening": "outdoor", "zocalo mexico city grito de independencia night": "both", "plaza principal pueblo night fireworks grito": "outdoor", "charro escaramuza horse arena afternoon": "both", "traditional market dia de independencia stalls": "both", "cathedral facade green white red lights night": "both", "town square mariachi performance evening": "outdoor", "hacienda colonial courtyard evening": "both", "mexican flag green white red waving plaza": "outdoor", "traditional feast table day of independence": "both", "folk dance performance plaza evening": "outdoor", "colonial town square fireworks night": "outdoor", "traditional dress parade main street day": "outdoor", "charreada arena afternoon traditional": "both", "small pueblo plaza morning independence": "outdoor", "cathedral bells ringing independence night": "both", "market stalls mexican crafts independence": "outdoor", "colonial archway green white red bunting": "both", "traditional kitchen independence feast morning": "indoor", "plaza de armas provincial town evening": "outdoor", "mountain village independence celebration afternoon": "both", "thanksgiving table full harvest decorations afternoon": "both", "front porch autumn leaves afternoon golden": "outdoor", "kitchen cooking thanksgiving morning steam": "indoor", "dining room set table thanksgiving anticipation": "indoor", "living room after dinner thanksgiving evening": "indoor", "backyard afternoon thanksgiving football": "both", "parade crowd thanksgiving morning city": "outdoor", "supermarket thanksgiving eve last minute": "both", "front door wreath autumn thanksgiving": "outdoor", "kitchen table morning coffee thanksgiving preparation": "indoor", "dining table empty setting thanksgiving anticipation": "both", "autumn farm stand harvest thanksgiving morning": "outdoor", "family living room thanksgiving afternoon football": "indoor", "airport arrival thanksgiving reunion": "both", "kitchen sink washing up thanksgiving evening": "indoor", "dining room candles thanksgiving evening": "indoor", "backyard bonfire after thanksgiving evening": "both", "autumn park walk thanksgiving afternoon": "outdoor", "small town parade thanksgiving morning": "outdoor", "neighbourhood thanksgiving morning quiet": "both", "halloween porch carved pumpkins orange night": "outdoor", "suburban trick or treat street night": "outdoor", "halloween costume party interior crowded": "indoor", "haunted house decorated exterior night": "outdoor", "cemetery halloween decorated night moon": "outdoor", "corn maze halloween night torches": "outdoor", "halloween parade street costumes night": "outdoor", "carved pumpkin line porch steps evening": "outdoor", "halloween bonfire field night dark": "outdoor", "school halloween parade daytime": "indoor", "halloween carnival funfair night orange": "outdoor", "graveyard fog machine night halloween": "both", "halloween market stalls night orange": "outdoor", "front door decorated cobwebs night": "outdoor", "haunted hayride field night dark": "outdoor", "halloween street blocked cars candy night": "outdoor", "apple bobbing tub indoor halloween party": "indoor", "halloween disco venue costumes night": "both", "jack o lantern lit porch dark night": "outdoor", "halloween fog street night orange glow": "outdoor", "day of the dead altar ofrenda marigolds candles photographs": "both", "cemetery marigold path candles night procession": "outdoor", "parade dia de los muertos street costume night": "outdoor", "ofrenda home altar photographs candles marigolds": "indoor", "marigold market stalls cempasuchil october": "outdoor", "cemetery grave decorated marigolds candles night": "outdoor", "traditional dia de los muertos performance plaza": "outdoor", "calavera parade float street night elaborate": "indoor", "cemetery night candles thousands marigolds": "outdoor", "altar community display photographs flowers": "both", "traditional market dia de los muertos crafts": "both", "sugar skull making workshop table": "indoor", "paper marigold decorating workshop": "indoor", "home ofrenda setting photographs loved ones": "indoor", "traditional dance dia de los muertos plaza": "outdoor", "cemetery family gathering candles night": "outdoor", "marigold petal path cemetery candles": "outdoor", "procession street candles elaborate costumes night": "indoor", "town plaza altar community display": "outdoor", "colonial church decorated marigolds night": "indoor", "snow exterior house christmas lights evening": "outdoor", "christmas market stall mulled wine lights winter": "outdoor", "fireplace stockings interior christmas eve night": "indoor", "christmas morning unwrapping living room": "indoor", "church midnight mass candles christmas eve": "indoor", "snow street christmas lights evening town": "outdoor", "kitchen christmas cooking morning steam": "indoor", "christmas table set dinner candles formal": "both", "carol singing exterior night lanterns": "outdoor", "christmas window shop lights snow exterior": "outdoor", "train station christmas arrival reunion": "outdoor", "airport arrivals christmas reunion": "outdoor", "bedroom christmas morning first light": "indoor", "snowy landscape christmas day quiet": "outdoor", "christmas fair outdoor stalls lights winter": "outdoor", "pub christmas eve fire interior warm": "indoor", "christmas tree farm choosing morning snow": "outdoor", "chapel candles christmas eve service": "indoor", "christmas dinner table full family afternoon": "both", "rooftop fireworks city view midnight countdown": "outdoor", "bridge city fireworks river reflection midnight": "outdoor", "ballroom countdown midnight champagne": "indoor", "times square style crowd countdown night": "outdoor", "harbour fireworks water reflection midnight": "outdoor", "restaurant midnight countdown champagne toast": "indoor", "house party countdown midnight interior": "indoor", "city street midnight fireworks crowd": "outdoor", "pub midnight new year crowd interior": "indoor", "beach bonfire new year midnight": "outdoor", "rooftop small group midnight city glow": "outdoor", "penthouse view fireworks midnight toast": "outdoor", "countdown clock public square midnight": "indoor", "hotel bar new year midnight formal": "indoor", "quiet home midnight just two champagne": "indoor", "riverside fireworks midnight cold": "outdoor", "theatre new year midnight performance": "indoor", "casino countdown midnight glamour": "indoor", "city park fireworks crowd midnight": "outdoor", "dawn new year morning aftermath quiet": "both", "diwali diyas lit doorstep rangoli night": "outdoor", "rooftop fireworks diwali night city": "outdoor", "home diwali lights decorations lanterns evening": "indoor", "market diwali sweets and lights shopping": "both", "temple diwali celebration lights evening": "both", "street diwali lights procession night": "outdoor", "home puja room diwali candles evening": "indoor", "rangoli design doorstep diwali morning": "outdoor", "diwali mela fairground lights evening": "both", "community diwali celebration hall lights": "both", "balcony diyas lit city lights below diwali": "both", "sweet shop diwali selection morning": "both", "diwali fireworks park night crowd": "outdoor", "home drawing room diwali decorations evening": "indoor", "traditional diwali puja table offerings": "both", "street rangoli competition diwali morning": "outdoor", "diwali lights market shopping evening": "both", "family home diwali gathering evening warm": "indoor", "rooftop diyas city spread below diwali": "outdoor", "diwali lantern release night sky": "both", "chinese new year lanterns street night red gold": "outdoor", "lion dance street performance chinese new year morning": "outdoor", "family reunion dinner table chinese new year eve": "both", "temple prayers new year morning incense": "both", "fireworks chinatown street midnight new year": "outdoor", "lantern festival street night chinese new year": "outdoor", "market new year goods red decorations morning": "both", "chinatown parade dragon lion dance day": "outdoor", "red envelope giving family chinese new year": "both", "family home decorations red gold new year": "indoor", "night market chinese new year lanterns evening": "outdoor", "temple fair new year blessing morning": "outdoor", "dumpling making family table new year eve": "both", "chinese new year fair stalls lights evening": "both", "harbour fireworks chinese new year midnight": "outdoor", "restaurant family new year dinner formal": "indoor", "flower market new year morning purchases": "outdoor", "chinatown exterior red lanterns night": "outdoor", "community hall chinese new year celebration": "indoor", "family home new year eve countdown midnight": "indoor", "1980s Texas oil money ranch interior excess gilt": "indoor", "Dubai penthouse glass tower night city spread": "both", "1920s Wall Street private club oak panelling whiskey": "indoor", "Las Vegas high roller suite gold fixtures midnight": "indoor", "Monaco grand prix paddock exclusive 1970s": "outdoor", "Mayfair private members club 1990s dark wood": "indoor", "Beverly Hills mansion pool twilight excess": "both", "1970s Studio 54 excess night velvet gold": "indoor", "Saudi royal palace reception hall formal": "indoor", "Aspen ski lodge excess fireplace wealthy": "both", "Cannes film festival yacht harbour evening": "outdoor", "Swiss bank vault interior cold formal": "indoor", "Monte Carlo casino floor evening gowns": "indoor", "Hamptons waterfront estate summer": "both", "1980s Wall Street trading floor chaos excess": "outdoor", "Venetian palazzo canal view evening candlelight": "both", "Hong Kong Peninsula hotel lobby formal": "indoor", "New York Plaza Hotel suite excess gold": "indoor", "Marbella villa pool afternoon Spain excess": "both", "Russian oligarch yacht Mediterranean afternoon": "both", "Pittsburgh steel mill 1950s furnace molten pour": "indoor", "Sheffield cutlery works grinding wheel 1960s": "indoor", "Soviet Magnitogorsk steel propaganda aesthetic 1930s": "both", "Victorian foundry iron casting crucible": "indoor", "Welsh coal mining valley pithead 1950s": "outdoor", "Ruhr industrial complex Germany 1930s": "both", "Detroit auto plant assembly line 1960s": "indoor", "Glasgow shipyard Clyde 1960s hull": "outdoor", "Birmingham metal works Victorian forge": "indoor", "Manchester cotton mill interior 1900s": "indoor", "Newcastle tyne bridge construction workers": "outdoor", "Soviet Donbass industrial night furnace": "both", "Sheffield steel works 1970s night shift": "indoor", "Glasgow Beardmore works 1916 wartime": "indoor", "Pittsburgh blast furnace exterior vast night": "outdoor", "Middlesbrough steel transporter bridge fog": "outdoor", "Sunderland shipyard launch ceremony 1950s": "outdoor", "Bethlehem steel night shift Pennsylvania 1940s": "both", "Krupp works Essen industrial Germany 1920s": "indoor", "abandoned Detroit auto plant now ruins": "indoor", "greenhouse Victorian glass structure mist morning plants": "indoor", "glass house mid-century forest transparent trees outside": "outdoor", "aquarium large tank deep blue fish passing": "indoor", "phone box red rain night reflection outside": "outdoor", "conservatory Victorian glass plants afternoon light": "indoor", "glass lift hotel atrium rising view": "indoor", "greenhouse commercial flowers for cutting winter": "indoor", "glass bridge walkway transparent beneath": "outdoor", "Crystal Palace style glass exhibition hall Victorian": "indoor", "glass pyramid Louvre evening Paris": "both", "glazed Victorian arcade shopping covered": "both", "greenhouse botanical garden tropical plants mist": "indoor", "glass floored walkway cliff edge transparent": "outdoor", "Mies van der Rohe glass house interior forest": "indoor", "greenhouse winter forcing house tomatoes": "indoor", "bus shelter glass rain night neon reflection": "both", "glass pavilion modern art park transparent": "outdoor", "ice hotel interior ice walls translucent": "indoor", "glass observatory dome night stars above": "both", "glass floored pool underwater below": "both", "1970s Roland Garros clay court red dust late afternoon": "outdoor", "Harlem street basketball court chain-link night 1990s": "outdoor", "Wimbledon grass court morning dew empty pre-match": "outdoor", "1980s boxing gym ring ropes overhead single light": "indoor", "1960s Flushing Meadows hard court crowd behind": "outdoor", "Soviet sports hall gymnasium late 1970s fluorescent": "indoor", "1990s school gymnasium basketball finals night": "indoor", "Brooklyn boxing gym 1950s leather bag dust": "indoor", "indoor tennis court 1980s green carpet empty": "indoor", "street football pitch Brazil favela evening": "outdoor", "outdoor basketball court Los Angeles sunset 1990s": "outdoor", "fencing hall épée 1970s European championship": "indoor", "Rolland Garros press box 1980s clay below": "both", "squash court white walls echo 1970s": "outdoor", "Olympic velodrome track banking 1980s": "outdoor", "snooker hall green baize single overhead lamp": "indoor", "ice hockey rink empty practice dawn": "both", "horse racing paddock morning dew 1960s": "outdoor", "wrestling mat gymnasium 1970s fluorescent": "indoor", "stadium corridor tunnel pre-match concrete": "indoor", "rain-soaked street night neon reflections": "outdoor", "rooftop city edge midnight confession": "outdoor", "hotel corridor single light night": "indoor", "fire escape night city below": "both", "abandoned ballroom chandelier still lit": "indoor", "lighthouse edge storm approaching": "both", "midnight garden statuary shadow": "outdoor", "train departing platform one left behind": "both", "cinema empty last showing": "both", "rooftop pool city lights reflection midnight": "outdoor", "alleyway rain single lamp": "both", "long corridor hotel night both ends dark": "indoor", "bridge night fog below": "outdoor", "theatre wings backstage curtain": "indoor", "Paris street rain autumn night": "outdoor", "empty restaurant after closing one candle": "indoor", "car park top level night city view": "outdoor", "summer thunderstorm porch lit": "both", "abandoned church single candle": "indoor", "cliff edge storm sea below": "outdoor", "night train compartment moving": "both", "library closed after hours one lamp": "both", "phone box rain night neon": "both", "hotel room morning light complicated": "indoor", "museum closed after hours one guard lamp": "indoor", "empty swimming pool night": "both", "rooftop water tower night city": "outdoor", "jazz club late night last song": "indoor", "night market closing stalls": "outdoor", "boardwalk end of season night": "outdoor", "Sergio Leone spaghetti western dust main street high noon": "outdoor", "film noir Los Angeles rain 1940s street lamp": "outdoor", "Kurosawa samurai village mist dawn feudal Japan": "both", "1970s Hong Kong kung fu rooftop fight choreography": "outdoor", "Sam Peckinpah slow motion western dust blood": "both", "French New Wave Paris existential street 1960s": "outdoor", "John Woo Hong Kong action slow motion 1980s": "both", "Chandler Los Angeles detective office venetian blinds": "indoor", "Dashiell Hammett San Francisco noir fog rain": "both", "Leone close up extreme dust eyes standoff": "both", "1950s western saloon interior practical light": "indoor", "samurai dojo interior dawn training": "indoor", "noir hotel room venetian blinds shadow": "indoor", "1970s cop car American interior night": "indoor", "western desert landscape vast Leone": "outdoor", "Japanese chambara sword fight cherry blossom": "both", "Blaxploitation 1970s urban exterior night": "outdoor", "Shaw Brothers 1970s set fight choreography": "both", "hardboiled detective office rain window": "indoor", "western station platform dust one train leaving": "both", "Rembrandt Dutch Golden Age chiaroscuro amber interior warm shadow": "indoor", "Rembrandt Self-portrait study rich dark background amber glow": "outdoor", "Rembrandt Night Watch composition dramatic group amber light": "both", "Caravaggio tenebrism absolute darkness single candle source dramatic": "both", "Caravaggio biblical scene stone floor darkness single light beam": "both", "Caravaggio dramatic chiaroscuro deep shadow sharp light shaft": "both", "Velázquez Spanish royal court deep atmospheric shadow warm": "outdoor", "Velázquez Las Meninas studio composition interior atmospheric": "indoor", "Velázquez portrait deep background receding space warm shadow": "outdoor", "Goya dark period black paint expressive raw ground visceral": "both", "Goya Saturn devouring dark expressive atmospheric horror": "indoor", "Goya court portrait formal yet psychologically raw": "outdoor", "Vermeer domestic interior window light soft pearl left side": "indoor", "Vermeer Dutch interior tile floor map on wall window light": "indoor", "Vermeer intimate domestic scene soft window light pearl glow": "both", "Rubens Flemish baroque rich colour monumental composition dynamic": "both", "Rubens mythological landscape dramatic sky rich warm": "both", "Rubens allegorical composition rich drapery baroque dynamic": "both", "Van Gogh swirling impasto background emotional thick paint yellow": "both", "Van Gogh Arles bedroom flat saturated colour swirling": "both", "Van Gogh Starry Night swirling sky impasto emotional charged": "both", "Klimt gold leaf decorative ornamental surface Art Nouveau Vienna": "both", "Klimt The Kiss gold embrace ornamental decorative flat": "both", "Klimt portrait gold background decorative pattern Vienna": "outdoor", "Picasso Cubist fractured planes multiple viewpoints bold colour": "both", "Picasso Blue Period melancholy blue monochrome flat": "both", "Picasso Rose Period warm terracotta acrobats soft": "both", "Matisse Fauve flat bold colour joyful interior pattern": "indoor", "Matisse cut-outs flat colour shape bold simple": "both", "Matisse decorative interior bold pattern colour flat": "indoor", "Modigliani elongated oval face simplified warm ground Montparnasse": "both", "Modigliani portrait neutral warm ground elongated simplified": "outdoor", "Modigliani Parisian studio warm ochre ground simplified": "indoor", "Gauguin Tahiti flat saturated colour bold outline tropical": "both", "Gauguin Polynesian landscape flat colour simplified tropical": "both", "Gauguin Where Do We Come From flat mural colour tropical": "both", "Toulouse-Lautrec Moulin Rouge poster flat graphic line colour": "both", "Toulouse-Lautrec Montmartre cabaret flat graphic silhouette": "both", "Toulouse-Lautrec poster art flat bold line shadow": "both", "Hopper American Realist lonely interior light melancholy window": "indoor", "Hopper Nighthawks diner interior light isolation": "indoor", "Hopper New England exterior hard light loneliness American": "outdoor", "Bacon distorted flesh psychological raw dark ground triptych": "both", "Bacon isolated figure on armature dark ground raw": "both", "Bacon studio dark ground raw paint distorted psychological": "indoor", "Warhol Pop Art screen print flat repeated colour silk": "both", "Warhol Factory silver mylar balloons flat colour": "indoor", "Warhol repeated portrait grid flat colour screen print": "outdoor", "Lichtenstein Ben-Day dots bold black outline comic book panel": "both", "Lichtenstein comic panel bold outline dots primary colour": "both", "Lichtenstein Pop Art comic strip bold dots black outline": "both", "Banksy stencil street wall stark graphic urban black white": "outdoor", "Banksy urban wall stencil rat graphic stark": "both", "Banksy stencil graphic protest stark wall urban": "both", "Mucha Art Nouveau poster flowing line floral ornament gold": "both", "Mucha decorative panel flowing hair ornamental border botanical": "both", "Mucha poster art flowing line botanical ornament soft colour": "both", "political caricature ink line exaggerated satirical bold": "both", "Daumier 19th century lithograph satirical caricature stark": "both", "classical caricature Carracci exaggerated features pen ink": "both", "northern lights aurora borealis vast dark sky lake": "outdoor", "ice road frozen lake truck headlights vast night": "outdoor", "Quebec City Old Town winter snow lanterns cobblestone": "both", "Niagara Falls frozen winter mist": "both", "Pacific coast British Columbia old growth forest fog": "outdoor", "Prairie flat horizon grain elevator sky vast": "outdoor", "Cape Breton coastal cliff Atlantic fog": "outdoor", "Banff frozen lake mountain reflection winter": "outdoor", "Toronto winter street snow CN Tower behind": "outdoor", "Churchill Manitoba polar bear tundra twilight": "indoor", "Yukon wilderness log cabin smoke rising winter": "both", "Montreal alley winter snow graffiti": "both", "Vancouver harbour night mountains snow behind": "outdoor", "Newfoundland outport fishing village fog": "outdoor", "Arctic tundra vast flat horizon midnight sun": "outdoor", "Whistler ski run empty dawn fresh snow": "both", "Lake Louise turquoise impossible colour summer": "outdoor", "Canadian Rockies glacier valley vast": "outdoor", "Algonquin Park autumn reflection lake": "outdoor", "Iqaluit Arctic settlement winter dark noon": "both", "Havana crumbling colonial street 1950s Chevrolet midday": "outdoor", "Kingston dancehall night neon Jamaica": "indoor", "Trinidad carnival mas costume street night": "outdoor", "Barbados chattel house painted bright afternoon": "both", "San Juan Old City colonial walls sunset Puerto Rico": "both", "Martinique rum distillery afternoon French colonial": "both", "Cuba tobacco farm interior morning light": "indoor", "Havana rooftop sunset Malecón below": "outdoor", "Jamaica Blue Mountains coffee farm morning mist": "outdoor", "Trinidad Savannah carnival stage night": "both", "Dominican Republic baseball field afternoon dust": "indoor", "Haiti Port-au-Prince street market colour": "outdoor", "Grenada nutmeg plantation afternoon": "indoor", "Antigua English Harbour colonial dockyard": "outdoor", "St Lucia Piton volcanic peak mist morning": "both", "Curaçao Willemstad colonial coloured buildings": "both", "Tobago rainforest waterfall morning": "outdoor", "Barbados rum shop interior afternoon": "indoor", "Cayman Islands turtle farm": "both", "Jamaica country road sugarcane afternoon": "outdoor", "city hall steps elopement simple morning": "indoor", "Las Vegas wedding chapel neon night kitsch": "indoor", "cliffside elopement two and officiant sunset": "outdoor", "church aisle traditional formal procession": "indoor", "marquee reception evening dancing": "both", "courthouse simple just the two civil": "indoor", "beach barefoot ceremony sunset": "outdoor", "greenhouse botanical wedding ceremony": "indoor", "destination wedding Italy villa afternoon": "both", "reception empty after guests gone one couple": "both", "Jewish wedding chuppah traditional formal": "both", "Indian wedding mandap ceremony elaborate": "both", "Mexican civil wedding vibrant tradition": "both", "Scottish highland estate ceremony dramatic": "both", "Paris bridge elopement spontaneous rain": "outdoor", "registry office morning queue practical": "indoor", "chapel of ease rural small ceremony": "indoor", "stately home grand formal traditional": "both", "outdoor festival wedding summer": "outdoor", "hotel suite morning after complicated light": "indoor", "1970s New York subway graffiti covered car moving": "both", "Paris Métro Art Nouveau iron station Abbesses": "both", "London Tube platform 1940s Blitz shelter night": "both", "Tokyo rush hour platform press of people": "both", "Moscow Metro marble hall chandelier Stalin": "indoor", "Berlin U-Bahn East West meeting point": "both", "Chicago elevated train curve city above": "both", "Hong Kong MTR night crowd neon": "both", "São Paulo Metro rush hour colour": "indoor", "New York City Hall station abandoned ghost": "indoor", "Berlin bunker tunnel 1945 historic": "indoor", "Paris catacombs skull lined tunnel": "indoor", "London Tube 1940s carriage wartime": "indoor", "Moscow Metro escalator long marble": "indoor", "New York subway platform late night empty": "both", "Tokyo station corridor endless wayfinding": "indoor", "Chicago riveted steel elevated track exterior": "outdoor", "Berlin U5 DDR era station concrete": "both", "Paris Métro rubber tyres 1960s modern": "both", "San Francisco BART tube underwater bay": "both", "Soviet state circus ring red spotlight 1960s": "indoor", "Depression-era big top sawdust 1930s": "both", "Cirque du Soleil contemporary rig dramatic": "both", "Moscow State Circus dressing room backstage 1970s": "indoor", "Barnum Bailey travelling circus poster backdrop 1920s": "both", "circus ring empty between shows sawdust": "indoor", "wire act high above no net ring below": "indoor", "flying trapeze platform height big top": "both", "Soviet circus animal trainer ring 1960s": "indoor", "1950s Italian circus Fellini register outdoor": "outdoor", "circus train car siding dawn performers": "both", "big top exterior night lights": "outdoor", "clown alley backstage dressing tables": "both", "circus parade street 1920s elephants": "outdoor", "Depression water for elephants register 1930s": "both", "circus ring single spotlight performer dust": "indoor", "big top collapsed in wind aftermath": "both", "Moscow circus school practice hall": "indoor", "circus wagon painted carved travelling": "both", "aerial silks rig warehouse rehearsal contemporary": "indoor", "alien mothership interior command deck retro blinking": "indoor", "bowling alley night creature in shadows 1950s": "both", "high school gymnasium prom night monster gate-crashes": "indoor", "giant spider web forest clearing victims wrapped": "indoor", "Tokyo Shibuya crossing rush hour crowd blur long exposure night": "outdoor", "New York Times Square neon night crowd ghost streaks long exposure": "both", "London Oxford Street Christmas crowd blur long exposure day": "outdoor", "Hong Kong central crossing crowd blur night neon streaks": "outdoor", "Grand Central Station commuter rush hour blur shafts light": "indoor", "Paris Gare du Nord rush hour crowd blur platform long exposure": "indoor", "Shanghai Nanjing Road night crowd blur neon long exposure": "both", "Naples street market crowd blur afternoon long exposure": "outdoor", "Istanbul Grand Bazaar crowd blur interior long exposure": "indoor", "Mumbai train station rush hour blur crowd platform": "outdoor", "city intersection traffic light trails night long exposure": "outdoor", "motorway overpass light trails night long exposure city beyond": "outdoor", "San Francisco cable car blur street long exposure night": "outdoor", "Times Square taxi yellow streak night long exposure": "both", "Tokyo expressway flyover light trails night long exposure": "both", "New York bridge traffic blur night long exposure": "outdoor", "Las Vegas Strip light trails night long exposure crowd blur": "both", "Chicago Lake Shore Drive light trails night long exposure": "both", "Seoul Gangnam crossing light trails night crowd blur": "outdoor", "Bangkok traffic night light trails chaos long exposure": "both", "waterfall silk water long exposure forest sharp rocks": "outdoor", "mountain stream silk water long exposure boulders sharp": "outdoor", "ocean wave silk blur long exposure rock foreground sharp": "outdoor", "fountain city square silk water long exposure crowd blur": "outdoor", "Niagara Falls silk mist long exposure edge sharp": "both", "Norwegian fjord waterfall silk long exposure": "outdoor", "Icelandic river silk water long exposure lava rock sharp": "outdoor", "Scottish highland waterfall silk long exposure heather sharp": "outdoor", "Japanese onsen steam and silk water long exposure": "both", "Venice canal water silk blur gondola long exposure night": "both", "train platform train blur streak past both still": "outdoor", "Tokyo Metro platform train blur long exposure": "indoor", "London Tube platform train streak blur long exposure": "indoor", "Paris Métro blur streak train platform long exposure": "outdoor", "Berlin U-Bahn platform train blur long exposure": "indoor", "airport concourse crowd blur long exposure both still": "indoor", "train station clock crowd blur below long exposure": "indoor", "subway escalator blur crowd long exposure sharp": "indoor", "railway station concourse pigeons blur long exposure": "both", "ferry terminal crowd boarding blur long exposure": "outdoor", "carnival parade crowd blur float passing both still": "outdoor", "street protest march blur crowd both still long exposure": "outdoor", "concert crowd blur movement both still foreground": "indoor", "marathon runners blur both still pavement long exposure": "outdoor", "carnival dancers blur both still watching long exposure": "both", "fireworks streak blur both still looking up long exposure": "both", "stock exchange trading floor blur crowd both still": "indoor", "airport departure board flicker blur long exposure": "outdoor", "sports stadium crowd blur wave both still pitch long exposure": "outdoor", "night market crowd blur both still stall long exposure": "outdoor", "Los Angeles rain 1940s noir street lamp wet reflection": "outdoor", "Chicago noir El train overhead rain night shadow": "both", "San Francisco Chandler fog hill cable car night": "both", "New York fire escape rain night noir": "both", "Tokyo Shinjuku neon night alley narrow dense kanji": "both", "Hong Kong Mong Kok neon night dense vertical signs": "outdoor", "Seoul Gangnam neon night K-beauty signage": "both", "Osaka Dotonbori neon canal reflection night": "both", "Las Vegas strip neon day garish": "both", "Bangkok Chinatown neon night dense traffic": "both", "East Berlin Plattenbau brutalist block 1970s grey": "both", "Moscow Khrushchyovka block estate winter": "both", "London Barbican brutalist concrete walkways": "both", "Marseille Unité d'Habitation Le Corbusier": "both", "Belgrade brutalist monument vast dramatic": "both", "Minsk Soviet boulevard vast ceremonial": "both", "Paris Haussmann boulevard golden stone dawn": "outdoor", "Edinburgh Old Town stone alley gaslight": "both", "Prague Old Town square golden cobblestone dawn": "both", "Budapest Parliament Danube reflection night": "both", "Vienna Ringstrasse imperial architecture dusk": "both", "Barcelona Gothic Quarter narrow golden": "both", "Shanghai Pudong glass tower forest night": "outdoor", "Dubai glass tower desert edge dawn": "outdoor", "Singapore Marina Bay night reflection water": "both", "New York Hudson Yards contemporary glass": "both", "London Canary Wharf glass canyon night": "outdoor", "Singapore Jewel Changi waterfall interior": "outdoor", "New York City steam vent night dramatic": "both", "Paris catacombs skull lined narrow torch": "both", "London Soho alley night neon sign": "both", "New York Chinatown night dense narrow": "both", "Mumbai monsoon first rain flooding street joy dancing": "outdoor", "Kerala monsoon paddy field rain dramatic": "both", "Bangkok monsoon flood street motorbike spray": "outdoor", "Hanoi monsoon street rain dramatic tropical": "outdoor", "Kolkata monsoon street rain reflection puddle": "outdoor", "Blade Runner noir rain alley neon wet reflection night": "both", "Los Angeles rain 1940s noir street": "outdoor", "Chandler rain San Francisco fog hill night": "both", "film noir wet pavement street lamp reflection": "outdoor", "Tokyo alley rain neon reflection night narrow": "both", "London grey drizzle Waterloo Bridge umbrella commute": "both", "Edinburgh drizzle grey castle behind mist": "both", "Dublin drizzle grey Georgian street umbrella": "outdoor", "Glasgow drizzle grey tenement street": "outdoor", "Portland Oregon grey drizzle everyday": "both", "tropical downpour beach shelter dramatic": "outdoor", "Scottish highland sudden downpour open moor": "outdoor", "New York summer downpour steam street": "outdoor", "Paris summer downpour cafe awning shelter": "both", "Rome sudden downpour fountain piazza": "both", "Icelandic rain dramatic rainbow cliff": "outdoor", "Vancouver rain forest dramatic mist": "outdoor", "Japanese rain bamboo forest atmospheric": "indoor", "Norwegian fjord rain mist dramatic": "outdoor", "New Zealand rain rainforest dramatic lush": "outdoor", "after rain Paris cobblestone reflection puddle golden": "both", "after rain Tokyo neon reflection puddle night": "outdoor", "after rain London Victorian street reflection lamp": "outdoor", "rainbow after storm field dramatic": "both", "after monsoon street reflection India dramatic": "outdoor", "petrol station forecourt dramatic speech nobody watching night": "indoor", "supermarket aisle operatic gesture fluorescent ordinary": "indoor", "laundromat 3am theatrical monologue washing machines": "indoor", "bus stop theatrical declaration nobody waiting": "indoor", "hospital waiting room dramatic exit door": "both", "car park rooftop theatrical confrontation empty night": "outdoor", "kebab shop 2am grand gesture fluorescent": "both", "train carriage theatrical aside fellow passengers ignore": "both", "airport arrivals hall dramatic reunion theatrical": "both", "lift lobby theatrical pause before doors open": "indoor", "office corridor dramatic walk away slow motion": "indoor", "phone box raining theatrical call dramatic": "both", "motorway services dramatic tableau ordinary setting": "both", "underpass theatrical freeze frame urban": "both", "corner shop theatrical argument fluorescent": "both", "post office queue theatrical monologue": "indoor", "swimming pool changing room dramatic exit": "indoor", "railway platform theatrical goodbye overplayed": "both", "department store escalator theatrical descent": "indoor", "bowling alley theatrical celebration strike": "indoor", "bus upper deck theatrical speech empty": "indoor", "car wash theatrical moment soap suds": "both", "dentist waiting room theatrical anxiety performance": "indoor", "betting shop theatrical reaction to result": "indoor", "library theatrical whispered intensity quiet": "indoor", "chip shop 11pm theatrical romance counter": "indoor", "newsagent morning theatrical significance ordinary": "indoor", "cemetery theatrical grief performative": "both", "wedding registry office theatrical entrance late": "indoor", "rooftop car park theatrical last stand night": "outdoor", "Leone spaghetti western main street standoff noon dust extreme": "outdoor", "Leone close-up eyes sweat dust standoff dramatic": "both", "western saloon swing doors dramatic entrance": "indoor", "western canyon ambush dramatic rocks dust": "outdoor", "western train robbery moving dramatic dynamic": "both", "western dawn cemetery standoff dramatic light": "outdoor", "Kurosawa samurai dawn mist field two opponents dynamic": "both", "Kurosawa rain mud samurai fight low angle dynamic": "both", "samurai bamboo forest duel dynamic light": "outdoor", "Edo period Japan village samurai arrival dramatic": "outdoor", "samurai castle rooftop fight dramatic dynamic": "outdoor", "feudal Japan bridge standoff samurai dramatic": "outdoor", "film noir Los Angeles rain alley 1940s dynamic chase": "both", "Chandler detective office venetian blind shadow dramatic": "indoor", "noir San Francisco fog chase hill dramatic": "both", "noir night club chase dramatic 1940s": "indoor", "noir car chase night Los Angeles dynamic": "both", "noir rooftop confrontation rain dramatic 1940s": "outdoor", "Shaw Brothers rooftop kung fu 1970s dynamic mid-fight": "outdoor", "John Woo dual pistol dramatic slow motion 1980s": "both", "Hong Kong alley chase dynamic parkour dramatic": "outdoor", "Bruce Lee dojo fight scene dramatic dynamic": "indoor", "1970s Hong Kong street fight dramatic dynamic": "outdoor", "kung fu training hall dramatic dynamic 1970s": "indoor", "Peckinpah slow motion dust blood dramatic western shot": "both", "great plains western final showdown dramatic vast": "outdoor", "western desert chase horses dramatic dynamic": "outdoor", "Blaxploitation 1970s urban chase night dynamic": "both", "hardboiled detective rain chase dramatic dynamic": "both", "film noir bridge confrontation rain dramatic": "both", "NASA mission control 1969 Apollo celebration consoles Houston": "indoor", "NASA astronaut suit-up room pre-launch genuine candid": "both", "Cape Canaveral launch pad Saturn V 1969 dramatic": "outdoor", "NASA cafeteria astronaut training casual 1960s": "indoor", "NASA press conference Apollo 1960s genuine": "indoor", "Baikonur launch pad Soviet cosmonaut dramatic": "outdoor", "ISS cupola window Earth below blue atmosphere vast": "both", "ISS interior cramped equipment floating objects": "indoor", "ISS airlock EVA preparation suited dramatic": "both", "space shuttle cockpit pre-launch countdown": "indoor", "Earth from orbit blue marble vast": "outdoor", "terminator line Earth day night from orbit": "both", "city lights Earth night from orbit dramatic": "both", "aurora from orbit Earth green curtain": "both", "deep space nebula vast colour impossible": "both", "Mars surface mission dramatic vast rust": "outdoor", "moon surface Earth rise Apollo dramatic": "outdoor", "asteroid belt interior dramatic science fiction": "outdoor", "space station exterior dramatic Earth below": "both", "spacecraft interior long journey dramatic": "both", "1960s NASA space centre control room vintage": "both", "Soviet space programme poster aesthetic Sputnik": "both", "retro rocket cockpit chrome analogue 1950s": "indoor", "space age furniture interior 1960s optimistic": "both", "NASA canteen astronauts 1960s candid casual": "both", "cosmonaut training pool weightless simulation": "both", "SpaceX control room contemporary launch celebration": "both", "Virgin Galactic window experience first time": "both", "private space interior billionaire drama contemporary": "both", "space tourism window first look Earth below": "both", "Rembrandt intimate portrait amber glow single candle dark ground": "both", "Rembrandt grand biblical scene figures emerging from darkness dramatic": "both", "Rembrandt landscape winter bare trees cold grey sky Dutch": "both", "Caravaggio single candle absolute darkness tenebrism stone floor": "both", "Caravaggio outdoor dramatic scene strong sunlight deep shadow": "both", "Caravaggio tavern interior low life scene dramatic light": "both", "Velázquez royal portrait deep receding space atmospheric court": "indoor", "Velázquez kitchen scene domestic realist foreground background": "both", "Velázquez landscape outdoor light airy Spanish countryside": "both", "Goya dark period black paint visceral raw nightmare ground": "both", "Goya court portrait formal yet psychologically exposed bright": "both", "Goya Disasters of War documentary raw horror outdoor": "both", "Vermeer domestic interior pearl window light left soft tile floor": "both", "Vermeer intimate detail close object foreground soft background": "both", "Vermeer outdoor view through window city beyond interior frame": "both", "Rubens mythological scene dramatic sky dynamic figures outdoor": "both", "Rubens hunting scene outdoor energetic movement horses": "both", "Rubens allegorical interior rich drapery baroque dramatic": "both", "Van Gogh Arles outdoor wheat field swirling sky impasto noon": "both", "Van Gogh night café interior yellow gaslight swirling impasto": "indoor", "Van Gogh bedroom Arles flat colour pattern simplified interior": "both", "Klimt The Kiss embrace gold leaf ornamental flat decorative": "both", "Klimt portrait woman gold background decorative pattern vertical": "both", "Klimt landscape tree of life flat gold decorative scrolling": "both", "Picasso Cubist fractured planes multiple viewpoints ochre grey": "both", "Picasso Blue Period sparse melancholy blue tones flat": "both", "Picasso Rose Period warm terracotta soft circus acrobats light": "both", "Matisse Odalisque interior pattern on pattern flat colour decorative": "both", "Matisse Dance flat colour figures outdoor against blue sky": "both", "Matisse paper cut-out flat colour shape simplified collage": "both", "Modigliani portrait warm ochre ground neutral Montparnasse simplified": "both", "Modigliani reclining figure horizontal warm simplified ground": "both", "Modigliani couple portrait warm ground two elongated simplified": "both", "Gauguin Tahitian outdoor flat colour tropical lush dense": "both", "Gauguin interior domestic Polynesian flat pattern mat floor": "both", "Gauguin Breton outdoor pre-Tahiti flat colour Pont-Aven": "both", "Toulouse-Lautrec Moulin Rouge stage performance night poster flat": "both", "Toulouse-Lautrec backstage dressing room intimate observation": "both", "Toulouse-Lautrec brothel interior intimate domestic observation": "both", "Hopper Nighthawks diner late night three figures counter fluorescent": "both", "Hopper interior woman alone window light morning melancholy": "both", "Hopper New England exterior hard sunlight white house isolated": "both", "Bacon triptych three panels dark ground armature isolated figure": "both", "Bacon Screaming Pope velvet curtain compressed space dark": "both", "Bacon studio floor newspaper raw paint dark ground": "both", "Warhol screen print single portrait repeated flat colour four grid": "both", "Warhol Factory silver mylar balloons interior New York 1960s": "both", "Warhol Death and Disaster flat newspaper image silkscreen": "both", "Lichtenstein comic romance panel crying girl Ben-Day dots bold": "both", "Lichtenstein war comic explosion Whaam bold primary action": "both", "Lichtenstein brushstroke painting meta parody abstract Ben-Day": "both", "Banksy urban wall stencil rat protest placard graphic street": "outdoor", "Banksy beach wall stencil girl balloon lost naive graphic": "outdoor", "Banksy museum wall stencil caveman shopping trolley subversive": "indoor", "Mucha poster art nouveau flowing hair botanical border soft gold": "both", "Mucha decorative panel four seasons circular border ornamental": "both", "Mucha theatre poster dramatic flowing line colour spot flat": "both", "political caricature ink bold exaggerated satirical broadsheet": "both", "Daumier 19th century lithograph street scene Paris satirical": "outdoor", "Gillray Georgian caricature excess grotesque colour hand": "both", "Wadi Rum red rock Jordan dawn long shadow": "outdoor", "Sahara dune sea sunset two figures tiny horizon": "outdoor", "Death Valley salt flat noon bleached vast white": "outdoor", "Atacama Chile night sky clearest stars world": "outdoor", "Namib vlei dead trees orange dune dawn iconic": "outdoor", "Jordanian desert ancient Nabataean rock city Petra dusk": "outdoor", "Moroccan desert Merzouga dune sea sunset gold": "outdoor", "Arizona Monument Valley sandstone butte long shadow": "outdoor", "White Sands New Mexico gypsum dune noon": "outdoor", "Sossusvlei Namibia dune red iron oxide dawn": "outdoor", "Gobi Mongolia vast flat sand storm approaching": "both", "Rub al Khali Empty Quarter dune sea endless": "outdoor", "Sonoran desert saguaro cactus sunset Arizona": "outdoor", "Atacama salt flat mirror sky reflection": "outdoor", "Death Valley Zabriskie Point badlands dawn": "outdoor", "Sahara oasis palm trees mirage heat shimmer": "outdoor", "Wadi Rum desert camp fire night stars": "outdoor", "Arabian desert camel caravan horizon line dawn": "outdoor", "Painted Desert Arizona colour band formation": "outdoor", "Great Sand Dunes Colorado snow mountain beyond": "outdoor", "Lencois Maranhenses Brazil white dune lagoon": "outdoor", "Black Rock Desert Nevada vast flat nothing": "outdoor", "Danakil Depression Ethiopia hottest place earth": "both", "Simpson Desert Australia red dune noon": "outdoor", "Taklamakan China Silk Road ancient route": "both", "Namib fog coastal desert ghost ship distant": "outdoor", "Negev desert Ramon crater vast geological": "outdoor", "Judean desert cave dwelling ancient": "outdoor", "Chilean Atacama lava field volcanic moon": "outdoor", "Rub al Khali dune crest wind sand stream": "outdoor", "pre-storm sky bruised purple green light eerie flat calm": "both", "tornado alley Great Plains storm wall approaching vast": "outdoor", "North Sea storm wave lighthouse spray dramatic": "both", "tropical storm eye wall approach Caribbean coast": "outdoor", "Scottish moor storm approaching dramatic light shafts": "outdoor", "Turner painting storm sea ship dramatic": "both", "storm aftermath debris calm eerie light": "both", "lightning strike plain night dramatic single bolt": "outdoor", "monsoon India storm wall approaching dust first": "both", "storm light dramatic shafts through cloud dramatic countryside": "both", "Patagonia storm mountain dramatic wind bent tree": "outdoor", "Norwegian coast storm fjord dramatic wave": "outdoor", "Great Plains supercell storm rotating vast sky": "outdoor", "storm tide surge coastal town dramatic": "outdoor", "Alpine storm lightning peak dramatic": "both", "Australian outback storm red dust approaching wall": "both", "storm drain rushing water urban aftermath": "both", "storm at sea container ship wave dramatic": "both", "Yorkshire moor storm approaching Brontë register": "outdoor", "Mediterranean storm dramatic cliff wave spray": "outdoor", "Great Lakes storm grey vast water horizon": "both", "storm shelter doorway waiting dramatic light": "both", "hurricane eye approach coast dramatic satellite": "outdoor", "winter storm blizzard white out reduced visibility": "both", "dust storm haboob Arizona wall approaching": "both", "storm electricity pylon lightning dramatic": "both", "Cornish coast storm wave dramatic heritage": "outdoor", "storm abandoned car park flooding dramatic": "both", "typhoon approach Hong Kong dramatic sky": "outdoor", "storm rainbow aftermath dramatic light field": "both", "bioluminescent cave impossible blue vast underground": "both", "bioluminescent sea bay night blue fire water": "both", "bioluminescent forest floor impossible blue mushroom": "both", "bioluminescent waterfall cave impossible beauty": "both", "lost temple jungle consumed impossible vegetation": "both", "sunken city coral reef impossible underwater": "both", "ancient city cloud forest mist impossible": "both", "impossible library cave books water inside": "both", "underground ocean vast impossible cave vast": "both", "crystal cave geode impossible giant interior": "both", "floating island chain impossible geology vast": "both", "inverted waterfall water goes up impossible": "both", "door in cliff face ancient impossible": "both", "impossible vertical forest hanging cliff": "both", "sky island above cloud vast impossible": "both", "underground river cave impossible blue": "both", "giant footprint fresh impossible scale jungle": "both", "bone structure vast impossible creature ancient": "both", "impossible nest vast woven jungle canopy": "both", "cave painting moving animated ancient impossible": "both", "ancient creature track impossible fresh desert": "both", "enormous egg impossible scale discovered": "both", "Victorian expedition camp impossible landscape tent": "both", "explorer notebook impossible creature sketch": "both", "expedition map edge of known world illustrated": "both", "Victorian naturalist discovery impossible creature": "both", "deep sea vent impossible creature thermal": "both", "cave diving impossible blue darkness vast": "both", "polar expedition impossible light phenomenon": "both", "high altitude impossible landscape oxygen thin": "both", "volcano crater impossible approach dramatic": "both", "ancient cave impossible size interior vast": "both", "Havana rooftop washing lines crumbling colonial city below": "outdoor", "Havana rooftop 1950s Chevrolet visible below dawn": "outdoor", "Havana rooftop Malecón sea beyond crumbling beautiful": "outdoor", "Tokyo neon rooftop water tank city spread night dense": "outdoor", "Hong Kong cage home rooftop dense city beyond dramatic": "outdoor", "Seoul rooftop Han River beyond night neon": "outdoor", "Osaka rooftop dense city night neon sign": "outdoor", "New York water tower rooftop Manhattan skyline dawn": "outdoor", "Brooklyn rooftop Manhattan bridge view sunset": "outdoor", "New York rooftop 1970s vintage city behind": "outdoor", "New York rooftop party night skyline": "outdoor", "Paris Haussmann rooftop chimney zinc dawn golden": "outdoor", "Paris rooftop Eiffel visible golden light": "outdoor", "Paris rooftop 6th arrondissement zinc slate dawn": "outdoor", "Lisbon Alfama rooftop tile fado city below": "outdoor", "Porto rooftop azulejo tile city below river": "outdoor", "Rome rooftop terracotta dome city eternal": "outdoor", "Naples rooftop Vesuvius beyond city below": "outdoor", "Athens rooftop Acropolis visible dramatic dusk": "outdoor", "Istanbul rooftop mosque minaret city both sides": "outdoor", "Detroit abandoned factory rooftop city below dramatic": "outdoor", "Chicago water tower rooftop industrial city": "outdoor", "São Paulo rooftop favela meets glass tower": "outdoor", "Beirut rooftop bullet holes city rebuild": "outdoor", "Cairo rooftop minaret city ancient sprawl": "outdoor", "Mumbai rooftop slum city beyond contrast": "outdoor", "rooftop garden city dawn first light plants": "outdoor", "rooftop pool city below luxury night reflection": "outdoor", "rooftop helipad empty city spread dramatic": "outdoor", "rooftop solar panels practical city beyond": "outdoor", "casino CCTV overhead roulette table win celebration genuine": "indoor", "casino corridor CCTV caught running toward exit laughing": "indoor", "casino elevator CCTV caught mid-argument resolved": "indoor", "supermarket CCTV midnight spontaneous dance empty aisle": "indoor", "supermarket CCTV proposal breakfast cereal aisle": "indoor", "supermarket CCTV caught sharing earphones frozen food": "indoor", "ATM CCTV night proposal caught genuine unposed": "indoor", "street corner CCTV caught reunion unexpected": "outdoor", "petrol station CCTV caught slow dance forecourt night": "both", "bus stop CCTV caught first kiss waiting": "indoor", "taxi dashcam caught back seat conversation genuine": "both", "underground CCTV platform caught missing train laughing": "indoor", "airport CCTV arrivals hall reunion genuine caught": "indoor", "train station CCTV platform caught unexpected meeting": "both", "bus CCTV upper deck caught secret told": "both", "ferry CCTV deck caught storm reaction genuine": "both", "hospital corridor CCTV good news received genuine": "indoor", "school corridor CCTV caught celebration exam result": "indoor", "office CCTV lift caught honest conversation": "indoor", "library CCTV caught laughing inappropriate": "indoor", "street CCTV fishmonger caught proposal over ice": "outdoor", "market CCTV caught argument over price genuine": "both", "park CCTV caught spontaneous picnic rain coming": "both", "beach CCTV lifeguard station caught sunset watching": "outdoor", "gym CCTV caught giving up gracefully": "indoor", "café CCTV caught reading same book at same time": "indoor", "cinema CCTV foyer caught reaction to film genuine": "indoor", "bookshop CCTV caught same book reached for same time": "indoor", "museum CCTV caught asleep in gallery same painting": "indoor", "laundrette CCTV 3am caught genuine conversation": "indoor"};
 
 const SHOT_OPTIONS = [
   "extreme close-up faces","tight two-shot","medium two-shot",
