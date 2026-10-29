@@ -1324,32 +1324,70 @@ const WORLDS = [
     "affinities": {
       "noir vs. neon": {
         "locs": [
-          "Los Angeles rain 1940s noir street lamp wet",
-          "Tokyo Shinjuku neon night alley narrow dense",
-          "East Berlin Plattenbau brutalist block 1970s grey"
+          "Los Angeles rain 1940s noir street lamp wet reflection",
+          "New York fire escape rain night noir",
+          "San Francisco Chandler fog hill cable car night"
         ],
         "poses": [
-          "both noir Los Angeles rain street lamp wet 1940s",
-          "both Tokyo neon alley night narrow dense"
+          "both noir Los Angeles rain street lamp wet reflection",
+          "both fire escape rain night noir",
+          "both steam vent night dramatic urban"
         ],
         "looks": [
-          "1940s noir trench coat each Los Angeles rain",
-          "Tokyo street fashion neon each"
+          "1940s noir trench coat fedora each Los Angeles",
+          "city night dark each urban",
+          "city formal out of place each incongruous"
         ]
       },
       "anonymous vs. seen": {
         "locs": [
-          "Hong Kong Mong Kok neon night dense crowd",
-          "Paris Haussmann boulevard golden stone dawn",
-          "São Paulo favela rooftop dense city below"
+          "Tokyo Shinjuku neon night alley narrow dense kanji",
+          "Hong Kong Mong Kok neon night dense vertical signs",
+          "Seoul Gangnam neon night K-beauty signage"
         ],
         "poses": [
-          "both Hong Kong neon night dense crowd",
-          "both Paris Haussmann dawn golden stone boulevard"
+          "both Tokyo neon alley narrow night dense",
+          "both Hong Kong neon night crowd dense",
+          "both city crossing night light trails"
         ],
         "looks": [
-          "Hong Kong street casual dense crowd each",
-          "Paris boulevard chic each golden stone"
+          "Tokyo street fashion layered neon night each",
+          "Hong Kong street dense casual each",
+          "Seoul street fashion each K-style"
+        ]
+      },
+      "the promise vs. the reality": {
+        "locs": [
+          "East Berlin Plattenbau brutalist block 1970s grey",
+          "Moscow Khrushchyovka block estate winter",
+          "Belgrade brutalist monument vast dramatic"
+        ],
+        "poses": [
+          "both brutalist block exterior vast grey behind",
+          "both looking down from above city vast",
+          "both city dawn empty before it starts"
+        ],
+        "looks": [
+          "brutalist city practical dark each Eastern European",
+          "city casual commuter each",
+          "contemporary city smart casual each"
+        ]
+      },
+      "above vs. below": {
+        "locs": [
+          "Paris Haussmann boulevard golden stone dawn",
+          "Edinburgh Old Town stone alley gaslight",
+          "Budapest Parliament Danube reflection night"
+        ],
+        "poses": [
+          "both Paris Haussmann golden boulevard dawn",
+          "both Edinburgh stone alley gaslight",
+          "both city alley dramatic urban light"
+        ],
+        "looks": [
+          "Paris boulevard chic each golden stone",
+          "contemporary city smart casual each",
+          "city casual commuter each"
         ]
       }
     },
@@ -4335,16 +4373,16 @@ const WORLDS = [
       "both theatrical freeze mid-ordinary-action"
     ],
     "looks": [
-      "formal evening wear incongruous mundane location each",
-      "theatrical costume wrong context entirely each",
-      "dramatic cape ordinary setting each incongruous",
-      "Shakespearean costume petrol station each",
-      "opera costume supermarket each absurd",
-      "everyday clothes performed theatrically each",
-      "tuxedo and gown laundromat each",
-      "Victorian theatrical ordinary location each",
-      "commuter clothes performed grandly each",
-      "casual clothes maximum theatrical intensity each"
+      "full tuxedo and ball gown at petrol station each",
+      "Shakespeare doublet and Elizabethan ruff in supermarket each",
+      "opera costume full staging in laundromat each",
+      "Victorian mourning dress complete in kebab shop each",
+      "wedding dress and morning suit at bus stop each",
+      "knight armour and princess gown in bowling alley each",
+      "ballet tutu and tights in corner shop each",
+      "Roman toga and laurel wreath at ATM each",
+      "clown costume full makeup in hospital waiting room each",
+      "everyday clothes performed with maximum theatrical intensity each"
     ],
     "promptSuffix": "Colour grade: the specific contrast of theatrical drama in mundane light — fluorescent supermarket, petrol station sodium, laundromat neon. Heightened emotion in ordinary space."
   },
@@ -6349,32 +6387,70 @@ const WORLDS = [
     "affinities": {
       "the code vs. the cost": {
         "locs": [
-          "Leone extreme close-up eyes standoff dust noon sun",
-          "Kurosawa samurai dawn mist field two opponents",
-          "film noir Los Angeles rain street 1940s dynamic"
+          "Leone spaghetti western main street standoff noon dust extreme",
+          "Leone close-up eyes sweat dust standoff dramatic",
+          "western dawn cemetery standoff dramatic light"
         ],
         "poses": [
-          "both Leone extreme close-up eyes standoff dust noon",
-          "both Kurosawa dawn mist draw dynamic samurai"
+          "both Leone standoff extreme close-up eyes sweat dust noon",
+          "both samurai dawn cemetery dramatic light draw",
+          "both western final showdown vast plain dramatic"
         ],
         "looks": [
-          "Leone spaghetti western poncho dust each",
-          "Kurosawa samurai robes practical worn each"
+          "Leone spaghetti western poncho duster dust each",
+          "western gunfighter duster hat each",
+          "Peckinpah western outlaw worn dust blood each"
         ]
       },
       "honour vs. survival": {
         "locs": [
-          "1970s Hong Kong rooftop kung fu choreography Shaws",
-          "Peckinpah slow motion dust blood dramatic western",
-          "French New Wave Paris chase streets 1960s"
+          "Kurosawa samurai dawn mist field two opponents dynamic",
+          "Kurosawa rain mud samurai fight low angle dynamic",
+          "samurai bamboo forest duel dynamic light"
         ],
         "poses": [
-          "both Shaw Brothers kung fu rooftop 1970s dynamic mid-kick",
-          "both Peckinpah slow motion dust dramatic mid-action"
+          "both Kurosawa samurai draw dynamic dawn mist dramatic",
+          "both samurai rain mud fight low angle dynamic",
+          "both kung fu bamboo forest duel dynamic"
+        ],
+        "looks": [
+          "Kurosawa samurai practical worn robes each",
+          "Bruce Lee practical training each",
+          "Shaw Brothers kung fu practical 1970s each"
+        ]
+      },
+      "the mission vs. the person": {
+        "locs": [
+          "film noir Los Angeles rain alley 1940s dynamic chase",
+          "noir rooftop confrontation rain dramatic 1940s",
+          "Chandler detective office venetian blind shadow dramatic"
+        ],
+        "poses": [
+          "both noir chase rain alley dynamic running",
+          "both noir rooftop confrontation rain dramatic",
+          "both hardboiled detective pursuit rain dynamic"
+        ],
+        "looks": [
+          "film noir trench coat fedora 1940s each",
+          "noir detective rumpled suit each",
+          "John Woo suit dramatic each 1980s"
+        ]
+      },
+      "alone vs. together": {
+        "locs": [
+          "Shaw Brothers rooftop kung fu 1970s dynamic mid-fight",
+          "Hong Kong alley chase dynamic parkour dramatic",
+          "Bruce Lee dojo fight scene dramatic dynamic"
+        ],
+        "poses": [
+          "both Shaw Brothers mid-kick rooftop dynamic 1970s",
+          "both John Woo dual pistol back to back dramatic",
+          "both kung fu training dynamic dramatic"
         ],
         "looks": [
           "Shaw Brothers kung fu practical 1970s each",
-          "Peckinpah western outlaw worn each"
+          "John Woo suit dramatic each 1980s",
+          "Blaxploitation 1970s urban each dynamic"
         ]
       }
     },
@@ -6467,17 +6543,87 @@ const WORLDS = [
     "affinities": {
       "the mission vs. the person": {
         "locs": [
-          "NASA mission control 1969 Apollo celebration genuine Houston",
-          "astronaut portrait before launch suit up genuine NASA",
-          "ISS cupola window Earth below blue atmosphere"
+          "NASA mission control 1969 Apollo celebration consoles Houston",
+          "NASA press conference Apollo 1960s genuine",
+          "1960s NASA space centre control room vintage"
         ],
         "poses": [
-          "both NASA mission control 1969 genuine celebration",
-          "both ISS cupola window Earth below looking"
+          "both NASA mission control 1969 genuine celebration consoles",
+          "both NASA press conference 1960s candid genuine",
+          "both retro rocket cockpit chrome analogue dramatic"
         ],
         "looks": [
-          "NASA 1960s mission control shirt tie each",
-          "ISS flight suit practical each"
+          "NASA 1960s mission control shirt tie short sleeve each",
+          "NASA casual training clothes 1960s each",
+          "NASA formal presentation 1960s each"
+        ]
+      },
+      "the launch vs. the return": {
+        "locs": [
+          "Cape Canaveral launch pad Saturn V 1969 dramatic",
+          "Baikonur launch pad Soviet cosmonaut dramatic",
+          "NASA astronaut suit-up room pre-launch genuine candid"
+        ],
+        "poses": [
+          "both Cape Canaveral launch pad dramatic countdown",
+          "both astronaut portrait before launch serious genuine",
+          "both astronaut suit-up room pre-launch genuine candid"
+        ],
+        "looks": [
+          "Apollo spacesuit helmet visor dramatic each",
+          "Soviet cosmonaut suit dramatic each",
+          "SpaceX contemporary flight suit each"
+        ]
+      },
+      "earth vs. orbit": {
+        "locs": [
+          "ISS cupola window Earth below blue atmosphere vast",
+          "ISS interior cramped equipment floating objects",
+          "cosmonaut training pool weightless simulation"
+        ],
+        "poses": [
+          "both ISS cupola window Earth vast below looking",
+          "both ISS interior floating objects weightless candid",
+          "both cosmonaut pool weightless training dramatic"
+        ],
+        "looks": [
+          "ISS flight suit practical orange each",
+          "space tourist first time civilian each",
+          "1960s space age fashion optimistic each"
+        ]
+      },
+      "technical vs. emotional": {
+        "locs": [
+          "NASA cafeteria astronaut training casual 1960s",
+          "NASA canteen astronauts 1960s candid casual",
+          "space age furniture interior 1960s optimistic"
+        ],
+        "poses": [
+          "both NASA 1960s cafeteria casual astronaut training",
+          "both space canteen candid casual astronaut",
+          "both mission control celebration screen dramatic"
+        ],
+        "looks": [
+          "NASA casual training clothes 1960s each",
+          "1960s space age fashion optimistic each",
+          "retro chrome space age 1950s each"
+        ]
+      },
+      "going vs. coming back": {
+        "locs": [
+          "SpaceX control room contemporary launch celebration",
+          "Virgin Galactic window experience first time",
+          "private space interior billionaire drama contemporary"
+        ],
+        "poses": [
+          "both SpaceX control room contemporary celebration",
+          "both space tourism window first Earth view genuine",
+          "both deep space vast colour impossible behind"
+        ],
+        "looks": [
+          "SpaceX contemporary flight suit each",
+          "space tourist first time civilian each",
+          "NASA formal presentation 1960s each"
         ]
       }
     },
@@ -6548,7 +6694,7 @@ const WORLDS = [
       "NASA formal presentation 1960s each"
     ],
     "promptPrefix": "Space photography aesthetic — the specific visual language of real space imagery from NASA, ESA and the Soviet programme — documentary candid quality — ",
-    "promptSuffix": "Render with the specific quality of real space imagery: NASA film grain 1960s, ISS digital candid, the overwhelming scale of Earth from orbit. Human and warm despite the void. Not science fiction — real space, real humans."
+    "promptSuffix": "Render with the specific quality of real space imagery: NASA mission control grain and console glow 1960s, astronaut suit-up room pre-launch tension, ISS weightless candid. Human and warm despite the context. Not science fiction — real space, real humans, specific era."
   },
   {
     "id": "art",
@@ -11854,7 +12000,9 @@ const WORLDS = [
       "both dramatic storm light portrait dramatic",
       "both blizzard white out barely visible",
       "both storm tide flooding dramatic wading",
-      "both watching distant lightning plain night"
+      "both watching distant lightning plain night",
+      "both in full formal evening wear mid-storm incongruous dramatic",
+      "both in wedding attire caught in storm dramatic"
     ],
     "looks": [
       "storm caught soaked dramatic each",
@@ -11939,16 +12087,16 @@ const WORLDS = [
       "both Tokyo station corridor endless wayfinding"
     ],
     "looks": [
-      "1970s New York street casual each subway era",
-      "Paris 1960s French casual each Métro",
-      "London 1940s wartime practical each",
-      "Tokyo office worker suit each rush hour",
-      "Moscow 1950s Soviet formal each Metro",
-      "Berlin East West crossing practical each",
-      "Chicago 1920s elevated era each",
-      "contemporary transit casual each modern",
-      "night subway late casual each tired",
-      "commuter formal work clothes each"
+      "1970s New York street graffiti era casual each",
+      "Paris 1960s French casual chic each",
+      "London 1940s wartime practical utility each",
+      "Tokyo contemporary office commuter suit each",
+      "Moscow 1950s Soviet formal coat each",
+      "Berlin Cold War practical crossing each",
+      "contemporary transit casual urban each",
+      "late night subway tired casual each",
+      "rush hour commuter smart work clothes each",
+      "underground explorer practical casual each"
     ],
     "promptSuffix": "Colour grade: 1970s NYC fluorescent and graffiti, Paris Métro amber iron, London Tube wartime, Moscow marble chandelier."
   },
@@ -11973,16 +12121,86 @@ const WORLDS = [
       "known vs. unknown": {
         "locs": [
           "bioluminescent cave impossible blue vast underground",
-          "lost temple jungle consumed impossible vegetation",
-          "giant creature footprint fresh impossible scale"
+          "bioluminescent sea bay night blue fire water",
+          "crystal cave geode impossible giant interior"
         ],
         "poses": [
-          "both bioluminescent cave blue light impossible wonder",
-          "both lost temple jungle consumed finding"
+          "both bioluminescent cave blue wonder impossible vast",
+          "both crystal cave interior impossible wonder",
+          "both bioluminescent sea night blue fire"
         ],
         "looks": [
-          "expedition practical worn each discovery",
-          "explorer Victorian impossible location each"
+          "cave diver wetsuit impossible blue each",
+          "expedition technical contemporary each wonder",
+          "expedition simple layers each discovery"
+        ]
+      },
+      "discovery vs. intrusion": {
+        "locs": [
+          "Victorian expedition camp impossible landscape tent",
+          "explorer notebook impossible creature sketch",
+          "Victorian naturalist discovery impossible creature"
+        ],
+        "poses": [
+          "both Victorian expedition camp impossible landscape",
+          "both edge of map illustrated impossible",
+          "both ancient impossible creature bone structure vast"
+        ],
+        "looks": [
+          "Victorian expedition practical impossible location each",
+          "explorer worn practical each discovery",
+          "naturalist practical each field impossible"
+        ]
+      },
+      "the map vs. the territory": {
+        "locs": [
+          "deep sea vent impossible creature thermal",
+          "cave diving impossible blue darkness vast",
+          "sunken city coral reef impossible underwater"
+        ],
+        "poses": [
+          "both cave diving impossible blue dark vast",
+          "both sunken city coral impossible wonder",
+          "both deep sea vent impossible creature watching"
+        ],
+        "looks": [
+          "deep sea diving suit impossible pressure each",
+          "cave diver wetsuit impossible blue each",
+          "expedition technical contemporary each wonder"
+        ]
+      },
+      "wonder vs. danger": {
+        "locs": [
+          "lost temple jungle consumed impossible vegetation",
+          "ancient city cloud forest mist impossible",
+          "impossible library cave books water inside"
+        ],
+        "poses": [
+          "both lost temple jungle consumed discovering",
+          "both ancient cave painting moving impossible",
+          "both impossible underground ocean vast cave"
+        ],
+        "looks": [
+          "jungle expedition practical each worn",
+          "expedition technical contemporary each wonder",
+          "explorer worn practical each discovery"
+        ]
+      },
+      "the impossible vs. the real": {
+        "locs": [
+          "floating island chain impossible geology vast",
+          "sky island above cloud vast impossible",
+          "inverted waterfall water goes up impossible"
+        ],
+        "poses": [
+          "both floating island impossible vast below",
+          "both sky island above cloud impossible",
+          "both inverted waterfall impossible wonder"
+        ],
+        "looks": [
+          "high altitude technical each thin air",
+          "polar expedition extreme gear each",
+          "expedition simple layers each discovery"
         ]
       }
     },
@@ -12078,16 +12296,69 @@ const WORLDS = [
       "above vs. below": {
         "locs": [
           "Havana rooftop washing lines crumbling colonial city below",
-          "Tokyo neon rooftop water tower city spread night",
-          "New York water tower rooftop Manhattan skyline dawn"
+          "Havana rooftop 1950s Chevrolet visible below dawn",
+          "Havana rooftop Malecón sea beyond crumbling beautiful"
         ],
         "poses": [
           "both Havana rooftop washing lines colonial city below",
-          "both Tokyo neon rooftop water tower night city"
+          "both rooftop back to city looking at each other",
+          "both rooftop dawn city waking around them"
         ],
         "looks": [
-          "Havana casual rooftop heat each",
-          "Tokyo rooftop street fashion neon each"
+          "Havana casual summer rooftop heat each",
+          "simple casual rooftop city each",
+          "simple dawn rooftop casual each"
+        ]
+      },
+      "escape vs. city": {
+        "locs": [
+          "Tokyo neon rooftop water tank city spread night dense",
+          "Hong Kong cage home rooftop dense city beyond dramatic",
+          "Seoul rooftop Han River beyond night neon"
+        ],
+        "poses": [
+          "both Tokyo neon water tank city night",
+          "both Seoul rooftop Han River night neon",
+          "both rooftop edge city vast below dramatic"
+        ],
+        "looks": [
+          "Tokyo street fashion rooftop neon each",
+          "dramatic coat rooftop wind each",
+          "rooftop party dressed up each night"
+        ]
+      },
+      "private vs. public height": {
+        "locs": [
+          "Paris Haussmann rooftop chimney zinc dawn golden",
+          "Paris rooftop Eiffel visible golden light",
+          "Lisbon Alfama rooftop tile fado city below"
+        ],
+        "poses": [
+          "both Paris chimney zinc rooftop dawn golden",
+          "both Lisbon rooftop tile city fado below",
+          "both rooftop garden dawn city waking"
+        ],
+        "looks": [
+          "Paris rooftop chic morning each dawn",
+          "New York rooftop casual city view each",
+          "practical urban each rooftop exploration"
+        ]
+      },
+      "the city vs. the person on it": {
+        "locs": [
+          "New York water tower rooftop Manhattan skyline dawn",
+          "Brooklyn rooftop Manhattan bridge view sunset",
+          "Rome rooftop terracotta dome city eternal"
+        ],
+        "poses": [
+          "both New York water tower Manhattan skyline",
+          "both Rome terracotta rooftop eternal city",
+          "both rooftop watching city sunrise"
+        ],
+        "looks": [
+          "New York rooftop casual city view each",
+          "Istanbul casual rooftop city each",
+          "simple dawn rooftop casual each"
         ]
       }
     },
@@ -12330,16 +12601,16 @@ const WORLDS = [
       "CCTV both caught mid-proposal ordinary location"
     ],
     "looks": [
-      "casino night out each genuine caught",
-      "supermarket casual midnight each real",
-      "airport arrival clothes each travel worn genuine",
-      "office work clothes each caught off guard",
-      "hospital visitor clothes each emotional genuine",
-      "street casual each caught unaware",
-      "gym clothes each caught giving up",
-      "date night each caught in genuine moment",
-      "casual everyday each CCTV reality",
-      "commuter clothes each caught human moment"
+      "casual everyday clothes each caught unaware genuine",
+      "night out clothes each caught in unexpected moment",
+      "work clothes each caught off guard genuine",
+      "gym clothes each caught mid-moment real",
+      "travel clothes each caught in transit genuine",
+      "date night clothes each caught in real moment",
+      "hospital visit clothes each emotional genuine",
+      "commuter clothes each caught human moment",
+      "casual morning clothes each caught early genuine",
+      "smart casual each caught in something real"
     ],
     "promptPrefix": "Security camera or dashcam footage aesthetic — overhead or wide angle, slightly grainy, timestamp in corner optional, the subjects completely unaware they are being filmed — ",
     "promptSuffix": "This is candid surveillance footage of a genuinely human moment. The subjects do not know they are being filmed. The camera catches something real — joy, love, argument resolved, spontaneous dance, unexpected reunion. Grainy, overhead, wide angle, real."
@@ -12651,26 +12922,34 @@ const WORLDS = [
       "giant spider web forest clearing victims wrapped"
     ],
     "poses": [
-      "both frozen looking at something off-frame in horror",
-      "one pulling other away from danger urgent",
-      "one shielding other both crouched",
-      "both backs to camera looking ahead into dark",
-      "one pointing at sky other looking up both terrified",
-      "both running camera behind them",
-      "one unconscious other holding vigil",
-      "both hiding behind object peering over",
-      "one reaching toward other warning hand out",
-      "both in embrace face of one shows horror over shoulder",
-      "one illuminating with torch both tense",
-      "both pressing against wall backs flat",
-      "one fallen other pulling them up urgent",
-      "both mid-scream frozen frame",
-      "one barricading door other watching windows",
-      "both looking at same thing different reactions",
-      "one skeptic other believer arguing mid-gesture",
-      "both slowly backing away hands raised",
-      "one protecting other both facing threat",
-      "over shoulder both running toward camera"
+      "both pointing ray guns at off-frame monster heroic stance",
+      "one shielding other heroic both defiant facing camera",
+      "both running toward camera creature chasing behind",
+      "one carrying other rescued from danger heroic",
+      "both back to back surrounded weapons raised",
+      "both triumphant foot on defeated monster 1950s pose",
+      "both peering around corner investigating flashlights",
+      "one scientist other assistant discovery eureka arms raised",
+      "one mad scientist maniacal arms raised other recoils in horror",
+      "both mad scientists laboratory maniacal laughter arms wide",
+      "one evil doctor menacing other strapped to table",
+      "one holding bubbling beaker triumphant creation moment",
+      "villain monologue dramatic finger pointing other listens aghast",
+      "both scientists arguing over creation between them",
+      "one in creature costume reaching toward other dramatically",
+      "both in alien costume captors and captive theatrical",
+      "one as creature arms outstretched other faints dramatically",
+      "both as aliens examining earth object baffled",
+      "one as Frankenstein monster other as Igor hunched",
+      "both as vampires capes dramatic moonlight pose",
+      "both in theatrical costume striking dramatic posed tableau",
+      "both mid-dance monster mash ballroom costumes",
+      "one as mad creation other as creator dramatic reveal",
+      "both arms raised dramatic B-movie climax pose",
+      "one swooning other catching Victorian dramatic",
+      "both pointing at something off-frame exaggerated horror",
+      "both in camp theatrical freeze-frame mid-adventure pose",
+      "over shoulder both fleeing toward camera creature implied behind"
     ],
     "looks": [
       "1950s prom dress and suit both pristine before",
