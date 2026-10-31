@@ -12021,84 +12021,623 @@ const WORLDS = [
   {
     "id": "underground",
     "name": "THE UNDERGROUND",
-    "sub": "Subway, Tunnel & the City Beneath",
-    "color": "#2a2a4a",
+    "sub": "Subculture & Belonging",
+    "color": "#336655",
     "tensions": [
-      "above vs. below",
-      "public vs. private",
       "seen vs. invisible",
-      "moving vs. still",
-      "the commute vs. the life",
-      "the city vs. what it hides",
-      "alone in a crowd",
-      "fast vs. slow",
-      "the system vs. the individual",
-      "surface vs. depth"
+      "belong vs. outside",
+      "mainstream vs. counter",
+      "surface vs. depth",
+      "loud vs. quiet rebellion",
+      "known vs. discovered",
+      "authentic vs. performed",
+      "local vs. scene",
+      "night vs. day identity",
+      "old school vs. new wave",
+      "pure vs. sold out",
+      "insider vs. outsider",
+      "alone vs. together in it",
+      "signal vs. noise",
+      "underground vs. above ground",
+      "passion vs. cool",
+      "raw vs. polished",
+      "secret vs. shared",
+      "found vs. lost in it",
+      "now vs. then scene"
+    ],
+    "locs": [
+      "record shop basement listening booth",
+      "late night diner corner booth",
+      "graffiti wall back alley",
+      "skate park dusk empty bowls",
+      "underground club low ceiling bass",
+      "warehouse party corridor between rooms",
+      "DIY venue basement show",
+      "art squat corridor",
+      "bookshop basement cult section",
+      "comic shop back room",
+      "zine fair tables community",
+      "independent cinema screening room small",
+      "repertory theatre foyer before show",
+      "coffee shop poetry open mic",
+      "spoken word venue small intimate",
+      "pub back room acoustic gig",
+      "folk club cellar intimate",
+      "roots reggae sound system",
+      "hip-hop cipher circle outdoor",
+      "grime scene studio corridor",
+      "UK garage era venue exterior",
+      "jungle rave warehouse 1993 feel",
+      "drum and bass club basement",
+      "techno bunker low concrete ceiling",
+      "LGBTQ bar historic gay bar",
+      "lesbian bar small intimate corner",
+      "trans venue safe community space",
+      "queer arts festival venue small",
+      "punk DIY venue toilet adjacent",
+      "hardcore show basement sweaty",
+      "metal club dark corner stage",
+      "goth night ornate Victorian venue",
+      "alternative night eighties venue",
+      "indie disco student union",
+      "skate shop back storage hangout",
+      "tattoo studio waiting area",
+      "piercing studio corridor wall art",
+      "barber shop waiting chair",
+      "boxing gym between rounds",
+      "wrestling gym wall mats",
+      "martial arts dojo evening class",
+      "parkour spot industrial loading bay",
+      "street art studio planning board",
+      "activist meeting above shop",
+      "community radio station booth small",
+      "pirate radio rooftop aerial"
+    ],
+    "poses": [
+      "back to back serious both or playful bump",
+      "both leaning wall side by side looking out",
+      "one behind other arms wrapped swaying music",
+      "both looking same direction from behind",
+      "forehead to forehead eyes closed bass felt",
+      "both nodding to same beat standing",
+      "flipping through records both absorbed",
+      "pointing at track sleeve excited both",
+      "both at merch table running it",
+      "one behind decks other side monitoring",
+      "both dancing separate but together aware",
+      "circle pit adjacent both watching",
+      "both at skate spot one popping other watching",
+      "one grinding rail other films phone",
+      "back of venue watching stage both",
+      "both at stage barrier front both",
+      "mosh pit edge both laughing breathless",
+      "stage dive about to land both watching",
+      "both outside venue smokers corner",
+      "both reading gig listings poster wall",
+      "one tagging wall other on lookout",
+      "both photographing graffiti separately",
+      "workshop circle both contributing",
+      "both zine-making cutting pasting",
+      "radio interview one talking one operating",
+      "podcast recording both at mics",
+      "band practice breakdown both in zone",
+      "one mixing other watching screen",
+      "film screening both reacting differently",
+      "spoken word performing other watching",
+      "poetry open mic one performs one listens",
+      "comedy open mic one on mic one in crowd",
+      "both at art opening cheap wine hands",
+      "crit wall both looking at own work separate",
+      "community meeting both listening hard",
+      "planning meeting both note-taking",
+      "protest planning both at table",
+      "benefit gig both watching together"
+    ],
+    "looks": [
+      "oversized band tee vintage jeans each",
+      "vintage denim jacket graphic tee each",
+      "worn leather jacket dark jeans each",
+      "indie band tee cords each",
+      "thrifted blazer tee wide jeans each",
+      "punk leather patches pins each",
+      "DIY customised jacket jeans each",
+      "screen-printed tee and jeans both",
+      "charity shop find styled each",
+      "vintage sport top and trousers each",
+      "black jeans and band tee classic each",
+      "oversized hoodie joggers each",
+      "crop top high-waist jeans each",
+      "collarless shirt and straight jeans each",
+      "bucket hat hoodie joggers each",
+      "beanie sweatshirt jeans each winter",
+      "workwear jacket tee cords each",
+      "denim jacket inner fleece each",
+      "vintage windbreaker and jeans each",
+      "matching tracksuit subverted each",
+      "football casual layers each terrace",
+      "rave-era sportswear each",
+      "club kid costume each theatrical",
+      "goth layers dark each",
+      "punk tartan and leather each",
+      "metal band layers dark each",
+      "emo layered dark each",
+      "alternative mixed textures dark each",
+      "grunge flannel torn tee jeans each",
+      "hippie layers natural each",
+      "new-age layers crystals visible each",
+      "psychedelic patterned each",
+      "ska two-tone layers each",
+      "reggae roots colours each",
+      "dancehall fashion bold each",
+      "grime era tracksuit each",
+      "UK drill aesthetic layers each",
+      "jungle rave era sportswear each",
+      "garage era smart casual layers each",
+      "bassline era colourful layers each"
     ],
     "affinities": {
-      "above vs. below": {
+      "seen vs. invisible": {
         "locs": [
-          "1970s New York subway graffiti car moving night",
-          "Paris Métro Art Nouveau station 1960s",
-          "London Tube Blitz shelter 1940s platform"
+          "graffiti wall back alley",
+          "back alley mural scale",
+          "underground station off-peak quiet",
+          "night bus top deck empty",
+          "canal towpath night city"
         ],
         "poses": [
-          "both 1970s NYC subway graffiti car night moving",
-          "both Paris Métro 1960s platform waiting"
+          "both leaning against wall side by side",
+          "back of heads both looking forward",
+          "both looking same direction from behind",
+          "both standing in pool of light",
+          "one behind other arms wrapped swaying"
         ],
         "looks": [
-          "1970s New York street casual each subway",
-          "Paris 1960s casual French each Métro"
+          "dark hoodie and cargo trousers each",
+          "dark turtleneck and wide trousers each",
+          "dark layers and vintage scarf each",
+          "dark practical layers vintage mix each",
+          "oversized dark coat and tee each"
+        ]
+      },
+      "belong vs. outside": {
+        "locs": [
+          "basement gig venue packed",
+          "record shop basement listening booth",
+          "open mic night small stage",
+          "underground club low ceiling",
+          "punk venue corridor backstage"
+        ],
+        "poses": [
+          "both mid-conversation animated",
+          "one whispering in other's ear close",
+          "one showing other something in hand close",
+          "both mid-laugh heads together",
+          "cheek to cheek looking same direction"
+        ],
+        "looks": [
+          "oversized band tee and vintage jeans each",
+          "vintage denim jacket and graphic tee each",
+          "indie band tee and cords each",
+          "worn leather jacket and band tee each",
+          "indie graphic tee and dark cords each"
+        ]
+      },
+      "mainstream vs. counter": {
+        "locs": [
+          "record fair community centre",
+          "vinyl record shop floor browsing",
+          "zine fair community hall",
+          "independent bookshop back room",
+          "small press bookshop quiet"
+        ],
+        "poses": [
+          "one showing other something in hand close",
+          "both hands holding vinyl or object together",
+          "one teaching other something hands on",
+          "back to back look serious or playful bump",
+          "both crossing arms mirror pose"
+        ],
+        "looks": [
+          "painted denim jacket and dark tee each",
+          "vintage military jacket and tee each",
+          "thrifted blazer tee and wide jeans each",
+          "dark vintage layered mix each",
+          "indie layered dark mix each"
+        ]
+      },
+      "surface vs. depth": {
+        "locs": [
+          "independent gallery opening night",
+          "art squat large space",
+          "record shop basement listening booth",
+          "film photography darkroom",
+          "print shop screen printing"
+        ],
+        "poses": [
+          "both looking up at mural or wall",
+          "one tracing graffiti other watches",
+          "soft face caress both still",
+          "lying side by side fingertips touching",
+          "eyes closed leaning toward each other"
+        ],
+        "looks": [
+          "dark turtleneck and wide trousers each",
+          "oversized vintage coat and simple tee each",
+          "thrifted coat and dark simple layers each",
+          "dark vintage layered mix each",
+          "layered dark vintage each simple"
+        ]
+      },
+      "loud vs. quiet rebellion": {
+        "locs": [
+          "basement gig venue packed",
+          "punk venue corridor backstage",
+          "open mic night small stage",
+          "dive bar low light corner",
+          "local music venue stage side"
+        ],
+        "poses": [
+          "both dancing to unheard music",
+          "ring around the rosie spinning hands held",
+          "both arms wide open space",
+          "slow dance spin soft twirl",
+          "dramatic dip one supporting other"
+        ],
+        "looks": [
+          "worn leather jacket and dark jeans each",
+          "cut-off denim and band tee each",
+          "painted denim jacket and dark tee each",
+          "vintage military jacket and tee each",
+          "screen-print tee and straight jeans each"
+        ]
+      },
+      "known vs. discovered": {
+        "locs": [
+          "vinyl record shop floor browsing",
+          "record shop basement listening booth",
+          "vintage market hall indoor",
+          "back of independent cinema",
+          "small press bookshop quiet"
+        ],
+        "poses": [
+          "one showing other something in hand close",
+          "both hands holding vinyl or object together",
+          "one reading other listening close",
+          "one teaching other something hands on",
+          "both looking down at something together"
+        ],
+        "looks": [
+          "indie print tee and cords each",
+          "vintage denim jacket and graphic tee each",
+          "thrifted tee and wide denim each",
+          "screen-print tee vintage jeans each",
+          "vintage knit and straight jeans each"
+        ]
+      },
+      "authentic vs. performed": {
+        "locs": [
+          "open mic night small stage",
+          "local music venue stage side",
+          "rooftop container venue",
+          "independent gallery opening night",
+          "community radio station booth"
+        ],
+        "poses": [
+          "back to back look serious or playful bump",
+          "both crossing arms mirror pose",
+          "both leaning against wall side by side",
+          "both standing in pool of light",
+          "back of heads both looking forward"
+        ],
+        "looks": [
+          "vintage denim and dark simple tee each",
+          "indie dark layers simple each",
+          "oversized band tee and vintage jeans each",
+          "dark layered indie mix each",
+          "thrifted dark layers simple each"
+        ]
+      },
+      "local vs. scene": {
+        "locs": [
+          "local music venue stage side",
+          "independent coffee shop local",
+          "night market street food",
+          "community radio station booth",
+          "zine fair community hall"
+        ],
+        "poses": [
+          "both mid-conversation animated",
+          "cheek to cheek looking same direction",
+          "walking hand in hand arms swaying",
+          "one behind other arms wrapped swaying",
+          "tandem walk one step behind hands linked"
+        ],
+        "looks": [
+          "oversized band tee and vintage jeans each",
+          "flannel shirt and worn jeans each",
+          "indie knit and vintage jeans each",
+          "worn vintage jacket and dark trousers each",
+          "layered vintage tees and dark jeans each"
+        ]
+      },
+      "night vs. day identity": {
+        "locs": [
+          "underground club low ceiling",
+          "after-party someone's flat",
+          "night bus top deck empty",
+          "canal towpath night city",
+          "night swim outdoor lido"
+        ],
+        "poses": [
+          "both dancing to unheard music",
+          "stumble walk close together camera",
+          "slow dance spin soft twirl",
+          "both mid-laugh heads together",
+          "nose to nose eyes open"
+        ],
+        "looks": [
+          "dark hoodie and cargo trousers each",
+          "dark knit and skate trousers each",
+          "dark layers and vintage scarf each",
+          "oversized sweatshirt and dark jeans each",
+          "skate brand hoodie and dark jeans each"
+        ]
+      },
+      "old school vs. new wave": {
+        "locs": [
+          "record fair community centre",
+          "bowl skate park golden hour",
+          "vintage market hall indoor",
+          "skate park dusk empty",
+          "BMX track industrial edge"
+        ],
+        "poses": [
+          "classic piggyback one on other's back",
+          "surprise spin one runs behind other",
+          "tickle fight both laughing",
+          "running hand in hand toward camera",
+          "ring around the rosie spinning hands held"
+        ],
+        "looks": [
+          "vintage military jacket and tee each",
+          "painted denim jacket and dark tee each",
+          "cut-off denim and band tee each",
+          "vintage knit tee and dark jeans each",
+          "dark vintage tee and wide jeans each"
+        ]
+      },
+      "pure vs. sold out": {
+        "locs": [
+          "basement gig venue packed",
+          "punk venue corridor backstage",
+          "dive bar low light corner",
+          "music rehearsal space low ceiling",
+          "back of the van tour life"
+        ],
+        "poses": [
+          "both leaning against wall side by side",
+          "back to back look serious or playful bump",
+          "both crossing arms mirror pose",
+          "one hand on other's shoulder from behind",
+          "seated side by side legs touching"
+        ],
+        "looks": [
+          "worn leather jacket and dark jeans each",
+          "oversized band tee and vintage jeans each",
+          "indie band tee and cords each",
+          "cut-off denim and band tee each",
+          "screen-print tee and straight jeans each"
+        ]
+      },
+      "insider vs. outsider": {
+        "locs": [
+          "graffiti wall back alley",
+          "tattoo parlour waiting room",
+          "skate shop changing area",
+          "independent bookshop back room",
+          "record shop basement listening booth"
+        ],
+        "poses": [
+          "one whispering in other's ear close",
+          "one showing other something in hand close",
+          "both mid-conversation animated",
+          "forehead to forehead eyes closed",
+          "cheek to cheek looking same direction"
+        ],
+        "looks": [
+          "thrifted blazer tee and wide jeans each",
+          "worn leather jacket and band tee each",
+          "dark vintage layered mix each",
+          "vintage print tee and wide trousers each",
+          "indie practical dark layers each"
+        ]
+      },
+      "alone vs. together in it": {
+        "locs": [
+          "late night diner corner booth",
+          "night bus top deck empty",
+          "late cinema empty theatre",
+          "underground station off-peak quiet",
+          "late night laundromat empty"
+        ],
+        "poses": [
+          "seated side by side legs touching",
+          "lying side by side fingertips touching",
+          "sitting between other's legs leaning back",
+          "lying across other's lap hair stroked",
+          "both seated cross-legged facing each other"
+        ],
+        "looks": [
+          "dark turtleneck and wide trousers each",
+          "oversized vintage coat and simple tee each",
+          "dark layers and vintage scarf each",
+          "layered dark vintage each simple",
+          "thrifted coat and dark simple layers each"
+        ]
+      },
+      "signal vs. noise": {
+        "locs": [
+          "community radio station booth",
+          "music rehearsal space low ceiling",
+          "basement gig venue packed",
+          "open mic night small stage",
+          "record shop basement listening booth"
+        ],
+        "poses": [
+          "one hand on other's shoulder from behind",
+          "both mid-conversation animated",
+          "one teaching other something hands on",
+          "face cupped in both hands close",
+          "both pointing same direction"
+        ],
+        "looks": [
+          "graphic long sleeve and cords each",
+          "screen-print tee vintage jeans each",
+          "indie graphic tee and dark cords each",
+          "worn denim and dark knit each",
+          "dark practical layers vintage mix each"
+        ]
+      },
+      "underground vs. above ground": {
+        "locs": [
+          "underground station off-peak quiet",
+          "rooftop at night city lights",
+          "rooftop container venue",
+          "canal towpath night city",
+          "concrete skate plaza dusk"
+        ],
+        "poses": [
+          "both looking same direction from behind",
+          "back of heads both looking forward",
+          "both arms wide open space",
+          "both standing in pool of light",
+          "back to back look serious or playful bump"
+        ],
+        "looks": [
+          "dark hoodie and cargo trousers each",
+          "oversized dark coat and tee each",
+          "dark layered indie mix each",
+          "dark practical layers vintage mix each",
+          "indie dark layers simple each"
+        ]
+      },
+      "passion vs. cool": {
+        "locs": [
+          "open mic night small stage",
+          "local music venue stage side",
+          "bowl skate park golden hour",
+          "skate park dusk empty",
+          "dive bar low light corner"
+        ],
+        "poses": [
+          "both dancing to unheard music",
+          "dramatic dip one supporting other",
+          "slow dance spin soft twirl",
+          "both mid-laugh heads together",
+          "one lifting other off ground embrace"
+        ],
+        "looks": [
+          "painted denim jacket and dark tee each",
+          "vintage denim jacket and graphic tee each",
+          "worn leather jacket and dark jeans each",
+          "indie knit and vintage jeans each",
+          "thrifted blazer tee and wide jeans each"
+        ]
+      },
+      "raw vs. polished": {
+        "locs": [
+          "art squat large space",
+          "graffiti wall back alley",
+          "print shop screen printing",
+          "film photography darkroom",
+          "back alley mural scale"
+        ],
+        "poses": [
+          "one tracing graffiti other watches",
+          "both looking up at mural or wall",
+          "soft face caress both still",
+          "back to back look serious or playful bump",
+          "both crossing arms mirror pose"
+        ],
+        "looks": [
+          "cut-off denim and band tee each",
+          "painted denim jacket and dark tee each",
+          "worn leather jacket and dark jeans each",
+          "vintage military jacket and tee each",
+          "dark vintage layered mix each"
+        ]
+      },
+      "secret vs. shared": {
+        "locs": [
+          "record shop basement listening booth",
+          "basement gig venue packed",
+          "after-party someone's flat",
+          "independent bookshop back room",
+          "rooftop at night city lights"
+        ],
+        "poses": [
+          "one whispering in other's ear close",
+          "forehead to forehead eyes closed",
+          "face cupped in both hands close",
+          "noses touching about to kiss",
+          "eyes closed leaning toward each other"
+        ],
+        "looks": [
+          "dark turtleneck and wide trousers each",
+          "indie band tee and cords each",
+          "vintage knit and straight jeans each",
+          "dark layers and vintage scarf each",
+          "oversized vintage coat and simple tee each"
+        ]
+      },
+      "found vs. lost in it": {
+        "locs": [
+          "underground club low ceiling",
+          "after-party someone's flat",
+          "late night diner corner booth",
+          "night market street food",
+          "late night laundromat empty"
+        ],
+        "poses": [
+          "stumble walk close together camera",
+          "both mid-laugh heads together",
+          "walking hand in hand arms swaying",
+          "chin on other's shoulder from behind",
+          "hug from behind arms wrapped swaying"
+        ],
+        "looks": [
+          "oversized sweatshirt and dark jeans each",
+          "skate brand hoodie and dark jeans each",
+          "dark hoodie and cargo trousers each",
+          "layered thrifted dark simple each",
+          "worn dark simple vintage layers each"
+        ]
+      },
+      "now vs. then scene": {
+        "locs": [
+          "record fair community centre",
+          "vintage market hall indoor",
+          "vinyl record shop floor browsing",
+          "old warehouse rave aftermath",
+          "zine fair community hall"
+        ],
+        "poses": [
+          "one showing other something in hand close",
+          "both hands holding vinyl or object together",
+          "both looking down at something together",
+          "one reading other listening close",
+          "tandem walk one step behind hands linked"
+        ],
+        "looks": [
+          "vintage denim jacket and graphic tee each",
+          "vintage military jacket and tee each",
+          "vintage print tee and wide trousers each",
+          "vintage knit tee and dark jeans each",
+          "dark vintage tee and wide jeans each"
         ]
       }
     },
-    "locs": [
-      "1970s New York subway graffiti covered car moving",
-      "Paris Métro Art Nouveau iron station Abbesses",
-      "London Tube platform 1940s Blitz shelter night",
-      "Tokyo rush hour platform press of people",
-      "Moscow Metro marble hall chandelier Stalin",
-      "Berlin U-Bahn East West meeting point",
-      "Chicago elevated train curve city above",
-      "Hong Kong MTR night crowd neon",
-      "São Paulo Metro rush hour colour",
-      "New York City Hall station abandoned ghost",
-      "Berlin bunker tunnel 1945 historic",
-      "Paris catacombs skull lined tunnel",
-      "London Tube 1940s carriage wartime",
-      "Moscow Metro escalator long marble",
-      "New York subway platform late night empty",
-      "Tokyo station corridor endless wayfinding",
-      "Chicago riveted steel elevated track exterior",
-      "Berlin U5 DDR era station concrete",
-      "Paris Métro rubber tyres 1960s modern",
-      "San Francisco BART tube underwater bay"
-    ],
-    "poses": [
-      "both 1970s NYC subway graffiti moving car night",
-      "both Paris Métro platform waiting 1960s",
-      "both London Tube 1940s shelter platform",
-      "both Tokyo rush hour press impossible",
-      "both Moscow Metro marble hall escalator",
-      "both late night subway platform empty",
-      "both Berlin U-Bahn Cold War crossing point",
-      "both elevated track exterior city below Chicago",
-      "both Paris catacombs tunnel skull lined",
-      "both Tokyo station corridor endless wayfinding"
-    ],
-    "looks": [
-      "1970s New York street graffiti era casual each",
-      "Paris 1960s French casual chic each",
-      "London 1940s wartime practical utility each",
-      "Tokyo contemporary office commuter suit each",
-      "Moscow 1950s Soviet formal coat each",
-      "Berlin Cold War practical crossing each",
-      "contemporary transit casual urban each",
-      "late night subway tired casual each",
-      "rush hour commuter smart work clothes each",
-      "underground explorer practical casual each"
-    ],
-    "promptSuffix": "Colour grade: 1970s NYC fluorescent and graffiti, Paris Métro amber iron, London Tube wartime, Moscow marble chandelier."
+    "promptSuffix": "Colour grade: low light, practical sources — record shop strip, club monitor glow, sodium street through a doorway. Authentic and unglamorous."
   },
   {
     "id": "expedition",
