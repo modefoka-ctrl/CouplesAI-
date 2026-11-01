@@ -5749,7 +5749,15 @@ const WORLDS = [
       }
     },
     "promptPrefix": "Period-accurate historical photograph, authentic to the era and location depicted — ",
-    "promptSuffix": "Render with period-accurate costume, lighting and setting. The photographic style should match the era: daguerreotype for 1840s, sepia albumen print for Victorian, black-and-white documentary for mid-20th century, colour photography from the 1970s onward."
+    "promptSuffix": "Render with period-accurate costume, lighting and setting. The photographic style should match the era: daguerreotype for 1840s, sepia albumen print for Victorian, black-and-white documentary for mid-20th century, colour photography from the 1970s onward.",
+    "variantDirectives": [
+      "Wide period frame, the figures small within the historical setting: ",
+      "Full-length period frame, posture and gesture carry the feeling: ",
+      "Tight period portrait, faces fill the frame: ",
+      "Stark single-light composition, plain and minimal, as an early photograph: ",
+      "The historical place dominates the frame, the figures secondary: ",
+      "Period costume takes centre stage, the figures framed to show the dress: "
+    ]
   },
   {
     "id": "mystery",
@@ -6365,7 +6373,15 @@ const WORLDS = [
       }
     },
     "promptPrefix": "Cinematic noir photograph, film grain, deep shadows, high contrast chiaroscuro lighting, atmosphere of unease or suspense — ",
-    "promptSuffix": "Render with film noir visual language: deep blacks, practical light sources, fog or haze where appropriate, shadows that obscure as much as they reveal. The mood should feel like a still from a psychological thriller."
+    "promptSuffix": "Render with film noir visual language: deep blacks, practical light sources, fog or haze where appropriate, shadows that obscure as much as they reveal. The mood should feel like a still from a psychological thriller.",
+    "variantDirectives": [
+      "Wide noir frame, the figures small among shadows and architecture: ",
+      "Full-length frame in deep shadow, posture and gesture carry the suspense: ",
+      "Tight close-up half in shadow, faces fill the frame: ",
+      "One hard light source, near-black frame, stark and minimal: ",
+      "The fog-bound setting dominates the frame, the figures secondary: ",
+      "Coats, hats and costume take centre stage, the figures framed to show them: "
+    ]
   },
   {
     "id": "hero",
@@ -6521,7 +6537,15 @@ const WORLDS = [
       "noir detective rumpled suit each"
     ],
     "promptPrefix": "Cinematic genre still — spaghetti western, noir, samurai, kung fu — dynamic mid-action composition, low angles, extreme close-ups, Dutch tilts — ",
-    "promptSuffix": "This is a mid-action genre film still. Dynamic angle, motion implied. Not a poster — a frame from the action. Low angle, extreme close-up, Dutch tilt, motion blur on the world. The subjects are in motion or about to move."
+    "promptSuffix": "This is a mid-action genre film still. Dynamic angle, motion implied. Not a poster — a frame from the action. Low angle, extreme close-up, Dutch tilt, motion blur on the world. The subjects are in motion or about to move.",
+    "variantDirectives": [
+      "Wide action frame, the figures small against the vast landscape or street: ",
+      "Full-body low-angle frame mid-movement, action carries the drama: ",
+      "Extreme close-up, eyes and tension fill the frame: ",
+      "Stark silhouette composition, one hard light, minimal detail: ",
+      "The setting dominates the frame, the figures secondary to the place: ",
+      "Costume and gear take centre stage, the figures framed to show them: "
+    ]
   },
   {
     "id": "space",
@@ -6694,7 +6718,15 @@ const WORLDS = [
       "NASA formal presentation 1960s each"
     ],
     "promptPrefix": "Space photography aesthetic — the specific visual language of real space imagery from NASA, ESA and the Soviet programme — documentary candid quality — ",
-    "promptSuffix": "Render with the specific quality of real space imagery: NASA mission control grain and console glow 1960s, astronaut suit-up room pre-launch tension, ISS weightless candid. Human and warm despite the context. Not science fiction — real space, real humans, specific era."
+    "promptSuffix": "Render with the specific quality of real space imagery: NASA mission control grain and console glow 1960s, astronaut suit-up room pre-launch tension, ISS weightless candid. Human and warm despite the context. Not science fiction — real space, real humans, specific era.",
+    "variantDirectives": [
+      "Wide frame of the whole room or vista, the figures small within it: ",
+      "Full-length candid frame, posture and gesture carry the feeling: ",
+      "Tight candid close-up, faces fill the frame: ",
+      "Single source of light, stark and minimal: ",
+      "The hardware and setting dominate the frame, the figures secondary: ",
+      "Flight suits and period clothing take centre stage, the figures framed to show them: "
+    ]
   },
   {
     "id": "art",
@@ -10395,7 +10427,15 @@ const WORLDS = [
       }
     },
     "promptPrefix": "High fashion editorial photograph, fashion week or luxury magazine quality — ",
-    "promptSuffix": "Render with the precision and intentionality of high fashion photography: every element of the frame is considered, the garments are the protagonist, the lighting is deliberate and sculptural. The quality should read as Vogue, i-D or AnOther Magazine."
+    "promptSuffix": "Render with the precision and intentionality of high fashion photography: every element of the frame is considered, the garments are the protagonist, the lighting is deliberate and sculptural. The quality should read as Vogue, i-D or AnOther Magazine.",
+    "variantDirectives": [
+      "Wide runway frame, the figures small within the show space: ",
+      "Full-length editorial frame, movement and posture carry the mood: ",
+      "Tight beauty close-up, faces fill the frame: ",
+      "One hard light on a bare set, stark and minimal: ",
+      "The set and architecture dominate the frame, the figures secondary: ",
+      "Full-length lookbook frame, every detail of the garments visible: "
+    ]
   },
   {
     "id": "protest",
@@ -11012,7 +11052,15 @@ const WORLDS = [
       }
     },
     "promptPrefix": "Documentary reportage photograph, editorial quality, photojournalism aesthetic — ",
-    "promptSuffix": "Render as a serious documentary photograph: available light, the energy of the real moment, not a staged portrait. The quality should feel like it belongs in a newspaper front page or a World Press Photo submission."
+    "promptSuffix": "Render as a serious documentary photograph: available light, the energy of the real moment, not a staged portrait. The quality should feel like it belongs in a newspaper front page or a World Press Photo submission.",
+    "variantDirectives": [
+      "Wide documentary frame, the figures small within the crowd and street: ",
+      "Full-length frame in the thick of it, posture and gesture carry the moment: ",
+      "Tight close-up, faces fill the frame: ",
+      "Stark available-light composition, minimal detail: ",
+      "The street and scene dominate the frame, the figures secondary: ",
+      "Clothing, signs and banners take centre stage, the figures framed to show them: "
+    ]
   },
   {
     "id": "desert",
@@ -11720,7 +11768,15 @@ const WORLDS = [
       }
     },
     "promptPrefix": "Surrealist fine art photograph, dreamlike and impossible, rendered with photographic realism but depicting something that cannot exist — ",
-    "promptSuffix": "The impossible element should feel completely natural within the frame. Render with the crisp, hyper-real quality of fine art photography — the surrealism comes from the subject matter, not degraded image quality."
+    "promptSuffix": "The impossible element should feel completely natural within the frame. Render with the crisp, hyper-real quality of fine art photography — the surrealism comes from the subject matter, not degraded image quality.",
+    "variantDirectives": [
+      "Wide frame, the figures small within the impossible scene: ",
+      "Full-length frame, posture and gesture carry the strangeness: ",
+      "Tight close-up, faces fill the frame: ",
+      "Stark minimal composition, one calm light, nothing extra: ",
+      "The impossible setting dominates the frame, the figures secondary: ",
+      "Costume takes centre stage, the figures framed to show the clothes: "
+    ]
   },
   {
     "id": "underworld",
@@ -12326,7 +12382,15 @@ const WORLDS = [
       }
     },
     "promptPrefix": "Mythological fine art, painterly and dramatic, the visual language of classical mythology or dark fantasy — ",
-    "promptSuffix": "Render with the dramatic, painterly quality of mythological art: deep atmospheric lighting, symbolic visual elements, the subjects feel timeless and archetypal rather than contemporary. Draw on the visual language of Gustave Moreau, John William Waterhouse or contemporary dark fantasy photography."
+    "promptSuffix": "Render with the dramatic, painterly quality of mythological art: deep atmospheric lighting, symbolic visual elements, the subjects feel timeless and archetypal rather than contemporary. Draw on the visual language of Gustave Moreau, John William Waterhouse or contemporary dark fantasy photography.",
+    "variantDirectives": [
+      "Vast painted frame, the figures small within a mythic landscape: ",
+      "Three-quarter length, posture and gesture carry the drama: ",
+      "Tight head-and-shoulders portrait, faces fill the canvas: ",
+      "Bold simplified composition, one dominant shape, minimal detail: ",
+      "The mythic setting dominates the canvas, the figures secondary: ",
+      "Robes and regalia take centre stage, the figures posed to show them: "
+    ]
   },
   {
     "id": "storm",
@@ -13162,7 +13226,15 @@ const WORLDS = [
       "expedition simple layers each discovery"
     ],
     "promptPrefix": "Documentary exploration photography at the edge of what is possible — impossible geography, lost worlds, fantastical natural phenomena, the sense of discovery of something that should not exist — ",
-    "promptSuffix": "The world in this image should feel like it should not exist: bioluminescent, impossible in scale, ancient beyond reckoning, or simply too beautiful to be real. The subjects are the witnesses. Their scale against the impossible makes the image."
+    "promptSuffix": "The world in this image should feel like it should not exist: bioluminescent, impossible in scale, ancient beyond reckoning, or simply too beautiful to be real. The subjects are the witnesses. Their scale against the impossible makes the image.",
+    "variantDirectives": [
+      "Vast wide frame, the figures tiny against the impossible landscape: ",
+      "Full-length frame, wonder carried in posture and gesture: ",
+      "Tight close-up on faces lit by the strange light: ",
+      "Single strange light source, stark and minimal: ",
+      "The impossible place dominates the frame, the figures secondary: ",
+      "Expedition gear and clothing take centre stage, the figures framed to show them: "
+    ]
   },
   {
     "id": "rooftop",
@@ -13502,7 +13574,15 @@ const WORLDS = [
       "smart casual each caught in something real"
     ],
     "promptPrefix": "Security camera or dashcam footage aesthetic — overhead or wide angle, slightly grainy, timestamp in corner optional, the subjects completely unaware they are being filmed — ",
-    "promptSuffix": "This is candid surveillance footage of a genuinely human moment. The subjects do not know they are being filmed. The camera catches something real — joy, love, argument resolved, spontaneous dance, unexpected reunion. Grainy, overhead, wide angle, real."
+    "promptSuffix": "This is candid surveillance footage of a genuinely human moment. The subjects do not know they are being filmed. The camera catches something real — joy, love, argument resolved, spontaneous dance, unexpected reunion. Grainy, overhead, wide angle, real.",
+    "variantDirectives": [
+      "Wide overhead camera view, the figures small within the frame: ",
+      "Fixed mid-distance camera, full bodies and gestures visible: ",
+      "Zoomed-in camera crop, faces fill the frame: ",
+      "Grainy single-angle view, stark and minimal: ",
+      "The location dominates the camera view, the figures secondary: ",
+      "The camera catches their clothes first, the figures framed head to toe: "
+    ]
   },
   {
     "id": "studio",
@@ -13708,7 +13788,15 @@ const WORLDS = [
       "earth tones each warm natural palette"
     ],
     "promptPrefix": "Professional studio portrait photographed entirely inside a controlled photography studio with artificial studio lighting only — no natural light, no outdoor elements — medium format quality, intentional composition — ",
-    "promptSuffix": "This is a controlled studio environment: no windows, no natural light, no outdoor elements. Artificial studio lighting only — strobes, softboxes, or continuous LED. The background is a studio backdrop or studio wall, nothing else. Render in rich colour or high-contrast black and white — black and white when form, mood or contrast calls for it, colour when skin tone, wardrobe or warmth carries meaning. Every element in the frame is deliberate."
+    "promptSuffix": "This is a controlled studio environment: no windows, no natural light, no outdoor elements. Artificial studio lighting only — strobes, softboxes, or continuous LED. The background is a studio backdrop or studio wall, nothing else. Render in rich colour or high-contrast black and white — black and white when form, mood or contrast calls for it, colour when skin tone, wardrobe or warmth carries meaning. Every element in the frame is deliberate.",
+    "variantDirectives": [
+      "Full-length on a wide backdrop, the figures small in an empty studio: ",
+      "Three-quarter length, hands and posture carry the feeling: ",
+      "Tight close portrait, faces fill the frame: ",
+      "One light, one backdrop, stark simplicity: ",
+      "The backdrop and set dominate the frame, the figures secondary: ",
+      "Fashion editorial framing, the garments are the protagonist: "
+    ]
   },
   {
     "id": "bmovie",
@@ -13863,7 +13951,15 @@ const WORLDS = [
       "nightwear pyjamas interrupted sleep each"
     ],
     "promptPrefix": "Vintage science-fiction or horror B-movie film still, 1950s to 1970s aesthetic, Technicolor or grainy monochrome, theatrical lighting, low-budget practical effects aesthetic — ",
-    "promptSuffix": "Render as an authentic B-movie film still: theatrical lighting, practical effects aesthetic, period-accurate costume and setting. Alternate between saturated Technicolor and high-contrast black and white. The image should feel like a frame from a real 1950s–1970s genre film — camp, earnest, visually dramatic."
+    "promptSuffix": "Render as an authentic B-movie film still: theatrical lighting, practical effects aesthetic, period-accurate costume and setting. Alternate between saturated Technicolor and high-contrast black and white. The image should feel like a frame from a real 1950s–1970s genre film — camp, earnest, visually dramatic.",
+    "variantDirectives": [
+      "Wide set frame showing the whole painted backdrop, the figures small: ",
+      "Full-length theatrical pose, camp gesture carries the drama: ",
+      "Dramatic close-up lit from below, faces fill the frame: ",
+      "Stark high-contrast composition, one hard stage light, minimal detail: ",
+      "The set and creature effects dominate the frame, the figures secondary: ",
+      "Costume and monster suits take centre stage, the figures posed to show them: "
+    ]
   },
   {
     "id": "archive",
@@ -14010,7 +14106,15 @@ const WORLDS = [
       "working clothes everyday period candid"
     ],
     "promptPrefix": "Authentic period portrait photograph, historically accurate to the era and photographic technology depicted — ",
-    "promptSuffix": "The image must look like a genuine photograph from its era: period-accurate photographic format, lighting technology, costume and aesthetic throughout. The image should feel like it was genuinely taken then."
+    "promptSuffix": "The image must look like a genuine photograph from its era: period-accurate photographic format, lighting technology, costume and aesthetic throughout. The image should feel like it was genuinely taken then.",
+    "variantDirectives": [
+      "Wide period frame, the sitters small within the studio or street: ",
+      "Full-length period frame, posture and gesture carry the feeling: ",
+      "Tight period portrait, faces fill the frame: ",
+      "Stark single-light period composition, plain and minimal: ",
+      "The period setting dominates the frame, the sitters secondary: ",
+      "Period clothing takes centre stage, the sitters framed to show the dress: "
+    ]
   },
   {
     "id": "carnival",
