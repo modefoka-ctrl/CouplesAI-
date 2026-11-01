@@ -939,7 +939,7 @@ function buildPromptString(){
   // World-specific mood suffix (overrides standard mood note)
   var moodNote='';
   if(w&&w.promptSuffix){
-    var tensionNote=S.tension?' The emotional tension — '+S.tension+' — is atmosphere only. Do not illustrate it literally. ':' ';
+    var tensionNote=(S.tension&&!w.tensionIsStyle)?' The emotional tension — '+S.tension+' — is atmosphere only. Do not illustrate it literally. ':' ';
     moodNote=tensionNote+w.promptSuffix;
   } else if(ten){
     moodNote=' The emotional tension — '+S.tension+' — is atmosphere only. Do not illustrate it literally.';
@@ -1004,7 +1004,7 @@ function updatePrompt(){
   let html='<span class="pt-fixed">'+buildFixed()+'</span>';
   if(parts.length) html+=' '+parts.join(sep)+dot;
   else html+=' <span class="pt-empty">\u2014 pick tension, location, pose or look</span>';
-  if(S.tension && parts.length){
+  if(S.tension && parts.length && !(typeof getWorld==='function' && getWorld() && getWorld().tensionIsStyle)){
     html+='<span class="pt-mood"> The emotional tension — '+S.tension+' — is atmosphere only. Do not illustrate it literally.</span>';
   }
   ptEl.innerHTML=html;
@@ -1167,10 +1167,10 @@ function refineLocal(){
     // World-specific opening (ratio+subject + world style if prefix exists)
     var vOpening=(w&&w.promptPrefix)?buildFixed()+' '+w.promptPrefix:buildFixed()+' ';
     // Directive: skip for worlds with promptPrefix (they already define visual style)
-    var vDir=(w&&w.promptPrefix)?'':VARIANT_DIRECTIVES[i];
+    var vDir=(w&&w.variantDirectives&&w.variantDirectives[i])?w.variantDirectives[i]:((w&&w.promptPrefix)?'':VARIANT_DIRECTIVES[i]);
     // Suffix: world-specific or standard mood note
     var vMood='';
-    if(w&&w.promptSuffix){var tn=S.tension?' The emotional tension — '+S.tension+' — is atmosphere only. Do not illustrate it literally. ':' ';vMood=tn+w.promptSuffix;}
+    if(w&&w.promptSuffix){var tn=(S.tension&&!w.tensionIsStyle)?' The emotional tension — '+S.tension+' — is atmosphere only. Do not illustrate it literally. ':' ';vMood=tn+w.promptSuffix;}
     else if(S.tension){vMood=' The emotional tension — '+S.tension+' — is atmosphere only. Do not illustrate it literally.';}
     variants.push({full:vOpening+(vDir?vDir+inner:inner)+vMood,wc:inner.split(/\s+/).filter(Boolean).length,label:VARIANT_LABELS[i]});
   }
