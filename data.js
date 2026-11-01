@@ -7665,7 +7665,7 @@ const WORLDS = [
       "The setting dominates the canvas, the figures secondary to the scene: ",
       "Costume and fabric take centre stage, the figures posed to show the dress: "
     ],
-    "promptPrefix": "Fine art portrait painted as an original artwork — ",
+    "promptPrefix": "Fine art portrait as an original artwork — ",
     "promptSuffix": "The subjects exist inside the artwork, not in front of it."
   },
   {
