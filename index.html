@@ -341,7 +341,7 @@ function buildPromptString(){
   var opening=(_w&&_w.promptPrefix)?buildFixed()+' '+_w.promptPrefix:buildFixed()+' ';
   var moodNote='';
   if(_w&&_w.promptSuffix){
-    moodNote=(S.tension?' The emotional tension \u2014 '+S.tension+' \u2014 is atmosphere only. Do not illustrate it literally. ':'')+_w.promptSuffix;
+    moodNote=(S.tension&&!_w.tensionIsStyle?' The emotional tension \u2014 '+S.tension+' \u2014 is atmosphere only. Do not illustrate it literally. ':' ')+_w.promptSuffix;
   } else if(ten){
     moodNote=' The emotional tension \u2014 '+S.tension+' \u2014 is atmosphere only. Do not illustrate it literally.';
   }
@@ -400,11 +400,11 @@ function buildVariants(){
     var t=Object.assign({},baseT,{connector:conn});
     var inner=TEMPLATES[i](t)
       .replace(/^,\s*/,'').replace(/,\s*,/g,',').replace(/,\s*\./g,'.').replace(/\.$/,'');
-    var vDir=(w&&w.promptPrefix)?'':VARIANT_DIRECTIVES[i];
+    var vDir=(w&&w.variantDirectives&&w.variantDirectives[i])?w.variantDirectives[i]:((w&&w.promptPrefix)?'':VARIANT_DIRECTIVES[i]);
     var vOpening=(w&&w.promptPrefix)?buildFixed()+' '+w.promptPrefix:buildFixed()+' ';
     var vMood='';
     if(w&&w.promptSuffix){
-      vMood=(S.tension?' The emotional tension \u2014 '+S.tension+' \u2014 is atmosphere only. Do not illustrate it literally. ':'')+w.promptSuffix;
+      vMood=(S.tension&&!w.tensionIsStyle?' The emotional tension \u2014 '+S.tension+' \u2014 is atmosphere only. Do not illustrate it literally. ':' ')+w.promptSuffix;
     } else if(S.tension){
       vMood=' The emotional tension \u2014 '+S.tension+' \u2014 is atmosphere only. Do not illustrate it literally.';
     }
