@@ -893,7 +893,7 @@ function buildPromptString(){
   if(!S.world) return null;
   var w=getWorld();
   var conn=pickConn(w);
-  var ten=S.tension?translateTension(S.tension):null;
+  var ten=S.tension?translateTension(S.tension):null; if(ten===S.tension&&(S.pose||S.loc)) ten=null;
 
   var sentence='';
 
@@ -993,7 +993,7 @@ function updatePrompt(){
   const sep='<span style="color:#2e2a25">, </span>';
   const dot='<span style="color:#2e2a25">.</span>';
   const parts=[];
-  if(S.tension) parts.push('<span class="pt-tension">'+translateTension(S.tension)+'</span>');
+  if(S.tension && !(translateTension(S.tension)===S.tension && (S.loc||S.pose))) parts.push('<span class="pt-tension">'+translateTension(S.tension)+'</span>');
   if(S.loc){ const v=S.loc==='__ai__'?'[AI: location]':S.loc; parts.push('<span class="pt-loc">'+v+'</span>'); }
   if(S.pose){ const v=S.pose==='__ai__'?'[AI: pose]':S.pose; parts.push('<span class="pt-pose">'+v+'</span>'); }
   if(S.look){ const v=S.look==='__ai__'?'[AI: look]':S.look; parts.push('<span class="pt-look">'+v+'</span>'); }
