@@ -320,7 +320,7 @@ function buildPromptString(){
   if(!S.world) return null;
   var w=getWorld();
   var conn=pickConn(w);
-  var ten=S.tension?translateTension(S.tension):null;
+  var ten=S.tension?translateTension(S.tension):null; if(ten===S.tension&&(S.pose||S.loc)) ten=null;
   var sentence='';
   if(ten&&S.pose&&S.loc) sentence=ten+' \u2014 '+S.pose+' '+conn+' '+S.loc;
   else if(ten&&S.pose) sentence=ten+', '+S.pose;
@@ -379,7 +379,7 @@ function randomize(){
 // ── Build variants ────────────────────────────────────────────
 function buildVariants(){
   var w=getWorld();
-  var ten=S.tension?translateTension(S.tension):null;
+  var ten=S.tension?translateTension(S.tension):null; if(ten===S.tension&&(S.pose||S.loc)) ten=null;
   var conn=pickConn(w);
   var variants=[];
 
