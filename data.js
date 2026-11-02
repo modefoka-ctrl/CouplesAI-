@@ -1325,18 +1325,18 @@ const WORLDS = [
       "noir vs. neon": {
         "locs": [
           "Los Angeles rain 1940s noir street lamp wet reflection",
-          "New York fire escape rain night noir",
+          "Chicago noir El train overhead rain night shadow",
           "San Francisco Chandler fog hill cable car night"
         ],
         "poses": [
-          "both noir Los Angeles rain street lamp wet reflection",
-          "both fire escape rain night noir",
-          "both steam vent night dramatic urban"
+          "both running through the rain, coats flying",
+          "both pressed against the wall as headlights sweep past",
+          "one gripping the other's sleeve, glancing over a shoulder"
         ],
         "looks": [
-          "1940s noir trench coat fedora each Los Angeles",
-          "city night dark each urban",
-          "city formal out of place each incongruous"
+          "trench coat and fedora each",
+          "dark coat with the collar up each",
+          "rumpled suit and loosened tie each"
         ]
       },
       "anonymous vs. seen": {
@@ -1346,48 +1346,150 @@ const WORLDS = [
           "Seoul Gangnam neon night K-beauty signage"
         ],
         "poses": [
-          "both Tokyo neon alley narrow night dense",
-          "both Hong Kong neon night crowd dense",
-          "both city crossing night light trails"
+          "both small amid towers of glowing signs, faces lit",
+          "both weaving through a crowd, hand in hand",
+          "both leaning in a doorway, colour on their faces"
         ],
         "looks": [
-          "Tokyo street fashion layered neon night each",
-          "Hong Kong street dense casual each",
-          "Seoul street fashion each K-style"
+          "layered streetwear and bucket hat each",
+          "oversized jacket and platform shoes each",
+          "bright puffer and tech trousers each"
         ]
       },
-      "the promise vs. the reality": {
+      "the crowd vs. the individual": {
         "locs": [
-          "East Berlin Plattenbau brutalist block 1970s grey",
-          "Moscow Khrushchyovka block estate winter",
-          "Belgrade brutalist monument vast dramatic"
+          "Las Vegas strip neon day garish",
+          "New York City steam vent night dramatic",
+          "London Soho alley night neon sign"
         ],
         "poses": [
-          "both brutalist block exterior vast grey behind",
-          "both looking down from above city vast",
-          "both city dawn empty before it starts"
+          "both walking fast, swirling vapour at their feet",
+          "both sharing a cigarette beneath a flickering light",
+          "both laughing in the glare of a passing taxi"
         ],
         "looks": [
-          "brutalist city practical dark each Eastern European",
-          "city casual commuter each",
-          "contemporary city smart casual each"
+          "leather jacket and scuffed boots each",
+          "bomber jacket and beanie each",
+          "long coat and scarf each"
         ]
       },
       "above vs. below": {
         "locs": [
-          "Paris Haussmann boulevard golden stone dawn",
-          "Edinburgh Old Town stone alley gaslight",
-          "Budapest Parliament Danube reflection night"
+          "Shanghai Pudong glass tower forest night",
+          "Dubai glass tower desert edge dawn",
+          "Singapore Marina Bay night reflection water"
         ],
         "poses": [
-          "both Paris Haussmann golden boulevard dawn",
-          "both Edinburgh stone alley gaslight",
-          "both city alley dramatic urban light"
+          "both dwarfed by the glittering towers, looking up",
+          "both crossing a plaza of reflected glass",
+          "both leaning on the rail beside the water, lights doubled"
         ],
         "looks": [
-          "Paris boulevard chic each golden stone",
-          "contemporary city smart casual each",
-          "city casual commuter each"
+          "sleek dark suit and minimal dress each",
+          "crisp white shirt and tailored trousers each",
+          "modern overcoat and sharp shoes each"
+        ]
+      },
+      "new vs. decayed": {
+        "locs": [
+          "East Berlin Plattenbau brutalist block 1970s grey",
+          "Moscow Khrushchyovka block estate winter",
+          "London Barbican brutalist concrete walkways"
+        ],
+        "poses": [
+          "both tiny at the foot of the monumental slabs",
+          "both walking a long walkway, shadows stretching",
+          "both leaning on a balcony rail, staring out"
+        ],
+        "looks": [
+          "plain dark coat and boots each",
+          "grey wool coat and woollen hat each",
+          "practical jacket and scarf each"
+        ]
+      },
+      "fast vs. still": {
+        "locs": [
+          "Paris Haussmann boulevard golden stone dawn",
+          "Edinburgh Old Town stone alley gaslight",
+          "Prague Old Town square golden cobblestone dawn"
+        ],
+        "poses": [
+          "both strolling arm in arm along the stone",
+          "both stopped at a corner, looking up at the carved facades",
+          "both sitting at a café table, the light golden around them"
+        ],
+        "looks": [
+          "tailored wool coat and silk scarf each",
+          "long camel coat and leather gloves each",
+          "smart jacket and loafers each"
+        ]
+      },
+      "the city vs. the person": {
+        "locs": [
+          "Osaka Dotonbori neon canal reflection night",
+          "Bangkok Chinatown neon night dense traffic",
+          "Tokyo Shinjuku neon night alley narrow dense kanji"
+        ],
+        "poses": [
+          "both small amid towers of glowing signs, faces lit",
+          "both weaving through a crowd, hand in hand",
+          "both leaning in a doorway, colour on their faces"
+        ],
+        "looks": [
+          "layered streetwear and bucket hat each",
+          "oversized jacket and platform shoes each",
+          "bright puffer and tech trousers each"
+        ]
+      },
+      "lost vs. found": {
+        "locs": [
+          "New York fire escape rain night noir",
+          "Los Angeles rain 1940s noir street lamp wet reflection",
+          "Chicago noir El train overhead rain night shadow"
+        ],
+        "poses": [
+          "both running through the rain, coats flying",
+          "both pressed against the wall as headlights sweep past",
+          "one gripping the other's sleeve, glancing over a shoulder"
+        ],
+        "looks": [
+          "trench coat and fedora each",
+          "dark coat with the collar up each",
+          "rumpled suit and loosened tie each"
+        ]
+      },
+      "public vs. private": {
+        "locs": [
+          "Budapest Parliament Danube reflection night",
+          "Vienna Ringstrasse imperial architecture dusk",
+          "Barcelona Gothic Quarter narrow golden"
+        ],
+        "poses": [
+          "both strolling arm in arm along the stone",
+          "both stopped at a corner, looking up at the carved facades",
+          "both sitting at a café table, the light golden around them"
+        ],
+        "looks": [
+          "tailored wool coat and silk scarf each",
+          "long camel coat and leather gloves each",
+          "smart jacket and loafers each"
+        ]
+      },
+      "the promise vs. the reality": {
+        "locs": [
+          "Marseille Unité d'Habitation Le Corbusier",
+          "Belgrade brutalist monument vast dramatic",
+          "Minsk Soviet boulevard vast ceremonial"
+        ],
+        "poses": [
+          "both tiny at the foot of the monumental slabs",
+          "both walking a long walkway, shadows stretching",
+          "both leaning on a balcony rail, staring out"
+        ],
+        "looks": [
+          "plain dark coat and boots each",
+          "grey wool coat and woollen hat each",
+          "practical jacket and scarf each"
         ]
       }
     },
@@ -1400,8 +1502,11 @@ const WORLDS = [
       "Hong Kong Mong Kok neon night dense vertical signs",
       "Seoul Gangnam neon night K-beauty signage",
       "Osaka Dotonbori neon canal reflection night",
-      "Las Vegas strip neon day garish",
       "Bangkok Chinatown neon night dense traffic",
+      "Las Vegas strip neon day garish",
+      "New York City steam vent night dramatic",
+      "London Soho alley night neon sign",
+      "New York Chinatown night dense narrow",
       "East Berlin Plattenbau brutalist block 1970s grey",
       "Moscow Khrushchyovka block estate winter",
       "London Barbican brutalist concrete walkways",
@@ -1414,50 +1519,53 @@ const WORLDS = [
       "Budapest Parliament Danube reflection night",
       "Vienna Ringstrasse imperial architecture dusk",
       "Barcelona Gothic Quarter narrow golden",
+      "Paris catacombs skull lined narrow torch",
       "Shanghai Pudong glass tower forest night",
       "Dubai glass tower desert edge dawn",
       "Singapore Marina Bay night reflection water",
       "New York Hudson Yards contemporary glass",
       "London Canary Wharf glass canyon night",
-      "Singapore Jewel Changi waterfall interior",
-      "New York City steam vent night dramatic",
-      "Paris catacombs skull lined narrow torch",
-      "London Soho alley night neon sign",
-      "New York Chinatown night dense narrow"
+      "Singapore Jewel Changi waterfall interior"
     ],
     "poses": [
-      "both noir Los Angeles rain street lamp wet reflection",
-      "both Tokyo neon alley narrow night dense",
-      "both brutalist block exterior vast grey behind",
-      "both Paris Haussmann golden boulevard dawn",
-      "both Hong Kong neon night crowd dense",
-      "both Edinburgh stone alley gaslight",
-      "both Shanghai glass tower night small",
-      "both fire escape rain night noir",
-      "both steam vent night dramatic urban",
-      "both city crossing night light trails",
-      "both looking down from above city vast",
-      "both lost in crowd city anonymous",
-      "both corner cafe city watching street",
-      "both underground city passage narrow",
-      "both rooftop city spread below night",
-      "both city construction site dramatic",
-      "both city subway rush hour",
-      "both city park bench urban green",
-      "both city alley dramatic urban light",
-      "both city dawn empty before it starts"
+      "both running through the rain, coats flying",
+      "both pressed against the wall as headlights sweep past",
+      "one gripping the other's sleeve, glancing over a shoulder",
+      "both small amid towers of glowing signs, faces lit",
+      "both weaving through a crowd, hand in hand",
+      "both leaning in a doorway, colour on their faces",
+      "both walking fast, swirling vapour at their feet",
+      "both sharing a cigarette beneath a flickering light",
+      "both laughing in the glare of a passing taxi",
+      "both tiny at the foot of the monumental slabs",
+      "both walking a long walkway, shadows stretching",
+      "both leaning on a balcony rail, staring out",
+      "both strolling arm in arm along the stone",
+      "both stopped at a corner, looking up at the carved facades",
+      "both sitting at a café table, the light golden around them",
+      "both dwarfed by the glittering towers, looking up",
+      "both crossing a plaza of reflected glass",
+      "both leaning on the rail beside the water, lights doubled"
     ],
     "looks": [
-      "1940s noir trench coat fedora each Los Angeles",
-      "Tokyo street fashion layered neon night each",
-      "brutalist city practical dark each Eastern European",
-      "Paris boulevard chic each golden stone",
-      "Hong Kong street dense casual each",
-      "contemporary city smart casual each",
-      "city night dark each urban",
-      "Seoul street fashion each K-style",
-      "city casual commuter each",
-      "city formal out of place each incongruous"
+      "trench coat and fedora each",
+      "dark coat with the collar up each",
+      "rumpled suit and loosened tie each",
+      "layered streetwear and bucket hat each",
+      "oversized jacket and platform shoes each",
+      "bright puffer and tech trousers each",
+      "leather jacket and scuffed boots each",
+      "bomber jacket and beanie each",
+      "long coat and scarf each",
+      "plain dark coat and boots each",
+      "grey wool coat and woollen hat each",
+      "practical jacket and scarf each",
+      "tailored wool coat and silk scarf each",
+      "long camel coat and leather gloves each",
+      "smart jacket and loafers each",
+      "sleek dark suit and minimal dress each",
+      "crisp white shirt and tailored trousers each",
+      "modern overcoat and sharp shoes each"
     ],
     "promptSuffix": "Colour grade by register: noir rain and shadow, Tokyo neon saturated vertical, brutalist grey and flat, Haussmann golden warm stone. The city IS the character."
   },
@@ -2757,17 +2865,172 @@ const WORLDS = [
     "affinities": {
       "soaked vs. sheltered": {
         "locs": [
-          "Mumbai monsoon street flooding first rain joy",
-          "London grey drizzle umbrella commute Waterloo Bridge",
-          "Blade Runner noir rain alley neon wet reflection"
+          "tropical downpour beach shelter dramatic",
+          "Scottish highland sudden downpour open moor",
+          "New York summer downpour steam street"
         ],
         "poses": [
-          "both Mumbai monsoon first rain joy arms open",
-          "both London drizzle umbrella commute bridge"
+          "both running for cover, laughing",
+          "both pressed in a doorway, soaked and breathless",
+          "both caught mid-sprint, clothes streaming"
         ],
         "looks": [
-          "Mumbai monsoon soaked cotton each joy",
-          "London commuter umbrella practical each"
+          "summer dress and light shirt, soaked each",
+          "jeans and tee, soaked through each",
+          "linen shirt and shorts, drenched each"
+        ]
+      },
+      "the umbrella vs. the giving up": {
+        "locs": [
+          "London grey drizzle Waterloo Bridge umbrella commute",
+          "Edinburgh drizzle grey castle behind mist",
+          "Dublin drizzle grey Georgian street umbrella"
+        ],
+        "poses": [
+          "both huddled close, shoulders touching",
+          "both hurrying along, newspapers over their heads",
+          "both stopped mid-step, looking up at the grey sky"
+        ],
+        "looks": [
+          "wool coat and scarf each",
+          "waterproof jacket and boots each",
+          "raincoat and rubber boots each"
+        ]
+      },
+      "before vs. after": {
+        "locs": [
+          "after rain Paris cobblestone reflection puddle golden",
+          "after rain Tokyo neon reflection puddle night",
+          "after rain London Victorian street reflection lamp"
+        ],
+        "poses": [
+          "both stepping through puddles, reflections at their feet",
+          "both looking up as the clouds break",
+          "both leaning on a lamp post, wet and smiling"
+        ],
+        "looks": [
+          "damp coat and bright scarf each",
+          "wet hair and open jacket each",
+          "rolled trousers and boots each"
+        ]
+      },
+      "the drizzle vs. the downpour": {
+        "locs": [
+          "Glasgow drizzle grey tenement street",
+          "Portland Oregon grey drizzle everyday",
+          "London grey drizzle Waterloo Bridge umbrella commute"
+        ],
+        "poses": [
+          "both huddled close, shoulders touching",
+          "both hurrying along, newspapers over their heads",
+          "both stopped mid-step, looking up at the grey sky"
+        ],
+        "looks": [
+          "wool coat and scarf each",
+          "waterproof jacket and boots each",
+          "raincoat and rubber boots each"
+        ]
+      },
+      "together in it vs. alone": {
+        "locs": [
+          "Mumbai monsoon first rain flooding street joy dancing",
+          "Kerala monsoon paddy field rain dramatic",
+          "Bangkok monsoon flood street motorbike spray"
+        ],
+        "poses": [
+          "both arms open to the sky, drenched and laughing",
+          "both wading through ankle-deep water, shoes in hand",
+          "both dancing in the flood, faces turned up"
+        ],
+        "looks": [
+          "soaked bright cotton clothes each",
+          "wet shirts clinging, bare feet each",
+          "thin dresses and rolled trousers, drenched each"
+        ]
+      },
+      "refreshed vs. ruined": {
+        "locs": [
+          "Paris summer downpour cafe awning shelter",
+          "Rome sudden downpour fountain piazza",
+          "tropical downpour beach shelter dramatic"
+        ],
+        "poses": [
+          "both running for cover, laughing",
+          "both pressed in a doorway, soaked and breathless",
+          "both caught mid-sprint, clothes streaming"
+        ],
+        "looks": [
+          "summer dress and light shirt, soaked each",
+          "jeans and tee, soaked through each",
+          "linen shirt and shorts, drenched each"
+        ]
+      },
+      "the grey vs. the colour after": {
+        "locs": [
+          "rainbow after storm field dramatic",
+          "after rain Paris cobblestone reflection puddle golden",
+          "after rain Tokyo neon reflection puddle night"
+        ],
+        "poses": [
+          "both stepping through puddles, reflections at their feet",
+          "both looking up as the clouds break",
+          "both leaning on a lamp post, wet and smiling"
+        ],
+        "looks": [
+          "damp coat and bright scarf each",
+          "wet hair and open jacket each",
+          "rolled trousers and boots each"
+        ]
+      },
+      "rain as blessing vs. curse": {
+        "locs": [
+          "Hanoi monsoon street rain dramatic tropical",
+          "Kolkata monsoon street rain reflection puddle",
+          "after monsoon street reflection India dramatic"
+        ],
+        "poses": [
+          "both arms open to the sky, drenched and laughing",
+          "both wading through ankle-deep water, shoes in hand",
+          "both dancing in the flood, faces turned up"
+        ],
+        "looks": [
+          "soaked bright cotton clothes each",
+          "wet shirts clinging, bare feet each",
+          "thin dresses and rolled trousers, drenched each"
+        ]
+      },
+      "waiting it out vs. walking through": {
+        "locs": [
+          "Blade Runner noir rain alley neon wet reflection night",
+          "Los Angeles rain 1940s noir street",
+          "Chandler rain San Francisco fog hill night"
+        ],
+        "poses": [
+          "both walking fast, collars up, shoulders hunched",
+          "both pressed against a wall, watching the road",
+          "one shielding the other beneath a coat"
+        ],
+        "looks": [
+          "long dark coat and turned-up collar each",
+          "trench coat and fedora each",
+          "leather jacket and glistening hair each"
+        ]
+      },
+      "the sound of it vs. the silence after": {
+        "locs": [
+          "Icelandic rain dramatic rainbow cliff",
+          "Vancouver rain forest dramatic mist",
+          "Japanese rain bamboo forest atmospheric"
+        ],
+        "poses": [
+          "both small and still beneath the vast wet landscape",
+          "both standing with hoods up, watching the mist rise",
+          "both facing the weather, hair whipping"
+        ],
+        "looks": [
+          "waterproof jacket and hood each",
+          "hiking rain gear each",
+          "long coat and boots each"
         ]
       }
     },
@@ -2777,6 +3040,7 @@ const WORLDS = [
       "Bangkok monsoon flood street motorbike spray",
       "Hanoi monsoon street rain dramatic tropical",
       "Kolkata monsoon street rain reflection puddle",
+      "after monsoon street reflection India dramatic",
       "Blade Runner noir rain alley neon wet reflection night",
       "Los Angeles rain 1940s noir street",
       "Chandler rain San Francisco fog hill night",
@@ -2800,42 +3064,47 @@ const WORLDS = [
       "after rain Paris cobblestone reflection puddle golden",
       "after rain Tokyo neon reflection puddle night",
       "after rain London Victorian street reflection lamp",
-      "rainbow after storm field dramatic",
-      "after monsoon street reflection India dramatic"
+      "rainbow after storm field dramatic"
     ],
     "poses": [
-      "both Mumbai monsoon first rain arms open joy soaked",
-      "both London drizzle umbrella one sharing",
-      "both soaked downpour not caring laughing",
-      "both shelter doorway watching rain fall",
-      "both puddle reflection rain street",
-      "both running through rain laughing",
-      "both huddled umbrella rain diagonal",
-      "both facing rain dramatic open",
-      "both after rain reflection puddle city",
-      "both monsoon flood wading street",
-      "both rain window watching from inside",
-      "both tropical downpour beach dramatic",
-      "both noir rain street lamp night dramatic",
-      "both Tokyo alley rain neon reflection",
-      "both drizzle grey city umbrella commute",
-      "both soaked through still walking",
-      "both looking up rain falling on faces",
-      "both rain garden dramatic natural",
-      "both under single shop awning rain",
-      "both rainbow aftermath dramatic field"
+      "both arms open to the sky, drenched and laughing",
+      "both wading through ankle-deep water, shoes in hand",
+      "both dancing in the flood, faces turned up",
+      "both walking fast, collars up, shoulders hunched",
+      "both pressed against a wall, watching the road",
+      "one shielding the other beneath a coat",
+      "both huddled close, shoulders touching",
+      "both hurrying along, newspapers over their heads",
+      "both stopped mid-step, looking up at the grey sky",
+      "both running for cover, laughing",
+      "both pressed in a doorway, soaked and breathless",
+      "both caught mid-sprint, clothes streaming",
+      "both small and still beneath the vast wet landscape",
+      "both standing with hoods up, watching the mist rise",
+      "both facing the weather, hair whipping",
+      "both stepping through puddles, reflections at their feet",
+      "both looking up as the clouds break",
+      "both leaning on a lamp post, wet and smiling"
     ],
     "looks": [
-      "Mumbai monsoon soaked cotton each colourful joy",
-      "London commuter umbrella practical dark each",
-      "noir rain trench coat each dramatic",
-      "soaked through clothes each don't care",
-      "Tokyo street fashion rain layer each",
-      "dramatic coat rain each cinematic",
-      "simple soaked each rain natural",
-      "waterproof practical each rain outdoors",
-      "festival rain casual mud each",
-      "elegant soaked each formal rain"
+      "soaked bright cotton clothes each",
+      "wet shirts clinging, bare feet each",
+      "thin dresses and rolled trousers, drenched each",
+      "long dark coat and turned-up collar each",
+      "trench coat and fedora each",
+      "leather jacket and glistening hair each",
+      "wool coat and scarf each",
+      "waterproof jacket and boots each",
+      "raincoat and rubber boots each",
+      "summer dress and light shirt, soaked each",
+      "jeans and tee, soaked through each",
+      "linen shirt and shorts, drenched each",
+      "waterproof jacket and hood each",
+      "hiking rain gear each",
+      "long coat and boots each",
+      "damp coat and bright scarf each",
+      "wet hair and open jacket each",
+      "rolled trousers and boots each"
     ],
     "promptSuffix": "Colour grade: the specific quality of different rains — Mumbai monsoon first rain joy, London grey drizzle flat, noir rain neon reflection, tropical downpour dramatic. The rain defines the world."
   },
@@ -2859,65 +3128,230 @@ const WORLDS = [
     "affinities": {
       "wealth vs. emptiness": {
         "locs": [
-          "1980s Texas oil money ranch interior excess",
-          "Dubai glass tower penthouse night city below",
-          "1920s Wall Street private club oak panelling"
+          "Dubai penthouse glass tower night city spread",
+          "Hong Kong Peninsula hotel lobby formal",
+          "Saudi royal palace reception hall formal"
         ],
         "poses": [
-          "both in excess interior 1980s Texas uncomfortable",
-          "both penthouse Dubai night city below vast"
+          "both gazing out of a vast window, small against the glass",
+          "both seated at opposite ends of a long table",
+          "both walking a polished corridor, heels echoing"
         ],
         "looks": [
-          "1980s Texas oil money excess each shoulder pad",
-          "Dubai formal luxury each immaculate"
+          "immaculate white robe and gold watch each",
+          "couture gown and tailored suit each",
+          "designer coat and sunglasses each"
+        ]
+      },
+      "power vs. loneliness": {
+        "locs": [
+          "1920s Wall Street private club oak panelling whiskey",
+          "Mayfair private members club 1990s dark wood",
+          "Venetian palazzo canal view evening candlelight"
+        ],
+        "poses": [
+          "both sitting stiffly in leather chairs, glasses untouched",
+          "both standing apart, a polite smile on each face",
+          "one whispering to the other behind a raised glass"
+        ],
+        "looks": [
+          "dark three-piece suit and pearl necklace each",
+          "tailored dinner jacket and satin gown each",
+          "charcoal suit and silk dress each"
+        ]
+      },
+      "excess vs. hunger": {
+        "locs": [
+          "1980s Texas oil money ranch interior excess gilt",
+          "1980s Wall Street trading floor chaos excess",
+          "New York Plaza Hotel suite excess gold"
+        ],
+        "poses": [
+          "both lounging among piles of cash and gilt, bored",
+          "both on the phone, shouting over each other",
+          "both posing with glasses, shoulders squared"
+        ],
+        "looks": [
+          "power suit with huge shoulder pads each",
+          "gold jewellery and a shiny suit each",
+          "sequined jacket and big hair each"
+        ]
+      },
+      "the gilded vs. the real": {
+        "locs": [
+          "Las Vegas high roller suite gold fixtures midnight",
+          "Monte Carlo casino floor evening gowns",
+          "Monaco grand prix paddock exclusive 1970s"
+        ],
+        "poses": [
+          "both leaning over a table, chips stacked high",
+          "both stepping out of a limousine, flashbulbs popping",
+          "both toasting with champagne, eyes on someone else"
+        ],
+        "looks": [
+          "tuxedo and sequin evening gown each",
+          "glittering cocktail dress and bow tie each",
+          "white dinner jacket and silk gown each"
+        ]
+      },
+      "new money vs. old": {
+        "locs": [
+          "Swiss bank vault interior cold formal",
+          "1920s Wall Street private club oak panelling whiskey",
+          "Mayfair private members club 1990s dark wood"
+        ],
+        "poses": [
+          "both sitting stiffly in leather chairs, glasses untouched",
+          "both standing apart, a polite smile on each face",
+          "one whispering to the other behind a raised glass"
+        ],
+        "looks": [
+          "dark three-piece suit and pearl necklace each",
+          "tailored dinner jacket and satin gown each",
+          "charcoal suit and silk dress each"
+        ]
+      },
+      "bought vs. earned": {
+        "locs": [
+          "Beverly Hills mansion pool twilight excess",
+          "Hamptons waterfront estate summer",
+          "Marbella villa pool afternoon Spain excess"
+        ],
+        "poses": [
+          "both stretched out on loungers, sunglasses on",
+          "both posing by the water, unsmiling",
+          "both walking barefoot across marble, drinks in hand"
+        ],
+        "looks": [
+          "white linen and oversized sunglasses each",
+          "designer swimwear and silk robes each",
+          "pastel polo and loose silk dress each"
+        ]
+      },
+      "the surface vs. what's beneath": {
+        "locs": [
+          "Dubai penthouse glass tower night city spread",
+          "Hong Kong Peninsula hotel lobby formal",
+          "Saudi royal palace reception hall formal"
+        ],
+        "poses": [
+          "both gazing out of a vast window, small against the glass",
+          "both seated at opposite ends of a long table",
+          "both walking a polished corridor, heels echoing"
+        ],
+        "looks": [
+          "immaculate white robe and gold watch each",
+          "couture gown and tailored suit each",
+          "designer coat and sunglasses each"
+        ]
+      },
+      "luxury vs. guilt": {
+        "locs": [
+          "Russian oligarch yacht Mediterranean afternoon",
+          "Aspen ski lodge excess fireplace wealthy",
+          "Beverly Hills mansion pool twilight excess"
+        ],
+        "poses": [
+          "both stretched out on loungers, sunglasses on",
+          "both posing by the water, unsmiling",
+          "both walking barefoot across marble, drinks in hand"
+        ],
+        "looks": [
+          "white linen and oversized sunglasses each",
+          "designer swimwear and silk robes each",
+          "pastel polo and loose silk dress each"
+        ]
+      },
+      "having everything vs. wanting more": {
+        "locs": [
+          "Cannes film festival yacht harbour evening",
+          "Las Vegas high roller suite gold fixtures midnight",
+          "Monte Carlo casino floor evening gowns"
+        ],
+        "poses": [
+          "both leaning over a table, chips stacked high",
+          "both stepping out of a limousine, flashbulbs popping",
+          "both toasting with champagne, eyes on someone else"
+        ],
+        "looks": [
+          "tuxedo and sequin evening gown each",
+          "glittering cocktail dress and bow tie each",
+          "white dinner jacket and silk gown each"
+        ]
+      },
+      "the golden cage vs. freedom": {
+        "locs": [
+          "1970s Studio 54 excess night velvet gold",
+          "1980s Texas oil money ranch interior excess gilt",
+          "1980s Wall Street trading floor chaos excess"
+        ],
+        "poses": [
+          "both lounging among piles of cash and gilt, bored",
+          "both on the phone, shouting over each other",
+          "both posing with glasses, shoulders squared"
+        ],
+        "looks": [
+          "power suit with huge shoulder pads each",
+          "gold jewellery and a shiny suit each",
+          "sequined jacket and big hair each"
         ]
       }
     },
     "locs": [
-      "1980s Texas oil money ranch interior excess gilt",
-      "Dubai penthouse glass tower night city spread",
       "1920s Wall Street private club oak panelling whiskey",
-      "Las Vegas high roller suite gold fixtures midnight",
-      "Monaco grand prix paddock exclusive 1970s",
       "Mayfair private members club 1990s dark wood",
-      "Beverly Hills mansion pool twilight excess",
-      "1970s Studio 54 excess night velvet gold",
-      "Saudi royal palace reception hall formal",
-      "Aspen ski lodge excess fireplace wealthy",
-      "Cannes film festival yacht harbour evening",
-      "Swiss bank vault interior cold formal",
-      "Monte Carlo casino floor evening gowns",
-      "Hamptons waterfront estate summer",
-      "1980s Wall Street trading floor chaos excess",
       "Venetian palazzo canal view evening candlelight",
-      "Hong Kong Peninsula hotel lobby formal",
+      "Swiss bank vault interior cold formal",
+      "1980s Texas oil money ranch interior excess gilt",
+      "1980s Wall Street trading floor chaos excess",
       "New York Plaza Hotel suite excess gold",
+      "1970s Studio 54 excess night velvet gold",
+      "Dubai penthouse glass tower night city spread",
+      "Hong Kong Peninsula hotel lobby formal",
+      "Saudi royal palace reception hall formal",
+      "Las Vegas high roller suite gold fixtures midnight",
+      "Monte Carlo casino floor evening gowns",
+      "Monaco grand prix paddock exclusive 1970s",
+      "Cannes film festival yacht harbour evening",
+      "Beverly Hills mansion pool twilight excess",
+      "Hamptons waterfront estate summer",
       "Marbella villa pool afternoon Spain excess",
-      "Russian oligarch yacht Mediterranean afternoon"
+      "Russian oligarch yacht Mediterranean afternoon",
+      "Aspen ski lodge excess fireplace wealthy"
     ],
     "poses": [
-      "both in excess interior uncomfortable in their own wealth",
-      "both penthouse window city below sense of cost",
-      "both at private club table something unsaid",
-      "both pool villa afternoon performance of relaxation",
-      "both yacht Mediterranean afternoon not at peace",
-      "both casino floor evening things at stake",
-      "both formal function neither wanting to be there",
-      "both in gilded room that doesn't quite fit",
-      "both old money house something inherited awkward",
-      "both surrounded by luxury looking at each other"
+      "both sitting stiffly in leather chairs, glasses untouched",
+      "both standing apart, a polite smile on each face",
+      "one whispering to the other behind a raised glass",
+      "both lounging among piles of cash and gilt, bored",
+      "both on the phone, shouting over each other",
+      "both posing with glasses, shoulders squared",
+      "both gazing out of a vast window, small against the glass",
+      "both seated at opposite ends of a long table",
+      "both walking a polished corridor, heels echoing",
+      "both leaning over a table, chips stacked high",
+      "both stepping out of a limousine, flashbulbs popping",
+      "both toasting with champagne, eyes on someone else",
+      "both stretched out on loungers, sunglasses on",
+      "both posing by the water, unsmiling",
+      "both walking barefoot across marble, drinks in hand"
     ],
     "looks": [
-      "1980s excess shoulder pad formal each gilt",
-      "Dubai luxury immaculate formal each",
-      "1920s Wall Street three-piece dark formal each",
-      "Las Vegas high roller suit gown each",
-      "Monte Carlo evening wear formal each",
-      "1970s Studio 54 excess velvet each",
-      "New money conspicuous labels each",
-      "Old money understated correct each",
-      "Beverly Hills casual expensive each",
-      "Yacht Mediterranean linen tan each"
+      "dark three-piece suit and pearl necklace each",
+      "tailored dinner jacket and satin gown each",
+      "charcoal suit and silk dress each",
+      "power suit with huge shoulder pads each",
+      "gold jewellery and a shiny suit each",
+      "sequined jacket and big hair each",
+      "immaculate white robe and gold watch each",
+      "couture gown and tailored suit each",
+      "designer coat and sunglasses each",
+      "tuxedo and sequin evening gown each",
+      "glittering cocktail dress and bow tie each",
+      "white dinner jacket and silk gown each",
+      "white linen and oversized sunglasses each",
+      "designer swimwear and silk robes each",
+      "pastel polo and loose silk dress each"
     ],
     "promptSuffix": "Colour grade: gold, dark wood, cold glass tower gleam at night. Warm and cold at once."
   },
@@ -4223,64 +4657,232 @@ const WORLDS = [
       "winning vs. losing": {
         "locs": [
           "1970s Roland Garros clay court red dust late afternoon",
-          "Harlem street basketball court chain-link night flood",
-          "Wimbledon grass court morning dew empty"
+          "Wimbledon grass court morning dew empty pre-match",
+          "1960s Flushing Meadows hard court crowd behind"
         ],
         "poses": [
-          "both mid-match clay dust red court intense",
-          "both at chain-link fence basketball night exhausted"
+          "both mid-rally, dust kicking up",
+          "both leaning on their rackets, exhausted",
+          "one serving as the other watches, frozen"
         ],
         "looks": [
-          "1970s tennis whites each clay dust",
-          "basketball vest and shorts 1990s each worn"
+          "pleated whites and sweatbands each",
+          "tennis dress and polo each",
+          "dusty tennis shorts and headband each"
+        ]
+      },
+      "the match vs. the life": {
+        "locs": [
+          "Harlem street basketball court chain-link night 1990s",
+          "1990s school gymnasium basketball finals night",
+          "outdoor basketball court Los Angeles sunset 1990s"
+        ],
+        "poses": [
+          "both hands on knees, gasping for breath",
+          "both leaping for the rim, arms stretched",
+          "both sitting on the bench, towels over their heads"
+        ],
+        "looks": [
+          "loose vest and long shorts each",
+          "tracksuit top and high-tops each",
+          "baggy shirt and headband each"
+        ]
+      },
+      "obsession vs. balance": {
+        "locs": [
+          "1980s boxing gym ring ropes overhead single light",
+          "Brooklyn boxing gym 1950s leather bag dust"
+        ],
+        "poses": [
+          "both trading blows, gloves up",
+          "one tying the other's gloves, focused",
+          "both slumped on the stool, sweat pouring"
+        ],
+        "looks": [
+          "boxing shorts and wrapped hands each",
+          "hooded robe and gloves each",
+          "vest and taped knuckles each"
+        ]
+      },
+      "body vs. mind": {
+        "locs": [
+          "Soviet sports hall gymnasium late 1970s fluorescent",
+          "squash court white walls echo 1970s",
+          "wrestling mat gymnasium 1970s fluorescent"
+        ],
+        "poses": [
+          "both warming up in parallel, concentrated",
+          "both locked in a grapple, straining",
+          "both chalking their hands, eyes fixed ahead"
+        ],
+        "looks": [
+          "tracksuit and plimsolls each",
+          "plain training kit each",
+          "singlet and tape each"
+        ]
+      },
+      "the opponent vs. the self": {
+        "locs": [
+          "fencing hall épée 1970s European championship",
+          "Olympic velodrome track banking 1980s",
+          "ice hockey rink empty practice dawn"
+        ],
+        "poses": [
+          "both in a ready stance, eyes locked",
+          "both sprinting flat out, leaning into the bend",
+          "both resting on the rail, breath misting"
+        ],
+        "looks": [
+          "white padded jacket and mask under one arm each",
+          "race suit and helmet each",
+          "padded kit and gloves each"
+        ]
+      },
+      "peak vs. decline": {
+        "locs": [
+          "indoor tennis court 1980s green carpet empty",
+          "Rolland Garros press box 1980s clay below",
+          "1970s Roland Garros clay court red dust late afternoon"
+        ],
+        "poses": [
+          "both mid-rally, dust kicking up",
+          "both leaning on their rackets, exhausted",
+          "one serving as the other watches, frozen"
+        ],
+        "looks": [
+          "pleated whites and sweatbands each",
+          "tennis dress and polo each",
+          "dusty tennis shorts and headband each"
+        ]
+      },
+      "the crowd vs. the silence": {
+        "locs": [
+          "street football pitch Brazil favela evening",
+          "stadium corridor tunnel pre-match concrete"
+        ],
+        "poses": [
+          "both kicking a ball in the dust, laughing",
+          "both walking out into the roar of the crowd",
+          "both sitting on the ball, sunburnt and happy"
+        ],
+        "looks": [
+          "faded football shirt and shorts each",
+          "team kit and muddy boots each",
+          "bare feet and tatty shorts each"
+        ]
+      },
+      "glory vs. aftermath": {
+        "locs": [
+          "Brooklyn boxing gym 1950s leather bag dust",
+          "1980s boxing gym ring ropes overhead single light"
+        ],
+        "poses": [
+          "both trading blows, gloves up",
+          "one tying the other's gloves, focused",
+          "both slumped on the stool, sweat pouring"
+        ],
+        "looks": [
+          "boxing shorts and wrapped hands each",
+          "hooded robe and gloves each",
+          "vest and taped knuckles each"
+        ]
+      },
+      "control vs. surrender": {
+        "locs": [
+          "horse racing paddock morning dew 1960s",
+          "fencing hall épée 1970s European championship",
+          "Olympic velodrome track banking 1980s"
+        ],
+        "poses": [
+          "both in a ready stance, eyes locked",
+          "both sprinting flat out, leaning into the bend",
+          "both resting on the rail, breath misting"
+        ],
+        "looks": [
+          "white padded jacket and mask under one arm each",
+          "race suit and helmet each",
+          "padded kit and gloves each"
+        ]
+      },
+      "the last set vs. everything after": {
+        "locs": [
+          "Harlem street basketball court chain-link night 1990s",
+          "1990s school gymnasium basketball finals night",
+          "outdoor basketball court Los Angeles sunset 1990s"
+        ],
+        "poses": [
+          "both hands on knees, gasping for breath",
+          "both leaping for the rim, arms stretched",
+          "both sitting on the bench, towels over their heads"
+        ],
+        "looks": [
+          "loose vest and long shorts each",
+          "tracksuit top and high-tops each",
+          "baggy shirt and headband each"
         ]
       }
     },
     "locs": [
       "1970s Roland Garros clay court red dust late afternoon",
-      "Harlem street basketball court chain-link night 1990s",
       "Wimbledon grass court morning dew empty pre-match",
-      "1980s boxing gym ring ropes overhead single light",
       "1960s Flushing Meadows hard court crowd behind",
-      "Soviet sports hall gymnasium late 1970s fluorescent",
-      "1990s school gymnasium basketball finals night",
-      "Brooklyn boxing gym 1950s leather bag dust",
       "indoor tennis court 1980s green carpet empty",
-      "street football pitch Brazil favela evening",
-      "outdoor basketball court Los Angeles sunset 1990s",
-      "fencing hall épée 1970s European championship",
       "Rolland Garros press box 1980s clay below",
+      "Harlem street basketball court chain-link night 1990s",
+      "1990s school gymnasium basketball finals night",
+      "outdoor basketball court Los Angeles sunset 1990s",
+      "1980s boxing gym ring ropes overhead single light",
+      "Brooklyn boxing gym 1950s leather bag dust",
+      "Soviet sports hall gymnasium late 1970s fluorescent",
       "squash court white walls echo 1970s",
-      "Olympic velodrome track banking 1980s",
+      "wrestling mat gymnasium 1970s fluorescent",
       "snooker hall green baize single overhead lamp",
+      "fencing hall épée 1970s European championship",
+      "Olympic velodrome track banking 1980s",
       "ice hockey rink empty practice dawn",
       "horse racing paddock morning dew 1960s",
-      "wrestling mat gymnasium 1970s fluorescent",
+      "street football pitch Brazil favela evening",
       "stadium corridor tunnel pre-match concrete"
     ],
     "poses": [
-      "both mid-match clay dust court faces intense",
-      "both at chain-link fence basketball exhausted hands on knees",
-      "one just won other just lost same court",
-      "both in changing room after match emotional",
-      "both mid-training sparring boxing ring",
-      "one coaching other on court intense instruction",
-      "both warming up parallel but separate",
-      "both looking at scoreboard different reactions",
-      "one mid-serve other watching frozen",
-      "both walking off court together end of career"
+      "both mid-rally, dust kicking up",
+      "both leaning on their rackets, exhausted",
+      "one serving as the other watches, frozen",
+      "both hands on knees, gasping for breath",
+      "both leaping for the rim, arms stretched",
+      "both sitting on the bench, towels over their heads",
+      "both trading blows, gloves up",
+      "one tying the other's gloves, focused",
+      "both slumped on the stool, sweat pouring",
+      "both warming up in parallel, concentrated",
+      "both locked in a grapple, straining",
+      "both chalking their hands, eyes fixed ahead",
+      "both in a ready stance, eyes locked",
+      "both sprinting flat out, leaning into the bend",
+      "both resting on the rail, breath misting",
+      "both kicking a ball in the dust, laughing",
+      "both walking out into the roar of the crowd",
+      "both sitting on the ball, sunburnt and happy"
     ],
     "looks": [
-      "1970s tennis whites each clay dust stained",
-      "basketball vest shorts 1990s worn each",
-      "boxing shorts vest 1950s each worn",
-      "fencing mask and whites 1970s each",
-      "Olympic tracksuit 1980s each",
-      "1960s court tennis whites pristine each",
-      "Wimbledon whites traditional formal each",
-      "street basketball casual 1990s each",
-      "boxing ring robe dramatic entrance each",
-      "sports hall kit 1970s fluorescent each"
+      "pleated whites and sweatbands each",
+      "tennis dress and polo each",
+      "dusty tennis shorts and headband each",
+      "loose vest and long shorts each",
+      "tracksuit top and high-tops each",
+      "baggy shirt and headband each",
+      "boxing shorts and wrapped hands each",
+      "hooded robe and gloves each",
+      "vest and taped knuckles each",
+      "tracksuit and plimsolls each",
+      "plain training kit each",
+      "singlet and tape each",
+      "white padded jacket and mask under one arm each",
+      "race suit and helmet each",
+      "padded kit and gloves each",
+      "faded football shirt and shorts each",
+      "team kit and muddy boots each",
+      "bare feet and tatty shorts each"
     ],
     "promptSuffix": "Colour grade: clay dust red, gymnasium fluorescent, boxing ring single overhead light. Gritty and physical."
   },
@@ -9263,65 +9865,234 @@ const WORLDS = [
     "affinities": {
       "paradise vs. reality": {
         "locs": [
-          "Havana crumbling colonial street 1950s cars midday",
-          "Kingston dancehall night neon Jamaica",
-          "Trinidad carnival street costume night"
+          "St Lucia Piton volcanic peak mist morning",
+          "Tobago rainforest waterfall morning",
+          "Cayman Islands turtle farm"
         ],
         "poses": [
-          "both Havana street midday 1950s car behind",
-          "both Kingston dancehall night neon"
+          "both wading into the water, laughing, clothes soaked",
+          "both gazing up at the green slopes in silence",
+          "both kneeling to look at the animals, wide-eyed"
         ],
         "looks": [
-          "Havana 1950s dress and guayabera each vintage",
-          "Kingston dancehall costume each vibrant"
+          "swimwear and loose cover-ups each",
+          "light shirts and rolled trousers each",
+          "sundress and shorts and sandals each"
+        ]
+      },
+      "colonial vs. free": {
+        "locs": [
+          "San Juan Old City colonial walls sunset Puerto Rico",
+          "Antigua English Harbour colonial dockyard",
+          "Curaçao Willemstad colonial coloured buildings"
+        ],
+        "poses": [
+          "both strolling the cobbles in the late light",
+          "both leaning from a shuttered window, watching below",
+          "both sitting on a warm stone wall, shoes off"
+        ],
+        "looks": [
+          "pastel linen shirt and sundress each",
+          "white cotton outfit and sun hat each",
+          "cotton shirt and light shorts each"
+        ]
+      },
+      "past vs. present": {
+        "locs": [
+          "Havana crumbling colonial street 1950s Chevrolet midday",
+          "Cuba tobacco farm interior morning light",
+          "Havana rooftop sunset Malecón below"
+        ],
+        "poses": [
+          "both leaning on a vintage car, laughing in the heat",
+          "both dancing a slow step in the road",
+          "both sharing a joke and a drink on the roof"
+        ],
+        "looks": [
+          "white guayabera and straw hat each",
+          "printed halter dress and linen trousers each",
+          "open-collared shirt and rolled sleeves each"
+        ]
+      },
+      "the tourist vs. the local": {
+        "locs": [
+          "Barbados chattel house painted bright afternoon",
+          "Dominican Republic baseball field afternoon dust",
+          "Haiti Port-au-Prince street market colour"
+        ],
+        "poses": [
+          "both haggling cheerfully over a pile of fruit",
+          "both cheering at the game, arms in the air",
+          "both leaning in a doorway watching the life go by"
+        ],
+        "looks": [
+          "bright printed shirt and shorts each",
+          "plain tee and straw hat each",
+          "cotton dress and sandals each"
+        ]
+      },
+      "heat vs. cool sea": {
+        "locs": [
+          "St Lucia Piton volcanic peak mist morning",
+          "Tobago rainforest waterfall morning",
+          "Cayman Islands turtle farm"
+        ],
+        "poses": [
+          "both wading into the water, laughing, clothes soaked",
+          "both gazing up at the green slopes in silence",
+          "both kneeling to look at the animals, wide-eyed"
+        ],
+        "looks": [
+          "swimwear and loose cover-ups each",
+          "light shirts and rolled trousers each",
+          "sundress and shorts and sandals each"
+        ]
+      },
+      "music vs. silence": {
+        "locs": [
+          "Kingston dancehall night neon Jamaica",
+          "Jamaica Blue Mountains coffee farm morning mist",
+          "Jamaica country road sugarcane afternoon"
+        ],
+        "poses": [
+          "both mid-dance, hips swaying to the bass",
+          "both sharing a bottle and a laugh at the counter",
+          "both walking the dusty road, hand in hand"
+        ],
+        "looks": [
+          "bright tracksuit and gold chain each",
+          "loose linen shirt and cap each",
+          "colourful sundress and head wrap each"
+        ]
+      },
+      "stay vs. leave": {
+        "locs": [
+          "Martinique rum distillery afternoon French colonial",
+          "Grenada nutmeg plantation afternoon",
+          "San Juan Old City colonial walls sunset Puerto Rico"
+        ],
+        "poses": [
+          "both strolling the cobbles in the late light",
+          "both leaning from a shuttered window, watching below",
+          "both sitting on a warm stone wall, shoes off"
+        ],
+        "looks": [
+          "pastel linen shirt and sundress each",
+          "white cotton outfit and sun hat each",
+          "cotton shirt and light shorts each"
+        ]
+      },
+      "the island vs. the world outside": {
+        "locs": [
+          "Havana crumbling colonial street 1950s Chevrolet midday",
+          "Cuba tobacco farm interior morning light",
+          "Havana rooftop sunset Malecón below"
+        ],
+        "poses": [
+          "both leaning on a vintage car, laughing in the heat",
+          "both dancing a slow step in the road",
+          "both sharing a joke and a drink on the roof"
+        ],
+        "looks": [
+          "white guayabera and straw hat each",
+          "printed halter dress and linen trousers each",
+          "open-collared shirt and rolled sleeves each"
+        ]
+      },
+      "colour vs. decay": {
+        "locs": [
+          "Trinidad carnival mas costume street night",
+          "Trinidad Savannah carnival stage night"
+        ],
+        "poses": [
+          "both mid-whirl in a swirl of feathers and sequins",
+          "both with arms raised, drenched in coloured powder",
+          "both leaping in the procession, glitter flying"
+        ],
+        "looks": [
+          "feathered headdress and sequined costume each",
+          "jewelled bodice and beaded skirt each",
+          "bright body paint and bold costume each"
+        ]
+      },
+      "joy vs. history": {
+        "locs": [
+          "Trinidad Savannah carnival stage night",
+          "Trinidad carnival mas costume street night"
+        ],
+        "poses": [
+          "both mid-whirl in a swirl of feathers and sequins",
+          "both with arms raised, drenched in coloured powder",
+          "both leaping in the procession, glitter flying"
+        ],
+        "looks": [
+          "feathered headdress and sequined costume each",
+          "jewelled bodice and beaded skirt each",
+          "bright body paint and bold costume each"
         ]
       }
     },
     "locs": [
       "Havana crumbling colonial street 1950s Chevrolet midday",
-      "Kingston dancehall night neon Jamaica",
-      "Trinidad carnival mas costume street night",
-      "Barbados chattel house painted bright afternoon",
-      "San Juan Old City colonial walls sunset Puerto Rico",
-      "Martinique rum distillery afternoon French colonial",
       "Cuba tobacco farm interior morning light",
       "Havana rooftop sunset Malecón below",
+      "Kingston dancehall night neon Jamaica",
       "Jamaica Blue Mountains coffee farm morning mist",
-      "Trinidad Savannah carnival stage night",
-      "Dominican Republic baseball field afternoon dust",
-      "Haiti Port-au-Prince street market colour",
-      "Grenada nutmeg plantation afternoon",
-      "Antigua English Harbour colonial dockyard",
-      "St Lucia Piton volcanic peak mist morning",
-      "Curaçao Willemstad colonial coloured buildings",
-      "Tobago rainforest waterfall morning",
+      "Jamaica country road sugarcane afternoon",
       "Barbados rum shop interior afternoon",
+      "Trinidad carnival mas costume street night",
+      "Trinidad Savannah carnival stage night",
+      "San Juan Old City colonial walls sunset Puerto Rico",
+      "Antigua English Harbour colonial dockyard",
+      "Curaçao Willemstad colonial coloured buildings",
+      "Martinique rum distillery afternoon French colonial",
+      "Grenada nutmeg plantation afternoon",
+      "St Lucia Piton volcanic peak mist morning",
+      "Tobago rainforest waterfall morning",
       "Cayman Islands turtle farm",
-      "Jamaica country road sugarcane afternoon"
+      "Barbados chattel house painted bright afternoon",
+      "Dominican Republic baseball field afternoon dust",
+      "Haiti Port-au-Prince street market colour"
     ],
     "poses": [
-      "both Havana street midday vintage car behind",
-      "both Kingston dancehall night neon movement",
-      "both Trinidad carnival costume night street",
-      "both on Malecón Havana sunset sea behind",
-      "both in rum shop afternoon Jamaica",
-      "both watching carnival pass street Trinidad",
-      "both on colonial rooftop sunset Havana",
-      "both in sugarcane field Jamaica afternoon",
-      "both old San Juan colonial gate sunset",
-      "both watching Caribbean sea from cliff afternoon"
+      "both leaning on a vintage car, laughing in the heat",
+      "both dancing a slow step in the road",
+      "both sharing a joke and a drink on the roof",
+      "both mid-dance, hips swaying to the bass",
+      "both sharing a bottle and a laugh at the counter",
+      "both walking the dusty road, hand in hand",
+      "both mid-whirl in a swirl of feathers and sequins",
+      "both with arms raised, drenched in coloured powder",
+      "both leaping in the procession, glitter flying",
+      "both strolling the cobbles in the late light",
+      "both leaning from a shuttered window, watching below",
+      "both sitting on a warm stone wall, shoes off",
+      "both wading into the water, laughing, clothes soaked",
+      "both gazing up at the green slopes in silence",
+      "both kneeling to look at the animals, wide-eyed",
+      "both haggling cheerfully over a pile of fruit",
+      "both cheering at the game, arms in the air",
+      "both leaning in a doorway watching the life go by"
     ],
     "looks": [
-      "Havana 1950s dress and guayabera each vintage",
-      "Kingston dancehall costume each vibrant night",
-      "Trinidad carnival elaborate costume each",
-      "Caribbean summer cotton simple each",
-      "Havana musician white shirt each",
-      "Colombian coastal dress each vibrant",
-      "Caribbean practical fishing each",
-      "Plantation worker historical cotton each",
-      "Creole dress colonial French Caribbean each",
-      "Caribbean casual colourful cotton each"
+      "white guayabera and straw hat each",
+      "printed halter dress and linen trousers each",
+      "open-collared shirt and rolled sleeves each",
+      "bright tracksuit and gold chain each",
+      "loose linen shirt and cap each",
+      "colourful sundress and head wrap each",
+      "feathered headdress and sequined costume each",
+      "jewelled bodice and beaded skirt each",
+      "bright body paint and bold costume each",
+      "pastel linen shirt and sundress each",
+      "white cotton outfit and sun hat each",
+      "cotton shirt and light shorts each",
+      "swimwear and loose cover-ups each",
+      "light shirts and rolled trousers each",
+      "sundress and shorts and sandals each",
+      "bright printed shirt and shorts each",
+      "plain tee and straw hat each",
+      "cotton dress and sandals each"
     ],
     "promptSuffix": "Colour grade: Havana ochre and decay, Kingston neon night, Trinidad carnival saturated, impossible Caribbean blue."
   },
@@ -9346,64 +10117,232 @@ const WORLDS = [
       "the elopement vs. the ceremony": {
         "locs": [
           "city hall steps elopement simple morning",
-          "Las Vegas wedding chapel neon night kitsch",
-          "cliffside elopement just two sunset witness"
+          "courthouse simple just the two civil",
+          "registry office morning queue practical"
         ],
         "poses": [
-          "both city hall steps just married simple morning",
-          "both Las Vegas neon chapel night kitsch"
+          "both laughing on the steps, confetti in their hair",
+          "one holding the other's hand, signing the register",
+          "both running down the steps, shoes in hand"
         ],
         "looks": [
-          "simple civil ceremony dress and suit each understated",
-          "Las Vegas wedding kitsch each deliberate"
+          "simple cream dress and plain suit each",
+          "short white dress and tailored jacket each",
+          "smart casual best clothes each"
+        ]
+      },
+      "the wrong person vs. the right moment": {
+        "locs": [
+          "Las Vegas wedding chapel neon night kitsch",
+          "outdoor festival wedding summer"
+        ],
+        "poses": [
+          "both striking a ridiculous pose, arms wide",
+          "both kissing beneath the glow, veil flying",
+          "both dancing mid-song, grinning at the camera"
+        ],
+        "looks": [
+          "sequined dress and rhinestone suit each",
+          "bright costume bridal outfit and sparkling tuxedo each",
+          "outrageous themed outfits each"
+        ]
+      },
+      "the vow vs. the doubt": {
+        "locs": [
+          "church aisle traditional formal procession",
+          "chapel of ease rural small ceremony",
+          "stately home grand formal traditional"
+        ],
+        "poses": [
+          "both standing hand in hand, looking ahead",
+          "one lifting the veil as the other smiles",
+          "both exchanging rings, eyes locked"
+        ],
+        "looks": [
+          "full white gown and morning suit each",
+          "long veil and dark suit each",
+          "formal dress and long coat each"
+        ]
+      },
+      "together vs. everyone watching": {
+        "locs": [
+          "marquee reception evening dancing",
+          "reception empty after guests gone one couple",
+          "hotel suite morning after complicated light"
+        ],
+        "poses": [
+          "both dancing slowly, foreheads together, eyes closed",
+          "both slipping out for a quiet moment, shoes off",
+          "one resting a head on the other's shoulder, tired and happy"
+        ],
+        "looks": [
+          "rumpled wedding dress and loosened tie each",
+          "evening dress and shirtsleeves each",
+          "half-undone formal wear each"
+        ]
+      },
+      "the dress vs. the marriage": {
+        "locs": [
+          "cliffside elopement two and officiant sunset",
+          "beach barefoot ceremony sunset",
+          "Scottish highland estate ceremony dramatic"
+        ],
+        "poses": [
+          "both facing each other, hands joined, wind in their clothes",
+          "both barefoot, forehead to forehead",
+          "both kissing as the sun goes down"
+        ],
+        "looks": [
+          "flowing white dress and linen suit each",
+          "simple slip dress and rolled-up trousers each",
+          "wind-whipped veil and loosened tie each"
+        ]
+      },
+      "love vs. obligation": {
+        "locs": [
+          "Indian wedding mandap ceremony elaborate",
+          "Mexican civil wedding vibrant tradition"
+        ],
+        "poses": [
+          "both seated side by side, heads bowed in ritual",
+          "both circling together, garlands around their necks",
+          "both smiling through the ritual, hands joined"
+        ],
+        "looks": [
+          "richly embroidered red outfit each",
+          "gold-trimmed formal dress and long embroidered coat each",
+          "bright traditional wedding costume each"
+        ]
+      },
+      "the moment before vs. the moment after": {
+        "locs": [
+          "greenhouse botanical wedding ceremony",
+          "marquee reception evening dancing",
+          "reception empty after guests gone one couple"
+        ],
+        "poses": [
+          "both dancing slowly, foreheads together, eyes closed",
+          "both slipping out for a quiet moment, shoes off",
+          "one resting a head on the other's shoulder, tired and happy"
+        ],
+        "looks": [
+          "rumpled wedding dress and loosened tie each",
+          "evening dress and shirtsleeves each",
+          "half-undone formal wear each"
+        ]
+      },
+      "the arranged vs. the chosen": {
+        "locs": [
+          "Mexican civil wedding vibrant tradition",
+          "Indian wedding mandap ceremony elaborate"
+        ],
+        "poses": [
+          "both seated side by side, heads bowed in ritual",
+          "both circling together, garlands around their necks",
+          "both smiling through the ritual, hands joined"
+        ],
+        "looks": [
+          "richly embroidered red outfit each",
+          "gold-trimmed formal dress and long embroidered coat each",
+          "bright traditional wedding costume each"
+        ]
+      },
+      "the second wedding vs. the first": {
+        "locs": [
+          "destination wedding Italy villa afternoon",
+          "cliffside elopement two and officiant sunset",
+          "beach barefoot ceremony sunset"
+        ],
+        "poses": [
+          "both facing each other, hands joined, wind in their clothes",
+          "both barefoot, forehead to forehead",
+          "both kissing as the sun goes down"
+        ],
+        "looks": [
+          "flowing white dress and linen suit each",
+          "simple slip dress and rolled-up trousers each",
+          "wind-whipped veil and loosened tie each"
+        ]
+      },
+      "the almost vs. the finally": {
+        "locs": [
+          "Jewish wedding chuppah traditional formal",
+          "church aisle traditional formal procession",
+          "chapel of ease rural small ceremony"
+        ],
+        "poses": [
+          "both standing hand in hand, looking ahead",
+          "one lifting the veil as the other smiles",
+          "both exchanging rings, eyes locked"
+        ],
+        "looks": [
+          "full white gown and morning suit each",
+          "long veil and dark suit each",
+          "formal dress and long coat each"
         ]
       }
     },
     "locs": [
       "city hall steps elopement simple morning",
-      "Las Vegas wedding chapel neon night kitsch",
-      "cliffside elopement two and officiant sunset",
-      "church aisle traditional formal procession",
-      "marquee reception evening dancing",
       "courthouse simple just the two civil",
+      "registry office morning queue practical",
+      "Paris bridge elopement spontaneous rain",
+      "Las Vegas wedding chapel neon night kitsch",
+      "outdoor festival wedding summer",
+      "cliffside elopement two and officiant sunset",
       "beach barefoot ceremony sunset",
-      "greenhouse botanical wedding ceremony",
+      "Scottish highland estate ceremony dramatic",
       "destination wedding Italy villa afternoon",
-      "reception empty after guests gone one couple",
+      "church aisle traditional formal procession",
+      "chapel of ease rural small ceremony",
+      "stately home grand formal traditional",
       "Jewish wedding chuppah traditional formal",
       "Indian wedding mandap ceremony elaborate",
       "Mexican civil wedding vibrant tradition",
-      "Scottish highland estate ceremony dramatic",
-      "Paris bridge elopement spontaneous rain",
-      "registry office morning queue practical",
-      "chapel of ease rural small ceremony",
-      "stately home grand formal traditional",
-      "outdoor festival wedding summer",
-      "hotel suite morning after complicated light"
+      "marquee reception evening dancing",
+      "reception empty after guests gone one couple",
+      "hotel suite morning after complicated light",
+      "greenhouse botanical wedding ceremony"
     ],
     "poses": [
-      "both city hall just married simple morning laughing",
-      "both Las Vegas neon chapel kitsch deliberately",
-      "both cliffside elopement just them sunset",
-      "both church aisle walking formal traditional",
-      "both first dance reception floor",
-      "both escaped reception quiet moment outside",
-      "both vow exchange face to face formal",
-      "both just before ceremony backstage nervous",
-      "both morning after hotel light complicated",
-      "both running from venue raining laughing"
+      "both laughing on the steps, confetti in their hair",
+      "one holding the other's hand, signing the register",
+      "both running down the steps, shoes in hand",
+      "both striking a ridiculous pose, arms wide",
+      "both kissing beneath the glow, veil flying",
+      "both dancing mid-song, grinning at the camera",
+      "both facing each other, hands joined, wind in their clothes",
+      "both barefoot, forehead to forehead",
+      "both kissing as the sun goes down",
+      "both standing hand in hand, looking ahead",
+      "one lifting the veil as the other smiles",
+      "both exchanging rings, eyes locked",
+      "both seated side by side, heads bowed in ritual",
+      "both circling together, garlands around their necks",
+      "both smiling through the ritual, hands joined",
+      "both dancing slowly, foreheads together, eyes closed",
+      "both slipping out for a quiet moment, shoes off",
+      "one resting a head on the other's shoulder, tired and happy"
     ],
     "looks": [
-      "simple civil dress and suit each understated elopement",
-      "Las Vegas kitsch bridal each deliberate camp",
-      "traditional white and formal each classic",
-      "Indian bridal elaborate lehenga and sherwani each",
-      "Jewish wedding traditional formal each",
-      "destination wedding relaxed linen each",
-      "barefoot beach simple cotton each",
-      "Scottish highland formal each tartan",
-      "Mexican wedding vibrant traditional each",
-      "morning after dishevelled formal each complicated"
+      "simple cream dress and plain suit each",
+      "short white dress and tailored jacket each",
+      "smart casual best clothes each",
+      "sequined dress and rhinestone suit each",
+      "bright costume bridal outfit and sparkling tuxedo each",
+      "outrageous themed outfits each",
+      "flowing white dress and linen suit each",
+      "simple slip dress and rolled-up trousers each",
+      "wind-whipped veil and loosened tie each",
+      "full white gown and morning suit each",
+      "long veil and dark suit each",
+      "formal dress and long coat each",
+      "richly embroidered red outfit each",
+      "gold-trimmed formal dress and long embroidered coat each",
+      "bright traditional wedding costume each",
+      "rumpled wedding dress and loosened tie each",
+      "evening dress and shirtsleeves each",
+      "half-undone formal wear each"
     ],
     "promptSuffix": "Colour grade: city hall morning light, Las Vegas neon night, cliffside golden hour, church formal candlelight."
   },
@@ -12659,87 +13598,246 @@ const WORLDS = [
     "affinities": {
       "before vs. after": {
         "locs": [
-          "pre-storm sky bruised purple green light eerie flat",
+          "pre-storm sky bruised purple green light eerie flat calm",
           "tornado alley Great Plains storm wall approaching vast",
-          "North Sea storm wave lighthouse spray dramatic"
+          "monsoon India storm wall approaching dust first"
         ],
         "poses": [
-          "both watching storm wall approach Great Plains vast sky",
-          "both lighthouse storm spray sea dramatic"
+          "both standing small, facing the wall of dark cloud",
+          "both leaning into the rising wind, hair streaming",
+          "both frozen as the light turns strange and green"
         ],
         "looks": [
-          "storm watcher practical layers wind each",
-          "caught in storm soaked dramatic each"
+          "long coat and windswept scarf each",
+          "simple shirt and trousers whipped by the wind each",
+          "dark jacket and boots each"
+        ]
+      },
+      "calm vs. chaos": {
+        "locs": [
+          "storm aftermath debris calm eerie light",
+          "storm drain rushing water urban aftermath",
+          "storm abandoned car park flooding dramatic"
+        ],
+        "poses": [
+          "both stepping gingerly through the debris, quiet",
+          "both looking up as the sun cracks through the cloud",
+          "both holding each other, wet and silent"
+        ],
+        "looks": [
+          "damp coats and muddy boots each",
+          "torn sleeves and soaked hair each",
+          "waterproof jackets and rubber boots each"
+        ]
+      },
+      "the warning vs. the arrival": {
+        "locs": [
+          "Great Plains supercell storm rotating vast sky",
+          "Australian outback storm red dust approaching wall",
+          "dust storm haboob Arizona wall approaching"
+        ],
+        "poses": [
+          "both standing small, facing the wall of dark cloud",
+          "both leaning into the rising wind, hair streaming",
+          "both frozen as the light turns strange and green"
+        ],
+        "looks": [
+          "long coat and windswept scarf each",
+          "simple shirt and trousers whipped by the wind each",
+          "dark jacket and boots each"
+        ]
+      },
+      "shelter vs. exposure": {
+        "locs": [
+          "lightning strike plain night dramatic single bolt",
+          "storm electricity pylon lightning dramatic",
+          "storm shelter doorway waiting dramatic light"
+        ],
+        "poses": [
+          "both lit white for an instant by a flash",
+          "both huddled in the doorway, watching the sky",
+          "both gazing up, faces blue in the strobing light"
+        ],
+        "looks": [
+          "soaked shirts and bare arms each",
+          "dark hooded jackets each",
+          "simple dark clothes each"
+        ]
+      },
+      "power vs. fragility": {
+        "locs": [
+          "North Sea storm wave lighthouse spray dramatic",
+          "tropical storm eye wall approach Caribbean coast",
+          "Norwegian coast storm fjord dramatic wave"
+        ],
+        "poses": [
+          "both braced against a surge of spray",
+          "both clinging to a rail as a wave crashes",
+          "both drenched and exhilarated, arms out"
+        ],
+        "looks": [
+          "oilskin coat and sou'wester each",
+          "waterproof jacket, soaked each",
+          "heavy knit and rubber boots each"
+        ]
+      },
+      "the eye vs. the edge": {
+        "locs": [
+          "Scottish moor storm approaching dramatic light shafts",
+          "Patagonia storm mountain dramatic wind bent tree",
+          "Alpine storm lightning peak dramatic"
+        ],
+        "poses": [
+          "both hunched against the gale, coats flapping",
+          "both crossing the open ground, heads down",
+          "both gazing at the black sky as light breaks through"
+        ],
+        "looks": [
+          "wax jacket and walking boots each",
+          "hooded waterproof and scarf each",
+          "tweed coat and wool hat each"
+        ]
+      },
+      "held vs. broken": {
+        "locs": [
+          "storm rainbow aftermath dramatic light field",
+          "storm aftermath debris calm eerie light",
+          "storm drain rushing water urban aftermath"
+        ],
+        "poses": [
+          "both stepping gingerly through the debris, quiet",
+          "both looking up as the sun cracks through the cloud",
+          "both holding each other, wet and silent"
+        ],
+        "looks": [
+          "damp coats and muddy boots each",
+          "torn sleeves and soaked hair each",
+          "waterproof jackets and rubber boots each"
+        ]
+      },
+      "the sky vs. the earth": {
+        "locs": [
+          "Yorkshire moor storm approaching Brontë register",
+          "winter storm blizzard white out reduced visibility",
+          "Scottish moor storm approaching dramatic light shafts"
+        ],
+        "poses": [
+          "both hunched against the gale, coats flapping",
+          "both crossing the open ground, heads down",
+          "both gazing at the black sky as light breaks through"
+        ],
+        "looks": [
+          "wax jacket and walking boots each",
+          "hooded waterproof and scarf each",
+          "tweed coat and wool hat each"
+        ]
+      },
+      "inevitable vs. preventable": {
+        "locs": [
+          "pre-storm sky bruised purple green light eerie flat calm",
+          "tornado alley Great Plains storm wall approaching vast",
+          "monsoon India storm wall approaching dust first"
+        ],
+        "poses": [
+          "both standing small, facing the wall of dark cloud",
+          "both leaning into the rising wind, hair streaming",
+          "both frozen as the light turns strange and green"
+        ],
+        "looks": [
+          "long coat and windswept scarf each",
+          "simple shirt and trousers whipped by the wind each",
+          "dark jacket and boots each"
+        ]
+      },
+      "the storm within vs. the storm without": {
+        "locs": [
+          "storm light dramatic shafts through cloud dramatic countryside",
+          "Turner painting storm sea ship dramatic",
+          "storm tide surge coastal town dramatic"
+        ],
+        "poses": [
+          "both in full evening wear, hair whipping, utterly calm",
+          "both in wedding attire caught in the downpour, laughing",
+          "both dancing a slow waltz in the gale"
+        ],
+        "looks": [
+          "black tie and ball gown each",
+          "wedding dress and morning suit each",
+          "evening gown and tuxedo, soaked each"
         ]
       }
     },
     "locs": [
       "pre-storm sky bruised purple green light eerie flat calm",
       "tornado alley Great Plains storm wall approaching vast",
+      "monsoon India storm wall approaching dust first",
+      "Great Plains supercell storm rotating vast sky",
+      "Australian outback storm red dust approaching wall",
+      "dust storm haboob Arizona wall approaching",
       "North Sea storm wave lighthouse spray dramatic",
       "tropical storm eye wall approach Caribbean coast",
-      "Scottish moor storm approaching dramatic light shafts",
-      "Turner painting storm sea ship dramatic",
-      "storm aftermath debris calm eerie light",
-      "lightning strike plain night dramatic single bolt",
-      "monsoon India storm wall approaching dust first",
-      "storm light dramatic shafts through cloud dramatic countryside",
-      "Patagonia storm mountain dramatic wind bent tree",
       "Norwegian coast storm fjord dramatic wave",
-      "Great Plains supercell storm rotating vast sky",
-      "storm tide surge coastal town dramatic",
-      "Alpine storm lightning peak dramatic",
-      "Australian outback storm red dust approaching wall",
-      "storm drain rushing water urban aftermath",
       "storm at sea container ship wave dramatic",
-      "Yorkshire moor storm approaching Brontë register",
       "Mediterranean storm dramatic cliff wave spray",
       "Great Lakes storm grey vast water horizon",
-      "storm shelter doorway waiting dramatic light",
       "hurricane eye approach coast dramatic satellite",
-      "winter storm blizzard white out reduced visibility",
-      "dust storm haboob Arizona wall approaching",
-      "storm electricity pylon lightning dramatic",
       "Cornish coast storm wave dramatic heritage",
-      "storm abandoned car park flooding dramatic",
       "typhoon approach Hong Kong dramatic sky",
-      "storm rainbow aftermath dramatic light field"
+      "Scottish moor storm approaching dramatic light shafts",
+      "Patagonia storm mountain dramatic wind bent tree",
+      "Alpine storm lightning peak dramatic",
+      "Yorkshire moor storm approaching Brontë register",
+      "winter storm blizzard white out reduced visibility",
+      "lightning strike plain night dramatic single bolt",
+      "storm electricity pylon lightning dramatic",
+      "storm shelter doorway waiting dramatic light",
+      "storm aftermath debris calm eerie light",
+      "storm drain rushing water urban aftermath",
+      "storm abandoned car park flooding dramatic",
+      "storm rainbow aftermath dramatic light field",
+      "storm light dramatic shafts through cloud dramatic countryside",
+      "Turner painting storm sea ship dramatic",
+      "storm tide surge coastal town dramatic"
     ],
     "poses": [
-      "both watching storm wall approach vast sky behind",
-      "both storm spray lighthouse dramatic sea",
-      "both pre-storm light eerie dramatic pause",
-      "both caught mid-storm wind and rain dramatic",
-      "both storm aftermath calm eerie light around",
-      "both running from storm approaching",
-      "both sheltering doorway storm outside dramatic",
-      "both looking up at storm sky dramatic",
-      "both lightning illuminated dramatic night flash",
-      "both storm wind dramatic lean against",
-      "both watching storm drain rush past feet",
-      "both storm beach wave dramatic behind",
-      "both emerging after storm calm dramatic",
-      "both in eye of storm brief calm dramatic",
-      "both pre-storm field light dramatic shafts",
-      "both storm debris aftermath walking through",
-      "both dramatic storm light portrait dramatic",
-      "both blizzard white out barely visible",
-      "both storm tide flooding dramatic wading",
-      "both watching distant lightning plain night",
-      "both in full formal evening wear mid-storm incongruous dramatic",
-      "both in wedding attire caught in storm dramatic"
+      "both standing small, facing the wall of dark cloud",
+      "both leaning into the rising wind, hair streaming",
+      "both frozen as the light turns strange and green",
+      "both braced against a surge of spray",
+      "both clinging to a rail as a wave crashes",
+      "both drenched and exhilarated, arms out",
+      "both hunched against the gale, coats flapping",
+      "both crossing the open ground, heads down",
+      "both gazing at the black sky as light breaks through",
+      "both lit white for an instant by a flash",
+      "both huddled in the doorway, watching the sky",
+      "both gazing up, faces blue in the strobing light",
+      "both stepping gingerly through the debris, quiet",
+      "both looking up as the sun cracks through the cloud",
+      "both holding each other, wet and silent",
+      "both in full evening wear, hair whipping, utterly calm",
+      "both in wedding attire caught in the downpour, laughing",
+      "both dancing a slow waltz in the gale"
     ],
     "looks": [
-      "storm caught soaked dramatic each",
-      "storm watcher practical layers wind each",
-      "dramatic coat storm wind dramatic each",
-      "oilskin waterproof storm coastal each",
-      "dramatic dark clothes storm light each",
-      "exposed to elements simple each storm",
-      "storm practical outdoors each",
-      "dramatic formal wrong weather each incongruous",
-      "storm ready practical each technical",
-      "simple exposed storm dramatic each"
+      "long coat and windswept scarf each",
+      "simple shirt and trousers whipped by the wind each",
+      "dark jacket and boots each",
+      "oilskin coat and sou'wester each",
+      "waterproof jacket, soaked each",
+      "heavy knit and rubber boots each",
+      "wax jacket and walking boots each",
+      "hooded waterproof and scarf each",
+      "tweed coat and wool hat each",
+      "soaked shirts and bare arms each",
+      "dark hooded jackets each",
+      "simple dark clothes each",
+      "damp coats and muddy boots each",
+      "torn sleeves and soaked hair each",
+      "waterproof jackets and rubber boots each",
+      "black tie and ball gown each",
+      "wedding dress and morning suit each",
+      "evening gown and tuxedo, soaked each"
     ],
     "promptSuffix": "Colour grade: the specific drama of storm light — bruised purple-green pre-storm, lightning white flash, aftermath golden eerie. Turner at sea. The sky is the subject."
   },
@@ -13616,19 +14714,19 @@ const WORLDS = [
     "affinities": {
       "above vs. below": {
         "locs": [
-          "Havana rooftop washing lines crumbling colonial city below",
-          "Havana rooftop 1950s Chevrolet visible below dawn",
-          "Havana rooftop Malecón sea beyond crumbling beautiful"
+          "New York water tower rooftop Manhattan skyline dawn",
+          "Brooklyn rooftop Manhattan bridge view sunset",
+          "New York rooftop 1970s vintage city behind"
         ],
         "poses": [
-          "both Havana rooftop washing lines colonial city below",
-          "both rooftop back to city looking at each other",
-          "both rooftop dawn city waking around them"
+          "both stretched out on a blanket, the skyline beyond",
+          "both leaning on the tank watching the light change",
+          "both clinking bottles at the edge"
         ],
         "looks": [
-          "Havana casual summer rooftop heat each",
-          "simple casual rooftop city each",
-          "simple dawn rooftop casual each"
+          "denim jacket and white tee each",
+          "leather jacket and boots each",
+          "knit sweater and jeans each"
         ]
       },
       "escape vs. city": {
@@ -13638,48 +14736,150 @@ const WORLDS = [
           "Seoul rooftop Han River beyond night neon"
         ],
         "poses": [
-          "both Tokyo neon water tank city night",
-          "both Seoul rooftop Han River night neon",
-          "both rooftop edge city vast below dramatic"
+          "both silhouetted against glowing signs, shoulder to shoulder",
+          "both sitting on a water tank, sharing a drink",
+          "both leaning on the railing, faces lit by neon"
         ],
         "looks": [
-          "Tokyo street fashion rooftop neon each",
-          "dramatic coat rooftop wind each",
-          "rooftop party dressed up each night"
+          "oversized streetwear jacket and sneakers each",
+          "layered black techwear each",
+          "bomber jacket and pleated skirt each"
         ]
       },
       "private vs. public height": {
         "locs": [
           "Paris Haussmann rooftop chimney zinc dawn golden",
           "Paris rooftop Eiffel visible golden light",
-          "Lisbon Alfama rooftop tile fado city below"
+          "Paris rooftop 6th arrondissement zinc slate dawn"
         ],
         "poses": [
-          "both Paris chimney zinc rooftop dawn golden",
-          "both Lisbon rooftop tile city fado below",
-          "both rooftop garden dawn city waking"
+          "both with coffee cups, leaning on the chimney stack",
+          "both perched by the skylight in the early light",
+          "both pointing out landmarks, arms around each other"
         ],
         "looks": [
-          "Paris rooftop chic morning each dawn",
-          "New York rooftop casual city view each",
-          "practical urban each rooftop exploration"
+          "striped breton top and trench coat each",
+          "silk scarf and tailored jacket each",
+          "wool coat and beret each"
         ]
       },
       "the city vs. the person on it": {
         "locs": [
-          "New York water tower rooftop Manhattan skyline dawn",
-          "Brooklyn rooftop Manhattan bridge view sunset",
+          "Havana rooftop washing lines crumbling colonial city below",
+          "Havana rooftop 1950s Chevrolet visible below dawn",
+          "Havana rooftop Malecón sea beyond crumbling beautiful"
+        ],
+        "poses": [
+          "both leaning on the parapet beside a line of washing, laughing",
+          "both sitting on a crumbling ledge, legs dangling",
+          "both hanging a sheet on the line together"
+        ],
+        "looks": [
+          "thin cotton shirt and rolled trousers each",
+          "summer dress and sandals each",
+          "vest and linen shorts each"
+        ]
+      },
+      "seen from above vs. unseen": {
+        "locs": [
+          "Detroit abandoned factory rooftop city below dramatic",
+          "rooftop garden city dawn first light plants",
+          "rooftop pool city below luxury night reflection"
+        ],
+        "poses": [
+          "both wrapped in blankets at the edge, watching the night",
+          "both walking the edge with arms out for balance",
+          "both lying back, looking at the sky"
+        ],
+        "looks": [
+          "workwear jacket and boots each",
+          "oversized sweater and jeans each",
+          "puffer jacket and beanie each"
+        ]
+      },
+      "the roof vs. the world beneath": {
+        "locs": [
+          "Istanbul rooftop mosque minaret city both sides",
+          "São Paulo rooftop favela meets glass tower",
+          "Beirut rooftop bullet holes city rebuild"
+        ],
+        "poses": [
+          "both framed against the sprawling skyline, quiet",
+          "both listening to the city's evening noise rise from below",
+          "both leaning together above the crowded streets"
+        ],
+        "looks": [
+          "loose cotton shirt and scarf each",
+          "long tunic and light trousers each",
+          "simple dress and shawl each"
+        ]
+      },
+      "freedom vs. exposure": {
+        "locs": [
+          "Lisbon Alfama rooftop tile fado city below",
+          "Porto rooftop azulejo tile city below river",
           "Rome rooftop terracotta dome city eternal"
         ],
         "poses": [
-          "both New York water tower Manhattan skyline",
-          "both Rome terracotta rooftop eternal city",
-          "both rooftop watching city sunrise"
+          "both lounging on warm tiles, sun on their faces",
+          "both sharing grapes on the terrace",
+          "both laughing as a church bell rings"
         ],
         "looks": [
-          "New York rooftop casual city view each",
-          "Istanbul casual rooftop city each",
-          "simple dawn rooftop casual each"
+          "linen shirt and straw hat each",
+          "sundress and espadrilles each",
+          "rolled-sleeve shirt and light trousers each"
+        ]
+      },
+      "the edge vs. the centre": {
+        "locs": [
+          "rooftop helipad empty city spread dramatic",
+          "rooftop solar panels practical city beyond",
+          "Detroit abandoned factory rooftop city below dramatic"
+        ],
+        "poses": [
+          "both wrapped in blankets at the edge, watching the night",
+          "both walking the edge with arms out for balance",
+          "both lying back, looking at the sky"
+        ],
+        "looks": [
+          "workwear jacket and boots each",
+          "oversized sweater and jeans each",
+          "puffer jacket and beanie each"
+        ]
+      },
+      "dawn vs. dusk from above": {
+        "locs": [
+          "Paris Haussmann rooftop chimney zinc dawn golden",
+          "Paris rooftop Eiffel visible golden light",
+          "Paris rooftop 6th arrondissement zinc slate dawn"
+        ],
+        "poses": [
+          "both with coffee cups, leaning on the chimney stack",
+          "both perched by the skylight in the early light",
+          "both pointing out landmarks, arms around each other"
+        ],
+        "looks": [
+          "striped breton top and trench coat each",
+          "silk scarf and tailored jacket each",
+          "wool coat and beret each"
+        ]
+      },
+      "small vs. vast city spread": {
+        "locs": [
+          "Havana rooftop washing lines crumbling colonial city below",
+          "Havana rooftop 1950s Chevrolet visible below dawn",
+          "Havana rooftop Malecón sea beyond crumbling beautiful"
+        ],
+        "poses": [
+          "both leaning on the parapet beside a line of washing, laughing",
+          "both sitting on a crumbling ledge, legs dangling",
+          "both hanging a sheet on the line together"
+        ],
+        "looks": [
+          "thin cotton shirt and rolled trousers each",
+          "summer dress and sandals each",
+          "vest and linen shorts each"
         ]
       }
     },
@@ -13695,6 +14895,7 @@ const WORLDS = [
       "Brooklyn rooftop Manhattan bridge view sunset",
       "New York rooftop 1970s vintage city behind",
       "New York rooftop party night skyline",
+      "Chicago water tower rooftop industrial city",
       "Paris Haussmann rooftop chimney zinc dawn golden",
       "Paris rooftop Eiffel visible golden light",
       "Paris rooftop 6th arrondissement zinc slate dawn",
@@ -13704,50 +14905,61 @@ const WORLDS = [
       "Naples rooftop Vesuvius beyond city below",
       "Athens rooftop Acropolis visible dramatic dusk",
       "Istanbul rooftop mosque minaret city both sides",
-      "Detroit abandoned factory rooftop city below dramatic",
-      "Chicago water tower rooftop industrial city",
       "São Paulo rooftop favela meets glass tower",
       "Beirut rooftop bullet holes city rebuild",
       "Cairo rooftop minaret city ancient sprawl",
       "Mumbai rooftop slum city beyond contrast",
+      "Detroit abandoned factory rooftop city below dramatic",
       "rooftop garden city dawn first light plants",
       "rooftop pool city below luxury night reflection",
       "rooftop helipad empty city spread dramatic",
       "rooftop solar panels practical city beyond"
     ],
     "poses": [
-      "both Havana rooftop washing lines colonial city below",
-      "both Tokyo neon water tank city night",
-      "both Paris chimney zinc rooftop dawn golden",
-      "both New York water tower Manhattan skyline",
-      "both Istanbul minaret rooftop city both sides",
-      "both Rome terracotta rooftop eternal city",
-      "both Barcelona rooftop Gaudí visible dramatic",
-      "both Lisbon rooftop tile city fado below",
-      "both Detroit rooftop abandoned dramatic city",
-      "both Seoul rooftop Han River night neon",
-      "both rooftop edge city vast below dramatic",
-      "both rooftop garden dawn city waking",
-      "both rooftop pool night city reflection luxury",
-      "both looking down on city street far below",
-      "both rooftop back to city looking at each other",
-      "both rooftop watching city sunrise",
-      "both rooftop dramatic wind city spread",
-      "both rooftop simple moment city noise below",
-      "both rooftop night cold city bright below",
-      "both rooftop dawn city waking around them"
+      "both leaning on the parapet beside a line of washing, laughing",
+      "both sitting on a crumbling ledge, legs dangling",
+      "both hanging a sheet on the line together",
+      "both silhouetted against glowing signs, shoulder to shoulder",
+      "both sitting on a water tank, sharing a drink",
+      "both leaning on the railing, faces lit by neon",
+      "both stretched out on a blanket, the skyline beyond",
+      "both leaning on the tank watching the light change",
+      "both clinking bottles at the edge",
+      "both with coffee cups, leaning on the chimney stack",
+      "both perched by the skylight in the early light",
+      "both pointing out landmarks, arms around each other",
+      "both lounging on warm tiles, sun on their faces",
+      "both sharing grapes on the terrace",
+      "both laughing as a church bell rings",
+      "both framed against the sprawling skyline, quiet",
+      "both listening to the city's evening noise rise from below",
+      "both leaning together above the crowded streets",
+      "both wrapped in blankets at the edge, watching the night",
+      "both walking the edge with arms out for balance",
+      "both lying back, looking at the sky"
     ],
     "looks": [
-      "Havana casual summer rooftop heat each",
-      "Tokyo street fashion rooftop neon each",
-      "Paris rooftop chic morning each dawn",
-      "New York rooftop casual city view each",
-      "Istanbul casual rooftop city each",
-      "dramatic coat rooftop wind each",
-      "simple casual rooftop city each",
-      "rooftop party dressed up each night",
-      "practical urban each rooftop exploration",
-      "simple dawn rooftop casual each"
+      "thin cotton shirt and rolled trousers each",
+      "summer dress and sandals each",
+      "vest and linen shorts each",
+      "oversized streetwear jacket and sneakers each",
+      "layered black techwear each",
+      "bomber jacket and pleated skirt each",
+      "denim jacket and white tee each",
+      "leather jacket and boots each",
+      "knit sweater and jeans each",
+      "striped breton top and trench coat each",
+      "silk scarf and tailored jacket each",
+      "wool coat and beret each",
+      "linen shirt and straw hat each",
+      "sundress and espadrilles each",
+      "rolled-sleeve shirt and light trousers each",
+      "loose cotton shirt and scarf each",
+      "long tunic and light trousers each",
+      "simple dress and shawl each",
+      "workwear jacket and boots each",
+      "oversized sweater and jeans each",
+      "puffer jacket and beanie each"
     ],
     "promptSuffix": "Colour grade: specific to each city rooftop — Havana ochre and decay, Tokyo neon dense, Paris zinc dawn gold, New York water tower dramatic. The city below is always part of the frame."
   },
@@ -13771,65 +14983,230 @@ const WORLDS = [
     "affinities": {
       "performance vs. reality": {
         "locs": [
-          "Soviet state circus ring spotlight 1960s",
-          "Depression-era circus big top sawdust 1930s",
-          "Cirque du Soleil contemporary rig dramatic"
+          "Soviet state circus ring red spotlight 1960s",
+          "Soviet circus animal trainer ring 1960s",
+          "Moscow State Circus dressing room backstage 1970s"
         ],
         "poses": [
-          "both in Soviet circus ring red spotlight 1960s",
-          "both Depression-era circus performers 1930s dramatic"
+          "both stepping into the red spotlight, arms flung wide",
+          "one balanced on the other's shoulders, hands steady",
+          "both bowing deeply to a roaring crowd"
         ],
         "looks": [
-          "Soviet circus costume acrobat 1960s each",
-          "Depression-era circus costume 1930s worn each"
+          "red sequined leotard and stiff gold collar each",
+          "tailored ringmaster tailcoat with braid each",
+          "white training leotard and ballet shoes each"
+        ]
+      },
+      "risk vs. safety": {
+        "locs": [
+          "Cirque du Soleil contemporary rig dramatic",
+          "aerial silks rig warehouse rehearsal contemporary",
+          "wire act high above no net ring below"
+        ],
+        "poses": [
+          "both suspended high on silks, limbs entwined",
+          "one hanging by the knees reaching down to the other",
+          "both balanced on the wire, arms out"
+        ],
+        "looks": [
+          "sleek body-hugging performance suit each",
+          "flowing silk costume with long ribbons each",
+          "minimal pale leotard and chalked hands each"
+        ]
+      },
+      "applause vs. silence": {
+        "locs": [
+          "clown alley backstage dressing tables",
+          "circus ring empty between shows sawdust",
+          "circus ring single spotlight performer dust"
+        ],
+        "poses": [
+          "both at a mirror applying makeup, side by side",
+          "both sitting on the edge, exhausted and quiet",
+          "one painting the other's face with careful hands"
+        ],
+        "looks": [
+          "half-done clown makeup and baggy costume each",
+          "cardigan over a sequined costume each",
+          "robe over a rhinestone costume each"
+        ]
+      },
+      "the act vs. the life": {
+        "locs": [
+          "Depression-era big top sawdust 1930s",
+          "Depression water for elephants register 1930s",
+          "Barnum Bailey travelling circus poster backdrop 1920s"
+        ],
+        "poses": [
+          "both leaning on a painted wagon, worn and proud",
+          "both walking beside a line of elephants, dust rising",
+          "both sharing a tin cup of coffee on the steps, tired"
+        ],
+        "looks": [
+          "patched wool jacket and faded sequins each",
+          "striped performer's costume and worn boots each",
+          "ringmaster's coat with tarnished braid each"
+        ]
+      },
+      "grace vs. danger": {
+        "locs": [
+          "flying trapeze platform height big top",
+          "Cirque du Soleil contemporary rig dramatic",
+          "aerial silks rig warehouse rehearsal contemporary"
+        ],
+        "poses": [
+          "both suspended high on silks, limbs entwined",
+          "one hanging by the knees reaching down to the other",
+          "both balanced on the wire, arms out"
+        ],
+        "looks": [
+          "sleek body-hugging performance suit each",
+          "flowing silk costume with long ribbons each",
+          "minimal pale leotard and chalked hands each"
+        ]
+      },
+      "spectacle vs. ordinary": {
+        "locs": [
+          "big top exterior night lights",
+          "1950s Italian circus Fellini register outdoor",
+          "big top collapsed in wind aftermath"
+        ],
+        "poses": [
+          "both small before the glowing tent, hand in hand",
+          "both dancing in the empty sawdust, no music",
+          "both standing in the wreckage, staring at the sky"
+        ],
+        "looks": [
+          "faded finery and an oversized coat each",
+          "dark coat over a bright costume each",
+          "simple street clothes with a tinsel scarf each"
+        ]
+      },
+      "the big top vs. the world outside": {
+        "locs": [
+          "big top exterior night lights",
+          "1950s Italian circus Fellini register outdoor",
+          "big top collapsed in wind aftermath"
+        ],
+        "poses": [
+          "both small before the glowing tent, hand in hand",
+          "both dancing in the empty sawdust, no music",
+          "both standing in the wreckage, staring at the sky"
+        ],
+        "looks": [
+          "faded finery and an oversized coat each",
+          "dark coat over a bright costume each",
+          "simple street clothes with a tinsel scarf each"
+        ]
+      },
+      "peak vs. descent": {
+        "locs": [
+          "clown alley backstage dressing tables",
+          "circus ring empty between shows sawdust",
+          "circus ring single spotlight performer dust"
+        ],
+        "poses": [
+          "both at a mirror applying makeup, side by side",
+          "both sitting on the edge, exhausted and quiet",
+          "one painting the other's face with careful hands"
+        ],
+        "looks": [
+          "half-done clown makeup and baggy costume each",
+          "cardigan over a sequined costume each",
+          "robe over a rhinestone costume each"
+        ]
+      },
+      "together vs. alone in the ring": {
+        "locs": [
+          "circus train car siding dawn performers",
+          "circus parade street 1920s elephants",
+          "circus wagon painted carved travelling"
+        ],
+        "poses": [
+          "both leaning on a painted wagon, worn and proud",
+          "both walking beside a line of elephants, dust rising",
+          "both sharing a tin cup of coffee on the steps, tired"
+        ],
+        "looks": [
+          "patched wool jacket and faded sequins each",
+          "striped performer's costume and worn boots each",
+          "ringmaster's coat with tarnished braid each"
+        ]
+      },
+      "the crowd vs. the performer": {
+        "locs": [
+          "Moscow circus school practice hall",
+          "Soviet state circus ring red spotlight 1960s",
+          "Soviet circus animal trainer ring 1960s"
+        ],
+        "poses": [
+          "both stepping into the red spotlight, arms flung wide",
+          "one balanced on the other's shoulders, hands steady",
+          "both bowing deeply to a roaring crowd"
+        ],
+        "looks": [
+          "red sequined leotard and stiff gold collar each",
+          "tailored ringmaster tailcoat with braid each",
+          "white training leotard and ballet shoes each"
         ]
       }
     },
     "locs": [
       "Soviet state circus ring red spotlight 1960s",
-      "Depression-era big top sawdust 1930s",
-      "Cirque du Soleil contemporary rig dramatic",
+      "Soviet circus animal trainer ring 1960s",
       "Moscow State Circus dressing room backstage 1970s",
+      "Moscow circus school practice hall",
+      "Depression-era big top sawdust 1930s",
+      "Depression water for elephants register 1930s",
       "Barnum Bailey travelling circus poster backdrop 1920s",
-      "circus ring empty between shows sawdust",
+      "circus train car siding dawn performers",
+      "circus parade street 1920s elephants",
+      "circus wagon painted carved travelling",
+      "Cirque du Soleil contemporary rig dramatic",
+      "aerial silks rig warehouse rehearsal contemporary",
       "wire act high above no net ring below",
       "flying trapeze platform height big top",
-      "Soviet circus animal trainer ring 1960s",
-      "1950s Italian circus Fellini register outdoor",
-      "circus train car siding dawn performers",
-      "big top exterior night lights",
       "clown alley backstage dressing tables",
-      "circus parade street 1920s elephants",
-      "Depression water for elephants register 1930s",
+      "circus ring empty between shows sawdust",
       "circus ring single spotlight performer dust",
-      "big top collapsed in wind aftermath",
-      "Moscow circus school practice hall",
-      "circus wagon painted carved travelling",
-      "aerial silks rig warehouse rehearsal contemporary"
+      "big top exterior night lights",
+      "1950s Italian circus Fellini register outdoor",
+      "big top collapsed in wind aftermath"
     ],
     "poses": [
-      "both Soviet circus ring spotlight red dramatic 1960s",
-      "both Depression-era performers 1930s wire act",
-      "both Cirque contemporary rig dramatic height",
-      "both in ring after act sawdust exhausted",
-      "both big top exterior night lights behind",
-      "both circus dressing room backstage mirror",
-      "both on wire platform height below visible",
-      "both circus parade 1920s street",
-      "both aerial silks rehearsal warehouse",
-      "both clown alley backstage before act"
+      "both stepping into the red spotlight, arms flung wide",
+      "one balanced on the other's shoulders, hands steady",
+      "both bowing deeply to a roaring crowd",
+      "both leaning on a painted wagon, worn and proud",
+      "both walking beside a line of elephants, dust rising",
+      "both sharing a tin cup of coffee on the steps, tired",
+      "both suspended high on silks, limbs entwined",
+      "one hanging by the knees reaching down to the other",
+      "both balanced on the wire, arms out",
+      "both at a mirror applying makeup, side by side",
+      "both sitting on the edge, exhausted and quiet",
+      "one painting the other's face with careful hands",
+      "both small before the glowing tent, hand in hand",
+      "both dancing in the empty sawdust, no music",
+      "both standing in the wreckage, staring at the sky"
     ],
     "looks": [
-      "Soviet circus costume acrobat sequin 1960s each",
-      "Depression-era circus worn costume 1930s each",
-      "Cirque du Soleil contemporary dramatic each",
-      "Moscow circus school training wear 1970s each",
-      "1920s circus parade costume elaborate each",
-      "big top clown costume classic each",
-      "trapeze artist sequin dramatic each",
-      "circus ringmaster top hat coat each",
-      "contortionist costume flexible each",
-      "tightrope walker minimal balanced each"
+      "red sequined leotard and stiff gold collar each",
+      "tailored ringmaster tailcoat with braid each",
+      "white training leotard and ballet shoes each",
+      "patched wool jacket and faded sequins each",
+      "striped performer's costume and worn boots each",
+      "ringmaster's coat with tarnished braid each",
+      "sleek body-hugging performance suit each",
+      "flowing silk costume with long ribbons each",
+      "minimal pale leotard and chalked hands each",
+      "half-done clown makeup and baggy costume each",
+      "cardigan over a sequined costume each",
+      "robe over a rhinestone costume each",
+      "faded finery and an oversized coat each",
+      "dark coat over a bright costume each",
+      "simple street clothes with a tinsel scarf each"
     ],
     "promptSuffix": "Colour grade: big top red and gold, Soviet poster primary, Depression sepia and dust, single ring spotlight darkness."
   },
@@ -14771,7 +16148,7 @@ const WORLDS = [
       "night out dressed up each",
       "locals casual modest each"
     ],
-    "promptSuffix": "Colour grade: saturated carnival neon — magenta, electric blue, acid yellow, warm amber of bulb strings. The beauty should feel slightly too much, slightly sad, the way carnival light always does. The emotional tension is atmosphere only. Do not illustrate it literally."
+    "promptSuffix": "Colour grade: saturated carnival neon — magenta, electric blue, acid yellow, warm amber of bulb strings. The beauty should feel slightly too much, slightly sad, the way carnival light always does."
   },
   {
     "id": "valentines",
@@ -14878,7 +16255,7 @@ const WORLDS = [
       "winter coat each arriving cold evening",
       "simple clean clothes each understated"
     ],
-    "promptSuffix": "Colour grade: deep red, rose, candlelight amber — the palette of Valentine’s Day done with restraint. Warm and intimate, never garish. The emotional tension is atmosphere only. Do not illustrate it literally."
+    "promptSuffix": "Colour grade: deep red, rose, candlelight amber — the palette of Valentine’s Day done with restraint. Warm and intimate, never garish."
   },
   {
     "id": "mothersday",
@@ -14900,63 +16277,226 @@ const WORLDS = [
     "affinities": {
       "given vs. received": {
         "locs": [
-          "spring garden flowers morning sunlight",
           "breakfast tray bedroom morning flowers",
-          "kitchen table Sunday morning flowers bouquet"
+          "kitchen table Sunday morning flowers bouquet",
+          "front door flowers delivered morning"
         ],
         "poses": [
-          "one presenting flowers other receiving both emotional",
-          "both in garden spring morning holding flowers"
+          "one carrying a tray, the other still in bed, beaming",
+          "both at the table, one opening a card, tears of joy",
+          "one arranging a vase, the other watching fondly"
         ],
         "looks": [
-          "spring floral dress each soft occasion",
-          "casual home morning clothes comfortable each"
+          "cosy dressing gown each",
+          "soft pyjamas and cardigan each",
+          "casual home clothes, hair loose each"
+        ]
+      },
+      "past vs. present": {
+        "locs": [
+          "dining table sunday lunch spring",
+          "restaurant sunday lunch spring afternoon",
+          "café sunday morning flowers on table"
+        ],
+        "poses": [
+          "both sharing a dessert, laughing",
+          "both raising glasses, eyes shining",
+          "both paging through an old album, heads together"
+        ],
+        "looks": [
+          "smart blouse and tailored trousers each",
+          "simple dress and blazer each",
+          "pastel shirt and cardigan each"
+        ]
+      },
+      "child vs. adult": {
+        "locs": [
+          "spring garden flowers morning sunlight",
+          "garden path spring flowers either side",
+          "garden gate spring morning arrival"
+        ],
+        "poses": [
+          "both walking arm in arm, blossoms in their hands",
+          "both sitting close, laughing at a shared memory",
+          "both bending over the petals, heads together"
+        ],
+        "looks": [
+          "soft floral dress and cardigan each",
+          "pale shirt and light trousers each",
+          "spring dress and sun hat each"
+        ]
+      },
+      "remembered vs. present": {
+        "locs": [
+          "living room spring afternoon light flowers",
+          "florist shop spring flowers selection morning",
+          "dining table sunday lunch spring"
+        ],
+        "poses": [
+          "both sharing a dessert, laughing",
+          "both raising glasses, eyes shining",
+          "both paging through an old album, heads together"
+        ],
+        "looks": [
+          "smart blouse and tailored trousers each",
+          "simple dress and blazer each",
+          "pastel shirt and cardigan each"
+        ]
+      },
+      "gratitude vs. guilt": {
+        "locs": [
+          "kitchen flowers vase morning light",
+          "bedroom morning light flowers bedside",
+          "sunday morning light through window flowers"
+        ],
+        "poses": [
+          "one carrying a tray, the other still in bed, beaming",
+          "both at the table, one opening a card, tears of joy",
+          "one arranging a vase, the other watching fondly"
+        ],
+        "looks": [
+          "cosy dressing gown each",
+          "soft pyjamas and cardigan each",
+          "casual home clothes, hair loose each"
+        ]
+      },
+      "love vs. time": {
+        "locs": [
+          "garden table lunch spring afternoon",
+          "home garden spring evening golden hour",
+          "conservatory morning light spring flowers"
+        ],
+        "poses": [
+          "both at a laid table, passing plates",
+          "both lifting a pot of tea, laughing",
+          "both leaning back in their chairs in the sun"
+        ],
+        "looks": [
+          "floral dress and linen jacket each",
+          "light shirt and sleeveless dress each",
+          "pastel top and cotton trousers each"
+        ]
+      },
+      "then vs. now": {
+        "locs": [
+          "restaurant sunday lunch spring afternoon",
+          "café sunday morning flowers on table",
+          "living room spring afternoon light flowers"
+        ],
+        "poses": [
+          "both sharing a dessert, laughing",
+          "both raising glasses, eyes shining",
+          "both paging through an old album, heads together"
+        ],
+        "looks": [
+          "smart blouse and tailored trousers each",
+          "simple dress and blazer each",
+          "pastel shirt and cardigan each"
+        ]
+      },
+      "the mother vs. the woman": {
+        "locs": [
+          "porch steps spring morning flowers",
+          "park spring afternoon flowers blooming",
+          "garden bench spring afternoon flowers"
+        ],
+        "poses": [
+          "both walking arm in arm, blossoms in their hands",
+          "both sitting close, laughing at a shared memory",
+          "both bending over the petals, heads together"
+        ],
+        "looks": [
+          "soft floral dress and cardigan each",
+          "pale shirt and light trousers each",
+          "spring dress and sun hat each"
+        ]
+      },
+      "sacrifice vs. self": {
+        "locs": [
+          "breakfast tray bedroom morning flowers",
+          "kitchen table Sunday morning flowers bouquet",
+          "front door flowers delivered morning"
+        ],
+        "poses": [
+          "one carrying a tray, the other still in bed, beaming",
+          "both at the table, one opening a card, tears of joy",
+          "one arranging a vase, the other watching fondly"
+        ],
+        "looks": [
+          "cosy dressing gown each",
+          "soft pyjamas and cardigan each",
+          "casual home clothes, hair loose each"
+        ]
+      },
+      "held vs. let go": {
+        "locs": [
+          "garden table lunch spring afternoon",
+          "home garden spring evening golden hour",
+          "conservatory morning light spring flowers"
+        ],
+        "poses": [
+          "both at a laid table, passing plates",
+          "both lifting a pot of tea, laughing",
+          "both leaning back in their chairs in the sun"
+        ],
+        "looks": [
+          "floral dress and linen jacket each",
+          "light shirt and sleeveless dress each",
+          "pastel top and cotton trousers each"
         ]
       }
     },
     "locs": [
       "spring garden flowers morning sunlight",
-      "breakfast tray bedroom morning flowers",
-      "kitchen table Sunday morning flowers bouquet",
-      "garden table lunch spring afternoon",
-      "florist shop spring flowers selection morning",
-      "front door flowers delivered morning",
-      "living room spring afternoon light flowers",
-      "dining table sunday lunch spring",
       "garden path spring flowers either side",
-      "restaurant sunday lunch spring afternoon",
-      "conservatory morning light spring flowers",
-      "garden bench spring afternoon flowers",
-      "kitchen flowers vase morning light",
-      "bedroom morning light flowers bedside",
       "garden gate spring morning arrival",
       "porch steps spring morning flowers",
       "park spring afternoon flowers blooming",
-      "café sunday morning flowers on table",
+      "garden bench spring afternoon flowers",
+      "garden table lunch spring afternoon",
       "home garden spring evening golden hour",
-      "sunday morning light through window flowers"
+      "conservatory morning light spring flowers",
+      "breakfast tray bedroom morning flowers",
+      "kitchen table Sunday morning flowers bouquet",
+      "front door flowers delivered morning",
+      "kitchen flowers vase morning light",
+      "bedroom morning light flowers bedside",
+      "sunday morning light through window flowers",
+      "dining table sunday lunch spring",
+      "restaurant sunday lunch spring afternoon",
+      "café sunday morning flowers on table",
+      "living room spring afternoon light flowers",
+      "florist shop spring flowers selection morning"
     ],
     "poses": [
-      "one presenting flowers other receiving both emotional",
-      "both in garden spring morning holding flowers",
-      "one in bed other bringing breakfast tray",
-      "both at kitchen table morning coffee flowers",
-      "both in garden looking at flowers spring",
-      "one reading card other watches smiling",
-      "both walking garden arm in arm spring",
-      "both at lunch table spring afternoon",
-      "one cooking other setting table spring morning",
-      "both looking at old photographs together spring"
+      "both walking arm in arm, blossoms in their hands",
+      "both sitting close, laughing at a shared memory",
+      "both bending over the petals, heads together",
+      "both at a laid table, passing plates",
+      "both lifting a pot of tea, laughing",
+      "both leaning back in their chairs in the sun",
+      "one carrying a tray, the other still in bed, beaming",
+      "both at the table, one opening a card, tears of joy",
+      "one arranging a vase, the other watching fondly",
+      "both sharing a dessert, laughing",
+      "both raising glasses, eyes shining",
+      "both paging through an old album, heads together"
     ],
     "looks": [
-      "spring floral dress each soft occasion",
-      "casual home morning clothes comfortable each",
-      "spring smart casual lunch each",
-      "simple elegant each understated occasion",
-      "garden casual layers spring each",
-      "soft colours each pastel spring"
+      "soft floral dress and cardigan each",
+      "pale shirt and light trousers each",
+      "spring dress and sun hat each",
+      "floral dress and linen jacket each",
+      "light shirt and sleeveless dress each",
+      "pastel top and cotton trousers each",
+      "cosy dressing gown each",
+      "soft pyjamas and cardigan each",
+      "casual home clothes, hair loose each",
+      "smart blouse and tailored trousers each",
+      "simple dress and blazer each",
+      "pastel shirt and cardigan each"
     ],
-    "promptSuffix": "Colour grade: soft spring light — pale gold, blush, the fresh green of new growth. Warm and tender. The emotional tension is atmosphere only. Do not illustrate it literally."
+    "promptSuffix": "Colour grade: soft spring light — pale gold, blush, the fresh green of new growth. Warm and tender."
   },
   {
     "id": "fourthofjuly",
@@ -15038,7 +16578,7 @@ const WORLDS = [
       "summer dress and shorts americana each",
       "casual celebration american red white blue each"
     ],
-    "promptSuffix": "Colour grade: red, white, blue — the saturated palette of American Independence Day. Fireworks gold and silver against night sky, or the warm afternoon of small-town celebration. The emotional tension is atmosphere only. Do not illustrate it literally."
+    "promptSuffix": "Colour grade: red, white, blue — the saturated palette of American Independence Day. Fireworks gold and silver against night sky, or the warm afternoon of small-town celebration."
   },
   {
     "id": "septiembre16",
@@ -15061,66 +16601,230 @@ const WORLDS = [
       "pride vs. history": {
         "locs": [
           "zocalo mexico city grito de independencia night",
-          "plaza principal pueblo grito night fireworks",
-          "charro escaramuza horse arena afternoon"
+          "plaza principal pueblo night fireworks grito",
+          "cathedral facade green white red lights night"
         ],
         "poses": [
-          "both in plaza grito night crowd fireworks",
-          "both in charro and china poblana traditional"
+          "both with arms raised, faces lit by fireworks",
+          "both shouting with the crowd, flags waving",
+          "both gazing up, red green and white sparks above"
         ],
         "looks": [
-          "charro suit and china poblana traditional mexican",
-          "green white red tricolor formal each"
+          "green, white and red outfit each",
+          "embroidered blouse and dark trousers each",
+          "festive tricolour shawl and shirt each"
+        ]
+      },
+      "past vs. present": {
+        "locs": [
+          "hacienda colonial courtyard evening",
+          "small pueblo plaza morning independence",
+          "colonial archway green white red bunting"
+        ],
+        "poses": [
+          "both walking the cobbled lane with flags in hand",
+          "both resting under the arches, smiling",
+          "both standing in the courtyard, bunting overhead"
+        ],
+        "looks": [
+          "simple cotton clothes and sombrero each",
+          "embroidered dress and hat each",
+          "white shirt and green sash each"
+        ]
+      },
+      "freedom vs. memory": {
+        "locs": [
+          "colonial town square fireworks night",
+          "cathedral bells ringing independence night",
+          "plaza de armas provincial town evening"
+        ],
+        "poses": [
+          "both with arms raised, faces lit by fireworks",
+          "both shouting with the crowd, flags waving",
+          "both gazing up, red green and white sparks above"
+        ],
+        "looks": [
+          "green, white and red outfit each",
+          "embroidered blouse and dark trousers each",
+          "festive tricolour shawl and shirt each"
+        ]
+      },
+      "celebration vs. weight": {
+        "locs": [
+          "town square mariachi performance evening",
+          "folk dance performance plaza evening",
+          "traditional dress parade main street day"
+        ],
+        "poses": [
+          "both mid-twirl, skirts flaring",
+          "both stamping their feet in rhythm",
+          "both singing along to the band, arms around each other"
+        ],
+        "looks": [
+          "wide ruffled skirt and embroidered blouse each",
+          "charro jacket and bow tie each",
+          "bright folk dress and ribbons each"
+        ]
+      },
+      "together vs. divided": {
+        "locs": [
+          "zocalo mexico city grito de independencia night",
+          "plaza principal pueblo night fireworks grito",
+          "cathedral facade green white red lights night"
+        ],
+        "poses": [
+          "both with arms raised, faces lit by fireworks",
+          "both shouting with the crowd, flags waving",
+          "both gazing up, red green and white sparks above"
+        ],
+        "looks": [
+          "green, white and red outfit each",
+          "embroidered blouse and dark trousers each",
+          "festive tricolour shawl and shirt each"
+        ]
+      },
+      "identity vs. belonging": {
+        "locs": [
+          "traditional market dia de independencia stalls",
+          "traditional feast table day of independence",
+          "market stalls mexican crafts independence"
+        ],
+        "poses": [
+          "both sharing a plate of food, laughing",
+          "both haggling over crafts, delighted",
+          "both stirring a huge pot together"
+        ],
+        "looks": [
+          "embroidered blouse and apron each",
+          "cotton shirt and straw hat each",
+          "festive dress and rebozo each"
+        ]
+      },
+      "the grito vs. the silence after": {
+        "locs": [
+          "mountain village independence celebration afternoon",
+          "hacienda colonial courtyard evening",
+          "small pueblo plaza morning independence"
+        ],
+        "poses": [
+          "both walking the cobbled lane with flags in hand",
+          "both resting under the arches, smiling",
+          "both standing in the courtyard, bunting overhead"
+        ],
+        "looks": [
+          "simple cotton clothes and sombrero each",
+          "embroidered dress and hat each",
+          "white shirt and green sash each"
+        ]
+      },
+      "tradition vs. change": {
+        "locs": [
+          "charro escaramuza horse arena afternoon",
+          "charreada arena afternoon traditional"
+        ],
+        "poses": [
+          "both standing proud with reins in hand",
+          "both at the ring's edge, hats tilted",
+          "both mid-step in a bow to the crowd"
+        ],
+        "looks": [
+          "silver-buttoned charro suit and wide sombrero each",
+          "long embroidered dress with ribbons each",
+          "embroidered jacket and tight trousers each"
+        ]
+      },
+      "roots vs. future": {
+        "locs": [
+          "traditional kitchen independence feast morning",
+          "traditional market dia de independencia stalls",
+          "traditional feast table day of independence"
+        ],
+        "poses": [
+          "both sharing a plate of food, laughing",
+          "both haggling over crafts, delighted",
+          "both stirring a huge pot together"
+        ],
+        "looks": [
+          "embroidered blouse and apron each",
+          "cotton shirt and straw hat each",
+          "festive dress and rebozo each"
+        ]
+      },
+      "national vs. personal": {
+        "locs": [
+          "mexican flag green white red waving plaza",
+          "town square mariachi performance evening",
+          "folk dance performance plaza evening"
+        ],
+        "poses": [
+          "both mid-twirl, skirts flaring",
+          "both stamping their feet in rhythm",
+          "both singing along to the band, arms around each other"
+        ],
+        "looks": [
+          "wide ruffled skirt and embroidered blouse each",
+          "charro jacket and bow tie each",
+          "bright folk dress and ribbons each"
         ]
       }
     },
     "locs": [
       "zocalo mexico city grito de independencia night",
       "plaza principal pueblo night fireworks grito",
-      "charro escaramuza horse arena afternoon",
-      "traditional market dia de independencia stalls",
       "cathedral facade green white red lights night",
-      "town square mariachi performance evening",
-      "hacienda colonial courtyard evening",
-      "mexican flag green white red waving plaza",
-      "traditional feast table day of independence",
-      "folk dance performance plaza evening",
       "colonial town square fireworks night",
-      "traditional dress parade main street day",
-      "charreada arena afternoon traditional",
-      "small pueblo plaza morning independence",
       "cathedral bells ringing independence night",
-      "market stalls mexican crafts independence",
-      "colonial archway green white red bunting",
-      "traditional kitchen independence feast morning",
       "plaza de armas provincial town evening",
+      "charro escaramuza horse arena afternoon",
+      "charreada arena afternoon traditional",
+      "traditional market dia de independencia stalls",
+      "traditional feast table day of independence",
+      "market stalls mexican crafts independence",
+      "traditional kitchen independence feast morning",
+      "town square mariachi performance evening",
+      "folk dance performance plaza evening",
+      "traditional dress parade main street day",
+      "mexican flag green white red waving plaza",
+      "hacienda colonial courtyard evening",
+      "small pueblo plaza morning independence",
+      "colonial archway green white red bunting",
       "mountain village independence celebration afternoon"
     ],
     "poses": [
-      "both in plaza grito night crowd fireworks above",
-      "both in traditional charro and poblana formal posed",
-      "both watching charreada arena afternoon",
-      "both mid-mariachi dance plaza evening",
-      "both at traditional feast table independence",
-      "both in crowd cathedral bells ringing night",
-      "both waving mexican flags plaza night",
-      "both in folk dance traditional dress movement",
-      "both watching fireworks zocalo night faces lit",
-      "both at market stalls independence day morning"
+      "both with arms raised, faces lit by fireworks",
+      "both shouting with the crowd, flags waving",
+      "both gazing up, red green and white sparks above",
+      "both standing proud with reins in hand",
+      "both at the ring's edge, hats tilted",
+      "both mid-step in a bow to the crowd",
+      "both sharing a plate of food, laughing",
+      "both haggling over crafts, delighted",
+      "both stirring a huge pot together",
+      "both mid-twirl, skirts flaring",
+      "both stamping their feet in rhythm",
+      "both singing along to the band, arms around each other",
+      "both walking the cobbled lane with flags in hand",
+      "both resting under the arches, smiling",
+      "both standing in the courtyard, bunting overhead"
     ],
     "looks": [
-      "charro suit silver buttons and china poblana traditional",
-      "green white red tricolor formal occasion each",
-      "traditional huipil and guayabera each regional",
-      "traditional embroidered dress and suit each",
-      "mestizo formal best clothes occasion each",
-      "charro suit and tehuana dress each regional",
-      "traditional mexican independence colours each",
-      "folk dance traditional dress each regional",
-      "casual mexican patriotic colours each",
-      "simple traditional each cotton embroidered"
+      "green, white and red outfit each",
+      "embroidered blouse and dark trousers each",
+      "festive tricolour shawl and shirt each",
+      "silver-buttoned charro suit and wide sombrero each",
+      "long embroidered dress with ribbons each",
+      "embroidered jacket and tight trousers each",
+      "embroidered blouse and apron each",
+      "cotton shirt and straw hat each",
+      "festive dress and rebozo each",
+      "wide ruffled skirt and embroidered blouse each",
+      "charro jacket and bow tie each",
+      "bright folk dress and ribbons each",
+      "simple cotton clothes and sombrero each",
+      "embroidered dress and hat each",
+      "white shirt and green sash each"
     ],
-    "promptSuffix": "Colour grade: green, white, red — the colours of the Mexican flag, the light of the plaza at night, fireworks over the cathedral. Warm, celebratory, deeply proud. The emotional tension is atmosphere only. Do not illustrate it literally."
+    "promptSuffix": "Colour grade: green, white, red — the colours of the Mexican flag, the light of the plaza at night, fireworks over the cathedral. Warm, celebratory, deeply proud."
   },
   {
     "id": "thanksgiving",
@@ -15200,7 +16904,7 @@ const WORLDS = [
       "casual warm layers thanksgiving each",
       "smart family occasion clothes each"
     ],
-    "promptSuffix": "Colour grade: amber, burnt orange, deep rust — the harvest palette. Warm indoor light, autumn afternoon gold outside. The emotional tension is atmosphere only. Do not illustrate it literally."
+    "promptSuffix": "Colour grade: amber, burnt orange, deep rust — the harvest palette. Warm indoor light, autumn afternoon gold outside."
   },
   {
     "id": "halloween",
@@ -15287,7 +16991,7 @@ const WORLDS = [
       "diy costume creative each homemade",
       "gothic dressed up each dark elaborate"
     ],
-    "promptSuffix": "Colour grade: deep orange, black, the flickering of candlelit jack o lanterns. Darkness punctuated by warm orange — atmospheric, slightly unsettling, delightful. The emotional tension is atmosphere only. Do not illustrate it literally."
+    "promptSuffix": "Colour grade: deep orange, black, the flickering of candlelit jack o lanterns. Darkness punctuated by warm orange — atmospheric, slightly unsettling, delightful."
   },
   {
     "id": "diadelosmuertos",
@@ -15369,7 +17073,7 @@ const WORLDS = [
       "folk embroidered dress and guayabera each",
       "day of dead elaborate crown flowers makeup each"
     ],
-    "promptSuffix": "Colour grade: marigold gold, deep purple, the warm flicker of hundreds of candles. Rich, saturated, deeply beautiful — this is death celebrated as colour. The emotional tension is atmosphere only. Do not illustrate it literally."
+    "promptSuffix": "Colour grade: marigold gold, deep purple, the warm flicker of hundreds of candles. Rich, saturated, deeply beautiful — this is death celebrated as colour."
   },
   {
     "id": "christmas",
@@ -15391,72 +17095,230 @@ const WORLDS = [
     "affinities": {
       "joy vs. longing": {
         "locs": [
-          "christmas tree lights interior night warm",
           "snow exterior house christmas lights evening",
-          "christmas market stall mulled wine lights winter"
+          "snow street christmas lights evening town",
+          "christmas window shop lights snow exterior"
         ],
         "poses": [
-          "both under christmas tree lights evening",
-          "both in snow exterior christmas evening"
+          "both bundled up, catching snowflakes",
+          "both walking arm in arm in the falling snow",
+          "both pulling a small fir tree on a sledge"
         ],
         "looks": [
-          "christmas sweater cosy each festive",
-          "formal christmas dinner each occasion"
+          "chunky coat, hat and scarf each",
+          "wool coat and red gloves each",
+          "padded jacket and bobble hat each"
+        ]
+      },
+      "warmth vs. cold": {
+        "locs": [
+          "snowy landscape christmas day quiet",
+          "christmas tree farm choosing morning snow",
+          "snow exterior house christmas lights evening"
+        ],
+        "poses": [
+          "both bundled up, catching snowflakes",
+          "both walking arm in arm in the falling snow",
+          "both pulling a small fir tree on a sledge"
+        ],
+        "looks": [
+          "chunky coat, hat and scarf each",
+          "wool coat and red gloves each",
+          "padded jacket and bobble hat each"
+        ]
+      },
+      "together vs. absent": {
+        "locs": [
+          "train station christmas arrival reunion",
+          "airport arrivals christmas reunion"
+        ],
+        "poses": [
+          "both hugging tightly, bags dropped at their feet",
+          "one running into the other's arms",
+          "both laughing and crying at the door"
+        ],
+        "looks": [
+          "travelling coat and scarf each",
+          "winter coat and tired smile each",
+          "long coat with a suitcase each"
+        ]
+      },
+      "magic vs. commercial": {
+        "locs": [
+          "christmas market stall mulled wine lights winter",
+          "carol singing exterior night lanterns",
+          "christmas fair outdoor stalls lights winter"
+        ],
+        "poses": [
+          "both clutching steaming mugs, cheeks red",
+          "both singing from a shared sheet, mouths open",
+          "both holding candles, faces glowing"
+        ],
+        "looks": [
+          "long winter coat and woollen scarf each",
+          "wool hat and thick gloves each",
+          "dark coat with a festive brooch each"
+        ]
+      },
+      "childhood vs. adulthood": {
+        "locs": [
+          "christmas tree lights interior night warm",
+          "fireplace stockings interior christmas eve night",
+          "christmas morning unwrapping living room"
+        ],
+        "poses": [
+          "both kneeling, tearing at wrapping paper",
+          "both curled on the sofa, tangled in fairy lights",
+          "both hanging a bauble on the same branch, laughing"
+        ],
+        "looks": [
+          "matching knitted jumpers each",
+          "cosy pyjamas and thick socks each",
+          "festive cardigan and woolly socks each"
+        ]
+      },
+      "giving vs. receiving": {
+        "locs": [
+          "bedroom christmas morning first light",
+          "christmas tree lights interior night warm",
+          "fireplace stockings interior christmas eve night"
+        ],
+        "poses": [
+          "both kneeling, tearing at wrapping paper",
+          "both curled on the sofa, tangled in fairy lights",
+          "both hanging a bauble on the same branch, laughing"
+        ],
+        "looks": [
+          "matching knitted jumpers each",
+          "cosy pyjamas and thick socks each",
+          "festive cardigan and woolly socks each"
+        ]
+      },
+      "sacred vs. secular": {
+        "locs": [
+          "church midnight mass candles christmas eve",
+          "chapel candles christmas eve service",
+          "pub christmas eve fire interior warm"
+        ],
+        "poses": [
+          "both clutching steaming mugs, cheeks red",
+          "both singing from a shared sheet, mouths open",
+          "both holding candles, faces glowing"
+        ],
+        "looks": [
+          "long winter coat and woollen scarf each",
+          "wool hat and thick gloves each",
+          "dark coat with a festive brooch each"
+        ]
+      },
+      "expectation vs. reality": {
+        "locs": [
+          "kitchen christmas cooking morning steam",
+          "christmas table set dinner candles formal",
+          "christmas dinner table full family afternoon"
+        ],
+        "poses": [
+          "both stirring and tasting, flour on their noses",
+          "both raising glasses over a laden table",
+          "both pulling a cracker, grinning"
+        ],
+        "looks": [
+          "festive apron over smart clothes each",
+          "velvet dress and dark suit each",
+          "paper crown and best clothes each"
+        ]
+      },
+      "home vs. elsewhere": {
+        "locs": [
+          "airport arrivals christmas reunion",
+          "train station christmas arrival reunion"
+        ],
+        "poses": [
+          "both hugging tightly, bags dropped at their feet",
+          "one running into the other's arms",
+          "both laughing and crying at the door"
+        ],
+        "looks": [
+          "travelling coat and scarf each",
+          "winter coat and tired smile each",
+          "long coat with a suitcase each"
+        ]
+      },
+      "past vs. present": {
+        "locs": [
+          "christmas morning unwrapping living room",
+          "bedroom christmas morning first light",
+          "christmas tree lights interior night warm"
+        ],
+        "poses": [
+          "both kneeling, tearing at wrapping paper",
+          "both curled on the sofa, tangled in fairy lights",
+          "both hanging a bauble on the same branch, laughing"
+        ],
+        "looks": [
+          "matching knitted jumpers each",
+          "cosy pyjamas and thick socks each",
+          "festive cardigan and woolly socks each"
         ]
       }
     },
     "locs": [
       "christmas tree lights interior night warm",
-      "snow exterior house christmas lights evening",
-      "christmas market stall mulled wine lights winter",
       "fireplace stockings interior christmas eve night",
       "christmas morning unwrapping living room",
-      "church midnight mass candles christmas eve",
+      "bedroom christmas morning first light",
+      "snow exterior house christmas lights evening",
       "snow street christmas lights evening town",
+      "christmas window shop lights snow exterior",
+      "snowy landscape christmas day quiet",
+      "christmas tree farm choosing morning snow",
+      "christmas market stall mulled wine lights winter",
+      "carol singing exterior night lanterns",
+      "christmas fair outdoor stalls lights winter",
+      "church midnight mass candles christmas eve",
+      "chapel candles christmas eve service",
+      "pub christmas eve fire interior warm",
       "kitchen christmas cooking morning steam",
       "christmas table set dinner candles formal",
-      "carol singing exterior night lanterns",
-      "christmas window shop lights snow exterior",
+      "christmas dinner table full family afternoon",
       "train station christmas arrival reunion",
-      "airport arrivals christmas reunion",
-      "bedroom christmas morning first light",
-      "snowy landscape christmas day quiet",
-      "christmas fair outdoor stalls lights winter",
-      "pub christmas eve fire interior warm",
-      "christmas tree farm choosing morning snow",
-      "chapel candles christmas eve service",
-      "christmas dinner table full family afternoon"
+      "airport arrivals christmas reunion"
     ],
     "poses": [
-      "both under christmas tree lights evening warm",
-      "both in snow exterior christmas evening",
-      "both opening gifts christmas morning floor",
-      "both at christmas dinner table raised glasses",
-      "both at carol service candles exterior night",
-      "both arriving home christmas reunion door",
-      "both cooking christmas kitchen morning",
-      "both at christmas market mulled wine cold",
-      "both reading by fire christmas eve",
-      "both in matching christmas jumpers deliberate",
-      "both decorating christmas tree evening",
-      "both outside in snow christmas morning",
-      "both at midnight mass candles christmas eve",
-      "both mid-christmas dinner laughing",
-      "both on sofa christmas afternoon sleepy"
+      "both kneeling, tearing at wrapping paper",
+      "both curled on the sofa, tangled in fairy lights",
+      "both hanging a bauble on the same branch, laughing",
+      "both bundled up, catching snowflakes",
+      "both walking arm in arm in the falling snow",
+      "both pulling a small fir tree on a sledge",
+      "both clutching steaming mugs, cheeks red",
+      "both singing from a shared sheet, mouths open",
+      "both holding candles, faces glowing",
+      "both stirring and tasting, flour on their noses",
+      "both raising glasses over a laden table",
+      "both pulling a cracker, grinning",
+      "both hugging tightly, bags dropped at their feet",
+      "one running into the other's arms",
+      "both laughing and crying at the door"
     ],
     "looks": [
-      "matching christmas jumpers ugly festive each",
-      "christmas formal dinner dress and suit each",
-      "cosy christmas eve pyjamas each warm",
-      "winter coat arriving christmas each",
-      "smart casual christmas day each festive",
-      "simple elegant each understated christmas",
-      "traditional christmas colours red green each",
-      "christmas party dressed up each festive",
-      "warm layers christmas morning casual each",
-      "carol service winter coats scarves each"
+      "matching knitted jumpers each",
+      "cosy pyjamas and thick socks each",
+      "festive cardigan and woolly socks each",
+      "chunky coat, hat and scarf each",
+      "wool coat and red gloves each",
+      "padded jacket and bobble hat each",
+      "long winter coat and woollen scarf each",
+      "wool hat and thick gloves each",
+      "dark coat with a festive brooch each",
+      "festive apron over smart clothes each",
+      "velvet dress and dark suit each",
+      "paper crown and best clothes each",
+      "travelling coat and scarf each",
+      "winter coat and tired smile each",
+      "long coat with a suitcase each"
     ],
-    "promptSuffix": "Colour grade: deep red, gold, warm candlelight — the palette of Christmas done with warmth and restraint. Firelight, fairy lights, the cold blue of snow outside. The emotional tension is atmosphere only. Do not illustrate it literally."
+    "promptSuffix": "Colour grade: deep red, gold, warm candlelight — the palette of Christmas done with warmth and restraint. Firelight, fairy lights, the cold blue of snow outside."
   },
   {
     "id": "newyearseve",
@@ -15479,66 +17341,225 @@ const WORLDS = [
       "past vs. future": {
         "locs": [
           "rooftop fireworks city view midnight countdown",
-          "bridge city fireworks midnight countdown",
-          "ballroom countdown midnight champagne"
+          "rooftop small group midnight city glow",
+          "penthouse view fireworks midnight toast"
         ],
         "poses": [
-          "both mid-countdown rooftop fireworks midnight",
-          "both midnight kiss new year"
+          "both counting down, arms around each other, sparks above",
+          "both kissing as the sky explodes behind",
+          "both toasting with glasses, faces lit"
         ],
         "looks": [
-          "formal evening wear new year midnight each",
-          "gold and silver glitter new year each"
+          "black coat and sparkling scarf each",
+          "evening dress and tuxedo jacket each",
+          "midnight blue formal wear each"
+        ]
+      },
+      "celebration vs. melancholy": {
+        "locs": [
+          "beach bonfire new year midnight",
+          "quiet home midnight just two champagne",
+          "riverside fireworks midnight cold"
+        ],
+        "poses": [
+          "both sitting close, one resting on the other's shoulder",
+          "both wrapped in a blanket, watching the sky",
+          "both sharing a quiet toast, no one else around"
+        ],
+        "looks": [
+          "soft jumper and slippers each",
+          "cosy cardigan and jeans each",
+          "winter coat over party clothes each"
+        ]
+      },
+      "midnight vs. morning": {
+        "locs": [
+          "dawn new year morning aftermath quiet",
+          "beach bonfire new year midnight",
+          "quiet home midnight just two champagne"
+        ],
+        "poses": [
+          "both sitting close, one resting on the other's shoulder",
+          "both wrapped in a blanket, watching the sky",
+          "both sharing a quiet toast, no one else around"
+        ],
+        "looks": [
+          "soft jumper and slippers each",
+          "cosy cardigan and jeans each",
+          "winter coat over party clothes each"
+        ]
+      },
+      "what was vs. what will be": {
+        "locs": [
+          "bridge city fireworks river reflection midnight",
+          "harbour fireworks water reflection midnight",
+          "rooftop fireworks city view midnight countdown"
+        ],
+        "poses": [
+          "both counting down, arms around each other, sparks above",
+          "both kissing as the sky explodes behind",
+          "both toasting with glasses, faces lit"
+        ],
+        "looks": [
+          "black coat and sparkling scarf each",
+          "evening dress and tuxedo jacket each",
+          "midnight blue formal wear each"
+        ]
+      },
+      "together vs. the year alone": {
+        "locs": [
+          "riverside fireworks midnight cold",
+          "dawn new year morning aftermath quiet",
+          "beach bonfire new year midnight"
+        ],
+        "poses": [
+          "both sitting close, one resting on the other's shoulder",
+          "both wrapped in a blanket, watching the sky",
+          "both sharing a quiet toast, no one else around"
+        ],
+        "looks": [
+          "soft jumper and slippers each",
+          "cosy cardigan and jeans each",
+          "winter coat over party clothes each"
+        ]
+      },
+      "hope vs. resignation": {
+        "locs": [
+          "times square style crowd countdown night",
+          "city street midnight fireworks crowd",
+          "countdown clock public square midnight"
+        ],
+        "poses": [
+          "both lifted by the roar, arms high",
+          "both pushed together by the crowd, laughing",
+          "both gazing up at the clock, mouths open"
+        ],
+        "looks": [
+          "warm coat, hat and glitter makeup each",
+          "party hats and padded jackets each",
+          "scarves and colourful festive clothes each"
+        ]
+      },
+      "the countdown vs. the silence after": {
+        "locs": [
+          "city park fireworks crowd midnight",
+          "times square style crowd countdown night",
+          "city street midnight fireworks crowd"
+        ],
+        "poses": [
+          "both lifted by the roar, arms high",
+          "both pushed together by the crowd, laughing",
+          "both gazing up at the clock, mouths open"
+        ],
+        "looks": [
+          "warm coat, hat and glitter makeup each",
+          "party hats and padded jackets each",
+          "scarves and colourful festive clothes each"
+        ]
+      },
+      "old vs. new": {
+        "locs": [
+          "ballroom countdown midnight champagne",
+          "house party countdown midnight interior",
+          "pub midnight new year crowd interior"
+        ],
+        "poses": [
+          "both dancing close, glasses in hand",
+          "both clinking glasses, eyes locked",
+          "both laughing amid streamers and confetti"
+        ],
+        "looks": [
+          "sequin dress and dark suit each",
+          "glittering gown and bow tie each",
+          "gold lamé and black velvet each"
+        ]
+      },
+      "held vs. released": {
+        "locs": [
+          "countdown clock public square midnight",
+          "city park fireworks crowd midnight",
+          "times square style crowd countdown night"
+        ],
+        "poses": [
+          "both lifted by the roar, arms high",
+          "both pushed together by the crowd, laughing",
+          "both gazing up at the clock, mouths open"
+        ],
+        "looks": [
+          "warm coat, hat and glitter makeup each",
+          "party hats and padded jackets each",
+          "scarves and colourful festive clothes each"
+        ]
+      },
+      "the last vs. the first": {
+        "locs": [
+          "hotel bar new year midnight formal",
+          "theatre new year midnight performance",
+          "casino countdown midnight glamour"
+        ],
+        "poses": [
+          "both dancing close, glasses in hand",
+          "both clinking glasses, eyes locked",
+          "both laughing amid streamers and confetti"
+        ],
+        "looks": [
+          "sequin dress and dark suit each",
+          "glittering gown and bow tie each",
+          "gold lamé and black velvet each"
         ]
       }
     },
     "locs": [
       "rooftop fireworks city view midnight countdown",
-      "bridge city fireworks river reflection midnight",
-      "ballroom countdown midnight champagne",
-      "times square style crowd countdown night",
-      "harbour fireworks water reflection midnight",
-      "restaurant midnight countdown champagne toast",
-      "house party countdown midnight interior",
-      "city street midnight fireworks crowd",
-      "pub midnight new year crowd interior",
-      "beach bonfire new year midnight",
       "rooftop small group midnight city glow",
       "penthouse view fireworks midnight toast",
-      "countdown clock public square midnight",
+      "bridge city fireworks river reflection midnight",
+      "harbour fireworks water reflection midnight",
+      "ballroom countdown midnight champagne",
+      "house party countdown midnight interior",
+      "pub midnight new year crowd interior",
       "hotel bar new year midnight formal",
-      "quiet home midnight just two champagne",
-      "riverside fireworks midnight cold",
       "theatre new year midnight performance",
       "casino countdown midnight glamour",
+      "restaurant midnight countdown champagne toast",
+      "times square style crowd countdown night",
+      "city street midnight fireworks crowd",
+      "countdown clock public square midnight",
       "city park fireworks crowd midnight",
+      "beach bonfire new year midnight",
+      "quiet home midnight just two champagne",
+      "riverside fireworks midnight cold",
       "dawn new year morning aftermath quiet"
     ],
     "poses": [
-      "both mid-countdown rooftop fireworks faces lit",
-      "both midnight kiss new year city behind",
-      "both mid-toast champagne glasses midnight",
-      "both watching fireworks city view midnight",
-      "both in crowd countdown midnight arms raised",
-      "both mid-dance ballroom midnight",
-      "both on bridge fireworks reflection midnight",
-      "both quiet moment midnight just two",
-      "both laughing midnight new year party",
-      "both watching clock seconds to midnight"
+      "both counting down, arms around each other, sparks above",
+      "both kissing as the sky explodes behind",
+      "both toasting with glasses, faces lit",
+      "both dancing close, glasses in hand",
+      "both clinking glasses, eyes locked",
+      "both laughing amid streamers and confetti",
+      "both lifted by the roar, arms high",
+      "both pushed together by the crowd, laughing",
+      "both gazing up at the clock, mouths open",
+      "both sitting close, one resting on the other's shoulder",
+      "both wrapped in a blanket, watching the sky",
+      "both sharing a quiet toast, no one else around"
     ],
     "looks": [
-      "formal evening wear new year midnight each",
-      "gold and silver new year festive each glitter",
-      "glamour evening dress and suit each",
-      "sequin and tuxedo each new year",
-      "smart casual new year party each",
-      "all black elegant each new year",
-      "champagne gold dress and dark suit each",
-      "simple elegant new year eve each",
-      "festive colour block each celebration",
-      "midnight blue and silver each"
+      "black coat and sparkling scarf each",
+      "evening dress and tuxedo jacket each",
+      "midnight blue formal wear each",
+      "sequin dress and dark suit each",
+      "glittering gown and bow tie each",
+      "gold lamé and black velvet each",
+      "warm coat, hat and glitter makeup each",
+      "party hats and padded jackets each",
+      "scarves and colourful festive clothes each",
+      "soft jumper and slippers each",
+      "cosy cardigan and jeans each",
+      "winter coat over party clothes each"
     ],
-    "promptSuffix": "Colour grade: gold, silver, midnight blue — the palette of New Year’s Eve. Fireworks above, champagne in hand, the city lit up. Glamorous, slightly melancholy, full of possibility. The emotional tension is atmosphere only. Do not illustrate it literally."
+    "promptSuffix": "Colour grade: gold, silver, midnight blue — the palette of New Year’s Eve. Fireworks above, champagne in hand, the city lit up. Glamorous, slightly melancholy, full of possibility."
   },
   {
     "id": "diwali",
@@ -15620,7 +17641,7 @@ const WORLDS = [
       "traditional gold and red each diwali",
       "simple cotton kurta each informal diwali"
     ],
-    "promptSuffix": "Colour grade: deep jewel tones — emerald, ruby, sapphire, gold — the light of a thousand diyas. Warm firelight against deep night sky. Rich, luminous, celebratory. The emotional tension is atmosphere only. Do not illustrate it literally."
+    "promptSuffix": "Colour grade: deep jewel tones — emerald, ruby, sapphire, gold — the light of a thousand diyas. Warm firelight against deep night sky. Rich, luminous, celebratory."
   },
   {
     "id": "chinesenewyear",
@@ -15642,67 +17663,230 @@ const WORLDS = [
     "affinities": {
       "old vs. new": {
         "locs": [
-          "chinese new year lanterns street night red gold",
           "lion dance street performance chinese new year morning",
-          "family reunion dinner table chinese new year eve"
+          "chinatown parade dragon lion dance day",
+          "community hall chinese new year celebration"
         ],
         "poses": [
-          "both holding red lanterns chinese new year night",
-          "both at reunion dinner table new year"
+          "both ducking as the lion sweeps past",
+          "both cheering in the crowd, arms raised",
+          "both mid-step among drummers, laughing"
         ],
         "looks": [
-          "red qipao cheongsam and changshan traditional each",
-          "red and gold traditional chinese new year each"
+          "bright red coat and festive scarf each",
+          "red knit and gold accents each",
+          "embroidered jacket and trousers each"
+        ]
+      },
+      "luck vs. fear": {
+        "locs": [
+          "chinese new year lanterns street night red gold",
+          "lantern festival street night chinese new year",
+          "night market chinese new year lanterns evening"
+        ],
+        "poses": [
+          "both holding up glowing lanterns, faces lit red",
+          "both strolling beneath rows of lights, hand in hand",
+          "both laughing under a shower of sparks"
+        ],
+        "looks": [
+          "red silk jacket and gold embroidery each",
+          "embroidered qipao and tailored changshan each",
+          "red and gold festive outfit each"
+        ]
+      },
+      "together vs. scattered": {
+        "locs": [
+          "family reunion dinner table chinese new year eve",
+          "family home decorations red gold new year",
+          "dumpling making family table new year eve"
+        ],
+        "poses": [
+          "both seated at a crowded table, passing dishes",
+          "both folding dumplings, flour on their hands",
+          "one handing the other a small envelope, smiling"
+        ],
+        "looks": [
+          "red sweater and smart trousers each",
+          "silk blouse and neat shirt each",
+          "new festive outfit, all in red each"
+        ]
+      },
+      "tradition vs. change": {
+        "locs": [
+          "temple prayers new year morning incense",
+          "temple fair new year blessing morning",
+          "market new year goods red decorations morning"
+        ],
+        "poses": [
+          "both bowing, smoke curling around them",
+          "both choosing blossoms from a stall, delighted",
+          "both holding bundles of festive goods"
+        ],
+        "looks": [
+          "warm coat and red scarf each",
+          "padded jacket and wool hat each",
+          "long coat and gloves each"
+        ]
+      },
+      "past vs. future": {
+        "locs": [
+          "fireworks chinatown street midnight new year",
+          "harbour fireworks chinese new year midnight"
+        ],
+        "poses": [
+          "both gazing up at bursting colour, faces glowing",
+          "both cheering with sparks reflected in their eyes",
+          "both silhouetted against the light show"
+        ],
+        "looks": [
+          "warm winter coat and red hat each",
+          "dark coat with a red scarf each",
+          "padded jacket and gold-trimmed scarf each"
+        ]
+      },
+      "the family table vs. the world outside": {
+        "locs": [
+          "restaurant family new year dinner formal",
+          "family home new year eve countdown midnight",
+          "red envelope giving family chinese new year"
+        ],
+        "poses": [
+          "both seated at a crowded table, passing dishes",
+          "both folding dumplings, flour on their hands",
+          "one handing the other a small envelope, smiling"
+        ],
+        "looks": [
+          "red sweater and smart trousers each",
+          "silk blouse and neat shirt each",
+          "new festive outfit, all in red each"
+        ]
+      },
+      "red vs. the ordinary": {
+        "locs": [
+          "chinese new year fair stalls lights evening",
+          "chinatown exterior red lanterns night",
+          "chinese new year lanterns street night red gold"
+        ],
+        "poses": [
+          "both holding up glowing lanterns, faces lit red",
+          "both strolling beneath rows of lights, hand in hand",
+          "both laughing under a shower of sparks"
+        ],
+        "looks": [
+          "red silk jacket and gold embroidery each",
+          "embroidered qipao and tailored changshan each",
+          "red and gold festive outfit each"
+        ]
+      },
+      "celebration vs. longing": {
+        "locs": [
+          "harbour fireworks chinese new year midnight",
+          "fireworks chinatown street midnight new year"
+        ],
+        "poses": [
+          "both gazing up at bursting colour, faces glowing",
+          "both cheering with sparks reflected in their eyes",
+          "both silhouetted against the light show"
+        ],
+        "looks": [
+          "warm winter coat and red hat each",
+          "dark coat with a red scarf each",
+          "padded jacket and gold-trimmed scarf each"
+        ]
+      },
+      "the year ending vs. the year beginning": {
+        "locs": [
+          "flower market new year morning purchases",
+          "temple prayers new year morning incense",
+          "temple fair new year blessing morning"
+        ],
+        "poses": [
+          "both bowing, smoke curling around them",
+          "both choosing blossoms from a stall, delighted",
+          "both holding bundles of festive goods"
+        ],
+        "looks": [
+          "warm coat and red scarf each",
+          "padded jacket and wool hat each",
+          "long coat and gloves each"
+        ]
+      },
+      "home vs. diaspora": {
+        "locs": [
+          "family reunion dinner table chinese new year eve",
+          "family home decorations red gold new year",
+          "dumpling making family table new year eve"
+        ],
+        "poses": [
+          "both seated at a crowded table, passing dishes",
+          "both folding dumplings, flour on their hands",
+          "one handing the other a small envelope, smiling"
+        ],
+        "looks": [
+          "red sweater and smart trousers each",
+          "silk blouse and neat shirt each",
+          "new festive outfit, all in red each"
         ]
       }
     },
     "locs": [
       "chinese new year lanterns street night red gold",
-      "lion dance street performance chinese new year morning",
-      "family reunion dinner table chinese new year eve",
-      "temple prayers new year morning incense",
-      "fireworks chinatown street midnight new year",
       "lantern festival street night chinese new year",
-      "market new year goods red decorations morning",
-      "chinatown parade dragon lion dance day",
-      "red envelope giving family chinese new year",
-      "family home decorations red gold new year",
       "night market chinese new year lanterns evening",
-      "temple fair new year blessing morning",
-      "dumpling making family table new year eve",
       "chinese new year fair stalls lights evening",
-      "harbour fireworks chinese new year midnight",
-      "restaurant family new year dinner formal",
-      "flower market new year morning purchases",
       "chinatown exterior red lanterns night",
+      "lion dance street performance chinese new year morning",
+      "chinatown parade dragon lion dance day",
       "community hall chinese new year celebration",
-      "family home new year eve countdown midnight"
+      "family reunion dinner table chinese new year eve",
+      "family home decorations red gold new year",
+      "dumpling making family table new year eve",
+      "restaurant family new year dinner formal",
+      "family home new year eve countdown midnight",
+      "red envelope giving family chinese new year",
+      "temple prayers new year morning incense",
+      "temple fair new year blessing morning",
+      "market new year goods red decorations morning",
+      "flower market new year morning purchases",
+      "fireworks chinatown street midnight new year",
+      "harbour fireworks chinese new year midnight"
     ],
     "poses": [
-      "both holding red lanterns chinese new year night",
-      "both at reunion dinner table new year eve",
-      "both watching lion dance street morning",
-      "both giving red envelope traditional gesture",
-      "both at temple new year prayers morning incense",
-      "both at night market lanterns evening chinese new year",
-      "both watching fireworks chinatown midnight",
-      "both making dumplings together family new year eve",
-      "both in parade crowd chinese new year day",
-      "both at flower market morning new year"
+      "both holding up glowing lanterns, faces lit red",
+      "both strolling beneath rows of lights, hand in hand",
+      "both laughing under a shower of sparks",
+      "both ducking as the lion sweeps past",
+      "both cheering in the crowd, arms raised",
+      "both mid-step among drummers, laughing",
+      "both seated at a crowded table, passing dishes",
+      "both folding dumplings, flour on their hands",
+      "one handing the other a small envelope, smiling",
+      "both bowing, smoke curling around them",
+      "both choosing blossoms from a stall, delighted",
+      "both holding bundles of festive goods",
+      "both gazing up at bursting colour, faces glowing",
+      "both cheering with sparks reflected in their eyes",
+      "both silhouetted against the light show"
     ],
     "looks": [
-      "red qipao cheongsam and changshan traditional each",
-      "red and gold traditional chinese new year each elaborate",
-      "silk embroidered traditional each chinese new year",
-      "contemporary red formal each chinese new year",
-      "simple red accent traditional each",
-      "mandarin collar suit and dress each traditional",
-      "red and black formal each chinese new year",
-      "traditional embroidered each regional chinese",
-      "casual red each chinese new year lucky",
-      "gold and red festive each chinese new year"
+      "red silk jacket and gold embroidery each",
+      "embroidered qipao and tailored changshan each",
+      "red and gold festive outfit each",
+      "bright red coat and festive scarf each",
+      "red knit and gold accents each",
+      "embroidered jacket and trousers each",
+      "red sweater and smart trousers each",
+      "silk blouse and neat shirt each",
+      "new festive outfit, all in red each",
+      "warm coat and red scarf each",
+      "padded jacket and wool hat each",
+      "long coat and gloves each",
+      "warm winter coat and red hat each",
+      "dark coat with a red scarf each",
+      "padded jacket and gold-trimmed scarf each"
     ],
-    "promptSuffix": "Colour grade: deep red, gold, the warm orange of lantern light — the palette of Chinese New Year. Fireworks, silk, the warmth of family reunion. Rich and celebratory. The emotional tension is atmosphere only. Do not illustrate it literally."
+    "promptSuffix": "Colour grade: deep red, gold, the warm orange of lantern light — the palette of Chinese New Year. Fireworks, silk, the warmth of family reunion. Rich and celebratory."
   }
 ];
 
