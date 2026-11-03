@@ -6153,603 +6153,453 @@ const WORLDS = [
     ],
     "locs": [
       "ancient amphitheater stepped seats Athens",
-      "crumbling castle courtyard Scotland",
-      "battlefield memorial dawn silence",
-      "abandoned monastery cloister Portugal",
-      "colonial port warehouse Jamaica",
       "Roman forum at sunrise empty",
+      "Colosseum interior arch looking up",
+      "Parthenon pillars Athens dusk",
+      "Hadrian's Wall northern edge",
+      "Vindolanda excavation trench",
       "Egyptian pyramid at dawn no tourists",
       "Angkor Wat sunrise reflection pool",
       "Machu Picchu sun gate first light",
-      "Colosseum interior arch looking up",
-      "Parthenon pillars Athens dusk",
+      "Mesa Verde cliff dwelling Colorado",
+      "Chaco Canyon ruins New Mexico",
+      "Cahokia mounds Illinois",
+      "Serpent Mound Ohio aerial view possible",
+      "Cahokia Monks Mound base",
       "Stonehenge solstice dawn mist",
       "Avebury stone circle walking",
       "Newgrange Ireland winter solstice",
-      "Hadrian's Wall northern edge",
-      "Vindolanda excavation trench",
       "Viking longship museum interior",
       "Jorvik Viking Centre York exterior",
       "Norman castle motte and bailey",
       "Medieval cathedral chapter house",
       "Tudor manor hall interior timber",
-      "Civil War battlefield marker dawn",
-      "Napoleonic battlefield monument France",
-      "Waterloo battlefield Belgium",
-      "Auschwitz-Birkenau memorial path",
-      "Berlin Wall remaining section",
-      "Checkpoint Charlie museum exterior",
-      "Stasi prison Leipzig exterior",
-      "Dresden Frauenkirche rebuilt exterior",
-      "Hiroshima Peace Memorial exterior",
-      "Nagasaki museum exterior",
-      "Pearl Harbor USS Arizona memorial water",
-      "Gettysburg battlefield Pennsylvania",
-      "Antietam battlefield Maryland dawn",
+      "crumbling castle courtyard Scotland",
+      "abandoned monastery cloister Portugal",
+      "colonial port warehouse Jamaica",
       "Bunker Hill monument Boston",
       "Independence Hall Philadelphia",
       "Colonial Williamsburg street",
       "Jamestown reconstruction Virginia",
       "Plymouth Rock Massachusetts coast",
       "Salem witch trial memorial",
-      "Tombstone Arizona OK Corral",
+      "battlefield memorial dawn silence",
+      "Civil War battlefield marker dawn",
+      "Napoleonic battlefield monument France",
+      "Waterloo battlefield Belgium",
+      "Gettysburg battlefield Pennsylvania",
+      "Antietam battlefield Maryland dawn",
       "Little Bighorn battlefield Montana",
+      "Tombstone Arizona OK Corral",
       "Alamo San Antonio Texas exterior",
-      "Mesa Verde cliff dwelling Colorado",
-      "Chaco Canyon ruins New Mexico",
-      "Cahokia mounds Illinois",
-      "Serpent Mound Ohio aerial view possible",
-      "Cahokia Monks Mound base"
+      "Berlin Wall remaining section",
+      "Checkpoint Charlie museum exterior",
+      "Dresden Frauenkirche rebuilt exterior"
     ],
     "poses": [
-      "both reading same ancient inscription bent close",
-      "standing before ruined throne contemplative",
-      "one tracing carved stone other photographs",
-      "walking in step through ancient arch",
-      "kneeling at monument hands touching stone",
-      "both looking up at scale of ancient structure",
-      "one holding lantern other reads ancient text",
-      "both silent at memorial heads bowed",
-      "one pointing at detail other studies closely",
-      "both imagining scene in front of ruin",
-      "sitting on ancient steps both thoughtful",
-      "both photographing different details same site",
-      "one sketching other keeps notes serious",
-      "both at battle map together planning",
-      "holding period map both navigating site",
-      "one describing scene other visualises it",
-      "both at excavation trench looking in",
-      "one behind other through ancient doorway",
-      "both at artefact case museum close",
-      "reading interpretive board together",
-      "both looking at distant view from fortification",
-      "walking parapet both looking out",
-      "one helping other over ancient stile",
-      "both in shadow of monolith looking up",
-      "seated in theatre seating looking down at stage",
-      "both at crypt entrance looking in",
-      "examining mosaic floor together close",
-      "both at ancient fresco wall fingers tracing",
-      "looking through ruined window at view",
-      "both at ancient well looking down",
-      "sitting inside stone circle dusk together",
-      "walking causeway toward island structure",
-      "both at war memorial running fingers along names",
-      "looking at battlefield from high point both",
-      "both at ancient harbour edge sea beyond",
-      "examining ancient coins museum together",
-      "one demonstrating period skill other watches",
-      "both at cannon or ancient weapon examining",
-      "walking together across ancient bridge",
-      "both at tomb entrance reading inscription"
+      "both standing between the columns, heads tilted toward the light",
+      "one tracing a carved inscription, the other reading aloud",
+      "both seated on worn stone steps, quiet and thoughtful",
+      "both small before the vast stonework, awestruck",
+      "both climbing the ancient steps, hand in hand",
+      "both kneeling to touch the carved wall",
+      "both standing at the edge of the old stone, looking out",
+      "both climbing the earthen steps, hand in hand",
+      "both kneeling to touch the weathered wall",
+      "both standing among the giant stones, dwarfed by them",
+      "both walking the ring at first light, mist at their feet",
+      "both with a hand on the standing stone, eyes closed",
+      "both on a wooden quay, shields at their backs",
+      "both standing before the carved prow, chins high",
+      "both sharing a horn of mead by the fire",
+      "both on the rampart, cloaks blowing",
+      "one reading from a manuscript, the other listening",
+      "both sitting by the fire in the great hall, goblets raised",
+      "both standing before the old building, formal and proud",
+      "both walking the dirt road, arm in arm",
+      "both reading a proclamation, heads together",
+      "both silent, heads bowed, hats in hand",
+      "one placing flowers, the other standing very still",
+      "both gazing across the quiet fields at dawn",
+      "both squared up in the dusty road, hands near their belts",
+      "both leaning on the weathered wall, squinting",
+      "both walking the boardwalk, spurs jingling",
+      "both standing before the old wall, solemn and close",
+      "both looking through a gap to the other side",
+      "both walking side by side, collars up"
     ],
     "looks": [
-      "draped linen toga simple period appropriate",
-      "medieval tunic and gown worn leather",
-      "Renaissance doublet breeches and gown each",
-      "colonial waistcoat open and period gown each",
-      "Viking fur-trimmed cloak and tunic each",
-      "ancient Greek chiton and peplos each",
-      "Egyptian-influenced draped linen each",
-      "Persian court robe both layered",
-      "Mughal-influenced layered garment each",
-      "Tang dynasty robe both Chinese influenced",
-      "Aztec-influenced woven garment each",
-      "Inca textile pattern layered each",
-      "Mesoamerican weave and feather both",
-      "Byzantine court layered mosaic-referencing each",
-      "Ottoman kaftan layered each",
-      "Samurai-influenced layered garment each",
-      "Edo period kimono and hakama each",
-      "Heian court layered many-coloured each",
-      "Celtic Iron Age woven wool each",
-      "Anglo-Saxon tunic and wrapped layers each",
-      "Norman surcoat and bliaut each",
-      "Crusader-era surcoat and gown each",
-      "Tudor doublet and farthingale each",
-      "Elizabethan ruff and brocade each",
-      "Jacobean embroidered layers each",
-      "Cavalier doublet and high-waist gown each",
-      "Restoration period fitted coat and gown each",
-      "Georgian frock coat waistcoat breeches each",
-      "Regency high-waist empire gown and coat each",
-      "Victorian frock coat and crinoline each",
-      "Edwardian walking suit and blouse each",
-      "WWI-era uniform and nursing uniform each",
-      "1920s charleston dress and lounge suit each",
-      "1930s bias cut and three-piece suit each",
-      "1940s utility dress and demob suit each",
-      "1950s full skirt and narrow lapel suit each",
-      "contemporary researcher practical both site",
-      "museum studies smart casual both",
-      "archaeologist practical field wear both",
-      "historian conference smart academic both",
-      "re-enactor accurate period both"
+      "draped linen toga and sandals each",
+      "Greek chiton and peplos each",
+      "Roman tunic and cloak each",
+      "draped white linen and broad gold collar each",
+      "silk wrap and gilded headdress each",
+      "pleated linen robe and jewelled sandals each",
+      "woven wool mantle and beaded jewellery each",
+      "feather cloak and shell necklace each",
+      "embroidered cotton tunic and sandals each",
+      "rough woven wool and fur wraps each",
+      "animal-hide cloak and bone jewellery each",
+      "plain linen tunic and leather belt each",
+      "fur-trimmed cloak and wool tunic each",
+      "woven wool dress and brooches each",
+      "leather jerkin and arm rings each",
+      "long gown and belted surcoat each",
+      "brocade doublet and gown each",
+      "hooded cloak and wool tunic each",
+      "tricorn hat and waistcoat each",
+      "bonnet and long colonial gown each",
+      "frock coat and breeches each",
+      "period military greatcoat each",
+      "dark mourning dress and shawl each",
+      "frock coat and top hat each",
+      "duster coat and wide-brimmed hat each",
+      "gingham dress and shawl each",
+      "vest and gun belt each",
+      "1950s coat and hat each",
+      "long wool coat and scarf each",
+      "tailored suit and trench coat each"
     ],
     "affinities": {
       "past vs. present": {
         "locs": [
-          "ancient amphitheater steps",
-          "crumbling castle courtyard",
-          "old battlefield at dawn",
-          "ruined abbey window light",
-          "ancient agora marketplace"
+          "Berlin Wall remaining section",
+          "Checkpoint Charlie museum exterior",
+          "Dresden Frauenkirche rebuilt exterior"
         ],
         "poses": [
-          "one in armor one watching",
-          "one in period dress one modern",
-          "standing where history happened both still",
-          "silhouette against ruined arch",
-          "standing on old foundation stones"
+          "both standing before the old wall, solemn and close",
+          "both looking through a gap to the other side",
+          "both walking side by side, collars up"
         ],
         "looks": [
-          "draped toga simple linen",
-          "medieval tunic worn leather",
-          "colonial waistcoat open and period gown",
-          "empire era military coat",
-          "period riding coat boots"
+          "1950s coat and hat each",
+          "long wool coat and scarf each",
+          "tailored suit and trench coat each"
         ]
       },
       "remembered vs. forgotten": {
         "locs": [
-          "archive reading room",
-          "ancient library ruins",
-          "ancient burial mound",
-          "historic battlefield monument",
-          "crumbling triumphal arch"
+          "battlefield memorial dawn silence",
+          "Civil War battlefield marker dawn",
+          "Napoleonic battlefield monument France"
         ],
         "poses": [
-          "both reading same ancient inscription",
-          "reading epitaph together close",
-          "one tracing carved stone together",
-          "both touching same carved name",
-          "kneeling at old monument together"
+          "both silent, heads bowed, hats in hand",
+          "one placing flowers, the other standing very still",
+          "both gazing across the quiet fields at dawn"
         ],
         "looks": [
-          "scribe's robes ink-stained",
-          "scholar's robe spectacles",
-          "monk's robe simple rope belt",
-          "period mourning black veil",
-          "ancient priestess gold trim linen"
+          "period military greatcoat each",
+          "dark mourning dress and shawl each",
+          "frock coat and top hat each"
         ]
       },
       "ruin vs. monument": {
         "locs": [
-          "crumbling castle courtyard",
-          "ancient amphitheater steps",
-          "crumbling fortress wall walk",
-          "historic battlefield monument",
-          "crumbling lighthouse base"
+          "ancient amphitheater stepped seats Athens",
+          "Roman forum at sunrise empty",
+          "Colosseum interior arch looking up"
         ],
         "poses": [
-          "standing before ruined throne together",
-          "both looking up at ruined ceiling",
-          "standing at old battlefield silent",
-          "standing where wall once stood",
-          "kneeling at old monument together"
+          "both standing between the columns, heads tilted toward the light",
+          "one tracing a carved inscription, the other reading aloud",
+          "both seated on worn stone steps, quiet and thoughtful"
         ],
         "looks": [
-          "explorer's coat weathered",
-          "empire soldier open armor chest plate",
-          "soldier's uniform unbuttoned",
-          "knight's chainmail underlayer",
-          "ancient warrior leather kilt"
+          "draped linen toga and sandals each",
+          "Greek chiton and peplos each",
+          "Roman tunic and cloak each"
         ]
       },
       "conqueror vs. conquered": {
         "locs": [
-          "old battlefield at dawn",
-          "historic battlefield trench",
-          "empire throne room empty",
-          "ancient amphitheater tunnel",
-          "historic prison cell block"
+          "Machu Picchu sun gate first light",
+          "Mesa Verde cliff dwelling Colorado",
+          "Chaco Canyon ruins New Mexico"
         ],
         "poses": [
-          "one kneeling other standing guard",
-          "one in chains one freeing",
-          "standing at empire's edge",
-          "one bowing the other watching",
-          "standing where treaty was signed"
+          "both standing at the edge of the old stone, looking out",
+          "both climbing the earthen steps, hand in hand",
+          "both kneeling to touch the weathered wall"
         ],
         "looks": [
-          "soldier's uniform unbuttoned",
-          "armor plate over linen",
-          "royal guard ceremonial coat",
-          "empire soldier open armor chest plate",
-          "colonial soldier worn red coat"
+          "woven wool mantle and beaded jewellery each",
+          "feather cloak and shell necklace each",
+          "embroidered cotton tunic and sandals each"
         ]
       },
       "myth vs. record": {
         "locs": [
-          "stone circle at dawn",
-          "ancient temple steps",
-          "viking burial ship site",
-          "ancient burial mound",
-          "old world observatory dome"
+          "Stonehenge solstice dawn mist",
+          "Avebury stone circle walking",
+          "Newgrange Ireland winter solstice"
         ],
         "poses": [
-          "one reading map other pointing",
-          "reading scroll together close",
-          "both at observatory looking up",
-          "one unrolling old map together",
-          "standing at crossroads of empire"
+          "both standing among the giant stones, dwarfed by them",
+          "both walking the ring at first light, mist at their feet",
+          "both with a hand on the standing stone, eyes closed"
         ],
         "looks": [
-          "ancient priestess gold trim linen",
-          "stone age furs draped simple",
-          "viking fur and leather",
-          "scholar's robe spectacles",
-          "priestess draped white linen"
+          "rough woven wool and fur wraps each",
+          "animal-hide cloak and bone jewellery each",
+          "plain linen tunic and leather belt each"
         ]
       },
       "preserved vs. decayed": {
         "locs": [
-          "catacombs entrance torch lit",
-          "ancient bathhouse ruins",
-          "old shipwreck museum hall",
-          "ruined abbey window light",
-          "historic shipyard dry dock"
+          "Egyptian pyramid at dawn no tourists",
+          "Angkor Wat sunrise reflection pool"
         ],
         "poses": [
-          "torch-lit corridor walk together",
-          "one carrying torch through ruins",
-          "both looking up at ruined ceiling",
-          "one tracing carved stone together",
-          "standing on old dock looking out"
+          "both small before the vast stonework, awestruck",
+          "both climbing the ancient steps, hand in hand",
+          "both kneeling to touch the carved wall"
         ],
         "looks": [
-          "explorer's coat weathered",
-          "sailor's period coat rolled",
-          "monk's robe simple rope belt",
-          "old world fisherman's wool",
-          "period blacksmith leather apron"
+          "draped white linen and broad gold collar each",
+          "silk wrap and gilded headdress each",
+          "pleated linen robe and jewelled sandals each"
         ]
       },
       "era vs. eternity": {
         "locs": [
-          "gothic cathedral nave",
-          "ancient temple steps",
-          "stone circle at dawn",
-          "old world observatory dome",
-          "ancient agora marketplace"
+          "Stonehenge solstice dawn mist",
+          "Avebury stone circle walking",
+          "Newgrange Ireland winter solstice"
         ],
         "poses": [
-          "one lighting candle in old chapel",
-          "both at altar facing each other",
-          "standing where history happened both still",
-          "both at observatory looking up",
-          "walking colonnade in matched step"
+          "both walking the ring at first light, mist at their feet",
+          "both with a hand on the standing stone, eyes closed",
+          "both standing among the giant stones, dwarfed by them"
         ],
         "looks": [
-          "priestess draped white linen",
-          "monk's robe simple rope belt",
-          "period mourning black veil",
-          "renaissance gown and noble doublet",
-          "court gown and court dress coat"
+          "animal-hide cloak and bone jewellery each",
+          "plain linen tunic and leather belt each",
+          "rough woven wool and fur wraps each"
         ]
       },
       "ancestor vs. heir": {
         "locs": [
-          "royal palace empty hall",
-          "colonial era plantation house",
-          "empire throne room empty",
-          "ancient burial mound",
-          "old colonial governor's mansion"
+          "Viking longship museum interior",
+          "Jorvik Viking Centre York exterior"
         ],
         "poses": [
-          "seated on ancient throne both",
-          "one teaching other the old story",
-          "both seated at ancient table",
-          "kneeling at old monument together",
-          "one in period dress one modern"
+          "both on a wooden quay, shields at their backs",
+          "both standing before the carved prow, chins high",
+          "both sharing a horn of mead by the fire"
         ],
         "looks": [
-          "court gown and formal court coat",
-          "court gown and court dress coat",
-          "governor's formal coat open",
-          "empire era formal sash",
-          "colonial waistcoat open and period gown"
+          "fur-trimmed cloak and wool tunic each",
+          "woven wool dress and brooches each",
+          "leather jerkin and arm rings each"
         ]
       },
       "silence vs. testimony": {
         "locs": [
-          "archive reading room",
-          "ancient library ruins",
-          "historic prison cell block",
-          "plague-era town square",
-          "catacombs entrance torch lit"
+          "Waterloo battlefield Belgium",
+          "Gettysburg battlefield Pennsylvania",
+          "Antietam battlefield Maryland dawn"
         ],
         "poses": [
-          "both reading same ancient inscription",
-          "reading epitaph together close",
-          "one signing old document watching",
-          "reading scroll together close",
-          "one pressing ear to old door"
+          "one placing flowers, the other standing very still",
+          "both gazing across the quiet fields at dawn",
+          "both silent, heads bowed, hats in hand"
         ],
         "looks": [
-          "scribe's robes ink-stained",
-          "scholar's robe spectacles",
-          "period mourning black veil",
-          "monk's robe simple rope belt",
-          "ancient warrior leather kilt"
+          "dark mourning dress and shawl each",
+          "frock coat and top hat each",
+          "period military greatcoat each"
         ]
       },
       "stone vs. flesh": {
         "locs": [
-          "stone aqueduct arches",
-          "ancient amphitheater steps",
-          "crumbling castle courtyard",
-          "stone circle at dawn",
-          "ancient quarry steps"
+          "Parthenon pillars Athens dusk",
+          "Hadrian's Wall northern edge",
+          "Vindolanda excavation trench"
         ],
         "poses": [
-          "one tracing carved stone together",
-          "touching same worn stone wall",
-          "both touching same carved name",
-          "standing on old foundation stones",
-          "one polishing old armor together"
+          "one tracing a carved inscription, the other reading aloud",
+          "both seated on worn stone steps, quiet and thoughtful",
+          "both standing between the columns, heads tilted toward the light"
         ],
         "looks": [
-          "draped toga simple linen",
-          "gladiator leather armor straps",
-          "ancient warrior leather kilt",
-          "stone mason's worn tunic",
-          "stone age furs draped simple"
+          "Greek chiton and peplos each",
+          "Roman tunic and cloak each",
+          "draped linen toga and sandals each"
         ]
       },
       "empire vs. dust": {
         "locs": [
-          "roman forum at dusk",
-          "empire throne room empty",
-          "ancient amphitheater steps",
-          "crumbling triumphal arch",
-          "historic mint counting room"
+          "Angkor Wat sunrise reflection pool",
+          "Egyptian pyramid at dawn no tourists"
         ],
         "poses": [
-          "standing at empire's edge",
-          "standing before ruined throne together",
-          "seated on ancient throne both",
-          "standing where wall once stood",
-          "both looking up at ruined ceiling"
+          "both climbing the ancient steps, hand in hand",
+          "both kneeling to touch the carved wall",
+          "both small before the vast stonework, awestruck"
         ],
         "looks": [
-          "empire era military coat",
-          "court gown and court dress coat",
-          "empire soldier open armor chest plate",
-          "empire era formal sash",
-          "draped toga simple linen"
+          "silk wrap and gilded headdress each",
+          "pleated linen robe and jewelled sandals each",
+          "draped white linen and broad gold collar each"
         ]
       },
       "witness vs. unseen": {
         "locs": [
-          "historic battlefield monument",
-          "old battlefield at dawn",
-          "plague-era town square",
-          "historic battlefield trench",
-          "ancient burial mound"
+          "colonial port warehouse Jamaica",
+          "Bunker Hill monument Boston",
+          "Independence Hall Philadelphia"
         ],
         "poses": [
-          "standing at old battlefield silent",
-          "one signing old document watching",
-          "kneeling at old monument together",
-          "both at altar facing each other",
-          "one bowing the other watching"
+          "both standing before the old building, formal and proud",
+          "both walking the dirt road, arm in arm",
+          "both reading a proclamation, heads together"
         ],
         "looks": [
-          "soldier's uniform unbuttoned",
-          "period mourning black veil",
-          "scribe's robes ink-stained",
-          "colonial soldier worn red coat",
-          "monk's robe simple rope belt"
+          "tricorn hat and waistcoat each",
+          "bonnet and long colonial gown each",
+          "frock coat and breeches each"
         ]
       },
       "timeless vs. dated": {
         "locs": [
-          "old world trading post",
-          "historic train station platform",
-          "old world clocktower interior",
-          "old world customs house",
-          "old world stock exchange floor"
+          "Cahokia mounds Illinois",
+          "Serpent Mound Ohio aerial view possible",
+          "Cahokia Monks Mound base"
         ],
         "poses": [
-          "one signing old document watching",
-          "both at customs counter waiting",
-          "standing at crossroads of empire",
-          "walking old trade route together",
-          "one unrolling old map together"
+          "both climbing the earthen steps, hand in hand",
+          "both kneeling to touch the weathered wall",
+          "both standing at the edge of the old stone, looking out"
         ],
         "looks": [
-          "merchant's coat open vest",
-          "trader's caravan layered cloth",
-          "explorer's worn leather boots coat",
-          "colonial linen shirt breeches",
-          "governor's formal coat open"
+          "feather cloak and shell necklace each",
+          "embroidered cotton tunic and sandals each",
+          "woven wool mantle and beaded jewellery each"
         ]
       },
       "relic vs. ruin": {
         "locs": [
-          "ancient temple steps",
-          "catacombs entrance torch lit",
-          "old shipwreck museum hall",
-          "ancient burial mound",
-          "crumbling lighthouse base"
+          "Norman castle motte and bailey",
+          "Medieval cathedral chapter house",
+          "Tudor manor hall interior timber"
         ],
         "poses": [
-          "one holding old artifact together",
-          "both touching same carved name",
-          "kneeling at old monument together",
-          "one tracing carved stone together",
-          "standing on old foundation stones"
+          "both on the rampart, cloaks blowing",
+          "one reading from a manuscript, the other listening",
+          "both sitting by the fire in the great hall, goblets raised"
         ],
         "looks": [
-          "ancient priestess gold trim linen",
-          "priestess draped white linen",
-          "scholar's robe spectacles",
-          "old world fisherman's wool",
-          "explorer's coat weathered"
+          "long gown and belted surcoat each",
+          "brocade doublet and gown each",
+          "hooded cloak and wool tunic each"
         ]
       },
       "archive vs. memory": {
         "locs": [
-          "archive reading room",
-          "medieval scriptorium",
-          "ancient library ruins",
-          "historic university quad",
-          "old world observatory dome"
+          "Colonial Williamsburg street",
+          "Jamestown reconstruction Virginia",
+          "Plymouth Rock Massachusetts coast"
         ],
         "poses": [
-          "reading scroll together close",
-          "one teaching other the old story",
-          "both reading same ancient inscription",
-          "one unrolling old map together",
-          "seated at scriptorium desk together"
+          "both walking the dirt road, arm in arm",
+          "both reading a proclamation, heads together",
+          "both standing before the old building, formal and proud"
         ],
         "looks": [
-          "scribe's robes ink-stained",
-          "scholar's robe spectacles",
-          "renaissance courtier silk hose",
-          "monk's robe simple rope belt",
-          "colonial waistcoat open and period gown"
+          "bonnet and long colonial gown each",
+          "frock coat and breeches each",
+          "tricorn hat and waistcoat each"
         ]
       },
       "revolution vs. order": {
         "locs": [
-          "plague-era town square",
-          "old colonial governor's mansion",
-          "historic battlefield trench",
-          "colonial era plantation house",
-          "empire throne room empty"
+          "Salem witch trial memorial",
+          "colonial port warehouse Jamaica",
+          "Bunker Hill monument Boston"
         ],
         "poses": [
-          "one in chains one freeing",
-          "standing where treaty was signed",
-          "standing at crossroads of empire",
-          "one bowing the other watching",
-          "standing at empire's edge"
+          "both reading a proclamation, heads together",
+          "both standing before the old building, formal and proud",
+          "both walking the dirt road, arm in arm"
         ],
         "looks": [
-          "soldier's uniform unbuttoned",
-          "peasant linen worn earth tones",
-          "colonial soldier worn red coat",
-          "royal guard ceremonial coat",
-          "period blacksmith leather apron"
+          "frock coat and breeches each",
+          "tricorn hat and waistcoat each",
+          "bonnet and long colonial gown each"
         ]
       },
       "crown vs. crowd": {
         "locs": [
-          "royal palace empty hall",
-          "ancient agora marketplace",
-          "empire throne room empty",
-          "medieval drawbridge approach",
-          "ancient amphitheater steps"
+          "crumbling castle courtyard Scotland",
+          "abandoned monastery cloister Portugal",
+          "Norman castle motte and bailey"
         ],
         "poses": [
-          "seated on ancient throne both",
-          "standing before ruined throne together",
-          "one bowing the other watching",
-          "one kneeling other standing guard",
-          "walking processional path slow"
+          "one reading from a manuscript, the other listening",
+          "both sitting by the fire in the great hall, goblets raised",
+          "both on the rampart, cloaks blowing"
         ],
         "looks": [
-          "court gown and formal court coat",
-          "court gown and court dress coat",
-          "noble's velvet cloak open",
-          "royal guard ceremonial coat",
-          "medieval lady's hennin draped"
+          "brocade doublet and gown each",
+          "hooded cloak and wool tunic each",
+          "long gown and belted surcoat each"
         ]
       },
       "battlefield vs. peace": {
         "locs": [
-          "old battlefield at dawn",
-          "historic battlefield trench",
-          "historic battlefield monument",
-          "medieval drawbridge approach",
-          "ancient agora marketplace"
+          "Little Bighorn battlefield Montana",
+          "battlefield memorial dawn silence",
+          "Civil War battlefield marker dawn"
         ],
         "poses": [
-          "standing at old battlefield silent",
-          "one kneeling other standing guard",
-          "standing where treaty was signed",
-          "one in armor one watching",
-          "walking battlement wall together"
+          "both gazing across the quiet fields at dawn",
+          "both silent, heads bowed, hats in hand",
+          "one placing flowers, the other standing very still"
         ],
         "looks": [
-          "armor plate over linen",
-          "soldier's uniform unbuttoned",
-          "knight's chainmail underlayer",
-          "empire soldier open armor chest plate",
-          "colonial soldier worn red coat"
+          "frock coat and top hat each",
+          "period military greatcoat each",
+          "dark mourning dress and shawl each"
         ]
       },
       "inscription vs. erasure": {
         "locs": [
-          "ancient amphitheater steps",
-          "stone aqueduct arches",
-          "ancient burial mound",
-          "crumbling triumphal arch",
-          "historic battlefield monument"
+          "ancient amphitheater stepped seats Athens",
+          "Roman forum at sunrise empty",
+          "Colosseum interior arch looking up"
         ],
         "poses": [
-          "both reading same ancient inscription",
-          "one tracing carved stone together",
-          "both touching same carved name",
-          "reading epitaph together close",
-          "touching same worn stone wall"
+          "both seated on worn stone steps, quiet and thoughtful",
+          "both standing between the columns, heads tilted toward the light",
+          "one tracing a carved inscription, the other reading aloud"
         ],
         "looks": [
-          "scribe's robes ink-stained",
-          "stone mason's worn tunic",
-          "monk's robe simple rope belt",
-          "draped toga simple linen",
-          "period mourning black veil"
+          "Roman tunic and cloak each",
+          "draped linen toga and sandals each",
+          "Greek chiton and peplos each"
         ]
       },
       "then vs. now": {
         "locs": [
-          "historic train station platform",
-          "old colonial governor's mansion",
-          "old world clocktower interior",
-          "ancient amphitheater steps",
-          "old world observatory dome"
+          "Tombstone Arizona OK Corral",
+          "Alamo San Antonio Texas exterior"
         ],
         "poses": [
-          "one in period dress one modern",
-          "standing where history happened both still",
-          "silhouette against ruined arch",
-          "one in armor one watching",
-          "both at observatory looking up"
+          "both squared up in the dusty road, hands near their belts",
+          "both leaning on the weathered wall, squinting",
+          "both walking the boardwalk, spurs jingling"
         ],
         "looks": [
-          "colonial waistcoat open and period gown",
-          "period riding coat boots",
-          "explorer's worn leather boots coat",
-          "renaissance courtier silk hose",
-          "medieval tunic worn leather"
+          "duster coat and wide-brimmed hat each",
+          "gingham dress and shawl each",
+          "vest and gun belt each"
         ]
       }
     },
     "promptPrefix": "Period-accurate historical photograph, authentic to the era and location depicted — ",
-    "promptSuffix": "Render with period-accurate costume, lighting and setting. The photographic style should match the era: daguerreotype for 1840s, sepia albumen print for Victorian, black-and-white documentary for mid-20th century, colour photography from the 1970s onward.",
+    "promptSuffix": "Render with period-accurate costume, lighting and setting, in the photographic style of the era.",
     "variantDirectives": [
       "Wide period frame, the figures small within the historical setting: ",
       "Full-length period frame, posture and gesture carry the feeling: ",
@@ -17238,85 +17088,325 @@ const WORLDS = [
     "affinities": {
       "love vs. longing": {
         "locs": [
-          "candlelit restaurant table for two red roses",
           "paris bridge padlock city view evening",
+          "bridge city lights reflection evening",
+          "harbour evening lights reflection"
+        ],
+        "poses": [
+          "both walking close, shoulders touching, the city glittering",
+          "both stopping at the rail, one resting a head on the other",
+          "both laughing, one pulling the other into a kiss"
+        ],
+        "looks": [
+          "long coat and silk scarf each",
+          "dark overcoat and red scarf each",
+          "wool coat and leather gloves each"
+        ]
+      },
+      "given vs. received": {
+        "locs": [
+          "valentine card envelope table morning",
+          "kitchen table breakfast heart pancakes morning",
+          "bedroom morning light flowers on bedside"
+        ],
+        "poses": [
+          "one presenting flowers, the other receiving them, eyes closed",
+          "one reading a card, the other watching anxiously",
+          "both laughing at a failed romantic gesture"
+        ],
+        "looks": [
+          "pyjamas and robe each",
+          "simple casual clothes each",
+          "soft colours, hair tousled each"
+        ]
+      },
+      "said vs. unsaid": {
+        "locs": [
+          "candlelit restaurant table for two red roses",
+          "restaurant window table rain outside candlelight",
+          "restaurant bar waiting evening dressed up"
+        ],
+        "poses": [
+          "both leaning across the table toward each other, eyes locked",
+          "one reading the menu, the other not looking away",
+          "both raising their glasses in a quiet toast"
+        ],
+        "looks": [
+          "red dress and dark suit each",
+          "elegant black dress and tailored jacket each",
+          "silk blouse and crisp shirt each"
+        ]
+      },
+      "romantic vs. real": {
+        "locs": [
+          "home dining table candles simple intimate",
+          "home sofa evening candles wine",
+          "kitchen cooking together evening home"
+        ],
+        "poses": [
+          "both on the sofa, facing each other, knees touching",
+          "both cooking together, one tasting from the other's spoon",
+          "both dancing slowly, no music"
+        ],
+        "looks": [
+          "cosy knit and soft trousers each",
+          "casual shirt and comfortable dress each",
+          "soft jumper and jeans each"
+        ]
+      },
+      "expectation vs. presence": {
+        "locs": [
+          "small restaurant neighbourhood intimate evening",
+          "table for two empty setting waiting",
+          "restaurant exterior evening arriving dressed"
+        ],
+        "poses": [
+          "one reading the menu, the other not looking away",
+          "both raising their glasses in a quiet toast",
+          "both leaning across the table toward each other, eyes locked"
+        ],
+        "looks": [
+          "elegant black dress and tailored jacket each",
+          "silk blouse and crisp shirt each",
+          "red dress and dark suit each"
+        ]
+      },
+      "desire vs. fear": {
+        "locs": [
+          "apartment balcony city evening lights",
+          "cinema queue cold evening together",
+          "paris bridge padlock city view evening"
+        ],
+        "poses": [
+          "both stopping at the rail, one resting a head on the other",
+          "both laughing, one pulling the other into a kiss",
+          "both walking close, shoulders touching, the city glittering"
+        ],
+        "looks": [
+          "dark overcoat and red scarf each",
+          "wool coat and leather gloves each",
+          "long coat and silk scarf each"
+        ]
+      },
+      "together vs. apart": {
+        "locs": [
+          "park bench winter afternoon couples",
+          "park winter afternoon hand in hand",
+          "café window seat rainy afternoon"
+        ],
+        "poses": [
+          "both walking hand in hand, breath misting",
+          "both huddled over a shared drink, laughing",
+          "both watching the rain run down the glass"
+        ],
+        "looks": [
+          "winter coat and red mittens each",
+          "wool coat and beanie each",
+          "chunky scarf and padded jacket each"
+        ]
+      },
+      "first vs. last": {
+        "locs": [
+          "bridge city lights reflection evening",
+          "harbour evening lights reflection",
+          "apartment balcony city evening lights"
+        ],
+        "poses": [
+          "both laughing, one pulling the other into a kiss",
+          "both walking close, shoulders touching, the city glittering",
+          "both stopping at the rail, one resting a head on the other"
+        ],
+        "looks": [
+          "wool coat and leather gloves each",
+          "long coat and silk scarf each",
+          "dark overcoat and red scarf each"
+        ]
+      },
+      "sweet vs. bitter": {
+        "locs": [
+          "letter box valentine card morning discovered",
+          "valentine card writing desk lamp evening",
           "red roses delivered doorstep evening"
         ],
         "poses": [
-          "both leaning across table toward each other candlelight",
-          "one presenting roses other receiving eyes closed"
+          "one reading a card, the other watching anxiously",
+          "both laughing at a failed romantic gesture",
+          "one presenting flowers, the other receiving them, eyes closed"
         ],
         "looks": [
-          "red dress and dark suit formal evening occasion",
-          "casual soft colours at-home intimate evening"
+          "simple casual clothes each",
+          "soft colours, hair tousled each",
+          "pyjamas and robe each"
+        ]
+      },
+      "hope vs. heartbreak": {
+        "locs": [
+          "park bench winter afternoon couples",
+          "park winter afternoon hand in hand",
+          "café window seat rainy afternoon"
+        ],
+        "poses": [
+          "both huddled over a shared drink, laughing",
+          "both watching the rain run down the glass",
+          "both walking hand in hand, breath misting"
+        ],
+        "looks": [
+          "wool coat and beanie each",
+          "chunky scarf and padded jacket each",
+          "winter coat and red mittens each"
+        ]
+      },
+      "public vs. private love": {
+        "locs": [
+          "rooftop restaurant city view evening",
+          "wine bar intimate corner evening",
+          "candlelit restaurant table for two red roses"
+        ],
+        "poses": [
+          "both raising their glasses in a quiet toast",
+          "both leaning across the table toward each other, eyes locked",
+          "one reading the menu, the other not looking away"
+        ],
+        "looks": [
+          "silk blouse and crisp shirt each",
+          "red dress and dark suit each",
+          "elegant black dress and tailored jacket each"
+        ]
+      },
+      "gesture vs. feeling": {
+        "locs": [
+          "doorstep moment evening arrival flowers",
+          "florist shop red roses morning selection",
+          "flower market morning red roses selection"
+        ],
+        "poses": [
+          "both laughing at a failed romantic gesture",
+          "one presenting flowers, the other receiving them, eyes closed",
+          "one reading a card, the other watching anxiously"
+        ],
+        "looks": [
+          "soft colours, hair tousled each",
+          "pyjamas and robe each",
+          "simple casual clothes each"
+        ]
+      },
+      "passion vs. comfort": {
+        "locs": [
+          "dining room home candles occasion",
+          "hotel room rose petals champagne evening",
+          "home dining table candles simple intimate"
+        ],
+        "poses": [
+          "both cooking together, one tasting from the other's spoon",
+          "both dancing slowly, no music",
+          "both on the sofa, facing each other, knees touching"
+        ],
+        "looks": [
+          "casual shirt and comfortable dress each",
+          "soft jumper and jeans each",
+          "cosy knit and soft trousers each"
+        ]
+      },
+      "new vs. familiar love": {
+        "locs": [
+          "home sofa evening candles wine",
+          "kitchen cooking together evening home",
+          "dining room home candles occasion"
+        ],
+        "poses": [
+          "both dancing slowly, no music",
+          "both on the sofa, facing each other, knees touching",
+          "both cooking together, one tasting from the other's spoon"
+        ],
+        "looks": [
+          "soft jumper and jeans each",
+          "cosy knit and soft trousers each",
+          "casual shirt and comfortable dress each"
+        ]
+      },
+      "the card vs. the truth": {
+        "locs": [
+          "valentine card envelope table morning",
+          "kitchen table breakfast heart pancakes morning",
+          "bedroom morning light flowers on bedside"
+        ],
+        "poses": [
+          "one presenting flowers, the other receiving them, eyes closed",
+          "one reading a card, the other watching anxiously",
+          "both laughing at a failed romantic gesture"
+        ],
+        "looks": [
+          "pyjamas and robe each",
+          "simple casual clothes each",
+          "soft colours, hair tousled each"
         ]
       }
     },
     "locs": [
       "candlelit restaurant table for two red roses",
-      "paris bridge padlock city view evening",
-      "red roses delivered doorstep evening",
-      "valentine card envelope table morning",
-      "hotel room rose petals champagne evening",
       "restaurant window table rain outside candlelight",
-      "home dining table candles simple intimate",
-      "florist shop red roses morning selection",
-      "park bench winter afternoon couples",
-      "cinema queue cold evening together",
-      "kitchen table breakfast heart pancakes morning",
-      "wine bar intimate corner evening",
-      "bridge city lights reflection evening",
-      "café window seat rainy afternoon",
       "restaurant bar waiting evening dressed up",
-      "home sofa evening candles wine",
-      "valentine card writing desk lamp evening",
-      "apartment balcony city evening lights",
-      "rooftop restaurant city view evening",
-      "harbour evening lights reflection",
       "small restaurant neighbourhood intimate evening",
-      "kitchen cooking together evening home",
-      "doorstep moment evening arrival flowers",
-      "park winter afternoon hand in hand",
-      "bedroom morning light flowers on bedside",
-      "dining room home candles occasion",
-      "flower market morning red roses selection",
-      "letter box valentine card morning discovered",
       "table for two empty setting waiting",
-      "restaurant exterior evening arriving dressed"
+      "restaurant exterior evening arriving dressed",
+      "rooftop restaurant city view evening",
+      "wine bar intimate corner evening",
+      "paris bridge padlock city view evening",
+      "bridge city lights reflection evening",
+      "harbour evening lights reflection",
+      "apartment balcony city evening lights",
+      "cinema queue cold evening together",
+      "home dining table candles simple intimate",
+      "home sofa evening candles wine",
+      "kitchen cooking together evening home",
+      "dining room home candles occasion",
+      "hotel room rose petals champagne evening",
+      "valentine card envelope table morning",
+      "kitchen table breakfast heart pancakes morning",
+      "bedroom morning light flowers on bedside",
+      "letter box valentine card morning discovered",
+      "valentine card writing desk lamp evening",
+      "red roses delivered doorstep evening",
+      "doorstep moment evening arrival flowers",
+      "florist shop red roses morning selection",
+      "flower market morning red roses selection",
+      "park bench winter afternoon couples",
+      "park winter afternoon hand in hand",
+      "café window seat rainy afternoon"
     ],
     "poses": [
-      "both leaning across table toward each other candlelight",
-      "one presenting roses other receiving eyes closed",
-      "both holding same champagne glass",
-      "one reading valentine card other watches anxious",
-      "both at restaurant window watching rain together",
-      "over shoulder both walking city evening",
-      "both in kitchen cooking together laughing",
-      "both on sofa evening facing each other",
-      "one arriving doorstep other opening door",
-      "both looking out at city evening view",
-      "both mid-toast champagne glasses raised",
-      "one writing card other reading over shoulder",
-      "both walking park winter hand in hand",
-      "both seated restaurant waiting for other",
-      "both mid-kiss restaurant candlelight",
-      "one giving chocolates other opening box",
-      "both laughing at failed romantic gesture",
-      "both looking at menu restaurant together",
-      "one falling asleep other watching fondly",
-      "both dancing kitchen no music"
+      "both leaning across the table toward each other, eyes locked",
+      "one reading the menu, the other not looking away",
+      "both raising their glasses in a quiet toast",
+      "both walking close, shoulders touching, the city glittering",
+      "both stopping at the rail, one resting a head on the other",
+      "both laughing, one pulling the other into a kiss",
+      "both on the sofa, facing each other, knees touching",
+      "both cooking together, one tasting from the other's spoon",
+      "both dancing slowly, no music",
+      "one presenting flowers, the other receiving them, eyes closed",
+      "one reading a card, the other watching anxiously",
+      "both laughing at a failed romantic gesture",
+      "both walking hand in hand, breath misting",
+      "both huddled over a shared drink, laughing",
+      "both watching the rain run down the glass"
     ],
     "looks": [
-      "red dress and dark suit formal evening occasion",
-      "casual soft colours at-home intimate evening",
-      "all black each elegant simple evening",
-      "red and white tonal each festive",
-      "smart casual each restaurant evening",
-      "matching red accessories each deliberate",
-      "formal evening wear both occasion dressed",
-      "cosy home clothes each comfortable",
-      "winter coat each arriving cold evening",
-      "simple clean clothes each understated"
+      "red dress and dark suit each",
+      "elegant black dress and tailored jacket each",
+      "silk blouse and crisp shirt each",
+      "long coat and silk scarf each",
+      "dark overcoat and red scarf each",
+      "wool coat and leather gloves each",
+      "cosy knit and soft trousers each",
+      "casual shirt and comfortable dress each",
+      "soft jumper and jeans each",
+      "pyjamas and robe each",
+      "simple casual clothes each",
+      "soft colours, hair tousled each",
+      "winter coat and red mittens each",
+      "wool coat and beanie each",
+      "chunky scarf and padded jacket each"
     ],
     "promptSuffix": "Colour grade: deep red, rose, candlelight amber — the palette of Valentine’s Day done with restraint. Warm and intimate, never garish."
   },
@@ -17582,64 +17672,223 @@ const WORLDS = [
       "freedom vs. belonging": {
         "locs": [
           "fireworks over city harbour night",
-          "small town parade main street day",
-          "backyard barbecue american flag bunting afternoon"
+          "rooftop fireworks city view night",
+          "public park fireworks crowd night"
         ],
         "poses": [
-          "both watching fireworks sky faces lit",
-          "both in parade crowd american flags"
+          "both gazing up, faces lit red white and blue",
+          "both on a blanket, one's head on the other's shoulder, sparks above",
+          "both cheering as the sky bursts"
         ],
         "looks": [
-          "red white blue casual americana each",
-          "denim and white tee each american casual"
+          "red white and blue casual outfit each",
+          "denim jacket and white tee each",
+          "summer dress and light jacket each"
+        ]
+      },
+      "celebration vs. weight of history": {
+        "locs": [
+          "small town parade main street day",
+          "small town main street flags bunting day",
+          "small town bandstand afternoon"
+        ],
+        "poses": [
+          "both waving to the crowd, flags in hand",
+          "both clapping along to the band, grinning",
+          "both standing proud, hands over hearts"
+        ],
+        "looks": [
+          "small-town Sunday best each",
+          "striped shirt and sun hat each",
+          "patriotic print dress and straw hat each"
+        ]
+      },
+      "together vs. divided": {
+        "locs": [
+          "small town church steps afternoon",
+          "memorial park flags afternoon",
+          "small town parade main street day"
+        ],
+        "poses": [
+          "both clapping along to the band, grinning",
+          "both standing proud, hands over hearts",
+          "both waving to the crowd, flags in hand"
+        ],
+        "looks": [
+          "striped shirt and sun hat each",
+          "patriotic print dress and straw hat each",
+          "small-town Sunday best each"
+        ]
+      },
+      "pride vs. complexity": {
+        "locs": [
+          "small town main street flags bunting day",
+          "small town bandstand afternoon",
+          "small town church steps afternoon"
+        ],
+        "poses": [
+          "both standing proud, hands over hearts",
+          "both waving to the crowd, flags in hand",
+          "both clapping along to the band, grinning"
+        ],
+        "looks": [
+          "patriotic print dress and straw hat each",
+          "small-town Sunday best each",
+          "striped shirt and sun hat each"
+        ]
+      },
+      "past vs. present": {
+        "locs": [
+          "beach bonfire fourth of july night",
+          "fairground fourth of july afternoon",
+          "carnival midway fourth afternoon"
+        ],
+        "poses": [
+          "both holding sparklers, writing in the dark",
+          "both sharing a funnel cake, laughing",
+          "both silhouetted against the sunset, arms around each other"
+        ],
+        "looks": [
+          "beach casual in red white and blue each",
+          "vintage-style summer dress and polo each",
+          "light linen shirt and shorts each"
+        ]
+      },
+      "spectacle vs. meaning": {
+        "locs": [
+          "lake fireworks reflection night",
+          "dock lake fireworks night",
+          "bridge fireworks city view night"
+        ],
+        "poses": [
+          "both on a blanket, one's head on the other's shoulder, sparks above",
+          "both cheering as the sky bursts",
+          "both gazing up, faces lit red white and blue"
+        ],
+        "looks": [
+          "denim jacket and white tee each",
+          "summer dress and light jacket each",
+          "red white and blue casual outfit each"
+        ]
+      },
+      "red vs. blue": {
+        "locs": [
+          "sunset beach american flags evening",
+          "beach bonfire fourth of july night",
+          "fairground fourth of july afternoon"
+        ],
+        "poses": [
+          "both sharing a funnel cake, laughing",
+          "both silhouetted against the sunset, arms around each other",
+          "both holding sparklers, writing in the dark"
+        ],
+        "looks": [
+          "vintage-style summer dress and polo each",
+          "light linen shirt and shorts each",
+          "beach casual in red white and blue each"
+        ]
+      },
+      "loud vs. quiet": {
+        "locs": [
+          "backyard barbecue american flag bunting afternoon",
+          "suburban front porch american flag evening",
+          "suburban backyard pool afternoon"
+        ],
+        "poses": [
+          "both laughing over the grill, tongs and paper plates",
+          "both lounging with cold drinks, feet up",
+          "both mid-splash, laughing, hair dripping"
+        ],
+        "looks": [
+          "denim shorts and white tee each",
+          "swim shorts and sundress each",
+          "tank top and cut-offs each"
+        ]
+      },
+      "patriot vs. citizen": {
+        "locs": [
+          "memorial park flags afternoon",
+          "small town parade main street day",
+          "small town main street flags bunting day"
+        ],
+        "poses": [
+          "both waving to the crowd, flags in hand",
+          "both clapping along to the band, grinning",
+          "both standing proud, hands over hearts"
+        ],
+        "looks": [
+          "small-town Sunday best each",
+          "striped shirt and sun hat each",
+          "patriotic print dress and straw hat each"
+        ]
+      },
+      "one nation vs. many": {
+        "locs": [
+          "pier end fireworks over water night",
+          "fireworks over city harbour night",
+          "rooftop fireworks city view night"
+        ],
+        "poses": [
+          "both cheering as the sky bursts",
+          "both gazing up, faces lit red white and blue",
+          "both on a blanket, one's head on the other's shoulder, sparks above"
+        ],
+        "looks": [
+          "summer dress and light jacket each",
+          "red white and blue casual outfit each",
+          "denim jacket and white tee each"
         ]
       }
     },
     "locs": [
       "fireworks over city harbour night",
-      "small town parade main street day",
-      "backyard barbecue american flag bunting afternoon",
-      "beach bonfire fourth of july night",
       "rooftop fireworks city view night",
-      "small town main street flags bunting day",
       "public park fireworks crowd night",
-      "suburban front porch american flag evening",
       "lake fireworks reflection night",
-      "fairground fourth of july afternoon",
-      "baseball field small town afternoon",
       "dock lake fireworks night",
-      "small town bandstand afternoon",
-      "suburban backyard pool afternoon",
-      "memorial park flags afternoon",
       "bridge fireworks city view night",
-      "small town church steps afternoon",
-      "carnival midway fourth afternoon",
       "pier end fireworks over water night",
+      "small town parade main street day",
+      "small town main street flags bunting day",
+      "small town bandstand afternoon",
+      "small town church steps afternoon",
+      "memorial park flags afternoon",
+      "backyard barbecue american flag bunting afternoon",
+      "suburban front porch american flag evening",
+      "suburban backyard pool afternoon",
+      "baseball field small town afternoon",
+      "beach bonfire fourth of july night",
+      "fairground fourth of july afternoon",
+      "carnival midway fourth afternoon",
       "sunset beach american flags evening"
     ],
     "poses": [
-      "both watching fireworks faces lit from above",
-      "both in parade crowd flags raised",
-      "both at barbecue laughing mid-celebration",
-      "both on rooftop city fireworks behind",
-      "both at lake edge fireworks reflection",
-      "both in small town parade waving",
-      "both mid-sparkler dark field night",
-      "both on porch swing evening before dark",
-      "both at beach bonfire night",
-      "both watching parade from sidewalk"
+      "both gazing up, faces lit red white and blue",
+      "both on a blanket, one's head on the other's shoulder, sparks above",
+      "both cheering as the sky bursts",
+      "both waving to the crowd, flags in hand",
+      "both clapping along to the band, grinning",
+      "both standing proud, hands over hearts",
+      "both laughing over the grill, tongs and paper plates",
+      "both lounging with cold drinks, feet up",
+      "both mid-splash, laughing, hair dripping",
+      "both holding sparklers, writing in the dark",
+      "both sharing a funnel cake, laughing",
+      "both silhouetted against the sunset, arms around each other"
     ],
     "looks": [
-      "red white blue casual americana each deliberate",
-      "denim shorts and white tee each american summer",
-      "american flag print casual each",
-      "summer casual americana patriotic each",
-      "small town sunday best parade each",
-      "beach casual americana summer each",
-      "backyard barbecue casual each",
-      "vintage americana each 1960s classic",
-      "summer dress and shorts americana each",
-      "casual celebration american red white blue each"
+      "red white and blue casual outfit each",
+      "denim jacket and white tee each",
+      "summer dress and light jacket each",
+      "small-town Sunday best each",
+      "striped shirt and sun hat each",
+      "patriotic print dress and straw hat each",
+      "denim shorts and white tee each",
+      "swim shorts and sundress each",
+      "tank top and cut-offs each",
+      "beach casual in red white and blue each",
+      "vintage-style summer dress and polo each",
+      "light linen shirt and shorts each"
     ],
     "promptSuffix": "Colour grade: red, white, blue — the saturated palette of American Independence Day. Fireworks gold and silver against night sky, or the warm afternoon of small-town celebration."
   },
@@ -17910,62 +18159,223 @@ const WORLDS = [
       "gratitude vs. guilt": {
         "locs": [
           "thanksgiving table full harvest decorations afternoon",
+          "dining room set table thanksgiving anticipation",
+          "dining table empty setting thanksgiving anticipation"
+        ],
+        "poses": [
+          "both at the head of the table, hands clasped before the meal",
+          "both raising a glass over the laden feast",
+          "both laughing, passing dishes around"
+        ],
+        "looks": [
+          "autumn knitwear and smart trousers each",
+          "burnt-orange sweater and dark jeans each",
+          "family-gathering best casual each"
+        ]
+      },
+      "abundance vs. absence": {
+        "locs": [
+          "dining room candles thanksgiving evening",
+          "living room after dinner thanksgiving evening",
+          "thanksgiving table full harvest decorations afternoon"
+        ],
+        "poses": [
+          "both raising a glass over the laden feast",
+          "both laughing, passing dishes around",
+          "both at the head of the table, hands clasped before the meal"
+        ],
+        "looks": [
+          "burnt-orange sweater and dark jeans each",
+          "family-gathering best casual each",
+          "autumn knitwear and smart trousers each"
+        ]
+      },
+      "together vs. apart": {
+        "locs": [
+          "parade crowd thanksgiving morning city",
+          "small town parade thanksgiving morning",
+          "airport arrival thanksgiving reunion"
+        ],
+        "poses": [
+          "both hugging tightly, bags dropped at their feet",
+          "both cheering the passing floats",
+          "both sprawled on the sofa, laughing at the game"
+        ],
+        "looks": [
+          "travelling coat and scarf each",
+          "casual autumn layers each",
+          "warm cardigan and jeans each"
+        ]
+      },
+      "tradition vs. change": {
+        "locs": [
+          "kitchen cooking thanksgiving morning steam",
+          "kitchen table morning coffee thanksgiving preparation",
+          "supermarket thanksgiving eve last minute"
+        ],
+        "poses": [
+          "both cooking, flour on their noses",
+          "both washing up side by side, laughing",
+          "one tasting the stuffing, the other pretending to disapprove"
+        ],
+        "looks": [
+          "apron over smart casual clothes each",
+          "rolled-up sleeves and kitchen apron each",
+          "warm jumper and apron each"
+        ]
+      },
+      "past vs. present": {
+        "locs": [
           "front porch autumn leaves afternoon golden",
+          "front door wreath autumn thanksgiving",
+          "backyard afternoon thanksgiving football"
+        ],
+        "poses": [
+          "both walking arm in arm through falling leaves",
+          "both tossing a ball, laughing",
+          "both sitting close on the steps, warm drinks in hand"
+        ],
+        "looks": [
+          "chunky scarf and autumn jacket each",
+          "plaid shirt and wool coat each",
+          "earth-toned layers and boots each"
+        ]
+      },
+      "the table vs. who is missing": {
+        "locs": [
+          "dining room set table thanksgiving anticipation",
+          "dining table empty setting thanksgiving anticipation",
+          "dining room candles thanksgiving evening"
+        ],
+        "poses": [
+          "both laughing, passing dishes around",
+          "both at the head of the table, hands clasped before the meal",
+          "both raising a glass over the laden feast"
+        ],
+        "looks": [
+          "family-gathering best casual each",
+          "autumn knitwear and smart trousers each",
+          "burnt-orange sweater and dark jeans each"
+        ]
+      },
+      "warmth vs. obligation": {
+        "locs": [
+          "autumn farm stand harvest thanksgiving morning",
+          "kitchen sink washing up thanksgiving evening",
           "kitchen cooking thanksgiving morning steam"
         ],
         "poses": [
-          "both at table feast before them heads bowed",
-          "both cooking kitchen thanksgiving morning"
+          "both washing up side by side, laughing",
+          "one tasting the stuffing, the other pretending to disapprove",
+          "both cooking, flour on their noses"
         ],
         "looks": [
-          "thanksgiving smart casual autumn each",
-          "apron over clothes kitchen each thanksgiving"
+          "rolled-up sleeves and kitchen apron each",
+          "warm jumper and apron each",
+          "apron over smart casual clothes each"
+        ]
+      },
+      "feast vs. famine": {
+        "locs": [
+          "living room after dinner thanksgiving evening",
+          "thanksgiving table full harvest decorations afternoon",
+          "dining room set table thanksgiving anticipation"
+        ],
+        "poses": [
+          "both at the head of the table, hands clasped before the meal",
+          "both raising a glass over the laden feast",
+          "both laughing, passing dishes around"
+        ],
+        "looks": [
+          "autumn knitwear and smart trousers each",
+          "burnt-orange sweater and dark jeans each",
+          "family-gathering best casual each"
+        ]
+      },
+      "family vs. chosen family": {
+        "locs": [
+          "family living room thanksgiving afternoon football",
+          "parade crowd thanksgiving morning city",
+          "small town parade thanksgiving morning"
+        ],
+        "poses": [
+          "both cheering the passing floats",
+          "both sprawled on the sofa, laughing at the game",
+          "both hugging tightly, bags dropped at their feet"
+        ],
+        "looks": [
+          "casual autumn layers each",
+          "warm cardigan and jeans each",
+          "travelling coat and scarf each"
+        ]
+      },
+      "home vs. displacement": {
+        "locs": [
+          "autumn park walk thanksgiving afternoon",
+          "backyard bonfire after thanksgiving evening",
+          "neighbourhood thanksgiving morning quiet"
+        ],
+        "poses": [
+          "both tossing a ball, laughing",
+          "both sitting close on the steps, warm drinks in hand",
+          "both walking arm in arm through falling leaves"
+        ],
+        "looks": [
+          "plaid shirt and wool coat each",
+          "earth-toned layers and boots each",
+          "chunky scarf and autumn jacket each"
         ]
       }
     },
     "locs": [
-      "thanksgiving table full harvest decorations afternoon",
-      "front porch autumn leaves afternoon golden",
       "kitchen cooking thanksgiving morning steam",
-      "dining room set table thanksgiving anticipation",
-      "living room after dinner thanksgiving evening",
-      "backyard afternoon thanksgiving football",
-      "parade crowd thanksgiving morning city",
-      "supermarket thanksgiving eve last minute",
-      "front door wreath autumn thanksgiving",
       "kitchen table morning coffee thanksgiving preparation",
-      "dining table empty setting thanksgiving anticipation",
+      "supermarket thanksgiving eve last minute",
       "autumn farm stand harvest thanksgiving morning",
-      "family living room thanksgiving afternoon football",
-      "airport arrival thanksgiving reunion",
       "kitchen sink washing up thanksgiving evening",
+      "thanksgiving table full harvest decorations afternoon",
+      "dining room set table thanksgiving anticipation",
+      "dining table empty setting thanksgiving anticipation",
       "dining room candles thanksgiving evening",
-      "backyard bonfire after thanksgiving evening",
+      "living room after dinner thanksgiving evening",
+      "front porch autumn leaves afternoon golden",
+      "front door wreath autumn thanksgiving",
+      "backyard afternoon thanksgiving football",
       "autumn park walk thanksgiving afternoon",
+      "backyard bonfire after thanksgiving evening",
+      "neighbourhood thanksgiving morning quiet",
+      "parade crowd thanksgiving morning city",
       "small town parade thanksgiving morning",
-      "neighbourhood thanksgiving morning quiet"
+      "airport arrival thanksgiving reunion",
+      "family living room thanksgiving afternoon football"
     ],
     "poses": [
-      "both at table feast before them thankful",
-      "both cooking kitchen thanksgiving morning laughing",
-      "both on porch swing autumn afternoon",
-      "both watching parade street morning crowd",
-      "both after dinner sofa sleepy evening",
-      "both arriving front door thanksgiving reunion",
-      "both washing dishes together kitchen evening",
-      "both setting table together preparation",
-      "both in kitchen tasting arguing recipe",
-      "both looking out window autumn afternoon"
+      "both cooking, flour on their noses",
+      "both washing up side by side, laughing",
+      "one tasting the stuffing, the other pretending to disapprove",
+      "both at the head of the table, hands clasped before the meal",
+      "both raising a glass over the laden feast",
+      "both laughing, passing dishes around",
+      "both walking arm in arm through falling leaves",
+      "both tossing a ball, laughing",
+      "both sitting close on the steps, warm drinks in hand",
+      "both hugging tightly, bags dropped at their feet",
+      "both cheering the passing floats",
+      "both sprawled on the sofa, laughing at the game"
     ],
     "looks": [
-      "thanksgiving smart casual autumn each occasion",
-      "apron over clothes kitchen thanksgiving each",
-      "autumn layers smart casual each",
-      "family gathering best casual each autumn",
-      "comfortable thanksgiving dinner clothes each",
-      "autumn earth tones each harvest palette",
-      "casual warm layers thanksgiving each",
-      "smart family occasion clothes each"
+      "apron over smart casual clothes each",
+      "rolled-up sleeves and kitchen apron each",
+      "warm jumper and apron each",
+      "autumn knitwear and smart trousers each",
+      "burnt-orange sweater and dark jeans each",
+      "family-gathering best casual each",
+      "chunky scarf and autumn jacket each",
+      "plaid shirt and wool coat each",
+      "earth-toned layers and boots each",
+      "travelling coat and scarf each",
+      "casual autumn layers each",
+      "warm cardigan and jeans each"
     ],
     "promptSuffix": "Colour grade: amber, burnt orange, deep rust — the harvest palette. Warm indoor light, autumn afternoon gold outside."
   },
@@ -17989,70 +18399,218 @@ const WORLDS = [
     "affinities": {
       "costume vs. self": {
         "locs": [
-          "halloween porch carved pumpkins night",
+          "halloween porch carved pumpkins orange night",
           "suburban trick or treat street night",
-          "halloween costume party interior"
+          "carved pumpkin line porch steps evening"
         ],
         "poses": [
-          "both in halloween costumes posing porch",
-          "both trick or treating suburban night"
+          "both on the porch in matching costumes, candy bags held out",
+          "both answering the door, mid-scare, laughing",
+          "both posed beside the carved pumpkins, candle glow on their faces"
         ],
         "looks": [
-          "witch and vampire couples costume each halloween",
-          "classic horror costumes each matched theme"
+          "witch and vampire couples costume each",
+          "classic horror monster costumes each",
+          "skeleton bodysuit and face paint each"
+        ]
+      },
+      "fear vs. delight": {
+        "locs": [
+          "haunted house decorated exterior night",
+          "cemetery halloween decorated night moon",
+          "graveyard fog machine night halloween"
+        ],
+        "poses": [
+          "both creeping through the fog, one clutching the other's sleeve",
+          "both lit from below by a flickering torch, faces eerie",
+          "both frozen mid-scream, playful and terrified"
+        ],
+        "looks": [
+          "ghost sheet and tattered cloak each",
+          "zombie makeup and torn formal wear each",
+          "gothic black and lace each"
+        ]
+      },
+      "real vs. imagined": {
+        "locs": [
+          "haunted hayride field night dark",
+          "corn maze halloween night torches",
+          "halloween fog street night orange glow"
+        ],
+        "poses": [
+          "both lit from below by a flickering torch, faces eerie",
+          "both frozen mid-scream, playful and terrified",
+          "both creeping through the fog, one clutching the other's sleeve"
+        ],
+        "looks": [
+          "zombie makeup and torn formal wear each",
+          "gothic black and lace each",
+          "ghost sheet and tattered cloak each"
+        ]
+      },
+      "child vs. adult": {
+        "locs": [
+          "front door decorated cobwebs night",
+          "halloween street blocked cars candy night",
+          "jack o lantern lit porch dark night"
+        ],
+        "poses": [
+          "both answering the door, mid-scare, laughing",
+          "both posed beside the carved pumpkins, candle glow on their faces",
+          "both on the porch in matching costumes, candy bags held out"
+        ],
+        "looks": [
+          "classic horror monster costumes each",
+          "skeleton bodysuit and face paint each",
+          "witch and vampire couples costume each"
+        ]
+      },
+      "darkness vs. light": {
+        "locs": [
+          "halloween bonfire field night dark",
+          "haunted house decorated exterior night",
+          "cemetery halloween decorated night moon"
+        ],
+        "poses": [
+          "both frozen mid-scream, playful and terrified",
+          "both creeping through the fog, one clutching the other's sleeve",
+          "both lit from below by a flickering torch, faces eerie"
+        ],
+        "looks": [
+          "gothic black and lace each",
+          "ghost sheet and tattered cloak each",
+          "zombie makeup and torn formal wear each"
+        ]
+      },
+      "trick vs. treat": {
+        "locs": [
+          "halloween porch carved pumpkins orange night",
+          "suburban trick or treat street night",
+          "carved pumpkin line porch steps evening"
+        ],
+        "poses": [
+          "both posed beside the carved pumpkins, candle glow on their faces",
+          "both on the porch in matching costumes, candy bags held out",
+          "both answering the door, mid-scare, laughing"
+        ],
+        "looks": [
+          "skeleton bodysuit and face paint each",
+          "witch and vampire couples costume each",
+          "classic horror monster costumes each"
+        ]
+      },
+      "seen vs. hidden": {
+        "locs": [
+          "halloween costume party interior crowded",
+          "halloween parade street costumes night",
+          "apple bobbing tub indoor halloween party"
+        ],
+        "poses": [
+          "both mid-dance, costumes swirling, the crowd behind them",
+          "both bobbing for apples, faces dripping, laughing",
+          "both striking a spooky pose, ready for the contest"
+        ],
+        "looks": [
+          "matching couples costume each",
+          "homemade creative costume each",
+          "retro horror costume each"
+        ]
+      },
+      "the mask vs. the face": {
+        "locs": [
+          "halloween disco venue costumes night",
+          "school halloween parade daytime",
+          "halloween market stalls night orange"
+        ],
+        "poses": [
+          "both bobbing for apples, faces dripping, laughing",
+          "both striking a spooky pose, ready for the contest",
+          "both mid-dance, costumes swirling, the crowd behind them"
+        ],
+        "looks": [
+          "homemade creative costume each",
+          "retro horror costume each",
+          "matching couples costume each"
+        ]
+      },
+      "dead vs. alive": {
+        "locs": [
+          "graveyard fog machine night halloween",
+          "haunted hayride field night dark",
+          "corn maze halloween night torches"
+        ],
+        "poses": [
+          "both creeping through the fog, one clutching the other's sleeve",
+          "both lit from below by a flickering torch, faces eerie",
+          "both frozen mid-scream, playful and terrified"
+        ],
+        "looks": [
+          "ghost sheet and tattered cloak each",
+          "zombie makeup and torn formal wear each",
+          "gothic black and lace each"
+        ]
+      },
+      "sacred vs. spectacle": {
+        "locs": [
+          "halloween carnival funfair night orange",
+          "halloween costume party interior crowded",
+          "halloween parade street costumes night"
+        ],
+        "poses": [
+          "both striking a spooky pose, ready for the contest",
+          "both mid-dance, costumes swirling, the crowd behind them",
+          "both bobbing for apples, faces dripping, laughing"
+        ],
+        "looks": [
+          "retro horror costume each",
+          "matching couples costume each",
+          "homemade creative costume each"
         ]
       }
     },
     "locs": [
       "halloween porch carved pumpkins orange night",
       "suburban trick or treat street night",
-      "halloween costume party interior crowded",
+      "carved pumpkin line porch steps evening",
+      "front door decorated cobwebs night",
+      "halloween street blocked cars candy night",
+      "jack o lantern lit porch dark night",
       "haunted house decorated exterior night",
       "cemetery halloween decorated night moon",
-      "corn maze halloween night torches",
-      "halloween parade street costumes night",
-      "carved pumpkin line porch steps evening",
-      "halloween bonfire field night dark",
-      "school halloween parade daytime",
-      "halloween carnival funfair night orange",
       "graveyard fog machine night halloween",
-      "halloween market stalls night orange",
-      "front door decorated cobwebs night",
       "haunted hayride field night dark",
-      "halloween street blocked cars candy night",
+      "corn maze halloween night torches",
+      "halloween fog street night orange glow",
+      "halloween bonfire field night dark",
+      "halloween costume party interior crowded",
+      "halloween parade street costumes night",
       "apple bobbing tub indoor halloween party",
       "halloween disco venue costumes night",
-      "jack o lantern lit porch dark night",
-      "halloween fog street night orange glow"
+      "school halloween parade daytime",
+      "halloween market stalls night orange",
+      "halloween carnival funfair night orange"
     ],
     "poses": [
-      "both in halloween costumes posed porch carved pumpkins",
-      "both trick or treating suburban night pillow cases",
-      "both at halloween party costumes crowd behind",
-      "both in scary costume confrontational playful",
-      "one in horror costume other pretending scared",
-      "both carving pumpkins kitchen evening",
-      "both mid-halloween parade street costumes",
-      "both at cemetery halloween night atmospheric",
-      "both answering door halloween costumes candy",
-      "both at corn maze entrance torches night",
-      "both lit by jack o lantern faces orange",
-      "both in couples costume matched theme",
-      "both mid-scream playful halloween party",
-      "both in masks halloween atmospheric",
-      "both sitting porch carved pumpkins night"
+      "both on the porch in matching costumes, candy bags held out",
+      "both answering the door, mid-scare, laughing",
+      "both posed beside the carved pumpkins, candle glow on their faces",
+      "both creeping through the fog, one clutching the other's sleeve",
+      "both lit from below by a flickering torch, faces eerie",
+      "both frozen mid-scream, playful and terrified",
+      "both mid-dance, costumes swirling, the crowd behind them",
+      "both bobbing for apples, faces dripping, laughing",
+      "both striking a spooky pose, ready for the contest"
     ],
     "looks": [
-      "witch and vampire couples costume classic each",
-      "classic horror monsters each matched",
-      "skeleton body suit each halloween",
-      "zombie undead makeup each dishevelled",
-      "ghost white sheet cut simple each",
-      "devil horns tail each red",
-      "horror film character each iconic",
-      "1950s halloween costume retro each",
-      "diy costume creative each homemade",
-      "gothic dressed up each dark elaborate"
+      "witch and vampire couples costume each",
+      "classic horror monster costumes each",
+      "skeleton bodysuit and face paint each",
+      "ghost sheet and tattered cloak each",
+      "zombie makeup and torn formal wear each",
+      "gothic black and lace each",
+      "matching couples costume each",
+      "homemade creative costume each",
+      "retro horror costume each"
     ],
     "promptSuffix": "Colour grade: deep orange, black, the flickering of candlelit jack o lanterns. Darkness punctuated by warm orange — atmospheric, slightly unsettling, delightful."
   },
@@ -18076,65 +18634,224 @@ const WORLDS = [
     "affinities": {
       "death vs. life": {
         "locs": [
-          "day of the dead altar marigolds candles ofrenda",
-          "cemetery marigold path dia de los muertos night",
+          "parade dia de los muertos street costume night",
+          "calavera parade float street night elaborate",
+          "procession street candles elaborate costumes night"
+        ],
+        "poses": [
+          "both dancing in the procession, skirts swirling",
+          "both raised on a float, arms open to the crowd",
+          "both marching with candles, faces painted"
+        ],
+        "looks": [
+          "elaborate skeleton costume each",
+          "catrina dress and top hat each",
+          "skull makeup and flowing skirt each"
+        ]
+      },
+      "memory vs. forgetting": {
+        "locs": [
+          "day of the dead altar ofrenda marigolds candles photographs",
+          "ofrenda home altar photographs candles marigolds",
+          "altar community display photographs flowers"
+        ],
+        "poses": [
+          "both placing a photograph on the altar, hands touching",
+          "both standing before the altar, eyes closed, remembering",
+          "one lighting a candle, the other arranging flowers"
+        ],
+        "looks": [
+          "calavera face paint and floral crown each",
+          "white shirt and embroidered dress each",
+          "skull makeup and black suit each"
+        ]
+      },
+      "grief vs. celebration": {
+        "locs": [
+          "traditional dia de los muertos performance plaza",
+          "traditional dance dia de los muertos plaza",
           "parade dia de los muertos street costume night"
         ],
         "poses": [
-          "both in calavera face paint formal posed",
-          "both at ofrenda altar candles marigolds"
+          "both raised on a float, arms open to the crowd",
+          "both marching with candles, faces painted",
+          "both dancing in the procession, skirts swirling"
         ],
         "looks": [
-          "calavera face paint elaborate traditional each",
-          "marigold yellow and white dress and suit each"
+          "catrina dress and top hat each",
+          "skull makeup and flowing skirt each",
+          "elaborate skeleton costume each"
+        ]
+      },
+      "here vs. gone": {
+        "locs": [
+          "home ofrenda setting photographs loved ones",
+          "town plaza altar community display",
+          "colonial church decorated marigolds night"
+        ],
+        "poses": [
+          "both standing before the altar, eyes closed, remembering",
+          "one lighting a candle, the other arranging flowers",
+          "both placing a photograph on the altar, hands touching"
+        ],
+        "looks": [
+          "white shirt and embroidered dress each",
+          "skull makeup and black suit each",
+          "calavera face paint and floral crown each"
+        ]
+      },
+      "the living vs. the dead": {
+        "locs": [
+          "cemetery marigold path candles night procession",
+          "cemetery grave decorated marigolds candles night",
+          "cemetery night candles thousands marigolds"
+        ],
+        "poses": [
+          "both kneeling at a grave, candles glowing around them",
+          "both walking the petal-strewn path, holding candles",
+          "both sharing food beside the grave, laughing quietly"
+        ],
+        "looks": [
+          "embroidered shawl and dark suit each",
+          "marigold crown and black dress each",
+          "skull face paint and warm coat each"
+        ]
+      },
+      "past vs. present": {
+        "locs": [
+          "marigold market stalls cempasuchil october",
+          "traditional market dia de los muertos crafts",
+          "sugar skull making workshop table"
+        ],
+        "poses": [
+          "both painting a sugar skull, heads together",
+          "both choosing flowers at the stall, delighted",
+          "both folding paper petals, laughing"
+        ],
+        "looks": [
+          "embroidered blouse and apron each",
+          "simple skull makeup and casual clothes each",
+          "folk-embroidered dress and rebozo each"
+        ]
+      },
+      "love vs. loss": {
+        "locs": [
+          "day of the dead altar ofrenda marigolds candles photographs",
+          "ofrenda home altar photographs candles marigolds",
+          "altar community display photographs flowers"
+        ],
+        "poses": [
+          "one lighting a candle, the other arranging flowers",
+          "both placing a photograph on the altar, hands touching",
+          "both standing before the altar, eyes closed, remembering"
+        ],
+        "looks": [
+          "skull makeup and black suit each",
+          "calavera face paint and floral crown each",
+          "white shirt and embroidered dress each"
+        ]
+      },
+      "colour vs. darkness": {
+        "locs": [
+          "calavera parade float street night elaborate",
+          "procession street candles elaborate costumes night",
+          "traditional dia de los muertos performance plaza"
+        ],
+        "poses": [
+          "both marching with candles, faces painted",
+          "both dancing in the procession, skirts swirling",
+          "both raised on a float, arms open to the crowd"
+        ],
+        "looks": [
+          "skull makeup and flowing skirt each",
+          "elaborate skeleton costume each",
+          "catrina dress and top hat each"
+        ]
+      },
+      "sacred vs. festive": {
+        "locs": [
+          "paper marigold decorating workshop",
+          "marigold market stalls cempasuchil october",
+          "traditional market dia de los muertos crafts"
+        ],
+        "poses": [
+          "both choosing flowers at the stall, delighted",
+          "both folding paper petals, laughing",
+          "both painting a sugar skull, heads together"
+        ],
+        "looks": [
+          "simple skull makeup and casual clothes each",
+          "folk-embroidered dress and rebozo each",
+          "embroidered blouse and apron each"
+        ]
+      },
+      "held vs. let go": {
+        "locs": [
+          "cemetery family gathering candles night",
+          "marigold petal path cemetery candles",
+          "cemetery marigold path candles night procession"
+        ],
+        "poses": [
+          "both walking the petal-strewn path, holding candles",
+          "both sharing food beside the grave, laughing quietly",
+          "both kneeling at a grave, candles glowing around them"
+        ],
+        "looks": [
+          "marigold crown and black dress each",
+          "skull face paint and warm coat each",
+          "embroidered shawl and dark suit each"
         ]
       }
     },
     "locs": [
       "day of the dead altar ofrenda marigolds candles photographs",
-      "cemetery marigold path candles night procession",
-      "parade dia de los muertos street costume night",
       "ofrenda home altar photographs candles marigolds",
-      "marigold market stalls cempasuchil october",
-      "cemetery grave decorated marigolds candles night",
-      "traditional dia de los muertos performance plaza",
-      "calavera parade float street night elaborate",
-      "cemetery night candles thousands marigolds",
       "altar community display photographs flowers",
-      "traditional market dia de los muertos crafts",
-      "sugar skull making workshop table",
-      "paper marigold decorating workshop",
       "home ofrenda setting photographs loved ones",
-      "traditional dance dia de los muertos plaza",
+      "town plaza altar community display",
+      "colonial church decorated marigolds night",
+      "cemetery marigold path candles night procession",
+      "cemetery grave decorated marigolds candles night",
+      "cemetery night candles thousands marigolds",
       "cemetery family gathering candles night",
       "marigold petal path cemetery candles",
+      "parade dia de los muertos street costume night",
+      "calavera parade float street night elaborate",
       "procession street candles elaborate costumes night",
-      "town plaza altar community display",
-      "colonial church decorated marigolds night"
+      "traditional dia de los muertos performance plaza",
+      "traditional dance dia de los muertos plaza",
+      "marigold market stalls cempasuchil october",
+      "traditional market dia de los muertos crafts",
+      "sugar skull making workshop table",
+      "paper marigold decorating workshop"
     ],
     "poses": [
-      "both in calavera face paint formal posed ofrenda behind",
-      "both at ofrenda altar candles marigolds photographs",
-      "both in parade procession elaborate costumes night",
-      "both at cemetery grave candles marigolds",
-      "both carrying marigold offerings processional",
-      "both in traditional dance dia de los muertos",
-      "both making sugar skulls workshop table",
-      "both placing photographs on ofrenda",
-      "both in elaborate calavera costume and makeup parade",
-      "both lit by candles cemetery night marigolds"
+      "both placing a photograph on the altar, hands touching",
+      "both standing before the altar, eyes closed, remembering",
+      "one lighting a candle, the other arranging flowers",
+      "both kneeling at a grave, candles glowing around them",
+      "both walking the petal-strewn path, holding candles",
+      "both sharing food beside the grave, laughing quietly",
+      "both dancing in the procession, skirts swirling",
+      "both raised on a float, arms open to the crowd",
+      "both marching with candles, faces painted",
+      "both painting a sugar skull, heads together",
+      "both choosing flowers at the stall, delighted",
+      "both folding paper petals, laughing"
     ],
     "looks": [
-      "calavera face paint elaborate floral traditional each",
-      "marigold yellow and white dress and suit traditional each",
-      "traditional huipil embroidered day of dead each",
-      "calavera catrina dress and suit formal each",
-      "elaborate sugar skull makeup and traditional dress each",
-      "simple calavera face paint casual traditional each",
-      "traditional mexican day of dead embroidered each",
-      "catrina elegant hat veil and suit each formal",
-      "folk embroidered dress and guayabera each",
-      "day of dead elaborate crown flowers makeup each"
+      "calavera face paint and floral crown each",
+      "white shirt and embroidered dress each",
+      "skull makeup and black suit each",
+      "embroidered shawl and dark suit each",
+      "marigold crown and black dress each",
+      "skull face paint and warm coat each",
+      "elaborate skeleton costume each",
+      "catrina dress and top hat each",
+      "skull makeup and flowing skirt each",
+      "embroidered blouse and apron each",
+      "simple skull makeup and casual clothes each",
+      "folk-embroidered dress and rebozo each"
     ],
     "promptSuffix": "Colour grade: marigold gold, deep purple, the warm flicker of hundreds of candles. Rich, saturated, deeply beautiful — this is death celebrated as colour."
   },
@@ -18644,65 +19361,224 @@ const WORLDS = [
     "affinities": {
       "light vs. darkness": {
         "locs": [
-          "diwali diyas lit doorstep rangoli night",
           "rooftop fireworks diwali night city",
-          "home diwali lights decorations evening"
+          "diwali fireworks park night crowd",
+          "rooftop diyas city spread below diwali"
         ],
         "poses": [
-          "both lighting diyas together doorstep evening",
-          "both in traditional dress fireworks rooftop diwali"
+          "both gazing up, fireworks reflected in their eyes",
+          "both releasing a lantern into the dark",
+          "both on the edge, the city glowing below them"
         ],
         "looks": [
-          "traditional salwar kameez and kurta diwali each",
-          "saree and sherwani formal diwali each"
+          "silk saree and bandhgala suit each",
+          "indo-western fusion outfit each",
+          "deep jewel tones, gold embroidery each"
+        ]
+      },
+      "good vs. evil": {
+        "locs": [
+          "diwali lantern release night sky",
+          "street diwali lights procession night",
+          "temple diwali celebration lights evening"
+        ],
+        "poses": [
+          "both releasing a lantern into the dark",
+          "both on the edge, the city glowing below them",
+          "both gazing up, fireworks reflected in their eyes"
+        ],
+        "looks": [
+          "indo-western fusion outfit each",
+          "deep jewel tones, gold embroidery each",
+          "silk saree and bandhgala suit each"
+        ]
+      },
+      "together vs. apart": {
+        "locs": [
+          "home diwali lights decorations lanterns evening",
+          "home puja room diwali candles evening",
+          "home drawing room diwali decorations evening"
+        ],
+        "poses": [
+          "both at the altar, hands pressed together in prayer",
+          "both sharing sweets, laughing around a full table",
+          "both exchanging gifts, eyes bright"
+        ],
+        "looks": [
+          "embroidered kurta and silk saree each",
+          "gold-trimmed sherwani and lehenga each",
+          "jewel-toned silk each"
+        ]
+      },
+      "old vs. new": {
+        "locs": [
+          "diwali diyas lit doorstep rangoli night",
+          "rangoli design doorstep diwali morning",
+          "street rangoli competition diwali morning"
+        ],
+        "poses": [
+          "both crouched, carefully placing coloured powder",
+          "both lighting a row of small lamps, faces glowing",
+          "both standing back to admire their patterned floor"
+        ],
+        "looks": [
+          "cotton kurta and bright salwar each",
+          "simple festive saree and kurta each",
+          "embroidered tunic and churidar each"
+        ]
+      },
+      "sacred vs. festive": {
+        "locs": [
+          "traditional diwali puja table offerings",
+          "family home diwali gathering evening warm",
+          "community diwali celebration hall lights"
+        ],
+        "poses": [
+          "both sharing sweets, laughing around a full table",
+          "both exchanging gifts, eyes bright",
+          "both at the altar, hands pressed together in prayer"
+        ],
+        "looks": [
+          "gold-trimmed sherwani and lehenga each",
+          "jewel-toned silk each",
+          "embroidered kurta and silk saree each"
+        ]
+      },
+      "gift vs. gratitude": {
+        "locs": [
+          "market diwali sweets and lights shopping",
+          "sweet shop diwali selection morning",
+          "diwali lights market shopping evening"
+        ],
+        "poses": [
+          "both choosing sweets, tasting and grinning",
+          "both haggling cheerfully, arms full of lanterns",
+          "both walking hand in hand through glowing stalls"
+        ],
+        "looks": [
+          "casual kurta and jeans each",
+          "festive cotton dress and shirt each",
+          "bright salwar and waistcoat each"
+        ]
+      },
+      "the diya vs. the dark": {
+        "locs": [
+          "balcony diyas lit city lights below diwali",
+          "diwali diyas lit doorstep rangoli night",
+          "rangoli design doorstep diwali morning"
+        ],
+        "poses": [
+          "both lighting a row of small lamps, faces glowing",
+          "both standing back to admire their patterned floor",
+          "both crouched, carefully placing coloured powder"
+        ],
+        "looks": [
+          "simple festive saree and kurta each",
+          "embroidered tunic and churidar each",
+          "cotton kurta and bright salwar each"
+        ]
+      },
+      "past vs. future": {
+        "locs": [
+          "rooftop fireworks diwali night city",
+          "diwali fireworks park night crowd",
+          "rooftop diyas city spread below diwali"
+        ],
+        "poses": [
+          "both on the edge, the city glowing below them",
+          "both gazing up, fireworks reflected in their eyes",
+          "both releasing a lantern into the dark"
+        ],
+        "looks": [
+          "deep jewel tones, gold embroidery each",
+          "silk saree and bandhgala suit each",
+          "indo-western fusion outfit each"
+        ]
+      },
+      "family vs. change": {
+        "locs": [
+          "home diwali lights decorations lanterns evening",
+          "home puja room diwali candles evening",
+          "home drawing room diwali decorations evening"
+        ],
+        "poses": [
+          "both exchanging gifts, eyes bright",
+          "both at the altar, hands pressed together in prayer",
+          "both sharing sweets, laughing around a full table"
+        ],
+        "looks": [
+          "jewel-toned silk each",
+          "embroidered kurta and silk saree each",
+          "gold-trimmed sherwani and lehenga each"
+        ]
+      },
+      "tradition vs. modernity": {
+        "locs": [
+          "diwali mela fairground lights evening",
+          "market diwali sweets and lights shopping",
+          "sweet shop diwali selection morning"
+        ],
+        "poses": [
+          "both haggling cheerfully, arms full of lanterns",
+          "both walking hand in hand through glowing stalls",
+          "both choosing sweets, tasting and grinning"
+        ],
+        "looks": [
+          "festive cotton dress and shirt each",
+          "bright salwar and waistcoat each",
+          "casual kurta and jeans each"
         ]
       }
     },
     "locs": [
-      "diwali diyas lit doorstep rangoli night",
-      "rooftop fireworks diwali night city",
       "home diwali lights decorations lanterns evening",
-      "market diwali sweets and lights shopping",
-      "temple diwali celebration lights evening",
-      "street diwali lights procession night",
       "home puja room diwali candles evening",
-      "rangoli design doorstep diwali morning",
-      "diwali mela fairground lights evening",
-      "community diwali celebration hall lights",
-      "balcony diyas lit city lights below diwali",
-      "sweet shop diwali selection morning",
-      "diwali fireworks park night crowd",
       "home drawing room diwali decorations evening",
       "traditional diwali puja table offerings",
-      "street rangoli competition diwali morning",
-      "diwali lights market shopping evening",
       "family home diwali gathering evening warm",
+      "community diwali celebration hall lights",
+      "diwali diyas lit doorstep rangoli night",
+      "rangoli design doorstep diwali morning",
+      "street rangoli competition diwali morning",
+      "balcony diyas lit city lights below diwali",
+      "market diwali sweets and lights shopping",
+      "sweet shop diwali selection morning",
+      "diwali lights market shopping evening",
+      "diwali mela fairground lights evening",
+      "rooftop fireworks diwali night city",
+      "diwali fireworks park night crowd",
       "rooftop diyas city spread below diwali",
-      "diwali lantern release night sky"
+      "diwali lantern release night sky",
+      "street diwali lights procession night",
+      "temple diwali celebration lights evening"
     ],
     "poses": [
-      "both lighting diyas together doorstep diwali evening",
-      "both in traditional dress rooftop fireworks diwali",
-      "both making rangoli together doorstep morning",
-      "both at puja ceremony traditional diwali",
-      "both exchanging diwali gifts traditional",
-      "both at diwali mela fairground evening",
-      "both watching fireworks diwali rooftop night",
-      "both at diwali feast table traditional",
-      "both releasing sky lanterns diwali night",
-      "both in traditional dress diwali family gathering"
+      "both at the altar, hands pressed together in prayer",
+      "both sharing sweets, laughing around a full table",
+      "both exchanging gifts, eyes bright",
+      "both crouched, carefully placing coloured powder",
+      "both lighting a row of small lamps, faces glowing",
+      "both standing back to admire their patterned floor",
+      "both choosing sweets, tasting and grinning",
+      "both haggling cheerfully, arms full of lanterns",
+      "both walking hand in hand through glowing stalls",
+      "both gazing up, fireworks reflected in their eyes",
+      "both releasing a lantern into the dark",
+      "both on the edge, the city glowing below them"
     ],
     "looks": [
-      "traditional salwar kameez and kurta diwali each",
-      "saree and sherwani formal diwali each elaborate",
-      "embroidered kurta pyjama and lehenga each",
-      "silk saree and bandhgala suit each formal",
-      "casual kurta and churidar each diwali",
-      "gold embroidered traditional each jewel tones",
-      "deep jewel tones traditional each diwali",
-      "contemporary indo-western fusion diwali each",
-      "traditional gold and red each diwali",
-      "simple cotton kurta each informal diwali"
+      "embroidered kurta and silk saree each",
+      "gold-trimmed sherwani and lehenga each",
+      "jewel-toned silk each",
+      "cotton kurta and bright salwar each",
+      "simple festive saree and kurta each",
+      "embroidered tunic and churidar each",
+      "casual kurta and jeans each",
+      "festive cotton dress and shirt each",
+      "bright salwar and waistcoat each",
+      "silk saree and bandhgala suit each",
+      "indo-western fusion outfit each",
+      "deep jewel tones, gold embroidery each"
     ],
     "promptSuffix": "Colour grade: deep jewel tones — emerald, ruby, sapphire, gold — the light of a thousand diyas. Warm firelight against deep night sky. Rich, luminous, celebratory."
   },
