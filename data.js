@@ -1302,7 +1302,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "The subjects must be in, on, or entering water — not beside it. Colour grade varies by water body: ocean is grey-green, pool is turquoise, river is brown-gold, lake is still and reflective. Wet skin, wet fabric, the physics of water must be present."
+    "promptSuffix": "The subjects must be in, on or entering the water, not beside it: wet skin, wet fabric, the physics of water present."
   },
   {
     "id": "city",
@@ -2207,7 +2207,7 @@ const WORLDS = [
         ]
       }
     },
-    "promptSuffix": "Colour grade: high altitude clarity — crisp air, vivid blue sky or dramatic cloud. The scale of the mountain environment should be present in the frame. Alpenglow, snow, rock and sky. The subjects are in the landscape, not posed before it."
+    "promptSuffix": "Colour grade: high-altitude clarity, crisp air, vivid blue sky or dramatic cloud. The subjects are in the landscape, not posed before it."
   },
   {
     "id": "night",
@@ -4906,85 +4906,232 @@ const WORLDS = [
     "affinities": {
       "performance vs. sincerity": {
         "locs": [
-          "petrol station forecourt dramatic speech nobody watching",
-          "supermarket aisle operatic gesture fluorescent",
-          "laundromat 3am theatrical monologue empty"
+          "supermarket aisle operatic gesture fluorescent ordinary",
+          "kebab shop 2am grand gesture fluorescent",
+          "corner shop theatrical argument fluorescent"
         ],
         "poses": [
-          "one delivering speech other is audience petrol station",
-          "both theatrical gesture mundane location fluorescent"
+          "one delivering a speech to the other, who is the only audience",
+          "both frozen mid-gesture, arms flung wide",
+          "one sinking to their knees, the other stepping over them"
         ],
         "looks": [
-          "formal evening wear incongruous mundane location each",
-          "theatrical dramatic clothes wrong context each"
+          "full tuxedo and ball gown each",
+          "Shakespearean doublet and ruff each",
+          "clown costume and full makeup each"
+        ]
+      },
+      "audience vs. performer": {
+        "locs": [
+          "petrol station forecourt dramatic speech nobody watching night",
+          "bus stop theatrical declaration nobody waiting",
+          "car park rooftop theatrical confrontation empty night"
+        ],
+        "poses": [
+          "both striking a heroic tableau, chins high",
+          "one making a grand exit, the other watching with a raised eyebrow",
+          "both embracing as if on a stage, bags dropped"
+        ],
+        "looks": [
+          "knight's armour and princess gown each",
+          "Roman toga and laurel wreath each",
+          "wedding dress and morning suit each"
+        ]
+      },
+      "the role vs. the person": {
+        "locs": [
+          "laundromat 3am theatrical monologue washing machines",
+          "hospital waiting room dramatic exit door",
+          "lift lobby theatrical pause before doors open"
+        ],
+        "poses": [
+          "both walking in slow motion, hair flying, no wind",
+          "one pointing dramatically, the other quite indifferent",
+          "both in a stormy argument, whispering furiously"
+        ],
+        "looks": [
+          "opera costume in full each",
+          "Victorian mourning dress each",
+          "ballet tutu and tights each"
+        ]
+      },
+      "watched vs. unwatched": {
+        "locs": [
+          "post office queue theatrical monologue",
+          "department store escalator theatrical descent",
+          "betting shop theatrical reaction to result"
+        ],
+        "poses": [
+          "both frozen mid-gesture, arms flung wide",
+          "one sinking to their knees, the other stepping over them",
+          "both taking an elaborate bow to an empty room"
+        ],
+        "looks": [
+          "Shakespearean doublet and ruff each",
+          "clown costume and full makeup each",
+          "full tuxedo and ball gown each"
+        ]
+      },
+      "the mask vs. the face": {
+        "locs": [
+          "train carriage theatrical aside fellow passengers ignore",
+          "airport arrivals hall dramatic reunion theatrical",
+          "motorway services dramatic tableau ordinary setting"
+        ],
+        "poses": [
+          "one making a grand exit, the other watching with a raised eyebrow",
+          "both embracing as if on a stage, bags dropped",
+          "one declaiming to the sky, the other checking a phone"
+        ],
+        "looks": [
+          "Roman toga and laurel wreath each",
+          "wedding dress and morning suit each",
+          "knight's armour and princess gown each"
+        ]
+      },
+      "staged vs. caught": {
+        "locs": [
+          "office corridor dramatic walk away slow motion",
+          "phone box raining theatrical call dramatic",
+          "swimming pool changing room dramatic exit"
+        ],
+        "poses": [
+          "one pointing dramatically, the other quite indifferent",
+          "both in a stormy argument, whispering furiously",
+          "one fainting into the other's arms, eyes on the camera"
+        ],
+        "looks": [
+          "Victorian mourning dress each",
+          "ballet tutu and tights each",
+          "everyday clothes worn with maximum theatrical intensity each"
+        ]
+      },
+      "the speech vs. the feeling": {
+        "locs": [
+          "chip shop 11pm theatrical romance counter",
+          "newsagent morning theatrical significance ordinary",
+          "supermarket aisle operatic gesture fluorescent ordinary"
+        ],
+        "poses": [
+          "one sinking to their knees, the other stepping over them",
+          "both taking an elaborate bow to an empty room",
+          "one delivering a speech to the other, who is the only audience"
+        ],
+        "looks": [
+          "clown costume and full makeup each",
+          "full tuxedo and ball gown each",
+          "Shakespearean doublet and ruff each"
+        ]
+      },
+      "dramatic vs. mundane": {
+        "locs": [
+          "underpass theatrical freeze frame urban",
+          "railway platform theatrical goodbye overplayed",
+          "bus upper deck theatrical speech empty"
+        ],
+        "poses": [
+          "both embracing as if on a stage, bags dropped",
+          "one declaiming to the sky, the other checking a phone",
+          "both striking a heroic tableau, chins high"
+        ],
+        "looks": [
+          "wedding dress and morning suit each",
+          "knight's armour and princess gown each",
+          "Roman toga and laurel wreath each"
+        ]
+      },
+      "playing vs. being": {
+        "locs": [
+          "bowling alley theatrical celebration strike",
+          "car wash theatrical moment soap suds",
+          "dentist waiting room theatrical anxiety performance"
+        ],
+        "poses": [
+          "both in a stormy argument, whispering furiously",
+          "one fainting into the other's arms, eyes on the camera",
+          "both walking in slow motion, hair flying, no wind"
+        ],
+        "looks": [
+          "ballet tutu and tights each",
+          "everyday clothes worn with maximum theatrical intensity each",
+          "opera costume in full each"
+        ]
+      },
+      "the gesture vs. the truth": {
+        "locs": [
+          "kebab shop 2am grand gesture fluorescent",
+          "corner shop theatrical argument fluorescent",
+          "post office queue theatrical monologue"
+        ],
+        "poses": [
+          "both taking an elaborate bow to an empty room",
+          "one delivering a speech to the other, who is the only audience",
+          "both frozen mid-gesture, arms flung wide"
+        ],
+        "looks": [
+          "full tuxedo and ball gown each",
+          "Shakespearean doublet and ruff each",
+          "clown costume and full makeup each"
         ]
       }
     },
     "locs": [
-      "petrol station forecourt dramatic speech nobody watching night",
       "supermarket aisle operatic gesture fluorescent ordinary",
-      "laundromat 3am theatrical monologue washing machines",
-      "bus stop theatrical declaration nobody waiting",
-      "hospital waiting room dramatic exit door",
-      "car park rooftop theatrical confrontation empty night",
       "kebab shop 2am grand gesture fluorescent",
+      "corner shop theatrical argument fluorescent",
+      "post office queue theatrical monologue",
+      "department store escalator theatrical descent",
+      "betting shop theatrical reaction to result",
+      "chip shop 11pm theatrical romance counter",
+      "newsagent morning theatrical significance ordinary",
+      "petrol station forecourt dramatic speech nobody watching night",
+      "bus stop theatrical declaration nobody waiting",
+      "car park rooftop theatrical confrontation empty night",
       "train carriage theatrical aside fellow passengers ignore",
       "airport arrivals hall dramatic reunion theatrical",
+      "motorway services dramatic tableau ordinary setting",
+      "underpass theatrical freeze frame urban",
+      "railway platform theatrical goodbye overplayed",
+      "bus upper deck theatrical speech empty",
+      "rooftop car park theatrical last stand night",
+      "laundromat 3am theatrical monologue washing machines",
+      "hospital waiting room dramatic exit door",
       "lift lobby theatrical pause before doors open",
       "office corridor dramatic walk away slow motion",
       "phone box raining theatrical call dramatic",
-      "motorway services dramatic tableau ordinary setting",
-      "underpass theatrical freeze frame urban",
-      "corner shop theatrical argument fluorescent",
-      "post office queue theatrical monologue",
       "swimming pool changing room dramatic exit",
-      "railway platform theatrical goodbye overplayed",
-      "department store escalator theatrical descent",
       "bowling alley theatrical celebration strike",
-      "bus upper deck theatrical speech empty",
       "car wash theatrical moment soap suds",
       "dentist waiting room theatrical anxiety performance",
-      "betting shop theatrical reaction to result",
       "library theatrical whispered intensity quiet",
-      "chip shop 11pm theatrical romance counter",
-      "newsagent morning theatrical significance ordinary",
       "cemetery theatrical grief performative",
-      "wedding registry office theatrical entrance late",
-      "rooftop car park theatrical last stand night"
+      "wedding registry office theatrical entrance late"
     ],
     "poses": [
-      "one delivering speech other is sole audience mundane location",
-      "both theatrical freeze frame mid-mundane-task dramatic",
-      "one dramatic exit mundane space other watches",
-      "both operatic gesture ordinary fluorescent setting",
-      "one monologue other bored mundane location",
-      "both theatrical slow motion ordinary context",
-      "one dramatic fall other nonplussed mundane",
-      "both mid-theatrical-argument mundane public space",
-      "one grand romantic gesture other embarrassed public space",
-      "both theatrical curtain call wrong location entirely",
-      "one pointing dramatically other indifferent ordinary",
-      "both staged tableau mundane background",
-      "one theatrical aside to camera other unaware",
-      "both dramatic embrace incongruous mundane setting",
-      "one theatrical collapse other steps over them ordinary",
-      "both theatrical bow mundane location",
-      "one soliloquy other on phone mundane",
-      "both theatrical reconciliation supermarket aisle",
-      "one dramatic entrance through ordinary door",
-      "both theatrical freeze mid-ordinary-action"
+      "one delivering a speech to the other, who is the only audience",
+      "both frozen mid-gesture, arms flung wide",
+      "one sinking to their knees, the other stepping over them",
+      "both taking an elaborate bow to an empty room",
+      "both striking a heroic tableau, chins high",
+      "one making a grand exit, the other watching with a raised eyebrow",
+      "both embracing as if on a stage, bags dropped",
+      "one declaiming to the sky, the other checking a phone",
+      "both walking in slow motion, hair flying, no wind",
+      "one pointing dramatically, the other quite indifferent",
+      "both in a stormy argument, whispering furiously",
+      "one fainting into the other's arms, eyes on the camera"
     ],
     "looks": [
-      "full tuxedo and ball gown at petrol station each",
-      "Shakespeare doublet and Elizabethan ruff in supermarket each",
-      "opera costume full staging in laundromat each",
-      "Victorian mourning dress complete in kebab shop each",
-      "wedding dress and morning suit at bus stop each",
-      "knight armour and princess gown in bowling alley each",
-      "ballet tutu and tights in corner shop each",
-      "Roman toga and laurel wreath at ATM each",
-      "clown costume full makeup in hospital waiting room each",
-      "everyday clothes performed with maximum theatrical intensity each"
+      "full tuxedo and ball gown each",
+      "Shakespearean doublet and ruff each",
+      "clown costume and full makeup each",
+      "knight's armour and princess gown each",
+      "Roman toga and laurel wreath each",
+      "wedding dress and morning suit each",
+      "opera costume in full each",
+      "Victorian mourning dress each",
+      "ballet tutu and tights each",
+      "everyday clothes worn with maximum theatrical intensity each"
     ],
     "promptSuffix": "Colour grade: the specific contrast of theatrical drama in mundane light — fluorescent supermarket, petrol station sodium, laundromat neon. Heightened emotion in ordinary space."
   },
@@ -5014,79 +5161,330 @@ const WORLDS = [
       "obsession vs. devotion": {
         "locs": [
           "rain-soaked street night neon reflections",
-          "rooftop city edge midnight",
-          "hotel corridor single light night"
+          "alleyway rain single lamp",
+          "Paris street rain autumn night"
         ],
         "poses": [
-          "one pulling other back by the wrist night rain",
-          "both about to kiss stopped by something unseen"
+          "one pulling the other back by the wrist, urgent",
+          "both running toward each other, hair soaked",
+          "one pressed against the wall, the other close, not quite touching"
         ],
         "looks": [
-          "soaked dark clothes night rain each",
-          "all black each night urban"
+          "soaked dark coat and plastered hair each",
+          "all black, collars up each",
+          "white shirt clinging, vulnerable each"
+        ]
+      },
+      "first vs. last": {
+        "locs": [
+          "train departing platform one left behind",
+          "night train compartment moving",
+          "jazz club late night last song"
+        ],
+        "poses": [
+          "over the shoulder, one leaving, the other watching them go",
+          "both in each other's space, eyes locked",
+          "both smiling, not quite saying it"
+        ],
+        "looks": [
+          "vintage dramatic outfit each",
+          "simple dark clothes, intimate each",
+          "leather jacket and knit scarf each"
+        ]
+      },
+      "passion vs. destruction": {
+        "locs": [
+          "lighthouse edge storm approaching",
+          "cliff edge storm sea below",
+          "summer thunderstorm porch lit"
+        ],
+        "poses": [
+          "one catching the other who almost fell, more than physical",
+          "both facing the wind, hands clasped",
+          "one hand on the other's face, deciding"
+        ],
+        "looks": [
+          "wind-whipped coats each",
+          "white shirt soaked, hair blown each",
+          "long dark coat each"
+        ]
+      },
+      "pulled toward vs. pushed away": {
+        "locs": [
+          "hotel corridor single light night",
+          "long corridor hotel night both ends dark",
+          "hotel room morning light complicated"
+        ],
+        "poses": [
+          "both mid-argument that is also about something else",
+          "one turning away, the other reaching toward them",
+          "both about to kiss, stopped by something unseen"
+        ],
+        "looks": [
+          "rumpled white shirt and loosened tie each",
+          "silk robe and dress shirt each",
+          "deep red and black, deliberate each"
+        ]
+      },
+      "the almost vs. the finally": {
+        "locs": [
+          "abandoned ballroom chandelier still lit",
+          "cinema empty last showing",
+          "empty restaurant after closing one candle"
+        ],
+        "poses": [
+          "both slow dancing with no music",
+          "both sitting far apart, sharing one candle's glow",
+          "one reading aloud, the other listening with eyes closed"
+        ],
+        "looks": [
+          "formal evening clothes, bow tie undone each",
+          "vintage dress and rumpled suit each",
+          "dark elegant coat over evening wear each"
+        ]
+      },
+      "wanting vs. having": {
+        "locs": [
+          "rooftop city edge midnight confession",
+          "fire escape night city below",
+          "rooftop pool city lights reflection midnight"
+        ],
+        "poses": [
+          "both standing apart, wanting to close the distance",
+          "one confessing, the other listening very still",
+          "both leaning on the edge, faces turned to the glow"
+        ],
+        "looks": [
+          "leather jacket and dark trousers each",
+          "long coat caught by the wind each",
+          "evening wear unravelling at the end of the night each"
+        ]
+      },
+      "forbidden vs. inevitable": {
+        "locs": [
+          "phone box rain night neon",
+          "bridge night fog below",
+          "rain-soaked street night neon reflections"
+        ],
+        "poses": [
+          "both running toward each other, hair soaked",
+          "one pressed against the wall, the other close, not quite touching",
+          "one pulling the other back by the wrist, urgent"
+        ],
+        "looks": [
+          "all black, collars up each",
+          "white shirt clinging, vulnerable each",
+          "soaked dark coat and plastered hair each"
+        ]
+      },
+      "the secret vs. the confession": {
+        "locs": [
+          "car park top level night city view",
+          "rooftop water tower night city",
+          "rooftop city edge midnight confession"
+        ],
+        "poses": [
+          "one confessing, the other listening very still",
+          "both leaning on the edge, faces turned to the glow",
+          "both standing apart, wanting to close the distance"
+        ],
+        "looks": [
+          "long coat caught by the wind each",
+          "evening wear unravelling at the end of the night each",
+          "leather jacket and dark trousers each"
+        ]
+      },
+      "intoxication vs. clarity": {
+        "locs": [
+          "night market closing stalls",
+          "boardwalk end of season night",
+          "train departing platform one left behind"
+        ],
+        "poses": [
+          "both in each other's space, eyes locked",
+          "both smiling, not quite saying it",
+          "over the shoulder, one leaving, the other watching them go"
+        ],
+        "looks": [
+          "simple dark clothes, intimate each",
+          "leather jacket and knit scarf each",
+          "vintage dramatic outfit each"
+        ]
+      },
+      "desire vs. consequence": {
+        "locs": [
+          "hotel corridor single light night",
+          "long corridor hotel night both ends dark",
+          "hotel room morning light complicated"
+        ],
+        "poses": [
+          "one turning away, the other reaching toward them",
+          "both about to kiss, stopped by something unseen",
+          "both mid-argument that is also about something else"
+        ],
+        "looks": [
+          "silk robe and dress shirt each",
+          "deep red and black, deliberate each",
+          "rumpled white shirt and loosened tie each"
+        ]
+      },
+      "the beginning vs. the ending": {
+        "locs": [
+          "midnight garden statuary shadow",
+          "lighthouse edge storm approaching",
+          "cliff edge storm sea below"
+        ],
+        "poses": [
+          "both facing the wind, hands clasped",
+          "one hand on the other's face, deciding",
+          "one catching the other who almost fell, more than physical"
+        ],
+        "looks": [
+          "white shirt soaked, hair blown each",
+          "long dark coat each",
+          "wind-whipped coats each"
+        ]
+      },
+      "love vs. need": {
+        "locs": [
+          "abandoned church single candle",
+          "library closed after hours one lamp",
+          "museum closed after hours one guard lamp"
+        ],
+        "poses": [
+          "both sitting far apart, sharing one candle's glow",
+          "one reading aloud, the other listening with eyes closed",
+          "both slow dancing with no music"
+        ],
+        "looks": [
+          "vintage dress and rumpled suit each",
+          "dark elegant coat over evening wear each",
+          "formal evening clothes, bow tie undone each"
+        ]
+      },
+      "fire vs. tenderness": {
+        "locs": [
+          "empty swimming pool night",
+          "theatre wings backstage curtain",
+          "abandoned ballroom chandelier still lit"
+        ],
+        "poses": [
+          "one reading aloud, the other listening with eyes closed",
+          "both slow dancing with no music",
+          "both sitting far apart, sharing one candle's glow"
+        ],
+        "looks": [
+          "dark elegant coat over evening wear each",
+          "formal evening clothes, bow tie undone each",
+          "vintage dress and rumpled suit each"
+        ]
+      },
+      "the risk vs. the safety": {
+        "locs": [
+          "fire escape night city below",
+          "rooftop pool city lights reflection midnight",
+          "car park top level night city view"
+        ],
+        "poses": [
+          "both leaning on the edge, faces turned to the glow",
+          "both standing apart, wanting to close the distance",
+          "one confessing, the other listening very still"
+        ],
+        "looks": [
+          "evening wear unravelling at the end of the night each",
+          "leather jacket and dark trousers each",
+          "long coat caught by the wind each"
+        ]
+      },
+      "what if vs. what is": {
+        "locs": [
+          "alleyway rain single lamp",
+          "Paris street rain autumn night",
+          "phone box rain night neon"
+        ],
+        "poses": [
+          "one pressed against the wall, the other close, not quite touching",
+          "one pulling the other back by the wrist, urgent",
+          "both running toward each other, hair soaked"
+        ],
+        "looks": [
+          "white shirt clinging, vulnerable each",
+          "soaked dark coat and plastered hair each",
+          "all black, collars up each"
         ]
       }
     },
     "locs": [
       "rain-soaked street night neon reflections",
-      "rooftop city edge midnight confession",
-      "hotel corridor single light night",
-      "fire escape night city below",
-      "abandoned ballroom chandelier still lit",
-      "lighthouse edge storm approaching",
-      "midnight garden statuary shadow",
-      "train departing platform one left behind",
-      "cinema empty last showing",
-      "rooftop pool city lights reflection midnight",
       "alleyway rain single lamp",
-      "long corridor hotel night both ends dark",
-      "bridge night fog below",
-      "theatre wings backstage curtain",
       "Paris street rain autumn night",
-      "empty restaurant after closing one candle",
-      "car park top level night city view",
-      "summer thunderstorm porch lit",
-      "abandoned church single candle",
-      "cliff edge storm sea below",
-      "night train compartment moving",
-      "library closed after hours one lamp",
       "phone box rain night neon",
-      "hotel room morning light complicated",
+      "bridge night fog below",
+      "rooftop city edge midnight confession",
+      "fire escape night city below",
+      "rooftop pool city lights reflection midnight",
+      "car park top level night city view",
+      "rooftop water tower night city",
+      "abandoned ballroom chandelier still lit",
+      "cinema empty last showing",
+      "empty restaurant after closing one candle",
+      "abandoned church single candle",
+      "library closed after hours one lamp",
       "museum closed after hours one guard lamp",
       "empty swimming pool night",
-      "rooftop water tower night city",
+      "theatre wings backstage curtain",
+      "hotel corridor single light night",
+      "long corridor hotel night both ends dark",
+      "hotel room morning light complicated",
+      "lighthouse edge storm approaching",
+      "cliff edge storm sea below",
+      "summer thunderstorm porch lit",
+      "midnight garden statuary shadow",
+      "train departing platform one left behind",
+      "night train compartment moving",
       "jazz club late night last song",
       "night market closing stalls",
       "boardwalk end of season night"
     ],
     "poses": [
-      "one pulling other back by wrist rain night urgent",
-      "both about to kiss stopped by something unseen",
-      "one pressed against wall other close not quite touching",
-      "both standing apart wanting to close the distance",
-      "one turning away other reaching toward them",
+      "one pulling the other back by the wrist, urgent",
+      "both running toward each other, hair soaked",
+      "one pressed against the wall, the other close, not quite touching",
+      "both standing apart, wanting to close the distance",
+      "one confessing, the other listening very still",
+      "both leaning on the edge, faces turned to the glow",
+      "both slow dancing with no music",
+      "both sitting far apart, sharing one candle's glow",
+      "one reading aloud, the other listening with eyes closed",
       "both mid-argument that is also about something else",
-      "one catching other who almost fell more than physical",
-      "both in doorway neither leaving nor entering",
-      "one watching other sleep complicated feeling",
-      "both slow dancing no music late night",
-      "one confessing other listening very still",
-      "both running toward each other rain",
-      "one hand on face of other deciding",
-      "both in same frame not yet touching",
-      "over shoulder one leaving other watching them go"
+      "one turning away, the other reaching toward them",
+      "both about to kiss, stopped by something unseen",
+      "one catching the other who almost fell, more than physical",
+      "both facing the wind, hands clasped",
+      "one hand on the other's face, deciding",
+      "over the shoulder, one leaving, the other watching them go",
+      "both in each other's space, eyes locked",
+      "both smiling, not quite saying it"
     ],
     "looks": [
-      "soaked dark clothes night rain each",
-      "all black each night urban dangerous",
-      "evening wear unravelling each end of night",
-      "vintage 1940s noir each dramatic",
-      "deep red and black each deliberate",
-      "white shirt soaked rain each vulnerable",
-      "leather jacket each night urban",
-      "long coat rain each noir",
-      "formal undone each complicated evening",
-      "simple dark clothes each night intimate"
+      "soaked dark coat and plastered hair each",
+      "all black, collars up each",
+      "white shirt clinging, vulnerable each",
+      "leather jacket and dark trousers each",
+      "long coat caught by the wind each",
+      "evening wear unravelling at the end of the night each",
+      "formal evening clothes, bow tie undone each",
+      "vintage dress and rumpled suit each",
+      "dark elegant coat over evening wear each",
+      "rumpled white shirt and loosened tie each",
+      "silk robe and dress shirt each",
+      "deep red and black, deliberate each",
+      "wind-whipped coats each",
+      "white shirt soaked, hair blown each",
+      "long dark coat each",
+      "vintage dramatic outfit each",
+      "simple dark clothes, intimate each",
+      "leather jacket and knit scarf each"
     ],
     "promptSuffix": "Colour grade: deep saturated cinematic darkness — wet streets, neon, blue-black midnight. Not sweet."
   },
@@ -9783,65 +10181,230 @@ const WORLDS = [
     "affinities": {
       "vastness vs. intimacy": {
         "locs": [
-          "northern lights aurora borealis vast dark sky",
-          "ice road frozen lake truck headlights night",
-          "Quebec City Old Town winter snow lanterns"
+          "northern lights aurora borealis vast dark sky lake",
+          "ice road frozen lake truck headlights vast night",
+          "Churchill Manitoba polar bear tundra twilight"
         ],
         "poses": [
-          "both tiny under northern lights vast sky",
-          "both on ice road truck headlights behind vast"
+          "both tiny and still beneath the glowing sky, faces lit",
+          "both walking together into the vast white, breath steaming",
+          "both huddled close, wrapped against the cold"
         ],
         "looks": [
-          "heavy winter parka fur hood each northern",
-          "Quebecois winter layers wool each"
+          "heavy parka with a fur-trimmed hood each",
+          "insulated overalls and thick mittens each",
+          "thermal layers and wool toque each"
+        ]
+      },
+      "isolation vs. connection": {
+        "locs": [
+          "Yukon wilderness log cabin smoke rising winter",
+          "Iqaluit Arctic settlement winter dark noon",
+          "northern lights aurora borealis vast dark sky lake"
+        ],
+        "poses": [
+          "both walking together into the vast white, breath steaming",
+          "both huddled close, wrapped against the cold",
+          "both tiny and still beneath the glowing sky, faces lit"
+        ],
+        "looks": [
+          "insulated overalls and thick mittens each",
+          "thermal layers and wool toque each",
+          "heavy parka with a fur-trimmed hood each"
+        ]
+      },
+      "wilderness vs. civilisation": {
+        "locs": [
+          "Quebec City Old Town winter snow lanterns cobblestone",
+          "Niagara Falls frozen winter mist",
+          "Toronto winter street snow CN Tower behind"
+        ],
+        "poses": [
+          "both strolling arm in arm, steam rising from their breath",
+          "both laughing as snow falls on their shoulders",
+          "both pausing at a corner, heads tilted toward the lights"
+        ],
+        "looks": [
+          "wool coat toque and scarf each",
+          "puffer jacket and boots each",
+          "long down coat and fur hat each"
+        ]
+      },
+      "ice vs. warmth": {
+        "locs": [
+          "Banff frozen lake mountain reflection winter",
+          "Whistler ski run empty dawn fresh snow",
+          "Canadian Rockies glacier valley vast"
+        ],
+        "poses": [
+          "both on the ice, sharing a thermos, laughing",
+          "both carrying skis over their shoulders at sunrise",
+          "both gazing up at the peaks, bundled in layers"
+        ],
+        "looks": [
+          "ski jackets and goggles each",
+          "bright puffer and toque each",
+          "technical shell and gloves each"
+        ]
+      },
+      "the north vs. the south": {
+        "locs": [
+          "ice road frozen lake truck headlights vast night",
+          "Churchill Manitoba polar bear tundra twilight",
+          "Yukon wilderness log cabin smoke rising winter"
+        ],
+        "poses": [
+          "both huddled close, wrapped against the cold",
+          "both tiny and still beneath the glowing sky, faces lit",
+          "both walking together into the vast white, breath steaming"
+        ],
+        "looks": [
+          "thermal layers and wool toque each",
+          "heavy parka with a fur-trimmed hood each",
+          "insulated overalls and thick mittens each"
+        ]
+      },
+      "staying vs. leaving": {
+        "locs": [
+          "Pacific coast British Columbia old growth forest fog",
+          "Cape Breton coastal cliff Atlantic fog",
+          "Newfoundland outport fishing village fog"
+        ],
+        "poses": [
+          "both standing at the edge as the mist rolls in",
+          "both leaning into the damp wind, coats flapping",
+          "both sitting close on a wet rock, silent"
+        ],
+        "looks": [
+          "oilskin jacket and rubber boots each",
+          "waterproof shell and wool jumper each",
+          "heavy knit sweater and boots each"
+        ]
+      },
+      "French vs. English": {
+        "locs": [
+          "Montreal alley winter snow graffiti",
+          "Vancouver harbour night mountains snow behind",
+          "Quebec City Old Town winter snow lanterns cobblestone"
+        ],
+        "poses": [
+          "both laughing as snow falls on their shoulders",
+          "both pausing at a corner, heads tilted toward the lights",
+          "both strolling arm in arm, steam rising from their breath"
+        ],
+        "looks": [
+          "puffer jacket and boots each",
+          "long down coat and fur hat each",
+          "wool coat toque and scarf each"
+        ]
+      },
+      "the land vs. the city": {
+        "locs": [
+          "Prairie flat horizon grain elevator sky vast",
+          "Arctic tundra vast flat horizon midnight sun",
+          "Lake Louise turquoise impossible colour summer"
+        ],
+        "poses": [
+          "both under the enormous sky, arms around each other",
+          "both walking a long path toward the horizon",
+          "both sitting at the water's edge, feet bare"
+        ],
+        "looks": [
+          "plaid shirt and jeans each",
+          "light jacket and hiking boots each",
+          "canvas jacket and sun hats each"
+        ]
+      },
+      "winter vs. the idea of summer": {
+        "locs": [
+          "Algonquin Park autumn reflection lake",
+          "Prairie flat horizon grain elevator sky vast",
+          "Arctic tundra vast flat horizon midnight sun"
+        ],
+        "poses": [
+          "both walking a long path toward the horizon",
+          "both sitting at the water's edge, feet bare",
+          "both under the enormous sky, arms around each other"
+        ],
+        "looks": [
+          "light jacket and hiking boots each",
+          "canvas jacket and sun hats each",
+          "plaid shirt and jeans each"
+        ]
+      },
+      "silence vs. the sound of distance": {
+        "locs": [
+          "Banff frozen lake mountain reflection winter",
+          "Whistler ski run empty dawn fresh snow",
+          "Canadian Rockies glacier valley vast"
+        ],
+        "poses": [
+          "both carrying skis over their shoulders at sunrise",
+          "both gazing up at the peaks, bundled in layers",
+          "both on the ice, sharing a thermos, laughing"
+        ],
+        "looks": [
+          "bright puffer and toque each",
+          "technical shell and gloves each",
+          "ski jackets and goggles each"
         ]
       }
     },
     "locs": [
       "northern lights aurora borealis vast dark sky lake",
       "ice road frozen lake truck headlights vast night",
-      "Quebec City Old Town winter snow lanterns cobblestone",
-      "Niagara Falls frozen winter mist",
-      "Pacific coast British Columbia old growth forest fog",
-      "Prairie flat horizon grain elevator sky vast",
-      "Cape Breton coastal cliff Atlantic fog",
-      "Banff frozen lake mountain reflection winter",
-      "Toronto winter street snow CN Tower behind",
       "Churchill Manitoba polar bear tundra twilight",
       "Yukon wilderness log cabin smoke rising winter",
+      "Iqaluit Arctic settlement winter dark noon",
+      "Quebec City Old Town winter snow lanterns cobblestone",
+      "Niagara Falls frozen winter mist",
+      "Toronto winter street snow CN Tower behind",
       "Montreal alley winter snow graffiti",
       "Vancouver harbour night mountains snow behind",
+      "Pacific coast British Columbia old growth forest fog",
+      "Cape Breton coastal cliff Atlantic fog",
       "Newfoundland outport fishing village fog",
+      "Prairie flat horizon grain elevator sky vast",
       "Arctic tundra vast flat horizon midnight sun",
-      "Whistler ski run empty dawn fresh snow",
       "Lake Louise turquoise impossible colour summer",
-      "Canadian Rockies glacier valley vast",
       "Algonquin Park autumn reflection lake",
-      "Iqaluit Arctic settlement winter dark noon"
+      "Banff frozen lake mountain reflection winter",
+      "Whistler ski run empty dawn fresh snow",
+      "Canadian Rockies glacier valley vast"
     ],
     "poses": [
-      "both tiny under vast northern lights dark sky",
-      "both on frozen lake vast white horizon",
-      "both in blizzard barely visible each other",
-      "both watching aurora borealis faces lit green",
-      "both on ice road looking ahead vast",
-      "both in Quebec winter street snow steam breath",
-      "both emerging from forest edge vast behind",
-      "both on coastal cliff fog Atlantic",
-      "both in prairie vast horizon all around",
-      "both at lake edge mountain reflection winter"
+      "both tiny and still beneath the glowing sky, faces lit",
+      "both walking together into the vast white, breath steaming",
+      "both huddled close, wrapped against the cold",
+      "both strolling arm in arm, steam rising from their breath",
+      "both laughing as snow falls on their shoulders",
+      "both pausing at a corner, heads tilted toward the lights",
+      "both standing at the edge as the mist rolls in",
+      "both leaning into the damp wind, coats flapping",
+      "both sitting close on a wet rock, silent",
+      "both under the enormous sky, arms around each other",
+      "both walking a long path toward the horizon",
+      "both sitting at the water's edge, feet bare",
+      "both on the ice, sharing a thermos, laughing",
+      "both carrying skis over their shoulders at sunrise",
+      "both gazing up at the peaks, bundled in layers"
     ],
     "looks": [
-      "heavy winter parka fur hood northern each",
-      "Quebecois winter layers wool toque each",
-      "Pacific coast outdoor technical each rain",
-      "Prairie casual worn practical each",
-      "Maritime fisherman waterproof each coastal",
-      "Arctic expedition gear each serious",
-      "Canadian winter smart casual each urban",
-      "Hockey jersey and jeans each Canadian casual",
-      "Flannel and work boots each Canadian practical",
-      "Ski gear mountain each colourful"
+      "heavy parka with a fur-trimmed hood each",
+      "insulated overalls and thick mittens each",
+      "thermal layers and wool toque each",
+      "wool coat toque and scarf each",
+      "puffer jacket and boots each",
+      "long down coat and fur hat each",
+      "oilskin jacket and rubber boots each",
+      "waterproof shell and wool jumper each",
+      "heavy knit sweater and boots each",
+      "plaid shirt and jeans each",
+      "light jacket and hiking boots each",
+      "canvas jacket and sun hats each",
+      "ski jackets and goggles each",
+      "bright puffer and toque each",
+      "technical shell and gloves each"
     ],
     "promptSuffix": "Colour grade: aurora green, ice blue, Pacific grey, Quebec stone, prairie gold. Vast and cold."
   },
@@ -11078,7 +11641,7 @@ const WORLDS = [
       "over-styled shoot both absurdist fashion",
       "both holding hands runway end pause",
       "one fan both cooling down studio hot",
-      "close-up focus detail one holds other examines",
+      "one holding a garment detail up, the other examining it",
       "both standing before window white light",
       "garment movement test both walking",
       "one reaching back gesture other fills gap",
@@ -11613,7 +12176,7 @@ const WORLDS = [
       }
     },
     "promptPrefix": "High fashion editorial photograph, fashion week or luxury magazine quality — ",
-    "promptSuffix": "Render with the precision and intentionality of high fashion photography: every element of the frame is considered, the garments are the protagonist, the lighting is deliberate and sculptural. The quality should read as Vogue, i-D or AnOther Magazine.",
+    "promptSuffix": "Every element of the frame is considered: the garments are the protagonist, the lighting deliberate and sculptural.",
     "variantDirectives": [
       "Wide runway frame, the figures small within the show space: ",
       "Full-length editorial frame, movement and posture carry the mood: ",
@@ -12268,85 +12831,240 @@ const WORLDS = [
     "affinities": {
       "vastness vs. intimacy": {
         "locs": [
-          "Wadi Rum red rock Jordan dawn long shadow",
-          "Sahara dune sea sunset two figures tiny",
-          "Death Valley salt flat noon bleached vast"
+          "Sahara dune sea sunset two figures tiny horizon",
+          "Moroccan desert Merzouga dune sea sunset gold",
+          "Rub al Khali Empty Quarter dune sea endless"
         ],
         "poses": [
-          "both tiny against vast Wadi Rum red rock dawn",
-          "both Sahara dune crest sunset figures small horizon"
+          "both tiny on a dune crest, long shadows stretching",
+          "both sliding down the slope, sand streaming",
+          "both sitting side by side, watching the colour change"
         ],
         "looks": [
-          "desert traveller wrapped cloth dust each",
-          "explorer practical desert each heat"
+          "wrapped linen cloth and scarf each",
+          "loose cotton shirt and trousers each",
+          "long tunic and head cloth each"
+        ]
+      },
+      "ancient vs. present": {
+        "locs": [
+          "Wadi Rum red rock Jordan dawn long shadow",
+          "Jordanian desert ancient Nabataean rock city Petra dusk",
+          "Arizona Monument Valley sandstone butte long shadow"
+        ],
+        "poses": [
+          "both standing against the towering rock, small and still",
+          "both climbing a ridge, hands reaching back",
+          "both resting in the shade of an overhang"
+        ],
+        "looks": [
+          "dusty explorer jacket and wide hat each",
+          "rolled-up sleeves and sturdy boots each",
+          "khaki shirt and canvas trousers each"
+        ]
+      },
+      "heat vs. cold night": {
+        "locs": [
+          "Atacama Chile night sky clearest stars world",
+          "Sahara oasis palm trees mirage heat shimmer",
+          "Wadi Rum desert camp fire night stars"
+        ],
+        "poses": [
+          "both sitting close by the fire, faces lit gold",
+          "both gazing up at an explosion of stars",
+          "both leading a camel at the edge of dawn"
+        ],
+        "looks": [
+          "thick wrapped layers against the night chill each",
+          "wool blanket over linen each",
+          "dark jackets and scarves each"
+        ]
+      },
+      "the mirage vs. the real": {
+        "locs": [
+          "Death Valley salt flat noon bleached vast white",
+          "White Sands New Mexico gypsum dune noon",
+          "Atacama salt flat mirror sky reflection"
+        ],
+        "poses": [
+          "both walking apart across the white, shadows long",
+          "both lying back on the flat, staring at the sky",
+          "both mirrored in the thin sheet of water"
+        ],
+        "looks": [
+          "pale cotton outfit and sunglasses each",
+          "bleached linen and straw hat each",
+          "white shirt and light trousers each"
+        ]
+      },
+      "survival vs. surrender": {
+        "locs": [
+          "Gobi Mongolia vast flat sand storm approaching",
+          "Sonoran desert saguaro cactus sunset Arizona",
+          "Great Sand Dunes Colorado snow mountain beyond"
+        ],
+        "poses": [
+          "both bracing against the wind, scarves whipping",
+          "both watching a storm wall roll toward them",
+          "both kneeling to examine something strange in the sand"
+        ],
+        "looks": [
+          "goggles and dust scarves each",
+          "expedition layers and gloves each",
+          "windbreaker and wrapped face cloth each"
+        ]
+      },
+      "the dune vs. the horizon": {
+        "locs": [
+          "Rub al Khali dune crest wind sand stream",
+          "Sossusvlei Namibia dune red iron oxide dawn",
+          "Namib vlei dead trees orange dune dawn iconic"
+        ],
+        "poses": [
+          "both sliding down the slope, sand streaming",
+          "both sitting side by side, watching the colour change",
+          "both tiny on a dune crest, long shadows stretching"
+        ],
+        "looks": [
+          "loose cotton shirt and trousers each",
+          "long tunic and head cloth each",
+          "wrapped linen cloth and scarf each"
+        ]
+      },
+      "silence vs. the wind": {
+        "locs": [
+          "Simpson Desert Australia red dune noon",
+          "Taklamakan China Silk Road ancient route",
+          "Namib fog coastal desert ghost ship distant"
+        ],
+        "poses": [
+          "both watching a storm wall roll toward them",
+          "both kneeling to examine something strange in the sand",
+          "both bracing against the wind, scarves whipping"
+        ],
+        "looks": [
+          "expedition layers and gloves each",
+          "windbreaker and wrapped face cloth each",
+          "goggles and dust scarves each"
+        ]
+      },
+      "small vs. infinite": {
+        "locs": [
+          "Lencois Maranhenses Brazil white dune lagoon",
+          "Black Rock Desert Nevada vast flat nothing",
+          "Danakil Depression Ethiopia hottest place earth"
+        ],
+        "poses": [
+          "both lying back on the flat, staring at the sky",
+          "both mirrored in the thin sheet of water",
+          "both walking apart across the white, shadows long"
+        ],
+        "looks": [
+          "bleached linen and straw hat each",
+          "white shirt and light trousers each",
+          "pale cotton outfit and sunglasses each"
+        ]
+      },
+      "lost vs. found": {
+        "locs": [
+          "Death Valley Zabriskie Point badlands dawn",
+          "Painted Desert Arizona colour band formation",
+          "Negev desert Ramon crater vast geological"
+        ],
+        "poses": [
+          "both climbing a ridge, hands reaching back",
+          "both resting in the shade of an overhang",
+          "both standing against the towering rock, small and still"
+        ],
+        "looks": [
+          "rolled-up sleeves and sturdy boots each",
+          "khaki shirt and canvas trousers each",
+          "dusty explorer jacket and wide hat each"
+        ]
+      },
+      "the oasis vs. the illusion": {
+        "locs": [
+          "Arabian desert camel caravan horizon line dawn",
+          "Atacama Chile night sky clearest stars world",
+          "Sahara oasis palm trees mirage heat shimmer"
+        ],
+        "poses": [
+          "both gazing up at an explosion of stars",
+          "both leading a camel at the edge of dawn",
+          "both sitting close by the fire, faces lit gold"
+        ],
+        "looks": [
+          "wool blanket over linen each",
+          "dark jackets and scarves each",
+          "thick wrapped layers against the night chill each"
         ]
       }
     },
     "locs": [
-      "Wadi Rum red rock Jordan dawn long shadow",
       "Sahara dune sea sunset two figures tiny horizon",
-      "Death Valley salt flat noon bleached vast white",
-      "Atacama Chile night sky clearest stars world",
-      "Namib vlei dead trees orange dune dawn iconic",
-      "Jordanian desert ancient Nabataean rock city Petra dusk",
       "Moroccan desert Merzouga dune sea sunset gold",
-      "Arizona Monument Valley sandstone butte long shadow",
-      "White Sands New Mexico gypsum dune noon",
-      "Sossusvlei Namibia dune red iron oxide dawn",
-      "Gobi Mongolia vast flat sand storm approaching",
       "Rub al Khali Empty Quarter dune sea endless",
-      "Sonoran desert saguaro cactus sunset Arizona",
-      "Atacama salt flat mirror sky reflection",
+      "Rub al Khali dune crest wind sand stream",
+      "Sossusvlei Namibia dune red iron oxide dawn",
+      "Namib vlei dead trees orange dune dawn iconic",
+      "Wadi Rum red rock Jordan dawn long shadow",
+      "Jordanian desert ancient Nabataean rock city Petra dusk",
+      "Arizona Monument Valley sandstone butte long shadow",
       "Death Valley Zabriskie Point badlands dawn",
-      "Sahara oasis palm trees mirage heat shimmer",
-      "Wadi Rum desert camp fire night stars",
-      "Arabian desert camel caravan horizon line dawn",
       "Painted Desert Arizona colour band formation",
-      "Great Sand Dunes Colorado snow mountain beyond",
+      "Negev desert Ramon crater vast geological",
+      "Judean desert cave dwelling ancient",
+      "Death Valley salt flat noon bleached vast white",
+      "White Sands New Mexico gypsum dune noon",
+      "Atacama salt flat mirror sky reflection",
       "Lencois Maranhenses Brazil white dune lagoon",
       "Black Rock Desert Nevada vast flat nothing",
       "Danakil Depression Ethiopia hottest place earth",
+      "Atacama Chile night sky clearest stars world",
+      "Sahara oasis palm trees mirage heat shimmer",
+      "Wadi Rum desert camp fire night stars",
+      "Arabian desert camel caravan horizon line dawn",
+      "Gobi Mongolia vast flat sand storm approaching",
+      "Sonoran desert saguaro cactus sunset Arizona",
+      "Great Sand Dunes Colorado snow mountain beyond",
       "Simpson Desert Australia red dune noon",
       "Taklamakan China Silk Road ancient route",
       "Namib fog coastal desert ghost ship distant",
-      "Negev desert Ramon crater vast geological",
-      "Judean desert cave dwelling ancient",
-      "Chilean Atacama lava field volcanic moon",
-      "Rub al Khali dune crest wind sand stream"
+      "Chilean Atacama lava field volcanic moon"
     ],
     "poses": [
-      "both tiny against vast desert landscape horizon",
-      "both dune crest sunset silhouette small against sky",
-      "both salt flat white vast foreground tiny",
-      "both long shadow dawn desert red rock",
-      "both walking toward horizon desert vast behind",
-      "both resting shade rock desert noon",
-      "both looking out over dune sea sunset",
-      "both standing apart vast desert between them implied",
-      "both silhouette against desert dawn colour",
-      "both at oasis edge real or mirage",
-      "both back to back desert vast all directions",
-      "both kneeling desert floor something discovered",
-      "both facing each other desert wind",
-      "both looking up night sky Atacama stars",
-      "both emerging from dust storm approaching",
-      "both at ancient rock dwelling desert cliff",
-      "both desert floor heat exhaustion late afternoon",
-      "both camel caravan horizon line dawn",
-      "both watching sand storm approach vast",
-      "both at desert camp fire night vast dark"
+      "both tiny on a dune crest, long shadows stretching",
+      "both sliding down the slope, sand streaming",
+      "both sitting side by side, watching the colour change",
+      "both standing against the towering rock, small and still",
+      "both climbing a ridge, hands reaching back",
+      "both resting in the shade of an overhang",
+      "both walking apart across the white, shadows long",
+      "both lying back on the flat, staring at the sky",
+      "both mirrored in the thin sheet of water",
+      "both sitting close by the fire, faces lit gold",
+      "both gazing up at an explosion of stars",
+      "both leading a camel at the edge of dawn",
+      "both bracing against the wind, scarves whipping",
+      "both watching a storm wall roll toward them",
+      "both kneeling to examine something strange in the sand"
     ],
     "looks": [
-      "desert traveller wrapped linen cloth dust protection each",
-      "explorer practical desert hat shade each",
-      "Bedouin inspired wrapped cloth each desert",
-      "adventurer practical layers desert each",
-      "minimal simple clothes desert heat each",
-      "desert worn clothes dust stained each",
-      "wrapped keffiyeh desert dust each",
-      "lightweight layers desert traveller each",
-      "simple cotton desert pale each heat",
-      "expedition practical desert technical each"
+      "wrapped linen cloth and scarf each",
+      "loose cotton shirt and trousers each",
+      "long tunic and head cloth each",
+      "dusty explorer jacket and wide hat each",
+      "rolled-up sleeves and sturdy boots each",
+      "khaki shirt and canvas trousers each",
+      "pale cotton outfit and sunglasses each",
+      "bleached linen and straw hat each",
+      "white shirt and light trousers each",
+      "thick wrapped layers against the night chill each",
+      "wool blanket over linen each",
+      "dark jackets and scarves each",
+      "goggles and dust scarves each",
+      "expedition layers and gloves each",
+      "windbreaker and wrapped face cloth each"
     ],
     "promptSuffix": "Colour grade: the specific palettes of specific deserts — Wadi Rum red, Sahara gold, Death Valley bleached white, Atacama violet night. The scale of the land against the smallness of the person."
   },
@@ -13568,7 +14286,7 @@ const WORLDS = [
       }
     },
     "promptPrefix": "Mythological fine art, painterly and dramatic, the visual language of classical mythology or dark fantasy — ",
-    "promptSuffix": "Render with the dramatic, painterly quality of mythological art: deep atmospheric lighting, symbolic visual elements, the subjects feel timeless and archetypal rather than contemporary. Draw on the visual language of Gustave Moreau, John William Waterhouse or contemporary dark fantasy photography.",
+    "promptSuffix": "Deep atmospheric lighting, symbolic elements; the subjects timeless and archetypal rather than contemporary.",
     "variantDirectives": [
       "Vast painted frame, the figures small within a mythic landscape: ",
       "Three-quarter length, posture and gesture carry the drama: ",
@@ -15842,8 +16560,8 @@ const WORLDS = [
       "police uniform 1950s each",
       "nightwear pyjamas interrupted sleep each"
     ],
-    "promptPrefix": "Vintage science-fiction or horror B-movie film still, 1950s to 1970s aesthetic, Technicolor or grainy monochrome, theatrical lighting, low-budget practical effects aesthetic — ",
-    "promptSuffix": "Render as an authentic B-movie film still: theatrical lighting, practical effects aesthetic, period-accurate costume and setting. Alternate between saturated Technicolor and high-contrast black and white. The image should feel like a frame from a real 1950s–1970s genre film — camp, earnest, visually dramatic.",
+    "promptPrefix": "Vintage B-movie film still, Technicolor or grainy monochrome, theatrical lighting — ",
+    "promptSuffix": "A frame from a real 1950s–1970s genre film: theatrical, deliberately camp, rubber-suit monsters and painted backdrops. The subjects may be heroes, villains, mad scientists, creatures or aliens.",
     "variantDirectives": [
       "Wide set frame showing the whole painted backdrop, the figures small: ",
       "Full-length theatrical pose, camp gesture carries the drama: ",
@@ -15883,55 +16601,392 @@ const WORLDS = [
     "affinities": {
       "formal vs. candid": {
         "locs": [
-          "Victorian photographer studio painted backdrop",
-          "1940s press photo studio",
-          "1970s Polaroid casual moment"
+          "Victorian photographer studio painted garden backdrop",
+          "Victorian cabinet card studio velvet chair",
+          "Victorian studio painted landscape backdrop"
         ],
         "poses": [
-          "both formally posed upright Victorian studio hands in lap",
-          "both caught laughing 1970s snapshot candid"
+          "both formally posed, one seated, one standing behind",
+          "both in profile, facing each other with solemn faces",
+          "one holding a parasol, the other's hand resting on a column"
         ],
         "looks": [
-          "Victorian formal dress and frock coat period accurate",
-          "1970s casual everyday Polaroid clothes"
+          "lace blouse and long skirt with a dark jacket each",
+          "striped blazer and boater hat each",
+          "white summer dress and linen suit each"
+        ]
+      },
+      "posed vs. caught": {
+        "locs": [
+          "1960s portrait studio soft focus colour",
+          "1960s snapshot garden party Kodak",
+          "1960s photobooth strip four frames"
+        ],
+        "poses": [
+          "both laughing, looking away from the camera",
+          "both mid-conversation, unaware of the lens",
+          "both caught off guard, mid-sentence"
+        ],
+        "looks": [
+          "mod mini dress and slim suit each",
+          "shift dress and cardigan each",
+          "polo neck and tailored trousers each"
+        ]
+      },
+      "preserved vs. faded": {
+        "locs": [
+          "daguerreotype studio 1850s painted backdrop column",
+          "early photography studio plate camera 1850s",
+          "Victorian parlour formal sitting 1860s"
+        ],
+        "poses": [
+          "both rigidly still, hands folded in laps, staring ahead",
+          "one seated, the other standing with a hand on the chair back",
+          "both slightly blurred, unable to hold still for the long exposure"
+        ],
+        "looks": [
+          "high-collared black dress and dark frock coat each",
+          "heavy wool coat and bonnet each",
+          "stiff white collar and buttoned waistcoat each"
+        ]
+      },
+      "public face vs. private moment": {
+        "locs": [
+          "1970s Polaroid instant kitchen casual",
+          "1970s family portrait velvet studio backdrop",
+          "1970s snapshot holiday beach Kodak"
+        ],
+        "poses": [
+          "both relaxed, laughing at something off-frame",
+          "both leaning on each other, easy and unposed",
+          "both squinting into the sun, arms around each other"
+        ],
+        "looks": [
+          "wide-lapel suit and maxi dress each",
+          "flared jeans and patterned shirt each",
+          "knitted tank top and corduroy trousers each"
+        ]
+      },
+      "stiff vs. tender": {
+        "locs": [
+          "1940s studio portrait wartime formal",
+          "1940s press photo studio flash powder",
+          "1940s wartime goodbye platform station"
+        ],
+        "poses": [
+          "both serious, looking straight into the lens",
+          "one holding the other's hand, composed and formal",
+          "both standing close, a quiet goodbye in their eyes"
+        ],
+        "looks": [
+          "utility dress and military uniform each",
+          "Sunday best coat and hat each",
+          "tailored suit and victory-roll hair each"
+        ]
+      },
+      "the sitter vs. the subject": {
+        "locs": [
+          "1920s glamour portrait studio dramatic light",
+          "1930s Hollywood studio portrait backdrop",
+          "1920s art deco portrait studio"
+        ],
+        "poses": [
+          "both glamorous and aloof, chins tilted to the light",
+          "both seated close, intimate and poised",
+          "one resting a chin on the other's shoulder, eyes to camera"
+        ],
+        "looks": [
+          "beaded flapper dress and dinner suit each",
+          "bias-cut satin gown and slim tuxedo each",
+          "sleek finger waves and pinstripe suit each"
+        ]
+      },
+      "performance vs. presence": {
+        "locs": [
+          "1980s portrait studio laser background",
+          "1980s snapshot disposable camera party",
+          "1980s passport photograph strip booth"
+        ],
+        "poses": [
+          "both striking a confident pose, shoulders squared",
+          "both laughing mid-party, flash-lit and red-eyed",
+          "both posed stiffly, looking proud"
+        ],
+        "looks": [
+          "power-shoulder dress and double-breasted suit each",
+          "neon sweatshirt and acid-wash jeans each",
+          "permed hair and pastel suit each"
+        ]
+      },
+      "past vs. present": {
+        "locs": [
+          "early 2000s digital camera party low resolution",
+          "2000s photo print kiosk portrait",
+          "2000s candid phone photograph first generation"
+        ],
+        "poses": [
+          "both leaning in for a selfie, arms outstretched",
+          "both captured mid-laugh, a little blurred",
+          "both posing with peace signs, grainy and low-resolution"
+        ],
+        "looks": [
+          "low-rise jeans and fitted tee each",
+          "hoodie and skinny jeans each",
+          "casual everyday clothes each"
+        ]
+      },
+      "remembered vs. forgotten": {
+        "locs": [
+          "Victorian conservatory glass light 1860s",
+          "cyanotype portrait early experimental",
+          "daguerreotype studio 1850s painted backdrop column"
+        ],
+        "poses": [
+          "one seated, the other standing with a hand on the chair back",
+          "both slightly blurred, unable to hold still for the long exposure",
+          "both rigidly still, hands folded in laps, staring ahead"
+        ],
+        "looks": [
+          "heavy wool coat and bonnet each",
+          "stiff white collar and buttoned waistcoat each",
+          "high-collared black dress and dark frock coat each"
+        ]
+      },
+      "the person vs. the image": {
+        "locs": [
+          "1990s disposable camera snapshot casual",
+          "1990s portrait studio soft focus",
+          "1990s photobooth mall strip"
+        ],
+        "poses": [
+          "both pulling faces at the camera, flash-lit",
+          "both slouched together, casual and deadpan",
+          "both squeezed into the frame, laughing"
+        ],
+        "looks": [
+          "slip dress and flannel shirt each",
+          "baggy jeans and baby tee each",
+          "chunky trainers and tracksuit each"
+        ]
+      },
+      "together vs. separate in time": {
+        "locs": [
+          "1950s colour portrait studio Kodachrome",
+          "1950s suburban garden snapshot summer",
+          "1950s school portrait individual backdrop"
+        ],
+        "poses": [
+          "both smiling brightly at the camera, close together",
+          "one's arm around the other, casual and cheerful",
+          "both seated, hands neatly folded, grinning"
+        ],
+        "looks": [
+          "full-skirted dress and sport coat each",
+          "polka dot blouse and cuffed trousers each",
+          "cardigan and pleated skirt each"
+        ]
+      },
+      "dignity vs. vulnerability": {
+        "locs": [
+          "1940s family portrait studio Sunday best",
+          "large format studio portrait 1940s sharp",
+          "black and white film portrait studio grain"
+        ],
+        "poses": [
+          "one holding the other's hand, composed and formal",
+          "both standing close, a quiet goodbye in their eyes",
+          "both serious, looking straight into the lens"
+        ],
+        "looks": [
+          "Sunday best coat and hat each",
+          "tailored suit and victory-roll hair each",
+          "utility dress and military uniform each"
+        ]
+      },
+      "dressed up vs. undone": {
+        "locs": [
+          "1930s press photograph studio flash",
+          "1930s documentary press photograph street",
+          "1920s glamour portrait studio dramatic light"
+        ],
+        "poses": [
+          "both seated close, intimate and poised",
+          "one resting a chin on the other's shoulder, eyes to camera",
+          "both glamorous and aloof, chins tilted to the light"
+        ],
+        "looks": [
+          "bias-cut satin gown and slim tuxedo each",
+          "sleek finger waves and pinstripe suit each",
+          "beaded flapper dress and dinner suit each"
+        ]
+      },
+      "looking vs. looked at": {
+        "locs": [
+          "1980s wedding portrait formal studio",
+          "35mm film grain portrait casual snapshot",
+          "1980s portrait studio laser background"
+        ],
+        "poses": [
+          "both laughing mid-party, flash-lit and red-eyed",
+          "both posed stiffly, looking proud",
+          "both striking a confident pose, shoulders squared"
+        ],
+        "looks": [
+          "neon sweatshirt and acid-wash jeans each",
+          "permed hair and pastel suit each",
+          "power-shoulder dress and double-breasted suit each"
+        ]
+      },
+      "light vs. shadow": {
+        "locs": [
+          "Edwardian seaside portrait studio pier",
+          "Edwardian country house drawing room formal",
+          "Edwardian portrait studio electric light early"
+        ],
+        "poses": [
+          "both in profile, facing each other with solemn faces",
+          "one holding a parasol, the other's hand resting on a column",
+          "both formally posed, one seated, one standing behind"
+        ],
+        "looks": [
+          "striped blazer and boater hat each",
+          "white summer dress and linen suit each",
+          "lace blouse and long skirt with a dark jacket each"
+        ]
+      },
+      "known vs. unrecognised": {
+        "locs": [
+          "1960s news photograph street candid",
+          "1960s photojournalism candid street",
+          "colour slide transparency 1960s portrait"
+        ],
+        "poses": [
+          "both mid-conversation, unaware of the lens",
+          "both caught off guard, mid-sentence",
+          "both laughing, looking away from the camera"
+        ],
+        "looks": [
+          "shift dress and cardigan each",
+          "polo neck and tailored trousers each",
+          "mod mini dress and slim suit each"
+        ]
+      },
+      "held vs. released": {
+        "locs": [
+          "1950s department store portrait studio",
+          "1950s news agency portrait flash",
+          "medium format portrait studio sharp"
+        ],
+        "poses": [
+          "one's arm around the other, casual and cheerful",
+          "both seated, hands neatly folded, grinning",
+          "both smiling brightly at the camera, close together"
+        ],
+        "looks": [
+          "polka dot blouse and cuffed trousers each",
+          "cardigan and pleated skirt each",
+          "full-skirted dress and sport coat each"
+        ]
+      },
+      "the face given vs. the face kept": {
+        "locs": [
+          "1990s school portrait blue gradient backdrop",
+          "1990s disposable camera snapshot casual",
+          "1990s portrait studio soft focus"
+        ],
+        "poses": [
+          "both slouched together, casual and deadpan",
+          "both squeezed into the frame, laughing",
+          "both pulling faces at the camera, flash-lit"
+        ],
+        "looks": [
+          "baggy jeans and baby tee each",
+          "chunky trainers and tracksuit each",
+          "slip dress and flannel shirt each"
+        ]
+      },
+      "then vs. now": {
+        "locs": [
+          "2010s instagram square portrait early",
+          "early 2000s digital camera party low resolution",
+          "2000s photo print kiosk portrait"
+        ],
+        "poses": [
+          "both captured mid-laugh, a little blurred",
+          "both posing with peace signs, grainy and low-resolution",
+          "both leaning in for a selfie, arms outstretched"
+        ],
+        "looks": [
+          "hoodie and skinny jeans each",
+          "casual everyday clothes each",
+          "low-rise jeans and fitted tee each"
+        ]
+      },
+      "love vs. loss": {
+        "locs": [
+          "1970s school photograph class outdoor",
+          "1970s documentary portrait natural light",
+          "instant Polaroid border white portrait"
+        ],
+        "poses": [
+          "both leaning on each other, easy and unposed",
+          "both squinting into the sun, arms around each other",
+          "both relaxed, laughing at something off-frame"
+        ],
+        "looks": [
+          "flared jeans and patterned shirt each",
+          "knitted tank top and corduroy trousers each",
+          "wide-lapel suit and maxi dress each"
         ]
       }
     },
     "locs": [
       "daguerreotype studio 1850s painted backdrop column",
-      "Victorian parlour formal sitting 1860s",
       "early photography studio plate camera 1850s",
+      "Victorian parlour formal sitting 1860s",
       "Victorian conservatory glass light 1860s",
+      "cyanotype portrait early experimental",
       "Victorian photographer studio painted garden backdrop",
-      "Edwardian seaside portrait studio pier",
       "Victorian cabinet card studio velvet chair",
-      "Edwardian country house drawing room formal",
       "Victorian studio painted landscape backdrop",
+      "Edwardian seaside portrait studio pier",
+      "Edwardian country house drawing room formal",
       "Edwardian portrait studio electric light early",
+      "sepia toned portrait formal studio",
       "1920s glamour portrait studio dramatic light",
       "1930s Hollywood studio portrait backdrop",
       "1920s art deco portrait studio",
       "1930s press photograph studio flash",
+      "1930s documentary press photograph street",
       "1940s studio portrait wartime formal",
       "1940s press photo studio flash powder",
       "1940s wartime goodbye platform station",
       "1940s family portrait studio Sunday best",
+      "large format studio portrait 1940s sharp",
+      "black and white film portrait studio grain",
       "1950s colour portrait studio Kodachrome",
       "1950s suburban garden snapshot summer",
       "1950s school portrait individual backdrop",
       "1950s department store portrait studio",
+      "1950s news agency portrait flash",
+      "medium format portrait studio sharp",
       "1960s portrait studio soft focus colour",
       "1960s snapshot garden party Kodak",
       "1960s photobooth strip four frames",
       "1960s news photograph street candid",
+      "1960s photojournalism candid street",
+      "colour slide transparency 1960s portrait",
       "1970s Polaroid instant kitchen casual",
       "1970s family portrait velvet studio backdrop",
       "1970s snapshot holiday beach Kodak",
       "1970s school photograph class outdoor",
+      "1970s documentary portrait natural light",
+      "instant Polaroid border white portrait",
       "1980s portrait studio laser background",
       "1980s snapshot disposable camera party",
       "1980s passport photograph strip booth",
       "1980s wedding portrait formal studio",
+      "35mm film grain portrait casual snapshot",
       "1990s disposable camera snapshot casual",
       "1990s portrait studio soft focus",
       "1990s photobooth mall strip",
@@ -15939,66 +16994,74 @@ const WORLDS = [
       "early 2000s digital camera party low resolution",
       "2000s photo print kiosk portrait",
       "2000s candid phone photograph first generation",
-      "2010s instagram square portrait early",
-      "1930s documentary press photograph street",
-      "1950s news agency portrait flash",
-      "1960s photojournalism candid street",
-      "1970s documentary portrait natural light",
-      "black and white film portrait studio grain",
-      "sepia toned portrait formal studio",
-      "colour slide transparency 1960s portrait",
-      "instant Polaroid border white portrait",
-      "35mm film grain portrait casual snapshot",
-      "medium format portrait studio sharp",
-      "large format studio portrait 1940s sharp",
-      "cyanotype portrait early experimental"
+      "2010s instagram square portrait early"
     ],
     "poses": [
-      "both formally posed upright Victorian studio hands in lap",
-      "both seated formal Edwardian portrait symmetrical",
-      "one standing one seated Victorian height formal",
-      "both looking directly at camera 1940s studio serious",
-      "both in profile facing each other Victorian",
-      "both caught laughing 1970s snapshot candid",
-      "both looking away from camera 1960s candid",
-      "one arm around other 1950s casual snapshot",
-      "both mid-conversation 1960s documentary candid",
-      "both looking at same thing off frame 1970s",
-      "formal portrait both upright dignified Victorian",
-      "both seated close 1930s intimate studio",
-      "one behind other hands on shoulders Victorian formal",
-      "both relaxed 1970s Polaroid moment candid",
-      "both looking at camera slight smile 1950s",
-      "one holding other hand visible 1940s formal",
-      "both in photobooth strip sequence four poses",
-      "both caught unaware 1960s documentary",
-      "both formal and stiff early daguerreotype long exposure",
-      "both slightly blurred early long exposure daguerreotype"
+      "both rigidly still, hands folded in laps, staring ahead",
+      "one seated, the other standing with a hand on the chair back",
+      "both slightly blurred, unable to hold still for the long exposure",
+      "both formally posed, one seated, one standing behind",
+      "both in profile, facing each other with solemn faces",
+      "one holding a parasol, the other's hand resting on a column",
+      "both glamorous and aloof, chins tilted to the light",
+      "both seated close, intimate and poised",
+      "one resting a chin on the other's shoulder, eyes to camera",
+      "both serious, looking straight into the lens",
+      "one holding the other's hand, composed and formal",
+      "both standing close, a quiet goodbye in their eyes",
+      "both smiling brightly at the camera, close together",
+      "one's arm around the other, casual and cheerful",
+      "both seated, hands neatly folded, grinning",
+      "both laughing, looking away from the camera",
+      "both mid-conversation, unaware of the lens",
+      "both caught off guard, mid-sentence",
+      "both relaxed, laughing at something off-frame",
+      "both leaning on each other, easy and unposed",
+      "both squinting into the sun, arms around each other",
+      "both striking a confident pose, shoulders squared",
+      "both laughing mid-party, flash-lit and red-eyed",
+      "both posed stiffly, looking proud",
+      "both pulling faces at the camera, flash-lit",
+      "both slouched together, casual and deadpan",
+      "both squeezed into the frame, laughing",
+      "both leaning in for a selfie, arms outstretched",
+      "both captured mid-laugh, a little blurred",
+      "both posing with peace signs, grainy and low-resolution"
     ],
     "looks": [
-      "Victorian formal dress and frock coat period accurate",
-      "Edwardian morning dress and blouse formal",
-      "1920s flapper dress and dinner suit",
-      "1930s bias cut dress and lounge suit",
-      "1940s wartime utility dress and uniform",
-      "1940s Sunday best church clothes formal",
-      "1950s full skirt dress and sport coat Kodachrome",
-      "1950s casual suburban everyday clothes snapshot",
-      "1960s mod dress and slim suit period",
-      "1960s casual everyday snapshot clothes",
-      "1970s wide lapel suit and maxi dress",
-      "1970s casual everyday Polaroid clothes",
-      "1980s power shoulder dress and suit formal",
-      "1980s casual everyday snapshot party",
-      "1990s grunge casual everyday snapshot",
-      "1990s formal portrait smart casual",
-      "2000s casual early digital everyday",
-      "timeless simple clothes no era marker neutral",
-      "period formal best clothes Sunday occasion",
-      "working clothes everyday period candid"
+      "high-collared black dress and dark frock coat each",
+      "heavy wool coat and bonnet each",
+      "stiff white collar and buttoned waistcoat each",
+      "lace blouse and long skirt with a dark jacket each",
+      "striped blazer and boater hat each",
+      "white summer dress and linen suit each",
+      "beaded flapper dress and dinner suit each",
+      "bias-cut satin gown and slim tuxedo each",
+      "sleek finger waves and pinstripe suit each",
+      "utility dress and military uniform each",
+      "Sunday best coat and hat each",
+      "tailored suit and victory-roll hair each",
+      "full-skirted dress and sport coat each",
+      "polka dot blouse and cuffed trousers each",
+      "cardigan and pleated skirt each",
+      "mod mini dress and slim suit each",
+      "shift dress and cardigan each",
+      "polo neck and tailored trousers each",
+      "wide-lapel suit and maxi dress each",
+      "flared jeans and patterned shirt each",
+      "knitted tank top and corduroy trousers each",
+      "power-shoulder dress and double-breasted suit each",
+      "neon sweatshirt and acid-wash jeans each",
+      "permed hair and pastel suit each",
+      "slip dress and flannel shirt each",
+      "baggy jeans and baby tee each",
+      "chunky trainers and tracksuit each",
+      "low-rise jeans and fitted tee each",
+      "hoodie and skinny jeans each",
+      "casual everyday clothes each"
     ],
     "promptPrefix": "Authentic period portrait photograph, historically accurate to the era and photographic technology depicted — ",
-    "promptSuffix": "The image must look like a genuine photograph from its era: period-accurate photographic format, lighting technology, costume and aesthetic throughout. The image should feel like it was genuinely taken then.",
+    "promptSuffix": "Period-accurate photographic format, lighting, costume and aesthetic throughout, as if genuinely taken then.",
     "variantDirectives": [
       "Wide period frame, the sitters small within the studio or street: ",
       "Full-length period frame, posture and gesture carry the feeling: ",
@@ -17901,44 +18964,44 @@ const ERAS=[
   {label:'Now',tone:'contemporary',hint:'oversized technical wear'}
 ];
 
-const CONNECTORS={septiembre16:['in', 'amid', 'at'],christmas:['in', 'amid', 'at'],mothersday:['in', 'amid', 'at'],newyearseve:['in', 'amid', 'at'],chinesenewyear:['in', 'amid', 'at'],wedding:['in', 'amid', 'at'],cctv:['in', 'at'],
+const CONNECTORS={diwali:['in', 'amid', 'at'],diadelosmuertos:['in', 'amid', 'at'],halloween:['in', 'amid', 'at'],thanksgiving:['in', 'amid', 'at'],fourthofjuly:['in', 'amid', 'at'],valentines:['in', 'amid', 'at'],carnival:['in', 'amid', 'at'],archive:['in', 'amid', 'at'],bmovie:['in', 'amid', 'at'],studio:['in', 'amid', 'at'],protest:['in', 'amid', 'at'],runway:['in', 'amid', 'at'],jungle:['in', 'amid', 'at'],septiembre16:['in', 'amid', 'at'],christmas:['in', 'amid', 'at'],mothersday:['in', 'amid', 'at'],newyearseve:['in', 'amid', 'at'],chinesenewyear:['in', 'amid', 'at'],wedding:['in', 'amid', 'at'],cctv:['in', 'at'],
   fight:['locked in','caught between','pressed into','burning through','held at'],
-  road:['chasing','burning through','defined by','racing through','cutting across'],
-  water:['suspended in','pulled between','surrendered to','drifting through','submerged in'],
+  road:['in', 'amid', 'at'],
+  water:['in', 'amid', 'at'],
   city:['in', 'amid', 'at'],
-  mountain:['exposed to','measured against','dwarfed by','set against','standing above'],
-  night:['buried in','found inside','lit by','hidden within','burning through'],
+  mountain:['in', 'amid', 'at'],
+  night:['in', 'amid', 'at'],
   rain:['in', 'amid', 'at'],
   dust:['lost in','dissolving into','surviving in','swallowed by','bleached by'],
   gold:['in', 'amid', 'at'],
-  cold:['buried in','burning through','exposed to','frozen inside','cut by'],
+  cold:['in', 'amid', 'at'],
   concrete:['dwarfed by','pressed into','cut from','locked inside','set against'],
   iron:['shaped by','pressed against','built inside','forged in','heavy with'],
   glass:['doubled in','divided by','dissolved into','reflected across','caught in'],
-  wild:['released into','stripped to','running through','swallowed by','lost in'],
+  wild:['in', 'amid', 'at'],
   court:['in', 'amid', 'at'],
-  stage:['performing in','collapsing into','lit by','exposed inside','framed by'],
-  romance:['drawn toward','held inside','falling through','suspended in','reaching across'],
-  music:['carried by','lost inside','vibrating through','suspended in','found in'],
-  history:['standing inside','framed by','measured against','buried in','marked by'],
-  mystery:['hunted through','hidden inside','dissolving into','caught in','watching from'],
+  stage:['in', 'amid', 'at'],
+  romance:['in', 'amid', 'at'],
+  music:['in', 'amid', 'at'],
+  history:['in', 'amid', 'at'],
+  mystery:['in', 'amid', 'at'],
   spring:['blooming through','released into','waking inside','softened by','opening toward'],
   hero:['in', 'amid', 'at'],
   space:['in', 'inside', 'amid'],
   travel:['arriving into','wandering through','lost inside','defined by','crossing'],
   art:['in','set in','within','against'],
-  mexico:['rooted in','alive inside','burning through','suspended in','framed by'],
-  usa:['caught between','defined by','burning through','held inside','pressed against'],
-  canada:['exposed to','held inside','lost in','measured against','released into'],
+  mexico:['in', 'amid', 'at'],
+  usa:['in', 'amid', 'at'],
+  canada:['in', 'amid', 'at'],
   caribbean:['in', 'amid', 'at']
 ,
-  desert:['adrift in','crossing','lost in','under','carved from'],
-  surreal:['suspended in','within','dissolving into','becoming','reflected as'],
+  desert:['in', 'amid', 'at'],
+  surreal:['in', 'amid', 'at'],
   summer:['under','basking in','along','amid','caught in'],
   autumn:['through','beneath','along','amid','into'],
   winter:['in','against','beside','sheltered by','surrounded by'],
   absurd:['inexplicably in','despite','somehow amid','oblivious to','attempting'],
-  underworld:['descending into','passing through','at the edge of','within','before'],
+  underworld:['in', 'amid', 'at'],
   storm:['in', 'amid', 'at'],
   underground:['in','amid','within','deep in','part of'],
   expedition:['in', 'amid', 'within'],
@@ -18309,61 +19372,39 @@ const SOLO_POSES = ["standing tall arms at sides", "looking off into distance", 
 const GROUP_POSES = ["group huddled close all looking camera", "laughing together one joke", "walking abreast toward camera", "back to back to back three-wide", "one in front arms wide others behind", "group arms around each other", "all looking in different directions", "one elevated others below", "group running toward camera", "seated circle all facing in", "layered depth one close one far", "group jump mid-air", "one speaking others listening", "hands in middle team stack", "group silhouette against light", "scattered through space candid", "all pointing same direction", "group celebration arms raised", "intimate cluster all close", "one leading others following", "group seated steps descending", "back row standing front row seated", "all mid-laugh candid", "group embrace wrap around", "fanning out from center", "group toast raised together", "walking away as group", "scattered park bench cluster", "group kneeling one standing center", "all looking up together"];
 
 const TENSION_TRANSLATIONS = {
-  "French vs. English": "French pressing against English",
   "above vs. below": "above pressing against below",
   "abstract vs. realistic": "the tension between abstract and realistic",
   "act vs. consequence": "the act and the consequence arriving together",
-  "after vs. before": "the tension between after and before",
   "aggression vs. calm": "aggression pressing against calm",
-  "alive vs. still": "alive and still in the same frame",
   "alone vs. surrounded": "alone held at the edge of surrounded",
   "alone vs. together": "alone pressing against together",
   "alone vs. together at stove": "solitude at the stove broken by company",
-  "alone vs. watched": "alone held at the edge of watched",
   "altar vs. exit": "the altar behind them, the exit ahead",
-  "altitude vs. body": "altitude and body in the same frame",
-  "analog vs. digital": "analog held at the edge of digital",
-  "ancestor vs. heir": "the tension between ancestor and heir",
   "ancient vs. alive": "ancient beyond measure and completely alive",
-  "ancient vs. colonial": "the tension between ancient and colonial",
   "ancient vs. now": "ancient pressing against now",
   "anger vs. hope": "anger and hope occupying the same body",
   "animal vs. landscape": "animal and landscape in the same frame",
   "applause vs. silence": "applause cracking under the weight of silence",
-  "archive vs. memory": "archive pressing against memory",
   "arrested vs. free": "the arrested and the free facing each other",
   "arriving vs. leaving": "arriving pressing against leaving",
   "artifact vs. void": "artifact pressing against void",
-  "artisan vs. factory": "artisan pressing against factory",
   "artist vs. craft": "artist cracking under the weight of craft",
-  "ascent vs. fall": "ascent cracking under the weight of fall",
-  "asphalt vs. sky": "asphalt cracking under the weight of sky",
   "attack vs. defense": "attack pressing against defense",
-  "awake vs. asleep": "the tension between awake and asleep",
   "awakening vs. asleep": "the tension between awakening and asleep",
   "backup vs. alone": "the tension between backup and alone",
-  "battlefield vs. peace": "battlefield and peace in the same frame",
-  "beat vs. breath": "beat held at the edge of breath",
   "beauty vs. bizarre": "beauty pushed one degree past into the bizarre",
   "beginning vs. end": "beginning held at the edge of end",
   "beginning vs. everything before": "the beginning pressing against everything that came before",
   "beginning vs. settled": "beginning pressing against settled",
   "bleached vs. vivid": "bleached held at the edge of vivid",
   "bloom vs. bud": "bloom held at the edge of bud",
-  "body heat vs. cold air": "body heat cracking under the weight of cold air",
-  "body vs. elements": "body pressing against elements",
   "body vs. mass": "body pressing against mass",
   "body vs. mechanism": "body cracking under the weight of mechanism",
   "body vs. silhouette": "the body against the silhouette it makes",
   "bold stroke vs. fine detail": "bold stroke held at the edge of fine detail",
-  "border vs. homeland": "border held at the edge of homeland",
   "bought vs. felt": "bought pressing against felt",
   "bouquet vs. bare hands": "bouquet set down, hands finally bare and held",
-  "brand vs. person": "the brand name pressing against the person wearing it",
   "breaking vs. holding": "breaking and holding in the same frame",
-  "breath vs. drowning": "breath pressing against drowning",
-  "breath vs. held breath": "breath and held breath in the same frame",
-  "breath vs. stillness": "breath held at the edge of stillness",
   "breath vs. weight": "the tension between breath and weight",
   "breathe vs. sweat": "breathing through the sweat",
   "brief vs. eternal": "brief as a dusk can be, feeling eternal",
@@ -18372,20 +19413,14 @@ const TENSION_TRANSLATIONS = {
   "budget vs. luxury": "the tension between budget and luxury",
   "built vs. broken": "built pressing against broken",
   "built vs. felt": "the tension between built and felt",
-  "built vs. grown": "built and grown in the same frame",
   "buried vs. exposed": "buried beneath the surface or left exposed to everything",
   "burned vs. gentle": "burned golden or gone gently into blue",
-  "burning inside vs. frozen out": "burning inside and frozen out in the same frame",
   "burning vs. freezing": "burning held at the edge of freezing",
-  "calm vs. dread": "calm held at the edge of dread",
-  "calm vs. undertow": "calm cracking under the weight of undertow",
   "camera vs. mirror": "performing for the camera or only for the mirror",
   "canopy vs. floor": "canopy light filtering down to the floor",
   "caricature vs. portrait": "caricature and portrait in the same frame",
   "carnival vs. everyday": "carnival and everyday in the same frame",
-  "carnival vs. quiet": "carnival and quiet in the same frame",
   "celebrated vs. alone": "celebrated pressing against alone",
-  "celebration vs. mourning": "celebration pressing against mourning",
   "center vs. edge": "center and edge in the same frame",
   "ceremony vs. marriage": "the ceremony over, the marriage just beginning",
   "champion vs. challenger": "the tension between champion and challenger",
@@ -18393,7 +19428,6 @@ const TENSION_TRANSLATIONS = {
   "chaos vs. mise en place": "chaos pressing against perfect order",
   "character vs. likeness": "the tension between character and likeness",
   "character vs. self": "character cracking under the weight of self",
-  "chasing vs. fleeing": "chasing and fleeing in the same frame",
   "choreographed vs. felt": "every planned moment giving way to what is actually felt",
   "choreographed vs. instinct": "choreographed cracking under the weight of instinct",
   "chosen vs. caught": "chosen and caught in the same frame",
@@ -18405,25 +19439,15 @@ const TENSION_TRANSLATIONS = {
   "clear vs. obscured": "clear and obscured in the same frame",
   "close vs. apart": "the tension between close and apart",
   "clothes vs. body": "clothes as architecture for the body beneath",
-  "clue vs. dead end": "clue and dead end in the same frame",
-  "coast vs. heartland": "coast and heartland in the same frame",
-  "coast vs. highlands": "coast held at the edge of highlands",
   "coast vs. prairie": "coast cracking under the weight of prairie",
-  "cold vs. alive": "cold cracking under the weight of alive",
-  "cold vs. warmth": "cold held at the edge of warmth",
   "collection vs. single look": "the collection distilled into one single look",
-  "college town vs. working town": "college town and working town in the same frame",
-  "colonial vs. indigenous": "colonial cracking under the weight of indigenous",
   "color vs. grey": "color cracking under the weight of grey",
   "color vs. monochrome": "vivid color draining slowly into monochrome",
   "comfort vs. adventure": "comfort held at the edge of adventure",
   "comic vs. serious": "comic pressing against serious",
   "compete vs. cooperate": "compete cracking under the weight of cooperate",
-  "conqueror vs. conquered": "the tension between conqueror and conquered",
   "contact vs. distance": "the tension between contact and distance",
   "control vs. abandon": "control held at the edge of abandon",
-  "control vs. current": "the tension between control and current",
-  "controlled vs. abandoned": "the tension between controlled and abandoned",
   "cool vs. desperate": "cool and desperate in the same frame",
   "coral vs. concrete": "coral and concrete in the same frame",
   "countdown vs. abort": "countdown held at the edge of abort",
@@ -18431,14 +19455,9 @@ const TENSION_TRANSLATIONS = {
   "craft vs. production": "craft held at the edge of production",
   "creature vs. stillness": "the creature requiring absolute stillness",
   "crew vs. alone": "the tension between crew and alone",
-  "crowd vs. empty room": "crowd pressing against empty room",
   "crowded vs. alone": "crowded held at the edge of alone",
-  "crown vs. crowd": "crown pressing against crowd",
-  "cultivated vs. wild": "cultivated held at the edge of wild",
   "culture vs. cliche": "culture cracking under the weight of cliche",
-  "danger vs. safety": "danger held at the edge of safety",
   "dawn vs. midday heat": "dawn coolness burning away to midday heat",
-  "day of the dead vs. life": "day of the dead held at the edge of life",
   "day vs. night": "the day releasing into night",
   "demand vs. plea": "the demand that refuses to become a plea",
   "designer vs. street": "designer language spoken back in street terms",
@@ -18446,41 +19465,23 @@ const TENSION_TRANSLATIONS = {
   "desire vs. restraint": "desire cracking under the weight of restraint",
   "destination vs. journey": "destination and journey in the same frame",
   "diaspora vs. home island": "diaspora cracking under the weight of home island",
-  "diner vs. fine dining": "diner held at the edge of fine dining",
   "discovery vs. dread": "discovery cracking under the weight of dread",
-  "distance vs. closeness": "distance and closeness in the same frame",
   "domination vs. surrender": "domination held at the edge of surrender",
-  "door vs. threshold": "door cracking under the weight of threshold",
   "doubled vs. alone": "doubled held at the edge of alone",
-  "dream vs. reality": "dream and reality in the same frame",
   "dressed vs. undone": "dressed to a point then deliberately undone",
-  "drift vs. purpose": "drift pressing against purpose",
   "dry memory vs. wet reality": "dry memory and wet reality in the same frame",
   "dry vs. memory of water": "dry pressing against memory of water",
-  "dry vs. soaked": "dry pressing against soaked",
   "dust vs. bone": "dust cracking under the weight of bone",
-  "earned vs. given": "earned and given in the same frame",
   "earned vs. inherited": "earned cracking under the weight of inherited",
   "earned vs. taken": "earned held at the edge of taken",
-  "east coast vs. west coast": "east coast cracking under the weight of west coast",
-  "echo vs. origin": "echo cracking under the weight of origin",
   "editorial vs. commercial": "editorial vision against commercial demand",
   "editorial vs. gallery": "the tension between editorial and gallery",
   "effort vs. effortless": "effort and effortless in the same frame",
   "ego vs. survival": "the tension between ego and survival",
-  "empire vs. dust": "empire pressing against dust",
   "end vs. beginning": "the end of the pier and the beginning of the water",
-  "ending vs. encore": "the tension between ending and encore",
-  "ending vs. unresolved": "the tension between ending and unresolved",
   "endurance vs. collapse": "endurance pressing against collapse",
-  "endurance vs. surrender": "endurance cracking under the weight of surrender",
-  "energy vs. exhaustion": "energy cracking under the weight of exhaustion",
-  "engine vs. silence": "engine and silence in the same frame",
   "enter vs. return": "entering and the long question of returning",
-  "era vs. eternity": "era cracking under the weight of eternity",
   "eroded vs. standing": "eroded held at the edge of standing",
-  "escape vs. return": "escape held at the edge of return",
-  "escape vs. trapped": "escape held at the edge of trapped",
   "everyday vs. magic": "everyday and magic in the same frame",
   "exaggerated vs. restrained": "exaggerated cracking under the weight of restrained",
   "excess vs. restraint": "excess pressing against restraint",
@@ -18488,63 +19489,41 @@ const TENSION_TRANSLATIONS = {
   "exhaustion vs. will": "exhaustion cracking under the weight of will",
   "expected vs. chosen": "what was expected set aside for what was chosen",
   "explosion vs. calm": "explosion cracking under the weight of calm",
-  "exposure vs. shelter": "exposure pressing against shelter",
   "face up vs. face down": "face up and face down in the same frame",
-  "face vs. mask": "the tension between face and mask",
   "fall vs. catch": "the tension between fall and catch",
   "familiar vs. foreign": "the tension between familiar and foreign",
-  "familiar vs. unknown": "familiar pressing against unknown",
   "family vs. couple": "the couple held inside the larger pull of family",
-  "family vs. solitude": "family pressing against solitude",
   "far vs. near": "the tension between far and near",
-  "fast vs. forgotten": "fast held at the edge of forgotten",
-  "fast vs. slow America": "fast pressing against slow America",
   "fast vs. slow cook": "fast heat against long patience",
   "fast vs. slow travel": "the tension between fast and slow travel",
   "fast vs. stranded": "fast and stranded in the same frame",
   "fear vs. conviction": "fear and conviction arriving at the same moment",
   "fear vs. readiness": "fear pressing against readiness",
-  "fed vs. hungry": "fed pressing against hungry",
   "feeding vs. fed": "the act of feeding and the grace of being fed",
   "festival vs. weekday": "festival pressing against weekday",
-  "fiesta vs. everyday": "fiesta pressing against everyday",
   "fire vs. dark": "the fire of it before the dark takes over",
-  "fire vs. white": "fire pressing against white",
   "first contact vs. solitude": "first contact cracking under the weight of solitude",
   "first dance vs. last song": "the first dance already edging toward the last song",
   "first vs. familiar": "first cracking under the weight of familiar",
   "first vs. forever": "first cracking under the weight of forever",
   "fishing vs. feasting": "the tension between fishing and feasting",
-  "flag vs. frontier": "flag and frontier in the same frame",
   "flat color vs. depth": "the tension between flat color and depth",
   "flesh vs. steel": "flesh cracking under the weight of steel",
-  "float vs. sink": "float pressing against sink",
-  "fluid vs. rigid": "fluid cracking under the weight of rigid",
-  "footstep vs. silence": "footstep pressing against silence",
   "formal vs. tender": "formal occasion cracked open by tenderness",
-  "forward vs. nowhere": "the tension between forward and nowhere",
   "forward vs. stopped": "the tension between forward and stopped",
   "found vs. consumed": "found inside something vast enough to consume",
   "found vs. lost": "found in the world and lost in it at the same time",
-  "found vs. lost in white": "the tension between found and lost in white",
-  "fragile vs. permanent": "the tension between fragile and permanent",
   "fragrant vs. plain": "fragrant cracking under the weight of plain",
   "framed vs. free": "the tension between framed and free",
   "free vs. surrounded": "free cracking under the weight of surrounded",
-  "freedom vs. constraint": "freedom pressing against constraint",
-  "freedom vs. direction": "the tension between freedom and direction",
   "fresh vs. leftover": "the fresh against what remains",
   "fresh vs. worn": "fresh and worn in the same frame",
   "front line vs. witness": "standing at the front line or bearing witness from behind",
   "front row vs. backstage": "the front row watching what backstage already knows",
-  "fuel vs. fumes": "fuel held at the edge of fumes",
   "fury vs. control": "fury and control in the same frame",
-  "gear vs. skin": "the tension between gear and skin",
   "geometry vs. organic": "the tension between geometry and organic",
   "gilded vs. cracked": "gilded and cracked in the same frame",
-  "glacier vs. moment": "glacier and moment in the same frame",
   "glamour vs. grief": "glamour and grief in the same frame",
-  "glass vs. churn": "glass pressing against churn",
   "glass vs. flesh": "glass cracking under the weight of flesh",
   "glass vs. torrent": "glass pressing against torrent",
   "glittering vs. empty": "glittering and empty in the same frame",
@@ -18552,7 +19531,6 @@ const TENSION_TRANSLATIONS = {
   "glory vs. defeat": "glory and defeat in the same frame",
   "gold vs. rust underneath": "gold held at the edge of rust underneath",
   "golden vs. grey": "the golden hour giving way to grey",
-  "granite vs. human": "granite held at the edge of human",
   "graphic novel vs. fine art": "graphic novel held at the edge of fine art",
   "gravity vs. weightless": "gravity and weightless in the same frame",
   "green vs. grey": "green and grey in the same frame",
@@ -18565,38 +19543,24 @@ const TENSION_TRANSLATIONS = {
   "hard vs. soft": "the tension between hard and soft",
   "haute couture vs. ready-to-wear": "the couture ideal against ready-to-wear reality",
   "having vs. losing": "the tension between having and losing",
-  "heard vs. felt": "heard pressing against felt",
-  "heartbeat vs. blizzard": "the tension between heartbeat and blizzard",
   "heat vs. body": "the tension between heat and body",
   "heat vs. cold metal": "heat cracking under the weight of cold metal",
   "heat vs. patience": "heat demanding patience",
   "held vs. free": "held held at the edge of free",
   "held vs. letting go": "held close before the letting go",
-  "held vs. numb": "held pressing against numb",
-  "held vs. swept": "held pressing against swept",
-  "hidden vs. exposed": "hidden pressing against exposed",
   "high fashion vs. wearable": "high fashion translated into something almost wearable",
-  "high vs. low": "high pressing against low",
-  "highway vs. main street": "highway and main street in the same frame",
   "history vs. paradise": "history and paradise in the same frame",
   "hockey rink vs. art gallery": "hockey rink held at the edge of art gallery",
   "hockey vs. everything else": "hockey cracking under the weight of everything else",
-  "home vs. nowhere": "home pressing against nowhere",
   "home vs. restaurant": "home kitchen warmth against the precision of the restaurant",
   "horizon vs. overhead": "the horizon burning while overhead goes dark",
-  "horizon vs. past": "the tension between horizon and past",
   "human mark vs. concrete blank": "human mark cracking under the weight of concrete blank",
   "human vs. cosmos": "the tension between human and cosmos",
   "human vs. machine": "human held at the edge of machine",
-  "human vs. nature": "human cracking under the weight of nature",
   "human vs. structure": "human cracking under the weight of structure",
   "hunger vs. fullness": "hunger and the memory of fullness",
-  "hunted vs. hunting": "hunted cracking under the weight of hunting",
-  "hunting vs. hunted": "hunting cracking under the weight of hunted",
-  "ice vs. skin": "the tension between ice and skin",
   "iconic vs. hidden": "the tension between iconic and hidden",
   "illustration vs. photograph": "illustration pressing against photograph",
-  "immigrant dream vs. local tradition": "immigrant dream and local tradition in the same frame",
   "immigrant wave vs. old stock": "immigrant wave and old stock in the same frame",
   "impressionist vs. exact": "impressionist and exact in the same frame",
   "in vs. out": "in held at the edge of out",
@@ -18606,19 +19570,14 @@ const TENSION_TRANSLATIONS = {
   "individual vs. mass": "individual and mass in the same frame",
   "individual vs. system": "individual cracking under the weight of system",
   "individual vs. team": "individual and team in the same frame",
-  "inscription vs. erasure": "inscription held at the edge of erasure",
   "inside vs. outside": "inside and outside folded into the same space",
-  "instinct vs. reason": "instinct pressing against reason",
   "instinct vs. strategy": "instinct held at the edge of strategy",
-  "instrument vs. voice": "the tension between instrument and voice",
   "interior vs. exterior": "interior cracking under the weight of exterior",
   "invited vs. intruding": "invited held at the edge of intruding",
   "island time vs. mainland pace": "island time cracking under the weight of mainland pace",
   "jet lag vs. wonder": "jet lag held at the edge of wonder",
-  "journey vs. destination": "the tension between journey and destination",
   "joy vs. grief": "joy and grief arriving in the same breath",
   "knife vs. flame": "blade and flame as the two instruments",
-  "known vs. hidden": "known and hidden in the same frame",
   "known vs. uncharted": "the known path giving way to uncharted ground",
   "known vs. unknown": "the known world at the edge of the completely unknown",
   "known vs. unmapped": "known cracking under the weight of unmapped",
@@ -18627,51 +19586,37 @@ const TENSION_TRANSLATIONS = {
   "language barrier vs. connection": "language barrier pressing against connection",
   "last light vs. first dark": "the last light holding against the first dark",
   "last stand vs. new beginning": "last stand and new beginning in the same frame",
-  "late vs. early": "late cracking under the weight of early",
   "launch vs. landing": "launch cracking under the weight of landing",
-  "leaving vs. arriving": "leaving cracking under the weight of arriving",
   "light speed vs. still": "light speed held at the edge of still",
-  "light vs. dark": "light and dark in the same frame",
   "light vs. density": "light and density in the same frame",
   "light vs. heavy": "light held at the edge of heavy",
   "light vs. lingering chill": "light pressing against lingering chill",
-  "light vs. shadow": "light pressing against shadow",
   "light vs. undergrowth": "light failing at the edge of undergrowth",
-  "light vs. whiteout": "the tension between light and whiteout",
   "line vs. color": "the tension between line and color",
   "linger vs. go": "the choice to linger or go when the light says go",
   "lit vs. shadow": "still lit on one side, shadow on the other",
   "lived vs. monumental": "lived cracking under the weight of monumental",
-  "loaded vs. free": "loaded pressing against free",
-  "local vs. tourist": "local and tourist in the same frame",
   "log cabin vs. condo": "log cabin and condo in the same frame",
   "longing vs. arrived": "longing and arrived in the same frame",
   "lost vs. found": "lost in the vast and then suddenly completely found",
-  "loud vs. intimate": "loud cracking under the weight of intimate",
   "loud vs. silent jungle": "the jungle deafening then suddenly completely silent",
   "loyalty vs. mission": "loyalty cracking under the weight of mission",
   "luxury vs. accessible": "luxury pressed against what is actually accessible",
-  "lyrics vs. wordless": "lyrics and wordless in the same frame",
   "made vs. natural": "made and natural in the same frame",
   "made vs. unmade": "the tension between made and unmade",
-  "major vs. minor": "the tension between major and minor",
   "mangrove vs. marina": "mangrove held at the edge of marina",
   "map vs. lost": "map pressing against lost",
   "map vs. moss": "the map irrelevant against the moss",
-  "map vs. terrain": "map pressing against terrain",
   "maple syrup vs. Tim Hortons": "maple syrup pressing against Tim Hortons",
   "maple vs. concrete": "the tension between maple and concrete",
   "marching vs. standing still": "marching forward or standing still as the act",
-  "market vs. mall": "market cracking under the weight of mall",
   "market vs. pantry": "the abundance of the market against the quiet of the pantry",
   "mask vs. face": "the tension between mask and face",
   "match point vs. nowhere": "match point cracking under the weight of nowhere",
   "media vs. moment": "the media presence against the unmediated moment",
   "melt vs. freeze": "the tension between melt and freeze",
   "memory vs. forgetting": "memory and the river that takes it",
-  "memory vs. melody": "memory held at the edge of melody",
   "mess vs. clean counter": "the mess earned against the clean counter imagined",
-  "migrant vs. rooted": "migrant held at the edge of rooted",
   "mirage vs. real": "mirage and real in the same frame",
   "mission vs. survival": "mission pressing against survival",
   "model vs. character": "the model dissolving into the character",
@@ -18680,44 +19625,24 @@ const TENSION_TRANSLATIONS = {
   "monochrome vs. vivid": "monochrome cracking under the weight of vivid",
   "morning vs. midday": "morning cracking under the weight of midday",
   "morning vs. midnight": "the morning kitchen against the midnight one",
-  "motion vs. ice": "motion and ice in the same frame",
   "motion vs. pose": "motion caught and held as pose",
-  "motion vs. stillness": "motion pressing against stillness",
   "mountain vs. flatland": "mountain and flatland in the same frame",
-  "movement vs. state": "the movement pressing against the state",
   "moving vs. drenched": "moving and drenched in the same frame",
-  "moving vs. hypothermic": "moving held at the edge of hypothermic",
-  "moving vs. paralyzed": "moving held at the edge of paralyzed",
-  "moving vs. rooted": "moving pressing against rooted",
   "moving vs. stopped": "the tension between moving and stopped",
   "moving vs. watched": "moving and watched in the same frame",
-  "mural vs. canvas": "the tension between mural and canvas",
-  "myth vs. record": "the tension between myth and record",
-  "national park vs. strip mall": "national park held at the edge of strip mall",
   "national park vs. suburb": "the tension between national park and suburb",
   "near vs. far": "near pressing against far",
   "near vs. far from home": "near held at the edge of far from home",
-  "neon vs. nature": "neon and nature in the same frame",
-  "neon-free dark vs. lit": "neon-free dark and lit in the same frame",
   "nervous vs. sure": "the tension between nervous and sure",
   "new vs. known": "new pressing against known",
   "new vs. returning": "new pressing against returning",
-  "night shift vs. day world": "the tension between night shift and day world",
-  "noise vs. quiet hour": "the tension between noise and quiet hour",
-  "noise vs. silence": "the tension between noise and silence",
-  "north vs. south": "the tension between north and south",
-  "note vs. noise": "note cracking under the weight of noise",
   "nourish vs. indulge": "nourishment pressed against pure indulgence",
   "now vs. after": "suspended between now and what comes after",
-  "ocean vs. desert": "ocean held at the edge of desert",
   "offense vs. defense": "offense held at the edge of defense",
-  "old money vs. new hustle": "old money pressing against new hustle",
-  "old vs. new": "old held at the edge of new",
   "old vs. replaced": "old held at the edge of replaced",
   "one shot vs. army": "one shot cracking under the weight of army",
   "open sky vs. no shelter": "open sky pressing against no shelter",
   "open vs. caged": "open cracking under the weight of caged",
-  "open vs. closed": "open and closed in the same frame",
   "open vs. closed petal": "open and closed petal in the same frame",
   "open vs. enclosed": "open pressing against enclosed",
   "orbit vs. freefall": "orbit and freefall in the same frame",
@@ -18728,15 +19653,11 @@ const TENSION_TRANSLATIONS = {
   "outnumbered vs. fearless": "the tension between outnumbered and fearless",
   "outside vs. inside": "the tension between outside and inside",
   "owned vs. borrowed": "owned cracking under the weight of borrowed",
-  "oxygen vs. pressure": "the tension between oxygen and pressure",
   "oxygen vs. void": "oxygen pressing against void",
-  "pace vs. fatigue": "pace cracking under the weight of fatigue",
   "pain vs. focus": "pain held at the edge of focus",
   "painted vs. drawn": "painted held at the edge of drawn",
   "parched vs. sustained": "parched pressing against sustained",
-  "partner vs. self": "partner and self in the same frame",
   "passport stamp vs. roots": "passport stamp held at the edge of roots",
-  "past vs. present": "past held at the edge of present",
   "peaceful vs. tense": "peaceful intention pressed against a tense moment",
   "peak vs. fatigue": "peak and fatigue in the same frame",
   "perfect vs. error": "the tension between perfect and error",
@@ -18749,11 +19670,9 @@ const TENSION_TRANSLATIONS = {
   "polite vs. passionate": "polite cracking under the weight of passionate",
   "pollen vs. clarity": "pollen pressing against clarity",
   "pop art vs. classical": "the tension between pop art and classical",
-  "porch vs. penthouse": "the tension between porch and penthouse",
   "poutine vs. fine dining": "poutine cracking under the weight of fine dining",
   "power vs. fragility": "power that makes everything feel fragile",
   "power vs. performance": "the tension between power and performance",
-  "practiced vs. raw": "practiced cracking under the weight of raw",
   "precise vs. broken": "precise cracking under the weight of broken",
   "precision vs. brute force": "precision and brute force in the same frame",
   "predator vs. predator": "predator pressing against predator",
@@ -18761,7 +19680,6 @@ const TENSION_TRANSLATIONS = {
   "present vs. history": "standing in the present knowing it is becoming history",
   "present vs. memory": "the present moment already becoming memory",
   "present vs. past": "present and past in the same frame",
-  "preserved vs. decayed": "preserved held at the edge of decayed",
   "pressure vs. nerve": "the tension between pressure and nerve",
   "pride vs. exhaustion": "pride held at the edge of exhaustion",
   "private vs. public": "private and public in the same frame",
@@ -18772,80 +19690,55 @@ const TENSION_TRANSLATIONS = {
   "public vs. private": "public pressing against private",
   "public vs. private moment": "a private moment made suddenly, completely public",
   "push vs. hold": "the push of the storm and the holding against it",
-  "push vs. stop": "the tension between push and stop",
   "quiet vs. electric": "quiet pressing against electric",
   "rage vs. precision": "the tension between rage and precision",
   "rain vs. sunshine": "rain and sunshine in the same frame",
   "raw vs. cooked": "raw material transformed by heat and attention",
   "read vs. react": "read held at the edge of react",
-  "real vs. imagined": "real and imagined in the same frame",
   "real vs. reflected": "the tension between real and reflected",
   "recipe vs. instinct": "the recipe abandoned for pure instinct",
-  "record vs. live": "record held at the edge of live",
   "reef vs. resort": "reef cracking under the weight of resort",
-  "reflection vs. self": "reflection held at the edge of self",
   "reggae vs. silence": "reggae held at the edge of silence",
   "rehearsal vs. real": "rehearsal and real in the same frame",
   "rehearsed vs. broken": "the rehearsed moment broken open by something true",
-  "relic vs. ruin": "relic held at the edge of ruin",
-  "remembered vs. forgotten": "the tension between remembered and forgotten",
   "repetition vs. creation": "repetition pressing against creation",
   "return vs. lost": "the tension between return and lost",
-  "revolution vs. order": "revolution held at the edge of order",
-  "rhythm vs. chaos": "rhythm pressing against chaos",
   "rich sea vs. poor land": "the tension between rich sea and poor land",
   "rich vs. costing": "rich pressing against costing",
   "ring vs. finger": "the ring finding its way home to the finger",
-  "risk vs. reward": "the tension between risk and reward",
   "ritual vs. survival": "ritual eating against eating for survival",
   "rival vs. partner": "the tension between rival and partner",
   "river vs. ridge": "the river route against the ridge route",
-  "road trip vs. roots": "road trip held at the edge of roots",
-  "rope vs. void": "rope pressing against void",
-  "ruin vs. monument": "ruin cracking under the weight of monument",
   "ruin vs. root": "ruin reclaimed by root",
   "rum shack vs. five star": "the tension between rum shack and five star",
   "rum vs. water": "rum held at the edge of water",
-  "running from vs. running toward": "running from and running toward in the same frame",
   "running vs. standing": "running and standing in the same frame",
   "rushing vs. stopped": "rushing held at the edge of stopped",
-  "rust belt vs. sun belt": "rust belt pressing against sun belt",
-  "sacred vs. street": "sacred held at the edge of street",
   "sacrifice vs. survival": "sacrifice held at the edge of survival",
-  "safe vs. exposed": "safe held at the edge of exposed",
   "salt air vs. city air": "the tension between salt air and city air",
   "salt vs. sweet": "the pull between salt and sweet",
   "saturated vs. muted palette": "saturated held at the edge of muted palette",
   "saved vs. lost": "the tension between saved and lost",
   "scored vs. conceded": "scored cracking under the weight of conceded",
   "scored vs. free": "scored and free in the same frame",
-  "searching vs. found": "searching held at the edge of found",
   "season vs. off-season": "in season and already moving toward what comes next",
   "season vs. plain": "the seasoned against the plain",
   "seed vs. flower": "seed held at the edge of flower",
   "seen vs. about to disappear": "seen clearly and about to disappear",
-  "seen vs. hidden": "the tension between seen and hidden",
   "seen vs. ignored": "demanding to be seen by those who refuse to look",
   "seen vs. invisible": "seen by the right people and invisible to everyone else",
   "seen vs. shy": "seen cracking under the weight of shy",
-  "seen vs. submerged": "seen pressing against submerged",
   "seen vs. unseen": "seen by the city and unseen by everyone in it",
   "seen vs. witnessed": "not just seen — genuinely witnessed",
   "self vs. image": "self pressing against image",
   "serve vs. return": "serve cracking under the weight of return",
   "shade vs. blaze": "the tension between shade and blaze",
-  "shallow vs. abyss": "the tension between shallow and abyss",
   "sharp vs. dissolved": "sharp pressing against dissolved",
-  "shelter vs. exposure": "shelter pressing against exposure",
   "shift end vs. shift start": "shift end and shift start in the same frame",
-  "shore vs. open sea": "the tension between shore and open sea",
   "shown vs. hidden": "the tension between shown and hidden",
   "shy vs. bold": "shy and bold in the same frame",
-  "siesta vs. hustle": "siesta cracking under the weight of hustle",
   "sign vs. silence": "the sign raised against a silence that refuses to end",
   "signal vs. silence": "signal and silence in the same frame",
-  "silence vs. scream": "silence held at the edge of scream",
-  "silence vs. testimony": "silence cracking under the weight of testimony",
   "simple vs. elaborate": "the simple against the elaborate",
   "singular vs. multiple": "singular and multiple in the same frame",
   "singular vs. repeated": "singular and repeated in the same frame",
@@ -18856,114 +19749,73 @@ const TENSION_TRANSLATIONS = {
   "slow vs. mass": "slow held at the edge of mass",
   "slow vs. urgent": "slow and urgent in the same frame",
   "small town vs. Toronto": "the tension between small town and Toronto",
-  "small town vs. big city": "the tension between small town and big city",
-  "small vs. immense": "small held at the edge of immense",
   "small vs. scale": "small held at the edge of scale",
-  "small vs. vast": "the tension between small and vast",
   "small vs. vast canopy": "human-small under the vast canopy",
   "snowstorm vs. sunshine": "snowstorm held at the edge of sunshine",
   "soaked vs. wringing": "soaked cracking under the weight of wringing",
-  "sober vs. dreaming": "sober pressing against dreaming",
-  "soft vs. brittle": "the tension between soft and brittle",
   "soft vs. hard": "soft held at the edge of hard",
   "soft vs. sharp light": "the soft light that makes everything gentle",
   "soft vs. violent": "soft held at the edge of violent",
-  "solo vs. duet": "solo cracking under the weight of duet",
   "solo wilderness vs. community": "solo wilderness pressing against community",
-  "sound vs. silence": "sound held at the edge of silence",
   "species vs. human": "the species watching the human",
   "spectacle vs. truth": "the tension between spectacle and truth",
   "speed vs. precision": "the tension between speed and precision",
   "speed vs. strength": "speed and strength in the same frame",
-  "speed vs. weight": "speed cracking under the weight of weight",
-  "spice vs. sweet": "spice cracking under the weight of sweet",
   "spoken vs. silent": "spoken held at the edge of silent",
   "spontaneous vs. deliberate": "the tension between spontaneous and deliberate",
-  "sports bar vs. jazz club": "sports bar cracking under the weight of jazz club",
   "spotlight vs. shadow": "spotlight and shadow in the same frame",
-  "stage vs. bedroom": "stage held at the edge of bedroom",
   "staying vs. leaving": "the held moment before staying or leaving",
   "steel drum vs. quiet": "steel drum and quiet in the same frame",
-  "still vs. alive": "the tension between still and alive",
   "still vs. distorted": "still pressing against distorted",
   "still vs. fading": "perfectly still as everything fades",
-  "still vs. fleeing": "still pressing against fleeing",
   "still vs. racing": "still pressing against racing",
-  "still vs. surge": "still cracking under the weight of surge",
   "still vs. swept": "still and swept in the same frame",
-  "stone vs. flesh": "the tension between stone and flesh",
-  "streetlit vs. shadow": "the tension between streetlit and shadow",
   "styled vs. raw": "styled to the edge of raw",
   "submission vs. resistance": "submission cracking under the weight of resistance",
-  "suburb vs. downtown": "suburb cracking under the weight of downtown",
-  "summit fever vs. reason": "summit fever cracking under the weight of reason",
-  "summit vs. abyss": "summit pressing against abyss",
   "sun bleached vs. vivid": "sun bleached and vivid in the same frame",
   "sun vs. hurricane": "sun held at the edge of hurricane",
   "surface vs. beneath": "surface cracking under the weight of beneath",
   "surface vs. depth": "the surface and the depth underneath",
-  "surrender vs. fight": "surrender held at the edge of fight",
   "surrendered vs. fighting": "surrendered cracking under the weight of fighting",
   "symbol vs. person": "the symbol carried by the full weight of the person",
   "system vs. chaos": "system pressing against chaos",
-  "tailgate vs. gallery opening": "tailgate cracking under the weight of gallery opening",
   "tamed vs. feral": "tamed returning to feral at the jungle edge",
   "temple vs. tree": "the temple and the tree in equal contest",
   "temporary vs. permanent": "temporary cracking under the weight of permanent",
   "tender vs. hungry": "the tension between tender and hungry",
   "terraform vs. accept": "terraform held at the edge of accept",
-  "thaw vs. freeze": "thaw and freeze in the same frame",
   "theatrical vs. minimal": "theatrical excess against radical minimalism",
-  "then vs. now": "then pressing against now",
-  "throttle vs. brake": "throttle pressing against brake",
   "through vs. under": "through cracking under the weight of under",
-  "tidal vs. still": "tidal cracking under the weight of still",
-  "timeless vs. dated": "timeless held at the edge of dated",
   "titled vs. undeserving": "titled pressing against undeserving",
   "together vs. alone in cause": "together in the cause, alone in what it costs",
-  "together vs. alone in cold": "the tension between together and alone in cold",
   "together vs. alone in crowd": "together in a room full of people, entirely alone with each other",
   "tourist vs. local": "the tourist version and the local one of the same pier",
   "track vs. trailless": "the track ending where the trailless begins",
   "tradition vs. elopement": "tradition bent toward the private choice to simply go",
-  "tradition vs. modern": "the tension between tradition and modern",
   "tradition vs. tourism": "tradition pressing against tourism",
-  "trail vs. off-trail": "trail held at the edge of off-trail",
   "trained vs. raw": "trained pressing against raw",
   "trained vs. untrained": "trained pressing against untrained",
   "transmission vs. static": "the tension between transmission and static",
   "transparent vs. opaque": "transparent pressing against opaque",
-  "trend vs. timeless": "the trend pressing against what will outlast it",
-  "truth vs. illusion": "truth cracking under the weight of illusion",
   "truth vs. surface": "truth pressing against surface",
   "tundra vs. farmland": "tundra and farmland in the same frame",
-  "tuned vs. broken": "the tension between tuned and broken",
   "unity vs. division": "unity as the only answer to division",
   "unstoppable vs. wounded": "unstoppable cracking under the weight of wounded",
   "up vs. down": "up held at the edge of down",
   "vast vs. small": "the tension between vast and small",
-  "vertical vs. horizontal": "vertical pressing against horizontal",
   "villain vs. hero": "villain pressing against hero",
   "violence vs. grace": "the tension between violence and grace",
-  "visible vs. invisible": "the tension between visible and invisible",
   "voice vs. power": "voice pressed against power",
   "vows vs. doubt": "the weight of a vow spoken over quiet doubt",
   "walked vs. driven": "the tension between walked and driven",
   "walking away vs. looking back": "walking away held at the edge of looking back",
   "waning vs. surge": "the light waning as something else surges",
-  "wanting vs. having": "wanting held at the edge of having",
   "warm vs. cold": "warm pressing against cold",
   "warm vs. cold coming": "warmth still present with cold already on its way",
-  "warm vs. cold night": "warm cracking under the weight of cold night",
-  "warm vs. frozen": "the tension between warm and frozen",
   "warmth vs. cold geometry": "warmth held at the edge of cold geometry",
   "warmth vs. memory of cold": "warmth and memory of cold in the same frame",
-  "watched vs. alone": "watched pressing against alone",
   "watercolor wash vs. oil precision": "watercolor wash cracking under the weight of oil precision",
-  "wave vs. stillness": "wave cracking under the weight of stillness",
   "wealth vs. hunger": "wealth and hunger in the same frame",
-  "weather vs. will": "the tension between weather and will",
-  "weight vs. lift": "the tension between weight and lift",
   "wet vs. dry": "soaked through in a place that is never dry",
   "white vs. real": "white dress against the full weight of what is real",
   "whole vs. shattered": "whole and shattered in the same frame",
@@ -18973,8 +19825,6 @@ const TENSION_TRANSLATIONS = {
   "win vs. lose": "win cracking under the weight of lose",
   "wind vs. stillness": "the wind and the stillness that exists inside it",
   "winter vs. brief summer": "winter cracking under the weight of brief summer",
-  "winter vs. will": "winter held at the edge of will",
-  "witness vs. unseen": "witness and unseen in the same frame",
   "wonder vs. exhaustion": "wonder held at the edge of exhaustion",
   "worked vs. abandoned": "worked held at the edge of abandoned",
   "worn vs. new machine": "the tension between worn and new machine",
@@ -19114,7 +19964,6 @@ const TENSION_TRANSLATIONS = {
   "known vs. unknown realm": "the known world at the edge of the unknown one",
   "river vs. shore": "the river and the shore as departure and arrival",
   "heaven vs. underworld": "heaven and the underworld in the same image",
-  "cursed vs. redeemed": "cursed and the possibility of redemption in the same frame",
   "silence vs. echo": "silence and the echo that proves something happened here",
   "force vs. shelter": "force that demands shelter and shelter that gives way",
   "exposed vs. protected": "exposed to everything and protected by each other",
