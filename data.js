@@ -16579,127 +16579,468 @@ const WORLDS = [
     "affinities": {
       "terror vs. desire": {
         "locs": [
-          "1950s laboratory neon green glow",
-          "drive-in movie screen at night",
-          "abandoned drive-in lot"
+          "motel room at night single lamp",
+          "roadside motel neon sign night",
+          "bowling alley at night empty"
         ],
         "poses": [
-          "one reaching toward other in warning both frozen",
-          "both looking at something off-frame in horror"
+          "both mid-scream, caught in a freeze frame",
+          "one hiding behind the other, peeking over a shoulder",
+          "both dancing, oblivious to what lurks behind"
         ],
         "looks": [
-          "1950s prom dress and suit both pristine",
-          "torn lab coat blood-smeared each"
+          "prom gown and tuxedo each, pristine",
+          "torn prom dress and rumpled suit each",
+          "varsity jacket and cheerleader skirt each"
+        ]
+      },
+      "alive vs. undead": {
+        "locs": [
+          "fog-covered graveyard at night practical light",
+          "dark forest practical torch light",
+          "swamp at night fog mist"
+        ],
+        "poses": [
+          "both creeping forward, torch held high",
+          "one pulling the other out of the muck",
+          "both frozen as a hand bursts from the ground"
+        ],
+        "looks": [
+          "camping gear and muddy boots each",
+          "ripped casual clothes, survival mode each",
+          "hooded cloak and lantern each"
+        ]
+      },
+      "human vs. other": {
+        "locs": [
+          "abandoned space station corridor flickering",
+          "alien landscape matte painting sky",
+          "B-movie spaceship control room retro"
+        ],
+        "poses": [
+          "both pointing ray guns at something off-frame, chins high",
+          "both examining a glowing object, baffled",
+          "one in a silver costume menacing the other, who stands defiant"
+        ],
+        "looks": [
+          "silver jumpsuit and fishbowl helmet each",
+          "retro space suit with chunky gloves each",
+          "tin-foil costume and antenna headband each"
+        ]
+      },
+      "run vs. stay": {
+        "locs": [
+          "abandoned factory night emergency exit green",
+          "power plant cooling towers night",
+          "quarry at night floodlit"
+        ],
+        "poses": [
+          "both sprinting down the corridor, doors slamming behind",
+          "one carrying the other, rescued from danger",
+          "both climbing a ladder, glancing back in terror"
+        ],
+        "looks": [
+          "police uniform and trench coat each",
+          "nurse uniform and orderly whites each",
+          "work overalls and hard hats each"
+        ]
+      },
+      "rational vs. irrational": {
+        "locs": [
+          "1950s laboratory neon green glow",
+          "mad scientist laboratory bubbling tubes",
+          "underground bunker red emergency lighting"
+        ],
+        "poses": [
+          "one with arms thrown wide, cackling over the switch, the other recoiling",
+          "both leaning over a bubbling flask, eyes gleaming with discovery",
+          "one raising a syringe triumphantly, the other bound and aghast"
+        ],
+        "looks": [
+          "white lab coat and wild hair each, goggles pushed up",
+          "singed lab coat and rubber gloves each",
+          "tailcoat and cape with a hunched assistant's vest each"
+        ]
+      },
+      "known vs. unknown": {
+        "locs": [
+          "retro rocket ship launch pad",
+          "alien mothership interior command deck retro blinking",
+          "crashed UFO crater smoking"
+        ],
+        "poses": [
+          "both examining a glowing object, baffled",
+          "one in a silver costume menacing the other, who stands defiant",
+          "both bracing against the blast, hair blown back"
+        ],
+        "looks": [
+          "retro space suit with chunky gloves each",
+          "tin-foil costume and antenna headband each",
+          "khaki military uniform each"
+        ]
+      },
+      "safety vs. dread": {
+        "locs": [
+          "suburban house at night exterior one light on",
+          "1950s American street night creature approaching",
+          "small town main street deserted night"
+        ],
+        "poses": [
+          "both peering out through the curtains, flashlight in hand",
+          "both running toward the camera, something looming behind",
+          "both backing slowly away, hands raised"
+        ],
+        "looks": [
+          "pastel full-skirted dress and letterman jacket each",
+          "housewife dress and delivery uniform each",
+          "denim jeans and a white tee each, rebel style"
+        ]
+      },
+      "victim vs. survivor": {
+        "locs": [
+          "warehouse district night one lamp",
+          "rooftop at night city glow below",
+          "hospital corridor night emergency red"
+        ],
+        "poses": [
+          "one carrying the other, rescued from danger",
+          "both climbing a ladder, glancing back in terror",
+          "both back to back, surrounded, weapons raised"
+        ],
+        "looks": [
+          "nurse uniform and orderly whites each",
+          "work overalls and hard hats each",
+          "trench coat and fedora each"
+        ]
+      },
+      "ordinary vs. monstrous": {
+        "locs": [
+          "trailer park night one porch light",
+          "gas station night rural isolated",
+          "1960s diner night fluorescent"
+        ],
+        "poses": [
+          "both running toward the camera, something looming behind",
+          "both backing slowly away, hands raised",
+          "one shielding the other, both defiant"
+        ],
+        "looks": [
+          "housewife dress and delivery uniform each",
+          "denim jeans and a white tee each, rebel style",
+          "sheriff's uniform and flowered dress each"
+        ]
+      },
+      "love vs. survival": {
+        "locs": [
+          "bowling alley night creature in shadows 1950s",
+          "high school gymnasium prom night monster gate-crashes",
+          "school corridor at night lockers"
+        ],
+        "poses": [
+          "one hiding behind the other, peeking over a shoulder",
+          "both dancing, oblivious to what lurks behind",
+          "both gaping at something huge, popcorn spilling"
+        ],
+        "looks": [
+          "torn prom dress and rumpled suit each",
+          "varsity jacket and cheerleader skirt each",
+          "pyjamas and slippers each, interrupted sleep"
+        ]
+      },
+      "science vs. nature": {
+        "locs": [
+          "crumbling mansion exterior night",
+          "vintage observatory dome night",
+          "clock tower night storm"
+        ],
+        "poses": [
+          "both leaning over a bubbling flask, eyes gleaming with discovery",
+          "one raising a syringe triumphantly, the other bound and aghast",
+          "both arguing furiously over the creation between them"
+        ],
+        "looks": [
+          "singed lab coat and rubber gloves each",
+          "tailcoat and cape with a hunched assistant's vest each",
+          "Victorian doctor's coat and stethoscope each"
+        ]
+      },
+      "before vs. after": {
+        "locs": [
+          "beach at night bonfirelight",
+          "pier at night fog horn",
+          "lighthouse beam night fog"
+        ],
+        "poses": [
+          "both standing at the edge, staring at something rising from the water",
+          "one reading from an ancient book, the other lighting a candle",
+          "both triumphant, one foot on the defeated monster"
+        ],
+        "looks": [
+          "retro swimwear and sunglasses each",
+          "sailor's uniform and oilskin coat each",
+          "dark robes and a crucifix each"
+        ]
+      },
+      "hunter vs. hunted": {
+        "locs": [
+          "cave entrance dark night fog",
+          "corn field at night path through",
+          "giant spider web forest clearing victims wrapped"
+        ],
+        "poses": [
+          "one pulling the other out of the muck",
+          "both frozen as a hand bursts from the ground",
+          "both fleeing through the trees, branches clawing"
+        ],
+        "looks": [
+          "ripped casual clothes, survival mode each",
+          "hooded cloak and lantern each",
+          "overalls and a farmer's hat each"
+        ]
+      },
+      "awake vs. nightmare": {
+        "locs": [
+          "carnival haunted house entrance",
+          "carnival ferris wheel night neon",
+          "funfair ghost train entrance night"
+        ],
+        "poses": [
+          "both in theatrical costume, striking a dramatic tableau",
+          "one swooning, the other catching them, Victorian-style",
+          "both doing a monster mash, capes flying"
+        ],
+        "looks": [
+          "Rocky Horror-style corset, fishnets and a tailcoat each",
+          "vampire cape and fangs each",
+          "ringmaster tailcoat and mask each"
+        ]
+      },
+      "alone vs. together in the dark": {
+        "locs": [
+          "old mill exterior night",
+          "church at night single candle interior",
+          "submarine interior cramped red light"
+        ],
+        "poses": [
+          "one reading from an ancient book, the other lighting a candle",
+          "both triumphant, one foot on the defeated monster",
+          "both sweating at the controls as alarms ring"
+        ],
+        "looks": [
+          "sailor's uniform and oilskin coat each",
+          "dark robes and a crucifix each",
+          "bathing suit and sunglasses each"
+        ]
+      },
+      "scream vs. silence": {
+        "locs": [
+          "theatre balcony single spotlight",
+          "carnival haunted house entrance",
+          "carnival ferris wheel night neon"
+        ],
+        "poses": [
+          "one swooning, the other catching them, Victorian-style",
+          "both doing a monster mash, capes flying",
+          "both arms raised in a B-movie climax pose"
+        ],
+        "looks": [
+          "vampire cape and fangs each",
+          "ringmaster tailcoat and mask each",
+          "gothic ball gown and top hat each"
+        ]
+      },
+      "real vs. hallucination": {
+        "locs": [
+          "funfair ghost train entrance night",
+          "theatre balcony single spotlight",
+          "carnival haunted house entrance"
+        ],
+        "poses": [
+          "both doing a monster mash, capes flying",
+          "both arms raised in a B-movie climax pose",
+          "both in theatrical costume, striking a dramatic tableau"
+        ],
+        "looks": [
+          "ringmaster tailcoat and mask each",
+          "gothic ball gown and top hat each",
+          "Rocky Horror-style corset, fishnets and a tailcoat each"
+        ]
+      },
+      "trust vs. betrayal": {
+        "locs": [
+          "basement stairs single overhead bulb",
+          "1950s suburban basement den night",
+          "1950s laboratory neon green glow"
+        ],
+        "poses": [
+          "one raising a syringe triumphantly, the other bound and aghast",
+          "both arguing furiously over the creation between them",
+          "one with arms thrown wide, cackling over the switch, the other recoiling"
+        ],
+        "looks": [
+          "tailcoat and cape with a hunched assistant's vest each",
+          "Victorian doctor's coat and stethoscope each",
+          "white lab coat and wild hair each, goggles pushed up"
+        ]
+      },
+      "past vs. haunting": {
+        "locs": [
+          "fog-covered graveyard at night practical light",
+          "dark forest practical torch light",
+          "swamp at night fog mist"
+        ],
+        "poses": [
+          "both frozen as a hand bursts from the ground",
+          "both fleeing through the trees, branches clawing",
+          "both creeping forward, torch held high"
+        ],
+        "looks": [
+          "hooded cloak and lantern each",
+          "overalls and a farmer's hat each",
+          "camping gear and muddy boots each"
+        ]
+      },
+      "escape vs. trapped": {
+        "locs": [
+          "rural highway night headlights",
+          "abandoned factory night emergency exit green",
+          "power plant cooling towers night"
+        ],
+        "poses": [
+          "both climbing a ladder, glancing back in terror",
+          "both back to back, surrounded, weapons raised",
+          "both sprinting down the corridor, doors slamming behind"
+        ],
+        "looks": [
+          "work overalls and hard hats each",
+          "trench coat and fedora each",
+          "police uniform and trench coat each"
         ]
       }
     },
     "locs": [
       "1950s laboratory neon green glow",
+      "mad scientist laboratory bubbling tubes",
+      "underground bunker red emergency lighting",
+      "crumbling mansion exterior night",
+      "vintage observatory dome night",
+      "clock tower night storm",
+      "basement stairs single overhead bulb",
+      "1950s suburban basement den night",
       "abandoned space station corridor flickering",
-      "drive-in movie screen at night",
       "alien landscape matte painting sky",
       "B-movie spaceship control room retro",
-      "fog-covered graveyard at night practical light",
+      "retro rocket ship launch pad",
+      "alien mothership interior command deck retro blinking",
+      "crashed UFO crater smoking",
+      "nuclear test site restricted zone",
+      "research station arctic storm outside",
+      "radio tower blink red night",
       "suburban house at night exterior one light on",
       "1950s American street night creature approaching",
-      "carnival haunted house entrance",
-      "mad scientist laboratory bubbling tubes",
-      "motel room at night single lamp",
-      "dark forest practical torch light",
       "small town main street deserted night",
-      "underground bunker red emergency lighting",
-      "retro rocket ship launch pad",
-      "crumbling mansion exterior night",
-      "1960s diner night fluorescent",
-      "rural highway night headlights",
-      "swamp at night fog mist",
-      "abandoned factory night emergency exit green",
-      "vintage observatory dome night",
-      "crashed UFO crater smoking",
-      "beach at night bonfirelight",
-      "submarine interior cramped red light",
-      "nuclear test site restricted zone",
-      "1950s suburban basement den night",
-      "carnival ferris wheel night neon",
-      "research station arctic storm outside",
-      "hospital corridor night emergency red",
-      "church at night single candle interior",
-      "drive-in car park night",
       "trailer park night one porch light",
-      "cave entrance dark night fog",
-      "radio tower blink red night",
-      "old mill exterior night",
+      "gas station night rural isolated",
+      "1960s diner night fluorescent",
+      "motel room at night single lamp",
+      "roadside motel neon sign night",
+      "bowling alley at night empty",
+      "bowling alley night creature in shadows 1950s",
+      "high school gymnasium prom night monster gate-crashes",
       "school corridor at night lockers",
+      "drive-in movie screen at night",
+      "drive-in car park night",
+      "fog-covered graveyard at night practical light",
+      "dark forest practical torch light",
+      "swamp at night fog mist",
+      "cave entrance dark night fog",
+      "corn field at night path through",
+      "giant spider web forest clearing victims wrapped",
+      "carnival haunted house entrance",
+      "carnival ferris wheel night neon",
+      "funfair ghost train entrance night",
       "theatre balcony single spotlight",
-      "pier at night fog horn",
+      "abandoned factory night emergency exit green",
       "power plant cooling towers night",
       "quarry at night floodlit",
       "warehouse district night one lamp",
       "rooftop at night city glow below",
-      "funfair ghost train entrance night",
-      "clock tower night storm",
-      "basement stairs single overhead bulb",
-      "corn field at night path through",
-      "gas station night rural isolated",
+      "hospital corridor night emergency red",
+      "rural highway night headlights",
+      "beach at night bonfirelight",
+      "pier at night fog horn",
       "lighthouse beam night fog",
-      "bowling alley at night empty",
-      "roadside motel neon sign night",
-      "alien mothership interior command deck retro blinking",
-      "bowling alley night creature in shadows 1950s",
-      "high school gymnasium prom night monster gate-crashes",
-      "giant spider web forest clearing victims wrapped"
+      "old mill exterior night",
+      "church at night single candle interior",
+      "submarine interior cramped red light"
     ],
     "poses": [
-      "both pointing ray guns at off-frame monster heroic stance",
-      "one shielding other heroic both defiant facing camera",
-      "both running toward camera creature chasing behind",
-      "one carrying other rescued from danger heroic",
-      "both back to back surrounded weapons raised",
-      "both triumphant foot on defeated monster 1950s pose",
-      "both peering around corner investigating flashlights",
-      "one scientist other assistant discovery eureka arms raised",
-      "one mad scientist maniacal arms raised other recoils in horror",
-      "both mad scientists laboratory maniacal laughter arms wide",
-      "one evil doctor menacing other strapped to table",
-      "one holding bubbling beaker triumphant creation moment",
-      "villain monologue dramatic finger pointing other listens aghast",
-      "both scientists arguing over creation between them",
-      "one in creature costume reaching toward other dramatically",
-      "both in alien costume captors and captive theatrical",
-      "one as creature arms outstretched other faints dramatically",
-      "both as aliens examining earth object baffled",
-      "one as Frankenstein monster other as Igor hunched",
-      "both as vampires capes dramatic moonlight pose",
-      "both in theatrical costume striking dramatic posed tableau",
-      "both mid-dance monster mash ballroom costumes",
-      "one as mad creation other as creator dramatic reveal",
-      "both arms raised dramatic B-movie climax pose",
-      "one swooning other catching Victorian dramatic",
-      "both pointing at something off-frame exaggerated horror",
-      "both in camp theatrical freeze-frame mid-adventure pose",
-      "over shoulder both fleeing toward camera creature implied behind"
+      "one with arms thrown wide, cackling over the switch, the other recoiling",
+      "both leaning over a bubbling flask, eyes gleaming with discovery",
+      "one raising a syringe triumphantly, the other bound and aghast",
+      "both arguing furiously over the creation between them",
+      "both pointing ray guns at something off-frame, chins high",
+      "both examining a glowing object, baffled",
+      "one in a silver costume menacing the other, who stands defiant",
+      "both bracing against the blast, hair blown back",
+      "both peering out through the curtains, flashlight in hand",
+      "both running toward the camera, something looming behind",
+      "both backing slowly away, hands raised",
+      "one shielding the other, both defiant",
+      "both mid-scream, caught in a freeze frame",
+      "one hiding behind the other, peeking over a shoulder",
+      "both dancing, oblivious to what lurks behind",
+      "both gaping at something huge, popcorn spilling",
+      "both creeping forward, torch held high",
+      "one pulling the other out of the muck",
+      "both frozen as a hand bursts from the ground",
+      "both fleeing through the trees, branches clawing",
+      "both in theatrical costume, striking a dramatic tableau",
+      "one swooning, the other catching them, Victorian-style",
+      "both doing a monster mash, capes flying",
+      "both arms raised in a B-movie climax pose",
+      "both sprinting down the corridor, doors slamming behind",
+      "one carrying the other, rescued from danger",
+      "both climbing a ladder, glancing back in terror",
+      "both back to back, surrounded, weapons raised",
+      "both standing at the edge, staring at something rising from the water",
+      "one reading from an ancient book, the other lighting a candle",
+      "both triumphant, one foot on the defeated monster",
+      "both sweating at the controls as alarms ring"
     ],
     "looks": [
-      "1950s prom dress and suit both pristine before",
-      "torn prom dress suit dishevelled both",
-      "lab coat white pristine each scientist",
-      "lab coat torn bloodied each survivor",
-      "1950s housewife dress and delivery man uniform",
-      "varsity jacket and cheerleader skirt 1950s",
-      "military uniform each khaki 1950s",
-      "space suit silver retro each",
-      "1950s swimwear beach each",
-      "ripped casual clothes survival mode each",
-      "trench coat and dress noir 1950s",
-      "overalls work clothes rural each",
-      "nurse uniform and orderly uniform 1950s",
-      "evening wear formal interrupted mid-event",
-      "camping gear practical outdoors each",
-      "1960s mod dress and suit each",
-      "drive-in casual 1950s each",
-      "leather jacket and jeans rebel each",
-      "police uniform 1950s each",
-      "nightwear pyjamas interrupted sleep each"
+      "white lab coat and wild hair each, goggles pushed up",
+      "singed lab coat and rubber gloves each",
+      "tailcoat and cape with a hunched assistant's vest each",
+      "Victorian doctor's coat and stethoscope each",
+      "silver jumpsuit and fishbowl helmet each",
+      "retro space suit with chunky gloves each",
+      "tin-foil costume and antenna headband each",
+      "khaki military uniform each",
+      "pastel full-skirted dress and letterman jacket each",
+      "housewife dress and delivery uniform each",
+      "denim jeans and a white tee each, rebel style",
+      "sheriff's uniform and flowered dress each",
+      "prom gown and tuxedo each, pristine",
+      "torn prom dress and rumpled suit each",
+      "varsity jacket and cheerleader skirt each",
+      "pyjamas and slippers each, interrupted sleep",
+      "camping gear and muddy boots each",
+      "ripped casual clothes, survival mode each",
+      "hooded cloak and lantern each",
+      "overalls and a farmer's hat each",
+      "Rocky Horror-style corset, fishnets and a tailcoat each",
+      "vampire cape and fangs each",
+      "ringmaster tailcoat and mask each",
+      "gothic ball gown and top hat each",
+      "police uniform and trench coat each",
+      "nurse uniform and orderly whites each",
+      "work overalls and hard hats each",
+      "trench coat and fedora each",
+      "retro swimwear and sunglasses each",
+      "sailor's uniform and oilskin coat each",
+      "dark robes and a crucifix each",
+      "bathing suit and sunglasses each"
     ],
     "promptPrefix": "Vintage B-movie film still, Technicolor or grainy monochrome, theatrical lighting — ",
     "promptSuffix": "A frame from a real 1950s–1970s genre film: theatrical, deliberately camp, rubber-suit monsters and painted backdrops. The subjects may be heroes, villains, mad scientists, creatures or aliens.",
@@ -17242,115 +17583,448 @@ const WORLDS = [
     "affinities": {
       "joy vs. melancholy": {
         "locs": [
-          "ferris wheel top night city glow",
-          "waltzers spinning neon blur night",
-          "candyfloss stall dusk light pink"
+          "funfair at closing time lights going out",
+          "carnival field dawn before opening",
+          "carousel empty morning after"
         ],
         "poses": [
-          "both at top of ferris wheel city below",
-          "both mid-waltzer blur motion laughing"
+          "both walking alone through the litter, hand in hand",
+          "both sitting on the carousel's edge, quiet",
+          "both watching the lights go out, one resting a head on the other"
         ],
         "looks": [
-          "carnival casual summer each warm night",
-          "vintage fairground dress and shirt 1960s each"
+          "couple nostalgic casual each",
+          "locals casual modest each",
+          "childhood nostalgia casual, simple each"
+        ]
+      },
+      "real vs. performance": {
+        "locs": [
+          "ghost train entrance carnival night",
+          "hall of mirrors funfair interior",
+          "fortune teller caravan carnival exterior"
+        ],
+        "poses": [
+          "both reflected a hundred times, startled",
+          "one hiding behind the other, laughing and scared",
+          "one having a palm read, the other sceptical"
+        ],
+        "looks": [
+          "costume-contest dressed up each",
+          "first-date nervous dressed up each",
+          "dark fortune-telling shawls and jewellery each"
+        ]
+      },
+      "beautiful vs. ugly": {
+        "locs": [
+          "ghost train car interior dark",
+          "hall of mirrors reflection infinite",
+          "carnival fire eater performance area"
+        ],
+        "poses": [
+          "one hiding behind the other, laughing and scared",
+          "one having a palm read, the other sceptical",
+          "both gaping at the flames, lit orange"
+        ],
+        "looks": [
+          "first-date nervous dressed up each",
+          "dark fortune-telling shawls and jewellery each",
+          "vintage 1970s-style outfit each"
+        ]
+      },
+      "childhood vs. adulthood": {
+        "locs": [
+          "candyfloss stall dusk light pink",
+          "hook-a-duck stall fairground lights",
+          "coconut shy stall string lights"
+        ],
+        "poses": [
+          "both sharing a stick of candy, sticky-fingered and laughing",
+          "one handing the other a giant prize, grinning",
+          "both competing fiercely, tongues out in concentration"
+        ],
+        "looks": [
+          "summer dress and shorts each, casual",
+          "school-holiday casual clothes each, young",
+          "date-night casual, a little effort made each"
+        ]
+      },
+      "winning vs. losing": {
+        "locs": [
+          "carnival food van candleapple dusk",
+          "toffee apple stall amber light",
+          "test your strength tower carnival"
+        ],
+        "poses": [
+          "one handing the other a giant prize, grinning",
+          "both competing fiercely, tongues out in concentration",
+          "both licking toffee apples, eyes closed in delight"
+        ],
+        "looks": [
+          "school-holiday casual clothes each, young",
+          "date-night casual, a little effort made each",
+          "tourist casual family clothes each"
+        ]
+      },
+      "bright vs. dark": {
+        "locs": [
+          "carnival midway night both sides lit",
+          "carnival entrance arch neon night",
+          "carnival crowd midway night"
+        ],
+        "poses": [
+          "both in the crowd, looking at each other, the world blurring",
+          "both looking up at the sky bursting with colour, faces lit",
+          "both waiting in the queue, hands entwined"
+        ],
+        "looks": [
+          "night-out dressed up each",
+          "couple-anniversary nostalgic outfits each",
+          "hooded top and jeans, night chill each"
+        ]
+      },
+      "together vs. alone in a crowd": {
+        "locs": [
+          "carnival ticket booth night queue",
+          "carnival arc lights full night",
+          "carnival fireworks above ferris wheel"
+        ],
+        "poses": [
+          "both looking up at the sky bursting with colour, faces lit",
+          "both waiting in the queue, hands entwined",
+          "both walking arm in arm, lights streaking past"
+        ],
+        "looks": [
+          "couple-anniversary nostalgic outfits each",
+          "hooded top and jeans, night chill each",
+          "festival casual layers each, evening"
+        ]
+      },
+      "magical vs. mechanical": {
+        "locs": [
+          "ferris wheel top night city glow",
+          "waltzers spinning neon blur night",
+          "big wheel base looking up night"
+        ],
+        "poses": [
+          "both with arms in the air, mouths open in a scream of joy",
+          "both clinging to the rail, laughing, hair streaming",
+          "both leaning together in the moving seat, neon smearing past"
+        ],
+        "looks": [
+          "denim jacket and sundress each",
+          "hooded top and jeans each",
+          "festival casual layers each"
+        ]
+      },
+      "freedom vs. routine": {
+        "locs": [
+          "carnival back lot behind rides",
+          "carnival generator truck back area",
+          "trailer park carnival workers housing"
+        ],
+        "poses": [
+          "both sitting on the steps, tired, sharing a flask",
+          "both laughing as one hauls a heavy cable",
+          "both leaning on a rusty truck, staring into the distance"
+        ],
+        "looks": [
+          "worker practical clothes each, uniform",
+          "worker off shift casual, tired each",
+          "travelling show worker practical each"
+        ]
+      },
+      "laughter vs. loneliness": {
+        "locs": [
+          "carnival field last night season",
+          "funfair entrance gates daytime",
+          "carnival midway dawn packing up"
+        ],
+        "poses": [
+          "both sitting on the carousel's edge, quiet",
+          "both watching the lights go out, one resting a head on the other",
+          "both standing at the gates, the day not yet begun"
+        ],
+        "looks": [
+          "locals casual modest each",
+          "childhood nostalgia casual, simple each",
+          "hoodie and coat against the cold each"
+        ]
+      },
+      "season vs. end of season": {
+        "locs": [
+          "carnival field first light morning",
+          "fairground organ carousel music",
+          "funfair at closing time lights going out"
+        ],
+        "poses": [
+          "both watching the lights go out, one resting a head on the other",
+          "both standing at the gates, the day not yet begun",
+          "both walking alone through the litter, hand in hand"
+        ],
+        "looks": [
+          "childhood nostalgia casual, simple each",
+          "hoodie and coat against the cold each",
+          "couple nostalgic casual each"
+        ]
+      },
+      "spectacle vs. ordinary": {
+        "locs": [
+          "carnival back lot empty evening",
+          "funfair field afternoon setup",
+          "carnival back lot behind rides"
+        ],
+        "poses": [
+          "both laughing as one hauls a heavy cable",
+          "both leaning on a rusty truck, staring into the distance",
+          "one repairing a ride, the other holding the torch"
+        ],
+        "looks": [
+          "worker off shift casual, tired each",
+          "travelling show worker practical each",
+          "local teen casual, bored each"
+        ]
+      },
+      "sugar vs. bitter": {
+        "locs": [
+          "shooting gallery neon prizes",
+          "prize soft toy stall overloaded",
+          "cotton candy machine spinning pink"
+        ],
+        "poses": [
+          "both competing fiercely, tongues out in concentration",
+          "both licking toffee apples, eyes closed in delight",
+          "both sharing a stick of candy, sticky-fingered and laughing"
+        ],
+        "looks": [
+          "date-night casual, a little effort made each",
+          "tourist casual family clothes each",
+          "summer dress and shorts each, casual"
+        ]
+      },
+      "anticipation vs. disappointment": {
+        "locs": [
+          "carousel horses night lights spinning",
+          "big wheel gondola night suspended",
+          "bumper cars overhead sparks night"
+        ],
+        "poses": [
+          "both clinging to the rail, laughing, hair streaming",
+          "both leaning together in the moving seat, neon smearing past",
+          "one waving down at the crowd, the other holding on tight"
+        ],
+        "looks": [
+          "hooded top and jeans each",
+          "festival casual layers each",
+          "vintage fairground-style dress and shirt each"
+        ]
+      },
+      "last night vs. first night": {
+        "locs": [
+          "carnival field dawn before opening",
+          "carousel empty morning after",
+          "carnival field last night season"
+        ],
+        "poses": [
+          "both standing at the gates, the day not yet begun",
+          "both walking alone through the litter, hand in hand",
+          "both sitting on the carousel's edge, quiet"
+        ],
+        "looks": [
+          "hoodie and coat against the cold each",
+          "couple nostalgic casual each",
+          "locals casual modest each"
+        ]
+      },
+      "seen vs. overlooked in the crowd": {
+        "locs": [
+          "ferris wheel reflection puddle rain",
+          "carnival midway night both sides lit",
+          "carnival entrance arch neon night"
+        ],
+        "poses": [
+          "both waiting in the queue, hands entwined",
+          "both walking arm in arm, lights streaking past",
+          "both in the crowd, looking at each other, the world blurring"
+        ],
+        "looks": [
+          "hooded top and jeans, night chill each",
+          "festival casual layers each, evening",
+          "night-out dressed up each"
+        ]
+      },
+      "love vs. heartbreak midway": {
+        "locs": [
+          "dodgems arena carnival neon",
+          "helter skelter base night",
+          "waltzer operator platform night"
+        ],
+        "poses": [
+          "both leaning together in the moving seat, neon smearing past",
+          "one waving down at the crowd, the other holding on tight",
+          "both with arms in the air, mouths open in a scream of joy"
+        ],
+        "looks": [
+          "festival casual layers each",
+          "vintage fairground-style dress and shirt each",
+          "denim jacket and sundress each"
+        ]
+      },
+      "gaudy vs. sublime": {
+        "locs": [
+          "carnival crowd midway night",
+          "carnival ticket booth night queue",
+          "carnival arc lights full night"
+        ],
+        "poses": [
+          "both walking arm in arm, lights streaking past",
+          "both in the crowd, looking at each other, the world blurring",
+          "both looking up at the sky bursting with colour, faces lit"
+        ],
+        "looks": [
+          "festival casual layers each, evening",
+          "night-out dressed up each",
+          "couple-anniversary nostalgic outfits each"
+        ]
+      },
+      "passing vs. permanent": {
+        "locs": [
+          "carnival generator truck back area",
+          "trailer park carnival workers housing",
+          "carnival back lot empty evening"
+        ],
+        "poses": [
+          "both leaning on a rusty truck, staring into the distance",
+          "one repairing a ride, the other holding the torch",
+          "both sitting on the steps, tired, sharing a flask"
+        ],
+        "looks": [
+          "travelling show worker practical each",
+          "local teen casual, bored each",
+          "worker practical clothes each, uniform"
+        ]
+      },
+      "innocent vs. knowing": {
+        "locs": [
+          "candy stripe tent interior carnival",
+          "carnival stage performance area",
+          "ghost train entrance carnival night"
+        ],
+        "poses": [
+          "one having a palm read, the other sceptical",
+          "both gaping at the flames, lit orange",
+          "both reflected a hundred times, startled"
+        ],
+        "looks": [
+          "dark fortune-telling shawls and jewellery each",
+          "vintage 1970s-style outfit each",
+          "costume-contest dressed up each"
         ]
       }
     },
     "locs": [
       "ferris wheel top night city glow",
       "waltzers spinning neon blur night",
+      "big wheel base looking up night",
+      "carousel horses night lights spinning",
+      "big wheel gondola night suspended",
+      "bumper cars overhead sparks night",
+      "dodgems arena carnival neon",
+      "helter skelter base night",
+      "waltzer operator platform night",
+      "dodgem car stationary waiting",
+      "waltzer stationary between rides",
       "candyfloss stall dusk light pink",
       "hook-a-duck stall fairground lights",
-      "ghost train entrance carnival night",
-      "hall of mirrors funfair interior",
-      "carnival midway night both sides lit",
-      "big wheel base looking up night",
       "coconut shy stall string lights",
-      "dodgems arena carnival neon",
       "carnival food van candleapple dusk",
-      "helter skelter base night",
-      "fortune teller caravan carnival exterior",
-      "carnival entrance arch neon night",
       "toffee apple stall amber light",
       "test your strength tower carnival",
-      "carousel horses night lights spinning",
-      "carnival back lot behind rides",
       "shooting gallery neon prizes",
-      "carnival crowd midway night",
-      "ferris wheel reflection puddle rain",
-      "funfair at closing time lights going out",
-      "carnival field dawn before opening",
-      "waltzer operator platform night",
-      "carnival generator truck back area",
-      "candy stripe tent interior carnival",
       "prize soft toy stall overloaded",
-      "carnival fireworks above ferris wheel",
-      "trailer park carnival workers housing",
-      "carousel empty morning after",
-      "carnival ticket booth night queue",
-      "funfair field afternoon setup",
       "cotton candy machine spinning pink",
-      "carnival stage performance area",
       "hook-a-duck water reflection lights",
-      "big wheel gondola night suspended",
-      "carnival back lot empty evening",
-      "fairground organ carousel music",
-      "carnival field last night season",
+      "prize wheel spin carnival neon",
+      "ghost train entrance carnival night",
+      "hall of mirrors funfair interior",
+      "fortune teller caravan carnival exterior",
       "ghost train car interior dark",
-      "dodgem car stationary waiting",
-      "carnival arc lights full night",
-      "funfair entrance gates daytime",
-      "carnival midway dawn packing up",
-      "waltzer stationary between rides",
       "hall of mirrors reflection infinite",
       "carnival fire eater performance area",
-      "prize wheel spin carnival neon",
-      "bumper cars overhead sparks night",
-      "carnival field first light morning"
+      "candy stripe tent interior carnival",
+      "carnival stage performance area",
+      "carnival midway night both sides lit",
+      "carnival entrance arch neon night",
+      "carnival crowd midway night",
+      "carnival ticket booth night queue",
+      "carnival arc lights full night",
+      "carnival fireworks above ferris wheel",
+      "ferris wheel reflection puddle rain",
+      "carnival back lot behind rides",
+      "carnival generator truck back area",
+      "trailer park carnival workers housing",
+      "carnival back lot empty evening",
+      "funfair field afternoon setup",
+      "funfair at closing time lights going out",
+      "carnival field dawn before opening",
+      "carousel empty morning after",
+      "carnival field last night season",
+      "funfair entrance gates daytime",
+      "carnival midway dawn packing up",
+      "carnival field first light morning",
+      "fairground organ carousel music"
     ],
     "poses": [
-      "both at top of ferris wheel city below",
-      "both mid-waltzer blur motion laughing",
-      "one winning prize handing to other",
-      "both reflected infinite hall of mirrors",
-      "both eating candyfloss same stick",
-      "one on carousel other watching waving",
-      "both looking up at fireworks faces lit",
-      "one shooting gallery other watching focused",
-      "both mid-crowd carnival looking at each other",
-      "one carrying other on back carnival crowd",
-      "both mid-game competitive each",
-      "one scared ghost train other laughing",
-      "both sitting on steps carnival background",
-      "one pointing at prize other calculating",
-      "both eating toffee apple same bite",
-      "one on shoulders other at carnival",
-      "both dodgem cars same car",
-      "one fortune teller other having reading done",
-      "both last on ferris wheel night closing",
-      "over-shoulder both carnival crowd receding"
+      "both with arms in the air, mouths open in a scream of joy",
+      "both clinging to the rail, laughing, hair streaming",
+      "both leaning together in the moving seat, neon smearing past",
+      "one waving down at the crowd, the other holding on tight",
+      "both sharing a stick of candy, sticky-fingered and laughing",
+      "one handing the other a giant prize, grinning",
+      "both competing fiercely, tongues out in concentration",
+      "both licking toffee apples, eyes closed in delight",
+      "both reflected a hundred times, startled",
+      "one hiding behind the other, laughing and scared",
+      "one having a palm read, the other sceptical",
+      "both gaping at the flames, lit orange",
+      "both in the crowd, looking at each other, the world blurring",
+      "both looking up at the sky bursting with colour, faces lit",
+      "both waiting in the queue, hands entwined",
+      "both walking arm in arm, lights streaking past",
+      "both sitting on the steps, tired, sharing a flask",
+      "both laughing as one hauls a heavy cable",
+      "both leaning on a rusty truck, staring into the distance",
+      "one repairing a ride, the other holding the torch",
+      "both walking alone through the litter, hand in hand",
+      "both sitting on the carousel's edge, quiet",
+      "both watching the lights go out, one resting a head on the other",
+      "both standing at the gates, the day not yet begun"
     ],
     "looks": [
-      "carnival casual summer each warm night",
-      "vintage fairground dress and shirt 1960s each",
-      "denim jacket and sundress each warm",
-      "carnival worker practical each uniform",
-      "date night casual each effort made",
-      "festival casual layers each evening",
-      "childhood nostalgia casual each simple",
-      "tourist casual family each",
-      "local teen casual each bored",
-      "first date nervous dressed up each",
-      "summer dress and shorts each casual",
-      "vintage 1970s fairground each",
-      "hooded top and jeans each night chill",
-      "carnival costume contest dressed up each",
-      "worker off shift casual each tired",
-      "school holiday casual each young",
-      "couple anniversary revisit each nostalgic",
+      "denim jacket and sundress each",
+      "hooded top and jeans each",
+      "festival casual layers each",
+      "vintage fairground-style dress and shirt each",
+      "summer dress and shorts each, casual",
+      "school-holiday casual clothes each, young",
+      "date-night casual, a little effort made each",
+      "tourist casual family clothes each",
+      "costume-contest dressed up each",
+      "first-date nervous dressed up each",
+      "dark fortune-telling shawls and jewellery each",
+      "vintage 1970s-style outfit each",
+      "night-out dressed up each",
+      "couple-anniversary nostalgic outfits each",
+      "hooded top and jeans, night chill each",
+      "festival casual layers each, evening",
+      "worker practical clothes each, uniform",
+      "worker off shift casual, tired each",
       "travelling show worker practical each",
-      "night out dressed up each",
-      "locals casual modest each"
+      "local teen casual, bored each",
+      "couple nostalgic casual each",
+      "locals casual modest each",
+      "childhood nostalgia casual, simple each",
+      "hoodie and coat against the cold each"
     ],
     "promptSuffix": "Colour grade: saturated carnival neon — magenta, electric blue, acid yellow, warm amber of bulb strings. The beauty should feel slightly too much, slightly sad, the way carnival light always does."
   },
