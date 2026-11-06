@@ -20997,9 +20997,9 @@ function init(){
   const WORLD_CATS=[
     ['❤️  Emotion & Relationship',['romance','stage','mystery','protest','wedding','underworld']],
     ['🌏  Nature & Landscape',['mountain','water','wild','jungle','desert','rain','cold']],
-    ['🌆  Time & Atmosphere',['night','history','dust','storm']],
+    ['🌆  Time & Atmosphere',['night','history','storm']],
     ['🌍  Place & Culture',['city','road','canada','caribbean','mexico','usa','rooftop']],
-    ['🎵  Performance & Life',['music','court','circus','hero']],
+    ['🎵  Performance & Life',['music','court','circus','hero','carnival']],
     ['✨  Style & Craft',['gold','art','runway','studio','archive']],
     ['🚀  Beyond Reality',['space','surreal','underground','expedition','cctv','bmovie']],
     ['🎉  Celebrations & Holidays',['valentines','mothersday','fourthofjuly','septiembre16','thanksgiving','halloween','diadelosmuertos','christmas','newyearseve','diwali','chinesenewyear']]
