@@ -1,0 +1,585 @@
+{
+  "id": "bmovie",
+  "name": "THE B-MOVIE",
+  "sub": "Sci-Fi & Horror Stills",
+  "color": "#7a1a2e",
+  "tensions": [
+    "terror vs. desire",
+    "alive vs. undead",
+    "human vs. other",
+    "run vs. stay",
+    "rational vs. irrational",
+    "known vs. unknown",
+    "safety vs. dread",
+    "victim vs. survivor",
+    "ordinary vs. monstrous",
+    "love vs. survival",
+    "science vs. nature",
+    "before vs. after",
+    "hunter vs. hunted",
+    "awake vs. nightmare",
+    "alone vs. together in the dark",
+    "scream vs. silence",
+    "real vs. hallucination",
+    "trust vs. betrayal",
+    "past vs. haunting",
+    "escape vs. trapped"
+  ],
+  "affinities": {
+    "terror vs. desire": {
+      "locs": [
+        "motel room at night single lamp",
+        "roadside motel neon sign night",
+        "bowling alley at night empty"
+      ],
+      "poses": [
+        "both mid-scream, caught in a freeze frame",
+        "one hiding behind the other, peeking over a shoulder",
+        "both dancing, oblivious to what lurks behind"
+      ],
+      "looks": [
+        "prom gown and tuxedo each, pristine",
+        "torn prom dress and rumpled suit each",
+        "varsity jacket and cheerleader skirt each"
+      ]
+    },
+    "alive vs. undead": {
+      "locs": [
+        "fog-covered graveyard at night practical light",
+        "dark forest practical torch light",
+        "swamp at night fog mist"
+      ],
+      "poses": [
+        "both creeping forward, torch held high",
+        "one pulling the other out of the muck",
+        "both frozen as a hand bursts from the ground"
+      ],
+      "looks": [
+        "camping gear and muddy boots each",
+        "ripped casual clothes, survival mode each",
+        "hooded cloak and lantern each"
+      ]
+    },
+    "human vs. other": {
+      "locs": [
+        "abandoned space station corridor flickering",
+        "alien landscape matte painting sky",
+        "B-movie spaceship control room retro"
+      ],
+      "poses": [
+        "both pointing ray guns at something off-frame, chins high",
+        "both examining a glowing object, baffled",
+        "one in a silver costume menacing the other, who stands defiant"
+      ],
+      "looks": [
+        "silver jumpsuit and fishbowl helmet each",
+        "retro space suit with chunky gloves each",
+        "tin-foil costume and antenna headband each"
+      ]
+    },
+    "run vs. stay": {
+      "locs": [
+        "abandoned factory night emergency exit green",
+        "power plant cooling towers night",
+        "quarry at night floodlit"
+      ],
+      "poses": [
+        "both sprinting down the corridor, doors slamming behind",
+        "one carrying the other, rescued from danger",
+        "both climbing a ladder, glancing back in terror"
+      ],
+      "looks": [
+        "police uniform and trench coat each",
+        "nurse uniform and orderly whites each",
+        "work overalls and hard hats each"
+      ]
+    },
+    "rational vs. irrational": {
+      "locs": [
+        "1950s laboratory neon green glow",
+        "mad scientist laboratory bubbling tubes",
+        "underground bunker red emergency lighting"
+      ],
+      "poses": [
+        "one with arms thrown wide, cackling over the switch, the other recoiling",
+        "both leaning over a bubbling flask, eyes gleaming with discovery",
+        "one raising a syringe triumphantly, the other bound and aghast"
+      ],
+      "looks": [
+        "white lab coat and wild hair each, goggles pushed up",
+        "singed lab coat and rubber gloves each",
+        "tailcoat and cape with a hunched assistant's vest each"
+      ]
+    },
+    "known vs. unknown": {
+      "locs": [
+        "retro rocket ship launch pad",
+        "alien mothership interior command deck retro blinking",
+        "crashed UFO crater smoking"
+      ],
+      "poses": [
+        "both examining a glowing object, baffled",
+        "one in a silver costume menacing the other, who stands defiant",
+        "both bracing against the blast, hair blown back"
+      ],
+      "looks": [
+        "retro space suit with chunky gloves each",
+        "tin-foil costume and antenna headband each",
+        "khaki military uniform each"
+      ]
+    },
+    "safety vs. dread": {
+      "locs": [
+        "suburban house at night exterior one light on",
+        "1950s American street night creature approaching",
+        "small town main street deserted night"
+      ],
+      "poses": [
+        "both peering out through the curtains, flashlight in hand",
+        "both running toward the camera, something looming behind",
+        "both backing slowly away, hands raised"
+      ],
+      "looks": [
+        "pastel full-skirted dress and letterman jacket each",
+        "housewife dress and delivery uniform each",
+        "denim jeans and a white tee each, rebel style"
+      ]
+    },
+    "victim vs. survivor": {
+      "locs": [
+        "warehouse district night one lamp",
+        "rooftop at night city glow below",
+        "hospital corridor night emergency red"
+      ],
+      "poses": [
+        "one carrying the other, rescued from danger",
+        "both climbing a ladder, glancing back in terror",
+        "both back to back, surrounded, weapons raised"
+      ],
+      "looks": [
+        "nurse uniform and orderly whites each",
+        "work overalls and hard hats each",
+        "trench coat and fedora each"
+      ]
+    },
+    "ordinary vs. monstrous": {
+      "locs": [
+        "trailer park night one porch light",
+        "gas station night rural isolated",
+        "1960s diner night fluorescent"
+      ],
+      "poses": [
+        "both running toward the camera, something looming behind",
+        "both backing slowly away, hands raised",
+        "one shielding the other, both defiant"
+      ],
+      "looks": [
+        "housewife dress and delivery uniform each",
+        "denim jeans and a white tee each, rebel style",
+        "sheriff's uniform and flowered dress each"
+      ]
+    },
+    "love vs. survival": {
+      "locs": [
+        "bowling alley night creature in shadows 1950s",
+        "high school gymnasium prom night monster gate-crashes",
+        "school corridor at night lockers"
+      ],
+      "poses": [
+        "one hiding behind the other, peeking over a shoulder",
+        "both dancing, oblivious to what lurks behind",
+        "both gaping at something huge, popcorn spilling"
+      ],
+      "looks": [
+        "torn prom dress and rumpled suit each",
+        "varsity jacket and cheerleader skirt each",
+        "pyjamas and slippers each, interrupted sleep"
+      ]
+    },
+    "science vs. nature": {
+      "locs": [
+        "crumbling mansion exterior night",
+        "vintage observatory dome night",
+        "clock tower night storm"
+      ],
+      "poses": [
+        "both leaning over a bubbling flask, eyes gleaming with discovery",
+        "one raising a syringe triumphantly, the other bound and aghast",
+        "both arguing furiously over the creation between them"
+      ],
+      "looks": [
+        "singed lab coat and rubber gloves each",
+        "tailcoat and cape with a hunched assistant's vest each",
+        "Victorian doctor's coat and stethoscope each"
+      ]
+    },
+    "before vs. after": {
+      "locs": [
+        "beach at night bonfirelight",
+        "pier at night fog horn",
+        "lighthouse beam night fog"
+      ],
+      "poses": [
+        "both standing at the edge, staring at something rising from the water",
+        "one reading from an ancient book, the other lighting a candle",
+        "both triumphant, one foot on the defeated monster"
+      ],
+      "looks": [
+        "retro swimwear and sunglasses each",
+        "sailor's uniform and oilskin coat each",
+        "dark robes and a crucifix each"
+      ]
+    },
+    "hunter vs. hunted": {
+      "locs": [
+        "cave entrance dark night fog",
+        "corn field at night path through",
+        "giant spider web forest clearing victims wrapped"
+      ],
+      "poses": [
+        "one pulling the other out of the muck",
+        "both frozen as a hand bursts from the ground",
+        "both fleeing through the trees, branches clawing"
+      ],
+      "looks": [
+        "ripped casual clothes, survival mode each",
+        "hooded cloak and lantern each",
+        "overalls and a farmer's hat each"
+      ]
+    },
+    "awake vs. nightmare": {
+      "locs": [
+        "carnival haunted house entrance",
+        "carnival ferris wheel night neon",
+        "funfair ghost train entrance night"
+      ],
+      "poses": [
+        "both in theatrical costume, striking a dramatic tableau",
+        "one swooning, the other catching them, Victorian-style",
+        "both doing a monster mash, capes flying"
+      ],
+      "looks": [
+        "Rocky Horror-style corset, fishnets and a tailcoat each",
+        "vampire cape and fangs each",
+        "ringmaster tailcoat and mask each"
+      ]
+    },
+    "alone vs. together in the dark": {
+      "locs": [
+        "old mill exterior night",
+        "church at night single candle interior",
+        "submarine interior cramped red light"
+      ],
+      "poses": [
+        "one reading from an ancient book, the other lighting a candle",
+        "both triumphant, one foot on the defeated monster",
+        "both sweating at the controls as alarms ring"
+      ],
+      "looks": [
+        "sailor's uniform and oilskin coat each",
+        "dark robes and a crucifix each",
+        "bathing suit and sunglasses each"
+      ]
+    },
+    "scream vs. silence": {
+      "locs": [
+        "theatre balcony single spotlight",
+        "carnival haunted house entrance",
+        "carnival ferris wheel night neon"
+      ],
+      "poses": [
+        "one swooning, the other catching them, Victorian-style",
+        "both doing a monster mash, capes flying",
+        "both arms raised in a B-movie climax pose"
+      ],
+      "looks": [
+        "vampire cape and fangs each",
+        "ringmaster tailcoat and mask each",
+        "gothic ball gown and top hat each"
+      ]
+    },
+    "real vs. hallucination": {
+      "locs": [
+        "funfair ghost train entrance night",
+        "theatre balcony single spotlight",
+        "carnival haunted house entrance"
+      ],
+      "poses": [
+        "both doing a monster mash, capes flying",
+        "both arms raised in a B-movie climax pose",
+        "both in theatrical costume, striking a dramatic tableau"
+      ],
+      "looks": [
+        "ringmaster tailcoat and mask each",
+        "gothic ball gown and top hat each",
+        "Rocky Horror-style corset, fishnets and a tailcoat each"
+      ]
+    },
+    "trust vs. betrayal": {
+      "locs": [
+        "basement stairs single overhead bulb",
+        "1950s suburban basement den night",
+        "1950s laboratory neon green glow"
+      ],
+      "poses": [
+        "one raising a syringe triumphantly, the other bound and aghast",
+        "both arguing furiously over the creation between them",
+        "one with arms thrown wide, cackling over the switch, the other recoiling"
+      ],
+      "looks": [
+        "tailcoat and cape with a hunched assistant's vest each",
+        "Victorian doctor's coat and stethoscope each",
+        "white lab coat and wild hair each, goggles pushed up"
+      ]
+    },
+    "past vs. haunting": {
+      "locs": [
+        "fog-covered graveyard at night practical light",
+        "dark forest practical torch light",
+        "swamp at night fog mist"
+      ],
+      "poses": [
+        "both frozen as a hand bursts from the ground",
+        "both fleeing through the trees, branches clawing",
+        "both creeping forward, torch held high"
+      ],
+      "looks": [
+        "hooded cloak and lantern each",
+        "overalls and a farmer's hat each",
+        "camping gear and muddy boots each"
+      ]
+    },
+    "escape vs. trapped": {
+      "locs": [
+        "rural highway night headlights",
+        "abandoned factory night emergency exit green",
+        "power plant cooling towers night"
+      ],
+      "poses": [
+        "both climbing a ladder, glancing back in terror",
+        "both back to back, surrounded, weapons raised",
+        "both sprinting down the corridor, doors slamming behind"
+      ],
+      "looks": [
+        "work overalls and hard hats each",
+        "trench coat and fedora each",
+        "police uniform and trench coat each"
+      ]
+    }
+  },
+  "locs": [
+    "1950s laboratory neon green glow",
+    "mad scientist laboratory bubbling tubes",
+    "underground bunker red emergency lighting",
+    "crumbling mansion exterior night",
+    "vintage observatory dome night",
+    "clock tower night storm",
+    "basement stairs single overhead bulb",
+    "1950s suburban basement den night",
+    "abandoned space station corridor flickering",
+    "alien landscape matte painting sky",
+    "B-movie spaceship control room retro",
+    "retro rocket ship launch pad",
+    "alien mothership interior command deck retro blinking",
+    "crashed UFO crater smoking",
+    "nuclear test site restricted zone",
+    "research station arctic storm outside",
+    "radio tower blink red night",
+    "suburban house at night exterior one light on",
+    "1950s American street night creature approaching",
+    "small town main street deserted night",
+    "trailer park night one porch light",
+    "gas station night rural isolated",
+    "1960s diner night fluorescent",
+    "motel room at night single lamp",
+    "roadside motel neon sign night",
+    "bowling alley at night empty",
+    "bowling alley night creature in shadows 1950s",
+    "high school gymnasium prom night monster gate-crashes",
+    "school corridor at night lockers",
+    "drive-in movie screen at night",
+    "drive-in car park night",
+    "fog-covered graveyard at night practical light",
+    "dark forest practical torch light",
+    "swamp at night fog mist",
+    "cave entrance dark night fog",
+    "corn field at night path through",
+    "giant spider web forest clearing victims wrapped",
+    "carnival haunted house entrance",
+    "carnival ferris wheel night neon",
+    "funfair ghost train entrance night",
+    "theatre balcony single spotlight",
+    "abandoned factory night emergency exit green",
+    "power plant cooling towers night",
+    "quarry at night floodlit",
+    "warehouse district night one lamp",
+    "rooftop at night city glow below",
+    "hospital corridor night emergency red",
+    "rural highway night headlights",
+    "beach at night bonfirelight",
+    "pier at night fog horn",
+    "lighthouse beam night fog",
+    "old mill exterior night",
+    "church at night single candle interior",
+    "submarine interior cramped red light"
+  ],
+  "poses": [
+    "one with arms thrown wide, cackling over the switch, the other recoiling",
+    "both leaning over a bubbling flask, eyes gleaming with discovery",
+    "one raising a syringe triumphantly, the other bound and aghast",
+    "both arguing furiously over the creation between them",
+    "both pointing ray guns at something off-frame, chins high",
+    "both examining a glowing object, baffled",
+    "one in a silver costume menacing the other, who stands defiant",
+    "both bracing against the blast, hair blown back",
+    "both peering out through the curtains, flashlight in hand",
+    "both running toward the camera, something looming behind",
+    "both backing slowly away, hands raised",
+    "one shielding the other, both defiant",
+    "both mid-scream, caught in a freeze frame",
+    "one hiding behind the other, peeking over a shoulder",
+    "both dancing, oblivious to what lurks behind",
+    "both gaping at something huge, popcorn spilling",
+    "both creeping forward, torch held high",
+    "one pulling the other out of the muck",
+    "both frozen as a hand bursts from the ground",
+    "both fleeing through the trees, branches clawing",
+    "both in theatrical costume, striking a dramatic tableau",
+    "one swooning, the other catching them, Victorian-style",
+    "both doing a monster mash, capes flying",
+    "both arms raised in a B-movie climax pose",
+    "both sprinting down the corridor, doors slamming behind",
+    "one carrying the other, rescued from danger",
+    "both climbing a ladder, glancing back in terror",
+    "both back to back, surrounded, weapons raised",
+    "both standing at the edge, staring at something rising from the water",
+    "one reading from an ancient book, the other lighting a candle",
+    "both triumphant, one foot on the defeated monster",
+    "both sweating at the controls as alarms ring"
+  ],
+  "looks": [
+    "white lab coat and wild hair each, goggles pushed up",
+    "singed lab coat and rubber gloves each",
+    "tailcoat and cape with a hunched assistant's vest each",
+    "Victorian doctor's coat and stethoscope each",
+    "silver jumpsuit and fishbowl helmet each",
+    "retro space suit with chunky gloves each",
+    "tin-foil costume and antenna headband each",
+    "khaki military uniform each",
+    "pastel full-skirted dress and letterman jacket each",
+    "housewife dress and delivery uniform each",
+    "denim jeans and a white tee each, rebel style",
+    "sheriff's uniform and flowered dress each",
+    "prom gown and tuxedo each, pristine",
+    "torn prom dress and rumpled suit each",
+    "varsity jacket and cheerleader skirt each",
+    "pyjamas and slippers each, interrupted sleep",
+    "camping gear and muddy boots each",
+    "ripped casual clothes, survival mode each",
+    "hooded cloak and lantern each",
+    "overalls and a farmer's hat each",
+    "Rocky Horror-style corset, fishnets and a tailcoat each",
+    "vampire cape and fangs each",
+    "ringmaster tailcoat and mask each",
+    "gothic ball gown and top hat each",
+    "police uniform and trench coat each",
+    "nurse uniform and orderly whites each",
+    "work overalls and hard hats each",
+    "trench coat and fedora each",
+    "retro swimwear and sunglasses each",
+    "sailor's uniform and oilskin coat each",
+    "dark robes and a crucifix each",
+    "bathing suit and sunglasses each"
+  ],
+  "promptPrefix": "Vintage B-movie film still, Technicolor or grainy monochrome, theatrical lighting — ",
+  "promptSuffix": "A frame from a real 1950s–1970s genre film: theatrical, deliberately camp, rubber-suit monsters and painted backdrops. The subjects may be heroes, villains, mad scientists, creatures or aliens.",
+  "variantDirectives": [
+    "Wide set frame showing the whole painted backdrop, the figures small: ",
+    "Full-length theatrical pose, camp gesture carries the drama: ",
+    "Dramatic close-up lit from below, faces fill the frame: ",
+    "Stark high-contrast composition, one hard stage light, minimal detail: ",
+    "The set and creature effects dominate the frame, the figures secondary: ",
+    "Costume and monster suits take centre stage, the figures posed to show them: "
+  ],
+  "translations": {
+    "terror vs. desire": "the pull toward what frightens you most",
+    "alive vs. undead": "the question of what separates the living from those who only seem to be",
+    "human vs. other": "the moment recognition fails",
+    "run vs. stay": "the choice the body makes before the mind does",
+    "rational vs. irrational": "the argument reason loses",
+    "known vs. unknown": "the known world at the edge of the completely unknown",
+    "safety vs. dread": "the feeling that safety is temporary",
+    "victim vs. survivor": "the difference made only in retrospect",
+    "ordinary vs. monstrous": "the monster wearing a familiar face",
+    "love vs. survival": "what you would sacrifice for whom",
+    "science vs. nature": "the experiment that went further than intended",
+    "before vs. after": "the before and the after with the storm between",
+    "hunter vs. hunted": "the moment the roles reversed",
+    "awake vs. nightmare": "the uncertainty about which one this is",
+    "alone vs. together in the dark": "the company that makes darkness worse",
+    "scream vs. silence": "what the throat does when the mind shuts down",
+    "real vs. hallucination": "the unreliable evidence of your own senses",
+    "past vs. haunting": "the thing that followed you home"
+  },
+  "locTypes": {
+    "1950s laboratory neon green glow": "indoor",
+    "mad scientist laboratory bubbling tubes": "indoor",
+    "underground bunker red emergency lighting": "indoor",
+    "crumbling mansion exterior night": "outdoor",
+    "vintage observatory dome night": "indoor",
+    "clock tower night storm": "both",
+    "basement stairs single overhead bulb": "indoor",
+    "1950s suburban basement den night": "indoor",
+    "abandoned space station corridor flickering": "indoor",
+    "alien landscape matte painting sky": "outdoor",
+    "B-movie spaceship control room retro": "both",
+    "retro rocket ship launch pad": "outdoor",
+    "alien mothership interior command deck retro blinking": "indoor",
+    "crashed UFO crater smoking": "both",
+    "nuclear test site restricted zone": "outdoor",
+    "research station arctic storm outside": "indoor",
+    "radio tower blink red night": "both",
+    "suburban house at night exterior one light on": "outdoor",
+    "1950s American street night creature approaching": "both",
+    "small town main street deserted night": "both",
+    "trailer park night one porch light": "outdoor",
+    "gas station night rural isolated": "outdoor",
+    "1960s diner night fluorescent": "indoor",
+    "motel room at night single lamp": "both",
+    "roadside motel neon sign night": "both",
+    "bowling alley at night empty": "indoor",
+    "bowling alley night creature in shadows 1950s": "both",
+    "high school gymnasium prom night monster gate-crashes": "indoor",
+    "school corridor at night lockers": "indoor",
+    "drive-in movie screen at night": "outdoor",
+    "drive-in car park night": "both",
+    "fog-covered graveyard at night practical light": "outdoor",
+    "dark forest practical torch light": "both",
+    "swamp at night fog mist": "outdoor",
+    "cave entrance dark night fog": "outdoor",
+    "corn field at night path through": "outdoor",
+    "giant spider web forest clearing victims wrapped": "indoor",
+    "carnival haunted house entrance": "both",
+    "carnival ferris wheel night neon": "outdoor",
+    "funfair ghost train entrance night": "both",
+    "theatre balcony single spotlight": "indoor",
+    "abandoned factory night emergency exit green": "both",
+    "power plant cooling towers night": "outdoor",
+    "quarry at night floodlit": "outdoor",
+    "warehouse district night one lamp": "indoor",
+    "rooftop at night city glow below": "outdoor",
+    "hospital corridor night emergency red": "indoor",
+    "rural highway night headlights": "outdoor",
+    "beach at night bonfirelight": "outdoor",
+    "pier at night fog horn": "outdoor",
+    "lighthouse beam night fog": "outdoor",
+    "old mill exterior night": "both",
+    "church at night single candle interior": "indoor",
+    "submarine interior cramped red light": "indoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

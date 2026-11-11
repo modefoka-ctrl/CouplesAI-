@@ -1,0 +1,304 @@
+{
+  "id": "storm",
+  "name": "THE STORM",
+  "sub": "Before, During & the Silence After",
+  "color": "#4a4a6a",
+  "tensions": [
+    "before vs. after",
+    "calm vs. chaos",
+    "the warning vs. the arrival",
+    "shelter vs. exposure",
+    "power vs. fragility",
+    "the eye vs. the edge",
+    "held vs. broken",
+    "the sky vs. the earth",
+    "inevitable vs. preventable",
+    "the storm within vs. the storm without"
+  ],
+  "affinities": {
+    "before vs. after": {
+      "locs": [
+        "pre-storm sky bruised purple green light eerie flat calm",
+        "tornado alley Great Plains storm wall approaching vast",
+        "monsoon India storm wall approaching dust first"
+      ],
+      "poses": [
+        "both standing small, facing the wall of dark cloud",
+        "both leaning into the rising wind, hair streaming",
+        "both frozen as the light turns strange and green"
+      ],
+      "looks": [
+        "long coat and windswept scarf each",
+        "simple shirt and trousers whipped by the wind each",
+        "dark jacket and boots each"
+      ]
+    },
+    "calm vs. chaos": {
+      "locs": [
+        "storm aftermath debris calm eerie light",
+        "storm drain rushing water urban aftermath",
+        "storm abandoned car park flooding dramatic"
+      ],
+      "poses": [
+        "both stepping gingerly through the debris, quiet",
+        "both looking up as the sun cracks through the cloud",
+        "both holding each other, wet and silent"
+      ],
+      "looks": [
+        "damp coats and muddy boots each",
+        "torn sleeves and soaked hair each",
+        "waterproof jackets and rubber boots each"
+      ]
+    },
+    "the warning vs. the arrival": {
+      "locs": [
+        "Great Plains supercell storm rotating vast sky",
+        "Australian outback storm red dust approaching wall",
+        "dust storm haboob Arizona wall approaching"
+      ],
+      "poses": [
+        "both standing small, facing the wall of dark cloud",
+        "both leaning into the rising wind, hair streaming",
+        "both frozen as the light turns strange and green"
+      ],
+      "looks": [
+        "long coat and windswept scarf each",
+        "simple shirt and trousers whipped by the wind each",
+        "dark jacket and boots each"
+      ]
+    },
+    "shelter vs. exposure": {
+      "locs": [
+        "lightning strike plain night dramatic single bolt",
+        "storm electricity pylon lightning dramatic",
+        "storm shelter doorway waiting dramatic light"
+      ],
+      "poses": [
+        "both lit white for an instant by a flash",
+        "both huddled in the doorway, watching the sky",
+        "both gazing up, faces blue in the strobing light"
+      ],
+      "looks": [
+        "soaked shirts and bare arms each",
+        "dark hooded jackets each",
+        "simple dark clothes each"
+      ]
+    },
+    "power vs. fragility": {
+      "locs": [
+        "North Sea storm wave lighthouse spray dramatic",
+        "tropical storm eye wall approach Caribbean coast",
+        "Norwegian coast storm fjord dramatic wave"
+      ],
+      "poses": [
+        "both braced against a surge of spray",
+        "both clinging to a rail as a wave crashes",
+        "both drenched and exhilarated, arms out"
+      ],
+      "looks": [
+        "oilskin coat and sou'wester each",
+        "waterproof jacket, soaked each",
+        "heavy knit and rubber boots each"
+      ]
+    },
+    "the eye vs. the edge": {
+      "locs": [
+        "Scottish moor storm approaching dramatic light shafts",
+        "Patagonia storm mountain dramatic wind bent tree",
+        "Alpine storm lightning peak dramatic"
+      ],
+      "poses": [
+        "both hunched against the gale, coats flapping",
+        "both crossing the open ground, heads down",
+        "both gazing at the black sky as light breaks through"
+      ],
+      "looks": [
+        "wax jacket and walking boots each",
+        "hooded waterproof and scarf each",
+        "tweed coat and wool hat each"
+      ]
+    },
+    "held vs. broken": {
+      "locs": [
+        "storm rainbow aftermath dramatic light field",
+        "storm aftermath debris calm eerie light",
+        "storm drain rushing water urban aftermath"
+      ],
+      "poses": [
+        "both stepping gingerly through the debris, quiet",
+        "both looking up as the sun cracks through the cloud",
+        "both holding each other, wet and silent"
+      ],
+      "looks": [
+        "damp coats and muddy boots each",
+        "torn sleeves and soaked hair each",
+        "waterproof jackets and rubber boots each"
+      ]
+    },
+    "the sky vs. the earth": {
+      "locs": [
+        "Yorkshire moor storm approaching Brontë register",
+        "winter storm blizzard white out reduced visibility",
+        "Scottish moor storm approaching dramatic light shafts"
+      ],
+      "poses": [
+        "both hunched against the gale, coats flapping",
+        "both crossing the open ground, heads down",
+        "both gazing at the black sky as light breaks through"
+      ],
+      "looks": [
+        "wax jacket and walking boots each",
+        "hooded waterproof and scarf each",
+        "tweed coat and wool hat each"
+      ]
+    },
+    "inevitable vs. preventable": {
+      "locs": [
+        "pre-storm sky bruised purple green light eerie flat calm",
+        "tornado alley Great Plains storm wall approaching vast",
+        "monsoon India storm wall approaching dust first"
+      ],
+      "poses": [
+        "both standing small, facing the wall of dark cloud",
+        "both leaning into the rising wind, hair streaming",
+        "both frozen as the light turns strange and green"
+      ],
+      "looks": [
+        "long coat and windswept scarf each",
+        "simple shirt and trousers whipped by the wind each",
+        "dark jacket and boots each"
+      ]
+    },
+    "the storm within vs. the storm without": {
+      "locs": [
+        "storm light dramatic shafts through cloud dramatic countryside",
+        "Turner painting storm sea ship dramatic",
+        "storm tide surge coastal town dramatic"
+      ],
+      "poses": [
+        "both in full evening wear, hair whipping, utterly calm",
+        "both in wedding attire caught in the downpour, laughing",
+        "both dancing a slow waltz in the gale"
+      ],
+      "looks": [
+        "black tie and ball gown each",
+        "wedding dress and morning suit each",
+        "evening gown and tuxedo, soaked each"
+      ]
+    }
+  },
+  "locs": [
+    "pre-storm sky bruised purple green light eerie flat calm",
+    "tornado alley Great Plains storm wall approaching vast",
+    "monsoon India storm wall approaching dust first",
+    "Great Plains supercell storm rotating vast sky",
+    "Australian outback storm red dust approaching wall",
+    "dust storm haboob Arizona wall approaching",
+    "North Sea storm wave lighthouse spray dramatic",
+    "tropical storm eye wall approach Caribbean coast",
+    "Norwegian coast storm fjord dramatic wave",
+    "storm at sea container ship wave dramatic",
+    "Mediterranean storm dramatic cliff wave spray",
+    "Great Lakes storm grey vast water horizon",
+    "hurricane eye approach coast dramatic satellite",
+    "Cornish coast storm wave dramatic heritage",
+    "typhoon approach Hong Kong dramatic sky",
+    "Scottish moor storm approaching dramatic light shafts",
+    "Patagonia storm mountain dramatic wind bent tree",
+    "Alpine storm lightning peak dramatic",
+    "Yorkshire moor storm approaching Brontë register",
+    "winter storm blizzard white out reduced visibility",
+    "lightning strike plain night dramatic single bolt",
+    "storm electricity pylon lightning dramatic",
+    "storm shelter doorway waiting dramatic light",
+    "storm aftermath debris calm eerie light",
+    "storm drain rushing water urban aftermath",
+    "storm abandoned car park flooding dramatic",
+    "storm rainbow aftermath dramatic light field",
+    "storm light dramatic shafts through cloud dramatic countryside",
+    "Turner painting storm sea ship dramatic",
+    "storm tide surge coastal town dramatic"
+  ],
+  "poses": [
+    "both standing small, facing the wall of dark cloud",
+    "both leaning into the rising wind, hair streaming",
+    "both frozen as the light turns strange and green",
+    "both braced against a surge of spray",
+    "both clinging to a rail as a wave crashes",
+    "both drenched and exhilarated, arms out",
+    "both hunched against the gale, coats flapping",
+    "both crossing the open ground, heads down",
+    "both gazing at the black sky as light breaks through",
+    "both lit white for an instant by a flash",
+    "both huddled in the doorway, watching the sky",
+    "both gazing up, faces blue in the strobing light",
+    "both stepping gingerly through the debris, quiet",
+    "both looking up as the sun cracks through the cloud",
+    "both holding each other, wet and silent",
+    "both in full evening wear, hair whipping, utterly calm",
+    "both in wedding attire caught in the downpour, laughing",
+    "both dancing a slow waltz in the gale"
+  ],
+  "looks": [
+    "long coat and windswept scarf each",
+    "simple shirt and trousers whipped by the wind each",
+    "dark jacket and boots each",
+    "oilskin coat and sou'wester each",
+    "waterproof jacket, soaked each",
+    "heavy knit and rubber boots each",
+    "wax jacket and walking boots each",
+    "hooded waterproof and scarf each",
+    "tweed coat and wool hat each",
+    "soaked shirts and bare arms each",
+    "dark hooded jackets each",
+    "simple dark clothes each",
+    "damp coats and muddy boots each",
+    "torn sleeves and soaked hair each",
+    "waterproof jackets and rubber boots each",
+    "black tie and ball gown each",
+    "wedding dress and morning suit each",
+    "evening gown and tuxedo, soaked each"
+  ],
+  "promptSuffix": "Colour grade: the specific drama of storm light — bruised purple-green pre-storm, lightning white flash, aftermath golden eerie. Turner at sea. The sky is the subject.",
+  "translations": {
+    "before vs. after": "the before and the after with the storm between",
+    "power vs. fragility": "power that makes everything feel fragile"
+  },
+  "locTypes": {
+    "pre-storm sky bruised purple green light eerie flat calm": "both",
+    "tornado alley Great Plains storm wall approaching vast": "outdoor",
+    "monsoon India storm wall approaching dust first": "both",
+    "Great Plains supercell storm rotating vast sky": "outdoor",
+    "Australian outback storm red dust approaching wall": "both",
+    "dust storm haboob Arizona wall approaching": "both",
+    "North Sea storm wave lighthouse spray dramatic": "both",
+    "tropical storm eye wall approach Caribbean coast": "outdoor",
+    "Norwegian coast storm fjord dramatic wave": "outdoor",
+    "storm at sea container ship wave dramatic": "both",
+    "Mediterranean storm dramatic cliff wave spray": "outdoor",
+    "Great Lakes storm grey vast water horizon": "both",
+    "hurricane eye approach coast dramatic satellite": "outdoor",
+    "Cornish coast storm wave dramatic heritage": "outdoor",
+    "typhoon approach Hong Kong dramatic sky": "outdoor",
+    "Scottish moor storm approaching dramatic light shafts": "outdoor",
+    "Patagonia storm mountain dramatic wind bent tree": "outdoor",
+    "Alpine storm lightning peak dramatic": "both",
+    "Yorkshire moor storm approaching Brontë register": "outdoor",
+    "winter storm blizzard white out reduced visibility": "both",
+    "lightning strike plain night dramatic single bolt": "outdoor",
+    "storm electricity pylon lightning dramatic": "both",
+    "storm shelter doorway waiting dramatic light": "both",
+    "storm aftermath debris calm eerie light": "both",
+    "storm drain rushing water urban aftermath": "both",
+    "storm abandoned car park flooding dramatic": "both",
+    "storm rainbow aftermath dramatic light field": "both",
+    "storm light dramatic shafts through cloud dramatic countryside": "both",
+    "Turner painting storm sea ship dramatic": "both",
+    "storm tide surge coastal town dramatic": "outdoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "id": "mothersday",
+  "name": "MOTHER'S DAY",
+  "sub": "Love Across Generations",
+  "color": "#e8a0b4",
+  "tensions": [
+    "given vs. received",
+    "past vs. present",
+    "child vs. adult",
+    "remembered vs. present",
+    "gratitude vs. guilt",
+    "love vs. time",
+    "then vs. now",
+    "the mother vs. the woman",
+    "sacrifice vs. self",
+    "held vs. let go"
+  ],
+  "affinities": {
+    "given vs. received": {
+      "locs": [
+        "breakfast tray bedroom morning flowers",
+        "kitchen table Sunday morning flowers bouquet",
+        "front door flowers delivered morning"
+      ],
+      "poses": [
+        "one carrying a tray, the other still in bed, beaming",
+        "both at the table, one opening a card, tears of joy",
+        "one arranging a vase, the other watching fondly"
+      ],
+      "looks": [
+        "cosy dressing gown each",
+        "soft pyjamas and cardigan each",
+        "casual home clothes, hair loose each"
+      ]
+    },
+    "past vs. present": {
+      "locs": [
+        "dining table sunday lunch spring",
+        "restaurant sunday lunch spring afternoon",
+        "café sunday morning flowers on table"
+      ],
+      "poses": [
+        "both sharing a dessert, laughing",
+        "both raising glasses, eyes shining",
+        "both paging through an old album, heads together"
+      ],
+      "looks": [
+        "smart blouse and tailored trousers each",
+        "simple dress and blazer each",
+        "pastel shirt and cardigan each"
+      ]
+    },
+    "child vs. adult": {
+      "locs": [
+        "spring garden flowers morning sunlight",
+        "garden path spring flowers either side",
+        "garden gate spring morning arrival"
+      ],
+      "poses": [
+        "both walking arm in arm, blossoms in their hands",
+        "both sitting close, laughing at a shared memory",
+        "both bending over the petals, heads together"
+      ],
+      "looks": [
+        "soft floral dress and cardigan each",
+        "pale shirt and light trousers each",
+        "spring dress and sun hat each"
+      ]
+    },
+    "remembered vs. present": {
+      "locs": [
+        "living room spring afternoon light flowers",
+        "florist shop spring flowers selection morning",
+        "dining table sunday lunch spring"
+      ],
+      "poses": [
+        "both sharing a dessert, laughing",
+        "both raising glasses, eyes shining",
+        "both paging through an old album, heads together"
+      ],
+      "looks": [
+        "smart blouse and tailored trousers each",
+        "simple dress and blazer each",
+        "pastel shirt and cardigan each"
+      ]
+    },
+    "gratitude vs. guilt": {
+      "locs": [
+        "kitchen flowers vase morning light",
+        "bedroom morning light flowers bedside",
+        "sunday morning light through window flowers"
+      ],
+      "poses": [
+        "one carrying a tray, the other still in bed, beaming",
+        "both at the table, one opening a card, tears of joy",
+        "one arranging a vase, the other watching fondly"
+      ],
+      "looks": [
+        "cosy dressing gown each",
+        "soft pyjamas and cardigan each",
+        "casual home clothes, hair loose each"
+      ]
+    },
+    "love vs. time": {
+      "locs": [
+        "garden table lunch spring afternoon",
+        "home garden spring evening golden hour",
+        "conservatory morning light spring flowers"
+      ],
+      "poses": [
+        "both at a laid table, passing plates",
+        "both lifting a pot of tea, laughing",
+        "both leaning back in their chairs in the sun"
+      ],
+      "looks": [
+        "floral dress and linen jacket each",
+        "light shirt and sleeveless dress each",
+        "pastel top and cotton trousers each"
+      ]
+    },
+    "then vs. now": {
+      "locs": [
+        "restaurant sunday lunch spring afternoon",
+        "café sunday morning flowers on table",
+        "living room spring afternoon light flowers"
+      ],
+      "poses": [
+        "both sharing a dessert, laughing",
+        "both raising glasses, eyes shining",
+        "both paging through an old album, heads together"
+      ],
+      "looks": [
+        "smart blouse and tailored trousers each",
+        "simple dress and blazer each",
+        "pastel shirt and cardigan each"
+      ]
+    },
+    "the mother vs. the woman": {
+      "locs": [
+        "porch steps spring morning flowers",
+        "park spring afternoon flowers blooming",
+        "garden bench spring afternoon flowers"
+      ],
+      "poses": [
+        "both walking arm in arm, blossoms in their hands",
+        "both sitting close, laughing at a shared memory",
+        "both bending over the petals, heads together"
+      ],
+      "looks": [
+        "soft floral dress and cardigan each",
+        "pale shirt and light trousers each",
+        "spring dress and sun hat each"
+      ]
+    },
+    "sacrifice vs. self": {
+      "locs": [
+        "breakfast tray bedroom morning flowers",
+        "kitchen table Sunday morning flowers bouquet",
+        "front door flowers delivered morning"
+      ],
+      "poses": [
+        "one carrying a tray, the other still in bed, beaming",
+        "both at the table, one opening a card, tears of joy",
+        "one arranging a vase, the other watching fondly"
+      ],
+      "looks": [
+        "cosy dressing gown each",
+        "soft pyjamas and cardigan each",
+        "casual home clothes, hair loose each"
+      ]
+    },
+    "held vs. let go": {
+      "locs": [
+        "garden table lunch spring afternoon",
+        "home garden spring evening golden hour",
+        "conservatory morning light spring flowers"
+      ],
+      "poses": [
+        "both at a laid table, passing plates",
+        "both lifting a pot of tea, laughing",
+        "both leaning back in their chairs in the sun"
+      ],
+      "looks": [
+        "floral dress and linen jacket each",
+        "light shirt and sleeveless dress each",
+        "pastel top and cotton trousers each"
+      ]
+    }
+  },
+  "locs": [
+    "spring garden flowers morning sunlight",
+    "garden path spring flowers either side",
+    "garden gate spring morning arrival",
+    "porch steps spring morning flowers",
+    "park spring afternoon flowers blooming",
+    "garden bench spring afternoon flowers",
+    "garden table lunch spring afternoon",
+    "home garden spring evening golden hour",
+    "conservatory morning light spring flowers",
+    "breakfast tray bedroom morning flowers",
+    "kitchen table Sunday morning flowers bouquet",
+    "front door flowers delivered morning",
+    "kitchen flowers vase morning light",
+    "bedroom morning light flowers bedside",
+    "sunday morning light through window flowers",
+    "dining table sunday lunch spring",
+    "restaurant sunday lunch spring afternoon",
+    "café sunday morning flowers on table",
+    "living room spring afternoon light flowers",
+    "florist shop spring flowers selection morning"
+  ],
+  "poses": [
+    "both walking arm in arm, blossoms in their hands",
+    "both sitting close, laughing at a shared memory",
+    "both bending over the petals, heads together",
+    "both at a laid table, passing plates",
+    "both lifting a pot of tea, laughing",
+    "both leaning back in their chairs in the sun",
+    "one carrying a tray, the other still in bed, beaming",
+    "both at the table, one opening a card, tears of joy",
+    "one arranging a vase, the other watching fondly",
+    "both sharing a dessert, laughing",
+    "both raising glasses, eyes shining",
+    "both paging through an old album, heads together"
+  ],
+  "looks": [
+    "soft floral dress and cardigan each",
+    "pale shirt and light trousers each",
+    "spring dress and sun hat each",
+    "floral dress and linen jacket each",
+    "light shirt and sleeveless dress each",
+    "pastel top and cotton trousers each",
+    "cosy dressing gown each",
+    "soft pyjamas and cardigan each",
+    "casual home clothes, hair loose each",
+    "smart blouse and tailored trousers each",
+    "simple dress and blazer each",
+    "pastel shirt and cardigan each"
+  ],
+  "promptSuffix": "Colour grade: soft spring light — pale gold, blush, the fresh green of new growth. Warm and tender.",
+  "translations": {
+    "given vs. received": "the act of giving and the weight of receiving",
+    "child vs. adult": "who you were when she held you and who you are now",
+    "remembered vs. present": "the mother in the memory and the person in the room",
+    "gratitude vs. guilt": "thank you and I’m sorry in the same breath",
+    "love vs. time": "what the years do to love and what love does to years",
+    "the mother vs. the woman": "the role and the person beneath the role",
+    "sacrifice vs. self": "what was given up and what that cost",
+    "held vs. let go": "held back from the sea and almost letting go"
+  },
+  "locTypes": {
+    "spring garden flowers morning sunlight": "outdoor",
+    "garden path spring flowers either side": "outdoor",
+    "garden gate spring morning arrival": "outdoor",
+    "porch steps spring morning flowers": "outdoor",
+    "park spring afternoon flowers blooming": "outdoor",
+    "garden bench spring afternoon flowers": "outdoor",
+    "garden table lunch spring afternoon": "outdoor",
+    "home garden spring evening golden hour": "indoor",
+    "conservatory morning light spring flowers": "both",
+    "breakfast tray bedroom morning flowers": "indoor",
+    "kitchen table Sunday morning flowers bouquet": "indoor",
+    "front door flowers delivered morning": "outdoor",
+    "kitchen flowers vase morning light": "indoor",
+    "bedroom morning light flowers bedside": "indoor",
+    "sunday morning light through window flowers": "both",
+    "dining table sunday lunch spring": "both",
+    "restaurant sunday lunch spring afternoon": "indoor",
+    "café sunday morning flowers on table": "indoor",
+    "living room spring afternoon light flowers": "indoor",
+    "florist shop spring flowers selection morning": "both"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

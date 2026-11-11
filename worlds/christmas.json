@@ -1,0 +1,279 @@
+{
+  "id": "christmas",
+  "name": "CHRISTMAS",
+  "sub": "Candlelight, Snow & the Return Home",
+  "color": "#8b0000",
+  "tensions": [
+    "joy vs. longing",
+    "warmth vs. cold",
+    "together vs. absent",
+    "magic vs. commercial",
+    "childhood vs. adulthood",
+    "giving vs. receiving",
+    "sacred vs. secular",
+    "expectation vs. reality",
+    "home vs. elsewhere",
+    "past vs. present"
+  ],
+  "affinities": {
+    "joy vs. longing": {
+      "locs": [
+        "snow exterior house christmas lights evening",
+        "snow street christmas lights evening town",
+        "christmas window shop lights snow exterior"
+      ],
+      "poses": [
+        "both bundled up, catching snowflakes",
+        "both walking arm in arm in the falling snow",
+        "both pulling a small fir tree on a sledge"
+      ],
+      "looks": [
+        "chunky coat, hat and scarf each",
+        "wool coat and red gloves each",
+        "padded jacket and bobble hat each"
+      ]
+    },
+    "warmth vs. cold": {
+      "locs": [
+        "snowy landscape christmas day quiet",
+        "christmas tree farm choosing morning snow",
+        "snow exterior house christmas lights evening"
+      ],
+      "poses": [
+        "both bundled up, catching snowflakes",
+        "both walking arm in arm in the falling snow",
+        "both pulling a small fir tree on a sledge"
+      ],
+      "looks": [
+        "chunky coat, hat and scarf each",
+        "wool coat and red gloves each",
+        "padded jacket and bobble hat each"
+      ]
+    },
+    "together vs. absent": {
+      "locs": [
+        "train station christmas arrival reunion",
+        "airport arrivals christmas reunion"
+      ],
+      "poses": [
+        "both hugging tightly, bags dropped at their feet",
+        "one running into the other's arms",
+        "both laughing and crying at the door"
+      ],
+      "looks": [
+        "travelling coat and scarf each",
+        "winter coat and tired smile each",
+        "long coat with a suitcase each"
+      ]
+    },
+    "magic vs. commercial": {
+      "locs": [
+        "christmas market stall mulled wine lights winter",
+        "carol singing exterior night lanterns",
+        "christmas fair outdoor stalls lights winter"
+      ],
+      "poses": [
+        "both clutching steaming mugs, cheeks red",
+        "both singing from a shared sheet, mouths open",
+        "both holding candles, faces glowing"
+      ],
+      "looks": [
+        "long winter coat and woollen scarf each",
+        "wool hat and thick gloves each",
+        "dark coat with a festive brooch each"
+      ]
+    },
+    "childhood vs. adulthood": {
+      "locs": [
+        "christmas tree lights interior night warm",
+        "fireplace stockings interior christmas eve night",
+        "christmas morning unwrapping living room"
+      ],
+      "poses": [
+        "both kneeling, tearing at wrapping paper",
+        "both curled on the sofa, tangled in fairy lights",
+        "both hanging a bauble on the same branch, laughing"
+      ],
+      "looks": [
+        "matching knitted jumpers each",
+        "cosy pyjamas and thick socks each",
+        "festive cardigan and woolly socks each"
+      ]
+    },
+    "giving vs. receiving": {
+      "locs": [
+        "bedroom christmas morning first light",
+        "christmas tree lights interior night warm",
+        "fireplace stockings interior christmas eve night"
+      ],
+      "poses": [
+        "both kneeling, tearing at wrapping paper",
+        "both curled on the sofa, tangled in fairy lights",
+        "both hanging a bauble on the same branch, laughing"
+      ],
+      "looks": [
+        "matching knitted jumpers each",
+        "cosy pyjamas and thick socks each",
+        "festive cardigan and woolly socks each"
+      ]
+    },
+    "sacred vs. secular": {
+      "locs": [
+        "church midnight mass candles christmas eve",
+        "chapel candles christmas eve service",
+        "pub christmas eve fire interior warm"
+      ],
+      "poses": [
+        "both clutching steaming mugs, cheeks red",
+        "both singing from a shared sheet, mouths open",
+        "both holding candles, faces glowing"
+      ],
+      "looks": [
+        "long winter coat and woollen scarf each",
+        "wool hat and thick gloves each",
+        "dark coat with a festive brooch each"
+      ]
+    },
+    "expectation vs. reality": {
+      "locs": [
+        "kitchen christmas cooking morning steam",
+        "christmas table set dinner candles formal",
+        "christmas dinner table full family afternoon"
+      ],
+      "poses": [
+        "both stirring and tasting, flour on their noses",
+        "both raising glasses over a laden table",
+        "both pulling a cracker, grinning"
+      ],
+      "looks": [
+        "festive apron over smart clothes each",
+        "velvet dress and dark suit each",
+        "paper crown and best clothes each"
+      ]
+    },
+    "home vs. elsewhere": {
+      "locs": [
+        "airport arrivals christmas reunion",
+        "train station christmas arrival reunion"
+      ],
+      "poses": [
+        "both hugging tightly, bags dropped at their feet",
+        "one running into the other's arms",
+        "both laughing and crying at the door"
+      ],
+      "looks": [
+        "travelling coat and scarf each",
+        "winter coat and tired smile each",
+        "long coat with a suitcase each"
+      ]
+    },
+    "past vs. present": {
+      "locs": [
+        "christmas morning unwrapping living room",
+        "bedroom christmas morning first light",
+        "christmas tree lights interior night warm"
+      ],
+      "poses": [
+        "both kneeling, tearing at wrapping paper",
+        "both curled on the sofa, tangled in fairy lights",
+        "both hanging a bauble on the same branch, laughing"
+      ],
+      "looks": [
+        "matching knitted jumpers each",
+        "cosy pyjamas and thick socks each",
+        "festive cardigan and woolly socks each"
+      ]
+    }
+  },
+  "locs": [
+    "christmas tree lights interior night warm",
+    "fireplace stockings interior christmas eve night",
+    "christmas morning unwrapping living room",
+    "bedroom christmas morning first light",
+    "snow exterior house christmas lights evening",
+    "snow street christmas lights evening town",
+    "christmas window shop lights snow exterior",
+    "snowy landscape christmas day quiet",
+    "christmas tree farm choosing morning snow",
+    "christmas market stall mulled wine lights winter",
+    "carol singing exterior night lanterns",
+    "christmas fair outdoor stalls lights winter",
+    "church midnight mass candles christmas eve",
+    "chapel candles christmas eve service",
+    "pub christmas eve fire interior warm",
+    "kitchen christmas cooking morning steam",
+    "christmas table set dinner candles formal",
+    "christmas dinner table full family afternoon",
+    "train station christmas arrival reunion",
+    "airport arrivals christmas reunion"
+  ],
+  "poses": [
+    "both kneeling, tearing at wrapping paper",
+    "both curled on the sofa, tangled in fairy lights",
+    "both hanging a bauble on the same branch, laughing",
+    "both bundled up, catching snowflakes",
+    "both walking arm in arm in the falling snow",
+    "both pulling a small fir tree on a sledge",
+    "both clutching steaming mugs, cheeks red",
+    "both singing from a shared sheet, mouths open",
+    "both holding candles, faces glowing",
+    "both stirring and tasting, flour on their noses",
+    "both raising glasses over a laden table",
+    "both pulling a cracker, grinning",
+    "both hugging tightly, bags dropped at their feet",
+    "one running into the other's arms",
+    "both laughing and crying at the door"
+  ],
+  "looks": [
+    "matching knitted jumpers each",
+    "cosy pyjamas and thick socks each",
+    "festive cardigan and woolly socks each",
+    "chunky coat, hat and scarf each",
+    "wool coat and red gloves each",
+    "padded jacket and bobble hat each",
+    "long winter coat and woollen scarf each",
+    "wool hat and thick gloves each",
+    "dark coat with a festive brooch each",
+    "festive apron over smart clothes each",
+    "velvet dress and dark suit each",
+    "paper crown and best clothes each",
+    "travelling coat and scarf each",
+    "winter coat and tired smile each",
+    "long coat with a suitcase each"
+  ],
+  "promptSuffix": "Colour grade: deep red, gold, warm candlelight — the palette of Christmas done with warmth and restraint. Firelight, fairy lights, the cold blue of snow outside.",
+  "translations": {
+    "magic vs. commercial": "the wonder and the receipt",
+    "giving vs. receiving": "the gift and who it was really for",
+    "sacred vs. secular": "the meaning kept and the meaning lost",
+    "expectation vs. reality": "the christmas morning and the christmas morning imagined",
+    "home vs. elsewhere": "the place you left and the place you can’t find"
+  },
+  "locTypes": {
+    "christmas tree lights interior night warm": "indoor",
+    "fireplace stockings interior christmas eve night": "indoor",
+    "christmas morning unwrapping living room": "indoor",
+    "bedroom christmas morning first light": "indoor",
+    "snow exterior house christmas lights evening": "outdoor",
+    "snow street christmas lights evening town": "outdoor",
+    "christmas window shop lights snow exterior": "outdoor",
+    "snowy landscape christmas day quiet": "outdoor",
+    "christmas tree farm choosing morning snow": "outdoor",
+    "christmas market stall mulled wine lights winter": "outdoor",
+    "carol singing exterior night lanterns": "outdoor",
+    "christmas fair outdoor stalls lights winter": "outdoor",
+    "church midnight mass candles christmas eve": "indoor",
+    "chapel candles christmas eve service": "indoor",
+    "pub christmas eve fire interior warm": "indoor",
+    "kitchen christmas cooking morning steam": "indoor",
+    "christmas table set dinner candles formal": "both",
+    "christmas dinner table full family afternoon": "both",
+    "train station christmas arrival reunion": "outdoor",
+    "airport arrivals christmas reunion": "outdoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

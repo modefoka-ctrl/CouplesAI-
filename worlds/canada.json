@@ -1,0 +1,277 @@
+{
+  "id": "canada",
+  "name": "THE CANADA",
+  "sub": "Ice Roads, Northern Light & Vast Silence",
+  "color": "#2a5c8a",
+  "tensions": [
+    "vastness vs. intimacy",
+    "isolation vs. connection",
+    "wilderness vs. civilisation",
+    "ice vs. warmth",
+    "the north vs. the south",
+    "staying vs. leaving",
+    "French vs. English",
+    "the land vs. the city",
+    "winter vs. the idea of summer",
+    "silence vs. the sound of distance"
+  ],
+  "affinities": {
+    "vastness vs. intimacy": {
+      "locs": [
+        "northern lights aurora borealis vast dark sky lake",
+        "ice road frozen lake truck headlights vast night",
+        "Churchill Manitoba polar bear tundra twilight"
+      ],
+      "poses": [
+        "both tiny and still beneath the glowing sky, faces lit",
+        "both walking together into the vast white, breath steaming",
+        "both huddled close, wrapped against the cold"
+      ],
+      "looks": [
+        "heavy parka with a fur-trimmed hood each",
+        "insulated overalls and thick mittens each",
+        "thermal layers and wool toque each"
+      ]
+    },
+    "isolation vs. connection": {
+      "locs": [
+        "Yukon wilderness log cabin smoke rising winter",
+        "Iqaluit Arctic settlement winter dark noon",
+        "northern lights aurora borealis vast dark sky lake"
+      ],
+      "poses": [
+        "both walking together into the vast white, breath steaming",
+        "both huddled close, wrapped against the cold",
+        "both tiny and still beneath the glowing sky, faces lit"
+      ],
+      "looks": [
+        "insulated overalls and thick mittens each",
+        "thermal layers and wool toque each",
+        "heavy parka with a fur-trimmed hood each"
+      ]
+    },
+    "wilderness vs. civilisation": {
+      "locs": [
+        "Quebec City Old Town winter snow lanterns cobblestone",
+        "Niagara Falls frozen winter mist",
+        "Toronto winter street snow CN Tower behind"
+      ],
+      "poses": [
+        "both strolling arm in arm, steam rising from their breath",
+        "both laughing as snow falls on their shoulders",
+        "both pausing at a corner, heads tilted toward the lights"
+      ],
+      "looks": [
+        "wool coat toque and scarf each",
+        "puffer jacket and boots each",
+        "long down coat and fur hat each"
+      ]
+    },
+    "ice vs. warmth": {
+      "locs": [
+        "Banff frozen lake mountain reflection winter",
+        "Whistler ski run empty dawn fresh snow",
+        "Canadian Rockies glacier valley vast"
+      ],
+      "poses": [
+        "both on the ice, sharing a thermos, laughing",
+        "both carrying skis over their shoulders at sunrise",
+        "both gazing up at the peaks, bundled in layers"
+      ],
+      "looks": [
+        "ski jackets and goggles each",
+        "bright puffer and toque each",
+        "technical shell and gloves each"
+      ]
+    },
+    "the north vs. the south": {
+      "locs": [
+        "ice road frozen lake truck headlights vast night",
+        "Churchill Manitoba polar bear tundra twilight",
+        "Yukon wilderness log cabin smoke rising winter"
+      ],
+      "poses": [
+        "both huddled close, wrapped against the cold",
+        "both tiny and still beneath the glowing sky, faces lit",
+        "both walking together into the vast white, breath steaming"
+      ],
+      "looks": [
+        "thermal layers and wool toque each",
+        "heavy parka with a fur-trimmed hood each",
+        "insulated overalls and thick mittens each"
+      ]
+    },
+    "staying vs. leaving": {
+      "locs": [
+        "Pacific coast British Columbia old growth forest fog",
+        "Cape Breton coastal cliff Atlantic fog",
+        "Newfoundland outport fishing village fog"
+      ],
+      "poses": [
+        "both standing at the edge as the mist rolls in",
+        "both leaning into the damp wind, coats flapping",
+        "both sitting close on a wet rock, silent"
+      ],
+      "looks": [
+        "oilskin jacket and rubber boots each",
+        "waterproof shell and wool jumper each",
+        "heavy knit sweater and boots each"
+      ]
+    },
+    "French vs. English": {
+      "locs": [
+        "Montreal alley winter snow graffiti",
+        "Vancouver harbour night mountains snow behind",
+        "Quebec City Old Town winter snow lanterns cobblestone"
+      ],
+      "poses": [
+        "both laughing as snow falls on their shoulders",
+        "both pausing at a corner, heads tilted toward the lights",
+        "both strolling arm in arm, steam rising from their breath"
+      ],
+      "looks": [
+        "puffer jacket and boots each",
+        "long down coat and fur hat each",
+        "wool coat toque and scarf each"
+      ]
+    },
+    "the land vs. the city": {
+      "locs": [
+        "Prairie flat horizon grain elevator sky vast",
+        "Arctic tundra vast flat horizon midnight sun",
+        "Lake Louise turquoise impossible colour summer"
+      ],
+      "poses": [
+        "both under the enormous sky, arms around each other",
+        "both walking a long path toward the horizon",
+        "both sitting at the water's edge, feet bare"
+      ],
+      "looks": [
+        "plaid shirt and jeans each",
+        "light jacket and hiking boots each",
+        "canvas jacket and sun hats each"
+      ]
+    },
+    "winter vs. the idea of summer": {
+      "locs": [
+        "Algonquin Park autumn reflection lake",
+        "Prairie flat horizon grain elevator sky vast",
+        "Arctic tundra vast flat horizon midnight sun"
+      ],
+      "poses": [
+        "both walking a long path toward the horizon",
+        "both sitting at the water's edge, feet bare",
+        "both under the enormous sky, arms around each other"
+      ],
+      "looks": [
+        "light jacket and hiking boots each",
+        "canvas jacket and sun hats each",
+        "plaid shirt and jeans each"
+      ]
+    },
+    "silence vs. the sound of distance": {
+      "locs": [
+        "Banff frozen lake mountain reflection winter",
+        "Whistler ski run empty dawn fresh snow",
+        "Canadian Rockies glacier valley vast"
+      ],
+      "poses": [
+        "both carrying skis over their shoulders at sunrise",
+        "both gazing up at the peaks, bundled in layers",
+        "both on the ice, sharing a thermos, laughing"
+      ],
+      "looks": [
+        "bright puffer and toque each",
+        "technical shell and gloves each",
+        "ski jackets and goggles each"
+      ]
+    }
+  },
+  "locs": [
+    "northern lights aurora borealis vast dark sky lake",
+    "ice road frozen lake truck headlights vast night",
+    "Churchill Manitoba polar bear tundra twilight",
+    "Yukon wilderness log cabin smoke rising winter",
+    "Iqaluit Arctic settlement winter dark noon",
+    "Quebec City Old Town winter snow lanterns cobblestone",
+    "Niagara Falls frozen winter mist",
+    "Toronto winter street snow CN Tower behind",
+    "Montreal alley winter snow graffiti",
+    "Vancouver harbour night mountains snow behind",
+    "Pacific coast British Columbia old growth forest fog",
+    "Cape Breton coastal cliff Atlantic fog",
+    "Newfoundland outport fishing village fog",
+    "Prairie flat horizon grain elevator sky vast",
+    "Arctic tundra vast flat horizon midnight sun",
+    "Lake Louise turquoise impossible colour summer",
+    "Algonquin Park autumn reflection lake",
+    "Banff frozen lake mountain reflection winter",
+    "Whistler ski run empty dawn fresh snow",
+    "Canadian Rockies glacier valley vast"
+  ],
+  "poses": [
+    "both tiny and still beneath the glowing sky, faces lit",
+    "both walking together into the vast white, breath steaming",
+    "both huddled close, wrapped against the cold",
+    "both strolling arm in arm, steam rising from their breath",
+    "both laughing as snow falls on their shoulders",
+    "both pausing at a corner, heads tilted toward the lights",
+    "both standing at the edge as the mist rolls in",
+    "both leaning into the damp wind, coats flapping",
+    "both sitting close on a wet rock, silent",
+    "both under the enormous sky, arms around each other",
+    "both walking a long path toward the horizon",
+    "both sitting at the water's edge, feet bare",
+    "both on the ice, sharing a thermos, laughing",
+    "both carrying skis over their shoulders at sunrise",
+    "both gazing up at the peaks, bundled in layers"
+  ],
+  "looks": [
+    "heavy parka with a fur-trimmed hood each",
+    "insulated overalls and thick mittens each",
+    "thermal layers and wool toque each",
+    "wool coat toque and scarf each",
+    "puffer jacket and boots each",
+    "long down coat and fur hat each",
+    "oilskin jacket and rubber boots each",
+    "waterproof shell and wool jumper each",
+    "heavy knit sweater and boots each",
+    "plaid shirt and jeans each",
+    "light jacket and hiking boots each",
+    "canvas jacket and sun hats each",
+    "ski jackets and goggles each",
+    "bright puffer and toque each",
+    "technical shell and gloves each"
+  ],
+  "promptSuffix": "Colour grade: aurora green, ice blue, Pacific grey, Quebec stone, prairie gold. Vast and cold.",
+  "translations": {
+    "staying vs. leaving": "the held moment before staying or leaving"
+  },
+  "locTypes": {
+    "northern lights aurora borealis vast dark sky lake": "outdoor",
+    "ice road frozen lake truck headlights vast night": "outdoor",
+    "Churchill Manitoba polar bear tundra twilight": "indoor",
+    "Yukon wilderness log cabin smoke rising winter": "both",
+    "Iqaluit Arctic settlement winter dark noon": "both",
+    "Quebec City Old Town winter snow lanterns cobblestone": "both",
+    "Niagara Falls frozen winter mist": "both",
+    "Toronto winter street snow CN Tower behind": "outdoor",
+    "Montreal alley winter snow graffiti": "both",
+    "Vancouver harbour night mountains snow behind": "outdoor",
+    "Pacific coast British Columbia old growth forest fog": "outdoor",
+    "Cape Breton coastal cliff Atlantic fog": "outdoor",
+    "Newfoundland outport fishing village fog": "outdoor",
+    "Prairie flat horizon grain elevator sky vast": "outdoor",
+    "Arctic tundra vast flat horizon midnight sun": "outdoor",
+    "Lake Louise turquoise impossible colour summer": "outdoor",
+    "Algonquin Park autumn reflection lake": "outdoor",
+    "Banff frozen lake mountain reflection winter": "outdoor",
+    "Whistler ski run empty dawn fresh snow": "both",
+    "Canadian Rockies glacier valley vast": "outdoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

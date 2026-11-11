@@ -1,0 +1,274 @@
+{
+  "id": "diwali",
+  "name": "DIWALI",
+  "sub": "Light Over Darkness",
+  "color": "#e8920a",
+  "tensions": [
+    "light vs. darkness",
+    "good vs. evil",
+    "together vs. apart",
+    "old vs. new",
+    "sacred vs. festive",
+    "gift vs. gratitude",
+    "the diya vs. the dark",
+    "past vs. future",
+    "family vs. change",
+    "tradition vs. modernity"
+  ],
+  "affinities": {
+    "light vs. darkness": {
+      "locs": [
+        "rooftop fireworks diwali night city",
+        "diwali fireworks park night crowd",
+        "rooftop diyas city spread below diwali"
+      ],
+      "poses": [
+        "both gazing up, fireworks reflected in their eyes",
+        "both releasing a lantern into the dark",
+        "both on the edge, the city glowing below them"
+      ],
+      "looks": [
+        "silk saree and bandhgala suit each",
+        "indo-western fusion outfit each",
+        "deep jewel tones, gold embroidery each"
+      ]
+    },
+    "good vs. evil": {
+      "locs": [
+        "diwali lantern release night sky",
+        "street diwali lights procession night",
+        "temple diwali celebration lights evening"
+      ],
+      "poses": [
+        "both releasing a lantern into the dark",
+        "both on the edge, the city glowing below them",
+        "both gazing up, fireworks reflected in their eyes"
+      ],
+      "looks": [
+        "indo-western fusion outfit each",
+        "deep jewel tones, gold embroidery each",
+        "silk saree and bandhgala suit each"
+      ]
+    },
+    "together vs. apart": {
+      "locs": [
+        "home diwali lights decorations lanterns evening",
+        "home puja room diwali candles evening",
+        "home drawing room diwali decorations evening"
+      ],
+      "poses": [
+        "both at the altar, hands pressed together in prayer",
+        "both sharing sweets, laughing around a full table",
+        "both exchanging gifts, eyes bright"
+      ],
+      "looks": [
+        "embroidered kurta and silk saree each",
+        "gold-trimmed sherwani and lehenga each",
+        "jewel-toned silk each"
+      ]
+    },
+    "old vs. new": {
+      "locs": [
+        "diwali diyas lit doorstep rangoli night",
+        "rangoli design doorstep diwali morning",
+        "street rangoli competition diwali morning"
+      ],
+      "poses": [
+        "both crouched, carefully placing coloured powder",
+        "both lighting a row of small lamps, faces glowing",
+        "both standing back to admire their patterned floor"
+      ],
+      "looks": [
+        "cotton kurta and bright salwar each",
+        "simple festive saree and kurta each",
+        "embroidered tunic and churidar each"
+      ]
+    },
+    "sacred vs. festive": {
+      "locs": [
+        "traditional diwali puja table offerings",
+        "family home diwali gathering evening warm",
+        "community diwali celebration hall lights"
+      ],
+      "poses": [
+        "both sharing sweets, laughing around a full table",
+        "both exchanging gifts, eyes bright",
+        "both at the altar, hands pressed together in prayer"
+      ],
+      "looks": [
+        "gold-trimmed sherwani and lehenga each",
+        "jewel-toned silk each",
+        "embroidered kurta and silk saree each"
+      ]
+    },
+    "gift vs. gratitude": {
+      "locs": [
+        "market diwali sweets and lights shopping",
+        "sweet shop diwali selection morning",
+        "diwali lights market shopping evening"
+      ],
+      "poses": [
+        "both choosing sweets, tasting and grinning",
+        "both haggling cheerfully, arms full of lanterns",
+        "both walking hand in hand through glowing stalls"
+      ],
+      "looks": [
+        "casual kurta and jeans each",
+        "festive cotton dress and shirt each",
+        "bright salwar and waistcoat each"
+      ]
+    },
+    "the diya vs. the dark": {
+      "locs": [
+        "balcony diyas lit city lights below diwali",
+        "diwali diyas lit doorstep rangoli night",
+        "rangoli design doorstep diwali morning"
+      ],
+      "poses": [
+        "both lighting a row of small lamps, faces glowing",
+        "both standing back to admire their patterned floor",
+        "both crouched, carefully placing coloured powder"
+      ],
+      "looks": [
+        "simple festive saree and kurta each",
+        "embroidered tunic and churidar each",
+        "cotton kurta and bright salwar each"
+      ]
+    },
+    "past vs. future": {
+      "locs": [
+        "rooftop fireworks diwali night city",
+        "diwali fireworks park night crowd",
+        "rooftop diyas city spread below diwali"
+      ],
+      "poses": [
+        "both on the edge, the city glowing below them",
+        "both gazing up, fireworks reflected in their eyes",
+        "both releasing a lantern into the dark"
+      ],
+      "looks": [
+        "deep jewel tones, gold embroidery each",
+        "silk saree and bandhgala suit each",
+        "indo-western fusion outfit each"
+      ]
+    },
+    "family vs. change": {
+      "locs": [
+        "home diwali lights decorations lanterns evening",
+        "home puja room diwali candles evening",
+        "home drawing room diwali decorations evening"
+      ],
+      "poses": [
+        "both exchanging gifts, eyes bright",
+        "both at the altar, hands pressed together in prayer",
+        "both sharing sweets, laughing around a full table"
+      ],
+      "looks": [
+        "jewel-toned silk each",
+        "embroidered kurta and silk saree each",
+        "gold-trimmed sherwani and lehenga each"
+      ]
+    },
+    "tradition vs. modernity": {
+      "locs": [
+        "diwali mela fairground lights evening",
+        "market diwali sweets and lights shopping",
+        "sweet shop diwali selection morning"
+      ],
+      "poses": [
+        "both haggling cheerfully, arms full of lanterns",
+        "both walking hand in hand through glowing stalls",
+        "both choosing sweets, tasting and grinning"
+      ],
+      "looks": [
+        "festive cotton dress and shirt each",
+        "bright salwar and waistcoat each",
+        "casual kurta and jeans each"
+      ]
+    }
+  },
+  "locs": [
+    "home diwali lights decorations lanterns evening",
+    "home puja room diwali candles evening",
+    "home drawing room diwali decorations evening",
+    "traditional diwali puja table offerings",
+    "family home diwali gathering evening warm",
+    "community diwali celebration hall lights",
+    "diwali diyas lit doorstep rangoli night",
+    "rangoli design doorstep diwali morning",
+    "street rangoli competition diwali morning",
+    "balcony diyas lit city lights below diwali",
+    "market diwali sweets and lights shopping",
+    "sweet shop diwali selection morning",
+    "diwali lights market shopping evening",
+    "diwali mela fairground lights evening",
+    "rooftop fireworks diwali night city",
+    "diwali fireworks park night crowd",
+    "rooftop diyas city spread below diwali",
+    "diwali lantern release night sky",
+    "street diwali lights procession night",
+    "temple diwali celebration lights evening"
+  ],
+  "poses": [
+    "both at the altar, hands pressed together in prayer",
+    "both sharing sweets, laughing around a full table",
+    "both exchanging gifts, eyes bright",
+    "both crouched, carefully placing coloured powder",
+    "both lighting a row of small lamps, faces glowing",
+    "both standing back to admire their patterned floor",
+    "both choosing sweets, tasting and grinning",
+    "both haggling cheerfully, arms full of lanterns",
+    "both walking hand in hand through glowing stalls",
+    "both gazing up, fireworks reflected in their eyes",
+    "both releasing a lantern into the dark",
+    "both on the edge, the city glowing below them"
+  ],
+  "looks": [
+    "embroidered kurta and silk saree each",
+    "gold-trimmed sherwani and lehenga each",
+    "jewel-toned silk each",
+    "cotton kurta and bright salwar each",
+    "simple festive saree and kurta each",
+    "embroidered tunic and churidar each",
+    "casual kurta and jeans each",
+    "festive cotton dress and shirt each",
+    "bright salwar and waistcoat each",
+    "silk saree and bandhgala suit each",
+    "indo-western fusion outfit each",
+    "deep jewel tones, gold embroidery each"
+  ],
+  "promptSuffix": "Colour grade: deep jewel tones — emerald, ruby, sapphire, gold — the light of a thousand diyas. Warm firelight against deep night sky. Rich, luminous, celebratory.",
+  "translations": {
+    "gift vs. gratitude": "the sweet given and the feeling it carries",
+    "the diya vs. the dark": "the single flame and the darkness it addresses",
+    "family vs. change": "the table that stays the same and the people who don’t",
+    "tradition vs. modernity": "the old way and the new year"
+  },
+  "locTypes": {
+    "home diwali lights decorations lanterns evening": "indoor",
+    "home puja room diwali candles evening": "indoor",
+    "home drawing room diwali decorations evening": "indoor",
+    "traditional diwali puja table offerings": "both",
+    "family home diwali gathering evening warm": "indoor",
+    "community diwali celebration hall lights": "both",
+    "diwali diyas lit doorstep rangoli night": "outdoor",
+    "rangoli design doorstep diwali morning": "outdoor",
+    "street rangoli competition diwali morning": "outdoor",
+    "balcony diyas lit city lights below diwali": "both",
+    "market diwali sweets and lights shopping": "both",
+    "sweet shop diwali selection morning": "both",
+    "diwali lights market shopping evening": "both",
+    "diwali mela fairground lights evening": "both",
+    "rooftop fireworks diwali night city": "outdoor",
+    "diwali fireworks park night crowd": "outdoor",
+    "rooftop diyas city spread below diwali": "outdoor",
+    "diwali lantern release night sky": "both",
+    "street diwali lights procession night": "outdoor",
+    "temple diwali celebration lights evening": "both"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

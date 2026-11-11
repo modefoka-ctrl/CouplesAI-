@@ -317,10 +317,12 @@ function randomize(){
   // Pick tension
   var tensions=world.tensions||[];
   if(tensions.length) S.tension=pick(tensions);
-  // Pick loc, pose, look
-  if(world.locs&&world.locs.length) S.loc=pick(world.locs);
-  if(world.poses&&world.poses.length) S.pose=pick(world.poses);
-  if(world.looks&&world.looks.length) S.look=pick(world.looks);
+  // Pick loc, pose, look from the tension's matched set when it has one, so setting, action and wardrobe belong together
+  var aff=(world.affinities&&world.affinities[S.tension])||{};
+  var from=function(own,all){return (own&&own.length)?own:all;};
+  if(world.locs&&world.locs.length) S.loc=pick(from(aff.locs,world.locs));
+  if(world.poses&&world.poses.length) S.pose=pick(from(aff.poses,world.poses));
+  if(world.looks&&world.looks.length) S.look=pick(from(aff.looks,world.looks));
   // Pick lighting filtered by loc
   if(Math.random()>.3){
     var lpool=getLightingForLoc(S.loc);

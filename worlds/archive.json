@@ -1,0 +1,578 @@
+{
+  "id": "archive",
+  "name": "THE PHOTOGRAPH",
+  "sub": "Portraiture Across the Ages",
+  "color": "#8a7355",
+  "tensions": [
+    "formal vs. candid",
+    "posed vs. caught",
+    "preserved vs. faded",
+    "public face vs. private moment",
+    "stiff vs. tender",
+    "the sitter vs. the subject",
+    "performance vs. presence",
+    "past vs. present",
+    "remembered vs. forgotten",
+    "the person vs. the image",
+    "together vs. separate in time",
+    "dignity vs. vulnerability",
+    "dressed up vs. undone",
+    "looking vs. looked at",
+    "light vs. shadow",
+    "known vs. unrecognised",
+    "held vs. released",
+    "the face given vs. the face kept",
+    "then vs. now",
+    "love vs. loss"
+  ],
+  "affinities": {
+    "formal vs. candid": {
+      "locs": [
+        "Victorian photographer studio painted garden backdrop",
+        "Victorian cabinet card studio velvet chair",
+        "Victorian studio painted landscape backdrop"
+      ],
+      "poses": [
+        "both formally posed, one seated, one standing behind",
+        "both in profile, facing each other with solemn faces",
+        "one holding a parasol, the other's hand resting on a column"
+      ],
+      "looks": [
+        "lace blouse and long skirt with a dark jacket each",
+        "striped blazer and boater hat each",
+        "white summer dress and linen suit each"
+      ]
+    },
+    "posed vs. caught": {
+      "locs": [
+        "1960s portrait studio soft focus colour",
+        "1960s snapshot garden party Kodak",
+        "1960s photobooth strip four frames"
+      ],
+      "poses": [
+        "both laughing, looking away from the camera",
+        "both mid-conversation, unaware of the lens",
+        "both caught off guard, mid-sentence"
+      ],
+      "looks": [
+        "mod mini dress and slim suit each",
+        "shift dress and cardigan each",
+        "polo neck and tailored trousers each"
+      ]
+    },
+    "preserved vs. faded": {
+      "locs": [
+        "daguerreotype studio 1850s painted backdrop column",
+        "early photography studio plate camera 1850s",
+        "Victorian parlour formal sitting 1860s"
+      ],
+      "poses": [
+        "both rigidly still, hands folded in laps, staring ahead",
+        "one seated, the other standing with a hand on the chair back",
+        "both slightly blurred, unable to hold still for the long exposure"
+      ],
+      "looks": [
+        "high-collared black dress and dark frock coat each",
+        "heavy wool coat and bonnet each",
+        "stiff white collar and buttoned waistcoat each"
+      ]
+    },
+    "public face vs. private moment": {
+      "locs": [
+        "1970s Polaroid instant kitchen casual",
+        "1970s family portrait velvet studio backdrop",
+        "1970s snapshot holiday beach Kodak"
+      ],
+      "poses": [
+        "both relaxed, laughing at something off-frame",
+        "both leaning on each other, easy and unposed",
+        "both squinting into the sun, arms around each other"
+      ],
+      "looks": [
+        "wide-lapel suit and maxi dress each",
+        "flared jeans and patterned shirt each",
+        "knitted tank top and corduroy trousers each"
+      ]
+    },
+    "stiff vs. tender": {
+      "locs": [
+        "1940s studio portrait wartime formal",
+        "1940s press photo studio flash powder",
+        "1940s wartime goodbye platform station"
+      ],
+      "poses": [
+        "both serious, looking straight into the lens",
+        "one holding the other's hand, composed and formal",
+        "both standing close, a quiet goodbye in their eyes"
+      ],
+      "looks": [
+        "utility dress and military uniform each",
+        "Sunday best coat and hat each",
+        "tailored suit and victory-roll hair each"
+      ]
+    },
+    "the sitter vs. the subject": {
+      "locs": [
+        "1920s glamour portrait studio dramatic light",
+        "1930s Hollywood studio portrait backdrop",
+        "1920s art deco portrait studio"
+      ],
+      "poses": [
+        "both glamorous and aloof, chins tilted to the light",
+        "both seated close, intimate and poised",
+        "one resting a chin on the other's shoulder, eyes to camera"
+      ],
+      "looks": [
+        "beaded flapper dress and dinner suit each",
+        "bias-cut satin gown and slim tuxedo each",
+        "sleek finger waves and pinstripe suit each"
+      ]
+    },
+    "performance vs. presence": {
+      "locs": [
+        "1980s portrait studio laser background",
+        "1980s snapshot disposable camera party",
+        "1980s passport photograph strip booth"
+      ],
+      "poses": [
+        "both striking a confident pose, shoulders squared",
+        "both laughing mid-party, flash-lit and red-eyed",
+        "both posed stiffly, looking proud"
+      ],
+      "looks": [
+        "power-shoulder dress and double-breasted suit each",
+        "neon sweatshirt and acid-wash jeans each",
+        "permed hair and pastel suit each"
+      ]
+    },
+    "past vs. present": {
+      "locs": [
+        "early 2000s digital camera party low resolution",
+        "2000s photo print kiosk portrait",
+        "2000s candid phone photograph first generation"
+      ],
+      "poses": [
+        "both leaning in for a selfie, arms outstretched",
+        "both captured mid-laugh, a little blurred",
+        "both posing with peace signs, grainy and low-resolution"
+      ],
+      "looks": [
+        "low-rise jeans and fitted tee each",
+        "hoodie and skinny jeans each",
+        "casual everyday clothes each"
+      ]
+    },
+    "remembered vs. forgotten": {
+      "locs": [
+        "Victorian conservatory glass light 1860s",
+        "cyanotype portrait early experimental",
+        "daguerreotype studio 1850s painted backdrop column"
+      ],
+      "poses": [
+        "one seated, the other standing with a hand on the chair back",
+        "both slightly blurred, unable to hold still for the long exposure",
+        "both rigidly still, hands folded in laps, staring ahead"
+      ],
+      "looks": [
+        "heavy wool coat and bonnet each",
+        "stiff white collar and buttoned waistcoat each",
+        "high-collared black dress and dark frock coat each"
+      ]
+    },
+    "the person vs. the image": {
+      "locs": [
+        "1990s disposable camera snapshot casual",
+        "1990s portrait studio soft focus",
+        "1990s photobooth mall strip"
+      ],
+      "poses": [
+        "both pulling faces at the camera, flash-lit",
+        "both slouched together, casual and deadpan",
+        "both squeezed into the frame, laughing"
+      ],
+      "looks": [
+        "slip dress and flannel shirt each",
+        "baggy jeans and baby tee each",
+        "chunky trainers and tracksuit each"
+      ]
+    },
+    "together vs. separate in time": {
+      "locs": [
+        "1950s colour portrait studio Kodachrome",
+        "1950s suburban garden snapshot summer",
+        "1950s school portrait individual backdrop"
+      ],
+      "poses": [
+        "both smiling brightly at the camera, close together",
+        "one's arm around the other, casual and cheerful",
+        "both seated, hands neatly folded, grinning"
+      ],
+      "looks": [
+        "full-skirted dress and sport coat each",
+        "polka dot blouse and cuffed trousers each",
+        "cardigan and pleated skirt each"
+      ]
+    },
+    "dignity vs. vulnerability": {
+      "locs": [
+        "1940s family portrait studio Sunday best",
+        "large format studio portrait 1940s sharp",
+        "black and white film portrait studio grain"
+      ],
+      "poses": [
+        "one holding the other's hand, composed and formal",
+        "both standing close, a quiet goodbye in their eyes",
+        "both serious, looking straight into the lens"
+      ],
+      "looks": [
+        "Sunday best coat and hat each",
+        "tailored suit and victory-roll hair each",
+        "utility dress and military uniform each"
+      ]
+    },
+    "dressed up vs. undone": {
+      "locs": [
+        "1930s press photograph studio flash",
+        "1930s documentary press photograph street",
+        "1920s glamour portrait studio dramatic light"
+      ],
+      "poses": [
+        "both seated close, intimate and poised",
+        "one resting a chin on the other's shoulder, eyes to camera",
+        "both glamorous and aloof, chins tilted to the light"
+      ],
+      "looks": [
+        "bias-cut satin gown and slim tuxedo each",
+        "sleek finger waves and pinstripe suit each",
+        "beaded flapper dress and dinner suit each"
+      ]
+    },
+    "looking vs. looked at": {
+      "locs": [
+        "1980s wedding portrait formal studio",
+        "35mm film grain portrait casual snapshot",
+        "1980s portrait studio laser background"
+      ],
+      "poses": [
+        "both laughing mid-party, flash-lit and red-eyed",
+        "both posed stiffly, looking proud",
+        "both striking a confident pose, shoulders squared"
+      ],
+      "looks": [
+        "neon sweatshirt and acid-wash jeans each",
+        "permed hair and pastel suit each",
+        "power-shoulder dress and double-breasted suit each"
+      ]
+    },
+    "light vs. shadow": {
+      "locs": [
+        "Edwardian seaside portrait studio pier",
+        "Edwardian country house drawing room formal",
+        "Edwardian portrait studio electric light early"
+      ],
+      "poses": [
+        "both in profile, facing each other with solemn faces",
+        "one holding a parasol, the other's hand resting on a column",
+        "both formally posed, one seated, one standing behind"
+      ],
+      "looks": [
+        "striped blazer and boater hat each",
+        "white summer dress and linen suit each",
+        "lace blouse and long skirt with a dark jacket each"
+      ]
+    },
+    "known vs. unrecognised": {
+      "locs": [
+        "1960s news photograph street candid",
+        "1960s photojournalism candid street",
+        "colour slide transparency 1960s portrait"
+      ],
+      "poses": [
+        "both mid-conversation, unaware of the lens",
+        "both caught off guard, mid-sentence",
+        "both laughing, looking away from the camera"
+      ],
+      "looks": [
+        "shift dress and cardigan each",
+        "polo neck and tailored trousers each",
+        "mod mini dress and slim suit each"
+      ]
+    },
+    "held vs. released": {
+      "locs": [
+        "1950s department store portrait studio",
+        "1950s news agency portrait flash",
+        "medium format portrait studio sharp"
+      ],
+      "poses": [
+        "one's arm around the other, casual and cheerful",
+        "both seated, hands neatly folded, grinning",
+        "both smiling brightly at the camera, close together"
+      ],
+      "looks": [
+        "polka dot blouse and cuffed trousers each",
+        "cardigan and pleated skirt each",
+        "full-skirted dress and sport coat each"
+      ]
+    },
+    "the face given vs. the face kept": {
+      "locs": [
+        "1990s school portrait blue gradient backdrop",
+        "1990s disposable camera snapshot casual",
+        "1990s portrait studio soft focus"
+      ],
+      "poses": [
+        "both slouched together, casual and deadpan",
+        "both squeezed into the frame, laughing",
+        "both pulling faces at the camera, flash-lit"
+      ],
+      "looks": [
+        "baggy jeans and baby tee each",
+        "chunky trainers and tracksuit each",
+        "slip dress and flannel shirt each"
+      ]
+    },
+    "then vs. now": {
+      "locs": [
+        "2010s instagram square portrait early",
+        "early 2000s digital camera party low resolution",
+        "2000s photo print kiosk portrait"
+      ],
+      "poses": [
+        "both captured mid-laugh, a little blurred",
+        "both posing with peace signs, grainy and low-resolution",
+        "both leaning in for a selfie, arms outstretched"
+      ],
+      "looks": [
+        "hoodie and skinny jeans each",
+        "casual everyday clothes each",
+        "low-rise jeans and fitted tee each"
+      ]
+    },
+    "love vs. loss": {
+      "locs": [
+        "1970s school photograph class outdoor",
+        "1970s documentary portrait natural light",
+        "instant Polaroid border white portrait"
+      ],
+      "poses": [
+        "both leaning on each other, easy and unposed",
+        "both squinting into the sun, arms around each other",
+        "both relaxed, laughing at something off-frame"
+      ],
+      "looks": [
+        "flared jeans and patterned shirt each",
+        "knitted tank top and corduroy trousers each",
+        "wide-lapel suit and maxi dress each"
+      ]
+    }
+  },
+  "locs": [
+    "daguerreotype studio 1850s painted backdrop column",
+    "early photography studio plate camera 1850s",
+    "Victorian parlour formal sitting 1860s",
+    "Victorian conservatory glass light 1860s",
+    "cyanotype portrait early experimental",
+    "Victorian photographer studio painted garden backdrop",
+    "Victorian cabinet card studio velvet chair",
+    "Victorian studio painted landscape backdrop",
+    "Edwardian seaside portrait studio pier",
+    "Edwardian country house drawing room formal",
+    "Edwardian portrait studio electric light early",
+    "sepia toned portrait formal studio",
+    "1920s glamour portrait studio dramatic light",
+    "1930s Hollywood studio portrait backdrop",
+    "1920s art deco portrait studio",
+    "1930s press photograph studio flash",
+    "1930s documentary press photograph street",
+    "1940s studio portrait wartime formal",
+    "1940s press photo studio flash powder",
+    "1940s wartime goodbye platform station",
+    "1940s family portrait studio Sunday best",
+    "large format studio portrait 1940s sharp",
+    "black and white film portrait studio grain",
+    "1950s colour portrait studio Kodachrome",
+    "1950s suburban garden snapshot summer",
+    "1950s school portrait individual backdrop",
+    "1950s department store portrait studio",
+    "1950s news agency portrait flash",
+    "medium format portrait studio sharp",
+    "1960s portrait studio soft focus colour",
+    "1960s snapshot garden party Kodak",
+    "1960s photobooth strip four frames",
+    "1960s news photograph street candid",
+    "1960s photojournalism candid street",
+    "colour slide transparency 1960s portrait",
+    "1970s Polaroid instant kitchen casual",
+    "1970s family portrait velvet studio backdrop",
+    "1970s snapshot holiday beach Kodak",
+    "1970s school photograph class outdoor",
+    "1970s documentary portrait natural light",
+    "instant Polaroid border white portrait",
+    "1980s portrait studio laser background",
+    "1980s snapshot disposable camera party",
+    "1980s passport photograph strip booth",
+    "1980s wedding portrait formal studio",
+    "35mm film grain portrait casual snapshot",
+    "1990s disposable camera snapshot casual",
+    "1990s portrait studio soft focus",
+    "1990s photobooth mall strip",
+    "1990s school portrait blue gradient backdrop",
+    "early 2000s digital camera party low resolution",
+    "2000s photo print kiosk portrait",
+    "2000s candid phone photograph first generation",
+    "2010s instagram square portrait early"
+  ],
+  "poses": [
+    "both rigidly still, hands folded in laps, staring ahead",
+    "one seated, the other standing with a hand on the chair back",
+    "both slightly blurred, unable to hold still for the long exposure",
+    "both formally posed, one seated, one standing behind",
+    "both in profile, facing each other with solemn faces",
+    "one holding a parasol, the other's hand resting on a column",
+    "both glamorous and aloof, chins tilted to the light",
+    "both seated close, intimate and poised",
+    "one resting a chin on the other's shoulder, eyes to camera",
+    "both serious, looking straight into the lens",
+    "one holding the other's hand, composed and formal",
+    "both standing close, a quiet goodbye in their eyes",
+    "both smiling brightly at the camera, close together",
+    "one's arm around the other, casual and cheerful",
+    "both seated, hands neatly folded, grinning",
+    "both laughing, looking away from the camera",
+    "both mid-conversation, unaware of the lens",
+    "both caught off guard, mid-sentence",
+    "both relaxed, laughing at something off-frame",
+    "both leaning on each other, easy and unposed",
+    "both squinting into the sun, arms around each other",
+    "both striking a confident pose, shoulders squared",
+    "both laughing mid-party, flash-lit and red-eyed",
+    "both posed stiffly, looking proud",
+    "both pulling faces at the camera, flash-lit",
+    "both slouched together, casual and deadpan",
+    "both squeezed into the frame, laughing",
+    "both leaning in for a selfie, arms outstretched",
+    "both captured mid-laugh, a little blurred",
+    "both posing with peace signs, grainy and low-resolution"
+  ],
+  "looks": [
+    "high-collared black dress and dark frock coat each",
+    "heavy wool coat and bonnet each",
+    "stiff white collar and buttoned waistcoat each",
+    "lace blouse and long skirt with a dark jacket each",
+    "striped blazer and boater hat each",
+    "white summer dress and linen suit each",
+    "beaded flapper dress and dinner suit each",
+    "bias-cut satin gown and slim tuxedo each",
+    "sleek finger waves and pinstripe suit each",
+    "utility dress and military uniform each",
+    "Sunday best coat and hat each",
+    "tailored suit and victory-roll hair each",
+    "full-skirted dress and sport coat each",
+    "polka dot blouse and cuffed trousers each",
+    "cardigan and pleated skirt each",
+    "mod mini dress and slim suit each",
+    "shift dress and cardigan each",
+    "polo neck and tailored trousers each",
+    "wide-lapel suit and maxi dress each",
+    "flared jeans and patterned shirt each",
+    "knitted tank top and corduroy trousers each",
+    "power-shoulder dress and double-breasted suit each",
+    "neon sweatshirt and acid-wash jeans each",
+    "permed hair and pastel suit each",
+    "slip dress and flannel shirt each",
+    "baggy jeans and baby tee each",
+    "chunky trainers and tracksuit each",
+    "low-rise jeans and fitted tee each",
+    "hoodie and skinny jeans each",
+    "casual everyday clothes each"
+  ],
+  "promptPrefix": "Authentic period portrait photograph, historically accurate to the era and photographic technology depicted — ",
+  "promptSuffix": "Period-accurate photographic format, lighting, costume and aesthetic throughout, as if genuinely taken then.",
+  "variantDirectives": [
+    "Wide period frame, the sitters small within the studio or street: ",
+    "Full-length period frame, posture and gesture carry the feeling: ",
+    "Tight period portrait, faces fill the frame: ",
+    "Stark single-light period composition, plain and minimal: ",
+    "The period setting dominates the frame, the sitters secondary: ",
+    "Period clothing takes centre stage, the sitters framed to show the dress: "
+  ],
+  "translations": {
+    "formal vs. candid": "the gap between the face prepared for the camera and the one caught without warning",
+    "posed vs. caught": "the difference between what was arranged and what happened",
+    "preserved vs. faded": "what the photograph kept and what it let go",
+    "public face vs. private moment": "the version given to the lens and the version that slipped through",
+    "stiff vs. tender": "the posture held for the exposure and the feeling underneath it",
+    "the sitter vs. the subject": "who came to be photographed and who the photograph found",
+    "performance vs. presence": "when the act drops and there is only the person",
+    "the person vs. the image": "what the camera recorded and what it missed entirely",
+    "together vs. separate in time": "two people in the same frame from different moments",
+    "dignity vs. vulnerability": "the composure maintained and the composure that almost broke",
+    "dressed up vs. undone": "the Sunday best and the person inside it",
+    "looking vs. looked at": "the eye behind the lens and the eye in front of it",
+    "known vs. unrecognised": "the face in the photograph that no one can name",
+    "held vs. released": "what the archive keeps and what it lets go",
+    "the face given vs. the face kept": "what was offered to the photographer and what was withheld"
+  },
+  "locTypes": {
+    "daguerreotype studio 1850s painted backdrop column": "indoor",
+    "early photography studio plate camera 1850s": "indoor",
+    "Victorian parlour formal sitting 1860s": "both",
+    "Victorian conservatory glass light 1860s": "both",
+    "cyanotype portrait early experimental": "both",
+    "Victorian photographer studio painted garden backdrop": "indoor",
+    "Victorian cabinet card studio velvet chair": "indoor",
+    "Victorian studio painted landscape backdrop": "indoor",
+    "Edwardian seaside portrait studio pier": "indoor",
+    "Edwardian country house drawing room formal": "indoor",
+    "Edwardian portrait studio electric light early": "indoor",
+    "sepia toned portrait formal studio": "indoor",
+    "1920s glamour portrait studio dramatic light": "indoor",
+    "1930s Hollywood studio portrait backdrop": "indoor",
+    "1920s art deco portrait studio": "indoor",
+    "1930s press photograph studio flash": "indoor",
+    "1930s documentary press photograph street": "outdoor",
+    "1940s studio portrait wartime formal": "indoor",
+    "1940s press photo studio flash powder": "indoor",
+    "1940s wartime goodbye platform station": "both",
+    "1940s family portrait studio Sunday best": "indoor",
+    "large format studio portrait 1940s sharp": "indoor",
+    "black and white film portrait studio grain": "indoor",
+    "1950s colour portrait studio Kodachrome": "indoor",
+    "1950s suburban garden snapshot summer": "outdoor",
+    "1950s school portrait individual backdrop": "indoor",
+    "1950s department store portrait studio": "indoor",
+    "1950s news agency portrait flash": "both",
+    "medium format portrait studio sharp": "indoor",
+    "1960s portrait studio soft focus colour": "indoor",
+    "1960s snapshot garden party Kodak": "outdoor",
+    "1960s photobooth strip four frames": "both",
+    "1960s news photograph street candid": "outdoor",
+    "1960s photojournalism candid street": "outdoor",
+    "colour slide transparency 1960s portrait": "both",
+    "1970s Polaroid instant kitchen casual": "indoor",
+    "1970s family portrait velvet studio backdrop": "indoor",
+    "1970s snapshot holiday beach Kodak": "outdoor",
+    "1970s school photograph class outdoor": "indoor",
+    "1970s documentary portrait natural light": "both",
+    "instant Polaroid border white portrait": "both",
+    "1980s portrait studio laser background": "indoor",
+    "1980s snapshot disposable camera party": "both",
+    "1980s passport photograph strip booth": "both",
+    "1980s wedding portrait formal studio": "indoor",
+    "35mm film grain portrait casual snapshot": "both",
+    "1990s disposable camera snapshot casual": "both",
+    "1990s portrait studio soft focus": "indoor",
+    "1990s photobooth mall strip": "both",
+    "1990s school portrait blue gradient backdrop": "indoor",
+    "early 2000s digital camera party low resolution": "both",
+    "2000s photo print kiosk portrait": "both",
+    "2000s candid phone photograph first generation": "both",
+    "2010s instagram square portrait early": "outdoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

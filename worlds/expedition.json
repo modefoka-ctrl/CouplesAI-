@@ -1,0 +1,339 @@
+{
+  "id": "expedition",
+  "name": "THE EXPEDITION",
+  "sub": "Lost Worlds, Impossible Geography & the Edge of the Map",
+  "color": "#1a6a4a",
+  "tensions": [
+    "known vs. unknown",
+    "discovery vs. intrusion",
+    "the map vs. the territory",
+    "the creature vs. the human",
+    "ancient vs. present",
+    "myth vs. reality",
+    "the explorer vs. the explored",
+    "wonder vs. danger",
+    "found vs. lost",
+    "the impossible vs. the real"
+  ],
+  "affinities": {
+    "known vs. unknown": {
+      "locs": [
+        "a vast cave glowing electric blue",
+        "a luminous sea bay glowing at night",
+        "a crystal cave of giant glittering geodes"
+      ],
+      "poses": [
+        "both small and awestruck on a ledge, faces lit blue",
+        "both wading through glowing water, trailing light behind",
+        "both reaching to touch a crystal taller than a house"
+      ],
+      "looks": [
+        "caving helmets with headlamps and muddy overalls each",
+        "waders and waterproof jackets each",
+        "expedition layers with gloves and ropes each"
+      ]
+    },
+    "discovery vs. intrusion": {
+      "locs": [
+        "a Victorian camp under strange towering trees",
+        "a canvas tent lit by lantern beside a vast skeleton",
+        "a map table at the edge of the known world"
+      ],
+      "poses": [
+        "both bending over a field notebook, sketching something huge",
+        "both peering at a giant bone through magnifying glasses",
+        "both pointing off the map into the unknown"
+      ],
+      "looks": [
+        "Victorian khaki jacket pith helmet and breeches each",
+        "tweed jacket and leather satchel each",
+        "long coat and explorer's hat each"
+      ]
+    },
+    "the map vs. the territory": {
+      "locs": [
+        "a sunken city of coral-covered columns",
+        "a deep sea vent field of glowing creatures",
+        "a flooded cave of impossible blue darkness"
+      ],
+      "poses": [
+        "both drifting down between the columns, lights sweeping",
+        "both pressed to a viewport as a vast creature passes",
+        "both signalling OK to each other in the dark water"
+      ],
+      "looks": [
+        "deep sea diving suit each",
+        "wetsuit and full dive gear each",
+        "pressure suit with a bubble helmet each"
+      ]
+    },
+    "the creature vs. the human": {
+      "locs": [
+        "a jungle clearing with a giant footprint filling with water",
+        "a canopy hung with an enormous woven nest",
+        "a riverbank scattered with giant eggshell"
+      ],
+      "poses": [
+        "both standing small inside the footprint, looking up",
+        "both climbing toward the nest on a rope",
+        "both crouched over a fragment taller than they are"
+      ],
+      "looks": [
+        "jungle expedition shirt and boots each",
+        "khaki field gear with a machete each",
+        "rain jacket and rope harness each"
+      ]
+    },
+    "ancient vs. present": {
+      "locs": [
+        "a jungle temple strangled by roots and vines",
+        "a cloud-forest city of terraces in mist",
+        "a library cave of ancient books and dripping water"
+      ],
+      "poses": [
+        "both stepping through a root-choked doorway",
+        "both brushing moss from a carved wall",
+        "both sweeping a torch over a mural of the lost people"
+      ],
+      "looks": [
+        "worn field jacket and canvas pack each",
+        "rain poncho and hiking boots each",
+        "explorer's vest with a notebook each"
+      ]
+    },
+    "myth vs. reality": {
+      "locs": [
+        "a chain of floating rock islands above the clouds",
+        "a sky island with waterfalls pouring into nothing",
+        "a rope bridge between drifting rocks"
+      ],
+      "poses": [
+        "both crossing the bridge, clothes whipping in the wind",
+        "both standing at the edge, the world far below",
+        "both leaping between two drifting rocks"
+      ],
+      "looks": [
+        "wind-whipped explorer coats and goggles each",
+        "climbing harness and warm layers each",
+        "scarves and leather gloves each"
+      ]
+    },
+    "the explorer vs. the explored": {
+      "locs": [
+        "a waterfall pouring upward into the sky",
+        "a huge door carved into a cliff of ancient stone",
+        "a vertical forest hanging from a cliff"
+      ],
+      "poses": [
+        "both staring up at the upside-down water",
+        "both pushing the great door open together",
+        "both rappelling beside the hanging trees"
+      ],
+      "looks": [
+        "technical expedition gear and helmets each",
+        "climbing jackets and chalk-dusted hands each",
+        "rope harnesses and backpacks each"
+      ]
+    },
+    "wonder vs. danger": {
+      "locs": [
+        "a volcano crater glowing with rivers of lava",
+        "a glacier cave of blue ice and cracking sounds",
+        "a thermal pool of steaming turquoise water"
+      ],
+      "poses": [
+        "both leaning over the crater edge, faces glowing orange",
+        "both edging along an ice ledge, roped together",
+        "both stepping back from the steam, laughing in shock"
+      ],
+      "looks": [
+        "heat-proof silver suit and visor each",
+        "insulated jackets and crampons each",
+        "fur-lined parka and goggles each"
+      ]
+    },
+    "found vs. lost": {
+      "locs": [
+        "a polar ice shelf under swirling green light",
+        "a high mountain ridge above the clouds",
+        "a white-out camp of tents half-buried in snow"
+      ],
+      "poses": [
+        "both huddled together, roped on the ridge",
+        "both trudging toward a tent through the storm",
+        "both gazing up at the colour above them, breath steaming"
+      ],
+      "looks": [
+        "expedition down suit and oxygen mask each",
+        "polar parka with fur hood each",
+        "insulated overalls and goggles each"
+      ]
+    },
+    "the impossible vs. the real": {
+      "locs": [
+        "an immense cavern with a tiny glowing city far below",
+        "a cave wall of animated ancient paintings",
+        "an underground ocean under a roof of stalactites"
+      ],
+      "poses": [
+        "both on a high ledge, pointing at the lights below",
+        "both pressing their hands to the glowing wall",
+        "both rowing a tiny boat across the black water"
+      ],
+      "looks": [
+        "caving gear and head torches each",
+        "waterproof layers and hard hats each",
+        "explorer coats and lanterns each"
+      ]
+    }
+  },
+  "locs": [
+    "a vast cave glowing electric blue",
+    "a luminous sea bay glowing at night",
+    "a crystal cave of giant glittering geodes",
+    "a Victorian camp under strange towering trees",
+    "a canvas tent lit by lantern beside a vast skeleton",
+    "a map table at the edge of the known world",
+    "a sunken city of coral-covered columns",
+    "a deep sea vent field of glowing creatures",
+    "a flooded cave of impossible blue darkness",
+    "a jungle clearing with a giant footprint filling with water",
+    "a canopy hung with an enormous woven nest",
+    "a riverbank scattered with giant eggshell",
+    "a jungle temple strangled by roots and vines",
+    "a cloud-forest city of terraces in mist",
+    "a library cave of ancient books and dripping water",
+    "a chain of floating rock islands above the clouds",
+    "a sky island with waterfalls pouring into nothing",
+    "a rope bridge between drifting rocks",
+    "a waterfall pouring upward into the sky",
+    "a huge door carved into a cliff of ancient stone",
+    "a vertical forest hanging from a cliff",
+    "a volcano crater glowing with rivers of lava",
+    "a glacier cave of blue ice and cracking sounds",
+    "a thermal pool of steaming turquoise water",
+    "a polar ice shelf under swirling green light",
+    "a high mountain ridge above the clouds",
+    "a white-out camp of tents half-buried in snow",
+    "an immense cavern with a tiny glowing city far below",
+    "a cave wall of animated ancient paintings",
+    "an underground ocean under a roof of stalactites"
+  ],
+  "poses": [
+    "both small and awestruck on a ledge, faces lit blue",
+    "both wading through glowing water, trailing light behind",
+    "both reaching to touch a crystal taller than a house",
+    "both bending over a field notebook, sketching something huge",
+    "both peering at a giant bone through magnifying glasses",
+    "both pointing off the map into the unknown",
+    "both drifting down between the columns, lights sweeping",
+    "both pressed to a viewport as a vast creature passes",
+    "both signalling OK to each other in the dark water",
+    "both standing small inside the footprint, looking up",
+    "both climbing toward the nest on a rope",
+    "both crouched over a fragment taller than they are",
+    "both stepping through a root-choked doorway",
+    "both brushing moss from a carved wall",
+    "both sweeping a torch over a mural of the lost people",
+    "both crossing the bridge, clothes whipping in the wind",
+    "both standing at the edge, the world far below",
+    "both leaping between two drifting rocks",
+    "both staring up at the upside-down water",
+    "both pushing the great door open together",
+    "both rappelling beside the hanging trees",
+    "both leaning over the crater edge, faces glowing orange",
+    "both edging along an ice ledge, roped together",
+    "both stepping back from the steam, laughing in shock",
+    "both huddled together, roped on the ridge",
+    "both trudging toward a tent through the storm",
+    "both gazing up at the colour above them, breath steaming",
+    "both on a high ledge, pointing at the lights below",
+    "both pressing their hands to the glowing wall",
+    "both rowing a tiny boat across the black water"
+  ],
+  "looks": [
+    "caving helmets with headlamps and muddy overalls each",
+    "waders and waterproof jackets each",
+    "expedition layers with gloves and ropes each",
+    "Victorian khaki jacket pith helmet and breeches each",
+    "tweed jacket and leather satchel each",
+    "long coat and explorer's hat each",
+    "deep sea diving suit each",
+    "wetsuit and full dive gear each",
+    "pressure suit with a bubble helmet each",
+    "jungle expedition shirt and boots each",
+    "khaki field gear with a machete each",
+    "rain jacket and rope harness each",
+    "worn field jacket and canvas pack each",
+    "rain poncho and hiking boots each",
+    "explorer's vest with a notebook each",
+    "wind-whipped explorer coats and goggles each",
+    "climbing harness and warm layers each",
+    "scarves and leather gloves each",
+    "technical expedition gear and helmets each",
+    "climbing jackets and chalk-dusted hands each",
+    "rope harnesses and backpacks each",
+    "heat-proof silver suit and visor each",
+    "insulated jackets and crampons each",
+    "fur-lined parka and goggles each",
+    "expedition down suit and oxygen mask each",
+    "polar parka with fur hood each",
+    "insulated overalls and goggles each",
+    "caving gear and head torches each",
+    "waterproof layers and hard hats each",
+    "explorer coats and lanterns each"
+  ],
+  "promptPrefix": "Documentary exploration photography at the edge of what is possible — impossible geography, lost worlds, fantastical natural phenomena, the sense of discovery of something that should not exist — ",
+  "promptSuffix": "The world in this image should feel like it should not exist: bioluminescent, impossible in scale, ancient beyond reckoning, or simply too beautiful to be real. The subjects are the witnesses. Their scale against the impossible makes the image.",
+  "variantDirectives": [
+    "Vast wide frame, the figures tiny against the impossible landscape: ",
+    "Full-length frame, wonder carried in posture and gesture: ",
+    "Tight close-up on faces lit by the strange light: ",
+    "Single strange light source, stark and minimal: ",
+    "The impossible place dominates the frame, the figures secondary: ",
+    "Expedition gear and clothing take centre stage, the figures framed to show them: "
+  ],
+  "translations": {
+    "known vs. unknown": "the known world at the edge of the completely unknown",
+    "ancient vs. present": "ancient stone and the present moment standing inside it",
+    "wonder vs. danger": "wonder and the danger that makes it real",
+    "found vs. lost": "found in the world and lost in it at the same time"
+  },
+  "locTypes": {
+    "a vast cave glowing electric blue": "both",
+    "a luminous sea bay glowing at night": "outdoor",
+    "a crystal cave of giant glittering geodes": "both",
+    "a Victorian camp under strange towering trees": "outdoor",
+    "a canvas tent lit by lantern beside a vast skeleton": "indoor",
+    "a map table at the edge of the known world": "both",
+    "a sunken city of coral-covered columns": "both",
+    "a deep sea vent field of glowing creatures": "outdoor",
+    "a flooded cave of impossible blue darkness": "both",
+    "a jungle clearing with a giant footprint filling with water": "outdoor",
+    "a canopy hung with an enormous woven nest": "outdoor",
+    "a riverbank scattered with giant eggshell": "outdoor",
+    "a jungle temple strangled by roots and vines": "outdoor",
+    "a cloud-forest city of terraces in mist": "outdoor",
+    "a library cave of ancient books and dripping water": "indoor",
+    "a chain of floating rock islands above the clouds": "outdoor",
+    "a sky island with waterfalls pouring into nothing": "outdoor",
+    "a rope bridge between drifting rocks": "outdoor",
+    "a waterfall pouring upward into the sky": "outdoor",
+    "a huge door carved into a cliff of ancient stone": "outdoor",
+    "a vertical forest hanging from a cliff": "outdoor",
+    "a volcano crater glowing with rivers of lava": "outdoor",
+    "a glacier cave of blue ice and cracking sounds": "outdoor",
+    "a thermal pool of steaming turquoise water": "both",
+    "a polar ice shelf under swirling green light": "outdoor",
+    "a high mountain ridge above the clouds": "outdoor",
+    "a white-out camp of tents half-buried in snow": "indoor",
+    "an immense cavern with a tiny glowing city far below": "both",
+    "a cave wall of animated ancient paintings": "both",
+    "an underground ocean under a roof of stalactites": "outdoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "within"
+  ]
+}

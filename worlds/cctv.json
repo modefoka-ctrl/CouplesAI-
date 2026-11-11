@@ -1,0 +1,305 @@
+{
+  "id": "cctv",
+  "name": "THE CCTV",
+  "sub": "Caught, Candid & Gloriously Human",
+  "color": "#5a5a3a",
+  "tensions": [
+    "caught vs. private",
+    "the camera vs. the moment",
+    "seen vs. unaware",
+    "public vs. private",
+    "the record vs. the feeling",
+    "surveilled vs. free",
+    "the accidental vs. the posed",
+    "the mundane vs. the extraordinary",
+    "the system vs. the human",
+    "watched vs. forgotten"
+  ],
+  "affinities": {
+    "caught vs. private": {
+      "locs": [
+        "a casino floor under the ceiling cameras",
+        "a casino corridor toward the exit",
+        "a casino lift"
+      ],
+      "poses": [
+        "both caught laughing helplessly at something off-camera",
+        "both caught mid-embrace, a reunion neither expected",
+        "both caught dancing with no music playing"
+      ],
+      "looks": [
+        "casual everyday clothes each caught unaware genuine",
+        "night out clothes each caught in unexpected moment",
+        "work clothes each caught off guard genuine"
+      ]
+    },
+    "the camera vs. the moment": {
+      "locs": [
+        "a supermarket aisle at midnight",
+        "a supermarket checkout",
+        "a cereal aisle"
+      ],
+      "poses": [
+        "both caught dancing with no music playing",
+        "both caught mid-argument that dissolves into a smile",
+        "both caught sharing a secret, heads close together"
+      ],
+      "looks": [
+        "night out clothes each caught in unexpected moment",
+        "work clothes each caught off guard genuine",
+        "gym clothes each caught mid-moment real"
+      ]
+    },
+    "seen vs. unaware": {
+      "locs": [
+        "a cash machine on a night street",
+        "a street corner at night",
+        "a petrol station forecourt at night"
+      ],
+      "poses": [
+        "both caught sharing a secret, heads close together",
+        "both caught in a first kiss, unaware of the lens",
+        "both caught celebrating, arms raised"
+      ],
+      "looks": [
+        "work clothes each caught off guard genuine",
+        "gym clothes each caught mid-moment real",
+        "travel clothes each caught in transit genuine"
+      ]
+    },
+    "public vs. private": {
+      "locs": [
+        "a bus shelter",
+        "a taxi back seat",
+        "an underground platform"
+      ],
+      "poses": [
+        "both caught celebrating, arms raised",
+        "both caught sitting in comfortable silence",
+        "both caught helping a stranger with a heavy bag"
+      ],
+      "looks": [
+        "gym clothes each caught mid-moment real",
+        "travel clothes each caught in transit genuine",
+        "date night clothes each caught in real moment"
+      ]
+    },
+    "the record vs. the feeling": {
+      "locs": [
+        "an airport arrivals hall",
+        "a train station platform",
+        "an upper deck of a bus"
+      ],
+      "poses": [
+        "both caught helping a stranger with a heavy bag",
+        "both caught reading the same page over a shoulder",
+        "both caught sprinting together, laughing"
+      ],
+      "looks": [
+        "travel clothes each caught in transit genuine",
+        "date night clothes each caught in real moment",
+        "hospital visit clothes each emotional genuine"
+      ]
+    },
+    "surveilled vs. free": {
+      "locs": [
+        "a ferry deck",
+        "a hospital corridor",
+        "a school corridor"
+      ],
+      "poses": [
+        "both caught sprinting together, laughing",
+        "both caught asleep leaning on each other",
+        "both caught mid-proposal, one on one knee"
+      ],
+      "looks": [
+        "date night clothes each caught in real moment",
+        "hospital visit clothes each emotional genuine",
+        "commuter clothes each caught human moment"
+      ]
+    },
+    "the accidental vs. the posed": {
+      "locs": [
+        "an office lift",
+        "a library",
+        "a fishmonger's counter"
+      ],
+      "poses": [
+        "both caught mid-proposal, one on one knee",
+        "both caught receiving good news, hands to mouths",
+        "both caught sharing headphones, swaying"
+      ],
+      "looks": [
+        "hospital visit clothes each emotional genuine",
+        "commuter clothes each caught human moment",
+        "casual morning clothes each caught early genuine"
+      ]
+    },
+    "the mundane vs. the extraordinary": {
+      "locs": [
+        "a market stall",
+        "a park at dusk",
+        "a beach lifeguard hut"
+      ],
+      "poses": [
+        "both caught sharing headphones, swaying",
+        "both caught pretending not to notice each other",
+        "both caught racing each other toward the exit"
+      ],
+      "looks": [
+        "commuter clothes each caught human moment",
+        "casual morning clothes each caught early genuine",
+        "smart casual each caught in something real"
+      ]
+    },
+    "the system vs. the human": {
+      "locs": [
+        "a gym",
+        "a café",
+        "a cinema foyer"
+      ],
+      "poses": [
+        "both caught racing each other toward the exit",
+        "both caught in an enormous hug, lifted off the floor",
+        "both caught whispering and giggling in a quiet place"
+      ],
+      "looks": [
+        "casual morning clothes each caught early genuine",
+        "smart casual each caught in something real",
+        "casual everyday clothes each caught unaware genuine"
+      ]
+    },
+    "watched vs. forgotten": {
+      "locs": [
+        "a bookshop",
+        "a museum gallery",
+        "a launderette at 3am"
+      ],
+      "poses": [
+        "both caught whispering and giggling in a quiet place",
+        "both caught cheering at something off-camera",
+        "both caught laughing helplessly at something off-camera"
+      ],
+      "looks": [
+        "smart casual each caught in something real",
+        "casual everyday clothes each caught unaware genuine",
+        "night out clothes each caught in unexpected moment"
+      ]
+    }
+  },
+  "locs": [
+    "a casino floor under the ceiling cameras",
+    "a casino corridor toward the exit",
+    "a casino lift",
+    "a supermarket aisle at midnight",
+    "a supermarket checkout",
+    "a cereal aisle",
+    "a cash machine on a night street",
+    "a street corner at night",
+    "a petrol station forecourt at night",
+    "a bus shelter",
+    "a taxi back seat",
+    "an underground platform",
+    "an airport arrivals hall",
+    "a train station platform",
+    "an upper deck of a bus",
+    "a ferry deck",
+    "a hospital corridor",
+    "a school corridor",
+    "an office lift",
+    "a library",
+    "a fishmonger's counter",
+    "a market stall",
+    "a park at dusk",
+    "a beach lifeguard hut",
+    "a gym",
+    "a café",
+    "a cinema foyer",
+    "a bookshop",
+    "a museum gallery",
+    "a launderette at 3am"
+  ],
+  "poses": [
+    "both caught laughing helplessly at something off-camera",
+    "both caught mid-embrace, a reunion neither expected",
+    "both caught dancing with no music playing",
+    "both caught mid-argument that dissolves into a smile",
+    "both caught sharing a secret, heads close together",
+    "both caught in a first kiss, unaware of the lens",
+    "both caught celebrating, arms raised",
+    "both caught sitting in comfortable silence",
+    "both caught helping a stranger with a heavy bag",
+    "both caught reading the same page over a shoulder",
+    "both caught sprinting together, laughing",
+    "both caught asleep leaning on each other",
+    "both caught mid-proposal, one on one knee",
+    "both caught receiving good news, hands to mouths",
+    "both caught sharing headphones, swaying",
+    "both caught pretending not to notice each other",
+    "both caught racing each other toward the exit",
+    "both caught in an enormous hug, lifted off the floor",
+    "both caught whispering and giggling in a quiet place",
+    "both caught cheering at something off-camera"
+  ],
+  "looks": [
+    "casual everyday clothes each caught unaware genuine",
+    "night out clothes each caught in unexpected moment",
+    "work clothes each caught off guard genuine",
+    "gym clothes each caught mid-moment real",
+    "travel clothes each caught in transit genuine",
+    "date night clothes each caught in real moment",
+    "hospital visit clothes each emotional genuine",
+    "commuter clothes each caught human moment",
+    "casual morning clothes each caught early genuine",
+    "smart casual each caught in something real"
+  ],
+  "promptPrefix": "Security camera or dashcam footage aesthetic — slightly grainy, fixed camera, timestamp in corner optional, the subjects completely unaware they are being filmed — ",
+  "promptSuffix": "This is candid surveillance footage of a genuinely human moment. The subjects do not know they are being filmed. The camera catches something real. Grainy, fixed camera, real.",
+  "variantDirectives": [
+    "Wide overhead camera view, the figures small within the frame: ",
+    "Fixed mid-distance camera, full bodies and gestures visible: ",
+    "Zoomed-in camera crop, faces fill the frame: ",
+    "Grainy single-angle view, stark and minimal: ",
+    "The location dominates the camera view, the figures secondary: ",
+    "The camera catches their clothes first, the figures framed head to toe: "
+  ],
+  "translations": {
+    "public vs. private": "public pressing against private"
+  },
+  "locTypes": {
+    "a casino floor under the ceiling cameras": "both",
+    "a casino corridor toward the exit": "indoor",
+    "a casino lift": "indoor",
+    "a supermarket aisle at midnight": "outdoor",
+    "a supermarket checkout": "indoor",
+    "a cereal aisle": "both",
+    "a cash machine on a night street": "outdoor",
+    "a street corner at night": "outdoor",
+    "a petrol station forecourt at night": "outdoor",
+    "a bus shelter": "outdoor",
+    "a taxi back seat": "outdoor",
+    "an underground platform": "outdoor",
+    "an airport arrivals hall": "indoor",
+    "a train station platform": "outdoor",
+    "an upper deck of a bus": "outdoor",
+    "a ferry deck": "outdoor",
+    "a hospital corridor": "indoor",
+    "a school corridor": "indoor",
+    "an office lift": "indoor",
+    "a library": "indoor",
+    "a fishmonger's counter": "both",
+    "a market stall": "outdoor",
+    "a park at dusk": "outdoor",
+    "a beach lifeguard hut": "outdoor",
+    "a gym": "indoor",
+    "a café": "indoor",
+    "a cinema foyer": "indoor",
+    "a bookshop": "indoor",
+    "a museum gallery": "indoor",
+    "a launderette at 3am": "indoor"
+  },
+  "connectors": [
+    "in",
+    "at"
+  ]
+}

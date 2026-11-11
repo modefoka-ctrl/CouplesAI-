@@ -1,0 +1,275 @@
+{
+  "id": "newyearseve",
+  "name": "NEW YEAR'S EVE",
+  "sub": "Midnight, Fireworks & the Turn",
+  "color": "#c8a800",
+  "tensions": [
+    "past vs. future",
+    "celebration vs. melancholy",
+    "midnight vs. morning",
+    "what was vs. what will be",
+    "together vs. the year alone",
+    "hope vs. resignation",
+    "the countdown vs. the silence after",
+    "old vs. new",
+    "held vs. released",
+    "the last vs. the first"
+  ],
+  "affinities": {
+    "past vs. future": {
+      "locs": [
+        "rooftop fireworks city view midnight countdown",
+        "rooftop small group midnight city glow",
+        "penthouse view fireworks midnight toast"
+      ],
+      "poses": [
+        "both counting down, arms around each other, sparks above",
+        "both kissing as the sky explodes behind",
+        "both toasting with glasses, faces lit"
+      ],
+      "looks": [
+        "black coat and sparkling scarf each",
+        "evening dress and tuxedo jacket each",
+        "midnight blue formal wear each"
+      ]
+    },
+    "celebration vs. melancholy": {
+      "locs": [
+        "beach bonfire new year midnight",
+        "quiet home midnight just two champagne",
+        "riverside fireworks midnight cold"
+      ],
+      "poses": [
+        "both sitting close, one resting on the other's shoulder",
+        "both wrapped in a blanket, watching the sky",
+        "both sharing a quiet toast, no one else around"
+      ],
+      "looks": [
+        "soft jumper and slippers each",
+        "cosy cardigan and jeans each",
+        "winter coat over party clothes each"
+      ]
+    },
+    "midnight vs. morning": {
+      "locs": [
+        "dawn new year morning aftermath quiet",
+        "beach bonfire new year midnight",
+        "quiet home midnight just two champagne"
+      ],
+      "poses": [
+        "both sitting close, one resting on the other's shoulder",
+        "both wrapped in a blanket, watching the sky",
+        "both sharing a quiet toast, no one else around"
+      ],
+      "looks": [
+        "soft jumper and slippers each",
+        "cosy cardigan and jeans each",
+        "winter coat over party clothes each"
+      ]
+    },
+    "what was vs. what will be": {
+      "locs": [
+        "bridge city fireworks river reflection midnight",
+        "harbour fireworks water reflection midnight",
+        "rooftop fireworks city view midnight countdown"
+      ],
+      "poses": [
+        "both counting down, arms around each other, sparks above",
+        "both kissing as the sky explodes behind",
+        "both toasting with glasses, faces lit"
+      ],
+      "looks": [
+        "black coat and sparkling scarf each",
+        "evening dress and tuxedo jacket each",
+        "midnight blue formal wear each"
+      ]
+    },
+    "together vs. the year alone": {
+      "locs": [
+        "riverside fireworks midnight cold",
+        "dawn new year morning aftermath quiet",
+        "beach bonfire new year midnight"
+      ],
+      "poses": [
+        "both sitting close, one resting on the other's shoulder",
+        "both wrapped in a blanket, watching the sky",
+        "both sharing a quiet toast, no one else around"
+      ],
+      "looks": [
+        "soft jumper and slippers each",
+        "cosy cardigan and jeans each",
+        "winter coat over party clothes each"
+      ]
+    },
+    "hope vs. resignation": {
+      "locs": [
+        "times square style crowd countdown night",
+        "city street midnight fireworks crowd",
+        "countdown clock public square midnight"
+      ],
+      "poses": [
+        "both lifted by the roar, arms high",
+        "both pushed together by the crowd, laughing",
+        "both gazing up at the clock, mouths open"
+      ],
+      "looks": [
+        "warm coat, hat and glitter makeup each",
+        "party hats and padded jackets each",
+        "scarves and colourful festive clothes each"
+      ]
+    },
+    "the countdown vs. the silence after": {
+      "locs": [
+        "city park fireworks crowd midnight",
+        "times square style crowd countdown night",
+        "city street midnight fireworks crowd"
+      ],
+      "poses": [
+        "both lifted by the roar, arms high",
+        "both pushed together by the crowd, laughing",
+        "both gazing up at the clock, mouths open"
+      ],
+      "looks": [
+        "warm coat, hat and glitter makeup each",
+        "party hats and padded jackets each",
+        "scarves and colourful festive clothes each"
+      ]
+    },
+    "old vs. new": {
+      "locs": [
+        "ballroom countdown midnight champagne",
+        "house party countdown midnight interior",
+        "pub midnight new year crowd interior"
+      ],
+      "poses": [
+        "both dancing close, glasses in hand",
+        "both clinking glasses, eyes locked",
+        "both laughing amid streamers and confetti"
+      ],
+      "looks": [
+        "sequin dress and dark suit each",
+        "glittering gown and bow tie each",
+        "gold lamé and black velvet each"
+      ]
+    },
+    "held vs. released": {
+      "locs": [
+        "countdown clock public square midnight",
+        "city park fireworks crowd midnight",
+        "times square style crowd countdown night"
+      ],
+      "poses": [
+        "both lifted by the roar, arms high",
+        "both pushed together by the crowd, laughing",
+        "both gazing up at the clock, mouths open"
+      ],
+      "looks": [
+        "warm coat, hat and glitter makeup each",
+        "party hats and padded jackets each",
+        "scarves and colourful festive clothes each"
+      ]
+    },
+    "the last vs. the first": {
+      "locs": [
+        "hotel bar new year midnight formal",
+        "theatre new year midnight performance",
+        "casino countdown midnight glamour"
+      ],
+      "poses": [
+        "both dancing close, glasses in hand",
+        "both clinking glasses, eyes locked",
+        "both laughing amid streamers and confetti"
+      ],
+      "looks": [
+        "sequin dress and dark suit each",
+        "glittering gown and bow tie each",
+        "gold lamé and black velvet each"
+      ]
+    }
+  },
+  "locs": [
+    "rooftop fireworks city view midnight countdown",
+    "rooftop small group midnight city glow",
+    "penthouse view fireworks midnight toast",
+    "bridge city fireworks river reflection midnight",
+    "harbour fireworks water reflection midnight",
+    "ballroom countdown midnight champagne",
+    "house party countdown midnight interior",
+    "pub midnight new year crowd interior",
+    "hotel bar new year midnight formal",
+    "theatre new year midnight performance",
+    "casino countdown midnight glamour",
+    "restaurant midnight countdown champagne toast",
+    "times square style crowd countdown night",
+    "city street midnight fireworks crowd",
+    "countdown clock public square midnight",
+    "city park fireworks crowd midnight",
+    "beach bonfire new year midnight",
+    "quiet home midnight just two champagne",
+    "riverside fireworks midnight cold",
+    "dawn new year morning aftermath quiet"
+  ],
+  "poses": [
+    "both counting down, arms around each other, sparks above",
+    "both kissing as the sky explodes behind",
+    "both toasting with glasses, faces lit",
+    "both dancing close, glasses in hand",
+    "both clinking glasses, eyes locked",
+    "both laughing amid streamers and confetti",
+    "both lifted by the roar, arms high",
+    "both pushed together by the crowd, laughing",
+    "both gazing up at the clock, mouths open",
+    "both sitting close, one resting on the other's shoulder",
+    "both wrapped in a blanket, watching the sky",
+    "both sharing a quiet toast, no one else around"
+  ],
+  "looks": [
+    "black coat and sparkling scarf each",
+    "evening dress and tuxedo jacket each",
+    "midnight blue formal wear each",
+    "sequin dress and dark suit each",
+    "glittering gown and bow tie each",
+    "gold lamé and black velvet each",
+    "warm coat, hat and glitter makeup each",
+    "party hats and padded jackets each",
+    "scarves and colourful festive clothes each",
+    "soft jumper and slippers each",
+    "cosy cardigan and jeans each",
+    "winter coat over party clothes each"
+  ],
+  "promptSuffix": "Colour grade: gold, silver, midnight blue — the palette of New Year’s Eve. Fireworks above, champagne in hand, the city lit up. Glamorous, slightly melancholy, full of possibility.",
+  "translations": {
+    "what was vs. what will be": "the year closing and the year that hasn’t started yet",
+    "hope vs. resignation": "the difference between one more cup and the last",
+    "the countdown vs. the silence after": "midnight and the twelve seconds that follow",
+    "held vs. released": "what the archive keeps and what it lets go",
+    "the last vs. the first": "the last moment of the year and the first"
+  },
+  "locTypes": {
+    "rooftop fireworks city view midnight countdown": "outdoor",
+    "rooftop small group midnight city glow": "outdoor",
+    "penthouse view fireworks midnight toast": "outdoor",
+    "bridge city fireworks river reflection midnight": "outdoor",
+    "harbour fireworks water reflection midnight": "outdoor",
+    "ballroom countdown midnight champagne": "indoor",
+    "house party countdown midnight interior": "indoor",
+    "pub midnight new year crowd interior": "indoor",
+    "hotel bar new year midnight formal": "indoor",
+    "theatre new year midnight performance": "indoor",
+    "casino countdown midnight glamour": "indoor",
+    "restaurant midnight countdown champagne toast": "indoor",
+    "times square style crowd countdown night": "outdoor",
+    "city street midnight fireworks crowd": "outdoor",
+    "countdown clock public square midnight": "indoor",
+    "city park fireworks crowd midnight": "outdoor",
+    "beach bonfire new year midnight": "outdoor",
+    "quiet home midnight just two champagne": "indoor",
+    "riverside fireworks midnight cold": "outdoor",
+    "dawn new year morning aftermath quiet": "both"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

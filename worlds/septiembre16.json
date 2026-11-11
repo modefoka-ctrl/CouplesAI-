@@ -1,0 +1,280 @@
+{
+  "id": "septiembre16",
+  "name": "SEPTIEMBRE 16",
+  "sub": "El Grito & La Independencia",
+  "color": "#006847",
+  "tensions": [
+    "pride vs. history",
+    "past vs. present",
+    "freedom vs. memory",
+    "celebration vs. weight",
+    "together vs. divided",
+    "identity vs. belonging",
+    "the grito vs. the silence after",
+    "tradition vs. change",
+    "roots vs. future",
+    "national vs. personal"
+  ],
+  "affinities": {
+    "pride vs. history": {
+      "locs": [
+        "zocalo mexico city grito de independencia night",
+        "plaza principal pueblo night fireworks grito",
+        "cathedral facade green white red lights night"
+      ],
+      "poses": [
+        "both with arms raised, faces lit by fireworks",
+        "both shouting with the crowd, flags waving",
+        "both gazing up, red green and white sparks above"
+      ],
+      "looks": [
+        "green, white and red outfit each",
+        "embroidered blouse and dark trousers each",
+        "festive tricolour shawl and shirt each"
+      ]
+    },
+    "past vs. present": {
+      "locs": [
+        "hacienda colonial courtyard evening",
+        "small pueblo plaza morning independence",
+        "colonial archway green white red bunting"
+      ],
+      "poses": [
+        "both walking the cobbled lane with flags in hand",
+        "both resting under the arches, smiling",
+        "both standing in the courtyard, bunting overhead"
+      ],
+      "looks": [
+        "simple cotton clothes and sombrero each",
+        "embroidered dress and hat each",
+        "white shirt and green sash each"
+      ]
+    },
+    "freedom vs. memory": {
+      "locs": [
+        "colonial town square fireworks night",
+        "cathedral bells ringing independence night",
+        "plaza de armas provincial town evening"
+      ],
+      "poses": [
+        "both with arms raised, faces lit by fireworks",
+        "both shouting with the crowd, flags waving",
+        "both gazing up, red green and white sparks above"
+      ],
+      "looks": [
+        "green, white and red outfit each",
+        "embroidered blouse and dark trousers each",
+        "festive tricolour shawl and shirt each"
+      ]
+    },
+    "celebration vs. weight": {
+      "locs": [
+        "town square mariachi performance evening",
+        "folk dance performance plaza evening",
+        "traditional dress parade main street day"
+      ],
+      "poses": [
+        "both mid-twirl, skirts flaring",
+        "both stamping their feet in rhythm",
+        "both singing along to the band, arms around each other"
+      ],
+      "looks": [
+        "wide ruffled skirt and embroidered blouse each",
+        "charro jacket and bow tie each",
+        "bright folk dress and ribbons each"
+      ]
+    },
+    "together vs. divided": {
+      "locs": [
+        "zocalo mexico city grito de independencia night",
+        "plaza principal pueblo night fireworks grito",
+        "cathedral facade green white red lights night"
+      ],
+      "poses": [
+        "both with arms raised, faces lit by fireworks",
+        "both shouting with the crowd, flags waving",
+        "both gazing up, red green and white sparks above"
+      ],
+      "looks": [
+        "green, white and red outfit each",
+        "embroidered blouse and dark trousers each",
+        "festive tricolour shawl and shirt each"
+      ]
+    },
+    "identity vs. belonging": {
+      "locs": [
+        "traditional market dia de independencia stalls",
+        "traditional feast table day of independence",
+        "market stalls mexican crafts independence"
+      ],
+      "poses": [
+        "both sharing a plate of food, laughing",
+        "both haggling over crafts, delighted",
+        "both stirring a huge pot together"
+      ],
+      "looks": [
+        "embroidered blouse and apron each",
+        "cotton shirt and straw hat each",
+        "festive dress and rebozo each"
+      ]
+    },
+    "the grito vs. the silence after": {
+      "locs": [
+        "mountain village independence celebration afternoon",
+        "hacienda colonial courtyard evening",
+        "small pueblo plaza morning independence"
+      ],
+      "poses": [
+        "both walking the cobbled lane with flags in hand",
+        "both resting under the arches, smiling",
+        "both standing in the courtyard, bunting overhead"
+      ],
+      "looks": [
+        "simple cotton clothes and sombrero each",
+        "embroidered dress and hat each",
+        "white shirt and green sash each"
+      ]
+    },
+    "tradition vs. change": {
+      "locs": [
+        "charro escaramuza horse arena afternoon",
+        "charreada arena afternoon traditional"
+      ],
+      "poses": [
+        "both standing proud with reins in hand",
+        "both at the ring's edge, hats tilted",
+        "both mid-step in a bow to the crowd"
+      ],
+      "looks": [
+        "silver-buttoned charro suit and wide sombrero each",
+        "long embroidered dress with ribbons each",
+        "embroidered jacket and tight trousers each"
+      ]
+    },
+    "roots vs. future": {
+      "locs": [
+        "traditional kitchen independence feast morning",
+        "traditional market dia de independencia stalls",
+        "traditional feast table day of independence"
+      ],
+      "poses": [
+        "both sharing a plate of food, laughing",
+        "both haggling over crafts, delighted",
+        "both stirring a huge pot together"
+      ],
+      "looks": [
+        "embroidered blouse and apron each",
+        "cotton shirt and straw hat each",
+        "festive dress and rebozo each"
+      ]
+    },
+    "national vs. personal": {
+      "locs": [
+        "mexican flag green white red waving plaza",
+        "town square mariachi performance evening",
+        "folk dance performance plaza evening"
+      ],
+      "poses": [
+        "both mid-twirl, skirts flaring",
+        "both stamping their feet in rhythm",
+        "both singing along to the band, arms around each other"
+      ],
+      "looks": [
+        "wide ruffled skirt and embroidered blouse each",
+        "charro jacket and bow tie each",
+        "bright folk dress and ribbons each"
+      ]
+    }
+  },
+  "locs": [
+    "zocalo mexico city grito de independencia night",
+    "plaza principal pueblo night fireworks grito",
+    "cathedral facade green white red lights night",
+    "colonial town square fireworks night",
+    "cathedral bells ringing independence night",
+    "plaza de armas provincial town evening",
+    "charro escaramuza horse arena afternoon",
+    "charreada arena afternoon traditional",
+    "traditional market dia de independencia stalls",
+    "traditional feast table day of independence",
+    "market stalls mexican crafts independence",
+    "traditional kitchen independence feast morning",
+    "town square mariachi performance evening",
+    "folk dance performance plaza evening",
+    "traditional dress parade main street day",
+    "mexican flag green white red waving plaza",
+    "hacienda colonial courtyard evening",
+    "small pueblo plaza morning independence",
+    "colonial archway green white red bunting",
+    "mountain village independence celebration afternoon"
+  ],
+  "poses": [
+    "both with arms raised, faces lit by fireworks",
+    "both shouting with the crowd, flags waving",
+    "both gazing up, red green and white sparks above",
+    "both standing proud with reins in hand",
+    "both at the ring's edge, hats tilted",
+    "both mid-step in a bow to the crowd",
+    "both sharing a plate of food, laughing",
+    "both haggling over crafts, delighted",
+    "both stirring a huge pot together",
+    "both mid-twirl, skirts flaring",
+    "both stamping their feet in rhythm",
+    "both singing along to the band, arms around each other",
+    "both walking the cobbled lane with flags in hand",
+    "both resting under the arches, smiling",
+    "both standing in the courtyard, bunting overhead"
+  ],
+  "looks": [
+    "green, white and red outfit each",
+    "embroidered blouse and dark trousers each",
+    "festive tricolour shawl and shirt each",
+    "silver-buttoned charro suit and wide sombrero each",
+    "long embroidered dress with ribbons each",
+    "embroidered jacket and tight trousers each",
+    "embroidered blouse and apron each",
+    "cotton shirt and straw hat each",
+    "festive dress and rebozo each",
+    "wide ruffled skirt and embroidered blouse each",
+    "charro jacket and bow tie each",
+    "bright folk dress and ribbons each",
+    "simple cotton clothes and sombrero each",
+    "embroidered dress and hat each",
+    "white shirt and green sash each"
+  ],
+  "promptSuffix": "Colour grade: green, white, red — the colours of the Mexican flag, the light of the plaza at night, fireworks over the cathedral. Warm, celebratory, deeply proud.",
+  "translations": {
+    "together vs. divided": "the flag everyone salutes and what everyone means differently",
+    "the grito vs. the silence after": "the cry of independence and what followed it",
+    "tradition vs. change": "the tradition and the change that threatens or renews it",
+    "roots vs. future": "where you came from and where you’re going",
+    "national vs. personal": "the history of a country and the history of a family"
+  },
+  "locTypes": {
+    "zocalo mexico city grito de independencia night": "both",
+    "plaza principal pueblo night fireworks grito": "outdoor",
+    "cathedral facade green white red lights night": "both",
+    "colonial town square fireworks night": "outdoor",
+    "cathedral bells ringing independence night": "both",
+    "plaza de armas provincial town evening": "outdoor",
+    "charro escaramuza horse arena afternoon": "both",
+    "charreada arena afternoon traditional": "both",
+    "traditional market dia de independencia stalls": "both",
+    "traditional feast table day of independence": "both",
+    "market stalls mexican crafts independence": "outdoor",
+    "traditional kitchen independence feast morning": "indoor",
+    "town square mariachi performance evening": "outdoor",
+    "folk dance performance plaza evening": "outdoor",
+    "traditional dress parade main street day": "outdoor",
+    "mexican flag green white red waving plaza": "outdoor",
+    "hacienda colonial courtyard evening": "both",
+    "small pueblo plaza morning independence": "outdoor",
+    "colonial archway green white red bunting": "both",
+    "mountain village independence celebration afternoon": "both"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

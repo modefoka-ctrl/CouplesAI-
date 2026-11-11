@@ -1,0 +1,279 @@
+{
+  "id": "fourthofjuly",
+  "name": "FOURTH OF JULY",
+  "sub": "Fireworks, Flags & Americana",
+  "color": "#1a3a8a",
+  "tensions": [
+    "freedom vs. belonging",
+    "celebration vs. weight of history",
+    "together vs. divided",
+    "pride vs. complexity",
+    "past vs. present",
+    "spectacle vs. meaning",
+    "red vs. blue",
+    "loud vs. quiet",
+    "patriot vs. citizen",
+    "one nation vs. many"
+  ],
+  "affinities": {
+    "freedom vs. belonging": {
+      "locs": [
+        "fireworks over city harbour night",
+        "rooftop fireworks city view night",
+        "public park fireworks crowd night"
+      ],
+      "poses": [
+        "both gazing up, faces lit red white and blue",
+        "both on a blanket, one's head on the other's shoulder, sparks above",
+        "both cheering as the sky bursts"
+      ],
+      "looks": [
+        "red white and blue casual outfit each",
+        "denim jacket and white tee each",
+        "summer dress and light jacket each"
+      ]
+    },
+    "celebration vs. weight of history": {
+      "locs": [
+        "small town parade main street day",
+        "small town main street flags bunting day",
+        "small town bandstand afternoon"
+      ],
+      "poses": [
+        "both waving to the crowd, flags in hand",
+        "both clapping along to the band, grinning",
+        "both standing proud, hands over hearts"
+      ],
+      "looks": [
+        "small-town Sunday best each",
+        "striped shirt and sun hat each",
+        "patriotic print dress and straw hat each"
+      ]
+    },
+    "together vs. divided": {
+      "locs": [
+        "small town church steps afternoon",
+        "memorial park flags afternoon",
+        "small town parade main street day"
+      ],
+      "poses": [
+        "both clapping along to the band, grinning",
+        "both standing proud, hands over hearts",
+        "both waving to the crowd, flags in hand"
+      ],
+      "looks": [
+        "striped shirt and sun hat each",
+        "patriotic print dress and straw hat each",
+        "small-town Sunday best each"
+      ]
+    },
+    "pride vs. complexity": {
+      "locs": [
+        "small town main street flags bunting day",
+        "small town bandstand afternoon",
+        "small town church steps afternoon"
+      ],
+      "poses": [
+        "both standing proud, hands over hearts",
+        "both waving to the crowd, flags in hand",
+        "both clapping along to the band, grinning"
+      ],
+      "looks": [
+        "patriotic print dress and straw hat each",
+        "small-town Sunday best each",
+        "striped shirt and sun hat each"
+      ]
+    },
+    "past vs. present": {
+      "locs": [
+        "beach bonfire fourth of july night",
+        "fairground fourth of july afternoon",
+        "carnival midway fourth afternoon"
+      ],
+      "poses": [
+        "both holding sparklers, writing in the dark",
+        "both sharing a funnel cake, laughing",
+        "both silhouetted against the sunset, arms around each other"
+      ],
+      "looks": [
+        "beach casual in red white and blue each",
+        "vintage-style summer dress and polo each",
+        "light linen shirt and shorts each"
+      ]
+    },
+    "spectacle vs. meaning": {
+      "locs": [
+        "lake fireworks reflection night",
+        "dock lake fireworks night",
+        "bridge fireworks city view night"
+      ],
+      "poses": [
+        "both on a blanket, one's head on the other's shoulder, sparks above",
+        "both cheering as the sky bursts",
+        "both gazing up, faces lit red white and blue"
+      ],
+      "looks": [
+        "denim jacket and white tee each",
+        "summer dress and light jacket each",
+        "red white and blue casual outfit each"
+      ]
+    },
+    "red vs. blue": {
+      "locs": [
+        "sunset beach american flags evening",
+        "beach bonfire fourth of july night",
+        "fairground fourth of july afternoon"
+      ],
+      "poses": [
+        "both sharing a funnel cake, laughing",
+        "both silhouetted against the sunset, arms around each other",
+        "both holding sparklers, writing in the dark"
+      ],
+      "looks": [
+        "vintage-style summer dress and polo each",
+        "light linen shirt and shorts each",
+        "beach casual in red white and blue each"
+      ]
+    },
+    "loud vs. quiet": {
+      "locs": [
+        "backyard barbecue american flag bunting afternoon",
+        "suburban front porch american flag evening",
+        "suburban backyard pool afternoon"
+      ],
+      "poses": [
+        "both laughing over the grill, tongs and paper plates",
+        "both lounging with cold drinks, feet up",
+        "both mid-splash, laughing, hair dripping"
+      ],
+      "looks": [
+        "denim shorts and white tee each",
+        "swim shorts and sundress each",
+        "tank top and cut-offs each"
+      ]
+    },
+    "patriot vs. citizen": {
+      "locs": [
+        "memorial park flags afternoon",
+        "small town parade main street day",
+        "small town main street flags bunting day"
+      ],
+      "poses": [
+        "both waving to the crowd, flags in hand",
+        "both clapping along to the band, grinning",
+        "both standing proud, hands over hearts"
+      ],
+      "looks": [
+        "small-town Sunday best each",
+        "striped shirt and sun hat each",
+        "patriotic print dress and straw hat each"
+      ]
+    },
+    "one nation vs. many": {
+      "locs": [
+        "pier end fireworks over water night",
+        "fireworks over city harbour night",
+        "rooftop fireworks city view night"
+      ],
+      "poses": [
+        "both cheering as the sky bursts",
+        "both gazing up, faces lit red white and blue",
+        "both on a blanket, one's head on the other's shoulder, sparks above"
+      ],
+      "looks": [
+        "summer dress and light jacket each",
+        "red white and blue casual outfit each",
+        "denim jacket and white tee each"
+      ]
+    }
+  },
+  "locs": [
+    "fireworks over city harbour night",
+    "rooftop fireworks city view night",
+    "public park fireworks crowd night",
+    "lake fireworks reflection night",
+    "dock lake fireworks night",
+    "bridge fireworks city view night",
+    "pier end fireworks over water night",
+    "small town parade main street day",
+    "small town main street flags bunting day",
+    "small town bandstand afternoon",
+    "small town church steps afternoon",
+    "memorial park flags afternoon",
+    "backyard barbecue american flag bunting afternoon",
+    "suburban front porch american flag evening",
+    "suburban backyard pool afternoon",
+    "baseball field small town afternoon",
+    "beach bonfire fourth of july night",
+    "fairground fourth of july afternoon",
+    "carnival midway fourth afternoon",
+    "sunset beach american flags evening"
+  ],
+  "poses": [
+    "both gazing up, faces lit red white and blue",
+    "both on a blanket, one's head on the other's shoulder, sparks above",
+    "both cheering as the sky bursts",
+    "both waving to the crowd, flags in hand",
+    "both clapping along to the band, grinning",
+    "both standing proud, hands over hearts",
+    "both laughing over the grill, tongs and paper plates",
+    "both lounging with cold drinks, feet up",
+    "both mid-splash, laughing, hair dripping",
+    "both holding sparklers, writing in the dark",
+    "both sharing a funnel cake, laughing",
+    "both silhouetted against the sunset, arms around each other"
+  ],
+  "looks": [
+    "red white and blue casual outfit each",
+    "denim jacket and white tee each",
+    "summer dress and light jacket each",
+    "small-town Sunday best each",
+    "striped shirt and sun hat each",
+    "patriotic print dress and straw hat each",
+    "denim shorts and white tee each",
+    "swim shorts and sundress each",
+    "tank top and cut-offs each",
+    "beach casual in red white and blue each",
+    "vintage-style summer dress and polo each",
+    "light linen shirt and shorts each"
+  ],
+  "promptSuffix": "Colour grade: red, white, blue — the saturated palette of American Independence Day. Fireworks gold and silver against night sky, or the warm afternoon of small-town celebration.",
+  "translations": {
+    "freedom vs. belonging": "the country you love and the country that doesn’t always love back",
+    "celebration vs. weight of history": "the fireworks and what they light up beneath them",
+    "together vs. divided": "the flag everyone salutes and what everyone means differently",
+    "pride vs. complexity": "loving something that is also complicated",
+    "spectacle vs. meaning": "the show and what the show is for",
+    "red vs. blue": "the divide that fireworks briefly close",
+    "loud vs. quiet": "the crowd and the moment alone inside it",
+    "patriot vs. citizen": "the flag and the responsibility it carries",
+    "one nation vs. many": "the motto and the reality"
+  },
+  "locTypes": {
+    "fireworks over city harbour night": "outdoor",
+    "rooftop fireworks city view night": "outdoor",
+    "public park fireworks crowd night": "indoor",
+    "lake fireworks reflection night": "outdoor",
+    "dock lake fireworks night": "outdoor",
+    "bridge fireworks city view night": "outdoor",
+    "pier end fireworks over water night": "outdoor",
+    "small town parade main street day": "outdoor",
+    "small town main street flags bunting day": "outdoor",
+    "small town bandstand afternoon": "both",
+    "small town church steps afternoon": "indoor",
+    "memorial park flags afternoon": "outdoor",
+    "backyard barbecue american flag bunting afternoon": "both",
+    "suburban front porch american flag evening": "outdoor",
+    "suburban backyard pool afternoon": "both",
+    "baseball field small town afternoon": "outdoor",
+    "beach bonfire fourth of july night": "outdoor",
+    "fairground fourth of july afternoon": "both",
+    "carnival midway fourth afternoon": "outdoor",
+    "sunset beach american flags evening": "outdoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

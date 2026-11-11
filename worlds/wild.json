@@ -1,0 +1,701 @@
+{
+  "id": "wild",
+  "name": "THE WILD",
+  "sub": "Raw & Unbuilt",
+  "color": "#6aaa88",
+  "tensions": [
+    "human vs. nature",
+    "shelter vs. exposure",
+    "tamed vs. feral",
+    "found vs. lost",
+    "still vs. alive",
+    "dry vs. soaked",
+    "built vs. grown",
+    "fragile vs. permanent",
+    "instinct vs. reason",
+    "home vs. nowhere",
+    "cultivated vs. wild",
+    "noise vs. silence",
+    "trail vs. off-trail",
+    "map vs. terrain",
+    "body vs. elements",
+    "small vs. vast",
+    "familiar vs. unknown",
+    "fed vs. hungry",
+    "warm vs. cold night",
+    "watched vs. alone"
+  ],
+  "locs": [
+    "cliff face at golden hour lichen-covered",
+    "dense forest clearing shafts of light",
+    "tidal flat at low tide exposed",
+    "open grassland in wind",
+    "river gorge base spray rising",
+    "bog moorland at dusk",
+    "ancient woodland root tangle",
+    "estuarine mudflat wide sky",
+    "heath in flower purple wide",
+    "chalk downland escarpment edge",
+    "limestone pavement bare",
+    "peat highland loch reflected",
+    "sand dune blowout hollow",
+    "flint shingle beach storm",
+    "reed bed at dawn mist",
+    "old growth redwood base",
+    "Scottish glen river crossing",
+    "Welsh upland reservoir edge",
+    "Peak District gritstone edge",
+    "New Forest ancient oak hollow",
+    "Lake District fell top",
+    "Dartmoor tor wind",
+    "Exmoor coastline cliff path",
+    "Pembrokeshire sea stack distant",
+    "Cairngorm plateau tundra",
+    "Skye Cuillin black rock",
+    "Hebrides machair wildflowers",
+    "Norwegian birch forest autumn",
+    "Swedish elk forest dawn",
+    "Finnish lake island landing",
+    "Estonian bog wooden walkway",
+    "Baltic sea coast pine",
+    "Breton coastal heathland",
+    "Galician mountain forest green",
+    "Sardinian maquis scrub",
+    "Corsican gorge river",
+    "Croatian karst spring",
+    "Slovenian Triglav plateau",
+    "Turkish mountain lake turquoise",
+    "Georgian Caucasus meadow",
+    "Mongolian steppe endless",
+    "Kyrgyz alpine pasture yurt distant",
+    "Tibetan plateau wind-scoured",
+    "Bhutanese forest monastery visible above",
+    "Indian hill station mist",
+    "Sri Lanka highland tea",
+    "New Zealand beech forest",
+    "Australian blue mountain heath",
+    "Tasmanian alpine meadow",
+    "Kiwi rainforest fern gully"
+  ],
+  "poses": [
+    "running through tall grass arms trailing",
+    "looking up through forest canopy both",
+    "one carrying other across stream",
+    "sprinting toward storm edge laughing",
+    "wading carefully through rocky shallows ankle-deep",
+    "both crouched examining animal tracks",
+    "one helping other over fallen tree",
+    "standing on rock above river both looking",
+    "back-to-back in open field scanning horizon",
+    "both lying in meadow looking up at clouds",
+    "one pointing at bird of prey other looks",
+    "walking single file narrow animal trail",
+    "scrambling up rock together hand-over-hand",
+    "both pressed against ancient tree listening",
+    "one steadying other at river crossing",
+    "watching deer in clearing both frozen",
+    "building camp fire together crouched",
+    "sitting on cliff edge feet hanging",
+    "back-to-back reading maps together",
+    "one tracking footprints other watches",
+    "both in morning mist faces up",
+    "running from sudden rain laughing",
+    "both arms out on cliff edge wind",
+    "one behind other binoculars shared",
+    "crouching at water edge examining pool",
+    "both looking back down trail they climbed",
+    "one finding other in dense fog relief",
+    "walking waist-deep through tall fern",
+    "both watching sunset from rock perch",
+    "one arm around other deer behind unaware",
+    "picking wild berries together",
+    "both sitting on bank feet in stream",
+    "one helping other ford deep section",
+    "both frozen at sound of something large",
+    "sunrise watch both wrapped in one layer",
+    "scrambling together across moorland",
+    "both lying on heather looking up",
+    "one lifting other to see over ridge",
+    "cooking over open fire both crouched",
+    "foraging together both bent examining",
+    "both in silhouette on skyline ridge",
+    "one pointing at distant smoke other looks",
+    "building shelter together emergency",
+    "one navigating with compass other steadies map",
+    "both splashing through shallow stream laughing",
+    "crossing boggy ground linking arms"
+  ],
+  "looks": [
+    "worn linen shirt and canvas shorts both natural",
+    "broken-in hiking boots trail pants each",
+    "faded cotton tee and worn shorts both",
+    "field shirt rolled sleeves walking trousers each",
+    "sun-faded linen layers sandals both",
+    "lightweight merino tee trail shorts each",
+    "outdoor cotton shirt worn open hiking pants each",
+    "packable rain jacket tee trail shoes each",
+    "canvas shirt worn jeans broken-in boots each",
+    "breathable base layer hiking pants each",
+    "worn flannel shirt over tee hiking shorts each",
+    "sun shirt wide brim hat trail pants each",
+    "earth tone linen top loose trail pants each",
+    "trail runners gaiters shorts each rugged",
+    "wool shirt worn canvas trousers boots each",
+    "sun-bleached field shirt rugged shorts each",
+    "lightweight hiking dress and shorts each",
+    "merino hoodie trail pants each muted colour",
+    "outdoor vest over tee rugged pants each",
+    "trail shorts moisture-wicking top each lightweight",
+    "waxed cotton jacket worn jeans boots each",
+    "natural cotton layers worn with use each",
+    "fleece over base layer hiking pants each",
+    "sun protection shirt leggings trail shoes each",
+    "worn adventure shirt khaki trousers each",
+    "lightweight tee board shorts trail shoes water-adjacent",
+    "insect-shield shirt pants both practical",
+    "long-sleeve merino sun protection pants each",
+    "midlayer fleece open tee beneath trail pants each",
+    "country tweed worn open field shirt each classic",
+    "field jacket worn tee rugged trousers each",
+    "soft-shell jacket hiking leggings trail shoes each",
+    "ripstop pants moisture-wicking tee each",
+    "canvas cap sun shirt trail pants each",
+    "technical t-shirt shorts both trail running",
+    "vintage outdoor shirt cotton trousers both worn",
+    "gore-tex light jacket base layer pants each",
+    "merino zip neck trail pants each",
+    "woven belt canvas shorts boots each",
+    "broken-in leather belt pack boots each with worn shirt",
+    "outdoor shirt shorts socks visible boots each",
+    "faded green field shirt khaki shorts each",
+    "worn cotton dress and worn tee shorts each",
+    "technical polo shirt trail pants each",
+    "sun-protection hooded top trail pants each",
+    "linen wide trouser cotton tee both relaxed",
+    "packable down vest base layer trail pants each"
+  ],
+  "affinities": {
+    "human vs. nature": {
+      "locs": [
+        "open grassland at wind",
+        "coastal headland",
+        "volcanic plain",
+        "moorland at storm",
+        "high plateau"
+      ],
+      "poses": [
+        "back-to-back on open plain",
+        "both arms open to weather",
+        "sprinting toward storm edge",
+        "storm watch together at cliff",
+        "standing in fog at edge"
+      ],
+      "looks": [
+        "worn linen sandals",
+        "faded cotton sets",
+        "raw cotton open fronts",
+        "minimal natural fabrics",
+        "earth-tone cotton sets"
+      ]
+    },
+    "shelter vs. exposure": {
+      "locs": [
+        "dense forest clearing",
+        "old growth forest interior",
+        "boreal forest track",
+        "pine forest at dawn",
+        "ancient forest floor"
+      ],
+      "poses": [
+        "tent door two silhouettes",
+        "building fire together",
+        "cooking over fire together",
+        "open fire cooking arm around",
+        "navigating dense brush"
+      ],
+      "looks": [
+        "worn camp clothes",
+        "earth-tone cotton sets",
+        "worn hiking shorts simple tanks",
+        "patched shorts sun-bleached tee",
+        "worn linen sandals"
+      ]
+    },
+    "tamed vs. feral": {
+      "locs": [
+        "jungle edge",
+        "rainforest canopy break",
+        "old growth forest interior",
+        "lava field coast",
+        "volcanic plain"
+      ],
+      "poses": [
+        "running through tall grass",
+        "racing down hillside",
+        "emerging from tree line",
+        "climbing tree trunk together",
+        "jungle path narrow single file"
+      ],
+      "looks": [
+        "raw cotton open fronts",
+        "canvas shorts moisture-wicking tops",
+        "minimal natural fabrics",
+        "frayed shorts knotted vest",
+        "ripped cotton earth tones"
+      ]
+    },
+    "found vs. lost": {
+      "locs": [
+        "dense forest clearing",
+        "high plateau",
+        "canyon floor",
+        "moorland at storm",
+        "peat bog track"
+      ],
+      "poses": [
+        "one pointing one looking",
+        "crouched examining ground",
+        "navigating dense brush",
+        "one teaching other tracking",
+        "standing in fog at edge"
+      ],
+      "looks": [
+        "worn hiking shorts simple tanks",
+        "earth-tone cotton sets",
+        "worn camp clothes",
+        "canvas shorts moisture-wicking tops",
+        "worn linen sandals"
+      ]
+    },
+    "still vs. alive": {
+      "locs": [
+        "ancient forest floor",
+        "redwood forest floor",
+        "peat bog track",
+        "marshland at sunrise",
+        "old growth forest interior"
+      ],
+      "poses": [
+        "lying in open meadow looking up",
+        "sitting on cliff edge facing out",
+        "standing in fog at edge",
+        "tent door two silhouettes",
+        "both looking at same horizon"
+      ],
+      "looks": [
+        "worn linen sandals",
+        "faded cotton sets",
+        "minimal natural fabrics",
+        "earth-tone cotton sets",
+        "unbleached cotton separates"
+      ]
+    },
+    "dry vs. soaked": {
+      "locs": [
+        "desert wash after rain",
+        "river gorge base",
+        "jungle waterfall pool",
+        "river rapid entry bank",
+        "tidal flat at low tide"
+      ],
+      "poses": [
+        "wading chest-deep in river",
+        "bathing in river pool",
+        "racing through shallow stream",
+        "standing in waterfall",
+        "cold water plunge together"
+      ],
+      "looks": [
+        "board shorts cotton top",
+        "surf boardshorts open linen",
+        "beach wrap and board shorts",
+        "canvas shorts moisture-wicking tops",
+        "worn tee knotted shorts"
+      ]
+    },
+    "built vs. grown": {
+      "locs": [
+        "ancient quarry now overgrown",
+        "lava field coast",
+        "volcanic plain",
+        "limestone karst field",
+        "rock arch desert"
+      ],
+      "poses": [
+        "crouched examining ground",
+        "both arms open to weather",
+        "lying in open meadow looking up",
+        "standing in fog at edge",
+        "one pointing one looking"
+      ],
+      "looks": [
+        "worn linen sandals",
+        "raw cotton open fronts",
+        "minimal natural fabrics",
+        "earth-tone cotton sets",
+        "unbleached cotton separates"
+      ]
+    },
+    "fragile vs. permanent": {
+      "locs": [
+        "cliff face at golden hour",
+        "chalk cliff top",
+        "sea stack at dusk",
+        "coastal headland",
+        "open sea stack summit"
+      ],
+      "poses": [
+        "sitting on cliff edge facing out",
+        "cliff-edge wind brace",
+        "storm watch together at cliff",
+        "cliff base wave spray",
+        "ocean jump off rock"
+      ],
+      "looks": [
+        "worn linen sandals",
+        "faded cotton sets",
+        "minimal natural fabrics",
+        "earth-tone cotton sets",
+        "canvas shorts moisture-wicking tops"
+      ]
+    },
+    "instinct vs. reason": {
+      "locs": [
+        "jungle edge",
+        "rainforest canopy break",
+        "moorland at storm",
+        "lava field coast",
+        "arctic coast"
+      ],
+      "poses": [
+        "running from rain together",
+        "sprinting toward storm edge",
+        "racing down hillside",
+        "cold water plunge together",
+        "wild swimming entry together"
+      ],
+      "looks": [
+        "raw cotton open fronts",
+        "board shorts cotton top",
+        "frayed shorts knotted vest",
+        "minimal trail layers",
+        "cargo shorts fitted cotton top"
+      ]
+    },
+    "home vs. nowhere": {
+      "locs": [
+        "remote island shore",
+        "high plateau",
+        "canyon floor",
+        "high desert plateau",
+        "wetland island"
+      ],
+      "poses": [
+        "tent door two silhouettes",
+        "cooking over fire together",
+        "building fire together",
+        "open fire cooking arm around",
+        "sitting back to back in meadow"
+      ],
+      "looks": [
+        "worn camp clothes",
+        "worn linen sandals",
+        "earth-tone cotton sets",
+        "camp shorts layered cottons",
+        "patched shorts sun-bleached tee"
+      ]
+    },
+    "cultivated vs. wild": {
+      "locs": [
+        "meadow at harvest time",
+        "heath at golden hour",
+        "valley floor at dusk",
+        "birch forest in autumn",
+        "ancient forest floor"
+      ],
+      "poses": [
+        "lying in open meadow looking up",
+        "hand in hand through grass",
+        "caught mid-laugh in wind",
+        "foraging side by side",
+        "morning stretch wild campsite"
+      ],
+      "looks": [
+        "worn linen sandals",
+        "faded cotton sets",
+        "linen scrub wear",
+        "unbleached cotton separates",
+        "windswept linen sandals"
+      ]
+    },
+    "noise vs. silence": {
+      "locs": [
+        "ancient forest floor",
+        "redwood forest floor",
+        "peat bog track",
+        "marshland at sunrise",
+        "frost meadow"
+      ],
+      "poses": [
+        "lying in open meadow looking up",
+        "standing in fog at edge",
+        "both looking at same horizon",
+        "tent door two silhouettes",
+        "sitting on cliff edge facing out"
+      ],
+      "looks": [
+        "worn linen sandals",
+        "faded cotton sets",
+        "minimal natural fabrics",
+        "earth-tone cotton sets",
+        "unbleached cotton separates"
+      ]
+    },
+    "trail vs. off-trail": {
+      "locs": [
+        "dense forest clearing",
+        "ancient forest floor",
+        "peat bog track",
+        "boreal forest track",
+        "highland glen"
+      ],
+      "poses": [
+        "navigating dense brush",
+        "crouched examining ground",
+        "one teaching other tracking",
+        "jungle path narrow single file",
+        "two at forest stream mouth"
+      ],
+      "looks": [
+        "worn hiking shorts simple tanks",
+        "canvas shorts moisture-wicking tops",
+        "trail shorts fitted athletic top",
+        "field shirt open shorts",
+        "earth-tone cotton sets"
+      ]
+    },
+    "map vs. terrain": {
+      "locs": [
+        "high plateau",
+        "canyon floor",
+        "moorland at storm",
+        "highland glen",
+        "peat bog track"
+      ],
+      "poses": [
+        "one pointing one looking",
+        "crouched examining ground",
+        "one teaching other tracking",
+        "standing in fog at edge",
+        "both looking at same horizon"
+      ],
+      "looks": [
+        "worn hiking shorts simple tanks",
+        "earth-tone cotton sets",
+        "canvas shorts moisture-wicking tops",
+        "field shirt open shorts",
+        "worn camp clothes"
+      ]
+    },
+    "body vs. elements": {
+      "locs": [
+        "coastal headland",
+        "moorland at storm",
+        "open grassland at wind",
+        "arctic coast",
+        "volcanic plain"
+      ],
+      "poses": [
+        "both arms open to weather",
+        "sprinting toward storm edge",
+        "cliff-edge wind brace",
+        "standing in rainfall",
+        "storm watch together at cliff"
+      ],
+      "looks": [
+        "raw cotton open fronts",
+        "minimal natural fabrics",
+        "canvas shorts moisture-wicking tops",
+        "trail shorts fitted athletic top",
+        "minimal trail layers"
+      ]
+    },
+    "small vs. vast": {
+      "locs": [
+        "high plateau",
+        "open grassland at wind",
+        "open sea stack summit",
+        "long beach at low tide",
+        "empty beach winter"
+      ],
+      "poses": [
+        "back-to-back on open plain",
+        "both looking at same horizon",
+        "both arms open to weather",
+        "sitting on cliff edge facing out",
+        "wild camp summit view"
+      ],
+      "looks": [
+        "worn linen sandals",
+        "faded cotton sets",
+        "minimal natural fabrics",
+        "earth-tone cotton sets",
+        "canvas shorts moisture-wicking tops"
+      ]
+    },
+    "familiar vs. unknown": {
+      "locs": [
+        "jungle edge",
+        "lava field coast",
+        "arctic coast",
+        "volcanic plain",
+        "limestone karst field"
+      ],
+      "poses": [
+        "crouched examining ground",
+        "one pointing one looking",
+        "navigating dense brush",
+        "standing in fog at edge",
+        "one teaching other tracking"
+      ],
+      "looks": [
+        "worn hiking shorts simple tanks",
+        "earth-tone cotton sets",
+        "canvas shorts moisture-wicking tops",
+        "worn camp clothes",
+        "field shirt open shorts"
+      ]
+    },
+    "fed vs. hungry": {
+      "locs": [
+        "ancient forest floor",
+        "valley floor at dusk",
+        "highland glen",
+        "meadow at harvest time",
+        "forest stream crossing"
+      ],
+      "poses": [
+        "foraging side by side",
+        "cooking over fire together",
+        "open fire cooking arm around",
+        "building fire together",
+        "kneeling at river bank"
+      ],
+      "looks": [
+        "worn camp clothes",
+        "worn linen sandals",
+        "earth-tone cotton sets",
+        "patched shorts sun-bleached tee",
+        "camp shorts layered cottons"
+      ]
+    },
+    "warm vs. cold night": {
+      "locs": [
+        "ancient forest floor",
+        "boreal forest track",
+        "highland glen",
+        "frost meadow",
+        "pine forest at dawn"
+      ],
+      "poses": [
+        "tent door two silhouettes",
+        "building fire together",
+        "cooking over fire together",
+        "open fire cooking arm around",
+        "morning stretch wild campsite"
+      ],
+      "looks": [
+        "worn camp clothes",
+        "earth-tone cotton sets",
+        "camp shorts layered cottons",
+        "worn hiking shorts simple tanks",
+        "patched shorts sun-bleached tee"
+      ]
+    },
+    "watched vs. alone": {
+      "locs": [
+        "remote island shore",
+        "high plateau",
+        "wetland island",
+        "open sea stack summit",
+        "high desert plateau"
+      ],
+      "poses": [
+        "both looking at same horizon",
+        "sitting on cliff edge facing out",
+        "tent door two silhouettes",
+        "wild camp summit view",
+        "sunrise silhouette together"
+      ],
+      "looks": [
+        "worn linen sandals",
+        "faded cotton sets",
+        "minimal natural fabrics",
+        "earth-tone cotton sets",
+        "board shorts cotton top"
+      ]
+    }
+  },
+  "promptSuffix": "Colour grade: the light of the specific environment — woodland dapple, open moorland grey, highland gold. No studio. Whatever light was available is the right light.",
+  "translations": {
+    "tamed vs. feral": "tamed returning to feral at the jungle edge",
+    "found vs. lost": "found in the world and lost in it at the same time"
+  },
+  "locTypes": {
+    "cliff face at golden hour lichen-covered": "outdoor",
+    "dense forest clearing shafts of light": "outdoor",
+    "tidal flat at low tide exposed": "outdoor",
+    "open grassland in wind": "outdoor",
+    "river gorge base spray rising": "outdoor",
+    "bog moorland at dusk": "outdoor",
+    "ancient woodland root tangle": "outdoor",
+    "estuarine mudflat wide sky": "outdoor",
+    "heath in flower purple wide": "outdoor",
+    "chalk downland escarpment edge": "outdoor",
+    "limestone pavement bare": "outdoor",
+    "peat highland loch reflected": "outdoor",
+    "sand dune blowout hollow": "outdoor",
+    "flint shingle beach storm": "outdoor",
+    "reed bed at dawn mist": "outdoor",
+    "old growth redwood base": "outdoor",
+    "Scottish glen river crossing": "outdoor",
+    "Welsh upland reservoir edge": "outdoor",
+    "Peak District gritstone edge": "outdoor",
+    "New Forest ancient oak hollow": "outdoor",
+    "Lake District fell top": "outdoor",
+    "Dartmoor tor wind": "outdoor",
+    "Exmoor coastline cliff path": "outdoor",
+    "Pembrokeshire sea stack distant": "outdoor",
+    "Cairngorm plateau tundra": "outdoor",
+    "Skye Cuillin black rock": "outdoor",
+    "Hebrides machair wildflowers": "outdoor",
+    "Norwegian birch forest autumn": "outdoor",
+    "Swedish elk forest dawn": "outdoor",
+    "Finnish lake island landing": "outdoor",
+    "Estonian bog wooden walkway": "outdoor",
+    "Baltic sea coast pine": "outdoor",
+    "Breton coastal heathland": "outdoor",
+    "Galician mountain forest green": "outdoor",
+    "Sardinian maquis scrub": "outdoor",
+    "Corsican gorge river": "outdoor",
+    "Croatian karst spring": "outdoor",
+    "Slovenian Triglav plateau": "outdoor",
+    "Turkish mountain lake turquoise": "outdoor",
+    "Georgian Caucasus meadow": "outdoor",
+    "Mongolian steppe endless": "outdoor",
+    "Kyrgyz alpine pasture yurt distant": "outdoor",
+    "Tibetan plateau wind-scoured": "outdoor",
+    "Bhutanese forest monastery visible above": "outdoor",
+    "Indian hill station mist": "outdoor",
+    "Sri Lanka highland tea": "outdoor",
+    "New Zealand beech forest": "outdoor",
+    "Australian blue mountain heath": "outdoor",
+    "Tasmanian alpine meadow": "outdoor",
+    "Kiwi rainforest fern gully": "outdoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

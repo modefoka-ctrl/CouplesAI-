@@ -1,0 +1,1122 @@
+{
+  "id": "art",
+  "name": "THE ART",
+  "sub": "Masters, Movements & Visual Language",
+  "color": "#7a5c2e",
+  "tensions": [
+    "Rembrandt",
+    "Caravaggio",
+    "Velázquez",
+    "Goya",
+    "Vermeer",
+    "Rubens",
+    "Van Gogh",
+    "Klimt",
+    "Picasso",
+    "Matisse",
+    "Modigliani",
+    "Gauguin",
+    "Toulouse-Lautrec",
+    "Hopper",
+    "Bacon",
+    "Warhol",
+    "Lichtenstein",
+    "Banksy",
+    "Mucha",
+    "caricature",
+    "Monet",
+    "Frida Kahlo",
+    "Dalí",
+    "Magritte",
+    "Hokusai",
+    "Basquiat",
+    "Keith Haring",
+    "Tamara de Lempicka",
+    "Leonardo",
+    "Munch",
+    "Studio Ghibli",
+    "Byzantine mosaic",
+    "Pre-Raphaelites",
+    "Norman Rockwell",
+    "Hergé"
+  ],
+  "affinities": {
+    "Rembrandt": {
+      "locs": [
+        "a dark candlelit interior with a deep brown ground",
+        "a grand biblical scene with figures emerging from darkness",
+        "a bare winter landscape under a cold grey Dutch sky"
+      ],
+      "poses": [
+        "both close together in an intimate three-quarter portrait",
+        "both mid dramatic gesture caught in a shaft of light",
+        "both small figures walking a frozen path"
+      ],
+      "looks": [
+        "dark velvet doublet with a white lace collar each",
+        "simple linen working dress and cap each",
+        "loose draped cloth and a gold chain each"
+      ]
+    },
+    "Caravaggio": {
+      "locs": [
+        "a stone-floored room lit by a single candle",
+        "a sunlit yard with deep diagonal shadows",
+        "a tavern table in dramatic low light"
+      ],
+      "poses": [
+        "both emerging from the darkness lit from one side",
+        "both reaching mid-gesture hands in the light",
+        "both caught mid-action at the table"
+      ],
+      "looks": [
+        "rough linen shirt and loose cloth each",
+        "16th century Roman dress with billowing sleeves each",
+        "draped red cloth and plain tunic each"
+      ]
+    },
+    "Velázquez": {
+      "locs": [
+        "a grand Spanish court room receding into shadow",
+        "a working kitchen with one bright window",
+        "airy Spanish countryside under a pale sky"
+      ],
+      "poses": [
+        "both formal and dignified in a full-length court portrait",
+        "both busy at kitchen work caught naturally",
+        "both relaxed in hunting poses outdoors"
+      ],
+      "looks": [
+        "black Habsburg court dress with a white ruff each",
+        "plain working clothes and apron each",
+        "hunting coat and boots each"
+      ]
+    },
+    "Goya": {
+      "locs": [
+        "a black-walled room with an unsettling void behind",
+        "an opulent court salon with glittering light",
+        "a dark countryside at night lit by a fire"
+      ],
+      "poses": [
+        "both staring out confrontational and exposed",
+        "both stiffly posed with uneasy eyes",
+        "both huddled together lit by firelight"
+      ],
+      "looks": [
+        "dark clothes dissolving into black each",
+        "embroidered court dress and silk coat each",
+        "Spanish maja dress and short cape each"
+      ]
+    },
+    "Vermeer": {
+      "locs": [
+        "a tiled-floor Dutch room lit by a left-hand window",
+        "a quiet corner with a map on the wall and a table",
+        "a window over a canal with the room in soft shadow"
+      ],
+      "poses": [
+        "both absorbed in a quiet task lit from the window",
+        "one reading a letter other glancing over",
+        "both seated at the window looking out"
+      ],
+      "looks": [
+        "yellow jacket and blue skirt each",
+        "white linen cap and simple dress each",
+        "dark merchant coat and white collar each"
+      ]
+    },
+    "Rubens": {
+      "locs": [
+        "a mythological landscape under a stormy golden sky",
+        "a hunt with galloping horses",
+        "an allegorical interior hung with rich drapery"
+      ],
+      "poses": [
+        "both in dynamic mid-movement poses wrapped in cloth",
+        "both riding hard in the hunt",
+        "both embracing amid swirling drapery"
+      ],
+      "looks": [
+        "flowing silk and velvet in deep reds each",
+        "riding coat and plumed hat each",
+        "classical draped robes each"
+      ]
+    },
+    "Van Gogh": {
+      "locs": [
+        "a wheat field under a swirling sky at noon",
+        "a night café lit by yellow gaslight",
+        "a small bedroom of tilted flat colour walls"
+      ],
+      "poses": [
+        "both standing close in the swirling field",
+        "both at a café table under yellow light",
+        "both seated on the narrow bed"
+      ],
+      "looks": [
+        "straw hat and blue work clothes each",
+        "rough jacket and cap each",
+        "plain shirt and waistcoat each"
+      ]
+    },
+    "Klimt": {
+      "locs": [
+        "a gold ornamental background of swirling patterns",
+        "a flat golden tree of life with scrolling branches",
+        "a patterned Viennese interior of gold and mosaic"
+      ],
+      "poses": [
+        "both locked in a tender embrace wrapped in robes",
+        "one standing tall other leaning close in a tall vertical composition",
+        "both small against the swirling golden tree"
+      ],
+      "looks": [
+        "gold patterned robes with geometric mosaic motifs each",
+        "long ornamental gown and patterned coat each",
+        "Vienna Secession dress with gold detail each"
+      ]
+    },
+    "Picasso": {
+      "locs": [
+        "an ochre and grey interior of fractured planes",
+        "a sparse blue-toned room of flat melancholy",
+        "a warm terracotta circus ring in soft light"
+      ],
+      "poses": [
+        "both shown front and profile at once, faces split",
+        "both thin and still in a melancholy huddle",
+        "both tender as travelling acrobats"
+      ],
+      "looks": [
+        "geometric fractured clothes in angular shapes each",
+        "thin ragged clothes in blue tones each",
+        "soft harlequin acrobat costume each"
+      ]
+    },
+    "Matisse": {
+      "locs": [
+        "an interior of clashing patterned fabrics and wallpaper",
+        "an open blue sky with dancing figures",
+        "abstract cut-paper shapes in bright flat colour"
+      ],
+      "poses": [
+        "both reclining among cushions in flat colour",
+        "both dancing hand in hand mid-movement",
+        "both reduced to bold simple silhouettes"
+      ],
+      "looks": [
+        "patterned robe in bold flat colour each",
+        "simple draped cloth each",
+        "plain silhouettes in vivid colour each"
+      ]
+    },
+    "Modigliani": {
+      "locs": [
+        "a warm ochre wall of a Paris studio",
+        "a plain warm ground behind a reclining figure",
+        "a bare room with one chair in warm earth tones"
+      ],
+      "poses": [
+        "both with long necks and tilted heads side by side",
+        "one reclining one watching",
+        "both facing each other close, oval faces"
+      ],
+      "looks": [
+        "open-collared simple shirt each",
+        "soft draped cloth in muted tones each",
+        "1910s Parisian jacket and dress each"
+      ]
+    },
+    "Gauguin": {
+      "locs": [
+        "a lush tropical clearing in flat bold colour",
+        "a hut interior with a woven mat floor",
+        "a Brittany village green in flat colour"
+      ],
+      "poses": [
+        "both seated frontal and still amid tropical colour",
+        "both sharing a mat on the floor",
+        "both standing outlined against flat green"
+      ],
+      "looks": [
+        "bright wrapped cloth sarong each",
+        "simple cotton dress and shirt each",
+        "Breton traditional dress and cap each"
+      ]
+    },
+    "Toulouse-Lautrec": {
+      "locs": [
+        "a cabaret stage with a red glow and a dancing crowd",
+        "a cluttered intimate backstage dressing room",
+        "a lamplit café table at night"
+      ],
+      "poses": [
+        "both mid-dance in a flat graphic silhouette",
+        "both seated at a dressing table, intimate",
+        "both leaning at a café table watching the room"
+      ],
+      "looks": [
+        "can-can dress with frilly petticoats each",
+        "loose dressing gown each",
+        "1890s Parisian bourgeois dress and coat each"
+      ]
+    },
+    "Hopper": {
+      "locs": [
+        "a late-night diner with a glaring fluorescent glow",
+        "a sunlit bedroom with a bare window",
+        "a white clapboard house under harsh sunlight"
+      ],
+      "poses": [
+        "both at the counter not looking at each other",
+        "one seated by the window other standing apart",
+        "both on the porch lost in thought"
+      ],
+      "looks": [
+        "1940s working coat and hat each",
+        "simple 1940s dress and cardigan each",
+        "1930s casual jacket and slacks each"
+      ]
+    },
+    "Bacon": {
+      "locs": [
+        "a flat orange-red room with a bare bulb",
+        "a caged space against a black void",
+        "a studio floor of smeared paint and newsprint"
+      ],
+      "poses": [
+        "both contorted in separate panels, faces smeared",
+        "both compressed against a curtain, screaming",
+        "both tangled together on the floor"
+      ],
+      "looks": [
+        "plain dark suit blurred and smeared each",
+        "simple shirt and trousers torn by motion each",
+        "bare simple clothes distorted by paint each"
+      ]
+    },
+    "Warhol": {
+      "locs": [
+        "a grid of four repeated panels in clashing colours",
+        "a silver foil walled factory room",
+        "a flat newsprint background in stark black and white"
+      ],
+      "poses": [
+        "both frontal and flat, repeated in four panels",
+        "both lounging in a silver room, 1960s",
+        "both stark and still against the newsprint"
+      ],
+      "looks": [
+        "1960s mod dress and turtleneck each",
+        "black polo neck and sunglasses each",
+        "plain clothes flattened to bold colour each"
+      ]
+    },
+    "Lichtenstein": {
+      "locs": [
+        "a comic panel with a speech bubble and dotted background",
+        "a war comic explosion in red and yellow",
+        "a giant brushstroke painted as a comic"
+      ],
+      "poses": [
+        "one crying dramatically other consoling inside a single comic panel",
+        "both in dramatic action mid-explosion",
+        "both posed like a parody of abstract painting"
+      ],
+      "looks": [
+        "comic book dress with thick outlines each",
+        "pilot uniform and helmet each",
+        "simple clothes drawn in bold dots each"
+      ]
+    },
+    "Banksy": {
+      "locs": [
+        "a peeling brick wall with a stencilled rat",
+        "a seaside wall with a red balloon",
+        "a museum wall hung with a stencilled scene"
+      ],
+      "poses": [
+        "both holding protest signs in stencil silhouette",
+        "one reaching for a balloon other watching",
+        "both pushing a shopping trolley like cave dwellers"
+      ],
+      "looks": [
+        "plain hoodie and cap in stencil black each",
+        "simple child-like clothes each",
+        "dark silhouettes with one splash of red each"
+      ]
+    },
+    "Mucha": {
+      "locs": [
+        "an ornate floral border with a gold halo",
+        "a circular four-seasons panel with ornamental border",
+        "a theatre poster frame with space for lettering"
+      ],
+      "poses": [
+        "both with flowing hair framed by flowers",
+        "both posed in a circular panel of the seasons",
+        "both striking a dramatic theatrical pose"
+      ],
+      "looks": [
+        "flowing gown with botanical ornament each",
+        "draped robes with flower crowns each",
+        "theatrical costume in muted pastels each"
+      ]
+    },
+    "caricature": {
+      "locs": [
+        "a broadsheet page with a bold inked border",
+        "a Paris street scene in lithograph shading",
+        "an over-the-top Georgian parlour"
+      ],
+      "poses": [
+        "both with giant heads exaggerating their best features",
+        "both bickering over a cartoon street",
+        "both bloated with pomp and excess"
+      ],
+      "looks": [
+        "exaggerated costume swollen with pomp each",
+        "19th century top hat and frock coat each",
+        "ridiculous Georgian wig and silks each"
+      ]
+    },
+    "Monet": {
+      "locs": [
+        "a water lily pond with a Japanese bridge",
+        "a sunlit poppy field in soft haze",
+        "a harbour at dawn in pastel mist"
+      ],
+      "poses": [
+        "both strolling the bridge under parasols",
+        "both lying in the poppies in the sun",
+        "both standing at the water's edge, reflected"
+      ],
+      "looks": [
+        "white summer dress and straw hat each",
+        "light linen suit and boater hat each",
+        "pastel dress and parasol each"
+      ]
+    },
+    "Frida Kahlo": {
+      "locs": [
+        "a garden of giant tropical leaves and flowers",
+        "a blue house courtyard with parrots",
+        "a bed surrounded by symbols and roots"
+      ],
+      "poses": [
+        "both frontal and unflinching with joined hands",
+        "both with monkeys and parrots at the shoulders",
+        "both facing us with twined roots between them"
+      ],
+      "looks": [
+        "Tehuana dress with a braided flower crown each",
+        "embroidered blouse and rebozo each",
+        "bright folk dress and heavy jewellery each"
+      ]
+    },
+    "Dalí": {
+      "locs": [
+        "an empty desert plain under a golden sky with melted clocks",
+        "a dream landscape of floating objects and crutches",
+        "a long-shadowed beach of impossible rocks"
+      ],
+      "poses": [
+        "both watching the strange horizon, small and still",
+        "both draped over a melting shape",
+        "both walking together toward the vast shadow"
+      ],
+      "looks": [
+        "tailored suit and long gown each, surreal calm",
+        "white shirt and trousers each",
+        "1930s evening wear each"
+      ]
+    },
+    "Magritte": {
+      "locs": [
+        "a blue sky of white clouds above a quiet street",
+        "an ordinary room where a green apple floats",
+        "a seaside with a bird-shaped sky"
+      ],
+      "poses": [
+        "both standing blankly in bowler hats, faces hidden",
+        "both with a floating apple in front of their faces",
+        "both calm as day turns to night in the same frame"
+      ],
+      "looks": [
+        "dark overcoat and bowler hat each",
+        "plain suit and white shirt each",
+        "1930s office clothes each"
+      ]
+    },
+    "Hokusai": {
+      "locs": [
+        "a towering wave about to crash with Mount Fuji beyond",
+        "a cherry blossom bridge in flat colour",
+        "a snowy village under a pale sky"
+      ],
+      "poses": [
+        "both in a small boat facing the huge wave",
+        "both on the bridge looking up at the blossom",
+        "both walking hand in hand through the snow"
+      ],
+      "looks": [
+        "silk kimono and obi in indigo and white each",
+        "straw rain cape and hat each",
+        "traditional Edo-period dress each"
+      ]
+    },
+    "Basquiat": {
+      "locs": [
+        "a scrawled graffiti ground with handwritten words",
+        "a crowded canvas of crowns and symbols",
+        "an orange and blue background with crossed-out text"
+      ],
+      "poses": [
+        "both as raw figures with gaping eyes",
+        "both under a three-point crown",
+        "both side by side as skeletal totems"
+      ],
+      "looks": [
+        "paint-splattered oversized suit each",
+        "bold coloured scrawled outfit each",
+        "street clothes covered in drawings each"
+      ]
+    },
+    "Keith Haring": {
+      "locs": [
+        "a bright flat colour background with radiating lines",
+        "a dance floor of dancing outlines",
+        "a subway-wall style chalk drawing"
+      ],
+      "poses": [
+        "both dancing as outlined figures with radiating lines",
+        "both holding up a glowing baby figure",
+        "both mid-leap in bold line"
+      ],
+      "looks": [
+        "solid bright jumpsuits outlined in black each",
+        "simple stick-figure style clothing each",
+        "bold colour block outfits each"
+      ]
+    },
+    "Tamara de Lempicka": {
+      "locs": [
+        "an Art Deco skyline of silver skyscrapers",
+        "a sleek open-top car in gleaming chrome",
+        "a night terrace of geometric shadows"
+      ],
+      "poses": [
+        "both elegant and aloof, leaning together",
+        "one at the wheel other draped over the door",
+        "both silhouetted in dramatic glamour"
+      ],
+      "looks": [
+        "metallic silk gown and tailored tuxedo each",
+        "leather driving cap and scarf each",
+        "evening dress with feathers each"
+      ]
+    },
+    "Leonardo": {
+      "locs": [
+        "a hazy blue mountain landscape behind a balcony",
+        "a rocky grotto in soft light",
+        "a plain dark ground with delicate shadows"
+      ],
+      "poses": [
+        "both with a faint mysterious smile, hands folded",
+        "one turned in three-quarter profile other watching",
+        "both seated close in a calm pyramid composition"
+      ],
+      "looks": [
+        "Renaissance dress with gathered sleeves each",
+        "dark robe and veil each",
+        "simple 15th century tunic and cloak each"
+      ]
+    },
+    "Munch": {
+      "locs": [
+        "a blood-red sky over a long pier",
+        "a moonlit fjord shore of wavy shapes",
+        "a bare room under yellow-green lamplight"
+      ],
+      "poses": [
+        "both with hands pressed to their cheeks, screaming silently",
+        "both locked in a haunted kiss",
+        "both leaning on the railing in anxiety"
+      ],
+      "looks": [
+        "dark long coats and hats each",
+        "simple dark dress and suit each",
+        "thin pale nightclothes each"
+      ]
+    },
+    "Studio Ghibli": {
+      "locs": [
+        "a green hill under towering clouds and a breeze",
+        "a small seaside town with a train running on the water",
+        "a forest clearing of glowing spirits"
+      ],
+      "poses": [
+        "both on a hillside with wind in their hair",
+        "both on a train over shimmering water",
+        "both meeting a giant gentle spirit in the forest"
+      ],
+      "looks": [
+        "simple cotton dress and satchel each",
+        "school-style shirt and shorts each",
+        "woollen scarf and coat in soft pastels each"
+      ]
+    },
+    "Byzantine mosaic": {
+      "locs": [
+        "a gold mosaic apse under a starry dome",
+        "a jewelled arch with peacocks and vines",
+        "a church wall of blue and gold tiles"
+      ],
+      "poses": [
+        "both frontal and still with halos",
+        "both holding hands flanked by angels",
+        "both enthroned side by side"
+      ],
+      "looks": [
+        "jewelled imperial robes and crowns each",
+        "long embroidered tunics each",
+        "gold-trimmed cloaks with pearls each"
+      ]
+    },
+    "Pre-Raphaelites": {
+      "locs": [
+        "a river of floating flowers in dense detail",
+        "a tapestried medieval chamber",
+        "a woodland glade of ivy and wildflowers"
+      ],
+      "poses": [
+        "both gazing wistfully, hair loose",
+        "one lying in the water other mourning",
+        "both reading in the glade"
+      ],
+      "looks": [
+        "flowing velvet gown with long hair each",
+        "medieval tunic and hose each",
+        "draped green silk dress and floral crown each"
+      ]
+    },
+    "Norman Rockwell": {
+      "locs": [
+        "a warm 1950s kitchen with a family table",
+        "a small-town soda fountain counter",
+        "a front porch on a sunny afternoon"
+      ],
+      "poses": [
+        "both caught in a gently comic moment, wide-eyed",
+        "both sharing a milkshake with two straws",
+        "both on the porch swing waving"
+      ],
+      "looks": [
+        "1950s aprons and shirtsleeves each",
+        "varsity sweater and poodle skirt each",
+        "Sunday best coat and hat each"
+      ]
+    },
+    "Hergé": {
+      "locs": [
+        "a clear-sky harbour with a steamship",
+        "a desert of flat yellow sand and a tiny plane",
+        "a busy cobbled European street in neat colour"
+      ],
+      "poses": [
+        "both running in an adventure-comic stride",
+        "both peering at a clue through a magnifying glass",
+        "both leaning from the rail of a ship"
+      ],
+      "looks": [
+        "tan trench coat and plus fours each",
+        "sailor jumper and boots each",
+        "1930s travel suit and hat each"
+      ]
+    }
+  },
+  "locs": [
+    "a dark candlelit interior with a deep brown ground",
+    "a grand biblical scene with figures emerging from darkness",
+    "a bare winter landscape under a cold grey Dutch sky",
+    "a stone-floored room lit by a single candle",
+    "a sunlit yard with deep diagonal shadows",
+    "a tavern table in dramatic low light",
+    "a grand Spanish court room receding into shadow",
+    "a working kitchen with one bright window",
+    "airy Spanish countryside under a pale sky",
+    "a black-walled room with an unsettling void behind",
+    "an opulent court salon with glittering light",
+    "a dark countryside at night lit by a fire",
+    "a tiled-floor Dutch room lit by a left-hand window",
+    "a quiet corner with a map on the wall and a table",
+    "a window over a canal with the room in soft shadow",
+    "a mythological landscape under a stormy golden sky",
+    "a hunt with galloping horses",
+    "an allegorical interior hung with rich drapery",
+    "a wheat field under a swirling sky at noon",
+    "a night café lit by yellow gaslight",
+    "a small bedroom of tilted flat colour walls",
+    "a gold ornamental background of swirling patterns",
+    "a flat golden tree of life with scrolling branches",
+    "a patterned Viennese interior of gold and mosaic",
+    "an ochre and grey interior of fractured planes",
+    "a sparse blue-toned room of flat melancholy",
+    "a warm terracotta circus ring in soft light",
+    "an interior of clashing patterned fabrics and wallpaper",
+    "an open blue sky with dancing figures",
+    "abstract cut-paper shapes in bright flat colour",
+    "a warm ochre wall of a Paris studio",
+    "a plain warm ground behind a reclining figure",
+    "a bare room with one chair in warm earth tones",
+    "a lush tropical clearing in flat bold colour",
+    "a hut interior with a woven mat floor",
+    "a Brittany village green in flat colour",
+    "a cabaret stage with a red glow and a dancing crowd",
+    "a cluttered intimate backstage dressing room",
+    "a lamplit café table at night",
+    "a late-night diner with a glaring fluorescent glow",
+    "a sunlit bedroom with a bare window",
+    "a white clapboard house under harsh sunlight",
+    "a flat orange-red room with a bare bulb",
+    "a caged space against a black void",
+    "a studio floor of smeared paint and newsprint",
+    "a grid of four repeated panels in clashing colours",
+    "a silver foil walled factory room",
+    "a flat newsprint background in stark black and white",
+    "a comic panel with a speech bubble and dotted background",
+    "a war comic explosion in red and yellow",
+    "a giant brushstroke painted as a comic",
+    "a peeling brick wall with a stencilled rat",
+    "a seaside wall with a red balloon",
+    "a museum wall hung with a stencilled scene",
+    "an ornate floral border with a gold halo",
+    "a circular four-seasons panel with ornamental border",
+    "a theatre poster frame with space for lettering",
+    "a broadsheet page with a bold inked border",
+    "a Paris street scene in lithograph shading",
+    "an over-the-top Georgian parlour",
+    "a water lily pond with a Japanese bridge",
+    "a sunlit poppy field in soft haze",
+    "a harbour at dawn in pastel mist",
+    "a garden of giant tropical leaves and flowers",
+    "a blue house courtyard with parrots",
+    "a bed surrounded by symbols and roots",
+    "an empty desert plain under a golden sky with melted clocks",
+    "a dream landscape of floating objects and crutches",
+    "a long-shadowed beach of impossible rocks",
+    "a blue sky of white clouds above a quiet street",
+    "an ordinary room where a green apple floats",
+    "a seaside with a bird-shaped sky",
+    "a towering wave about to crash with Mount Fuji beyond",
+    "a cherry blossom bridge in flat colour",
+    "a snowy village under a pale sky",
+    "a scrawled graffiti ground with handwritten words",
+    "a crowded canvas of crowns and symbols",
+    "an orange and blue background with crossed-out text",
+    "a bright flat colour background with radiating lines",
+    "a dance floor of dancing outlines",
+    "a subway-wall style chalk drawing",
+    "an Art Deco skyline of silver skyscrapers",
+    "a sleek open-top car in gleaming chrome",
+    "a night terrace of geometric shadows",
+    "a hazy blue mountain landscape behind a balcony",
+    "a rocky grotto in soft light",
+    "a plain dark ground with delicate shadows",
+    "a blood-red sky over a long pier",
+    "a moonlit fjord shore of wavy shapes",
+    "a bare room under yellow-green lamplight",
+    "a green hill under towering clouds and a breeze",
+    "a small seaside town with a train running on the water",
+    "a forest clearing of glowing spirits",
+    "a gold mosaic apse under a starry dome",
+    "a jewelled arch with peacocks and vines",
+    "a church wall of blue and gold tiles",
+    "a river of floating flowers in dense detail",
+    "a tapestried medieval chamber",
+    "a woodland glade of ivy and wildflowers",
+    "a warm 1950s kitchen with a family table",
+    "a small-town soda fountain counter",
+    "a front porch on a sunny afternoon",
+    "a clear-sky harbour with a steamship",
+    "a desert of flat yellow sand and a tiny plane",
+    "a busy cobbled European street in neat colour"
+  ],
+  "poses": [
+    "both close together in an intimate three-quarter portrait",
+    "both mid dramatic gesture caught in a shaft of light",
+    "both small figures walking a frozen path",
+    "both emerging from the darkness lit from one side",
+    "both reaching mid-gesture hands in the light",
+    "both caught mid-action at the table",
+    "both formal and dignified in a full-length court portrait",
+    "both busy at kitchen work caught naturally",
+    "both relaxed in hunting poses outdoors",
+    "both staring out confrontational and exposed",
+    "both stiffly posed with uneasy eyes",
+    "both huddled together lit by firelight",
+    "both absorbed in a quiet task lit from the window",
+    "one reading a letter other glancing over",
+    "both seated at the window looking out",
+    "both in dynamic mid-movement poses wrapped in cloth",
+    "both riding hard in the hunt",
+    "both embracing amid swirling drapery",
+    "both standing close in the swirling field",
+    "both at a café table under yellow light",
+    "both seated on the narrow bed",
+    "both locked in a tender embrace wrapped in robes",
+    "one standing tall other leaning close in a tall vertical composition",
+    "both small against the swirling golden tree",
+    "both shown front and profile at once, faces split",
+    "both thin and still in a melancholy huddle",
+    "both tender as travelling acrobats",
+    "both reclining among cushions in flat colour",
+    "both dancing hand in hand mid-movement",
+    "both reduced to bold simple silhouettes",
+    "both with long necks and tilted heads side by side",
+    "one reclining one watching",
+    "both facing each other close, oval faces",
+    "both seated frontal and still amid tropical colour",
+    "both sharing a mat on the floor",
+    "both standing outlined against flat green",
+    "both mid-dance in a flat graphic silhouette",
+    "both seated at a dressing table, intimate",
+    "both leaning at a café table watching the room",
+    "both at the counter not looking at each other",
+    "one seated by the window other standing apart",
+    "both on the porch lost in thought",
+    "both contorted in separate panels, faces smeared",
+    "both compressed against a curtain, screaming",
+    "both tangled together on the floor",
+    "both frontal and flat, repeated in four panels",
+    "both lounging in a silver room, 1960s",
+    "both stark and still against the newsprint",
+    "one crying dramatically other consoling inside a single comic panel",
+    "both in dramatic action mid-explosion",
+    "both posed like a parody of abstract painting",
+    "both holding protest signs in stencil silhouette",
+    "one reaching for a balloon other watching",
+    "both pushing a shopping trolley like cave dwellers",
+    "both with flowing hair framed by flowers",
+    "both posed in a circular panel of the seasons",
+    "both striking a dramatic theatrical pose",
+    "both with giant heads exaggerating their best features",
+    "both bickering over a cartoon street",
+    "both bloated with pomp and excess",
+    "both strolling the bridge under parasols",
+    "both lying in the poppies in the sun",
+    "both standing at the water's edge, reflected",
+    "both frontal and unflinching with joined hands",
+    "both with monkeys and parrots at the shoulders",
+    "both facing us with twined roots between them",
+    "both watching the strange horizon, small and still",
+    "both draped over a melting shape",
+    "both walking together toward the vast shadow",
+    "both standing blankly in bowler hats, faces hidden",
+    "both with a floating apple in front of their faces",
+    "both calm as day turns to night in the same frame",
+    "both in a small boat facing the huge wave",
+    "both on the bridge looking up at the blossom",
+    "both walking hand in hand through the snow",
+    "both as raw figures with gaping eyes",
+    "both under a three-point crown",
+    "both side by side as skeletal totems",
+    "both dancing as outlined figures with radiating lines",
+    "both holding up a glowing baby figure",
+    "both mid-leap in bold line",
+    "both elegant and aloof, leaning together",
+    "one at the wheel other draped over the door",
+    "both silhouetted in dramatic glamour",
+    "both with a faint mysterious smile, hands folded",
+    "one turned in three-quarter profile other watching",
+    "both seated close in a calm pyramid composition",
+    "both with hands pressed to their cheeks, screaming silently",
+    "both locked in a haunted kiss",
+    "both leaning on the railing in anxiety",
+    "both on a hillside with wind in their hair",
+    "both on a train over shimmering water",
+    "both meeting a giant gentle spirit in the forest",
+    "both frontal and still with halos",
+    "both holding hands flanked by angels",
+    "both enthroned side by side",
+    "both gazing wistfully, hair loose",
+    "one lying in the water other mourning",
+    "both reading in the glade",
+    "both caught in a gently comic moment, wide-eyed",
+    "both sharing a milkshake with two straws",
+    "both on the porch swing waving",
+    "both running in an adventure-comic stride",
+    "both peering at a clue through a magnifying glass",
+    "both leaning from the rail of a ship"
+  ],
+  "looks": [
+    "dark velvet doublet with a white lace collar each",
+    "simple linen working dress and cap each",
+    "loose draped cloth and a gold chain each",
+    "rough linen shirt and loose cloth each",
+    "16th century Roman dress with billowing sleeves each",
+    "draped red cloth and plain tunic each",
+    "black Habsburg court dress with a white ruff each",
+    "plain working clothes and apron each",
+    "hunting coat and boots each",
+    "dark clothes dissolving into black each",
+    "embroidered court dress and silk coat each",
+    "Spanish maja dress and short cape each",
+    "yellow jacket and blue skirt each",
+    "white linen cap and simple dress each",
+    "dark merchant coat and white collar each",
+    "flowing silk and velvet in deep reds each",
+    "riding coat and plumed hat each",
+    "classical draped robes each",
+    "straw hat and blue work clothes each",
+    "rough jacket and cap each",
+    "plain shirt and waistcoat each",
+    "gold patterned robes with geometric mosaic motifs each",
+    "long ornamental gown and patterned coat each",
+    "Vienna Secession dress with gold detail each",
+    "geometric fractured clothes in angular shapes each",
+    "thin ragged clothes in blue tones each",
+    "soft harlequin acrobat costume each",
+    "patterned robe in bold flat colour each",
+    "simple draped cloth each",
+    "plain silhouettes in vivid colour each",
+    "open-collared simple shirt each",
+    "soft draped cloth in muted tones each",
+    "1910s Parisian jacket and dress each",
+    "bright wrapped cloth sarong each",
+    "simple cotton dress and shirt each",
+    "Breton traditional dress and cap each",
+    "can-can dress with frilly petticoats each",
+    "loose dressing gown each",
+    "1890s Parisian bourgeois dress and coat each",
+    "1940s working coat and hat each",
+    "simple 1940s dress and cardigan each",
+    "1930s casual jacket and slacks each",
+    "plain dark suit blurred and smeared each",
+    "simple shirt and trousers torn by motion each",
+    "bare simple clothes distorted by paint each",
+    "1960s mod dress and turtleneck each",
+    "black polo neck and sunglasses each",
+    "plain clothes flattened to bold colour each",
+    "comic book dress with thick outlines each",
+    "pilot uniform and helmet each",
+    "simple clothes drawn in bold dots each",
+    "plain hoodie and cap in stencil black each",
+    "simple child-like clothes each",
+    "dark silhouettes with one splash of red each",
+    "flowing gown with botanical ornament each",
+    "draped robes with flower crowns each",
+    "theatrical costume in muted pastels each",
+    "exaggerated costume swollen with pomp each",
+    "19th century top hat and frock coat each",
+    "ridiculous Georgian wig and silks each",
+    "white summer dress and straw hat each",
+    "light linen suit and boater hat each",
+    "pastel dress and parasol each",
+    "Tehuana dress with a braided flower crown each",
+    "embroidered blouse and rebozo each",
+    "bright folk dress and heavy jewellery each",
+    "tailored suit and long gown each, surreal calm",
+    "white shirt and trousers each",
+    "1930s evening wear each",
+    "dark overcoat and bowler hat each",
+    "plain suit and white shirt each",
+    "1930s office clothes each",
+    "silk kimono and obi in indigo and white each",
+    "straw rain cape and hat each",
+    "traditional Edo-period dress each",
+    "paint-splattered oversized suit each",
+    "bold coloured scrawled outfit each",
+    "street clothes covered in drawings each",
+    "solid bright jumpsuits outlined in black each",
+    "simple stick-figure style clothing each",
+    "bold colour block outfits each",
+    "metallic silk gown and tailored tuxedo each",
+    "leather driving cap and scarf each",
+    "evening dress with feathers each",
+    "Renaissance dress with gathered sleeves each",
+    "dark robe and veil each",
+    "simple 15th century tunic and cloak each",
+    "dark long coats and hats each",
+    "simple dark dress and suit each",
+    "thin pale nightclothes each",
+    "simple cotton dress and satchel each",
+    "school-style shirt and shorts each",
+    "woollen scarf and coat in soft pastels each",
+    "jewelled imperial robes and crowns each",
+    "long embroidered tunics each",
+    "gold-trimmed cloaks with pearls each",
+    "flowing velvet gown with long hair each",
+    "medieval tunic and hose each",
+    "draped green silk dress and floral crown each",
+    "1950s aprons and shirtsleeves each",
+    "varsity sweater and poodle skirt each",
+    "Sunday best coat and hat each",
+    "tan trench coat and plus fours each",
+    "sailor jumper and boots each",
+    "1930s travel suit and hat each"
+  ],
+  "tensionIsStyle": true,
+  "variantDirectives": [
+    "Full-length double portrait, the figures small within a grand painted setting: ",
+    "Three-quarter length double portrait, posture and gesture carry the feeling: ",
+    "Tight head-and-shoulders portrait, faces fill the canvas: ",
+    "Bold simplified composition, one dominant shape, minimal detail: ",
+    "The setting dominates the canvas, the figures secondary to the scene: ",
+    "Costume and fabric take centre stage, the figures posed to show the dress: "
+  ],
+  "promptPrefix": "Fine art portrait as an original artwork — ",
+  "promptSuffix": "The subjects exist inside the artwork, not in front of it.",
+  "translations": {
+    "Rembrandt": "painted in the style of Rembrandt: amber chiaroscuro, glowing faces emerging from deep shadow",
+    "Caravaggio": "painted in the style of Caravaggio: tenebrism, one hard light slicing through absolute darkness",
+    "Velázquez": "painted in the style of Velázquez: loose atmospheric brushwork, receding court space, warm shadow",
+    "Goya": "painted in the style of Goya: raw dark brushwork, haunting psychological intensity",
+    "Vermeer": "painted in the style of Vermeer: soft pearly window light, calm domestic stillness",
+    "Rubens": "painted in the style of Rubens: Baroque swirling movement, rich warm flesh tones, stormy golden skies",
+    "Van Gogh": "painted in the style of Van Gogh: thick swirling impasto, vivid yellows and blues",
+    "Klimt": "painted in the style of Klimt: gold leaf, ornamental patterns, flat decorative surfaces",
+    "Picasso": "painted in the style of Picasso: fragmented Cubist planes, faces seen from several angles at once",
+    "Matisse": "painted in the style of Matisse: flat bold colour, joyful simplified shapes, pattern on pattern",
+    "Modigliani": "painted in the style of Modigliani: elongated necks, almond eyes, warm simplified faces",
+    "Gauguin": "painted in the style of Gauguin: flat saturated colour, bold outlines, tropical simplicity",
+    "Toulouse-Lautrec": "painted in the style of Toulouse-Lautrec: poster flats, bold sinuous line, Parisian nightlife",
+    "Hopper": "painted in the style of Edward Hopper: hard light, quiet isolation, American stillness",
+    "Bacon": "painted in the style of Francis Bacon: twisted figures, raw smeared paint, flat dark voids",
+    "Warhol": "painted in the style of Andy Warhol: silkscreen flat colour, repetition, high-contrast pop",
+    "Lichtenstein": "painted in the style of Roy Lichtenstein: Ben-Day dots, thick black outline, primary-colour comic panel",
+    "Banksy": "painted in the style of Banksy: black-and-white stencil, street wall, satirical twist",
+    "Mucha": "painted in the style of Alphonse Mucha: Art Nouveau poster, flowing hair, floral halo borders",
+    "caricature": "drawn as satirical caricature: huge heads, exaggerated features, bold ink line",
+    "Monet": "painted in the style of Monet: Impressionist broken colour, dappled light, shimmering water",
+    "Frida Kahlo": "painted in the style of Frida Kahlo: Mexican folk surrealism, flowers, flat frontal gaze, symbolic detail",
+    "Dalí": "painted in the style of Salvador Dalí: melting forms, hyper-real dreamscape, long shadows on barren plains",
+    "Magritte": "painted in the style of Magritte: deadpan surrealism, floating objects, calm sky and bowler hats",
+    "Hokusai": "made as a Japanese ukiyo-e woodblock print in the style of Hokusai: flat colour, bold outline, Prussian blue",
+    "Basquiat": "painted in the style of Basquiat: raw neo-expressionist scrawl, crowns, skull-like faces, frantic colour",
+    "Keith Haring": "painted in the style of Keith Haring: bold black outline figures, radiant lines, dancing pop energy",
+    "Tamara de Lempicka": "painted in the style of Tamara de Lempicka: Art Deco glamour, polished metallic curves, cool luxury",
+    "Leonardo": "painted in the style of Leonardo da Vinci: soft sfumato, mysterious smiles, hazy blue landscape",
+    "Munch": "painted in the style of Edvard Munch: Expressionist swirling lines, anguished faces, blood-red skies",
+    "Studio Ghibli": "painted in the style of a Studio Ghibli film: soft watercolour backgrounds, warm wonder, gentle anime faces",
+    "Byzantine mosaic": "rendered as a Byzantine gold mosaic: glittering tesserae, flat haloed figures, rich jewel colour",
+    "Pre-Raphaelites": "painted in the style of the Pre-Raphaelites: jewel colour, rich detail, dreamy medieval romance",
+    "Norman Rockwell": "painted in the style of Norman Rockwell: warm American storytelling illustration, affectionate humour, crisp detail",
+    "Hergé": "drawn in the ligne claire style of Hergé: clean even line, flat colour, adventure comic"
+  },
+  "locTypes": {
+    "a dark candlelit interior with a deep brown ground": "both",
+    "a grand biblical scene with figures emerging from darkness": "both",
+    "a bare winter landscape under a cold grey Dutch sky": "both",
+    "a stone-floored room lit by a single candle": "both",
+    "a sunlit yard with deep diagonal shadows": "both",
+    "a tavern table in dramatic low light": "both",
+    "a grand Spanish court room receding into shadow": "both",
+    "a working kitchen with one bright window": "both",
+    "airy Spanish countryside under a pale sky": "both",
+    "a black-walled room with an unsettling void behind": "both",
+    "an opulent court salon with glittering light": "both",
+    "a dark countryside at night lit by a fire": "both",
+    "a tiled-floor Dutch room lit by a left-hand window": "both",
+    "a quiet corner with a map on the wall and a table": "both",
+    "a window over a canal with the room in soft shadow": "both",
+    "a mythological landscape under a stormy golden sky": "both",
+    "a hunt with galloping horses": "both",
+    "an allegorical interior hung with rich drapery": "both",
+    "a wheat field under a swirling sky at noon": "both",
+    "a night café lit by yellow gaslight": "both",
+    "a small bedroom of tilted flat colour walls": "both",
+    "a gold ornamental background of swirling patterns": "both",
+    "a flat golden tree of life with scrolling branches": "both",
+    "a patterned Viennese interior of gold and mosaic": "both",
+    "an ochre and grey interior of fractured planes": "both",
+    "a sparse blue-toned room of flat melancholy": "both",
+    "a warm terracotta circus ring in soft light": "both",
+    "an interior of clashing patterned fabrics and wallpaper": "both",
+    "an open blue sky with dancing figures": "both",
+    "abstract cut-paper shapes in bright flat colour": "both",
+    "a warm ochre wall of a Paris studio": "both",
+    "a plain warm ground behind a reclining figure": "both",
+    "a bare room with one chair in warm earth tones": "both",
+    "a lush tropical clearing in flat bold colour": "both",
+    "a hut interior with a woven mat floor": "both",
+    "a Brittany village green in flat colour": "both",
+    "a cabaret stage with a red glow and a dancing crowd": "both",
+    "a cluttered intimate backstage dressing room": "both",
+    "a lamplit café table at night": "both",
+    "a late-night diner with a glaring fluorescent glow": "both",
+    "a sunlit bedroom with a bare window": "both",
+    "a white clapboard house under harsh sunlight": "both",
+    "a flat orange-red room with a bare bulb": "both",
+    "a caged space against a black void": "both",
+    "a studio floor of smeared paint and newsprint": "both",
+    "a grid of four repeated panels in clashing colours": "both",
+    "a silver foil walled factory room": "both",
+    "a flat newsprint background in stark black and white": "both",
+    "a comic panel with a speech bubble and dotted background": "both",
+    "a war comic explosion in red and yellow": "both",
+    "a giant brushstroke painted as a comic": "both",
+    "a peeling brick wall with a stencilled rat": "both",
+    "a seaside wall with a red balloon": "both",
+    "a museum wall hung with a stencilled scene": "both",
+    "an ornate floral border with a gold halo": "both",
+    "a circular four-seasons panel with ornamental border": "both",
+    "a theatre poster frame with space for lettering": "both",
+    "a broadsheet page with a bold inked border": "both",
+    "a Paris street scene in lithograph shading": "both",
+    "an over-the-top Georgian parlour": "both",
+    "a water lily pond with a Japanese bridge": "both",
+    "a sunlit poppy field in soft haze": "both",
+    "a harbour at dawn in pastel mist": "both",
+    "a garden of giant tropical leaves and flowers": "both",
+    "a blue house courtyard with parrots": "both",
+    "a bed surrounded by symbols and roots": "both",
+    "an empty desert plain under a golden sky with melted clocks": "both",
+    "a dream landscape of floating objects and crutches": "both",
+    "a long-shadowed beach of impossible rocks": "both",
+    "a blue sky of white clouds above a quiet street": "both",
+    "an ordinary room where a green apple floats": "both",
+    "a seaside with a bird-shaped sky": "both",
+    "a towering wave about to crash with Mount Fuji beyond": "both",
+    "a cherry blossom bridge in flat colour": "both",
+    "a snowy village under a pale sky": "both",
+    "a scrawled graffiti ground with handwritten words": "both",
+    "a crowded canvas of crowns and symbols": "both",
+    "an orange and blue background with crossed-out text": "both",
+    "a bright flat colour background with radiating lines": "both",
+    "a dance floor of dancing outlines": "both",
+    "a subway-wall style chalk drawing": "both",
+    "an Art Deco skyline of silver skyscrapers": "both",
+    "a sleek open-top car in gleaming chrome": "both",
+    "a night terrace of geometric shadows": "both",
+    "a hazy blue mountain landscape behind a balcony": "both",
+    "a rocky grotto in soft light": "both",
+    "a plain dark ground with delicate shadows": "both",
+    "a blood-red sky over a long pier": "both",
+    "a moonlit fjord shore of wavy shapes": "both",
+    "a bare room under yellow-green lamplight": "both",
+    "a green hill under towering clouds and a breeze": "both",
+    "a small seaside town with a train running on the water": "both",
+    "a forest clearing of glowing spirits": "both",
+    "a gold mosaic apse under a starry dome": "both",
+    "a jewelled arch with peacocks and vines": "both",
+    "a church wall of blue and gold tiles": "both",
+    "a river of floating flowers in dense detail": "both",
+    "a tapestried medieval chamber": "both",
+    "a woodland glade of ivy and wildflowers": "both",
+    "a warm 1950s kitchen with a family table": "both",
+    "a small-town soda fountain counter": "both",
+    "a front porch on a sunny afternoon": "both",
+    "a clear-sky harbour with a steamship": "both",
+    "a desert of flat yellow sand and a tiny plane": "both",
+    "a busy cobbled European street in neat colour": "both"
+  },
+  "connectors": [
+    "in",
+    "set in",
+    "within",
+    "against"
+  ]
+}

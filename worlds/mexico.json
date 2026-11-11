@@ -1,0 +1,655 @@
+{
+  "id": "mexico",
+  "name": "THE MEXICO",
+  "sub": "Culture & Life",
+  "color": "#cc4422",
+  "tensions": [
+    "tradition vs. modern",
+    "fiesta vs. everyday",
+    "ancient vs. colonial",
+    "border vs. homeland",
+    "ocean vs. desert",
+    "market vs. mall",
+    "family vs. solitude",
+    "day of the dead vs. life",
+    "mural vs. canvas",
+    "spice vs. sweet",
+    "local vs. tourist",
+    "colonial vs. indigenous",
+    "siesta vs. hustle",
+    "carnival vs. quiet",
+    "north vs. south",
+    "coast vs. highlands",
+    "artisan vs. factory",
+    "sacred vs. street",
+    "migrant vs. rooted",
+    "celebration vs. mourning"
+  ],
+  "locs": [
+    "Oaxacan market stall morning colour",
+    "Chichen Itza pyramid sunrise empty",
+    "Lucha libre arena ring between bouts",
+    "Mexico City Zócalo plaza evening",
+    "Frida Kahlo blue house Coyoacán",
+    "Xochimilco trajinera canal flower boat",
+    "Oaxaca Monte Albán ruins",
+    "Teotihuacan pyramids dawn",
+    "Palenque jungle ruins Chiapas",
+    "Uxmal Yucatan ruins",
+    "Merida colonial plaza Sunday",
+    "San Cristóbal de las Casas highland",
+    "Puerto Escondido surf beach Oaxaca",
+    "Huatulco bay beach Oaxaca",
+    "Sayulita beach Nayarit village",
+    "Puerto Vallarta old town Jalisco",
+    "Guadalajara Tlaquepaque craft market",
+    "Guanajuato callejón del Beso lane",
+    "Guanajuato Festival Cervantino stage",
+    "San Miguel de Allende jardin",
+    "Tulum ruins cliff sea below",
+    "Tulum cenote swim jungle",
+    "Bacalar lake colours Quintana Roo",
+    "Coba pyramid climb top jungle",
+    "Valladolid cenote swim Yucatan",
+    "Izamal yellow town Yucatan",
+    "Campeche colonial colour walls",
+    "Veracruz malecon evening",
+    "Xalapa anthro museum Veracruz",
+    "Tlaxcala smallest state capital",
+    "Morelia cathedral evening Michoacán",
+    "Pátzcuaro Day of Dead lake",
+    "Janitzio island midnight ceremony",
+    "Cholula pyramid church top",
+    "Puebla Azulejo tile building",
+    "Taxco silver town hilltop",
+    "Acapulco cliff diver platform",
+    "Mazatlán old town Sinaloa",
+    "Los Cabos arch sea rock",
+    "Baja peninsula road trip",
+    "Copper Canyon train Chihuahua",
+    "Creel Tarahumara area Chihuahua"
+  ],
+  "poses": [
+    "dancing salsa close hold street music",
+    "mariachi serenade face to face close",
+    "shared street taco vendor lean laughing",
+    "carrying ofrenda flowers together Day of Dead",
+    "both in lucha libre masks play-fight",
+    "spinning in plaza music traditional both",
+    "both at mole cookery class absorbed",
+    "market stall vendor and customer together",
+    "both watching sunset on beach warm",
+    "posing at famous tile wall together",
+    "both at pyramid summit arms wide",
+    "descending pyramid together careful",
+    "cenote jump holding hands both",
+    "both swimming in cenote clear water",
+    "eating tlayuda together street Oaxaca",
+    "mezcal toast together clay cup both",
+    "both at chocolate making workshop hands",
+    "weaving demonstration both learning",
+    "pottery class both clay-covered laughing",
+    "embroidery lesson both trying",
+    "both at Day of Dead altar placing flowers",
+    "writing name on altar wall both",
+    "both watching Guelaguetza dance absorbed",
+    "joining circle dance both learning",
+    "both at wrestling lucha match arms up",
+    "selfie in front of pyramid classic both",
+    "both at border crossing official queue",
+    "both on colectivo van squeezing in",
+    "both on horse in mountains together",
+    "both at pulque bar local experience",
+    "Frida museum garden both contemplative",
+    "muralist work both studying Rivera",
+    "both at silver market choosing together",
+    "both at handicraft market buying"
+  ],
+  "looks": [
+    "embroidered huipil and simple trousers each traditional Oaxacan",
+    "Oaxacan floral dress and guayabera shirt each",
+    "charro suit open collar and china poblana dress each",
+    "talavera-print blouse and guayabera each",
+    "floral crown embroidered dress and linen guayabera each",
+    "Tehuana dress and linen shirt each Frida-inspired",
+    "handwoven rebozo and cotton shirt each",
+    "zapotec weave garment each traditional",
+    "huipil and sandals each indigenous style",
+    "Day of Dead makeup and black formal each",
+    "calavera costume both festive",
+    "lucha libre mask and street clothes each",
+    "charro full suit and china poblana each",
+    "traditional fiesta dress and shirt each",
+    "colourful embroidery on white both",
+    "Mexico City creative street style each",
+    "Guadalajara artisanal modern both",
+    "Oaxaca craft-market inspired both",
+    "beach casual both Pacific Mexico",
+    "cenote-ready swimwear each",
+    "travel layers Mexico both practical",
+    "mezcal bar casual both relaxed",
+    "market casual both comfortable hot",
+    "restaurant occasion smart each Mexico City",
+    "Polanco restaurant smart both Mexico City",
+    "Condesa café casual both",
+    "Roma Norte street style each",
+    "Coyoacán artist casual both",
+    "Teotihuacan practical comfortable both",
+    "pyramid climbing practical both",
+    "coastal resort relaxed both",
+    "Caribbean Mexico beach both"
+  ],
+  "affinities": {
+    "tradition vs. modern": {
+      "locs": [
+        "Oaxacan market stall morning",
+        "Mexico City Roma neighborhood cafe",
+        "Frida Kahlo blue house patio",
+        "Mexico City Zócalo plaza",
+        "Tlaquepaque artisan workshop"
+      ],
+      "poses": [
+        "one doing embroidery other watches",
+        "both at colorful alley wall",
+        "one weaving at loom other watching",
+        "both in traditional dress pose",
+        "street food bite shared laughing"
+      ],
+      "looks": [
+        "embroidered huipil simple",
+        "Oaxacan floral dress and guayabera shirt",
+        "guayabera shirt linen pants",
+        "hand-dyed cotton casual",
+        "woven huipil modern cut"
+      ]
+    },
+    "fiesta vs. everyday": {
+      "locs": [
+        "Guadalajara mariachi square",
+        "Mazatlan Carnaval street float",
+        "Tlaxcala carnival dance street",
+        "Merida colonial plaza afternoon",
+        "Oaxacan tlayuda street stall"
+      ],
+      "poses": [
+        "dancing salsa close hold",
+        "running through confetti together",
+        "street carnival float wave together",
+        "slow dance plaza evening",
+        "shared street taco vendor lean"
+      ],
+      "looks": [
+        "fiesta dress bright layers",
+        "carnival costume loosened",
+        "charro suit open collar",
+        "floral crown dress and linen guayabera",
+        "fiesta blouse dark skirt"
+      ]
+    },
+    "ancient vs. colonial": {
+      "locs": [
+        "Chichen Itza pyramid sunrise",
+        "Teotihuacan Avenue of the Dead",
+        "Palenque jungle ruins mist",
+        "Zacatecas colonial cathedral steps",
+        "San Miguel de Allende rooftop"
+      ],
+      "poses": [
+        "both at pyramid top arms wide",
+        "both at cathedral arch looking up",
+        "cliff ruins both looking out",
+        "one painting mural other watching",
+        "both at Bellas Artes steps"
+      ],
+      "looks": [
+        "Mayan-inspired wrapped skirt",
+        "colonial style white linen",
+        "traditional Tehuana dress",
+        "colonial blouse talavera skirt",
+        "artisan apron colorful blouse"
+      ]
+    },
+    "border vs. homeland": {
+      "locs": [
+        "Taos-adjacent border desert dawn",
+        "Mexico City Tepito street market",
+        "Copper Canyon rim overlook",
+        "Monterrey Barrio Antiguo street",
+        "Mexico City Tepito street market"
+      ],
+      "poses": [
+        "carrying market basket hand in hand",
+        "both at market stall bargaining",
+        "both looking at ofrenda altar",
+        "morning market flower carry both",
+        "one carrying clay pot other beside"
+      ],
+      "looks": [
+        "tianguis casual bright colors",
+        "floral blouse skirt and loose linen shirt",
+        "charro-lite boots dark jeans",
+        "street art casual bright tee",
+        "hand-dyed cotton casual"
+      ]
+    },
+    "ocean vs. desert": {
+      "locs": [
+        "Tulum cliff beach below ruins",
+        "Baja California surf break",
+        "Zipolite beach hammock shade",
+        "Copper Canyon rim overlook",
+        "Taos-adjacent border desert dawn"
+      ],
+      "poses": [
+        "watching sunset Lake Chapala together",
+        "surf break both watching",
+        "beach hammock side by side",
+        "cliff ruins both looking out",
+        "jumping from cenote edge together"
+      ],
+      "looks": [
+        "beach guayabera linen shorts",
+        "surf town linen open shirt",
+        "beachside floral wrap",
+        "swimsuit wrap and board shorts each",
+        "huarache sandals cotton dress"
+      ]
+    },
+    "market vs. mall": {
+      "locs": [
+        "Oaxacan market stall morning",
+        "San Cristobal de las Casas market",
+        "Chiapas highland village market",
+        "Taxco silver market stall",
+        "Mexico City Tepito street market"
+      ],
+      "poses": [
+        "both at market stall bargaining",
+        "morning market flower carry both",
+        "carrying market basket hand in hand",
+        "one carrying clay pot other beside",
+        "both at market tile stall"
+      ],
+      "looks": [
+        "floral blouse skirt and loose linen shirt",
+        "tianguis casual bright colors",
+        "reboso casual market layers",
+        "market vendor apron bright",
+        "braided embroidered dress and traditional shirt"
+      ]
+    },
+    "family vs. solitude": {
+      "locs": [
+        "Cuernavaca garden courtyard",
+        "Hacienda courtyard fountain",
+        "Lake Chapala shore sunset",
+        "Patzcuaro lake dock morning",
+        "Yucatan hammock palapa shade"
+      ],
+      "poses": [
+        "hammock shared together",
+        "sitting on hacienda steps together",
+        "watching sunset Lake Chapala together",
+        "slow dance plaza evening",
+        "beach hammock side by side"
+      ],
+      "looks": [
+        "hacienda linen simple",
+        "reboso casual market layers",
+        "hand-dyed cotton casual",
+        "Yucatan guayabera white",
+        "huarache sandals cotton dress"
+      ]
+    },
+    "day of the dead vs. life": {
+      "locs": [
+        "Day of the Dead ofrenda altar",
+        "Frida mural street Mexico City",
+        "Mexico City Zócalo plaza",
+        "Oaxacan market stall morning",
+        "Michoacan butterfly forest path"
+      ],
+      "poses": [
+        "day of the dead face paint both",
+        "both looking at ofrenda altar",
+        "carrying ofrenda flowers together",
+        "one face paint applying other",
+        "both watching firefly butterfly forest"
+      ],
+      "looks": [
+        "dia de muertos dress and printed shirt",
+        "day of the dead skull print",
+        "floral crown dress and linen guayabera",
+        "folk art embroidered jacket",
+        "traditional Tehuana dress"
+      ]
+    },
+    "mural vs. canvas": {
+      "locs": [
+        "Frida mural street Mexico City",
+        "Frida Kahlo blue house patio",
+        "Mexico City Bellas Artes steps",
+        "Guanajuato alley colored walls",
+        "Tlaquepaque artisan workshop"
+      ],
+      "poses": [
+        "one painting mural other watching",
+        "both at colorful alley wall",
+        "both at Bellas Artes steps",
+        "talavera tile wall pose both",
+        "one doing embroidery other watches"
+      ],
+      "looks": [
+        "street art casual bright tee",
+        "Oaxacan floral dress and guayabera shirt",
+        "artisan apron colorful blouse",
+        "folk art embroidered jacket",
+        "Aztec print casual layers"
+      ]
+    },
+    "spice vs. sweet": {
+      "locs": [
+        "Oaxacan tlayuda street stall",
+        "Mexico City Tepito street market",
+        "Oaxacan mezcal distillery",
+        "Mezcal bar Oaxaca interior",
+        "Puebla talavera tile workshop"
+      ],
+      "poses": [
+        "street food bite shared laughing",
+        "shared street taco vendor lean",
+        "drinking mezcal toast together",
+        "one pouring mezcal other receiving",
+        "one cooking tortilla other beside"
+      ],
+      "looks": [
+        "floral blouse skirt and loose linen shirt",
+        "tianguis casual bright colors",
+        "guayabera shirt linen pants",
+        "Oaxacan textile blouse pants",
+        "mezcalería casual linen"
+      ]
+    },
+    "local vs. tourist": {
+      "locs": [
+        "Tulum cliff beach below ruins",
+        "Chichen Itza pyramid sunrise",
+        "Cancun cenote swim hole",
+        "Riviera Maya white sand beach",
+        "Coba pyramid jungle top"
+      ],
+      "poses": [
+        "both at pyramid top arms wide",
+        "jumping from cenote edge together",
+        "cliff ruins both looking out",
+        "waist-deep cenote swim together",
+        "surf break both watching"
+      ],
+      "looks": [
+        "beach guayabera linen shorts",
+        "swimsuit wrap and board shorts each",
+        "surf town linen open shirt",
+        "beachside floral wrap",
+        "huarache sandals cotton dress"
+      ]
+    },
+    "colonial vs. indigenous": {
+      "locs": [
+        "Zacatecas colonial cathedral steps",
+        "San Miguel de Allende rooftop",
+        "Oaxacan weaving workshop loom",
+        "Chiapas highland village market",
+        "Palenque jungle ruins mist"
+      ],
+      "poses": [
+        "both at cathedral arch looking up",
+        "one weaving at loom other watching",
+        "one doing embroidery other watches",
+        "one braiding flower crown other",
+        "both in traditional dress pose"
+      ],
+      "looks": [
+        "colonial style white linen",
+        "traditional Tehuana dress",
+        "embroidered huipil simple",
+        "handwoven textile wrap skirt",
+        "traditional reboso wrap"
+      ]
+    },
+    "siesta vs. hustle": {
+      "locs": [
+        "Yucatan hammock palapa shade",
+        "Mexico City Roma neighborhood cafe",
+        "Merida colonial plaza afternoon",
+        "Cuernavaca garden courtyard",
+        "Mexico City Tepito street market"
+      ],
+      "poses": [
+        "hammock shared together",
+        "sitting on hacienda steps together",
+        "both at market stall bargaining",
+        "slow cumbia dance hold",
+        "shared street taco vendor lean"
+      ],
+      "looks": [
+        "hacienda linen simple",
+        "Yucatan guayabera white",
+        "guayabera shirt linen pants",
+        "mezcalería casual linen",
+        "tianguis casual bright colors"
+      ]
+    },
+    "carnival vs. quiet": {
+      "locs": [
+        "Mazatlan Carnaval street float",
+        "Tlaxcala carnival dance street",
+        "Patzcuaro lake dock morning",
+        "Lake Chapala shore sunset",
+        "Cuernavaca garden courtyard"
+      ],
+      "poses": [
+        "running through confetti together",
+        "street carnival float wave together",
+        "watching sunset Lake Chapala together",
+        "hammock shared together",
+        "sitting on hacienda steps together"
+      ],
+      "looks": [
+        "carnival costume loosened",
+        "fiesta dress bright layers",
+        "hacienda linen simple",
+        "carnival bright body paint layers",
+        "hand-dyed cotton casual"
+      ]
+    },
+    "north vs. south": {
+      "locs": [
+        "Monterrey Barrio Antiguo street",
+        "Copper Canyon rim overlook",
+        "Chiapas highland village market",
+        "Palenque jungle ruins mist",
+        "Guadalajara tequila field rows"
+      ],
+      "poses": [
+        "both at cathedral arch looking up",
+        "both at pyramid top arms wide",
+        "tequila field row walk together",
+        "both looking at ofrenda altar",
+        "cliff ruins both looking out"
+      ],
+      "looks": [
+        "charro-lite boots dark jeans",
+        "copper canyon trail layers",
+        "Jalisco charro loosened",
+        "Mayan-inspired wrapped skirt",
+        "traditional Tehuana dress"
+      ]
+    },
+    "coast vs. highlands": {
+      "locs": [
+        "Puerto Vallarta Malecon evening",
+        "Veracruz port malecón sunset",
+        "Chiapas highland village market",
+        "San Cristobal de las Casas market",
+        "Sayulita surf town street"
+      ],
+      "poses": [
+        "slow dance plaza evening",
+        "watching sunset Lake Chapala together",
+        "surf break both watching",
+        "morning market flower carry both",
+        "sitting on trajinera canal"
+      ],
+      "looks": [
+        "beach guayabera linen shorts",
+        "surf town linen open shirt",
+        "beachside floral wrap",
+        "floral blouse skirt and loose linen shirt",
+        "Oaxacan textile blouse pants"
+      ]
+    },
+    "artisan vs. factory": {
+      "locs": [
+        "Taxco silver workshop bench",
+        "Oaxacan weaving workshop loom",
+        "Puebla talavera tile workshop",
+        "Tlaquepaque artisan workshop",
+        "Tlaquepaque artisan workshop"
+      ],
+      "poses": [
+        "one weaving at loom other watching",
+        "one doing embroidery other watches",
+        "silver market stall examination",
+        "talavera tile wall pose both",
+        "one carrying clay pot other beside"
+      ],
+      "looks": [
+        "silver artisan work apron",
+        "artisan apron colorful blouse",
+        "Oaxacan textile blouse pants",
+        "embroidered huipil simple",
+        "folk art embroidered jacket"
+      ]
+    },
+    "sacred vs. street": {
+      "locs": [
+        "Day of the Dead ofrenda altar",
+        "Zacatecas colonial cathedral steps",
+        "Mexico City Zócalo plaza",
+        "Mexico City Tepito street market",
+        "Frida mural street Mexico City"
+      ],
+      "poses": [
+        "both looking at ofrenda altar",
+        "carrying ofrenda flowers together",
+        "both at cathedral arch looking up",
+        "day of the dead face paint both",
+        "one painting mural other watching"
+      ],
+      "looks": [
+        "dia de muertos dress and printed shirt",
+        "traditional Tehuana dress",
+        "embroidered huipil simple",
+        "floral crown dress and linen guayabera",
+        "street art casual bright tee"
+      ]
+    },
+    "migrant vs. rooted": {
+      "locs": [
+        "Mexico City Zócalo plaza",
+        "Guanajuato alley colored walls",
+        "Oaxacan market stall morning",
+        "Merida colonial plaza afternoon",
+        "Hacienda courtyard fountain"
+      ],
+      "poses": [
+        "both at colorful alley wall",
+        "carrying market basket hand in hand",
+        "sitting on hacienda steps together",
+        "morning market flower carry both",
+        "both at market stall bargaining"
+      ],
+      "looks": [
+        "hand-dyed cotton casual",
+        "tianguis casual bright colors",
+        "hacienda linen simple",
+        "traditional reboso wrap",
+        "embroidered huipil simple"
+      ]
+    },
+    "celebration vs. mourning": {
+      "locs": [
+        "Day of the Dead ofrenda altar",
+        "Mazatlan Carnaval street float",
+        "Michoacan butterfly forest path",
+        "Tlaxcala carnival dance street",
+        "Guanajuato alley colored walls"
+      ],
+      "poses": [
+        "both looking at ofrenda altar",
+        "carrying ofrenda flowers together",
+        "day of the dead face paint both",
+        "running through confetti together",
+        "both watching firefly butterfly forest"
+      ],
+      "looks": [
+        "dia de muertos dress and printed shirt",
+        "day of the dead skull print",
+        "carnival costume loosened",
+        "folk art embroidered jacket",
+        "floral crown dress and linen guayabera"
+      ]
+    }
+  },
+  "promptSuffix": "Colour grade: saturated and warm — the palette of painted walls, terracotta, marigold, deep shadow under brilliant sun.",
+  "translations": {},
+  "locTypes": {
+    "Oaxacan market stall morning colour": "outdoor",
+    "Chichen Itza pyramid sunrise empty": "outdoor",
+    "Lucha libre arena ring between bouts": "outdoor",
+    "Mexico City Zócalo plaza evening": "outdoor",
+    "Frida Kahlo blue house Coyoacán": "outdoor",
+    "Xochimilco trajinera canal flower boat": "outdoor",
+    "Oaxaca Monte Albán ruins": "outdoor",
+    "Teotihuacan pyramids dawn": "outdoor",
+    "Palenque jungle ruins Chiapas": "outdoor",
+    "Uxmal Yucatan ruins": "outdoor",
+    "Merida colonial plaza Sunday": "outdoor",
+    "San Cristóbal de las Casas highland": "outdoor",
+    "Puerto Escondido surf beach Oaxaca": "outdoor",
+    "Huatulco bay beach Oaxaca": "outdoor",
+    "Sayulita beach Nayarit village": "outdoor",
+    "Puerto Vallarta old town Jalisco": "outdoor",
+    "Guadalajara Tlaquepaque craft market": "outdoor",
+    "Guanajuato callejón del Beso lane": "outdoor",
+    "Guanajuato Festival Cervantino stage": "outdoor",
+    "San Miguel de Allende jardin": "outdoor",
+    "Tulum ruins cliff sea below": "outdoor",
+    "Tulum cenote swim jungle": "outdoor",
+    "Bacalar lake colours Quintana Roo": "outdoor",
+    "Coba pyramid climb top jungle": "outdoor",
+    "Valladolid cenote swim Yucatan": "outdoor",
+    "Izamal yellow town Yucatan": "outdoor",
+    "Campeche colonial colour walls": "outdoor",
+    "Veracruz malecon evening": "outdoor",
+    "Xalapa anthro museum Veracruz": "outdoor",
+    "Tlaxcala smallest state capital": "outdoor",
+    "Morelia cathedral evening Michoacán": "outdoor",
+    "Pátzcuaro Day of Dead lake": "outdoor",
+    "Janitzio island midnight ceremony": "outdoor",
+    "Cholula pyramid church top": "outdoor",
+    "Puebla Azulejo tile building": "outdoor",
+    "Taxco silver town hilltop": "outdoor",
+    "Acapulco cliff diver platform": "outdoor",
+    "Mazatlán old town Sinaloa": "outdoor",
+    "Los Cabos arch sea rock": "outdoor",
+    "Baja peninsula road trip": "outdoor",
+    "Copper Canyon train Chihuahua": "outdoor",
+    "Creel Tarahumara area Chihuahua": "outdoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

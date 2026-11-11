@@ -1,0 +1,334 @@
+{
+  "id": "space",
+  "name": "THE SPACE",
+  "sub": "Mission Control, Pale Blue Dot & the Long Way Home",
+  "color": "#0a1a4a",
+  "tensions": [
+    "the mission vs. the person",
+    "vastness vs. the small craft",
+    "home vs. the void",
+    "the launch vs. the return",
+    "earth vs. orbit",
+    "the astronaut vs. the human",
+    "technical vs. emotional",
+    "the countdown vs. the silence",
+    "going vs. coming back",
+    "the pale blue dot vs. the infinite"
+  ],
+  "affinities": {
+    "the mission vs. the person": {
+      "locs": [
+        "a 1969 mission control room of glowing consoles and cigarette smoke",
+        "a flight control floor at the moment of success",
+        "a control room doorway lit by the big screen's glow"
+      ],
+      "poses": [
+        "both leaping up from their desks cheering, papers in the air",
+        "both gripping headsets, waiting for the signal",
+        "both shaking hands, grinning with relief"
+      ],
+      "looks": [
+        "short-sleeved white shirt skinny tie and headset each",
+        "horn-rimmed glasses and pocket protector each",
+        "controller waistcoat and rolled sleeves each"
+      ]
+    },
+    "vastness vs. the small craft": {
+      "locs": [
+        "a grey cratered lunar plain under a black sky",
+        "a lander's leg and long shadows on grey dust",
+        "a ridge of grey dust with a small planted flag"
+      ],
+      "poses": [
+        "both bounding in low gravity, dust kicking up",
+        "both planting a flag side by side",
+        "both kneeling to collect rock samples"
+      ],
+      "looks": [
+        "bulky white spacesuit, helmet under one arm each",
+        "dust-grey suit with the visor raised each",
+        "suit with gloved hands and a chest camera each"
+      ]
+    },
+    "home vs. the void": {
+      "locs": [
+        "a cramped space station module crowded with cables",
+        "a module wall of laptops and floating tools",
+        "a sleeping nook of bags clipped to the wall"
+      ],
+      "poses": [
+        "both floating weightless, hair drifting",
+        "both upside down, laughing at a floating droplet",
+        "both tethered at the wall, sharing a meal pouch"
+      ],
+      "looks": [
+        "blue flight suit and soft cap each",
+        "polo shirt and soft trousers each",
+        "thermal long sleeves and socks each"
+      ]
+    },
+    "the launch vs. the return": {
+      "locs": [
+        "a pre-launch suit-up room with white suits on racks",
+        "a gantry walkway to a towering rocket at dawn",
+        "a crew van beside the launch pad in pale light"
+      ],
+      "poses": [
+        "both checking each other's suit seals, nervous smiles",
+        "both walking out arm in arm toward the gantry",
+        "both waving as the van door closes"
+      ],
+      "looks": [
+        "orange launch suit and white helmet each",
+        "white pressure suit with a breathing hose each",
+        "blue crew jacket and boots each"
+      ]
+    },
+    "earth vs. orbit": {
+      "locs": [
+        "a station cupola window with Earth glowing blue below",
+        "a dome of windows over the curve of the planet",
+        "a porthole at sunrise over a vast ocean"
+      ],
+      "poses": [
+        "both pressed to the glass, staring at the planet",
+        "both floating together gazing down in silence",
+        "both hand in hand watching a sunrise from orbit"
+      ],
+      "looks": [
+        "flight suit with mission patches each",
+        "soft grey mission polo each",
+        "thermal sleeves and name tag each"
+      ]
+    },
+    "the astronaut vs. the human": {
+      "locs": [
+        "a 1960s canteen of formica tables and trays",
+        "a suburban backyard barbecue near the space centre",
+        "a motel pool near the launch site at dusk"
+      ],
+      "poses": [
+        "both laughing over a tray of food",
+        "both leaning on the grill, shirt sleeves rolled",
+        "both sitting on the pool edge with drinks, watching the sky"
+      ],
+      "looks": [
+        "short-sleeved shirt and slacks each, 1960s",
+        "1960s summer dress and chinos each",
+        "casual cardigan and slacks each"
+      ]
+    },
+    "technical vs. emotional": {
+      "locs": [
+        "a huge training pool holding a submerged station mock-up",
+        "a centrifuge room with a giant spinning arm",
+        "a simulator cabin of switches and dials"
+      ],
+      "poses": [
+        "both in diving suits mid-descent, bubbles rising",
+        "both strapped in, cheeks pulled back by the spin",
+        "both grinning in the simulator seats, thumbs up"
+      ],
+      "looks": [
+        "bulky training suit and diving helmet each",
+        "blue flight overalls and soft cap each",
+        "white training suit with sensors each"
+      ]
+    },
+    "the countdown vs. the silence": {
+      "locs": [
+        "a windswept Soviet launch site on the steppe",
+        "a cosmonaut dressing room of heavy orange suits",
+        "a steppe railway with a rocket rolling out at dawn"
+      ],
+      "poses": [
+        "both facing the camera proudly in full suits",
+        "both saluting beside the rocket",
+        "both walking the steppe toward the launch pad"
+      ],
+      "looks": [
+        "orange cosmonaut suit with red lettering each",
+        "grey flight overalls and leather cap each",
+        "dress uniform with medals each"
+      ]
+    },
+    "going vs. coming back": {
+      "locs": [
+        "an orange capsule bobbing in a calm ocean",
+        "a navy recovery ship deck at sunrise",
+        "a helicopter pad above a blue sea"
+      ],
+      "poses": [
+        "both emerging from the hatch, squinting into the sun",
+        "both embraced by rescue swimmers, grinning and exhausted",
+        "both stepping onto the deck, legs wobbly"
+      ],
+      "looks": [
+        "wrinkled flight suit and soaked hair each",
+        "orange flotation collar over a flight suit each",
+        "navy blanket over a flight suit each"
+      ]
+    },
+    "the pale blue dot vs. the infinite": {
+      "locs": [
+        "a sleek white capsule interior with a huge window",
+        "a launch viewing lounge of glass and screens",
+        "a desert spaceport hangar at dawn"
+      ],
+      "poses": [
+        "both gasping at the window in wonder",
+        "both buckling in, hands clasped",
+        "both floating with arms outstretched, laughing"
+      ],
+      "looks": [
+        "sleek navy flight suit each",
+        "minimalist white jumpsuit each",
+        "tailored dark flight jacket each"
+      ]
+    }
+  },
+  "locs": [
+    "a 1969 mission control room of glowing consoles and cigarette smoke",
+    "a flight control floor at the moment of success",
+    "a control room doorway lit by the big screen's glow",
+    "a grey cratered lunar plain under a black sky",
+    "a lander's leg and long shadows on grey dust",
+    "a ridge of grey dust with a small planted flag",
+    "a cramped space station module crowded with cables",
+    "a module wall of laptops and floating tools",
+    "a sleeping nook of bags clipped to the wall",
+    "a pre-launch suit-up room with white suits on racks",
+    "a gantry walkway to a towering rocket at dawn",
+    "a crew van beside the launch pad in pale light",
+    "a station cupola window with Earth glowing blue below",
+    "a dome of windows over the curve of the planet",
+    "a porthole at sunrise over a vast ocean",
+    "a 1960s canteen of formica tables and trays",
+    "a suburban backyard barbecue near the space centre",
+    "a motel pool near the launch site at dusk",
+    "a huge training pool holding a submerged station mock-up",
+    "a centrifuge room with a giant spinning arm",
+    "a simulator cabin of switches and dials",
+    "a windswept Soviet launch site on the steppe",
+    "a cosmonaut dressing room of heavy orange suits",
+    "a steppe railway with a rocket rolling out at dawn",
+    "an orange capsule bobbing in a calm ocean",
+    "a navy recovery ship deck at sunrise",
+    "a helicopter pad above a blue sea",
+    "a sleek white capsule interior with a huge window",
+    "a launch viewing lounge of glass and screens",
+    "a desert spaceport hangar at dawn"
+  ],
+  "poses": [
+    "both leaping up from their desks cheering, papers in the air",
+    "both gripping headsets, waiting for the signal",
+    "both shaking hands, grinning with relief",
+    "both bounding in low gravity, dust kicking up",
+    "both planting a flag side by side",
+    "both kneeling to collect rock samples",
+    "both floating weightless, hair drifting",
+    "both upside down, laughing at a floating droplet",
+    "both tethered at the wall, sharing a meal pouch",
+    "both checking each other's suit seals, nervous smiles",
+    "both walking out arm in arm toward the gantry",
+    "both waving as the van door closes",
+    "both pressed to the glass, staring at the planet",
+    "both floating together gazing down in silence",
+    "both hand in hand watching a sunrise from orbit",
+    "both laughing over a tray of food",
+    "both leaning on the grill, shirt sleeves rolled",
+    "both sitting on the pool edge with drinks, watching the sky",
+    "both in diving suits mid-descent, bubbles rising",
+    "both strapped in, cheeks pulled back by the spin",
+    "both grinning in the simulator seats, thumbs up",
+    "both facing the camera proudly in full suits",
+    "both saluting beside the rocket",
+    "both walking the steppe toward the launch pad",
+    "both emerging from the hatch, squinting into the sun",
+    "both embraced by rescue swimmers, grinning and exhausted",
+    "both stepping onto the deck, legs wobbly",
+    "both gasping at the window in wonder",
+    "both buckling in, hands clasped",
+    "both floating with arms outstretched, laughing"
+  ],
+  "looks": [
+    "short-sleeved white shirt skinny tie and headset each",
+    "horn-rimmed glasses and pocket protector each",
+    "controller waistcoat and rolled sleeves each",
+    "bulky white spacesuit, helmet under one arm each",
+    "dust-grey suit with the visor raised each",
+    "suit with gloved hands and a chest camera each",
+    "blue flight suit and soft cap each",
+    "polo shirt and soft trousers each",
+    "thermal long sleeves and socks each",
+    "orange launch suit and white helmet each",
+    "white pressure suit with a breathing hose each",
+    "blue crew jacket and boots each",
+    "flight suit with mission patches each",
+    "soft grey mission polo each",
+    "thermal sleeves and name tag each",
+    "short-sleeved shirt and slacks each, 1960s",
+    "1960s summer dress and chinos each",
+    "casual cardigan and slacks each",
+    "bulky training suit and diving helmet each",
+    "blue flight overalls and soft cap each",
+    "white training suit with sensors each",
+    "orange cosmonaut suit with red lettering each",
+    "grey flight overalls and leather cap each",
+    "dress uniform with medals each",
+    "wrinkled flight suit and soaked hair each",
+    "orange flotation collar over a flight suit each",
+    "navy blanket over a flight suit each",
+    "sleek navy flight suit each",
+    "minimalist white jumpsuit each",
+    "tailored dark flight jacket each"
+  ],
+  "promptPrefix": "Space photography aesthetic — the specific visual language of real space imagery from NASA, ESA and the Soviet programme — documentary candid quality — ",
+  "promptSuffix": "Render with the quality of real space imagery: documentary, candid, human and warm despite the context. Not science fiction.",
+  "variantDirectives": [
+    "Wide frame of the whole room or vista, the figures small within it: ",
+    "Full-length candid frame, posture and gesture carry the feeling: ",
+    "Tight candid close-up, faces fill the frame: ",
+    "Single source of light, stark and minimal: ",
+    "The hardware and setting dominate the frame, the figures secondary: ",
+    "Flight suits and period clothing take centre stage, the figures framed to show them: "
+  ],
+  "translations": {},
+  "locTypes": {
+    "a 1969 mission control room of glowing consoles and cigarette smoke": "indoor",
+    "a flight control floor at the moment of success": "both",
+    "a control room doorway lit by the big screen's glow": "indoor",
+    "a grey cratered lunar plain under a black sky": "outdoor",
+    "a lander's leg and long shadows on grey dust": "both",
+    "a ridge of grey dust with a small planted flag": "outdoor",
+    "a cramped space station module crowded with cables": "indoor",
+    "a module wall of laptops and floating tools": "indoor",
+    "a sleeping nook of bags clipped to the wall": "indoor",
+    "a pre-launch suit-up room with white suits on racks": "indoor",
+    "a gantry walkway to a towering rocket at dawn": "outdoor",
+    "a crew van beside the launch pad in pale light": "outdoor",
+    "a station cupola window with Earth glowing blue below": "both",
+    "a dome of windows over the curve of the planet": "both",
+    "a porthole at sunrise over a vast ocean": "outdoor",
+    "a 1960s canteen of formica tables and trays": "indoor",
+    "a suburban backyard barbecue near the space centre": "outdoor",
+    "a motel pool near the launch site at dusk": "both",
+    "a huge training pool holding a submerged station mock-up": "indoor",
+    "a centrifuge room with a giant spinning arm": "indoor",
+    "a simulator cabin of switches and dials": "indoor",
+    "a windswept Soviet launch site on the steppe": "outdoor",
+    "a cosmonaut dressing room of heavy orange suits": "indoor",
+    "a steppe railway with a rocket rolling out at dawn": "outdoor",
+    "an orange capsule bobbing in a calm ocean": "outdoor",
+    "a navy recovery ship deck at sunrise": "outdoor",
+    "a helicopter pad above a blue sea": "outdoor",
+    "a sleek white capsule interior with a huge window": "indoor",
+    "a launch viewing lounge of glass and screens": "indoor",
+    "a desert spaceport hangar at dawn": "indoor"
+  },
+  "connectors": [
+    "in",
+    "inside",
+    "amid"
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "id": "city",
+  "name": "THE CITY",
+  "sub": "Noir, Neon, Brutalist & Golden",
+  "color": "#2a4a6a",
+  "tensions": [
+    "noir vs. neon",
+    "anonymous vs. seen",
+    "the crowd vs. the individual",
+    "above vs. below",
+    "new vs. decayed",
+    "fast vs. still",
+    "the city vs. the person",
+    "lost vs. found",
+    "public vs. private",
+    "the promise vs. the reality"
+  ],
+  "affinities": {
+    "noir vs. neon": {
+      "locs": [
+        "Los Angeles rain 1940s noir street lamp wet reflection",
+        "Chicago noir El train overhead rain night shadow",
+        "San Francisco Chandler fog hill cable car night"
+      ],
+      "poses": [
+        "both running through the rain, coats flying",
+        "both pressed against the wall as headlights sweep past",
+        "one gripping the other's sleeve, glancing over a shoulder"
+      ],
+      "looks": [
+        "trench coat and fedora each",
+        "dark coat with the collar up each",
+        "rumpled suit and loosened tie each"
+      ]
+    },
+    "anonymous vs. seen": {
+      "locs": [
+        "Tokyo Shinjuku neon night alley narrow dense kanji",
+        "Hong Kong Mong Kok neon night dense vertical signs",
+        "Seoul Gangnam neon night K-beauty signage"
+      ],
+      "poses": [
+        "both small amid towers of glowing signs, faces lit",
+        "both weaving through a crowd, hand in hand",
+        "both leaning in a doorway, colour on their faces"
+      ],
+      "looks": [
+        "layered streetwear and bucket hat each",
+        "oversized jacket and platform shoes each",
+        "bright puffer and tech trousers each"
+      ]
+    },
+    "the crowd vs. the individual": {
+      "locs": [
+        "Las Vegas strip neon day garish",
+        "New York City steam vent night dramatic",
+        "London Soho alley night neon sign"
+      ],
+      "poses": [
+        "both walking fast, swirling vapour at their feet",
+        "both sharing a cigarette beneath a flickering light",
+        "both laughing in the glare of a passing taxi"
+      ],
+      "looks": [
+        "leather jacket and scuffed boots each",
+        "bomber jacket and beanie each",
+        "long coat and scarf each"
+      ]
+    },
+    "above vs. below": {
+      "locs": [
+        "Shanghai Pudong glass tower forest night",
+        "Dubai glass tower desert edge dawn",
+        "Singapore Marina Bay night reflection water"
+      ],
+      "poses": [
+        "both dwarfed by the glittering towers, looking up",
+        "both crossing a plaza of reflected glass",
+        "both leaning on the rail beside the water, lights doubled"
+      ],
+      "looks": [
+        "sleek dark suit and minimal dress each",
+        "crisp white shirt and tailored trousers each",
+        "modern overcoat and sharp shoes each"
+      ]
+    },
+    "new vs. decayed": {
+      "locs": [
+        "East Berlin Plattenbau brutalist block 1970s grey",
+        "Moscow Khrushchyovka block estate winter",
+        "London Barbican brutalist concrete walkways"
+      ],
+      "poses": [
+        "both tiny at the foot of the monumental slabs",
+        "both walking a long walkway, shadows stretching",
+        "both leaning on a balcony rail, staring out"
+      ],
+      "looks": [
+        "plain dark coat and boots each",
+        "grey wool coat and woollen hat each",
+        "practical jacket and scarf each"
+      ]
+    },
+    "fast vs. still": {
+      "locs": [
+        "Paris Haussmann boulevard golden stone dawn",
+        "Edinburgh Old Town stone alley gaslight",
+        "Prague Old Town square golden cobblestone dawn"
+      ],
+      "poses": [
+        "both strolling arm in arm along the stone",
+        "both stopped at a corner, looking up at the carved facades",
+        "both sitting at a café table, the light golden around them"
+      ],
+      "looks": [
+        "tailored wool coat and silk scarf each",
+        "long camel coat and leather gloves each",
+        "smart jacket and loafers each"
+      ]
+    },
+    "the city vs. the person": {
+      "locs": [
+        "Osaka Dotonbori neon canal reflection night",
+        "Bangkok Chinatown neon night dense traffic",
+        "Tokyo Shinjuku neon night alley narrow dense kanji"
+      ],
+      "poses": [
+        "both small amid towers of glowing signs, faces lit",
+        "both weaving through a crowd, hand in hand",
+        "both leaning in a doorway, colour on their faces"
+      ],
+      "looks": [
+        "layered streetwear and bucket hat each",
+        "oversized jacket and platform shoes each",
+        "bright puffer and tech trousers each"
+      ]
+    },
+    "lost vs. found": {
+      "locs": [
+        "New York fire escape rain night noir",
+        "Los Angeles rain 1940s noir street lamp wet reflection",
+        "Chicago noir El train overhead rain night shadow"
+      ],
+      "poses": [
+        "both running through the rain, coats flying",
+        "both pressed against the wall as headlights sweep past",
+        "one gripping the other's sleeve, glancing over a shoulder"
+      ],
+      "looks": [
+        "trench coat and fedora each",
+        "dark coat with the collar up each",
+        "rumpled suit and loosened tie each"
+      ]
+    },
+    "public vs. private": {
+      "locs": [
+        "Budapest Parliament Danube reflection night",
+        "Vienna Ringstrasse imperial architecture dusk",
+        "Barcelona Gothic Quarter narrow golden"
+      ],
+      "poses": [
+        "both strolling arm in arm along the stone",
+        "both stopped at a corner, looking up at the carved facades",
+        "both sitting at a café table, the light golden around them"
+      ],
+      "looks": [
+        "tailored wool coat and silk scarf each",
+        "long camel coat and leather gloves each",
+        "smart jacket and loafers each"
+      ]
+    },
+    "the promise vs. the reality": {
+      "locs": [
+        "Marseille Unité d'Habitation Le Corbusier",
+        "Belgrade brutalist monument vast dramatic",
+        "Minsk Soviet boulevard vast ceremonial"
+      ],
+      "poses": [
+        "both tiny at the foot of the monumental slabs",
+        "both walking a long walkway, shadows stretching",
+        "both leaning on a balcony rail, staring out"
+      ],
+      "looks": [
+        "plain dark coat and boots each",
+        "grey wool coat and woollen hat each",
+        "practical jacket and scarf each"
+      ]
+    }
+  },
+  "locs": [
+    "Los Angeles rain 1940s noir street lamp wet reflection",
+    "Chicago noir El train overhead rain night shadow",
+    "San Francisco Chandler fog hill cable car night",
+    "New York fire escape rain night noir",
+    "Tokyo Shinjuku neon night alley narrow dense kanji",
+    "Hong Kong Mong Kok neon night dense vertical signs",
+    "Seoul Gangnam neon night K-beauty signage",
+    "Osaka Dotonbori neon canal reflection night",
+    "Bangkok Chinatown neon night dense traffic",
+    "Las Vegas strip neon day garish",
+    "New York City steam vent night dramatic",
+    "London Soho alley night neon sign",
+    "New York Chinatown night dense narrow",
+    "East Berlin Plattenbau brutalist block 1970s grey",
+    "Moscow Khrushchyovka block estate winter",
+    "London Barbican brutalist concrete walkways",
+    "Marseille Unité d'Habitation Le Corbusier",
+    "Belgrade brutalist monument vast dramatic",
+    "Minsk Soviet boulevard vast ceremonial",
+    "Paris Haussmann boulevard golden stone dawn",
+    "Edinburgh Old Town stone alley gaslight",
+    "Prague Old Town square golden cobblestone dawn",
+    "Budapest Parliament Danube reflection night",
+    "Vienna Ringstrasse imperial architecture dusk",
+    "Barcelona Gothic Quarter narrow golden",
+    "Paris catacombs skull lined narrow torch",
+    "Shanghai Pudong glass tower forest night",
+    "Dubai glass tower desert edge dawn",
+    "Singapore Marina Bay night reflection water",
+    "New York Hudson Yards contemporary glass",
+    "London Canary Wharf glass canyon night",
+    "Singapore Jewel Changi waterfall interior"
+  ],
+  "poses": [
+    "both running through the rain, coats flying",
+    "both pressed against the wall as headlights sweep past",
+    "one gripping the other's sleeve, glancing over a shoulder",
+    "both small amid towers of glowing signs, faces lit",
+    "both weaving through a crowd, hand in hand",
+    "both leaning in a doorway, colour on their faces",
+    "both walking fast, swirling vapour at their feet",
+    "both sharing a cigarette beneath a flickering light",
+    "both laughing in the glare of a passing taxi",
+    "both tiny at the foot of the monumental slabs",
+    "both walking a long walkway, shadows stretching",
+    "both leaning on a balcony rail, staring out",
+    "both strolling arm in arm along the stone",
+    "both stopped at a corner, looking up at the carved facades",
+    "both sitting at a café table, the light golden around them",
+    "both dwarfed by the glittering towers, looking up",
+    "both crossing a plaza of reflected glass",
+    "both leaning on the rail beside the water, lights doubled"
+  ],
+  "looks": [
+    "trench coat and fedora each",
+    "dark coat with the collar up each",
+    "rumpled suit and loosened tie each",
+    "layered streetwear and bucket hat each",
+    "oversized jacket and platform shoes each",
+    "bright puffer and tech trousers each",
+    "leather jacket and scuffed boots each",
+    "bomber jacket and beanie each",
+    "long coat and scarf each",
+    "plain dark coat and boots each",
+    "grey wool coat and woollen hat each",
+    "practical jacket and scarf each",
+    "tailored wool coat and silk scarf each",
+    "long camel coat and leather gloves each",
+    "smart jacket and loafers each",
+    "sleek dark suit and minimal dress each",
+    "crisp white shirt and tailored trousers each",
+    "modern overcoat and sharp shoes each"
+  ],
+  "promptSuffix": "Colour grade by register: noir rain and shadow, Tokyo neon saturated vertical, brutalist grey and flat, Haussmann golden warm stone. The city IS the character.",
+  "translations": {
+    "above vs. below": "above pressing against below",
+    "lost vs. found": "lost in the vast and then suddenly completely found",
+    "public vs. private": "public pressing against private"
+  },
+  "locTypes": {
+    "Los Angeles rain 1940s noir street lamp wet reflection": "outdoor",
+    "Chicago noir El train overhead rain night shadow": "both",
+    "San Francisco Chandler fog hill cable car night": "both",
+    "New York fire escape rain night noir": "both",
+    "Tokyo Shinjuku neon night alley narrow dense kanji": "both",
+    "Hong Kong Mong Kok neon night dense vertical signs": "outdoor",
+    "Seoul Gangnam neon night K-beauty signage": "both",
+    "Osaka Dotonbori neon canal reflection night": "both",
+    "Bangkok Chinatown neon night dense traffic": "both",
+    "Las Vegas strip neon day garish": "both",
+    "New York City steam vent night dramatic": "both",
+    "London Soho alley night neon sign": "both",
+    "New York Chinatown night dense narrow": "both",
+    "East Berlin Plattenbau brutalist block 1970s grey": "both",
+    "Moscow Khrushchyovka block estate winter": "both",
+    "London Barbican brutalist concrete walkways": "both",
+    "Marseille Unité d'Habitation Le Corbusier": "both",
+    "Belgrade brutalist monument vast dramatic": "both",
+    "Minsk Soviet boulevard vast ceremonial": "both",
+    "Paris Haussmann boulevard golden stone dawn": "outdoor",
+    "Edinburgh Old Town stone alley gaslight": "both",
+    "Prague Old Town square golden cobblestone dawn": "both",
+    "Budapest Parliament Danube reflection night": "both",
+    "Vienna Ringstrasse imperial architecture dusk": "both",
+    "Barcelona Gothic Quarter narrow golden": "both",
+    "Paris catacombs skull lined narrow torch": "both",
+    "Shanghai Pudong glass tower forest night": "outdoor",
+    "Dubai glass tower desert edge dawn": "outdoor",
+    "Singapore Marina Bay night reflection water": "both",
+    "New York Hudson Yards contemporary glass": "both",
+    "London Canary Wharf glass canyon night": "outdoor",
+    "Singapore Jewel Changi waterfall interior": "outdoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

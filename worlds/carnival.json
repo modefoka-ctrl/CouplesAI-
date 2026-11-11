@@ -1,0 +1,551 @@
+{
+  "id": "carnival",
+  "name": "THE CARNIVAL",
+  "sub": "Garish Light & Sweet Sadness",
+  "color": "#d4156a",
+  "tensions": [
+    "joy vs. melancholy",
+    "real vs. performance",
+    "beautiful vs. ugly",
+    "childhood vs. adulthood",
+    "winning vs. losing",
+    "bright vs. dark",
+    "together vs. alone in a crowd",
+    "magical vs. mechanical",
+    "freedom vs. routine",
+    "laughter vs. loneliness",
+    "season vs. end of season",
+    "spectacle vs. ordinary",
+    "sugar vs. bitter",
+    "anticipation vs. disappointment",
+    "last night vs. first night",
+    "seen vs. overlooked in the crowd",
+    "love vs. heartbreak midway",
+    "gaudy vs. sublime",
+    "passing vs. permanent",
+    "innocent vs. knowing"
+  ],
+  "affinities": {
+    "joy vs. melancholy": {
+      "locs": [
+        "funfair at closing time lights going out",
+        "carnival field dawn before opening",
+        "carousel empty morning after"
+      ],
+      "poses": [
+        "both walking alone through the litter, hand in hand",
+        "both sitting on the carousel's edge, quiet",
+        "both watching the lights go out, one resting a head on the other"
+      ],
+      "looks": [
+        "couple nostalgic casual each",
+        "locals casual modest each",
+        "childhood nostalgia casual, simple each"
+      ]
+    },
+    "real vs. performance": {
+      "locs": [
+        "ghost train entrance carnival night",
+        "hall of mirrors funfair interior",
+        "fortune teller caravan carnival exterior"
+      ],
+      "poses": [
+        "both reflected a hundred times, startled",
+        "one hiding behind the other, laughing and scared",
+        "one having a palm read, the other sceptical"
+      ],
+      "looks": [
+        "costume-contest dressed up each",
+        "first-date nervous dressed up each",
+        "dark fortune-telling shawls and jewellery each"
+      ]
+    },
+    "beautiful vs. ugly": {
+      "locs": [
+        "ghost train car interior dark",
+        "hall of mirrors reflection infinite",
+        "carnival fire eater performance area"
+      ],
+      "poses": [
+        "one hiding behind the other, laughing and scared",
+        "one having a palm read, the other sceptical",
+        "both gaping at the flames, lit orange"
+      ],
+      "looks": [
+        "first-date nervous dressed up each",
+        "dark fortune-telling shawls and jewellery each",
+        "vintage 1970s-style outfit each"
+      ]
+    },
+    "childhood vs. adulthood": {
+      "locs": [
+        "candyfloss stall dusk light pink",
+        "hook-a-duck stall fairground lights",
+        "coconut shy stall string lights"
+      ],
+      "poses": [
+        "both sharing a stick of candy, sticky-fingered and laughing",
+        "one handing the other a giant prize, grinning",
+        "both competing fiercely, tongues out in concentration"
+      ],
+      "looks": [
+        "summer dress and shorts each, casual",
+        "school-holiday casual clothes each, young",
+        "date-night casual, a little effort made each"
+      ]
+    },
+    "winning vs. losing": {
+      "locs": [
+        "carnival food van candleapple dusk",
+        "toffee apple stall amber light",
+        "test your strength tower carnival"
+      ],
+      "poses": [
+        "one handing the other a giant prize, grinning",
+        "both competing fiercely, tongues out in concentration",
+        "both licking toffee apples, eyes closed in delight"
+      ],
+      "looks": [
+        "school-holiday casual clothes each, young",
+        "date-night casual, a little effort made each",
+        "tourist casual family clothes each"
+      ]
+    },
+    "bright vs. dark": {
+      "locs": [
+        "carnival midway night both sides lit",
+        "carnival entrance arch neon night",
+        "carnival crowd midway night"
+      ],
+      "poses": [
+        "both in the crowd, looking at each other, the world blurring",
+        "both looking up at the sky bursting with colour, faces lit",
+        "both waiting in the queue, hands entwined"
+      ],
+      "looks": [
+        "night-out dressed up each",
+        "couple-anniversary nostalgic outfits each",
+        "hooded top and jeans, night chill each"
+      ]
+    },
+    "together vs. alone in a crowd": {
+      "locs": [
+        "carnival ticket booth night queue",
+        "carnival arc lights full night",
+        "carnival fireworks above ferris wheel"
+      ],
+      "poses": [
+        "both looking up at the sky bursting with colour, faces lit",
+        "both waiting in the queue, hands entwined",
+        "both walking arm in arm, lights streaking past"
+      ],
+      "looks": [
+        "couple-anniversary nostalgic outfits each",
+        "hooded top and jeans, night chill each",
+        "festival casual layers each, evening"
+      ]
+    },
+    "magical vs. mechanical": {
+      "locs": [
+        "ferris wheel top night city glow",
+        "waltzers spinning neon blur night",
+        "big wheel base looking up night"
+      ],
+      "poses": [
+        "both with arms in the air, mouths open in a scream of joy",
+        "both clinging to the rail, laughing, hair streaming",
+        "both leaning together in the moving seat, neon smearing past"
+      ],
+      "looks": [
+        "denim jacket and sundress each",
+        "hooded top and jeans each",
+        "festival casual layers each"
+      ]
+    },
+    "freedom vs. routine": {
+      "locs": [
+        "carnival back lot behind rides",
+        "carnival generator truck back area",
+        "trailer park carnival workers housing"
+      ],
+      "poses": [
+        "both sitting on the steps, tired, sharing a flask",
+        "both laughing as one hauls a heavy cable",
+        "both leaning on a rusty truck, staring into the distance"
+      ],
+      "looks": [
+        "worker practical clothes each, uniform",
+        "worker off shift casual, tired each",
+        "travelling show worker practical each"
+      ]
+    },
+    "laughter vs. loneliness": {
+      "locs": [
+        "carnival field last night season",
+        "funfair entrance gates daytime",
+        "carnival midway dawn packing up"
+      ],
+      "poses": [
+        "both sitting on the carousel's edge, quiet",
+        "both watching the lights go out, one resting a head on the other",
+        "both standing at the gates, the day not yet begun"
+      ],
+      "looks": [
+        "locals casual modest each",
+        "childhood nostalgia casual, simple each",
+        "hoodie and coat against the cold each"
+      ]
+    },
+    "season vs. end of season": {
+      "locs": [
+        "carnival field first light morning",
+        "fairground organ carousel music",
+        "funfair at closing time lights going out"
+      ],
+      "poses": [
+        "both watching the lights go out, one resting a head on the other",
+        "both standing at the gates, the day not yet begun",
+        "both walking alone through the litter, hand in hand"
+      ],
+      "looks": [
+        "childhood nostalgia casual, simple each",
+        "hoodie and coat against the cold each",
+        "couple nostalgic casual each"
+      ]
+    },
+    "spectacle vs. ordinary": {
+      "locs": [
+        "carnival back lot empty evening",
+        "funfair field afternoon setup",
+        "carnival back lot behind rides"
+      ],
+      "poses": [
+        "both laughing as one hauls a heavy cable",
+        "both leaning on a rusty truck, staring into the distance",
+        "one repairing a ride, the other holding the torch"
+      ],
+      "looks": [
+        "worker off shift casual, tired each",
+        "travelling show worker practical each",
+        "local teen casual, bored each"
+      ]
+    },
+    "sugar vs. bitter": {
+      "locs": [
+        "shooting gallery neon prizes",
+        "prize soft toy stall overloaded",
+        "cotton candy machine spinning pink"
+      ],
+      "poses": [
+        "both competing fiercely, tongues out in concentration",
+        "both licking toffee apples, eyes closed in delight",
+        "both sharing a stick of candy, sticky-fingered and laughing"
+      ],
+      "looks": [
+        "date-night casual, a little effort made each",
+        "tourist casual family clothes each",
+        "summer dress and shorts each, casual"
+      ]
+    },
+    "anticipation vs. disappointment": {
+      "locs": [
+        "carousel horses night lights spinning",
+        "big wheel gondola night suspended",
+        "bumper cars overhead sparks night"
+      ],
+      "poses": [
+        "both clinging to the rail, laughing, hair streaming",
+        "both leaning together in the moving seat, neon smearing past",
+        "one waving down at the crowd, the other holding on tight"
+      ],
+      "looks": [
+        "hooded top and jeans each",
+        "festival casual layers each",
+        "vintage fairground-style dress and shirt each"
+      ]
+    },
+    "last night vs. first night": {
+      "locs": [
+        "carnival field dawn before opening",
+        "carousel empty morning after",
+        "carnival field last night season"
+      ],
+      "poses": [
+        "both standing at the gates, the day not yet begun",
+        "both walking alone through the litter, hand in hand",
+        "both sitting on the carousel's edge, quiet"
+      ],
+      "looks": [
+        "hoodie and coat against the cold each",
+        "couple nostalgic casual each",
+        "locals casual modest each"
+      ]
+    },
+    "seen vs. overlooked in the crowd": {
+      "locs": [
+        "ferris wheel reflection puddle rain",
+        "carnival midway night both sides lit",
+        "carnival entrance arch neon night"
+      ],
+      "poses": [
+        "both waiting in the queue, hands entwined",
+        "both walking arm in arm, lights streaking past",
+        "both in the crowd, looking at each other, the world blurring"
+      ],
+      "looks": [
+        "hooded top and jeans, night chill each",
+        "festival casual layers each, evening",
+        "night-out dressed up each"
+      ]
+    },
+    "love vs. heartbreak midway": {
+      "locs": [
+        "dodgems arena carnival neon",
+        "helter skelter base night",
+        "waltzer operator platform night"
+      ],
+      "poses": [
+        "both leaning together in the moving seat, neon smearing past",
+        "one waving down at the crowd, the other holding on tight",
+        "both with arms in the air, mouths open in a scream of joy"
+      ],
+      "looks": [
+        "festival casual layers each",
+        "vintage fairground-style dress and shirt each",
+        "denim jacket and sundress each"
+      ]
+    },
+    "gaudy vs. sublime": {
+      "locs": [
+        "carnival crowd midway night",
+        "carnival ticket booth night queue",
+        "carnival arc lights full night"
+      ],
+      "poses": [
+        "both walking arm in arm, lights streaking past",
+        "both in the crowd, looking at each other, the world blurring",
+        "both looking up at the sky bursting with colour, faces lit"
+      ],
+      "looks": [
+        "festival casual layers each, evening",
+        "night-out dressed up each",
+        "couple-anniversary nostalgic outfits each"
+      ]
+    },
+    "passing vs. permanent": {
+      "locs": [
+        "carnival generator truck back area",
+        "trailer park carnival workers housing",
+        "carnival back lot empty evening"
+      ],
+      "poses": [
+        "both leaning on a rusty truck, staring into the distance",
+        "one repairing a ride, the other holding the torch",
+        "both sitting on the steps, tired, sharing a flask"
+      ],
+      "looks": [
+        "travelling show worker practical each",
+        "local teen casual, bored each",
+        "worker practical clothes each, uniform"
+      ]
+    },
+    "innocent vs. knowing": {
+      "locs": [
+        "candy stripe tent interior carnival",
+        "carnival stage performance area",
+        "ghost train entrance carnival night"
+      ],
+      "poses": [
+        "one having a palm read, the other sceptical",
+        "both gaping at the flames, lit orange",
+        "both reflected a hundred times, startled"
+      ],
+      "looks": [
+        "dark fortune-telling shawls and jewellery each",
+        "vintage 1970s-style outfit each",
+        "costume-contest dressed up each"
+      ]
+    }
+  },
+  "locs": [
+    "ferris wheel top night city glow",
+    "waltzers spinning neon blur night",
+    "big wheel base looking up night",
+    "carousel horses night lights spinning",
+    "big wheel gondola night suspended",
+    "bumper cars overhead sparks night",
+    "dodgems arena carnival neon",
+    "helter skelter base night",
+    "waltzer operator platform night",
+    "dodgem car stationary waiting",
+    "waltzer stationary between rides",
+    "candyfloss stall dusk light pink",
+    "hook-a-duck stall fairground lights",
+    "coconut shy stall string lights",
+    "carnival food van candleapple dusk",
+    "toffee apple stall amber light",
+    "test your strength tower carnival",
+    "shooting gallery neon prizes",
+    "prize soft toy stall overloaded",
+    "cotton candy machine spinning pink",
+    "hook-a-duck water reflection lights",
+    "prize wheel spin carnival neon",
+    "ghost train entrance carnival night",
+    "hall of mirrors funfair interior",
+    "fortune teller caravan carnival exterior",
+    "ghost train car interior dark",
+    "hall of mirrors reflection infinite",
+    "carnival fire eater performance area",
+    "candy stripe tent interior carnival",
+    "carnival stage performance area",
+    "carnival midway night both sides lit",
+    "carnival entrance arch neon night",
+    "carnival crowd midway night",
+    "carnival ticket booth night queue",
+    "carnival arc lights full night",
+    "carnival fireworks above ferris wheel",
+    "ferris wheel reflection puddle rain",
+    "carnival back lot behind rides",
+    "carnival generator truck back area",
+    "trailer park carnival workers housing",
+    "carnival back lot empty evening",
+    "funfair field afternoon setup",
+    "funfair at closing time lights going out",
+    "carnival field dawn before opening",
+    "carousel empty morning after",
+    "carnival field last night season",
+    "funfair entrance gates daytime",
+    "carnival midway dawn packing up",
+    "carnival field first light morning",
+    "fairground organ carousel music"
+  ],
+  "poses": [
+    "both with arms in the air, mouths open in a scream of joy",
+    "both clinging to the rail, laughing, hair streaming",
+    "both leaning together in the moving seat, neon smearing past",
+    "one waving down at the crowd, the other holding on tight",
+    "both sharing a stick of candy, sticky-fingered and laughing",
+    "one handing the other a giant prize, grinning",
+    "both competing fiercely, tongues out in concentration",
+    "both licking toffee apples, eyes closed in delight",
+    "both reflected a hundred times, startled",
+    "one hiding behind the other, laughing and scared",
+    "one having a palm read, the other sceptical",
+    "both gaping at the flames, lit orange",
+    "both in the crowd, looking at each other, the world blurring",
+    "both looking up at the sky bursting with colour, faces lit",
+    "both waiting in the queue, hands entwined",
+    "both walking arm in arm, lights streaking past",
+    "both sitting on the steps, tired, sharing a flask",
+    "both laughing as one hauls a heavy cable",
+    "both leaning on a rusty truck, staring into the distance",
+    "one repairing a ride, the other holding the torch",
+    "both walking alone through the litter, hand in hand",
+    "both sitting on the carousel's edge, quiet",
+    "both watching the lights go out, one resting a head on the other",
+    "both standing at the gates, the day not yet begun"
+  ],
+  "looks": [
+    "denim jacket and sundress each",
+    "hooded top and jeans each",
+    "festival casual layers each",
+    "vintage fairground-style dress and shirt each",
+    "summer dress and shorts each, casual",
+    "school-holiday casual clothes each, young",
+    "date-night casual, a little effort made each",
+    "tourist casual family clothes each",
+    "costume-contest dressed up each",
+    "first-date nervous dressed up each",
+    "dark fortune-telling shawls and jewellery each",
+    "vintage 1970s-style outfit each",
+    "night-out dressed up each",
+    "couple-anniversary nostalgic outfits each",
+    "hooded top and jeans, night chill each",
+    "festival casual layers each, evening",
+    "worker practical clothes each, uniform",
+    "worker off shift casual, tired each",
+    "travelling show worker practical each",
+    "local teen casual, bored each",
+    "couple nostalgic casual each",
+    "locals casual modest each",
+    "childhood nostalgia casual, simple each",
+    "hoodie and coat against the cold each"
+  ],
+  "promptSuffix": "Colour grade: saturated carnival neon — magenta, electric blue, acid yellow, warm amber of bulb strings. The beauty should feel slightly too much, slightly sad, the way carnival light always does.",
+  "translations": {
+    "real vs. performance": "the person behind the face paint",
+    "beautiful vs. ugly": "the thing that is both at once under carnival light",
+    "winning vs. losing": "the prize and the walk home without it",
+    "bright vs. dark": "the gap between the lit ride and the field beyond",
+    "together vs. alone in a crowd": "the loneliness of the midway",
+    "magical vs. mechanical": "the ride and its engine",
+    "laughter vs. loneliness": "the sound that covers the other",
+    "season vs. end of season": "the carnival on its last night",
+    "spectacle vs. ordinary": "the waltzer and the man who runs it",
+    "sugar vs. bitter": "the candyfloss and what comes after",
+    "anticipation vs. disappointment": "the game before and after the throw",
+    "last night vs. first night": "the carnival opening and the carnival closing",
+    "seen vs. overlooked in the crowd": "the face that nobody clocked",
+    "love vs. heartbreak midway": "the couple and the ghost of the couple",
+    "gaudy vs. sublime": "the moment the neon becomes something else",
+    "passing vs. permanent": "what passes through and what was here before and will remain",
+    "innocent vs. knowing": "the child who believed and the adult who remembers"
+  },
+  "locTypes": {
+    "ferris wheel top night city glow": "outdoor",
+    "waltzers spinning neon blur night": "outdoor",
+    "big wheel base looking up night": "both",
+    "carousel horses night lights spinning": "outdoor",
+    "big wheel gondola night suspended": "both",
+    "bumper cars overhead sparks night": "both",
+    "dodgems arena carnival neon": "both",
+    "helter skelter base night": "both",
+    "waltzer operator platform night": "both",
+    "dodgem car stationary waiting": "both",
+    "waltzer stationary between rides": "both",
+    "candyfloss stall dusk light pink": "outdoor",
+    "hook-a-duck stall fairground lights": "outdoor",
+    "coconut shy stall string lights": "outdoor",
+    "carnival food van candleapple dusk": "both",
+    "toffee apple stall amber light": "outdoor",
+    "test your strength tower carnival": "both",
+    "shooting gallery neon prizes": "both",
+    "prize soft toy stall overloaded": "both",
+    "cotton candy machine spinning pink": "both",
+    "hook-a-duck water reflection lights": "both",
+    "prize wheel spin carnival neon": "both",
+    "ghost train entrance carnival night": "outdoor",
+    "hall of mirrors funfair interior": "both",
+    "fortune teller caravan carnival exterior": "outdoor",
+    "ghost train car interior dark": "indoor",
+    "hall of mirrors reflection infinite": "both",
+    "carnival fire eater performance area": "both",
+    "candy stripe tent interior carnival": "indoor",
+    "carnival stage performance area": "both",
+    "carnival midway night both sides lit": "outdoor",
+    "carnival entrance arch neon night": "both",
+    "carnival crowd midway night": "both",
+    "carnival ticket booth night queue": "both",
+    "carnival arc lights full night": "both",
+    "carnival fireworks above ferris wheel": "outdoor",
+    "ferris wheel reflection puddle rain": "outdoor",
+    "carnival back lot behind rides": "both",
+    "carnival generator truck back area": "both",
+    "trailer park carnival workers housing": "outdoor",
+    "carnival back lot empty evening": "both",
+    "funfair field afternoon setup": "both",
+    "funfair at closing time lights going out": "both",
+    "carnival field dawn before opening": "outdoor",
+    "carousel empty morning after": "outdoor",
+    "carnival field last night season": "outdoor",
+    "funfair entrance gates daytime": "both",
+    "carnival midway dawn packing up": "outdoor",
+    "carnival field first light morning": "outdoor",
+    "fairground organ carousel music": "outdoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

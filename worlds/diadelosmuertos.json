@@ -1,0 +1,276 @@
+{
+  "id": "diadelosmuertos",
+  "name": "DÍA DE LOS MUERTOS",
+  "sub": "Marigolds, Memory & the Return",
+  "color": "#d4780a",
+  "tensions": [
+    "death vs. life",
+    "memory vs. forgetting",
+    "grief vs. celebration",
+    "here vs. gone",
+    "the living vs. the dead",
+    "past vs. present",
+    "love vs. loss",
+    "colour vs. darkness",
+    "sacred vs. festive",
+    "held vs. let go"
+  ],
+  "affinities": {
+    "death vs. life": {
+      "locs": [
+        "parade dia de los muertos street costume night",
+        "calavera parade float street night elaborate",
+        "procession street candles elaborate costumes night"
+      ],
+      "poses": [
+        "both dancing in the procession, skirts swirling",
+        "both raised on a float, arms open to the crowd",
+        "both marching with candles, faces painted"
+      ],
+      "looks": [
+        "elaborate skeleton costume each",
+        "catrina dress and top hat each",
+        "skull makeup and flowing skirt each"
+      ]
+    },
+    "memory vs. forgetting": {
+      "locs": [
+        "day of the dead altar ofrenda marigolds candles photographs",
+        "ofrenda home altar photographs candles marigolds",
+        "altar community display photographs flowers"
+      ],
+      "poses": [
+        "both placing a photograph on the altar, hands touching",
+        "both standing before the altar, eyes closed, remembering",
+        "one lighting a candle, the other arranging flowers"
+      ],
+      "looks": [
+        "calavera face paint and floral crown each",
+        "white shirt and embroidered dress each",
+        "skull makeup and black suit each"
+      ]
+    },
+    "grief vs. celebration": {
+      "locs": [
+        "traditional dia de los muertos performance plaza",
+        "traditional dance dia de los muertos plaza",
+        "parade dia de los muertos street costume night"
+      ],
+      "poses": [
+        "both raised on a float, arms open to the crowd",
+        "both marching with candles, faces painted",
+        "both dancing in the procession, skirts swirling"
+      ],
+      "looks": [
+        "catrina dress and top hat each",
+        "skull makeup and flowing skirt each",
+        "elaborate skeleton costume each"
+      ]
+    },
+    "here vs. gone": {
+      "locs": [
+        "home ofrenda setting photographs loved ones",
+        "town plaza altar community display",
+        "colonial church decorated marigolds night"
+      ],
+      "poses": [
+        "both standing before the altar, eyes closed, remembering",
+        "one lighting a candle, the other arranging flowers",
+        "both placing a photograph on the altar, hands touching"
+      ],
+      "looks": [
+        "white shirt and embroidered dress each",
+        "skull makeup and black suit each",
+        "calavera face paint and floral crown each"
+      ]
+    },
+    "the living vs. the dead": {
+      "locs": [
+        "cemetery marigold path candles night procession",
+        "cemetery grave decorated marigolds candles night",
+        "cemetery night candles thousands marigolds"
+      ],
+      "poses": [
+        "both kneeling at a grave, candles glowing around them",
+        "both walking the petal-strewn path, holding candles",
+        "both sharing food beside the grave, laughing quietly"
+      ],
+      "looks": [
+        "embroidered shawl and dark suit each",
+        "marigold crown and black dress each",
+        "skull face paint and warm coat each"
+      ]
+    },
+    "past vs. present": {
+      "locs": [
+        "marigold market stalls cempasuchil october",
+        "traditional market dia de los muertos crafts",
+        "sugar skull making workshop table"
+      ],
+      "poses": [
+        "both painting a sugar skull, heads together",
+        "both choosing flowers at the stall, delighted",
+        "both folding paper petals, laughing"
+      ],
+      "looks": [
+        "embroidered blouse and apron each",
+        "simple skull makeup and casual clothes each",
+        "folk-embroidered dress and rebozo each"
+      ]
+    },
+    "love vs. loss": {
+      "locs": [
+        "day of the dead altar ofrenda marigolds candles photographs",
+        "ofrenda home altar photographs candles marigolds",
+        "altar community display photographs flowers"
+      ],
+      "poses": [
+        "one lighting a candle, the other arranging flowers",
+        "both placing a photograph on the altar, hands touching",
+        "both standing before the altar, eyes closed, remembering"
+      ],
+      "looks": [
+        "skull makeup and black suit each",
+        "calavera face paint and floral crown each",
+        "white shirt and embroidered dress each"
+      ]
+    },
+    "colour vs. darkness": {
+      "locs": [
+        "calavera parade float street night elaborate",
+        "procession street candles elaborate costumes night",
+        "traditional dia de los muertos performance plaza"
+      ],
+      "poses": [
+        "both marching with candles, faces painted",
+        "both dancing in the procession, skirts swirling",
+        "both raised on a float, arms open to the crowd"
+      ],
+      "looks": [
+        "skull makeup and flowing skirt each",
+        "elaborate skeleton costume each",
+        "catrina dress and top hat each"
+      ]
+    },
+    "sacred vs. festive": {
+      "locs": [
+        "paper marigold decorating workshop",
+        "marigold market stalls cempasuchil october",
+        "traditional market dia de los muertos crafts"
+      ],
+      "poses": [
+        "both choosing flowers at the stall, delighted",
+        "both folding paper petals, laughing",
+        "both painting a sugar skull, heads together"
+      ],
+      "looks": [
+        "simple skull makeup and casual clothes each",
+        "folk-embroidered dress and rebozo each",
+        "embroidered blouse and apron each"
+      ]
+    },
+    "held vs. let go": {
+      "locs": [
+        "cemetery family gathering candles night",
+        "marigold petal path cemetery candles",
+        "cemetery marigold path candles night procession"
+      ],
+      "poses": [
+        "both walking the petal-strewn path, holding candles",
+        "both sharing food beside the grave, laughing quietly",
+        "both kneeling at a grave, candles glowing around them"
+      ],
+      "looks": [
+        "marigold crown and black dress each",
+        "skull face paint and warm coat each",
+        "embroidered shawl and dark suit each"
+      ]
+    }
+  },
+  "locs": [
+    "day of the dead altar ofrenda marigolds candles photographs",
+    "ofrenda home altar photographs candles marigolds",
+    "altar community display photographs flowers",
+    "home ofrenda setting photographs loved ones",
+    "town plaza altar community display",
+    "colonial church decorated marigolds night",
+    "cemetery marigold path candles night procession",
+    "cemetery grave decorated marigolds candles night",
+    "cemetery night candles thousands marigolds",
+    "cemetery family gathering candles night",
+    "marigold petal path cemetery candles",
+    "parade dia de los muertos street costume night",
+    "calavera parade float street night elaborate",
+    "procession street candles elaborate costumes night",
+    "traditional dia de los muertos performance plaza",
+    "traditional dance dia de los muertos plaza",
+    "marigold market stalls cempasuchil october",
+    "traditional market dia de los muertos crafts",
+    "sugar skull making workshop table",
+    "paper marigold decorating workshop"
+  ],
+  "poses": [
+    "both placing a photograph on the altar, hands touching",
+    "both standing before the altar, eyes closed, remembering",
+    "one lighting a candle, the other arranging flowers",
+    "both kneeling at a grave, candles glowing around them",
+    "both walking the petal-strewn path, holding candles",
+    "both sharing food beside the grave, laughing quietly",
+    "both dancing in the procession, skirts swirling",
+    "both raised on a float, arms open to the crowd",
+    "both marching with candles, faces painted",
+    "both painting a sugar skull, heads together",
+    "both choosing flowers at the stall, delighted",
+    "both folding paper petals, laughing"
+  ],
+  "looks": [
+    "calavera face paint and floral crown each",
+    "white shirt and embroidered dress each",
+    "skull makeup and black suit each",
+    "embroidered shawl and dark suit each",
+    "marigold crown and black dress each",
+    "skull face paint and warm coat each",
+    "elaborate skeleton costume each",
+    "catrina dress and top hat each",
+    "skull makeup and flowing skirt each",
+    "embroidered blouse and apron each",
+    "simple skull makeup and casual clothes each",
+    "folk-embroidered dress and rebozo each"
+  ],
+  "promptSuffix": "Colour grade: marigold gold, deep purple, the warm flicker of hundreds of candles. Rich, saturated, deeply beautiful — this is death celebrated as colour.",
+  "translations": {
+    "memory vs. forgetting": "memory and the river that takes it",
+    "grief vs. celebration": "the same photograph meaning different things",
+    "here vs. gone": "the person remembered on the altar and the fact of their absence",
+    "the living vs. the dead": "the two sides of the marigold path",
+    "colour vs. darkness": "the brightness of dia de los muertos against what it mourns",
+    "held vs. let go": "held back from the sea and almost letting go"
+  },
+  "locTypes": {
+    "day of the dead altar ofrenda marigolds candles photographs": "both",
+    "ofrenda home altar photographs candles marigolds": "indoor",
+    "altar community display photographs flowers": "both",
+    "home ofrenda setting photographs loved ones": "indoor",
+    "town plaza altar community display": "outdoor",
+    "colonial church decorated marigolds night": "indoor",
+    "cemetery marigold path candles night procession": "outdoor",
+    "cemetery grave decorated marigolds candles night": "outdoor",
+    "cemetery night candles thousands marigolds": "outdoor",
+    "cemetery family gathering candles night": "outdoor",
+    "marigold petal path cemetery candles": "outdoor",
+    "parade dia de los muertos street costume night": "outdoor",
+    "calavera parade float street night elaborate": "indoor",
+    "procession street candles elaborate costumes night": "indoor",
+    "traditional dia de los muertos performance plaza": "outdoor",
+    "traditional dance dia de los muertos plaza": "outdoor",
+    "marigold market stalls cempasuchil october": "outdoor",
+    "traditional market dia de los muertos crafts": "both",
+    "sugar skull making workshop table": "indoor",
+    "paper marigold decorating workshop": "indoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

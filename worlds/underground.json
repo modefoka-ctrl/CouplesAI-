@@ -1,0 +1,646 @@
+{
+  "id": "underground",
+  "name": "THE UNDERGROUND",
+  "sub": "Scenes, Crowds & Loud Rooms",
+  "color": "#336655",
+  "tensions": [
+    "seen vs. invisible",
+    "belong vs. outside",
+    "mainstream vs. counter",
+    "surface vs. depth",
+    "loud vs. quiet rebellion",
+    "known vs. discovered",
+    "authentic vs. performed",
+    "local vs. scene",
+    "night vs. day identity",
+    "old school vs. new wave",
+    "pure vs. sold out",
+    "insider vs. outsider",
+    "alone vs. together in it",
+    "signal vs. noise",
+    "underground vs. above ground",
+    "passion vs. cool",
+    "raw vs. polished",
+    "secret vs. shared",
+    "found vs. lost in it",
+    "now vs. then scene"
+  ],
+  "affinities": {
+    "belong vs. outside": {
+      "locs": [
+        "punk DIY basement show crowd pressed against a tiny stage",
+        "punk gig mosh pit crowd surfers hands in the air",
+        "squat house gig graffiti walls mattress on the floor"
+      ],
+      "poses": [
+        "both crowd surfing hands beneath them grinning",
+        "one stage diving other catching mid-air",
+        "both shouting lyrics fists raised sweat-soaked"
+      ],
+      "looks": [
+        "studded leather jacket and patched vest each punk",
+        "band tee ripped jeans and Docs each",
+        "tartan trousers and dyed hair each punk"
+      ]
+    },
+    "mainstream vs. counter": {
+      "locs": [
+        "free party warehouse rave strobe lasers packed dance floor",
+        "field rave at sunrise speaker stack dancers in silhouette",
+        "railway arch rave smoke machine green lasers"
+      ],
+      "poses": [
+        "both arms raised dancing in strobe light crowd blurred behind",
+        "both on each other's shoulders above the crowd glowsticks in hand",
+        "both sitting on a speaker stack at dawn sweaty and smiling"
+      ],
+      "looks": [
+        "fluoro windbreaker and bucket hat each glowsticks",
+        "cargo trousers and mesh top each 90s raver",
+        "holographic jacket and goggles each rave"
+      ]
+    },
+    "surface vs. depth": {
+      "locs": [
+        "huge mural wall mid-paint scaffolding and spray cans below",
+        "alley wheatpaste posters peeling in layers at night",
+        "graffiti hall of fame wall colourful legal wall"
+      ],
+      "poses": [
+        "one spray painting other holding the ladder looking out",
+        "both pasting a poster together laughing at night",
+        "both standing before the finished piece paint on their hands"
+      ],
+      "looks": [
+        "paint-splattered overalls and respirator pulled down each",
+        "black hoodie and paint-stained trousers each",
+        "workwear and gloves streaked with paint each"
+      ]
+    },
+    "loud vs. quiet rebellion": {
+      "locs": [
+        "grrrl punk gig tiny venue crowd singing along sweaty",
+        "zine fair folding tables tote bags colourful",
+        "photocopier shop at 2am copying flyers"
+      ],
+      "poses": [
+        "both screaming lyrics front row arms around each other",
+        "one handing other a zine still warm from the photocopier",
+        "both sitting on the stage edge guitars across knees laughing"
+      ],
+      "looks": [
+        "babydoll dress and combat boots with handwritten slogans each",
+        "ripped tights and oversized band tee each riot grrrl",
+        "thrifted floral dress and denim vest with patches each"
+      ]
+    },
+    "known vs. discovered": {
+      "locs": [
+        "record fair hall crates stacked wall to wall",
+        "basement record shop crates floor to ceiling gig posters",
+        "flea market vinyl stall morning crates in the sun"
+      ],
+      "poses": [
+        "both flipping crates hands touching the same record",
+        "one holding a record up triumphant other grabbing for it",
+        "both sharing one pair of headphones grinning"
+      ],
+      "looks": [
+        "vintage band tee and corduroy jacket each",
+        "thrifted jacket and rolled jeans each crate digger",
+        "retro sportswear and beanie each record hunter"
+      ]
+    },
+    "authentic vs. performed": {
+      "locs": [
+        "street cipher circle crowd ring boombox night",
+        "cardboard breakdance floor park jam crowd ring",
+        "90s block party fire hydrant sprinkler summer"
+      ],
+      "poses": [
+        "one freezing mid-breakdance other cheering crowd ring around",
+        "both mid-routine in sync crowd ring behind",
+        "both hands up boombox between them block party"
+      ],
+      "looks": [
+        "90s tracksuit gold chain and fitted cap each",
+        "baggy jeans Timberlands and oversized hoodie each",
+        "retro sportswear and bucket hat each old school hip-hop"
+      ]
+    },
+    "local vs. scene": {
+      "locs": [
+        "lowrider car meet car park night chrome and candy paint",
+        "boulevard cruising lowriders slow at sunset",
+        "hydraulics hop contest crowd cheering"
+      ],
+      "poses": [
+        "both leaning on a candy paint lowrider arms crossed proud",
+        "both sitting on the car roof watching the hydraulics hop",
+        "both cruising windows down one arm out laughing"
+      ],
+      "looks": [
+        "pressed khakis white tee and bandana each lowrider",
+        "vintage dress and sunglasses with flannel each car show",
+        "pinstripe suit and fedora each classic car club"
+      ]
+    },
+    "night vs. day identity": {
+      "locs": [
+        "goth club fog machine dance floor candelabras",
+        "cemetery goth picnic among ruins at dusk",
+        "dark fashion shop corset rack velvet curtains"
+      ],
+      "poses": [
+        "both dancing slow in fog arms raised in silhouette",
+        "both lounging on a gravestone with a picnic basket",
+        "one lacing other's corset in the shop mirror"
+      ],
+      "looks": [
+        "black lace and platform boots each gothic",
+        "Victorian velvet and top hat each goth",
+        "leather corset and fishnets each dark glam"
+      ]
+    },
+    "old school vs. new wave": {
+      "locs": [
+        "seafront promenade scooters lined up mod rally",
+        "ska club checkerboard floor skanking crowd",
+        "scooter rally campsite Union Jack sunset"
+      ],
+      "poses": [
+        "both sitting on a parked Vespa shades on",
+        "both skanking mid-step ska crowd behind",
+        "both posing on scooters covered in patches"
+      ],
+      "looks": [
+        "green parka covered in patches and target badges each mod",
+        "Fred Perry polo and Sta-Prest trousers each",
+        "tonic suit and loafers each ska two-tone"
+      ]
+    },
+    "pure vs. sold out": {
+      "locs": [
+        "tattoo convention hall booths buzzing machines",
+        "tattoo studio flash walls neon sign buzzing",
+        "tattoo chair mid-session artist leaning in"
+      ],
+      "poses": [
+        "one getting tattooed gripping other's hand grinning",
+        "both comparing fresh tattoos arms side by side",
+        "both browsing the flash walls choosing a matching design"
+      ],
+      "looks": [
+        "tattooed sleeves and sleeveless tee each",
+        "vintage flannel rolled sleeves tattoos showing each",
+        "leather vest and bare tattooed arms each"
+      ]
+    },
+    "insider vs. outsider": {
+      "locs": [
+        "roller derby bout track jammers pack blur crowd",
+        "roller rink disco ball neon retro",
+        "roller derby locker room helmets pads and tape"
+      ],
+      "poses": [
+        "both mid-jam elbow to elbow on roller skates",
+        "both skating hand in hand under disco lights",
+        "both lacing skates on the bench pre-bout fist bump"
+      ],
+      "looks": [
+        "roller derby kit fishnet shorts pads and helmets each",
+        "retro roller skate outfit and sweatbands each disco",
+        "team jersey and knee pads each derby"
+      ]
+    },
+    "alone vs. together in it": {
+      "locs": [
+        "concrete skate bowl DIY under a bridge covered in graffiti",
+        "street skate spot handrail and stairs at dusk",
+        "skate park pool coping floodlit night"
+      ],
+      "poses": [
+        "one mid-air kickflip other watching from the ledge",
+        "both dropping into the bowl side by side",
+        "both sitting on boards resting scraped knees laughing"
+      ],
+      "looks": [
+        "baggy cargo shorts and skate shoes each",
+        "oversized band tee and beanie each skater",
+        "faded jeans and checkerboard Vans each"
+      ]
+    },
+    "signal vs. noise": {
+      "locs": [
+        "towering speaker stack sound system carnival street bass",
+        "pirate radio rooftop aerial city night",
+        "dub dance basement sound system dripping ceiling"
+      ],
+      "poses": [
+        "both feeling the bass against a speaker stack grinning",
+        "both on the rooftop adjusting an aerial wire laughing",
+        "one shouting over the music other cupping an ear"
+      ],
+      "looks": [
+        "Caribbean carnival colours and sunglasses each",
+        "tracksuit and headphones around neck each",
+        "70s dub style knitted tam and bomber each"
+      ]
+    },
+    "underground vs. above ground": {
+      "locs": [
+        "rooftop leap gap between buildings city sunrise",
+        "concrete steps urban parkour spot at night",
+        "construction site scaffold climb at dusk"
+      ],
+      "poses": [
+        "one mid-leap across the gap other already landed grinning",
+        "both vaulting a barrier in sync",
+        "both hanging from a ledge looking down laughing"
+      ],
+      "looks": [
+        "lightweight tracksuit and trainers each parkour",
+        "tight joggers and tee chalked hands each",
+        "windbreaker and beanie each urban runner"
+      ]
+    },
+    "passion vs. cool": {
+      "locs": [
+        "backyard wrestling ring in a car park makeshift ropes crowd",
+        "lucha libre arena masks ring crowd roaring",
+        "basement wrestling ring plastic chairs fairy lights"
+      ],
+      "poses": [
+        "one mid-flying-elbow off the top rope other braced below",
+        "both in masks arms crossed ring corner",
+        "both held aloft in the ring crowd roaring"
+      ],
+      "looks": [
+        "lucha libre masks and capes each colourful",
+        "wrestling cape and boots each backyard",
+        "sequin mask and sparkle trunks each"
+      ]
+    },
+    "raw vs. polished": {
+      "locs": [
+        "tiled underpass busker crowd echoing walls",
+        "busy pedestrian street busking crowd hat on the ground",
+        "open air market street band improvised dance"
+      ],
+      "poses": [
+        "one playing guitar other dancing mid-twirl crowd around",
+        "both singing into one mic crowd watching",
+        "both juggling street performers crowd circle"
+      ],
+      "looks": [
+        "patchwork waistcoat and flat cap each street performer",
+        "vintage dress boots and scarf each busker",
+        "colourful mismatched layers each troupe"
+      ]
+    },
+    "secret vs. shared": {
+      "locs": [
+        "after-hours queer bar glitter disco ball packed floor",
+        "drag show stage glitter curtain audience roaring",
+        "bar back door smoking area rainbow neon sign"
+      ],
+      "poses": [
+        "both dancing arm in arm glitter falling",
+        "one tipping other mid-lipsync on stage",
+        "both leaning out the back door laughing under the neon"
+      ],
+      "looks": [
+        "sequin jacket and glitter makeup each",
+        "mesh top and harness with boots each",
+        "feather boa and tailored suit each"
+      ]
+    },
+    "found vs. lost in it": {
+      "locs": [
+        "northern soul all-nighter ballroom talc on the floor",
+        "1970s northern soul hall spin and drop dancers",
+        "soul club basement wooden dance floor sweat"
+      ],
+      "poses": [
+        "both mid-spin in a cloud of talc",
+        "one sliding across the floor other clapping in time",
+        "both leaning on the wall after the dance holding sports bags"
+      ],
+      "looks": [
+        "baggy high-waisted trousers and vest each northern soul",
+        "pleated skirt and flat shoes each 70s dancer",
+        "badge-covered bowling shirt and baggy trousers each"
+      ]
+    },
+    "now vs. then scene": {
+      "locs": [
+        "rockabilly dance hall jive floor bunting",
+        "greaser car meet neon diner forecourt",
+        "vintage car show pomade and flames paintwork"
+      ],
+      "poses": [
+        "both mid-jive lift dress flaring",
+        "both leaning on a vintage car quiff comb in hand",
+        "both slow dancing barefoot between sets"
+      ],
+      "looks": [
+        "polka dot dress victory rolls and cuffed jeans each",
+        "greaser leather jacket quiff and pencil skirt each",
+        "bowling shirt and cat-eye sunglasses each rockabilly"
+      ]
+    },
+    "seen vs. invisible": {
+      "locs": [
+        "ballroom competition runway judges panel glitter spotlight",
+        "queer ballroom house category walk packed audience",
+        "backstage ballroom dressing room mirrors sequins"
+      ],
+      "poses": [
+        "both mid-vogue dip one catching the other dramatic",
+        "both striking a category pose judges behind",
+        "one fixing other's feathers backstage both laughing"
+      ],
+      "looks": [
+        "sequin couture ballgown and sequin suit each ballroom",
+        "feather headpiece and crystal bodysuit each ballroom",
+        "oversized glam jacket and thigh boots each ballroom"
+      ]
+    }
+  },
+  "locs": [
+    "punk DIY basement show crowd pressed against a tiny stage",
+    "punk gig mosh pit crowd surfers hands in the air",
+    "squat house gig graffiti walls mattress on the floor",
+    "free party warehouse rave strobe lasers packed dance floor",
+    "field rave at sunrise speaker stack dancers in silhouette",
+    "railway arch rave smoke machine green lasers",
+    "huge mural wall mid-paint scaffolding and spray cans below",
+    "alley wheatpaste posters peeling in layers at night",
+    "graffiti hall of fame wall colourful legal wall",
+    "grrrl punk gig tiny venue crowd singing along sweaty",
+    "zine fair folding tables tote bags colourful",
+    "photocopier shop at 2am copying flyers",
+    "record fair hall crates stacked wall to wall",
+    "basement record shop crates floor to ceiling gig posters",
+    "flea market vinyl stall morning crates in the sun",
+    "street cipher circle crowd ring boombox night",
+    "cardboard breakdance floor park jam crowd ring",
+    "90s block party fire hydrant sprinkler summer",
+    "lowrider car meet car park night chrome and candy paint",
+    "boulevard cruising lowriders slow at sunset",
+    "hydraulics hop contest crowd cheering",
+    "goth club fog machine dance floor candelabras",
+    "cemetery goth picnic among ruins at dusk",
+    "dark fashion shop corset rack velvet curtains",
+    "seafront promenade scooters lined up mod rally",
+    "ska club checkerboard floor skanking crowd",
+    "scooter rally campsite Union Jack sunset",
+    "tattoo convention hall booths buzzing machines",
+    "tattoo studio flash walls neon sign buzzing",
+    "tattoo chair mid-session artist leaning in",
+    "roller derby bout track jammers pack blur crowd",
+    "roller rink disco ball neon retro",
+    "roller derby locker room helmets pads and tape",
+    "concrete skate bowl DIY under a bridge covered in graffiti",
+    "street skate spot handrail and stairs at dusk",
+    "skate park pool coping floodlit night",
+    "towering speaker stack sound system carnival street bass",
+    "pirate radio rooftop aerial city night",
+    "dub dance basement sound system dripping ceiling",
+    "rooftop leap gap between buildings city sunrise",
+    "concrete steps urban parkour spot at night",
+    "construction site scaffold climb at dusk",
+    "backyard wrestling ring in a car park makeshift ropes crowd",
+    "lucha libre arena masks ring crowd roaring",
+    "basement wrestling ring plastic chairs fairy lights",
+    "tiled underpass busker crowd echoing walls",
+    "busy pedestrian street busking crowd hat on the ground",
+    "open air market street band improvised dance",
+    "after-hours queer bar glitter disco ball packed floor",
+    "drag show stage glitter curtain audience roaring",
+    "bar back door smoking area rainbow neon sign",
+    "northern soul all-nighter ballroom talc on the floor",
+    "1970s northern soul hall spin and drop dancers",
+    "soul club basement wooden dance floor sweat",
+    "rockabilly dance hall jive floor bunting",
+    "greaser car meet neon diner forecourt",
+    "vintage car show pomade and flames paintwork",
+    "ballroom competition runway judges panel glitter spotlight",
+    "queer ballroom house category walk packed audience",
+    "backstage ballroom dressing room mirrors sequins"
+  ],
+  "poses": [
+    "both crowd surfing hands beneath them grinning",
+    "one stage diving other catching mid-air",
+    "both shouting lyrics fists raised sweat-soaked",
+    "both arms raised dancing in strobe light crowd blurred behind",
+    "both on each other's shoulders above the crowd glowsticks in hand",
+    "both sitting on a speaker stack at dawn sweaty and smiling",
+    "one spray painting other holding the ladder looking out",
+    "both pasting a poster together laughing at night",
+    "both standing before the finished piece paint on their hands",
+    "both screaming lyrics front row arms around each other",
+    "one handing other a zine still warm from the photocopier",
+    "both sitting on the stage edge guitars across knees laughing",
+    "both flipping crates hands touching the same record",
+    "one holding a record up triumphant other grabbing for it",
+    "both sharing one pair of headphones grinning",
+    "one freezing mid-breakdance other cheering crowd ring around",
+    "both mid-routine in sync crowd ring behind",
+    "both hands up boombox between them block party",
+    "both leaning on a candy paint lowrider arms crossed proud",
+    "both sitting on the car roof watching the hydraulics hop",
+    "both cruising windows down one arm out laughing",
+    "both dancing slow in fog arms raised in silhouette",
+    "both lounging on a gravestone with a picnic basket",
+    "one lacing other's corset in the shop mirror",
+    "both sitting on a parked Vespa shades on",
+    "both skanking mid-step ska crowd behind",
+    "both posing on scooters covered in patches",
+    "one getting tattooed gripping other's hand grinning",
+    "both comparing fresh tattoos arms side by side",
+    "both browsing the flash walls choosing a matching design",
+    "both mid-jam elbow to elbow on roller skates",
+    "both skating hand in hand under disco lights",
+    "both lacing skates on the bench pre-bout fist bump",
+    "one mid-air kickflip other watching from the ledge",
+    "both dropping into the bowl side by side",
+    "both sitting on boards resting scraped knees laughing",
+    "both feeling the bass against a speaker stack grinning",
+    "both on the rooftop adjusting an aerial wire laughing",
+    "one shouting over the music other cupping an ear",
+    "one mid-leap across the gap other already landed grinning",
+    "both vaulting a barrier in sync",
+    "both hanging from a ledge looking down laughing",
+    "one mid-flying-elbow off the top rope other braced below",
+    "both in masks arms crossed ring corner",
+    "both held aloft in the ring crowd roaring",
+    "one playing guitar other dancing mid-twirl crowd around",
+    "both singing into one mic crowd watching",
+    "both juggling street performers crowd circle",
+    "both dancing arm in arm glitter falling",
+    "one tipping other mid-lipsync on stage",
+    "both leaning out the back door laughing under the neon",
+    "both mid-spin in a cloud of talc",
+    "one sliding across the floor other clapping in time",
+    "both leaning on the wall after the dance holding sports bags",
+    "both mid-jive lift dress flaring",
+    "both leaning on a vintage car quiff comb in hand",
+    "both slow dancing barefoot between sets",
+    "both mid-vogue dip one catching the other dramatic",
+    "both striking a category pose judges behind",
+    "one fixing other's feathers backstage both laughing"
+  ],
+  "looks": [
+    "studded leather jacket and patched vest each punk",
+    "band tee ripped jeans and Docs each",
+    "tartan trousers and dyed hair each punk",
+    "fluoro windbreaker and bucket hat each glowsticks",
+    "cargo trousers and mesh top each 90s raver",
+    "holographic jacket and goggles each rave",
+    "paint-splattered overalls and respirator pulled down each",
+    "black hoodie and paint-stained trousers each",
+    "workwear and gloves streaked with paint each",
+    "babydoll dress and combat boots with handwritten slogans each",
+    "ripped tights and oversized band tee each riot grrrl",
+    "thrifted floral dress and denim vest with patches each",
+    "vintage band tee and corduroy jacket each",
+    "thrifted jacket and rolled jeans each crate digger",
+    "retro sportswear and beanie each record hunter",
+    "90s tracksuit gold chain and fitted cap each",
+    "baggy jeans Timberlands and oversized hoodie each",
+    "retro sportswear and bucket hat each old school hip-hop",
+    "pressed khakis white tee and bandana each lowrider",
+    "vintage dress and sunglasses with flannel each car show",
+    "pinstripe suit and fedora each classic car club",
+    "black lace and platform boots each gothic",
+    "Victorian velvet and top hat each goth",
+    "leather corset and fishnets each dark glam",
+    "green parka covered in patches and target badges each mod",
+    "Fred Perry polo and Sta-Prest trousers each",
+    "tonic suit and loafers each ska two-tone",
+    "tattooed sleeves and sleeveless tee each",
+    "vintage flannel rolled sleeves tattoos showing each",
+    "leather vest and bare tattooed arms each",
+    "roller derby kit fishnet shorts pads and helmets each",
+    "retro roller skate outfit and sweatbands each disco",
+    "team jersey and knee pads each derby",
+    "baggy cargo shorts and skate shoes each",
+    "oversized band tee and beanie each skater",
+    "faded jeans and checkerboard Vans each",
+    "Caribbean carnival colours and sunglasses each",
+    "tracksuit and headphones around neck each",
+    "70s dub style knitted tam and bomber each",
+    "lightweight tracksuit and trainers each parkour",
+    "tight joggers and tee chalked hands each",
+    "windbreaker and beanie each urban runner",
+    "lucha libre masks and capes each colourful",
+    "wrestling cape and boots each backyard",
+    "sequin mask and sparkle trunks each",
+    "patchwork waistcoat and flat cap each street performer",
+    "vintage dress boots and scarf each busker",
+    "colourful mismatched layers each troupe",
+    "sequin jacket and glitter makeup each",
+    "mesh top and harness with boots each",
+    "feather boa and tailored suit each",
+    "baggy high-waisted trousers and vest each northern soul",
+    "pleated skirt and flat shoes each 70s dancer",
+    "badge-covered bowling shirt and baggy trousers each",
+    "polka dot dress victory rolls and cuffed jeans each",
+    "greaser leather jacket quiff and pencil skirt each",
+    "bowling shirt and cat-eye sunglasses each rockabilly",
+    "sequin couture ballgown and sequin suit each ballroom",
+    "feather headpiece and crystal bodysuit each ballroom",
+    "oversized glam jacket and thigh boots each ballroom"
+  ],
+  "promptSuffix": "Colour grade: saturated practical light — strobe, neon, stage wash, sodium streetlight. Movement, sweat and energy over polish.",
+  "translations": {
+    "seen vs. invisible": "seen by the right people and invisible to everyone else",
+    "belong vs. outside": "belonging and the memory of being outside it",
+    "mainstream vs. counter": "the mainstream and everything running counter to it",
+    "surface vs. depth": "the surface and the depth underneath",
+    "loud vs. quiet rebellion": "loud rebellion and the quiet kind that lasts longer",
+    "known vs. discovered": "known to some and discovered by others right now",
+    "authentic vs. performed": "authentic and the performance of authenticity",
+    "local vs. scene": "the local and the scene it feeds",
+    "night vs. day identity": "the night version and the day version of the same person",
+    "old school vs. new wave": "old school and the new wave that owes it everything",
+    "pure vs. sold out": "pure and the argument about what that means",
+    "insider vs. outsider": "inside and the outside pressing against the glass",
+    "alone vs. together in it": "alone in it and together in it at the same time",
+    "signal vs. noise": "the signal and the noise you learn to ignore",
+    "underground vs. above ground": "underground and the world above that doesn't know it exists",
+    "passion vs. cool": "passion and the cool that tries to hide it",
+    "raw vs. polished": "raw and the polish that sometimes gets in the way",
+    "secret vs. shared": "a secret place and the sharing of it with one person",
+    "found vs. lost in it": "found in it and lost in it at the same time",
+    "now vs. then scene": "now and then as the same scene at different moments"
+  },
+  "locTypes": {
+    "punk DIY basement show crowd pressed against a tiny stage": "indoor",
+    "punk gig mosh pit crowd surfers hands in the air": "indoor",
+    "squat house gig graffiti walls mattress on the floor": "indoor",
+    "free party warehouse rave strobe lasers packed dance floor": "indoor",
+    "field rave at sunrise speaker stack dancers in silhouette": "outdoor",
+    "railway arch rave smoke machine green lasers": "both",
+    "huge mural wall mid-paint scaffolding and spray cans below": "outdoor",
+    "alley wheatpaste posters peeling in layers at night": "outdoor",
+    "graffiti hall of fame wall colourful legal wall": "outdoor",
+    "grrrl punk gig tiny venue crowd singing along sweaty": "indoor",
+    "zine fair folding tables tote bags colourful": "indoor",
+    "photocopier shop at 2am copying flyers": "indoor",
+    "record fair hall crates stacked wall to wall": "indoor",
+    "basement record shop crates floor to ceiling gig posters": "indoor",
+    "flea market vinyl stall morning crates in the sun": "outdoor",
+    "street cipher circle crowd ring boombox night": "outdoor",
+    "cardboard breakdance floor park jam crowd ring": "outdoor",
+    "90s block party fire hydrant sprinkler summer": "outdoor",
+    "lowrider car meet car park night chrome and candy paint": "outdoor",
+    "boulevard cruising lowriders slow at sunset": "outdoor",
+    "hydraulics hop contest crowd cheering": "outdoor",
+    "goth club fog machine dance floor candelabras": "indoor",
+    "cemetery goth picnic among ruins at dusk": "outdoor",
+    "dark fashion shop corset rack velvet curtains": "indoor",
+    "seafront promenade scooters lined up mod rally": "outdoor",
+    "ska club checkerboard floor skanking crowd": "indoor",
+    "scooter rally campsite Union Jack sunset": "outdoor",
+    "tattoo convention hall booths buzzing machines": "indoor",
+    "tattoo studio flash walls neon sign buzzing": "indoor",
+    "tattoo chair mid-session artist leaning in": "indoor",
+    "roller derby bout track jammers pack blur crowd": "indoor",
+    "roller rink disco ball neon retro": "indoor",
+    "roller derby locker room helmets pads and tape": "indoor",
+    "concrete skate bowl DIY under a bridge covered in graffiti": "outdoor",
+    "street skate spot handrail and stairs at dusk": "outdoor",
+    "skate park pool coping floodlit night": "outdoor",
+    "towering speaker stack sound system carnival street bass": "outdoor",
+    "pirate radio rooftop aerial city night": "outdoor",
+    "dub dance basement sound system dripping ceiling": "indoor",
+    "rooftop leap gap between buildings city sunrise": "outdoor",
+    "concrete steps urban parkour spot at night": "outdoor",
+    "construction site scaffold climb at dusk": "outdoor",
+    "backyard wrestling ring in a car park makeshift ropes crowd": "outdoor",
+    "lucha libre arena masks ring crowd roaring": "indoor",
+    "basement wrestling ring plastic chairs fairy lights": "indoor",
+    "tiled underpass busker crowd echoing walls": "both",
+    "busy pedestrian street busking crowd hat on the ground": "outdoor",
+    "open air market street band improvised dance": "outdoor",
+    "after-hours queer bar glitter disco ball packed floor": "indoor",
+    "drag show stage glitter curtain audience roaring": "indoor",
+    "bar back door smoking area rainbow neon sign": "outdoor",
+    "northern soul all-nighter ballroom talc on the floor": "indoor",
+    "1970s northern soul hall spin and drop dancers": "indoor",
+    "soul club basement wooden dance floor sweat": "indoor",
+    "rockabilly dance hall jive floor bunting": "indoor",
+    "greaser car meet neon diner forecourt": "outdoor",
+    "vintage car show pomade and flames paintwork": "outdoor",
+    "ballroom competition runway judges panel glitter spotlight": "indoor",
+    "queer ballroom house category walk packed audience": "indoor",
+    "backstage ballroom dressing room mirrors sequins": "indoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

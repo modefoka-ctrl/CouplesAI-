@@ -1,0 +1,280 @@
+{
+  "id": "court",
+  "name": "THE COURT",
+  "sub": "Sport, Obsession & the Arena",
+  "color": "#c8820a",
+  "tensions": [
+    "winning vs. losing",
+    "the match vs. the life",
+    "obsession vs. balance",
+    "body vs. mind",
+    "the opponent vs. the self",
+    "peak vs. decline",
+    "the crowd vs. the silence",
+    "glory vs. aftermath",
+    "control vs. surrender",
+    "the last set vs. everything after"
+  ],
+  "affinities": {
+    "winning vs. losing": {
+      "locs": [
+        "1970s Roland Garros clay court red dust late afternoon",
+        "Wimbledon grass court morning dew empty pre-match",
+        "1960s Flushing Meadows hard court crowd behind"
+      ],
+      "poses": [
+        "both mid-rally, dust kicking up",
+        "both leaning on their rackets, exhausted",
+        "one serving as the other watches, frozen"
+      ],
+      "looks": [
+        "pleated whites and sweatbands each",
+        "tennis dress and polo each",
+        "dusty tennis shorts and headband each"
+      ]
+    },
+    "the match vs. the life": {
+      "locs": [
+        "Harlem street basketball court chain-link night 1990s",
+        "1990s school gymnasium basketball finals night",
+        "outdoor basketball court Los Angeles sunset 1990s"
+      ],
+      "poses": [
+        "both hands on knees, gasping for breath",
+        "both leaping for the rim, arms stretched",
+        "both sitting on the bench, towels over their heads"
+      ],
+      "looks": [
+        "loose vest and long shorts each",
+        "tracksuit top and high-tops each",
+        "baggy shirt and headband each"
+      ]
+    },
+    "obsession vs. balance": {
+      "locs": [
+        "1980s boxing gym ring ropes overhead single light",
+        "Brooklyn boxing gym 1950s leather bag dust"
+      ],
+      "poses": [
+        "both trading blows, gloves up",
+        "one tying the other's gloves, focused",
+        "both slumped on the stool, sweat pouring"
+      ],
+      "looks": [
+        "boxing shorts and wrapped hands each",
+        "hooded robe and gloves each",
+        "vest and taped knuckles each"
+      ]
+    },
+    "body vs. mind": {
+      "locs": [
+        "Soviet sports hall gymnasium late 1970s fluorescent",
+        "squash court white walls echo 1970s",
+        "wrestling mat gymnasium 1970s fluorescent"
+      ],
+      "poses": [
+        "both warming up in parallel, concentrated",
+        "both locked in a grapple, straining",
+        "both chalking their hands, eyes fixed ahead"
+      ],
+      "looks": [
+        "tracksuit and plimsolls each",
+        "plain training kit each",
+        "singlet and tape each"
+      ]
+    },
+    "the opponent vs. the self": {
+      "locs": [
+        "fencing hall épée 1970s European championship",
+        "Olympic velodrome track banking 1980s",
+        "ice hockey rink empty practice dawn"
+      ],
+      "poses": [
+        "both in a ready stance, eyes locked",
+        "both sprinting flat out, leaning into the bend",
+        "both resting on the rail, breath misting"
+      ],
+      "looks": [
+        "white padded jacket and mask under one arm each",
+        "race suit and helmet each",
+        "padded kit and gloves each"
+      ]
+    },
+    "peak vs. decline": {
+      "locs": [
+        "indoor tennis court 1980s green carpet empty",
+        "Rolland Garros press box 1980s clay below",
+        "1970s Roland Garros clay court red dust late afternoon"
+      ],
+      "poses": [
+        "both mid-rally, dust kicking up",
+        "both leaning on their rackets, exhausted",
+        "one serving as the other watches, frozen"
+      ],
+      "looks": [
+        "pleated whites and sweatbands each",
+        "tennis dress and polo each",
+        "dusty tennis shorts and headband each"
+      ]
+    },
+    "the crowd vs. the silence": {
+      "locs": [
+        "street football pitch Brazil favela evening",
+        "stadium corridor tunnel pre-match concrete"
+      ],
+      "poses": [
+        "both kicking a ball in the dust, laughing",
+        "both walking out into the roar of the crowd",
+        "both sitting on the ball, sunburnt and happy"
+      ],
+      "looks": [
+        "faded football shirt and shorts each",
+        "team kit and muddy boots each",
+        "bare feet and tatty shorts each"
+      ]
+    },
+    "glory vs. aftermath": {
+      "locs": [
+        "Brooklyn boxing gym 1950s leather bag dust",
+        "1980s boxing gym ring ropes overhead single light"
+      ],
+      "poses": [
+        "both trading blows, gloves up",
+        "one tying the other's gloves, focused",
+        "both slumped on the stool, sweat pouring"
+      ],
+      "looks": [
+        "boxing shorts and wrapped hands each",
+        "hooded robe and gloves each",
+        "vest and taped knuckles each"
+      ]
+    },
+    "control vs. surrender": {
+      "locs": [
+        "horse racing paddock morning dew 1960s",
+        "fencing hall épée 1970s European championship",
+        "Olympic velodrome track banking 1980s"
+      ],
+      "poses": [
+        "both in a ready stance, eyes locked",
+        "both sprinting flat out, leaning into the bend",
+        "both resting on the rail, breath misting"
+      ],
+      "looks": [
+        "white padded jacket and mask under one arm each",
+        "race suit and helmet each",
+        "padded kit and gloves each"
+      ]
+    },
+    "the last set vs. everything after": {
+      "locs": [
+        "Harlem street basketball court chain-link night 1990s",
+        "1990s school gymnasium basketball finals night",
+        "outdoor basketball court Los Angeles sunset 1990s"
+      ],
+      "poses": [
+        "both hands on knees, gasping for breath",
+        "both leaping for the rim, arms stretched",
+        "both sitting on the bench, towels over their heads"
+      ],
+      "looks": [
+        "loose vest and long shorts each",
+        "tracksuit top and high-tops each",
+        "baggy shirt and headband each"
+      ]
+    }
+  },
+  "locs": [
+    "1970s Roland Garros clay court red dust late afternoon",
+    "Wimbledon grass court morning dew empty pre-match",
+    "1960s Flushing Meadows hard court crowd behind",
+    "indoor tennis court 1980s green carpet empty",
+    "Rolland Garros press box 1980s clay below",
+    "Harlem street basketball court chain-link night 1990s",
+    "1990s school gymnasium basketball finals night",
+    "outdoor basketball court Los Angeles sunset 1990s",
+    "1980s boxing gym ring ropes overhead single light",
+    "Brooklyn boxing gym 1950s leather bag dust",
+    "Soviet sports hall gymnasium late 1970s fluorescent",
+    "squash court white walls echo 1970s",
+    "wrestling mat gymnasium 1970s fluorescent",
+    "snooker hall green baize single overhead lamp",
+    "fencing hall épée 1970s European championship",
+    "Olympic velodrome track banking 1980s",
+    "ice hockey rink empty practice dawn",
+    "horse racing paddock morning dew 1960s",
+    "street football pitch Brazil favela evening",
+    "stadium corridor tunnel pre-match concrete"
+  ],
+  "poses": [
+    "both mid-rally, dust kicking up",
+    "both leaning on their rackets, exhausted",
+    "one serving as the other watches, frozen",
+    "both hands on knees, gasping for breath",
+    "both leaping for the rim, arms stretched",
+    "both sitting on the bench, towels over their heads",
+    "both trading blows, gloves up",
+    "one tying the other's gloves, focused",
+    "both slumped on the stool, sweat pouring",
+    "both warming up in parallel, concentrated",
+    "both locked in a grapple, straining",
+    "both chalking their hands, eyes fixed ahead",
+    "both in a ready stance, eyes locked",
+    "both sprinting flat out, leaning into the bend",
+    "both resting on the rail, breath misting",
+    "both kicking a ball in the dust, laughing",
+    "both walking out into the roar of the crowd",
+    "both sitting on the ball, sunburnt and happy"
+  ],
+  "looks": [
+    "pleated whites and sweatbands each",
+    "tennis dress and polo each",
+    "dusty tennis shorts and headband each",
+    "loose vest and long shorts each",
+    "tracksuit top and high-tops each",
+    "baggy shirt and headband each",
+    "boxing shorts and wrapped hands each",
+    "hooded robe and gloves each",
+    "vest and taped knuckles each",
+    "tracksuit and plimsolls each",
+    "plain training kit each",
+    "singlet and tape each",
+    "white padded jacket and mask under one arm each",
+    "race suit and helmet each",
+    "padded kit and gloves each",
+    "faded football shirt and shorts each",
+    "team kit and muddy boots each",
+    "bare feet and tatty shorts each"
+  ],
+  "promptSuffix": "Colour grade: clay dust red, gymnasium fluorescent, boxing ring single overhead light. Gritty and physical.",
+  "translations": {
+    "winning vs. losing": "the prize and the walk home without it"
+  },
+  "locTypes": {
+    "1970s Roland Garros clay court red dust late afternoon": "outdoor",
+    "Wimbledon grass court morning dew empty pre-match": "outdoor",
+    "1960s Flushing Meadows hard court crowd behind": "outdoor",
+    "indoor tennis court 1980s green carpet empty": "indoor",
+    "Rolland Garros press box 1980s clay below": "both",
+    "Harlem street basketball court chain-link night 1990s": "outdoor",
+    "1990s school gymnasium basketball finals night": "indoor",
+    "outdoor basketball court Los Angeles sunset 1990s": "outdoor",
+    "1980s boxing gym ring ropes overhead single light": "indoor",
+    "Brooklyn boxing gym 1950s leather bag dust": "indoor",
+    "Soviet sports hall gymnasium late 1970s fluorescent": "indoor",
+    "squash court white walls echo 1970s": "outdoor",
+    "wrestling mat gymnasium 1970s fluorescent": "indoor",
+    "snooker hall green baize single overhead lamp": "indoor",
+    "fencing hall épée 1970s European championship": "indoor",
+    "Olympic velodrome track banking 1980s": "outdoor",
+    "ice hockey rink empty practice dawn": "both",
+    "horse racing paddock morning dew 1960s": "outdoor",
+    "street football pitch Brazil favela evening": "outdoor",
+    "stadium corridor tunnel pre-match concrete": "indoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

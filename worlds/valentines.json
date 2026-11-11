@@ -1,0 +1,399 @@
+{
+  "id": "valentines",
+  "name": "VALENTINE'S DAY",
+  "sub": "Love, Longing & Red Roses",
+  "color": "#c4143c",
+  "tensions": [
+    "love vs. longing",
+    "given vs. received",
+    "said vs. unsaid",
+    "romantic vs. real",
+    "expectation vs. presence",
+    "desire vs. fear",
+    "together vs. apart",
+    "first vs. last",
+    "sweet vs. bitter",
+    "hope vs. heartbreak",
+    "public vs. private love",
+    "gesture vs. feeling",
+    "passion vs. comfort",
+    "new vs. familiar love",
+    "the card vs. the truth"
+  ],
+  "affinities": {
+    "love vs. longing": {
+      "locs": [
+        "paris bridge padlock city view evening",
+        "bridge city lights reflection evening",
+        "harbour evening lights reflection"
+      ],
+      "poses": [
+        "both walking close, shoulders touching, the city glittering",
+        "both stopping at the rail, one resting a head on the other",
+        "both laughing, one pulling the other into a kiss"
+      ],
+      "looks": [
+        "long coat and silk scarf each",
+        "dark overcoat and red scarf each",
+        "wool coat and leather gloves each"
+      ]
+    },
+    "given vs. received": {
+      "locs": [
+        "valentine card envelope table morning",
+        "kitchen table breakfast heart pancakes morning",
+        "bedroom morning light flowers on bedside"
+      ],
+      "poses": [
+        "one presenting flowers, the other receiving them, eyes closed",
+        "one reading a card, the other watching anxiously",
+        "both laughing at a failed romantic gesture"
+      ],
+      "looks": [
+        "pyjamas and robe each",
+        "simple casual clothes each",
+        "soft colours, hair tousled each"
+      ]
+    },
+    "said vs. unsaid": {
+      "locs": [
+        "candlelit restaurant table for two red roses",
+        "restaurant window table rain outside candlelight",
+        "restaurant bar waiting evening dressed up"
+      ],
+      "poses": [
+        "both leaning across the table toward each other, eyes locked",
+        "one reading the menu, the other not looking away",
+        "both raising their glasses in a quiet toast"
+      ],
+      "looks": [
+        "red dress and dark suit each",
+        "elegant black dress and tailored jacket each",
+        "silk blouse and crisp shirt each"
+      ]
+    },
+    "romantic vs. real": {
+      "locs": [
+        "home dining table candles simple intimate",
+        "home sofa evening candles wine",
+        "kitchen cooking together evening home"
+      ],
+      "poses": [
+        "both on the sofa, facing each other, knees touching",
+        "both cooking together, one tasting from the other's spoon",
+        "both dancing slowly, no music"
+      ],
+      "looks": [
+        "cosy knit and soft trousers each",
+        "casual shirt and comfortable dress each",
+        "soft jumper and jeans each"
+      ]
+    },
+    "expectation vs. presence": {
+      "locs": [
+        "small restaurant neighbourhood intimate evening",
+        "table for two empty setting waiting",
+        "restaurant exterior evening arriving dressed"
+      ],
+      "poses": [
+        "one reading the menu, the other not looking away",
+        "both raising their glasses in a quiet toast",
+        "both leaning across the table toward each other, eyes locked"
+      ],
+      "looks": [
+        "elegant black dress and tailored jacket each",
+        "silk blouse and crisp shirt each",
+        "red dress and dark suit each"
+      ]
+    },
+    "desire vs. fear": {
+      "locs": [
+        "apartment balcony city evening lights",
+        "cinema queue cold evening together",
+        "paris bridge padlock city view evening"
+      ],
+      "poses": [
+        "both stopping at the rail, one resting a head on the other",
+        "both laughing, one pulling the other into a kiss",
+        "both walking close, shoulders touching, the city glittering"
+      ],
+      "looks": [
+        "dark overcoat and red scarf each",
+        "wool coat and leather gloves each",
+        "long coat and silk scarf each"
+      ]
+    },
+    "together vs. apart": {
+      "locs": [
+        "park bench winter afternoon couples",
+        "park winter afternoon hand in hand",
+        "café window seat rainy afternoon"
+      ],
+      "poses": [
+        "both walking hand in hand, breath misting",
+        "both huddled over a shared drink, laughing",
+        "both watching the rain run down the glass"
+      ],
+      "looks": [
+        "winter coat and red mittens each",
+        "wool coat and beanie each",
+        "chunky scarf and padded jacket each"
+      ]
+    },
+    "first vs. last": {
+      "locs": [
+        "bridge city lights reflection evening",
+        "harbour evening lights reflection",
+        "apartment balcony city evening lights"
+      ],
+      "poses": [
+        "both laughing, one pulling the other into a kiss",
+        "both walking close, shoulders touching, the city glittering",
+        "both stopping at the rail, one resting a head on the other"
+      ],
+      "looks": [
+        "wool coat and leather gloves each",
+        "long coat and silk scarf each",
+        "dark overcoat and red scarf each"
+      ]
+    },
+    "sweet vs. bitter": {
+      "locs": [
+        "letter box valentine card morning discovered",
+        "valentine card writing desk lamp evening",
+        "red roses delivered doorstep evening"
+      ],
+      "poses": [
+        "one reading a card, the other watching anxiously",
+        "both laughing at a failed romantic gesture",
+        "one presenting flowers, the other receiving them, eyes closed"
+      ],
+      "looks": [
+        "simple casual clothes each",
+        "soft colours, hair tousled each",
+        "pyjamas and robe each"
+      ]
+    },
+    "hope vs. heartbreak": {
+      "locs": [
+        "park bench winter afternoon couples",
+        "park winter afternoon hand in hand",
+        "café window seat rainy afternoon"
+      ],
+      "poses": [
+        "both huddled over a shared drink, laughing",
+        "both watching the rain run down the glass",
+        "both walking hand in hand, breath misting"
+      ],
+      "looks": [
+        "wool coat and beanie each",
+        "chunky scarf and padded jacket each",
+        "winter coat and red mittens each"
+      ]
+    },
+    "public vs. private love": {
+      "locs": [
+        "rooftop restaurant city view evening",
+        "wine bar intimate corner evening",
+        "candlelit restaurant table for two red roses"
+      ],
+      "poses": [
+        "both raising their glasses in a quiet toast",
+        "both leaning across the table toward each other, eyes locked",
+        "one reading the menu, the other not looking away"
+      ],
+      "looks": [
+        "silk blouse and crisp shirt each",
+        "red dress and dark suit each",
+        "elegant black dress and tailored jacket each"
+      ]
+    },
+    "gesture vs. feeling": {
+      "locs": [
+        "doorstep moment evening arrival flowers",
+        "florist shop red roses morning selection",
+        "flower market morning red roses selection"
+      ],
+      "poses": [
+        "both laughing at a failed romantic gesture",
+        "one presenting flowers, the other receiving them, eyes closed",
+        "one reading a card, the other watching anxiously"
+      ],
+      "looks": [
+        "soft colours, hair tousled each",
+        "pyjamas and robe each",
+        "simple casual clothes each"
+      ]
+    },
+    "passion vs. comfort": {
+      "locs": [
+        "dining room home candles occasion",
+        "hotel room rose petals champagne evening",
+        "home dining table candles simple intimate"
+      ],
+      "poses": [
+        "both cooking together, one tasting from the other's spoon",
+        "both dancing slowly, no music",
+        "both on the sofa, facing each other, knees touching"
+      ],
+      "looks": [
+        "casual shirt and comfortable dress each",
+        "soft jumper and jeans each",
+        "cosy knit and soft trousers each"
+      ]
+    },
+    "new vs. familiar love": {
+      "locs": [
+        "home sofa evening candles wine",
+        "kitchen cooking together evening home",
+        "dining room home candles occasion"
+      ],
+      "poses": [
+        "both dancing slowly, no music",
+        "both on the sofa, facing each other, knees touching",
+        "both cooking together, one tasting from the other's spoon"
+      ],
+      "looks": [
+        "soft jumper and jeans each",
+        "cosy knit and soft trousers each",
+        "casual shirt and comfortable dress each"
+      ]
+    },
+    "the card vs. the truth": {
+      "locs": [
+        "valentine card envelope table morning",
+        "kitchen table breakfast heart pancakes morning",
+        "bedroom morning light flowers on bedside"
+      ],
+      "poses": [
+        "one presenting flowers, the other receiving them, eyes closed",
+        "one reading a card, the other watching anxiously",
+        "both laughing at a failed romantic gesture"
+      ],
+      "looks": [
+        "pyjamas and robe each",
+        "simple casual clothes each",
+        "soft colours, hair tousled each"
+      ]
+    }
+  },
+  "locs": [
+    "candlelit restaurant table for two red roses",
+    "restaurant window table rain outside candlelight",
+    "restaurant bar waiting evening dressed up",
+    "small restaurant neighbourhood intimate evening",
+    "table for two empty setting waiting",
+    "restaurant exterior evening arriving dressed",
+    "rooftop restaurant city view evening",
+    "wine bar intimate corner evening",
+    "paris bridge padlock city view evening",
+    "bridge city lights reflection evening",
+    "harbour evening lights reflection",
+    "apartment balcony city evening lights",
+    "cinema queue cold evening together",
+    "home dining table candles simple intimate",
+    "home sofa evening candles wine",
+    "kitchen cooking together evening home",
+    "dining room home candles occasion",
+    "hotel room rose petals champagne evening",
+    "valentine card envelope table morning",
+    "kitchen table breakfast heart pancakes morning",
+    "bedroom morning light flowers on bedside",
+    "letter box valentine card morning discovered",
+    "valentine card writing desk lamp evening",
+    "red roses delivered doorstep evening",
+    "doorstep moment evening arrival flowers",
+    "florist shop red roses morning selection",
+    "flower market morning red roses selection",
+    "park bench winter afternoon couples",
+    "park winter afternoon hand in hand",
+    "café window seat rainy afternoon"
+  ],
+  "poses": [
+    "both leaning across the table toward each other, eyes locked",
+    "one reading the menu, the other not looking away",
+    "both raising their glasses in a quiet toast",
+    "both walking close, shoulders touching, the city glittering",
+    "both stopping at the rail, one resting a head on the other",
+    "both laughing, one pulling the other into a kiss",
+    "both on the sofa, facing each other, knees touching",
+    "both cooking together, one tasting from the other's spoon",
+    "both dancing slowly, no music",
+    "one presenting flowers, the other receiving them, eyes closed",
+    "one reading a card, the other watching anxiously",
+    "both laughing at a failed romantic gesture",
+    "both walking hand in hand, breath misting",
+    "both huddled over a shared drink, laughing",
+    "both watching the rain run down the glass"
+  ],
+  "looks": [
+    "red dress and dark suit each",
+    "elegant black dress and tailored jacket each",
+    "silk blouse and crisp shirt each",
+    "long coat and silk scarf each",
+    "dark overcoat and red scarf each",
+    "wool coat and leather gloves each",
+    "cosy knit and soft trousers each",
+    "casual shirt and comfortable dress each",
+    "soft jumper and jeans each",
+    "pyjamas and robe each",
+    "simple casual clothes each",
+    "soft colours, hair tousled each",
+    "winter coat and red mittens each",
+    "wool coat and beanie each",
+    "chunky scarf and padded jacket each"
+  ],
+  "promptSuffix": "Colour grade: deep red, rose, candlelight amber — the palette of Valentine’s Day done with restraint. Warm and intimate, never garish.",
+  "translations": {
+    "love vs. longing": "the presence that still feels like absence",
+    "given vs. received": "the act of giving and the weight of receiving",
+    "said vs. unsaid": "the words the gesture carried instead",
+    "romantic vs. real": "the valentine and the person who gave it",
+    "expectation vs. presence": "the occasion imagined and the evening that actually happened",
+    "desire vs. fear": "wanting and not knowing what comes after wanting",
+    "first vs. last": "the first valentine and the one you didn’t know was the last",
+    "sweet vs. bitter": "the chocolate and the aftertaste",
+    "public vs. private love": "love performed and love kept",
+    "gesture vs. feeling": "the roses and what they stood in for",
+    "passion vs. comfort": "the fire and what comes after the fire",
+    "new vs. familiar love": "the first time and the thousandth time",
+    "the card vs. the truth": "what was written and what was meant"
+  },
+  "locTypes": {
+    "candlelit restaurant table for two red roses": "indoor",
+    "restaurant window table rain outside candlelight": "indoor",
+    "restaurant bar waiting evening dressed up": "indoor",
+    "small restaurant neighbourhood intimate evening": "indoor",
+    "table for two empty setting waiting": "both",
+    "restaurant exterior evening arriving dressed": "indoor",
+    "rooftop restaurant city view evening": "indoor",
+    "wine bar intimate corner evening": "both",
+    "paris bridge padlock city view evening": "outdoor",
+    "bridge city lights reflection evening": "outdoor",
+    "harbour evening lights reflection": "outdoor",
+    "apartment balcony city evening lights": "both",
+    "cinema queue cold evening together": "both",
+    "home dining table candles simple intimate": "indoor",
+    "home sofa evening candles wine": "indoor",
+    "kitchen cooking together evening home": "indoor",
+    "dining room home candles occasion": "indoor",
+    "hotel room rose petals champagne evening": "indoor",
+    "valentine card envelope table morning": "both",
+    "kitchen table breakfast heart pancakes morning": "indoor",
+    "bedroom morning light flowers on bedside": "indoor",
+    "letter box valentine card morning discovered": "both",
+    "valentine card writing desk lamp evening": "both",
+    "red roses delivered doorstep evening": "outdoor",
+    "doorstep moment evening arrival flowers": "outdoor",
+    "florist shop red roses morning selection": "both",
+    "flower market morning red roses selection": "outdoor",
+    "park bench winter afternoon couples": "outdoor",
+    "park winter afternoon hand in hand": "outdoor",
+    "café window seat rainy afternoon": "indoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

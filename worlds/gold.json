@@ -1,0 +1,275 @@
+{
+  "id": "gold",
+  "name": "THE GOLD",
+  "sub": "Excess, Power & the Price of Everything",
+  "color": "#c8a800",
+  "tensions": [
+    "wealth vs. emptiness",
+    "power vs. loneliness",
+    "excess vs. hunger",
+    "the gilded vs. the real",
+    "new money vs. old",
+    "bought vs. earned",
+    "the surface vs. what's beneath",
+    "luxury vs. guilt",
+    "having everything vs. wanting more",
+    "the golden cage vs. freedom"
+  ],
+  "affinities": {
+    "wealth vs. emptiness": {
+      "locs": [
+        "Dubai penthouse glass tower night city spread",
+        "Hong Kong Peninsula hotel lobby formal",
+        "Saudi royal palace reception hall formal"
+      ],
+      "poses": [
+        "both gazing out of a vast window, small against the glass",
+        "both seated at opposite ends of a long table",
+        "both walking a polished corridor, heels echoing"
+      ],
+      "looks": [
+        "immaculate white robe and gold watch each",
+        "couture gown and tailored suit each",
+        "designer coat and sunglasses each"
+      ]
+    },
+    "power vs. loneliness": {
+      "locs": [
+        "1920s Wall Street private club oak panelling whiskey",
+        "Mayfair private members club 1990s dark wood",
+        "Venetian palazzo canal view evening candlelight"
+      ],
+      "poses": [
+        "both sitting stiffly in leather chairs, glasses untouched",
+        "both standing apart, a polite smile on each face",
+        "one whispering to the other behind a raised glass"
+      ],
+      "looks": [
+        "dark three-piece suit and pearl necklace each",
+        "tailored dinner jacket and satin gown each",
+        "charcoal suit and silk dress each"
+      ]
+    },
+    "excess vs. hunger": {
+      "locs": [
+        "1980s Texas oil money ranch interior excess gilt",
+        "1980s Wall Street trading floor chaos excess",
+        "New York Plaza Hotel suite excess gold"
+      ],
+      "poses": [
+        "both lounging among piles of cash and gilt, bored",
+        "both on the phone, shouting over each other",
+        "both posing with glasses, shoulders squared"
+      ],
+      "looks": [
+        "power suit with huge shoulder pads each",
+        "gold jewellery and a shiny suit each",
+        "sequined jacket and big hair each"
+      ]
+    },
+    "the gilded vs. the real": {
+      "locs": [
+        "Las Vegas high roller suite gold fixtures midnight",
+        "Monte Carlo casino floor evening gowns",
+        "Monaco grand prix paddock exclusive 1970s"
+      ],
+      "poses": [
+        "both leaning over a table, chips stacked high",
+        "both stepping out of a limousine, flashbulbs popping",
+        "both toasting with champagne, eyes on someone else"
+      ],
+      "looks": [
+        "tuxedo and sequin evening gown each",
+        "glittering cocktail dress and bow tie each",
+        "white dinner jacket and silk gown each"
+      ]
+    },
+    "new money vs. old": {
+      "locs": [
+        "Swiss bank vault interior cold formal",
+        "1920s Wall Street private club oak panelling whiskey",
+        "Mayfair private members club 1990s dark wood"
+      ],
+      "poses": [
+        "both sitting stiffly in leather chairs, glasses untouched",
+        "both standing apart, a polite smile on each face",
+        "one whispering to the other behind a raised glass"
+      ],
+      "looks": [
+        "dark three-piece suit and pearl necklace each",
+        "tailored dinner jacket and satin gown each",
+        "charcoal suit and silk dress each"
+      ]
+    },
+    "bought vs. earned": {
+      "locs": [
+        "Beverly Hills mansion pool twilight excess",
+        "Hamptons waterfront estate summer",
+        "Marbella villa pool afternoon Spain excess"
+      ],
+      "poses": [
+        "both stretched out on loungers, sunglasses on",
+        "both posing by the water, unsmiling",
+        "both walking barefoot across marble, drinks in hand"
+      ],
+      "looks": [
+        "white linen and oversized sunglasses each",
+        "designer swimwear and silk robes each",
+        "pastel polo and loose silk dress each"
+      ]
+    },
+    "the surface vs. what's beneath": {
+      "locs": [
+        "Dubai penthouse glass tower night city spread",
+        "Hong Kong Peninsula hotel lobby formal",
+        "Saudi royal palace reception hall formal"
+      ],
+      "poses": [
+        "both gazing out of a vast window, small against the glass",
+        "both seated at opposite ends of a long table",
+        "both walking a polished corridor, heels echoing"
+      ],
+      "looks": [
+        "immaculate white robe and gold watch each",
+        "couture gown and tailored suit each",
+        "designer coat and sunglasses each"
+      ]
+    },
+    "luxury vs. guilt": {
+      "locs": [
+        "Russian oligarch yacht Mediterranean afternoon",
+        "Aspen ski lodge excess fireplace wealthy",
+        "Beverly Hills mansion pool twilight excess"
+      ],
+      "poses": [
+        "both stretched out on loungers, sunglasses on",
+        "both posing by the water, unsmiling",
+        "both walking barefoot across marble, drinks in hand"
+      ],
+      "looks": [
+        "white linen and oversized sunglasses each",
+        "designer swimwear and silk robes each",
+        "pastel polo and loose silk dress each"
+      ]
+    },
+    "having everything vs. wanting more": {
+      "locs": [
+        "Cannes film festival yacht harbour evening",
+        "Las Vegas high roller suite gold fixtures midnight",
+        "Monte Carlo casino floor evening gowns"
+      ],
+      "poses": [
+        "both leaning over a table, chips stacked high",
+        "both stepping out of a limousine, flashbulbs popping",
+        "both toasting with champagne, eyes on someone else"
+      ],
+      "looks": [
+        "tuxedo and sequin evening gown each",
+        "glittering cocktail dress and bow tie each",
+        "white dinner jacket and silk gown each"
+      ]
+    },
+    "the golden cage vs. freedom": {
+      "locs": [
+        "1970s Studio 54 excess night velvet gold",
+        "1980s Texas oil money ranch interior excess gilt",
+        "1980s Wall Street trading floor chaos excess"
+      ],
+      "poses": [
+        "both lounging among piles of cash and gilt, bored",
+        "both on the phone, shouting over each other",
+        "both posing with glasses, shoulders squared"
+      ],
+      "looks": [
+        "power suit with huge shoulder pads each",
+        "gold jewellery and a shiny suit each",
+        "sequined jacket and big hair each"
+      ]
+    }
+  },
+  "locs": [
+    "1920s Wall Street private club oak panelling whiskey",
+    "Mayfair private members club 1990s dark wood",
+    "Venetian palazzo canal view evening candlelight",
+    "Swiss bank vault interior cold formal",
+    "1980s Texas oil money ranch interior excess gilt",
+    "1980s Wall Street trading floor chaos excess",
+    "New York Plaza Hotel suite excess gold",
+    "1970s Studio 54 excess night velvet gold",
+    "Dubai penthouse glass tower night city spread",
+    "Hong Kong Peninsula hotel lobby formal",
+    "Saudi royal palace reception hall formal",
+    "Las Vegas high roller suite gold fixtures midnight",
+    "Monte Carlo casino floor evening gowns",
+    "Monaco grand prix paddock exclusive 1970s",
+    "Cannes film festival yacht harbour evening",
+    "Beverly Hills mansion pool twilight excess",
+    "Hamptons waterfront estate summer",
+    "Marbella villa pool afternoon Spain excess",
+    "Russian oligarch yacht Mediterranean afternoon",
+    "Aspen ski lodge excess fireplace wealthy"
+  ],
+  "poses": [
+    "both sitting stiffly in leather chairs, glasses untouched",
+    "both standing apart, a polite smile on each face",
+    "one whispering to the other behind a raised glass",
+    "both lounging among piles of cash and gilt, bored",
+    "both on the phone, shouting over each other",
+    "both posing with glasses, shoulders squared",
+    "both gazing out of a vast window, small against the glass",
+    "both seated at opposite ends of a long table",
+    "both walking a polished corridor, heels echoing",
+    "both leaning over a table, chips stacked high",
+    "both stepping out of a limousine, flashbulbs popping",
+    "both toasting with champagne, eyes on someone else",
+    "both stretched out on loungers, sunglasses on",
+    "both posing by the water, unsmiling",
+    "both walking barefoot across marble, drinks in hand"
+  ],
+  "looks": [
+    "dark three-piece suit and pearl necklace each",
+    "tailored dinner jacket and satin gown each",
+    "charcoal suit and silk dress each",
+    "power suit with huge shoulder pads each",
+    "gold jewellery and a shiny suit each",
+    "sequined jacket and big hair each",
+    "immaculate white robe and gold watch each",
+    "couture gown and tailored suit each",
+    "designer coat and sunglasses each",
+    "tuxedo and sequin evening gown each",
+    "glittering cocktail dress and bow tie each",
+    "white dinner jacket and silk gown each",
+    "white linen and oversized sunglasses each",
+    "designer swimwear and silk robes each",
+    "pastel polo and loose silk dress each"
+  ],
+  "promptSuffix": "Colour grade: gold, dark wood, cold glass tower gleam at night. Warm and cold at once.",
+  "translations": {},
+  "locTypes": {
+    "1920s Wall Street private club oak panelling whiskey": "indoor",
+    "Mayfair private members club 1990s dark wood": "indoor",
+    "Venetian palazzo canal view evening candlelight": "both",
+    "Swiss bank vault interior cold formal": "indoor",
+    "1980s Texas oil money ranch interior excess gilt": "indoor",
+    "1980s Wall Street trading floor chaos excess": "outdoor",
+    "New York Plaza Hotel suite excess gold": "indoor",
+    "1970s Studio 54 excess night velvet gold": "indoor",
+    "Dubai penthouse glass tower night city spread": "both",
+    "Hong Kong Peninsula hotel lobby formal": "indoor",
+    "Saudi royal palace reception hall formal": "indoor",
+    "Las Vegas high roller suite gold fixtures midnight": "indoor",
+    "Monte Carlo casino floor evening gowns": "indoor",
+    "Monaco grand prix paddock exclusive 1970s": "outdoor",
+    "Cannes film festival yacht harbour evening": "outdoor",
+    "Beverly Hills mansion pool twilight excess": "both",
+    "Hamptons waterfront estate summer": "both",
+    "Marbella villa pool afternoon Spain excess": "both",
+    "Russian oligarch yacht Mediterranean afternoon": "both",
+    "Aspen ski lodge excess fireplace wealthy": "both"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

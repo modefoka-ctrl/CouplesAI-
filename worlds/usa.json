@@ -1,0 +1,660 @@
+{
+  "id": "usa",
+  "name": "THE USA",
+  "sub": "American Life & Culture",
+  "color": "#3355aa",
+  "tensions": [
+    "small town vs. big city",
+    "east coast vs. west coast",
+    "dream vs. reality",
+    "road trip vs. roots",
+    "diner vs. fine dining",
+    "suburb vs. downtown",
+    "national park vs. strip mall",
+    "college town vs. working town",
+    "coast vs. heartland",
+    "fast vs. slow America",
+    "old money vs. new hustle",
+    "neon vs. nature",
+    "tailgate vs. gallery opening",
+    "porch vs. penthouse",
+    "freedom vs. constraint",
+    "rust belt vs. sun belt",
+    "immigrant dream vs. local tradition",
+    "sports bar vs. jazz club",
+    "highway vs. main street",
+    "flag vs. frontier"
+  ],
+  "locs": [
+    "New York Times Square 5am empty",
+    "Route 66 Cadillac Ranch Texas art",
+    "Nashville Broadway honky-tonk stage exterior",
+    "New Orleans French Quarter Bourbon exterior",
+    "Brooklyn rooftop summer Manhattan behind",
+    "LA Venice Beach boardwalk morning",
+    "San Francisco Lombard Street",
+    "Chicago Bean Millennium Park reflection",
+    "Miami South Beach art deco morning",
+    "Seattle Pike Place Market dawn",
+    "Portland Oregon Powell's Books exterior",
+    "Austin 6th Street music row",
+    "New Orleans Garden District mansion",
+    "Savannah mossy square Georgia",
+    "Charleston Rainbow Row South Carolina",
+    "Annapolis harbour Maryland",
+    "Cape Cod beach Massachusetts summer",
+    "Maine Portland lobster pier",
+    "Vermont fall foliage road General Store",
+    "New Hampshire White Mountains",
+    "Alaska Denali clear day base",
+    "Hawaii Na Pali coast Kauai",
+    "Grand Canyon south rim early",
+    "Bryce Canyon hoodoos Utah dawn",
+    "Zion Narrows Utah hiking",
+    "Arches Utah Delicate Arch sunrise",
+    "Monument Valley Arizona Navajo",
+    "Death Valley salt pan California",
+    "Yosemite Valley El Capitan view",
+    "Sequoia forest drive-through tree",
+    "Pacific Coast Highway Big Sur",
+    "Malibu beach LA adjacent",
+    "Santa Monica pier evening",
+    "Hollywood Sign hillside view",
+    "Bourbon Street parade day",
+    "Mardi Gras New Orleans crowd",
+    "Super Bowl adjacent city street",
+    "NBA Finals watch party bar",
+    "Fourth of July fireworks open",
+    "Thanksgiving parade New York both",
+    "Black Friday mall opening queue",
+    "American diner any state any time"
+  ],
+  "poses": [
+    "diner booth face to face classic American",
+    "road trip car window open arm out both",
+    "both arms out at Route 66 sign quintessential",
+    "front porch swing side by side summer",
+    "baseball park both cheering same direction",
+    "both at diner counter on stools",
+    "both at drive-through window ordering",
+    "both at gas station convenience store",
+    "walking across pedestrian crossing both",
+    "both at food truck lunchtime queue",
+    "both at farmer's market Saturday morning",
+    "backyard BBQ both around grill",
+    "both at pool party American summer",
+    "both at tailgate party before game",
+    "high school gym bleachers both",
+    "prom night dressed up both American",
+    "college campus quad both students",
+    "graduation both cap and gown",
+    "Fourth of July backyard both",
+    "apple pie making kitchen both",
+    "rodeo watching both spectating",
+    "country fair both rides and games",
+    "outdoor amphitheater concert both",
+    "stadium both hands up cheering",
+    "mall food court both eating varied",
+    "drive-in movie front seat both",
+    "bowling alley both competitive",
+    "mini golf both taking too seriously",
+    "ice cream parlour both large portions",
+    "beach bonfire coastal both",
+    "Times Square midnight New Year both",
+    "Las Vegas casino floor both",
+    "National Park visitor centre both",
+    "Mount Rushmore distance view both",
+    "Statue of Liberty ferry both approaching",
+    "Empire State observation both",
+    "Hollywood Walk of Fame both looking",
+    "Santa Monica pier end both"
+  ],
+  "looks": [
+    "baseball cap denim jacket each American classic",
+    "flannel shirt worn jeans each American casual",
+    "summer dress and tee flip flops each warm South",
+    "preppy polo chinos each Northeast",
+    "vintage band tee cutoffs each festival US",
+    "collegiate sweatshirt chinos each campus",
+    "high school letter jacket and jeans each",
+    "cheerleader outfit and football jersey each Halloween",
+    "Thanksgiving sweater jeans each festive",
+    "Fourth of July red white blue casual each",
+    "cowboy hat boots jeans each Western",
+    "Stetson and boots formal each Texas",
+    "Southern Belle dress and linen shirt each",
+    "New England smart casual each autumn",
+    "Pacific Northwest fleece layers each practical",
+    "California casual relaxed each",
+    "New York Fashion Week street style each",
+    "Brooklyn creative casual each",
+    "Miami beach resort each",
+    "Hamptons summer smart casual each",
+    "Nashville cowboy chic each",
+    "New Orleans colourful occasion each",
+    "Austin quirky casual each",
+    "Portland Oregon pacific northwest each",
+    "Seattle tech casual each startup",
+    "Silicon Valley casual each",
+    "Chicago blue collar casual each",
+    "Detroit industrial revival each",
+    "New Orleans jazz burial second line each",
+    "Mardi Gras costume each creative",
+    "Halloween costume each creative American",
+    "Thanksgiving comfortable family each"
+  ],
+  "affinities": {
+    "small town vs. big city": {
+      "locs": [
+        "Iowa cornfield back road",
+        "Route 66 desert diner",
+        "New York City Times Square dawn",
+        "Brooklyn rooftop summer",
+        "New York subway platform"
+      ],
+      "poses": [
+        "diner booth face to face",
+        "both staring at big sky highway",
+        "Times Square look-up together",
+        "front porch swing side by side",
+        "road trip car window lean"
+      ],
+      "looks": [
+        "flannel shirt worn jeans",
+        "baseball cap denim jacket",
+        "NYC all-black fitted",
+        "NYC streetwear minimal",
+        "Midwest hoodie casual jeans"
+      ]
+    },
+    "east coast vs. west coast": {
+      "locs": [
+        "New York City Times Square dawn",
+        "Boston Fenway Park steps",
+        "Los Angeles sunset boulevard",
+        "San Francisco cable car hill",
+        "Pacific Coast Highway pullout"
+      ],
+      "poses": [
+        "Times Square look-up together",
+        "both arms out canyon rim",
+        "rooftop city view seated",
+        "ferry deck wind blown together",
+        "both in diner booth sharing pie"
+      ],
+      "looks": [
+        "NYC all-black fitted",
+        "New England nautical stripe",
+        "LA casual white tee sunglasses",
+        "surf town open linen shirt",
+        "New York fitted blazer tee"
+      ]
+    },
+    "dream vs. reality": {
+      "locs": [
+        "Las Vegas strip neon",
+        "Los Angeles sunset boulevard",
+        "Silicon Valley office park",
+        "Detroit auto factory tour",
+        "Route 66 desert diner"
+      ],
+      "poses": [
+        "neon sign selfie laughing",
+        "one pointing at neon sign",
+        "road trip map spread on hood",
+        "both arms out Route 66 sign",
+        "Times Square look-up together"
+      ],
+      "looks": [
+        "LA casual white tee sunglasses",
+        "NYC all-black fitted",
+        "vintage band tee cutoffs",
+        "rust belt work jacket",
+        "road trip worn travel layers"
+      ]
+    },
+    "road trip vs. roots": {
+      "locs": [
+        "Route 66 desert diner",
+        "Pacific Coast Highway pullout",
+        "Montana big sky highway",
+        "Texas Hill Country back road",
+        "Iowa cornfield back road"
+      ],
+      "poses": [
+        "road trip car window lean",
+        "both arms out Route 66 sign",
+        "road trip map spread on hood",
+        "country road hands-out-window drive",
+        "pickup truck bed sunset seated"
+      ],
+      "looks": [
+        "flannel shirt worn jeans",
+        "baseball cap denim jacket",
+        "trucker hat flannel open",
+        "road trip worn travel layers",
+        "Midwest hoodie casual jeans"
+      ]
+    },
+    "diner vs. fine dining": {
+      "locs": [
+        "Route 66 desert diner",
+        "New York deli counter",
+        "Chicago deep dish pizza parlor",
+        "Philadelphia cheesesteak stand",
+        "Austin food truck park"
+      ],
+      "poses": [
+        "diner booth face to face",
+        "both in diner booth sharing pie",
+        "diner counter spin stool",
+        "one pouring coffee other receives",
+        "New York pizza fold share"
+      ],
+      "looks": [
+        "baseball cap denim jacket",
+        "flannel shirt worn jeans",
+        "diner waitress uniform ironic",
+        "NYC all-black fitted",
+        "Midwest hoodie casual jeans"
+      ]
+    },
+    "suburb vs. downtown": {
+      "locs": [
+        "Brooklyn rooftop summer",
+        "Chicago Riverwalk evening",
+        "Outer Banks beach house porch",
+        "Charleston waterfront park",
+        "Silicon Valley office park"
+      ],
+      "poses": [
+        "front porch swing side by side",
+        "rooftop city view seated",
+        "park bench autumn leaves",
+        "front porch guitar one plays",
+        "both leaning on diner counter"
+      ],
+      "looks": [
+        "preppy polo chinos",
+        "Ivy League casual layers",
+        "NYC all-black fitted",
+        "New England nautical stripe",
+        "Chicago sport team jacket"
+      ]
+    },
+    "national park vs. strip mall": {
+      "locs": [
+        "Grand Canyon south rim",
+        "Yellowstone geyser meadow",
+        "Smoky Mountains foggy overlook",
+        "Alaska glacier viewpoint",
+        "Navajo Nation red rock vista"
+      ],
+      "poses": [
+        "both arms out canyon rim",
+        "both staring at big sky highway",
+        "campfire roast marshmallows together",
+        "kayak tandem river paddle",
+        "fireworks watch blanket together"
+      ],
+      "looks": [
+        "Pacific Northwest rain jacket jeans",
+        "Pacific trail gear casual",
+        "ski town fleece vest jeans",
+        "mountain west flannel layers",
+        "Great Plains wind breaker layers"
+      ]
+    },
+    "college town vs. working town": {
+      "locs": [
+        "Boston Fenway Park steps",
+        "Austin food truck park",
+        "Portland farmers market",
+        "Detroit auto factory tour",
+        "Denver craft brewery"
+      ],
+      "poses": [
+        "baseball park both cheering",
+        "craft beer flight toast",
+        "farmers market sample together",
+        "college football tailgate hug",
+        "both arms out Route 66 sign"
+      ],
+      "looks": [
+        "college sweatshirt leggings",
+        "Ivy League casual layers",
+        "college town casual hoodie",
+        "farm town overalls work shirt",
+        "rust belt work jacket"
+      ]
+    },
+    "coast vs. heartland": {
+      "locs": [
+        "Miami South Beach boardwalk",
+        "Cape Cod beach boardwalk",
+        "Iowa cornfield back road",
+        "Montana big sky highway",
+        "Mississippi River levee top"
+      ],
+      "poses": [
+        "beach boardwalk slow walk",
+        "both staring at big sky highway",
+        "pickup truck bed sunset seated",
+        "kayak tandem river paddle",
+        "country road hands-out-window drive"
+      ],
+      "looks": [
+        "beach casual linen",
+        "summer dress and tee flip flops each",
+        "flannel shirt worn jeans",
+        "Midwest hoodie casual jeans",
+        "Great Plains wind breaker layers"
+      ]
+    },
+    "fast vs. slow America": {
+      "locs": [
+        "New York City Times Square dawn",
+        "New York subway platform",
+        "Iowa cornfield back road",
+        "Appalachian trail shelter",
+        "Louisiana bayou dock"
+      ],
+      "poses": [
+        "Times Square look-up together",
+        "subway pole lean together",
+        "front porch swing side by side",
+        "campfire roast marshmallows together",
+        "both staring at big sky highway"
+      ],
+      "looks": [
+        "NYC streetwear minimal",
+        "NYC all-black fitted",
+        "Midwest hoodie casual jeans",
+        "flannel shirt worn jeans",
+        "road trip worn travel layers"
+      ]
+    },
+    "old money vs. new hustle": {
+      "locs": [
+        "Boston Fenway Park steps",
+        "Charleston waterfront park",
+        "Silicon Valley office park",
+        "Nashville recording studio",
+        "Los Angeles sunset boulevard"
+      ],
+      "poses": [
+        "rooftop city view seated",
+        "bourbon bar toast together",
+        "craft beer flight toast",
+        "one cowboy hat tips to other",
+        "both leaning on diner counter"
+      ],
+      "looks": [
+        "Ivy League casual layers",
+        "New England nautical stripe",
+        "preppy polo chinos",
+        "LA casual white tee sunglasses",
+        "New York fitted blazer tee"
+      ]
+    },
+    "neon vs. nature": {
+      "locs": [
+        "Las Vegas strip neon",
+        "Nashville Broadway neon",
+        "Grand Canyon south rim",
+        "Yellowstone geyser meadow",
+        "Alaska glacier viewpoint"
+      ],
+      "poses": [
+        "neon sign selfie laughing",
+        "one pointing at neon sign",
+        "both arms out canyon rim",
+        "campfire roast marshmallows together",
+        "fireworks watch blanket together"
+      ],
+      "looks": [
+        "NYC all-black fitted",
+        "Nashville glam sequin top jeans",
+        "Pacific trail gear casual",
+        "Pacific Northwest rain jacket jeans",
+        "mountain west flannel layers"
+      ]
+    },
+    "tailgate vs. gallery opening": {
+      "locs": [
+        "Boston Fenway Park steps",
+        "Wyoming rodeo arena",
+        "Portland Oregon bridge walk",
+        "Chicago Riverwalk evening",
+        "Austin food truck park"
+      ],
+      "poses": [
+        "baseball park both cheering",
+        "tailgate pickup truck seated",
+        "college football tailgate hug",
+        "craft beer flight toast",
+        "live music front row swaying"
+      ],
+      "looks": [
+        "baseball cap denim jacket",
+        "Chicago sport team jacket",
+        "college sweatshirt leggings",
+        "art crowd downtown minimal",
+        "New York fitted blazer tee"
+      ]
+    },
+    "porch vs. penthouse": {
+      "locs": [
+        "Outer Banks beach house porch",
+        "Brooklyn rooftop summer",
+        "Charleston waterfront park",
+        "New York City Times Square dawn",
+        "Savannah Spanish moss alley"
+      ],
+      "poses": [
+        "front porch swing side by side",
+        "front porch guitar one plays",
+        "rooftop city view seated",
+        "park bench autumn leaves",
+        "fireworks watch blanket together"
+      ],
+      "looks": [
+        "sundress and linen shirt straw hat each",
+        "beach casual linen",
+        "preppy polo chinos",
+        "NYC all-black fitted",
+        "New England nautical stripe"
+      ]
+    },
+    "freedom vs. constraint": {
+      "locs": [
+        "Route 66 desert diner",
+        "Montana big sky highway",
+        "New Mexico adobe pueblo",
+        "Navajo Nation red rock vista",
+        "Pacific Coast Highway pullout"
+      ],
+      "poses": [
+        "both arms out Route 66 sign",
+        "road trip car window lean",
+        "country road hands-out-window drive",
+        "both staring at big sky highway",
+        "pickup truck bed sunset seated"
+      ],
+      "looks": [
+        "flannel shirt worn jeans",
+        "road trip worn travel layers",
+        "Midwest hoodie casual jeans",
+        "Southwest turquoise jewelry linen",
+        "trucker hat flannel open"
+      ]
+    },
+    "rust belt vs. sun belt": {
+      "locs": [
+        "Detroit auto factory tour",
+        "Baltimore Inner Harbor dock",
+        "Miami South Beach boardwalk",
+        "Austin food truck park",
+        "Nashville Broadway neon"
+      ],
+      "poses": [
+        "both leaning on diner counter",
+        "subway pole lean together",
+        "beach boardwalk slow walk",
+        "live music front row swaying",
+        "neon sign selfie laughing"
+      ],
+      "looks": [
+        "rust belt work jacket",
+        "farm town overalls work shirt",
+        "beach casual linen",
+        "summer dress and tee flip flops each",
+        "Nashville glam sequin top jeans"
+      ]
+    },
+    "immigrant dream vs. local tradition": {
+      "locs": [
+        "New York deli counter",
+        "New York subway platform",
+        "New Orleans jazz club street",
+        "Mardi Gras parade street",
+        "New Mexico adobe pueblo"
+      ],
+      "poses": [
+        "subway pole lean together",
+        "jazz club slow sway",
+        "tourist photo monument laughing",
+        "airport reunion run embrace",
+        "tourist photo monument laughing"
+      ],
+      "looks": [
+        "NYC streetwear minimal",
+        "New Orleans jazz smart casual",
+        "hip hop streetwear casual",
+        "Southwest turquoise jewelry linen",
+        "road trip worn travel layers"
+      ]
+    },
+    "sports bar vs. jazz club": {
+      "locs": [
+        "New Orleans jazz club street",
+        "Memphis Beale Street evening",
+        "Nashville honky-tonk stage",
+        "Boston Fenway Park steps",
+        "Denver craft brewery"
+      ],
+      "poses": [
+        "jazz club slow sway",
+        "live music front row swaying",
+        "baseball park both cheering",
+        "bourbon bar toast together",
+        "one puts jukebox coin in"
+      ],
+      "looks": [
+        "jazz fan smart casual",
+        "New Orleans jazz smart casual",
+        "Chicago sport team jacket",
+        "baseball cap denim jacket",
+        "bourbon country flannel dark jeans"
+      ]
+    },
+    "highway vs. main street": {
+      "locs": [
+        "Route 66 desert diner",
+        "Montana big sky highway",
+        "Savannah Spanish moss alley",
+        "Charleston waterfront park",
+        "Twin Cities winter lake"
+      ],
+      "poses": [
+        "road trip car window lean",
+        "both arms out Route 66 sign",
+        "street art mural wall pose",
+        "night market wander together",
+        "park bench autumn leaves"
+      ],
+      "looks": [
+        "road trip worn travel layers",
+        "flannel shirt worn jeans",
+        "sundress and linen shirt straw hat each",
+        "preppy polo chinos",
+        "Midwest hoodie casual jeans"
+      ]
+    },
+    "flag vs. frontier": {
+      "locs": [
+        "Wyoming rodeo arena",
+        "Montana big sky highway",
+        "Alaska glacier viewpoint",
+        "Navajo Nation red rock vista",
+        "Twin Cities winter lake"
+      ],
+      "poses": [
+        "both staring at big sky highway",
+        "campfire roast marshmallows together",
+        "one cowboy hat tips to other",
+        "kayak tandem river paddle",
+        "rodeo chute gate pose both"
+      ],
+      "looks": [
+        "Texan boots button-down",
+        "denim dress and flannel shirt country boots",
+        "mountain west flannel layers",
+        "Southwest turquoise jewelry linen",
+        "Great Plains wind breaker layers"
+      ]
+    }
+  },
+  "promptSuffix": "Colour grade: American vernacular — the particular flatness of strip-lit diners, the blue-white of parking lots, the warm amber of the golden hour on open highway.",
+  "translations": {},
+  "locTypes": {
+    "New York Times Square 5am empty": "outdoor",
+    "Route 66 Cadillac Ranch Texas art": "outdoor",
+    "Nashville Broadway honky-tonk stage exterior": "outdoor",
+    "New Orleans French Quarter Bourbon exterior": "outdoor",
+    "Brooklyn rooftop summer Manhattan behind": "outdoor",
+    "LA Venice Beach boardwalk morning": "outdoor",
+    "San Francisco Lombard Street": "outdoor",
+    "Chicago Bean Millennium Park reflection": "outdoor",
+    "Miami South Beach art deco morning": "outdoor",
+    "Seattle Pike Place Market dawn": "outdoor",
+    "Portland Oregon Powell's Books exterior": "outdoor",
+    "Austin 6th Street music row": "outdoor",
+    "New Orleans Garden District mansion": "outdoor",
+    "Savannah mossy square Georgia": "outdoor",
+    "Charleston Rainbow Row South Carolina": "outdoor",
+    "Annapolis harbour Maryland": "outdoor",
+    "Cape Cod beach Massachusetts summer": "outdoor",
+    "Maine Portland lobster pier": "outdoor",
+    "Vermont fall foliage road General Store": "outdoor",
+    "New Hampshire White Mountains": "outdoor",
+    "Alaska Denali clear day base": "outdoor",
+    "Hawaii Na Pali coast Kauai": "outdoor",
+    "Grand Canyon south rim early": "outdoor",
+    "Bryce Canyon hoodoos Utah dawn": "outdoor",
+    "Zion Narrows Utah hiking": "outdoor",
+    "Arches Utah Delicate Arch sunrise": "outdoor",
+    "Monument Valley Arizona Navajo": "outdoor",
+    "Death Valley salt pan California": "outdoor",
+    "Yosemite Valley El Capitan view": "outdoor",
+    "Sequoia forest drive-through tree": "outdoor",
+    "Pacific Coast Highway Big Sur": "outdoor",
+    "Malibu beach LA adjacent": "outdoor",
+    "Santa Monica pier evening": "outdoor",
+    "Hollywood Sign hillside view": "outdoor",
+    "Bourbon Street parade day": "outdoor",
+    "Mardi Gras New Orleans crowd": "outdoor",
+    "Super Bowl adjacent city street": "outdoor",
+    "NBA Finals watch party bar": "outdoor",
+    "Fourth of July fireworks open": "outdoor",
+    "Thanksgiving parade New York both": "outdoor",
+    "Black Friday mall opening queue": "outdoor",
+    "American diner any state any time": "outdoor",
+    "New York deli counter": "both"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

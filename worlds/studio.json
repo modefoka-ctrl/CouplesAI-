@@ -1,0 +1,593 @@
+{
+  "id": "studio",
+  "name": "THE STUDIO",
+  "sub": "Light, Form & Intention",
+  "color": "#8a8a8a",
+  "tensions": [
+    "composed vs. candid",
+    "power vs. vulnerability",
+    "distance vs. closeness",
+    "formal vs. intimate",
+    "performance vs. presence",
+    "controlled vs. unravelling",
+    "strength vs. tenderness",
+    "seen vs. hidden",
+    "stillness vs. tension",
+    "classical vs. raw",
+    "surface vs. depth",
+    "together vs. alone in the same frame",
+    "eye contact vs. avoidance",
+    "dressed vs. undressed",
+    "public self vs. private self",
+    "confidence vs. doubt",
+    "connection vs. isolation",
+    "beauty vs. truth",
+    "light vs. shadow",
+    "past vs. present"
+  ],
+  "affinities": {
+    "composed vs. candid": {
+      "locs": [
+        "seamless white paper backdrop studio infinity curve",
+        "seamless black paper backdrop studio infinity curve",
+        "seamless mid-grey paper backdrop studio"
+      ],
+      "poses": [
+        "both facing the camera, upright and quiet",
+        "one seated, one standing behind with hands on the shoulders",
+        "both in profile, foreheads almost touching"
+      ],
+      "looks": [
+        "all black, tonal and sleek each",
+        "all white, tonal and soft each",
+        "cream and ivory tailoring each"
+      ]
+    },
+    "power vs. vulnerability": {
+      "locs": [
+        "studio wall mirror full length floor to ceiling",
+        "a mirrored room reflecting both of them endlessly",
+        "a Hollywood glamour set with a velvet sofa and champagne"
+      ],
+      "poses": [
+        "both lounging, glamorous and aloof",
+        "one reaching for the other's face in the reflection",
+        "both close, chins lifted, a film-star stare"
+      ],
+      "looks": [
+        "black-tie tuxedo and evening gown each",
+        "satin slip dress and velvet jacket each",
+        "sequin gown and white dinner jacket each"
+      ]
+    },
+    "distance vs. closeness": {
+      "locs": [
+        "white painted studio floor with white backdrop seamless",
+        "black painted studio floor with black backdrop seamless",
+        "light wood studio floor with white backdrop"
+      ],
+      "poses": [
+        "one reclining, the other leaning over the arm",
+        "both perched on one seat, knees touching",
+        "one seated, the other sitting on the arm"
+      ],
+      "looks": [
+        "tailored suits, sharp and professional each",
+        "mid-century wool jackets and trousers each",
+        "architectural shoulders and structured jackets each"
+      ]
+    },
+    "formal vs. intimate": {
+      "locs": [
+        "seamless cream paper backdrop studio",
+        "seamless pale blush paper backdrop studio",
+        "seamless forest green paper backdrop studio"
+      ],
+      "poses": [
+        "one seated, one standing behind with hands on the shoulders",
+        "both in profile, foreheads almost touching",
+        "back to back, each looking over a shoulder"
+      ],
+      "looks": [
+        "all white, tonal and soft each",
+        "cream and ivory tailoring each",
+        "navy and white, clean lines each"
+      ]
+    },
+    "performance vs. presence": {
+      "locs": [
+        "a 1970s living room set with shag carpet and a lava lamp",
+        "a retro diner booth built on the studio floor",
+        "a striped circus-tent set with a single spotlight"
+      ],
+      "poses": [
+        "both striking a retro pose, deadpan and deliberate",
+        "one lounging, the other posing like a catalogue model",
+        "both mid-laugh, caught in the set's fantasy"
+      ],
+      "looks": [
+        "1970s printed shirt and flares each",
+        "striped circus-inspired outfits each",
+        "vintage cocktail dress and dinner jacket each"
+      ]
+    },
+    "controlled vs. unravelling": {
+      "locs": [
+        "a black set with a confetti cannon mid-burst",
+        "a white cyc with a wind machine and flowing fabric",
+        "a haze-filled black set cut by a single beam of light"
+      ],
+      "poses": [
+        "both leaping, hair and fabric flying",
+        "both caught mid-spin, fabric streaming",
+        "both with arms thrown up, laughing in the burst"
+      ],
+      "looks": [
+        "flowing white dress and loose shirt each",
+        "long coats caught in the wind each",
+        "sheer layers and billowing sleeves each"
+      ]
+    },
+    "strength vs. tenderness": {
+      "locs": [
+        "hand-painted grey muslin backdrop studio",
+        "hand-painted white-to-dark graduated muslin studio",
+        "cream linen textured backdrop studio"
+      ],
+      "poses": [
+        "both wrapped in the same long length of cloth",
+        "one half-hidden behind the fabric, the other reaching for it",
+        "both seated in a drift of material, heads together"
+      ],
+      "looks": [
+        "sheer layers and heavy knit each, a contrast of textures",
+        "raw-hem deconstructed jackets each",
+        "soft draped fabric falling loosely each"
+      ]
+    },
+    "seen vs. hidden": {
+      "locs": [
+        "seamless silver reflective backdrop studio",
+        "seamless gold reflective backdrop studio warm",
+        "frosted perspex panel backlit studio white glow"
+      ],
+      "poses": [
+        "both lit in two colours, faces split by the light",
+        "one in shadow, the other glowing, hands almost touching",
+        "both leaning in, backlit, outlines glowing"
+      ],
+      "looks": [
+        "bold block colours each, saturated",
+        "white shirts catching the coloured light each",
+        "metallic fabrics and sequins each"
+      ]
+    },
+    "stillness vs. tension": {
+      "locs": [
+        "dark wood studio floor with dark backdrop",
+        "white studio floor posing platform raised",
+        "plain wooden stool studio white backdrop"
+      ],
+      "poses": [
+        "both perched on one seat, knees touching",
+        "one seated, the other sitting on the arm",
+        "both on the raised block, one standing, one kneeling"
+      ],
+      "looks": [
+        "mid-century wool jackets and trousers each",
+        "architectural shoulders and structured jackets each",
+        "smart turtlenecks and pleated trousers each"
+      ]
+    },
+    "classical vs. raw": {
+      "locs": [
+        "a hall of draped red velvet curtains",
+        "a pastel inflatable set of giant soft shapes",
+        "a wall of stacked vintage televisions flickering"
+      ],
+      "poses": [
+        "one lounging, the other posing like a catalogue model",
+        "both mid-laugh, caught in the set's fantasy",
+        "both sitting stiffly, pretending nothing is odd"
+      ],
+      "looks": [
+        "striped circus-inspired outfits each",
+        "vintage cocktail dress and dinner jacket each",
+        "candy pastels and big collars each"
+      ]
+    },
+    "surface vs. depth": {
+      "locs": [
+        "dark velvet fabric backdrop studio deep black",
+        "raw canvas unpainted backdrop studio neutral",
+        "draped silk fabric backdrop studio ivory"
+      ],
+      "poses": [
+        "one half-hidden behind the fabric, the other reaching for it",
+        "both seated in a drift of material, heads together",
+        "one draped across the other's lap, eyes closed"
+      ],
+      "looks": [
+        "raw-hem deconstructed jackets each",
+        "soft draped fabric falling loosely each",
+        "wool coat over bare shoulders each"
+      ]
+    },
+    "together vs. alone in the same frame": {
+      "locs": [
+        "director's chair canvas studio grey backdrop",
+        "mid-century posing chair studio neutral backdrop",
+        "chaise longue upholstered studio white backdrop"
+      ],
+      "poses": [
+        "one seated, the other sitting on the arm",
+        "both on the raised block, one standing, one kneeling",
+        "one reclining, the other leaning over the arm"
+      ],
+      "looks": [
+        "architectural shoulders and structured jackets each",
+        "smart turtlenecks and pleated trousers each",
+        "tailored suits, sharp and professional each"
+      ]
+    },
+    "eye contact vs. avoidance": {
+      "locs": [
+        "coloured gel background studio deep blue",
+        "coloured gel background studio deep red",
+        "split gel backdrop in hot pink and electric blue"
+      ],
+      "poses": [
+        "one in shadow, the other glowing, hands almost touching",
+        "both leaning in, backlit, outlines glowing",
+        "both gazing at the camera, saturated and still"
+      ],
+      "looks": [
+        "white shirts catching the coloured light each",
+        "metallic fabrics and sequins each",
+        "jewel tones, rich and saturated each"
+      ]
+    },
+    "dressed vs. undressed": {
+      "locs": [
+        "a boudoir set with lace curtains and a vanity mirror",
+        "a black-and-white checkerboard floor with a single chair",
+        "a wall of glowing neon tubes in solid colour"
+      ],
+      "poses": [
+        "one reaching for the other's face in the reflection",
+        "both close, chins lifted, a film-star stare",
+        "one fixing the other's collar, eyes on the camera"
+      ],
+      "looks": [
+        "satin slip dress and velvet jacket each",
+        "sequin gown and white dinner jacket each",
+        "fur-trimmed coat and silk gown each"
+      ]
+    },
+    "public self vs. private self": {
+      "locs": [
+        "a faux-marble staircase set with a gold balustrade",
+        "a 1970s living room set with shag carpet and a lava lamp",
+        "a retro diner booth built on the studio floor"
+      ],
+      "poses": [
+        "both mid-laugh, caught in the set's fantasy",
+        "both sitting stiffly, pretending nothing is odd",
+        "both striking a retro pose, deadpan and deliberate"
+      ],
+      "looks": [
+        "vintage cocktail dress and dinner jacket each",
+        "candy pastels and big collars each",
+        "1970s printed shirt and flares each"
+      ]
+    },
+    "confidence vs. doubt": {
+      "locs": [
+        "a set drenched in a curtain of falling droplets",
+        "a coloured powder cloud against a clean backdrop",
+        "a bubble machine filling a pastel set"
+      ],
+      "poses": [
+        "both caught mid-spin, fabric streaming",
+        "both with arms thrown up, laughing in the burst",
+        "one lifting the other, both caught in motion"
+      ],
+      "looks": [
+        "long coats caught in the wind each",
+        "sheer layers and billowing sleeves each",
+        "light colours that catch the movement each"
+      ]
+    },
+    "connection vs. isolation": {
+      "locs": [
+        "saturated yellow backdrop with a hard graphic shadow",
+        "rainbow gel wash across a white cyc",
+        "green and magenta gel crossfire on a dark set"
+      ],
+      "poses": [
+        "both leaning in, backlit, outlines glowing",
+        "both gazing at the camera, saturated and still",
+        "both lit in two colours, faces split by the light"
+      ],
+      "looks": [
+        "metallic fabrics and sequins each",
+        "jewel tones, rich and saturated each",
+        "bold block colours each, saturated"
+      ]
+    },
+    "beauty vs. truth": {
+      "locs": [
+        "studio wall mirror full length floor to ceiling",
+        "a mirrored room reflecting both of them endlessly",
+        "a Hollywood glamour set with a velvet sofa and champagne"
+      ],
+      "poses": [
+        "both close, chins lifted, a film-star stare",
+        "one fixing the other's collar, eyes on the camera",
+        "both lounging, glamorous and aloof"
+      ],
+      "looks": [
+        "sequin gown and white dinner jacket each",
+        "fur-trimmed coat and silk gown each",
+        "black-tie tuxedo and evening gown each"
+      ]
+    },
+    "light vs. shadow": {
+      "locs": [
+        "seamless silver reflective backdrop studio",
+        "seamless gold reflective backdrop studio warm",
+        "frosted perspex panel backlit studio white glow"
+      ],
+      "poses": [
+        "both gazing at the camera, saturated and still",
+        "both lit in two colours, faces split by the light",
+        "one in shadow, the other glowing, hands almost touching"
+      ],
+      "looks": [
+        "jewel tones, rich and saturated each",
+        "bold block colours each, saturated",
+        "white shirts catching the coloured light each"
+      ]
+    },
+    "past vs. present": {
+      "locs": [
+        "a striped circus-tent set with a single spotlight",
+        "a hall of draped red velvet curtains",
+        "a pastel inflatable set of giant soft shapes"
+      ],
+      "poses": [
+        "both sitting stiffly, pretending nothing is odd",
+        "both striking a retro pose, deadpan and deliberate",
+        "one lounging, the other posing like a catalogue model"
+      ],
+      "looks": [
+        "candy pastels and big collars each",
+        "1970s printed shirt and flares each",
+        "striped circus-inspired outfits each"
+      ]
+    }
+  },
+  "locs": [
+    "seamless white paper backdrop studio infinity curve",
+    "seamless black paper backdrop studio infinity curve",
+    "seamless mid-grey paper backdrop studio",
+    "seamless cream paper backdrop studio",
+    "seamless pale blush paper backdrop studio",
+    "seamless forest green paper backdrop studio",
+    "seamless dusty blue paper backdrop studio",
+    "seamless burgundy paper backdrop studio",
+    "bare off-white plaster studio wall textured",
+    "raw concrete studio wall exposed aggregate",
+    "painted brick interior studio wall white",
+    "dark painted studio wall charcoal matte",
+    "hand-painted grey muslin backdrop studio",
+    "hand-painted white-to-dark graduated muslin studio",
+    "cream linen textured backdrop studio",
+    "dark velvet fabric backdrop studio deep black",
+    "raw canvas unpainted backdrop studio neutral",
+    "draped silk fabric backdrop studio ivory",
+    "torn edge paper backdrop studio textured white",
+    "layered fabric draped backdrop studio improvised dark",
+    "white painted studio floor with white backdrop seamless",
+    "black painted studio floor with black backdrop seamless",
+    "light wood studio floor with white backdrop",
+    "dark wood studio floor with dark backdrop",
+    "white studio floor posing platform raised",
+    "plain wooden stool studio white backdrop",
+    "director's chair canvas studio grey backdrop",
+    "mid-century posing chair studio neutral backdrop",
+    "chaise longue upholstered studio white backdrop",
+    "chaise longue upholstered studio dark backdrop",
+    "floor level white studio both seated",
+    "minimal white cube set studio",
+    "minimal black plinth set studio",
+    "clear perspex block prop studio white backdrop",
+    "seamless silver reflective backdrop studio",
+    "seamless gold reflective backdrop studio warm",
+    "frosted perspex panel backlit studio white glow",
+    "coloured gel background studio deep blue",
+    "coloured gel background studio deep red",
+    "split gel backdrop in hot pink and electric blue",
+    "saturated yellow backdrop with a hard graphic shadow",
+    "rainbow gel wash across a white cyc",
+    "green and magenta gel crossfire on a dark set",
+    "a 1970s living room set with shag carpet and a lava lamp",
+    "a retro diner booth built on the studio floor",
+    "a striped circus-tent set with a single spotlight",
+    "a hall of draped red velvet curtains",
+    "a pastel inflatable set of giant soft shapes",
+    "a wall of stacked vintage televisions flickering",
+    "a faux-marble staircase set with a gold balustrade",
+    "a black set with a confetti cannon mid-burst",
+    "a white cyc with a wind machine and flowing fabric",
+    "a haze-filled black set cut by a single beam of light",
+    "a set drenched in a curtain of falling droplets",
+    "a coloured powder cloud against a clean backdrop",
+    "a bubble machine filling a pastel set",
+    "a hanging foil curtain shimmering",
+    "studio wall mirror full length floor to ceiling",
+    "a mirrored room reflecting both of them endlessly",
+    "a Hollywood glamour set with a velvet sofa and champagne",
+    "a boudoir set with lace curtains and a vanity mirror",
+    "a black-and-white checkerboard floor with a single chair",
+    "a wall of glowing neon tubes in solid colour"
+  ],
+  "poses": [
+    "both facing the camera, upright and quiet",
+    "one seated, one standing behind with hands on the shoulders",
+    "both in profile, foreheads almost touching",
+    "back to back, each looking over a shoulder",
+    "both wrapped in the same long length of cloth",
+    "one half-hidden behind the fabric, the other reaching for it",
+    "both seated in a drift of material, heads together",
+    "one draped across the other's lap, eyes closed",
+    "one reclining, the other leaning over the arm",
+    "both perched on one seat, knees touching",
+    "one seated, the other sitting on the arm",
+    "both on the raised block, one standing, one kneeling",
+    "both lit in two colours, faces split by the light",
+    "one in shadow, the other glowing, hands almost touching",
+    "both leaning in, backlit, outlines glowing",
+    "both gazing at the camera, saturated and still",
+    "both striking a retro pose, deadpan and deliberate",
+    "one lounging, the other posing like a catalogue model",
+    "both mid-laugh, caught in the set's fantasy",
+    "both sitting stiffly, pretending nothing is odd",
+    "both leaping, hair and fabric flying",
+    "both caught mid-spin, fabric streaming",
+    "both with arms thrown up, laughing in the burst",
+    "one lifting the other, both caught in motion",
+    "both lounging, glamorous and aloof",
+    "one reaching for the other's face in the reflection",
+    "both close, chins lifted, a film-star stare",
+    "one fixing the other's collar, eyes on the camera"
+  ],
+  "looks": [
+    "all black, tonal and sleek each",
+    "all white, tonal and soft each",
+    "cream and ivory tailoring each",
+    "navy and white, clean lines each",
+    "sheer layers and heavy knit each, a contrast of textures",
+    "raw-hem deconstructed jackets each",
+    "soft draped fabric falling loosely each",
+    "wool coat over bare shoulders each",
+    "tailored suits, sharp and professional each",
+    "mid-century wool jackets and trousers each",
+    "architectural shoulders and structured jackets each",
+    "smart turtlenecks and pleated trousers each",
+    "bold block colours each, saturated",
+    "white shirts catching the coloured light each",
+    "metallic fabrics and sequins each",
+    "jewel tones, rich and saturated each",
+    "1970s printed shirt and flares each",
+    "striped circus-inspired outfits each",
+    "vintage cocktail dress and dinner jacket each",
+    "candy pastels and big collars each",
+    "flowing white dress and loose shirt each",
+    "long coats caught in the wind each",
+    "sheer layers and billowing sleeves each",
+    "light colours that catch the movement each",
+    "black-tie tuxedo and evening gown each",
+    "satin slip dress and velvet jacket each",
+    "sequin gown and white dinner jacket each",
+    "fur-trimmed coat and silk gown each"
+  ],
+  "promptPrefix": "Professional studio portrait, artificial studio lighting only, no natural light, no windows — ",
+  "promptSuffix": "The setting is built inside the studio: backdrop, set or wall, nothing else. Render in rich colour or high-contrast black and white, whichever suits the mood.",
+  "variantDirectives": [
+    "Full-length on a wide backdrop, the figures small in an empty studio: ",
+    "Three-quarter length, hands and posture carry the feeling: ",
+    "Tight close portrait, faces fill the frame: ",
+    "One light, one backdrop, stark simplicity: ",
+    "The backdrop and set dominate the frame, the figures secondary: ",
+    "Fashion editorial framing, the garments are the protagonist: "
+  ],
+  "translations": {
+    "composed vs. candid": "the gap between who you prepare to be and who you actually are",
+    "power vs. vulnerability": "the strength it takes to let someone see you clearly",
+    "formal vs. intimate": "the ceremony of being seen giving way to something unguarded",
+    "performance vs. presence": "when the act drops and there is only the person",
+    "controlled vs. unravelling": "the precise moment composure becomes something more honest",
+    "strength vs. tenderness": "force held softly, held back for someone",
+    "stillness vs. tension": "the body at rest but the mind at full stretch",
+    "classical vs. raw": "the old language of beauty meeting something that refuses to be beautiful on command",
+    "surface vs. depth": "the surface and the depth underneath",
+    "together vs. alone in the same frame": "proximity without connection, or connection across impossible distance",
+    "eye contact vs. avoidance": "the most intimate thing two people can do, and its refusal",
+    "dressed vs. undressed": "what clothes perform and what they protect",
+    "public self vs. private self": "the version you put on and the one that slips through",
+    "confidence vs. doubt": "certainty worn on the surface, uncertainty underneath",
+    "connection vs. isolation": "reaching and not reaching, in the same breath",
+    "beauty vs. truth": "the flattering lie versus the accurate fact"
+  },
+  "locTypes": {
+    "seamless white paper backdrop studio infinity curve": "indoor",
+    "seamless black paper backdrop studio infinity curve": "indoor",
+    "seamless mid-grey paper backdrop studio": "indoor",
+    "seamless cream paper backdrop studio": "indoor",
+    "seamless pale blush paper backdrop studio": "indoor",
+    "seamless forest green paper backdrop studio": "indoor",
+    "seamless dusty blue paper backdrop studio": "indoor",
+    "seamless burgundy paper backdrop studio": "indoor",
+    "bare off-white plaster studio wall textured": "indoor",
+    "raw concrete studio wall exposed aggregate": "indoor",
+    "painted brick interior studio wall white": "indoor",
+    "dark painted studio wall charcoal matte": "indoor",
+    "hand-painted grey muslin backdrop studio": "indoor",
+    "hand-painted white-to-dark graduated muslin studio": "indoor",
+    "cream linen textured backdrop studio": "indoor",
+    "dark velvet fabric backdrop studio deep black": "indoor",
+    "raw canvas unpainted backdrop studio neutral": "indoor",
+    "draped silk fabric backdrop studio ivory": "indoor",
+    "torn edge paper backdrop studio textured white": "indoor",
+    "layered fabric draped backdrop studio improvised dark": "indoor",
+    "white painted studio floor with white backdrop seamless": "indoor",
+    "black painted studio floor with black backdrop seamless": "indoor",
+    "light wood studio floor with white backdrop": "indoor",
+    "dark wood studio floor with dark backdrop": "indoor",
+    "white studio floor posing platform raised": "indoor",
+    "plain wooden stool studio white backdrop": "indoor",
+    "director's chair canvas studio grey backdrop": "indoor",
+    "mid-century posing chair studio neutral backdrop": "indoor",
+    "chaise longue upholstered studio white backdrop": "indoor",
+    "chaise longue upholstered studio dark backdrop": "indoor",
+    "floor level white studio both seated": "indoor",
+    "minimal white cube set studio": "indoor",
+    "minimal black plinth set studio": "indoor",
+    "clear perspex block prop studio white backdrop": "indoor",
+    "seamless silver reflective backdrop studio": "indoor",
+    "seamless gold reflective backdrop studio warm": "indoor",
+    "frosted perspex panel backlit studio white glow": "indoor",
+    "coloured gel background studio deep blue": "indoor",
+    "coloured gel background studio deep red": "indoor",
+    "split gel backdrop in hot pink and electric blue": "indoor",
+    "saturated yellow backdrop with a hard graphic shadow": "indoor",
+    "rainbow gel wash across a white cyc": "indoor",
+    "green and magenta gel crossfire on a dark set": "indoor",
+    "a 1970s living room set with shag carpet and a lava lamp": "indoor",
+    "a retro diner booth built on the studio floor": "indoor",
+    "a striped circus-tent set with a single spotlight": "indoor",
+    "a hall of draped red velvet curtains": "indoor",
+    "a pastel inflatable set of giant soft shapes": "indoor",
+    "a wall of stacked vintage televisions flickering": "indoor",
+    "a faux-marble staircase set with a gold balustrade": "indoor",
+    "a black set with a confetti cannon mid-burst": "indoor",
+    "a white cyc with a wind machine and flowing fabric": "indoor",
+    "a haze-filled black set cut by a single beam of light": "indoor",
+    "a set drenched in a curtain of falling droplets": "indoor",
+    "a coloured powder cloud against a clean backdrop": "indoor",
+    "a bubble machine filling a pastel set": "indoor",
+    "a hanging foil curtain shimmering": "indoor",
+    "studio wall mirror full length floor to ceiling": "indoor",
+    "a mirrored room reflecting both of them endlessly": "indoor",
+    "a Hollywood glamour set with a velvet sofa and champagne": "indoor",
+    "a boudoir set with lace curtains and a vanity mirror": "indoor",
+    "a black-and-white checkerboard floor with a single chair": "indoor",
+    "a wall of glowing neon tubes in solid colour": "indoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

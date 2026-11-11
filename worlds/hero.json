@@ -1,0 +1,336 @@
+{
+  "id": "hero",
+  "name": "THE HERO",
+  "sub": "Spaghetti Western, Noir, Samurai & the Last Stand",
+  "color": "#5a3a1a",
+  "tensions": [
+    "the code vs. the cost",
+    "honour vs. survival",
+    "the mission vs. the person",
+    "alone vs. together",
+    "the last stand vs. the first step",
+    "justice vs. vengeance",
+    "the hero vs. what made them",
+    "past vs. redemption",
+    "the gun vs. the choice",
+    "walking away vs. staying"
+  ],
+  "affinities": {
+    "the code vs. the cost": {
+      "locs": [
+        "a dusty western main street at high noon",
+        "a saloon with swinging doors and a piano gone quiet",
+        "a canyon of red rocks at dawn, an ambush"
+      ],
+      "poses": [
+        "both shoulder to shoulder facing an unseen gunman, hands near their holsters",
+        "both bursting through the doors with guns drawn",
+        "both crouched behind rocks, firing back"
+      ],
+      "looks": [
+        "dusty poncho duster and wide-brimmed hat each",
+        "leather vest bandana and gun belt each",
+        "long coat spurs and scuffed boots each"
+      ]
+    },
+    "honour vs. survival": {
+      "locs": [
+        "a misty field at dawn, long grass and drifting fog",
+        "a bamboo forest in falling rain",
+        "a feudal village churned to mud as a storm breaks"
+      ],
+      "poses": [
+        "both in a low drawing stance, blades half out of the scabbard",
+        "both mid-cut, rain spraying off the steel",
+        "both back to back, circled by unseen foes"
+      ],
+      "looks": [
+        "worn kimono hakama and sword at the hip each",
+        "straw hat and rain cape each",
+        "dark layered robes and bandaged hands each"
+      ]
+    },
+    "the mission vs. the person": {
+      "locs": [
+        "a rain-slick alley under a flickering streetlamp",
+        "a detective's office striped with blind shadows",
+        "a rooftop in the rain above a neon city"
+      ],
+      "poses": [
+        "both running through the rain, coats flying",
+        "one gripping the other's arm in the shadows, pistols drawn",
+        "both pinned against the wall as headlights sweep past"
+      ],
+      "looks": [
+        "trench coat and fedora each",
+        "rumpled suit with a loosened tie each",
+        "long dark coat with the collar turned up each"
+      ]
+    },
+    "alone vs. together": {
+      "locs": [
+        "a wooden training hall of dummies and paper screens",
+        "a neon-lit rooftop at night",
+        "a crowded market street mid-brawl"
+      ],
+      "poses": [
+        "one mid flying kick, the other blocking",
+        "both in fighting stances, back to back",
+        "both mid-spin, sweeping through attackers"
+      ],
+      "looks": [
+        "white training gi and bare feet each",
+        "silk jacket and flared trousers each",
+        "simple black kung fu suit each"
+      ]
+    },
+    "the last stand vs. the first step": {
+      "locs": [
+        "a chapel full of white doves and flying splinters",
+        "a warehouse of splintering crates and spent shells",
+        "a hospital corridor, shots echoing"
+      ],
+      "poses": [
+        "both firing a pistol in each hand, coats flaring",
+        "both diving sideways through the air in slow motion",
+        "both sliding across the floor, guns raised"
+      ],
+      "looks": [
+        "black suit white shirt and sunglasses each",
+        "long dark coat and slicked-back hair each",
+        "tailored suit with a flower in the lapel each"
+      ]
+    },
+    "justice vs. vengeance": {
+      "locs": [
+        "a storm-tossed ship deck of swinging ropes",
+        "a harbour tavern mid-brawl",
+        "a sea cave of treasure and torchlight"
+      ],
+      "poses": [
+        "both crossing swords in a duel up in the rigging",
+        "both swinging across on a rope, blades out",
+        "both back to back, circled by pirates"
+      ],
+      "looks": [
+        "billowing white shirt tricorn hat and sash each",
+        "ragged waistcoat boots and cutlass each",
+        "embroidered captain's coat and feathered hat each"
+      ]
+    },
+    "the hero vs. what made them": {
+      "locs": [
+        "a city skyline at night cut by a searchlight beam",
+        "a rooftop ledge above a rain of neon",
+        "a crumbling bridge mid-collapse"
+      ],
+      "poses": [
+        "one leaping from the ledge, the other catching the cape",
+        "both landing in a crouch, fists on the ground",
+        "both standing heroic, capes snapping in the wind"
+      ],
+      "looks": [
+        "bold costume cape and mask each",
+        "armoured suit with a glowing chest emblem each",
+        "tattered cape over street clothes each"
+      ]
+    },
+    "past vs. redemption": {
+      "locs": [
+        "a dust-choked highway of wrecked cars",
+        "a scrap-built fortress under a blood-orange sky",
+        "a salt flat crossed by armoured vehicles"
+      ],
+      "poses": [
+        "both hanging off the side of a speeding armoured truck",
+        "both standing atop the wreck scanning the horizon",
+        "both sprinting across the sand, dragging supplies"
+      ],
+      "looks": [
+        "scavenged leather and goggles each",
+        "patched armour and tattered scarves each",
+        "rags and bandages with a heavy weapon each"
+      ]
+    },
+    "the gun vs. the choice": {
+      "locs": [
+        "a night city street of screeching tyres",
+        "a graffiti-covered parking structure under flickering lights",
+        "a fire escape above a steaming alley"
+      ],
+      "poses": [
+        "both sprinting after a speeding car",
+        "one leaping the bonnet, the other already behind the wheel",
+        "both vaulting a fence mid-chase"
+      ],
+      "looks": [
+        "wide-collared leather jacket and flared jeans each",
+        "afro and bell-bottoms with a big belt each",
+        "sharp 70s suit and aviator sunglasses each"
+      ]
+    },
+    "walking away vs. staying": {
+      "locs": [
+        "a misty mountain peak above a sea of cloud",
+        "a bamboo canopy high above the forest floor",
+        "a courtyard of falling cherry blossom"
+      ],
+      "poses": [
+        "both leaping weightless through the treetops",
+        "both mid-spin, robes streaming like banners",
+        "both balanced on the tip of a sword"
+      ],
+      "looks": [
+        "flowing silk robes and long sleeves each",
+        "white and indigo costume each",
+        "embroidered tunic and trailing sash each"
+      ]
+    }
+  },
+  "locs": [
+    "a dusty western main street at high noon",
+    "a saloon with swinging doors and a piano gone quiet",
+    "a canyon of red rocks at dawn, an ambush",
+    "a misty field at dawn, long grass and drifting fog",
+    "a bamboo forest in falling rain",
+    "a feudal village churned to mud as a storm breaks",
+    "a rain-slick alley under a flickering streetlamp",
+    "a detective's office striped with blind shadows",
+    "a rooftop in the rain above a neon city",
+    "a wooden training hall of dummies and paper screens",
+    "a neon-lit rooftop at night",
+    "a crowded market street mid-brawl",
+    "a chapel full of white doves and flying splinters",
+    "a warehouse of splintering crates and spent shells",
+    "a hospital corridor, shots echoing",
+    "a storm-tossed ship deck of swinging ropes",
+    "a harbour tavern mid-brawl",
+    "a sea cave of treasure and torchlight",
+    "a city skyline at night cut by a searchlight beam",
+    "a rooftop ledge above a rain of neon",
+    "a crumbling bridge mid-collapse",
+    "a dust-choked highway of wrecked cars",
+    "a scrap-built fortress under a blood-orange sky",
+    "a salt flat crossed by armoured vehicles",
+    "a night city street of screeching tyres",
+    "a graffiti-covered parking structure under flickering lights",
+    "a fire escape above a steaming alley",
+    "a misty mountain peak above a sea of cloud",
+    "a bamboo canopy high above the forest floor",
+    "a courtyard of falling cherry blossom"
+  ],
+  "poses": [
+    "both shoulder to shoulder facing an unseen gunman, hands near their holsters",
+    "both bursting through the doors with guns drawn",
+    "both crouched behind rocks, firing back",
+    "both in a low drawing stance, blades half out of the scabbard",
+    "both mid-cut, rain spraying off the steel",
+    "both back to back, circled by unseen foes",
+    "both running through the rain, coats flying",
+    "one gripping the other's arm in the shadows, pistols drawn",
+    "both pinned against the wall as headlights sweep past",
+    "one mid flying kick, the other blocking",
+    "both in fighting stances, back to back",
+    "both mid-spin, sweeping through attackers",
+    "both firing a pistol in each hand, coats flaring",
+    "both diving sideways through the air in slow motion",
+    "both sliding across the floor, guns raised",
+    "both crossing swords in a duel up in the rigging",
+    "both swinging across on a rope, blades out",
+    "both back to back, circled by pirates",
+    "one leaping from the ledge, the other catching the cape",
+    "both landing in a crouch, fists on the ground",
+    "both standing heroic, capes snapping in the wind",
+    "both hanging off the side of a speeding armoured truck",
+    "both standing atop the wreck scanning the horizon",
+    "both sprinting across the sand, dragging supplies",
+    "both sprinting after a speeding car",
+    "one leaping the bonnet, the other already behind the wheel",
+    "both vaulting a fence mid-chase",
+    "both leaping weightless through the treetops",
+    "both mid-spin, robes streaming like banners",
+    "both balanced on the tip of a sword"
+  ],
+  "looks": [
+    "dusty poncho duster and wide-brimmed hat each",
+    "leather vest bandana and gun belt each",
+    "long coat spurs and scuffed boots each",
+    "worn kimono hakama and sword at the hip each",
+    "straw hat and rain cape each",
+    "dark layered robes and bandaged hands each",
+    "trench coat and fedora each",
+    "rumpled suit with a loosened tie each",
+    "long dark coat with the collar turned up each",
+    "white training gi and bare feet each",
+    "silk jacket and flared trousers each",
+    "simple black kung fu suit each",
+    "black suit white shirt and sunglasses each",
+    "long dark coat and slicked-back hair each",
+    "tailored suit with a flower in the lapel each",
+    "billowing white shirt tricorn hat and sash each",
+    "ragged waistcoat boots and cutlass each",
+    "embroidered captain's coat and feathered hat each",
+    "bold costume cape and mask each",
+    "armoured suit with a glowing chest emblem each",
+    "tattered cape over street clothes each",
+    "scavenged leather and goggles each",
+    "patched armour and tattered scarves each",
+    "rags and bandages with a heavy weapon each",
+    "wide-collared leather jacket and flared jeans each",
+    "afro and bell-bottoms with a big belt each",
+    "sharp 70s suit and aviator sunglasses each",
+    "flowing silk robes and long sleeves each",
+    "white and indigo costume each",
+    "embroidered tunic and trailing sash each"
+  ],
+  "promptPrefix": "Cinematic action genre still — mid-action, movement implied — ",
+  "promptSuffix": "A frame from the action, not a poster: the subjects are in motion or about to move.",
+  "variantDirectives": [
+    "Wide action frame, the figures small against the vast landscape or street: ",
+    "Full-body low-angle frame mid-movement, action carries the drama: ",
+    "Extreme close-up, eyes and tension fill the frame: ",
+    "Stark silhouette composition, one hard light, minimal detail: ",
+    "The setting dominates the frame, the figures secondary to the place: ",
+    "Costume and gear take centre stage, the figures framed to show them: "
+  ],
+  "translations": {
+    "alone vs. together": "alone pressing against together"
+  },
+  "locTypes": {
+    "a dusty western main street at high noon": "outdoor",
+    "a saloon with swinging doors and a piano gone quiet": "indoor",
+    "a canyon of red rocks at dawn, an ambush": "both",
+    "a misty field at dawn, long grass and drifting fog": "outdoor",
+    "a bamboo forest in falling rain": "outdoor",
+    "a feudal village churned to mud as a storm breaks": "outdoor",
+    "a rain-slick alley under a flickering streetlamp": "outdoor",
+    "a detective's office striped with blind shadows": "indoor",
+    "a rooftop in the rain above a neon city": "outdoor",
+    "a wooden training hall of dummies and paper screens": "indoor",
+    "a neon-lit rooftop at night": "outdoor",
+    "a crowded market street mid-brawl": "outdoor",
+    "a chapel full of white doves and flying splinters": "indoor",
+    "a warehouse of splintering crates and spent shells": "indoor",
+    "a hospital corridor, shots echoing": "indoor",
+    "a storm-tossed ship deck of swinging ropes": "outdoor",
+    "a harbour tavern mid-brawl": "indoor",
+    "a sea cave of treasure and torchlight": "outdoor",
+    "a city skyline at night cut by a searchlight beam": "outdoor",
+    "a rooftop ledge above a rain of neon": "outdoor",
+    "a crumbling bridge mid-collapse": "outdoor",
+    "a dust-choked highway of wrecked cars": "outdoor",
+    "a scrap-built fortress under a blood-orange sky": "outdoor",
+    "a salt flat crossed by armoured vehicles": "outdoor",
+    "a night city street of screeching tyres": "outdoor",
+    "a graffiti-covered parking structure under flickering lights": "outdoor",
+    "a fire escape above a steaming alley": "outdoor",
+    "a misty mountain peak above a sea of cloud": "outdoor",
+    "a bamboo canopy high above the forest floor": "outdoor",
+    "a courtyard of falling cherry blossom": "outdoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

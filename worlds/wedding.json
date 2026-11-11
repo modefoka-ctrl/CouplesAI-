@@ -1,0 +1,278 @@
+{
+  "id": "wedding",
+  "name": "THE WEDDING",
+  "sub": "The Vow, the Risk & the Moment Before",
+  "color": "#a0785a",
+  "tensions": [
+    "the elopement vs. the ceremony",
+    "the wrong person vs. the right moment",
+    "the vow vs. the doubt",
+    "together vs. everyone watching",
+    "the dress vs. the marriage",
+    "love vs. obligation",
+    "the moment before vs. the moment after",
+    "the arranged vs. the chosen",
+    "the second wedding vs. the first",
+    "the almost vs. the finally"
+  ],
+  "affinities": {
+    "the elopement vs. the ceremony": {
+      "locs": [
+        "city hall steps elopement simple morning",
+        "courthouse simple just the two civil",
+        "registry office morning queue practical"
+      ],
+      "poses": [
+        "both laughing on the steps, confetti in their hair",
+        "one holding the other's hand, signing the register",
+        "both running down the steps, shoes in hand"
+      ],
+      "looks": [
+        "simple cream dress and plain suit each",
+        "short white dress and tailored jacket each",
+        "smart casual best clothes each"
+      ]
+    },
+    "the wrong person vs. the right moment": {
+      "locs": [
+        "Las Vegas wedding chapel neon night kitsch",
+        "outdoor festival wedding summer"
+      ],
+      "poses": [
+        "both striking a ridiculous pose, arms wide",
+        "both kissing beneath the glow, veil flying",
+        "both dancing mid-song, grinning at the camera"
+      ],
+      "looks": [
+        "sequined dress and rhinestone suit each",
+        "bright costume bridal outfit and sparkling tuxedo each",
+        "outrageous themed outfits each"
+      ]
+    },
+    "the vow vs. the doubt": {
+      "locs": [
+        "church aisle traditional formal procession",
+        "chapel of ease rural small ceremony",
+        "stately home grand formal traditional"
+      ],
+      "poses": [
+        "both standing hand in hand, looking ahead",
+        "one lifting the veil as the other smiles",
+        "both exchanging rings, eyes locked"
+      ],
+      "looks": [
+        "full white gown and morning suit each",
+        "long veil and dark suit each",
+        "formal dress and long coat each"
+      ]
+    },
+    "together vs. everyone watching": {
+      "locs": [
+        "marquee reception evening dancing",
+        "reception empty after guests gone one couple",
+        "hotel suite morning after complicated light"
+      ],
+      "poses": [
+        "both dancing slowly, foreheads together, eyes closed",
+        "both slipping out for a quiet moment, shoes off",
+        "one resting a head on the other's shoulder, tired and happy"
+      ],
+      "looks": [
+        "rumpled wedding dress and loosened tie each",
+        "evening dress and shirtsleeves each",
+        "half-undone formal wear each"
+      ]
+    },
+    "the dress vs. the marriage": {
+      "locs": [
+        "cliffside elopement two and officiant sunset",
+        "beach barefoot ceremony sunset",
+        "Scottish highland estate ceremony dramatic"
+      ],
+      "poses": [
+        "both facing each other, hands joined, wind in their clothes",
+        "both barefoot, forehead to forehead",
+        "both kissing as the sun goes down"
+      ],
+      "looks": [
+        "flowing white dress and linen suit each",
+        "simple slip dress and rolled-up trousers each",
+        "wind-whipped veil and loosened tie each"
+      ]
+    },
+    "love vs. obligation": {
+      "locs": [
+        "Indian wedding mandap ceremony elaborate",
+        "Mexican civil wedding vibrant tradition"
+      ],
+      "poses": [
+        "both seated side by side, heads bowed in ritual",
+        "both circling together, garlands around their necks",
+        "both smiling through the ritual, hands joined"
+      ],
+      "looks": [
+        "richly embroidered red outfit each",
+        "gold-trimmed formal dress and long embroidered coat each",
+        "bright traditional wedding costume each"
+      ]
+    },
+    "the moment before vs. the moment after": {
+      "locs": [
+        "greenhouse botanical wedding ceremony",
+        "marquee reception evening dancing",
+        "reception empty after guests gone one couple"
+      ],
+      "poses": [
+        "both dancing slowly, foreheads together, eyes closed",
+        "both slipping out for a quiet moment, shoes off",
+        "one resting a head on the other's shoulder, tired and happy"
+      ],
+      "looks": [
+        "rumpled wedding dress and loosened tie each",
+        "evening dress and shirtsleeves each",
+        "half-undone formal wear each"
+      ]
+    },
+    "the arranged vs. the chosen": {
+      "locs": [
+        "Mexican civil wedding vibrant tradition",
+        "Indian wedding mandap ceremony elaborate"
+      ],
+      "poses": [
+        "both seated side by side, heads bowed in ritual",
+        "both circling together, garlands around their necks",
+        "both smiling through the ritual, hands joined"
+      ],
+      "looks": [
+        "richly embroidered red outfit each",
+        "gold-trimmed formal dress and long embroidered coat each",
+        "bright traditional wedding costume each"
+      ]
+    },
+    "the second wedding vs. the first": {
+      "locs": [
+        "destination wedding Italy villa afternoon",
+        "cliffside elopement two and officiant sunset",
+        "beach barefoot ceremony sunset"
+      ],
+      "poses": [
+        "both facing each other, hands joined, wind in their clothes",
+        "both barefoot, forehead to forehead",
+        "both kissing as the sun goes down"
+      ],
+      "looks": [
+        "flowing white dress and linen suit each",
+        "simple slip dress and rolled-up trousers each",
+        "wind-whipped veil and loosened tie each"
+      ]
+    },
+    "the almost vs. the finally": {
+      "locs": [
+        "Jewish wedding chuppah traditional formal",
+        "church aisle traditional formal procession",
+        "chapel of ease rural small ceremony"
+      ],
+      "poses": [
+        "both standing hand in hand, looking ahead",
+        "one lifting the veil as the other smiles",
+        "both exchanging rings, eyes locked"
+      ],
+      "looks": [
+        "full white gown and morning suit each",
+        "long veil and dark suit each",
+        "formal dress and long coat each"
+      ]
+    }
+  },
+  "locs": [
+    "city hall steps elopement simple morning",
+    "courthouse simple just the two civil",
+    "registry office morning queue practical",
+    "Paris bridge elopement spontaneous rain",
+    "Las Vegas wedding chapel neon night kitsch",
+    "outdoor festival wedding summer",
+    "cliffside elopement two and officiant sunset",
+    "beach barefoot ceremony sunset",
+    "Scottish highland estate ceremony dramatic",
+    "destination wedding Italy villa afternoon",
+    "church aisle traditional formal procession",
+    "chapel of ease rural small ceremony",
+    "stately home grand formal traditional",
+    "Jewish wedding chuppah traditional formal",
+    "Indian wedding mandap ceremony elaborate",
+    "Mexican civil wedding vibrant tradition",
+    "marquee reception evening dancing",
+    "reception empty after guests gone one couple",
+    "hotel suite morning after complicated light",
+    "greenhouse botanical wedding ceremony"
+  ],
+  "poses": [
+    "both laughing on the steps, confetti in their hair",
+    "one holding the other's hand, signing the register",
+    "both running down the steps, shoes in hand",
+    "both striking a ridiculous pose, arms wide",
+    "both kissing beneath the glow, veil flying",
+    "both dancing mid-song, grinning at the camera",
+    "both facing each other, hands joined, wind in their clothes",
+    "both barefoot, forehead to forehead",
+    "both kissing as the sun goes down",
+    "both standing hand in hand, looking ahead",
+    "one lifting the veil as the other smiles",
+    "both exchanging rings, eyes locked",
+    "both seated side by side, heads bowed in ritual",
+    "both circling together, garlands around their necks",
+    "both smiling through the ritual, hands joined",
+    "both dancing slowly, foreheads together, eyes closed",
+    "both slipping out for a quiet moment, shoes off",
+    "one resting a head on the other's shoulder, tired and happy"
+  ],
+  "looks": [
+    "simple cream dress and plain suit each",
+    "short white dress and tailored jacket each",
+    "smart casual best clothes each",
+    "sequined dress and rhinestone suit each",
+    "bright costume bridal outfit and sparkling tuxedo each",
+    "outrageous themed outfits each",
+    "flowing white dress and linen suit each",
+    "simple slip dress and rolled-up trousers each",
+    "wind-whipped veil and loosened tie each",
+    "full white gown and morning suit each",
+    "long veil and dark suit each",
+    "formal dress and long coat each",
+    "richly embroidered red outfit each",
+    "gold-trimmed formal dress and long embroidered coat each",
+    "bright traditional wedding costume each",
+    "rumpled wedding dress and loosened tie each",
+    "evening dress and shirtsleeves each",
+    "half-undone formal wear each"
+  ],
+  "promptSuffix": "Colour grade: city hall morning light, Las Vegas neon night, cliffside golden hour, church formal candlelight.",
+  "translations": {},
+  "locTypes": {
+    "city hall steps elopement simple morning": "indoor",
+    "courthouse simple just the two civil": "indoor",
+    "registry office morning queue practical": "indoor",
+    "Paris bridge elopement spontaneous rain": "outdoor",
+    "Las Vegas wedding chapel neon night kitsch": "indoor",
+    "outdoor festival wedding summer": "outdoor",
+    "cliffside elopement two and officiant sunset": "outdoor",
+    "beach barefoot ceremony sunset": "outdoor",
+    "Scottish highland estate ceremony dramatic": "both",
+    "destination wedding Italy villa afternoon": "both",
+    "church aisle traditional formal procession": "indoor",
+    "chapel of ease rural small ceremony": "indoor",
+    "stately home grand formal traditional": "both",
+    "Jewish wedding chuppah traditional formal": "both",
+    "Indian wedding mandap ceremony elaborate": "both",
+    "Mexican civil wedding vibrant tradition": "both",
+    "marquee reception evening dancing": "both",
+    "reception empty after guests gone one couple": "both",
+    "hotel suite morning after complicated light": "indoor",
+    "greenhouse botanical wedding ceremony": "indoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

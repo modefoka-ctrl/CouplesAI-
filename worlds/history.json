@@ -1,0 +1,536 @@
+{
+  "id": "history",
+  "name": "THE HISTORY",
+  "sub": "Events & Eras",
+  "color": "#8a7a4a",
+  "tensions": [
+    "past vs. present",
+    "remembered vs. forgotten",
+    "ruin vs. monument",
+    "conqueror vs. conquered",
+    "myth vs. record",
+    "preserved vs. decayed",
+    "era vs. eternity",
+    "ancestor vs. heir",
+    "silence vs. testimony",
+    "stone vs. flesh",
+    "empire vs. dust",
+    "witness vs. unseen",
+    "timeless vs. dated",
+    "relic vs. ruin",
+    "archive vs. memory",
+    "revolution vs. order",
+    "crown vs. crowd",
+    "battlefield vs. peace",
+    "inscription vs. erasure",
+    "then vs. now"
+  ],
+  "locs": [
+    "ancient amphitheater stepped seats Athens",
+    "Roman forum at sunrise empty",
+    "Colosseum interior arch looking up",
+    "Parthenon pillars Athens dusk",
+    "Hadrian's Wall northern edge",
+    "Vindolanda excavation trench",
+    "Egyptian pyramid at dawn no tourists",
+    "Angkor Wat sunrise reflection pool",
+    "Machu Picchu sun gate first light",
+    "Mesa Verde cliff dwelling Colorado",
+    "Chaco Canyon ruins New Mexico",
+    "Cahokia mounds Illinois",
+    "Serpent Mound Ohio aerial view possible",
+    "Cahokia Monks Mound base",
+    "Stonehenge solstice dawn mist",
+    "Avebury stone circle walking",
+    "Newgrange Ireland winter solstice",
+    "Viking longship museum interior",
+    "Jorvik Viking Centre York exterior",
+    "Norman castle motte and bailey",
+    "Medieval cathedral chapter house",
+    "Tudor manor hall interior timber",
+    "crumbling castle courtyard Scotland",
+    "abandoned monastery cloister Portugal",
+    "colonial port warehouse Jamaica",
+    "Bunker Hill monument Boston",
+    "Independence Hall Philadelphia",
+    "Colonial Williamsburg street",
+    "Jamestown reconstruction Virginia",
+    "Plymouth Rock Massachusetts coast",
+    "Salem witch trial memorial",
+    "battlefield memorial dawn silence",
+    "Civil War battlefield marker dawn",
+    "Napoleonic battlefield monument France",
+    "Waterloo battlefield Belgium",
+    "Gettysburg battlefield Pennsylvania",
+    "Antietam battlefield Maryland dawn",
+    "Little Bighorn battlefield Montana",
+    "Tombstone Arizona OK Corral",
+    "Alamo San Antonio Texas exterior",
+    "Berlin Wall remaining section",
+    "Checkpoint Charlie museum exterior",
+    "Dresden Frauenkirche rebuilt exterior"
+  ],
+  "poses": [
+    "both standing between the columns, heads tilted toward the light",
+    "one tracing a carved inscription, the other reading aloud",
+    "both seated on worn stone steps, quiet and thoughtful",
+    "both small before the vast stonework, awestruck",
+    "both climbing the ancient steps, hand in hand",
+    "both kneeling to touch the carved wall",
+    "both standing at the edge of the old stone, looking out",
+    "both climbing the earthen steps, hand in hand",
+    "both kneeling to touch the weathered wall",
+    "both standing among the giant stones, dwarfed by them",
+    "both walking the ring at first light, mist at their feet",
+    "both with a hand on the standing stone, eyes closed",
+    "both standing side by side, shields at their backs",
+    "both standing before the carved prow, chins high",
+    "both sharing a horn of mead by the fire",
+    "both on the rampart, cloaks blowing",
+    "one reading from a manuscript, the other listening",
+    "both sitting by the fire in the great hall, goblets raised",
+    "both standing before the old building, formal and proud",
+    "both walking the dirt road, arm in arm",
+    "both reading a proclamation, heads together",
+    "both silent, heads bowed, hats in hand",
+    "one placing flowers, the other standing very still",
+    "both gazing across the quiet fields at dawn",
+    "both squared up in the dusty road, hands near their belts",
+    "both leaning on the weathered wall, squinting",
+    "both walking the boardwalk, spurs jingling",
+    "both standing before the old wall, solemn and close",
+    "both looking through a gap to the other side",
+    "both walking side by side, collars up"
+  ],
+  "looks": [
+    "draped linen toga and sandals each",
+    "Greek chiton and peplos each",
+    "Roman tunic and cloak each",
+    "draped white linen and broad gold collar each",
+    "silk wrap and gilded headdress each",
+    "pleated linen robe and jewelled sandals each",
+    "woven wool mantle and beaded jewellery each",
+    "feather cloak and shell necklace each",
+    "embroidered cotton tunic and sandals each",
+    "rough woven wool and fur wraps each",
+    "animal-hide cloak and bone jewellery each",
+    "plain linen tunic and leather belt each",
+    "fur-trimmed cloak and wool tunic each",
+    "woven wool dress and brooches each",
+    "leather jerkin and arm rings each",
+    "long gown and belted surcoat each",
+    "brocade doublet and gown each",
+    "hooded cloak and wool tunic each",
+    "tricorn hat and waistcoat each",
+    "bonnet and long colonial gown each",
+    "frock coat and breeches each",
+    "period military greatcoat each",
+    "dark mourning dress and shawl each",
+    "frock coat and top hat each",
+    "duster coat and wide-brimmed hat each",
+    "gingham dress and shawl each",
+    "vest and gun belt each",
+    "1950s coat and hat each",
+    "long wool coat and scarf each",
+    "tailored suit and trench coat each"
+  ],
+  "affinities": {
+    "past vs. present": {
+      "locs": [
+        "Berlin Wall remaining section",
+        "Checkpoint Charlie museum exterior",
+        "Dresden Frauenkirche rebuilt exterior"
+      ],
+      "poses": [
+        "both standing before the old wall, solemn and close",
+        "both looking through a gap to the other side",
+        "both walking side by side, collars up"
+      ],
+      "looks": [
+        "1950s coat and hat each",
+        "long wool coat and scarf each",
+        "tailored suit and trench coat each"
+      ]
+    },
+    "remembered vs. forgotten": {
+      "locs": [
+        "battlefield memorial dawn silence",
+        "Civil War battlefield marker dawn",
+        "Napoleonic battlefield monument France"
+      ],
+      "poses": [
+        "both silent, heads bowed, hats in hand",
+        "one placing flowers, the other standing very still",
+        "both gazing across the quiet fields at dawn"
+      ],
+      "looks": [
+        "period military greatcoat each",
+        "dark mourning dress and shawl each",
+        "frock coat and top hat each"
+      ]
+    },
+    "ruin vs. monument": {
+      "locs": [
+        "ancient amphitheater stepped seats Athens",
+        "Roman forum at sunrise empty",
+        "Colosseum interior arch looking up"
+      ],
+      "poses": [
+        "both standing between the columns, heads tilted toward the light",
+        "one tracing a carved inscription, the other reading aloud",
+        "both seated on worn stone steps, quiet and thoughtful"
+      ],
+      "looks": [
+        "draped linen toga and sandals each",
+        "Greek chiton and peplos each",
+        "Roman tunic and cloak each"
+      ]
+    },
+    "conqueror vs. conquered": {
+      "locs": [
+        "Machu Picchu sun gate first light",
+        "Mesa Verde cliff dwelling Colorado",
+        "Chaco Canyon ruins New Mexico"
+      ],
+      "poses": [
+        "both standing at the edge of the old stone, looking out",
+        "both climbing the earthen steps, hand in hand",
+        "both kneeling to touch the weathered wall"
+      ],
+      "looks": [
+        "woven wool mantle and beaded jewellery each",
+        "feather cloak and shell necklace each",
+        "embroidered cotton tunic and sandals each"
+      ]
+    },
+    "myth vs. record": {
+      "locs": [
+        "Stonehenge solstice dawn mist",
+        "Avebury stone circle walking",
+        "Newgrange Ireland winter solstice"
+      ],
+      "poses": [
+        "both standing among the giant stones, dwarfed by them",
+        "both walking the ring at first light, mist at their feet",
+        "both with a hand on the standing stone, eyes closed"
+      ],
+      "looks": [
+        "rough woven wool and fur wraps each",
+        "animal-hide cloak and bone jewellery each",
+        "plain linen tunic and leather belt each"
+      ]
+    },
+    "preserved vs. decayed": {
+      "locs": [
+        "Egyptian pyramid at dawn no tourists",
+        "Angkor Wat sunrise reflection pool"
+      ],
+      "poses": [
+        "both small before the vast stonework, awestruck",
+        "both climbing the ancient steps, hand in hand",
+        "both kneeling to touch the carved wall"
+      ],
+      "looks": [
+        "draped white linen and broad gold collar each",
+        "silk wrap and gilded headdress each",
+        "pleated linen robe and jewelled sandals each"
+      ]
+    },
+    "era vs. eternity": {
+      "locs": [
+        "Stonehenge solstice dawn mist",
+        "Avebury stone circle walking",
+        "Newgrange Ireland winter solstice"
+      ],
+      "poses": [
+        "both walking the ring at first light, mist at their feet",
+        "both with a hand on the standing stone, eyes closed",
+        "both standing among the giant stones, dwarfed by them"
+      ],
+      "looks": [
+        "animal-hide cloak and bone jewellery each",
+        "plain linen tunic and leather belt each",
+        "rough woven wool and fur wraps each"
+      ]
+    },
+    "ancestor vs. heir": {
+      "locs": [
+        "Viking longship museum interior",
+        "Jorvik Viking Centre York exterior"
+      ],
+      "poses": [
+        "both standing side by side, shields at their backs",
+        "both standing before the carved prow, chins high",
+        "both sharing a horn of mead by the fire"
+      ],
+      "looks": [
+        "fur-trimmed cloak and wool tunic each",
+        "woven wool dress and brooches each",
+        "leather jerkin and arm rings each"
+      ]
+    },
+    "silence vs. testimony": {
+      "locs": [
+        "Waterloo battlefield Belgium",
+        "Gettysburg battlefield Pennsylvania",
+        "Antietam battlefield Maryland dawn"
+      ],
+      "poses": [
+        "one placing flowers, the other standing very still",
+        "both gazing across the quiet fields at dawn",
+        "both silent, heads bowed, hats in hand"
+      ],
+      "looks": [
+        "dark mourning dress and shawl each",
+        "frock coat and top hat each",
+        "period military greatcoat each"
+      ]
+    },
+    "stone vs. flesh": {
+      "locs": [
+        "Parthenon pillars Athens dusk",
+        "Hadrian's Wall northern edge",
+        "Vindolanda excavation trench"
+      ],
+      "poses": [
+        "one tracing a carved inscription, the other reading aloud",
+        "both seated on worn stone steps, quiet and thoughtful",
+        "both standing between the columns, heads tilted toward the light"
+      ],
+      "looks": [
+        "Greek chiton and peplos each",
+        "Roman tunic and cloak each",
+        "draped linen toga and sandals each"
+      ]
+    },
+    "empire vs. dust": {
+      "locs": [
+        "Angkor Wat sunrise reflection pool",
+        "Egyptian pyramid at dawn no tourists"
+      ],
+      "poses": [
+        "both climbing the ancient steps, hand in hand",
+        "both kneeling to touch the carved wall",
+        "both small before the vast stonework, awestruck"
+      ],
+      "looks": [
+        "silk wrap and gilded headdress each",
+        "pleated linen robe and jewelled sandals each",
+        "draped white linen and broad gold collar each"
+      ]
+    },
+    "witness vs. unseen": {
+      "locs": [
+        "colonial port warehouse Jamaica",
+        "Bunker Hill monument Boston",
+        "Independence Hall Philadelphia"
+      ],
+      "poses": [
+        "both standing before the old building, formal and proud",
+        "both walking the dirt road, arm in arm",
+        "both reading a proclamation, heads together"
+      ],
+      "looks": [
+        "tricorn hat and waistcoat each",
+        "bonnet and long colonial gown each",
+        "frock coat and breeches each"
+      ]
+    },
+    "timeless vs. dated": {
+      "locs": [
+        "Cahokia mounds Illinois",
+        "Serpent Mound Ohio aerial view possible",
+        "Cahokia Monks Mound base"
+      ],
+      "poses": [
+        "both climbing the earthen steps, hand in hand",
+        "both kneeling to touch the weathered wall",
+        "both standing at the edge of the old stone, looking out"
+      ],
+      "looks": [
+        "feather cloak and shell necklace each",
+        "embroidered cotton tunic and sandals each",
+        "woven wool mantle and beaded jewellery each"
+      ]
+    },
+    "relic vs. ruin": {
+      "locs": [
+        "Norman castle motte and bailey",
+        "Medieval cathedral chapter house",
+        "Tudor manor hall interior timber"
+      ],
+      "poses": [
+        "both on the rampart, cloaks blowing",
+        "one reading from a manuscript, the other listening",
+        "both sitting by the fire in the great hall, goblets raised"
+      ],
+      "looks": [
+        "long gown and belted surcoat each",
+        "brocade doublet and gown each",
+        "hooded cloak and wool tunic each"
+      ]
+    },
+    "archive vs. memory": {
+      "locs": [
+        "Colonial Williamsburg street",
+        "Jamestown reconstruction Virginia",
+        "Plymouth Rock Massachusetts coast"
+      ],
+      "poses": [
+        "both walking the dirt road, arm in arm",
+        "both reading a proclamation, heads together",
+        "both standing before the old building, formal and proud"
+      ],
+      "looks": [
+        "bonnet and long colonial gown each",
+        "frock coat and breeches each",
+        "tricorn hat and waistcoat each"
+      ]
+    },
+    "revolution vs. order": {
+      "locs": [
+        "Salem witch trial memorial",
+        "colonial port warehouse Jamaica",
+        "Bunker Hill monument Boston"
+      ],
+      "poses": [
+        "both reading a proclamation, heads together",
+        "both standing before the old building, formal and proud",
+        "both walking the dirt road, arm in arm"
+      ],
+      "looks": [
+        "frock coat and breeches each",
+        "tricorn hat and waistcoat each",
+        "bonnet and long colonial gown each"
+      ]
+    },
+    "crown vs. crowd": {
+      "locs": [
+        "crumbling castle courtyard Scotland",
+        "abandoned monastery cloister Portugal",
+        "Norman castle motte and bailey"
+      ],
+      "poses": [
+        "one reading from a manuscript, the other listening",
+        "both sitting by the fire in the great hall, goblets raised",
+        "both on the rampart, cloaks blowing"
+      ],
+      "looks": [
+        "brocade doublet and gown each",
+        "hooded cloak and wool tunic each",
+        "long gown and belted surcoat each"
+      ]
+    },
+    "battlefield vs. peace": {
+      "locs": [
+        "Little Bighorn battlefield Montana",
+        "battlefield memorial dawn silence",
+        "Civil War battlefield marker dawn"
+      ],
+      "poses": [
+        "both gazing across the quiet fields at dawn",
+        "both silent, heads bowed, hats in hand",
+        "one placing flowers, the other standing very still"
+      ],
+      "looks": [
+        "frock coat and top hat each",
+        "period military greatcoat each",
+        "dark mourning dress and shawl each"
+      ]
+    },
+    "inscription vs. erasure": {
+      "locs": [
+        "ancient amphitheater stepped seats Athens",
+        "Roman forum at sunrise empty",
+        "Colosseum interior arch looking up"
+      ],
+      "poses": [
+        "both seated on worn stone steps, quiet and thoughtful",
+        "both standing between the columns, heads tilted toward the light",
+        "one tracing a carved inscription, the other reading aloud"
+      ],
+      "looks": [
+        "Roman tunic and cloak each",
+        "draped linen toga and sandals each",
+        "Greek chiton and peplos each"
+      ]
+    },
+    "then vs. now": {
+      "locs": [
+        "Tombstone Arizona OK Corral",
+        "Alamo San Antonio Texas exterior"
+      ],
+      "poses": [
+        "both squared up in the dusty road, hands near their belts",
+        "both leaning on the weathered wall, squinting",
+        "both walking the boardwalk, spurs jingling"
+      ],
+      "looks": [
+        "duster coat and wide-brimmed hat each",
+        "gingham dress and shawl each",
+        "vest and gun belt each"
+      ]
+    }
+  },
+  "promptPrefix": "Period-accurate historical photograph, authentic to the era and location depicted — ",
+  "promptSuffix": "Render with period-accurate costume, lighting and setting, in the photographic style of the era.",
+  "variantDirectives": [
+    "Wide period frame, the figures small within the historical setting: ",
+    "Full-length period frame, posture and gesture carry the feeling: ",
+    "Tight period portrait, faces fill the frame: ",
+    "Stark single-light composition, plain and minimal, as an early photograph: ",
+    "The historical place dominates the frame, the figures secondary: ",
+    "Period costume takes centre stage, the figures framed to show the dress: "
+  ],
+  "translations": {},
+  "locTypes": {
+    "ancient amphitheater stepped seats Athens": "outdoor",
+    "Roman forum at sunrise empty": "both",
+    "Colosseum interior arch looking up": "indoor",
+    "Parthenon pillars Athens dusk": "both",
+    "Hadrian's Wall northern edge": "both",
+    "Vindolanda excavation trench": "both",
+    "Egyptian pyramid at dawn no tourists": "both",
+    "Angkor Wat sunrise reflection pool": "both",
+    "Machu Picchu sun gate first light": "both",
+    "Mesa Verde cliff dwelling Colorado": "outdoor",
+    "Chaco Canyon ruins New Mexico": "outdoor",
+    "Cahokia mounds Illinois": "both",
+    "Serpent Mound Ohio aerial view possible": "both",
+    "Cahokia Monks Mound base": "both",
+    "Stonehenge solstice dawn mist": "both",
+    "Avebury stone circle walking": "both",
+    "Newgrange Ireland winter solstice": "both",
+    "Viking longship museum interior": "indoor",
+    "Jorvik Viking Centre York exterior": "outdoor",
+    "Norman castle motte and bailey": "both",
+    "Medieval cathedral chapter house": "both",
+    "Tudor manor hall interior timber": "indoor",
+    "crumbling castle courtyard Scotland": "outdoor",
+    "abandoned monastery cloister Portugal": "both",
+    "colonial port warehouse Jamaica": "indoor",
+    "Bunker Hill monument Boston": "indoor",
+    "Independence Hall Philadelphia": "both",
+    "Colonial Williamsburg street": "outdoor",
+    "Jamestown reconstruction Virginia": "both",
+    "Plymouth Rock Massachusetts coast": "outdoor",
+    "Salem witch trial memorial": "both",
+    "battlefield memorial dawn silence": "outdoor",
+    "Civil War battlefield marker dawn": "outdoor",
+    "Napoleonic battlefield monument France": "outdoor",
+    "Waterloo battlefield Belgium": "outdoor",
+    "Gettysburg battlefield Pennsylvania": "outdoor",
+    "Antietam battlefield Maryland dawn": "outdoor",
+    "Little Bighorn battlefield Montana": "outdoor",
+    "Tombstone Arizona OK Corral": "both",
+    "Alamo San Antonio Texas exterior": "outdoor",
+    "Berlin Wall remaining section": "both",
+    "Checkpoint Charlie museum exterior": "outdoor",
+    "Dresden Frauenkirche rebuilt exterior": "outdoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

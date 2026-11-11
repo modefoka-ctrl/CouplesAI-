@@ -1,0 +1,310 @@
+{
+  "id": "rooftop",
+  "name": "THE ROOFTOP",
+  "sub": "Havana Lines, Tokyo Neon & the City from Above",
+  "color": "#2a6a5a",
+  "tensions": [
+    "above vs. below",
+    "escape vs. city",
+    "private vs. public height",
+    "the city vs. the person on it",
+    "seen from above vs. unseen",
+    "the roof vs. the world beneath",
+    "freedom vs. exposure",
+    "the edge vs. the centre",
+    "dawn vs. dusk from above",
+    "small vs. vast city spread"
+  ],
+  "affinities": {
+    "above vs. below": {
+      "locs": [
+        "New York water tower rooftop Manhattan skyline dawn",
+        "Brooklyn rooftop Manhattan bridge view sunset",
+        "New York rooftop 1970s vintage city behind"
+      ],
+      "poses": [
+        "both stretched out on a blanket, the skyline beyond",
+        "both leaning on the tank watching the light change",
+        "both clinking bottles at the edge"
+      ],
+      "looks": [
+        "denim jacket and white tee each",
+        "leather jacket and boots each",
+        "knit sweater and jeans each"
+      ]
+    },
+    "escape vs. city": {
+      "locs": [
+        "Tokyo neon rooftop water tank city spread night dense",
+        "Hong Kong cage home rooftop dense city beyond dramatic",
+        "Seoul rooftop Han River beyond night neon"
+      ],
+      "poses": [
+        "both silhouetted against glowing signs, shoulder to shoulder",
+        "both sitting on a water tank, sharing a drink",
+        "both leaning on the railing, faces lit by neon"
+      ],
+      "looks": [
+        "oversized streetwear jacket and sneakers each",
+        "layered black techwear each",
+        "bomber jacket and pleated skirt each"
+      ]
+    },
+    "private vs. public height": {
+      "locs": [
+        "Paris Haussmann rooftop chimney zinc dawn golden",
+        "Paris rooftop Eiffel visible golden light",
+        "Paris rooftop 6th arrondissement zinc slate dawn"
+      ],
+      "poses": [
+        "both with coffee cups, leaning on the chimney stack",
+        "both perched by the skylight in the early light",
+        "both pointing out landmarks, arms around each other"
+      ],
+      "looks": [
+        "striped breton top and trench coat each",
+        "silk scarf and tailored jacket each",
+        "wool coat and beret each"
+      ]
+    },
+    "the city vs. the person on it": {
+      "locs": [
+        "Havana rooftop washing lines crumbling colonial city below",
+        "Havana rooftop 1950s Chevrolet visible below dawn",
+        "Havana rooftop Malecón sea beyond crumbling beautiful"
+      ],
+      "poses": [
+        "both leaning on the parapet beside a line of washing, laughing",
+        "both sitting on a crumbling ledge, legs dangling",
+        "both hanging a sheet on the line together"
+      ],
+      "looks": [
+        "thin cotton shirt and rolled trousers each",
+        "summer dress and sandals each",
+        "vest and linen shorts each"
+      ]
+    },
+    "seen from above vs. unseen": {
+      "locs": [
+        "Detroit abandoned factory rooftop city below dramatic",
+        "rooftop garden city dawn first light plants",
+        "rooftop pool city below luxury night reflection"
+      ],
+      "poses": [
+        "both wrapped in blankets at the edge, watching the night",
+        "both walking the edge with arms out for balance",
+        "both lying back, looking at the sky"
+      ],
+      "looks": [
+        "workwear jacket and boots each",
+        "oversized sweater and jeans each",
+        "puffer jacket and beanie each"
+      ]
+    },
+    "the roof vs. the world beneath": {
+      "locs": [
+        "Istanbul rooftop mosque minaret city both sides",
+        "São Paulo rooftop favela meets glass tower",
+        "Beirut rooftop bullet holes city rebuild"
+      ],
+      "poses": [
+        "both framed against the sprawling skyline, quiet",
+        "both listening to the city's evening noise rise from below",
+        "both leaning together above the crowded streets"
+      ],
+      "looks": [
+        "loose cotton shirt and scarf each",
+        "long tunic and light trousers each",
+        "simple dress and shawl each"
+      ]
+    },
+    "freedom vs. exposure": {
+      "locs": [
+        "Lisbon Alfama rooftop tile fado city below",
+        "Porto rooftop azulejo tile city below river",
+        "Rome rooftop terracotta dome city eternal"
+      ],
+      "poses": [
+        "both lounging on warm tiles, sun on their faces",
+        "both sharing grapes on the terrace",
+        "both laughing as a church bell rings"
+      ],
+      "looks": [
+        "linen shirt and straw hat each",
+        "sundress and espadrilles each",
+        "rolled-sleeve shirt and light trousers each"
+      ]
+    },
+    "the edge vs. the centre": {
+      "locs": [
+        "rooftop helipad empty city spread dramatic",
+        "rooftop solar panels practical city beyond",
+        "Detroit abandoned factory rooftop city below dramatic"
+      ],
+      "poses": [
+        "both wrapped in blankets at the edge, watching the night",
+        "both walking the edge with arms out for balance",
+        "both lying back, looking at the sky"
+      ],
+      "looks": [
+        "workwear jacket and boots each",
+        "oversized sweater and jeans each",
+        "puffer jacket and beanie each"
+      ]
+    },
+    "dawn vs. dusk from above": {
+      "locs": [
+        "Paris Haussmann rooftop chimney zinc dawn golden",
+        "Paris rooftop Eiffel visible golden light",
+        "Paris rooftop 6th arrondissement zinc slate dawn"
+      ],
+      "poses": [
+        "both with coffee cups, leaning on the chimney stack",
+        "both perched by the skylight in the early light",
+        "both pointing out landmarks, arms around each other"
+      ],
+      "looks": [
+        "striped breton top and trench coat each",
+        "silk scarf and tailored jacket each",
+        "wool coat and beret each"
+      ]
+    },
+    "small vs. vast city spread": {
+      "locs": [
+        "Havana rooftop washing lines crumbling colonial city below",
+        "Havana rooftop 1950s Chevrolet visible below dawn",
+        "Havana rooftop Malecón sea beyond crumbling beautiful"
+      ],
+      "poses": [
+        "both leaning on the parapet beside a line of washing, laughing",
+        "both sitting on a crumbling ledge, legs dangling",
+        "both hanging a sheet on the line together"
+      ],
+      "looks": [
+        "thin cotton shirt and rolled trousers each",
+        "summer dress and sandals each",
+        "vest and linen shorts each"
+      ]
+    }
+  },
+  "locs": [
+    "Havana rooftop washing lines crumbling colonial city below",
+    "Havana rooftop 1950s Chevrolet visible below dawn",
+    "Havana rooftop Malecón sea beyond crumbling beautiful",
+    "Tokyo neon rooftop water tank city spread night dense",
+    "Hong Kong cage home rooftop dense city beyond dramatic",
+    "Seoul rooftop Han River beyond night neon",
+    "Osaka rooftop dense city night neon sign",
+    "New York water tower rooftop Manhattan skyline dawn",
+    "Brooklyn rooftop Manhattan bridge view sunset",
+    "New York rooftop 1970s vintage city behind",
+    "New York rooftop party night skyline",
+    "Chicago water tower rooftop industrial city",
+    "Paris Haussmann rooftop chimney zinc dawn golden",
+    "Paris rooftop Eiffel visible golden light",
+    "Paris rooftop 6th arrondissement zinc slate dawn",
+    "Lisbon Alfama rooftop tile fado city below",
+    "Porto rooftop azulejo tile city below river",
+    "Rome rooftop terracotta dome city eternal",
+    "Naples rooftop Vesuvius beyond city below",
+    "Athens rooftop Acropolis visible dramatic dusk",
+    "Istanbul rooftop mosque minaret city both sides",
+    "São Paulo rooftop favela meets glass tower",
+    "Beirut rooftop bullet holes city rebuild",
+    "Cairo rooftop minaret city ancient sprawl",
+    "Mumbai rooftop slum city beyond contrast",
+    "Detroit abandoned factory rooftop city below dramatic",
+    "rooftop garden city dawn first light plants",
+    "rooftop pool city below luxury night reflection",
+    "rooftop helipad empty city spread dramatic",
+    "rooftop solar panels practical city beyond"
+  ],
+  "poses": [
+    "both leaning on the parapet beside a line of washing, laughing",
+    "both sitting on a crumbling ledge, legs dangling",
+    "both hanging a sheet on the line together",
+    "both silhouetted against glowing signs, shoulder to shoulder",
+    "both sitting on a water tank, sharing a drink",
+    "both leaning on the railing, faces lit by neon",
+    "both stretched out on a blanket, the skyline beyond",
+    "both leaning on the tank watching the light change",
+    "both clinking bottles at the edge",
+    "both with coffee cups, leaning on the chimney stack",
+    "both perched by the skylight in the early light",
+    "both pointing out landmarks, arms around each other",
+    "both lounging on warm tiles, sun on their faces",
+    "both sharing grapes on the terrace",
+    "both laughing as a church bell rings",
+    "both framed against the sprawling skyline, quiet",
+    "both listening to the city's evening noise rise from below",
+    "both leaning together above the crowded streets",
+    "both wrapped in blankets at the edge, watching the night",
+    "both walking the edge with arms out for balance",
+    "both lying back, looking at the sky"
+  ],
+  "looks": [
+    "thin cotton shirt and rolled trousers each",
+    "summer dress and sandals each",
+    "vest and linen shorts each",
+    "oversized streetwear jacket and sneakers each",
+    "layered black techwear each",
+    "bomber jacket and pleated skirt each",
+    "denim jacket and white tee each",
+    "leather jacket and boots each",
+    "knit sweater and jeans each",
+    "striped breton top and trench coat each",
+    "silk scarf and tailored jacket each",
+    "wool coat and beret each",
+    "linen shirt and straw hat each",
+    "sundress and espadrilles each",
+    "rolled-sleeve shirt and light trousers each",
+    "loose cotton shirt and scarf each",
+    "long tunic and light trousers each",
+    "simple dress and shawl each",
+    "workwear jacket and boots each",
+    "oversized sweater and jeans each",
+    "puffer jacket and beanie each"
+  ],
+  "promptSuffix": "Colour grade: specific to each city rooftop — Havana ochre and decay, Tokyo neon dense, Paris zinc dawn gold, New York water tower dramatic. The city below is always part of the frame.",
+  "translations": {
+    "above vs. below": "above pressing against below",
+    "private vs. public height": "private at the top of a very public city"
+  },
+  "locTypes": {
+    "Havana rooftop washing lines crumbling colonial city below": "outdoor",
+    "Havana rooftop 1950s Chevrolet visible below dawn": "outdoor",
+    "Havana rooftop Malecón sea beyond crumbling beautiful": "outdoor",
+    "Tokyo neon rooftop water tank city spread night dense": "outdoor",
+    "Hong Kong cage home rooftop dense city beyond dramatic": "outdoor",
+    "Seoul rooftop Han River beyond night neon": "outdoor",
+    "Osaka rooftop dense city night neon sign": "outdoor",
+    "New York water tower rooftop Manhattan skyline dawn": "outdoor",
+    "Brooklyn rooftop Manhattan bridge view sunset": "outdoor",
+    "New York rooftop 1970s vintage city behind": "outdoor",
+    "New York rooftop party night skyline": "outdoor",
+    "Chicago water tower rooftop industrial city": "outdoor",
+    "Paris Haussmann rooftop chimney zinc dawn golden": "outdoor",
+    "Paris rooftop Eiffel visible golden light": "outdoor",
+    "Paris rooftop 6th arrondissement zinc slate dawn": "outdoor",
+    "Lisbon Alfama rooftop tile fado city below": "outdoor",
+    "Porto rooftop azulejo tile city below river": "outdoor",
+    "Rome rooftop terracotta dome city eternal": "outdoor",
+    "Naples rooftop Vesuvius beyond city below": "outdoor",
+    "Athens rooftop Acropolis visible dramatic dusk": "outdoor",
+    "Istanbul rooftop mosque minaret city both sides": "outdoor",
+    "São Paulo rooftop favela meets glass tower": "outdoor",
+    "Beirut rooftop bullet holes city rebuild": "outdoor",
+    "Cairo rooftop minaret city ancient sprawl": "outdoor",
+    "Mumbai rooftop slum city beyond contrast": "outdoor",
+    "Detroit abandoned factory rooftop city below dramatic": "outdoor",
+    "rooftop garden city dawn first light plants": "outdoor",
+    "rooftop pool city below luxury night reflection": "outdoor",
+    "rooftop helipad empty city spread dramatic": "outdoor",
+    "rooftop solar panels practical city beyond": "outdoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

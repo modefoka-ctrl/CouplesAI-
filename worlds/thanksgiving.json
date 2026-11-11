@@ -1,0 +1,277 @@
+{
+  "id": "thanksgiving",
+  "name": "THANKSGIVING",
+  "sub": "Harvest, Gratitude & the American Table",
+  "color": "#c4620a",
+  "tensions": [
+    "gratitude vs. guilt",
+    "abundance vs. absence",
+    "together vs. apart",
+    "tradition vs. change",
+    "past vs. present",
+    "the table vs. who is missing",
+    "warmth vs. obligation",
+    "feast vs. famine",
+    "family vs. chosen family",
+    "home vs. displacement"
+  ],
+  "affinities": {
+    "gratitude vs. guilt": {
+      "locs": [
+        "thanksgiving table full harvest decorations afternoon",
+        "dining room set table thanksgiving anticipation",
+        "dining table empty setting thanksgiving anticipation"
+      ],
+      "poses": [
+        "both at the head of the table, hands clasped before the meal",
+        "both raising a glass over the laden feast",
+        "both laughing, passing dishes around"
+      ],
+      "looks": [
+        "autumn knitwear and smart trousers each",
+        "burnt-orange sweater and dark jeans each",
+        "family-gathering best casual each"
+      ]
+    },
+    "abundance vs. absence": {
+      "locs": [
+        "dining room candles thanksgiving evening",
+        "living room after dinner thanksgiving evening",
+        "thanksgiving table full harvest decorations afternoon"
+      ],
+      "poses": [
+        "both raising a glass over the laden feast",
+        "both laughing, passing dishes around",
+        "both at the head of the table, hands clasped before the meal"
+      ],
+      "looks": [
+        "burnt-orange sweater and dark jeans each",
+        "family-gathering best casual each",
+        "autumn knitwear and smart trousers each"
+      ]
+    },
+    "together vs. apart": {
+      "locs": [
+        "parade crowd thanksgiving morning city",
+        "small town parade thanksgiving morning",
+        "airport arrival thanksgiving reunion"
+      ],
+      "poses": [
+        "both hugging tightly, bags dropped at their feet",
+        "both cheering the passing floats",
+        "both sprawled on the sofa, laughing at the game"
+      ],
+      "looks": [
+        "travelling coat and scarf each",
+        "casual autumn layers each",
+        "warm cardigan and jeans each"
+      ]
+    },
+    "tradition vs. change": {
+      "locs": [
+        "kitchen cooking thanksgiving morning steam",
+        "kitchen table morning coffee thanksgiving preparation",
+        "supermarket thanksgiving eve last minute"
+      ],
+      "poses": [
+        "both cooking, flour on their noses",
+        "both washing up side by side, laughing",
+        "one tasting the stuffing, the other pretending to disapprove"
+      ],
+      "looks": [
+        "apron over smart casual clothes each",
+        "rolled-up sleeves and kitchen apron each",
+        "warm jumper and apron each"
+      ]
+    },
+    "past vs. present": {
+      "locs": [
+        "front porch autumn leaves afternoon golden",
+        "front door wreath autumn thanksgiving",
+        "backyard afternoon thanksgiving football"
+      ],
+      "poses": [
+        "both walking arm in arm through falling leaves",
+        "both tossing a ball, laughing",
+        "both sitting close on the steps, warm drinks in hand"
+      ],
+      "looks": [
+        "chunky scarf and autumn jacket each",
+        "plaid shirt and wool coat each",
+        "earth-toned layers and boots each"
+      ]
+    },
+    "the table vs. who is missing": {
+      "locs": [
+        "dining room set table thanksgiving anticipation",
+        "dining table empty setting thanksgiving anticipation",
+        "dining room candles thanksgiving evening"
+      ],
+      "poses": [
+        "both laughing, passing dishes around",
+        "both at the head of the table, hands clasped before the meal",
+        "both raising a glass over the laden feast"
+      ],
+      "looks": [
+        "family-gathering best casual each",
+        "autumn knitwear and smart trousers each",
+        "burnt-orange sweater and dark jeans each"
+      ]
+    },
+    "warmth vs. obligation": {
+      "locs": [
+        "autumn farm stand harvest thanksgiving morning",
+        "kitchen sink washing up thanksgiving evening",
+        "kitchen cooking thanksgiving morning steam"
+      ],
+      "poses": [
+        "both washing up side by side, laughing",
+        "one tasting the stuffing, the other pretending to disapprove",
+        "both cooking, flour on their noses"
+      ],
+      "looks": [
+        "rolled-up sleeves and kitchen apron each",
+        "warm jumper and apron each",
+        "apron over smart casual clothes each"
+      ]
+    },
+    "feast vs. famine": {
+      "locs": [
+        "living room after dinner thanksgiving evening",
+        "thanksgiving table full harvest decorations afternoon",
+        "dining room set table thanksgiving anticipation"
+      ],
+      "poses": [
+        "both at the head of the table, hands clasped before the meal",
+        "both raising a glass over the laden feast",
+        "both laughing, passing dishes around"
+      ],
+      "looks": [
+        "autumn knitwear and smart trousers each",
+        "burnt-orange sweater and dark jeans each",
+        "family-gathering best casual each"
+      ]
+    },
+    "family vs. chosen family": {
+      "locs": [
+        "family living room thanksgiving afternoon football",
+        "parade crowd thanksgiving morning city",
+        "small town parade thanksgiving morning"
+      ],
+      "poses": [
+        "both cheering the passing floats",
+        "both sprawled on the sofa, laughing at the game",
+        "both hugging tightly, bags dropped at their feet"
+      ],
+      "looks": [
+        "casual autumn layers each",
+        "warm cardigan and jeans each",
+        "travelling coat and scarf each"
+      ]
+    },
+    "home vs. displacement": {
+      "locs": [
+        "autumn park walk thanksgiving afternoon",
+        "backyard bonfire after thanksgiving evening",
+        "neighbourhood thanksgiving morning quiet"
+      ],
+      "poses": [
+        "both tossing a ball, laughing",
+        "both sitting close on the steps, warm drinks in hand",
+        "both walking arm in arm through falling leaves"
+      ],
+      "looks": [
+        "plaid shirt and wool coat each",
+        "earth-toned layers and boots each",
+        "chunky scarf and autumn jacket each"
+      ]
+    }
+  },
+  "locs": [
+    "kitchen cooking thanksgiving morning steam",
+    "kitchen table morning coffee thanksgiving preparation",
+    "supermarket thanksgiving eve last minute",
+    "autumn farm stand harvest thanksgiving morning",
+    "kitchen sink washing up thanksgiving evening",
+    "thanksgiving table full harvest decorations afternoon",
+    "dining room set table thanksgiving anticipation",
+    "dining table empty setting thanksgiving anticipation",
+    "dining room candles thanksgiving evening",
+    "living room after dinner thanksgiving evening",
+    "front porch autumn leaves afternoon golden",
+    "front door wreath autumn thanksgiving",
+    "backyard afternoon thanksgiving football",
+    "autumn park walk thanksgiving afternoon",
+    "backyard bonfire after thanksgiving evening",
+    "neighbourhood thanksgiving morning quiet",
+    "parade crowd thanksgiving morning city",
+    "small town parade thanksgiving morning",
+    "airport arrival thanksgiving reunion",
+    "family living room thanksgiving afternoon football"
+  ],
+  "poses": [
+    "both cooking, flour on their noses",
+    "both washing up side by side, laughing",
+    "one tasting the stuffing, the other pretending to disapprove",
+    "both at the head of the table, hands clasped before the meal",
+    "both raising a glass over the laden feast",
+    "both laughing, passing dishes around",
+    "both walking arm in arm through falling leaves",
+    "both tossing a ball, laughing",
+    "both sitting close on the steps, warm drinks in hand",
+    "both hugging tightly, bags dropped at their feet",
+    "both cheering the passing floats",
+    "both sprawled on the sofa, laughing at the game"
+  ],
+  "looks": [
+    "apron over smart casual clothes each",
+    "rolled-up sleeves and kitchen apron each",
+    "warm jumper and apron each",
+    "autumn knitwear and smart trousers each",
+    "burnt-orange sweater and dark jeans each",
+    "family-gathering best casual each",
+    "chunky scarf and autumn jacket each",
+    "plaid shirt and wool coat each",
+    "earth-toned layers and boots each",
+    "travelling coat and scarf each",
+    "casual autumn layers each",
+    "warm cardigan and jeans each"
+  ],
+  "promptSuffix": "Colour grade: amber, burnt orange, deep rust — the harvest palette. Warm indoor light, autumn afternoon gold outside.",
+  "translations": {
+    "gratitude vs. guilt": "thank you and I’m sorry in the same breath",
+    "tradition vs. change": "the tradition and the change that threatens or renews it",
+    "the table vs. who is missing": "every chair that is filled and the one that isn’t",
+    "warmth vs. obligation": "showing up because you want to and showing up because you must",
+    "feast vs. famine": "the abundance on one table and what it means",
+    "family vs. chosen family": "the table you were born to and the one you chose",
+    "home vs. displacement": "the place the holiday imagines and the place some people can’t return to"
+  },
+  "locTypes": {
+    "kitchen cooking thanksgiving morning steam": "indoor",
+    "kitchen table morning coffee thanksgiving preparation": "indoor",
+    "supermarket thanksgiving eve last minute": "both",
+    "autumn farm stand harvest thanksgiving morning": "outdoor",
+    "kitchen sink washing up thanksgiving evening": "indoor",
+    "thanksgiving table full harvest decorations afternoon": "both",
+    "dining room set table thanksgiving anticipation": "indoor",
+    "dining table empty setting thanksgiving anticipation": "both",
+    "dining room candles thanksgiving evening": "indoor",
+    "living room after dinner thanksgiving evening": "indoor",
+    "front porch autumn leaves afternoon golden": "outdoor",
+    "front door wreath autumn thanksgiving": "outdoor",
+    "backyard afternoon thanksgiving football": "both",
+    "autumn park walk thanksgiving afternoon": "outdoor",
+    "backyard bonfire after thanksgiving evening": "both",
+    "neighbourhood thanksgiving morning quiet": "both",
+    "parade crowd thanksgiving morning city": "outdoor",
+    "small town parade thanksgiving morning": "outdoor",
+    "airport arrival thanksgiving reunion": "both",
+    "family living room thanksgiving afternoon football": "indoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

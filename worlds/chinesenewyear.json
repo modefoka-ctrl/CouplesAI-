@@ -1,0 +1,280 @@
+{
+  "id": "chinesenewyear",
+  "name": "CHINESE NEW YEAR",
+  "sub": "Red Lanterns & the Lunar Turn",
+  "color": "#c41400",
+  "tensions": [
+    "old vs. new",
+    "luck vs. fear",
+    "together vs. scattered",
+    "tradition vs. change",
+    "past vs. future",
+    "the family table vs. the world outside",
+    "red vs. the ordinary",
+    "celebration vs. longing",
+    "the year ending vs. the year beginning",
+    "home vs. diaspora"
+  ],
+  "affinities": {
+    "old vs. new": {
+      "locs": [
+        "lion dance street performance chinese new year morning",
+        "chinatown parade dragon lion dance day",
+        "community hall chinese new year celebration"
+      ],
+      "poses": [
+        "both ducking as the lion sweeps past",
+        "both cheering in the crowd, arms raised",
+        "both mid-step among drummers, laughing"
+      ],
+      "looks": [
+        "bright red coat and festive scarf each",
+        "red knit and gold accents each",
+        "embroidered jacket and trousers each"
+      ]
+    },
+    "luck vs. fear": {
+      "locs": [
+        "chinese new year lanterns street night red gold",
+        "lantern festival street night chinese new year",
+        "night market chinese new year lanterns evening"
+      ],
+      "poses": [
+        "both holding up glowing lanterns, faces lit red",
+        "both strolling beneath rows of lights, hand in hand",
+        "both laughing under a shower of sparks"
+      ],
+      "looks": [
+        "red silk jacket and gold embroidery each",
+        "embroidered qipao and tailored changshan each",
+        "red and gold festive outfit each"
+      ]
+    },
+    "together vs. scattered": {
+      "locs": [
+        "family reunion dinner table chinese new year eve",
+        "family home decorations red gold new year",
+        "dumpling making family table new year eve"
+      ],
+      "poses": [
+        "both seated at a crowded table, passing dishes",
+        "both folding dumplings, flour on their hands",
+        "one handing the other a small envelope, smiling"
+      ],
+      "looks": [
+        "red sweater and smart trousers each",
+        "silk blouse and neat shirt each",
+        "new festive outfit, all in red each"
+      ]
+    },
+    "tradition vs. change": {
+      "locs": [
+        "temple prayers new year morning incense",
+        "temple fair new year blessing morning",
+        "market new year goods red decorations morning"
+      ],
+      "poses": [
+        "both bowing, smoke curling around them",
+        "both choosing blossoms from a stall, delighted",
+        "both holding bundles of festive goods"
+      ],
+      "looks": [
+        "warm coat and red scarf each",
+        "padded jacket and wool hat each",
+        "long coat and gloves each"
+      ]
+    },
+    "past vs. future": {
+      "locs": [
+        "fireworks chinatown street midnight new year",
+        "harbour fireworks chinese new year midnight"
+      ],
+      "poses": [
+        "both gazing up at bursting colour, faces glowing",
+        "both cheering with sparks reflected in their eyes",
+        "both silhouetted against the light show"
+      ],
+      "looks": [
+        "warm winter coat and red hat each",
+        "dark coat with a red scarf each",
+        "padded jacket and gold-trimmed scarf each"
+      ]
+    },
+    "the family table vs. the world outside": {
+      "locs": [
+        "restaurant family new year dinner formal",
+        "family home new year eve countdown midnight",
+        "red envelope giving family chinese new year"
+      ],
+      "poses": [
+        "both seated at a crowded table, passing dishes",
+        "both folding dumplings, flour on their hands",
+        "one handing the other a small envelope, smiling"
+      ],
+      "looks": [
+        "red sweater and smart trousers each",
+        "silk blouse and neat shirt each",
+        "new festive outfit, all in red each"
+      ]
+    },
+    "red vs. the ordinary": {
+      "locs": [
+        "chinese new year fair stalls lights evening",
+        "chinatown exterior red lanterns night",
+        "chinese new year lanterns street night red gold"
+      ],
+      "poses": [
+        "both holding up glowing lanterns, faces lit red",
+        "both strolling beneath rows of lights, hand in hand",
+        "both laughing under a shower of sparks"
+      ],
+      "looks": [
+        "red silk jacket and gold embroidery each",
+        "embroidered qipao and tailored changshan each",
+        "red and gold festive outfit each"
+      ]
+    },
+    "celebration vs. longing": {
+      "locs": [
+        "harbour fireworks chinese new year midnight",
+        "fireworks chinatown street midnight new year"
+      ],
+      "poses": [
+        "both gazing up at bursting colour, faces glowing",
+        "both cheering with sparks reflected in their eyes",
+        "both silhouetted against the light show"
+      ],
+      "looks": [
+        "warm winter coat and red hat each",
+        "dark coat with a red scarf each",
+        "padded jacket and gold-trimmed scarf each"
+      ]
+    },
+    "the year ending vs. the year beginning": {
+      "locs": [
+        "flower market new year morning purchases",
+        "temple prayers new year morning incense",
+        "temple fair new year blessing morning"
+      ],
+      "poses": [
+        "both bowing, smoke curling around them",
+        "both choosing blossoms from a stall, delighted",
+        "both holding bundles of festive goods"
+      ],
+      "looks": [
+        "warm coat and red scarf each",
+        "padded jacket and wool hat each",
+        "long coat and gloves each"
+      ]
+    },
+    "home vs. diaspora": {
+      "locs": [
+        "family reunion dinner table chinese new year eve",
+        "family home decorations red gold new year",
+        "dumpling making family table new year eve"
+      ],
+      "poses": [
+        "both seated at a crowded table, passing dishes",
+        "both folding dumplings, flour on their hands",
+        "one handing the other a small envelope, smiling"
+      ],
+      "looks": [
+        "red sweater and smart trousers each",
+        "silk blouse and neat shirt each",
+        "new festive outfit, all in red each"
+      ]
+    }
+  },
+  "locs": [
+    "chinese new year lanterns street night red gold",
+    "lantern festival street night chinese new year",
+    "night market chinese new year lanterns evening",
+    "chinese new year fair stalls lights evening",
+    "chinatown exterior red lanterns night",
+    "lion dance street performance chinese new year morning",
+    "chinatown parade dragon lion dance day",
+    "community hall chinese new year celebration",
+    "family reunion dinner table chinese new year eve",
+    "family home decorations red gold new year",
+    "dumpling making family table new year eve",
+    "restaurant family new year dinner formal",
+    "family home new year eve countdown midnight",
+    "red envelope giving family chinese new year",
+    "temple prayers new year morning incense",
+    "temple fair new year blessing morning",
+    "market new year goods red decorations morning",
+    "flower market new year morning purchases",
+    "fireworks chinatown street midnight new year",
+    "harbour fireworks chinese new year midnight"
+  ],
+  "poses": [
+    "both holding up glowing lanterns, faces lit red",
+    "both strolling beneath rows of lights, hand in hand",
+    "both laughing under a shower of sparks",
+    "both ducking as the lion sweeps past",
+    "both cheering in the crowd, arms raised",
+    "both mid-step among drummers, laughing",
+    "both seated at a crowded table, passing dishes",
+    "both folding dumplings, flour on their hands",
+    "one handing the other a small envelope, smiling",
+    "both bowing, smoke curling around them",
+    "both choosing blossoms from a stall, delighted",
+    "both holding bundles of festive goods",
+    "both gazing up at bursting colour, faces glowing",
+    "both cheering with sparks reflected in their eyes",
+    "both silhouetted against the light show"
+  ],
+  "looks": [
+    "red silk jacket and gold embroidery each",
+    "embroidered qipao and tailored changshan each",
+    "red and gold festive outfit each",
+    "bright red coat and festive scarf each",
+    "red knit and gold accents each",
+    "embroidered jacket and trousers each",
+    "red sweater and smart trousers each",
+    "silk blouse and neat shirt each",
+    "new festive outfit, all in red each",
+    "warm coat and red scarf each",
+    "padded jacket and wool hat each",
+    "long coat and gloves each",
+    "warm winter coat and red hat each",
+    "dark coat with a red scarf each",
+    "padded jacket and gold-trimmed scarf each"
+  ],
+  "promptSuffix": "Colour grade: deep red, gold, the warm orange of lantern light — the palette of Chinese New Year. Fireworks, silk, the warmth of family reunion. Rich and celebratory.",
+  "translations": {
+    "tradition vs. change": "the tradition and the change that threatens or renews it",
+    "the family table vs. the world outside": "reunion and the world that made reunion necessary",
+    "red vs. the ordinary": "the colour of luck against everything that isn’t",
+    "celebration vs. longing": "the new year and the people not at the table",
+    "the year ending vs. the year beginning": "the hinge between what was and what might be",
+    "home vs. diaspora": "chinese new year in the country you left and the country you’re in"
+  },
+  "locTypes": {
+    "chinese new year lanterns street night red gold": "outdoor",
+    "lantern festival street night chinese new year": "outdoor",
+    "night market chinese new year lanterns evening": "outdoor",
+    "chinese new year fair stalls lights evening": "both",
+    "chinatown exterior red lanterns night": "outdoor",
+    "lion dance street performance chinese new year morning": "outdoor",
+    "chinatown parade dragon lion dance day": "outdoor",
+    "community hall chinese new year celebration": "indoor",
+    "family reunion dinner table chinese new year eve": "both",
+    "family home decorations red gold new year": "indoor",
+    "dumpling making family table new year eve": "both",
+    "restaurant family new year dinner formal": "indoor",
+    "family home new year eve countdown midnight": "indoor",
+    "red envelope giving family chinese new year": "both",
+    "temple prayers new year morning incense": "both",
+    "temple fair new year blessing morning": "outdoor",
+    "market new year goods red decorations morning": "both",
+    "flower market new year morning purchases": "outdoor",
+    "fireworks chinatown street midnight new year": "outdoor",
+    "harbour fireworks chinese new year midnight": "outdoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

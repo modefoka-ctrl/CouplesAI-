@@ -1,0 +1,271 @@
+{
+  "id": "halloween",
+  "name": "HALLOWEEN",
+  "sub": "Darkness, Costume & the Veil Between",
+  "color": "#e85a00",
+  "tensions": [
+    "costume vs. self",
+    "fear vs. delight",
+    "real vs. imagined",
+    "child vs. adult",
+    "darkness vs. light",
+    "trick vs. treat",
+    "seen vs. hidden",
+    "the mask vs. the face",
+    "dead vs. alive",
+    "sacred vs. spectacle"
+  ],
+  "affinities": {
+    "costume vs. self": {
+      "locs": [
+        "halloween porch carved pumpkins orange night",
+        "suburban trick or treat street night",
+        "carved pumpkin line porch steps evening"
+      ],
+      "poses": [
+        "both on the porch in matching costumes, candy bags held out",
+        "both answering the door, mid-scare, laughing",
+        "both posed beside the carved pumpkins, candle glow on their faces"
+      ],
+      "looks": [
+        "witch and vampire couples costume each",
+        "classic horror monster costumes each",
+        "skeleton bodysuit and face paint each"
+      ]
+    },
+    "fear vs. delight": {
+      "locs": [
+        "haunted house decorated exterior night",
+        "cemetery halloween decorated night moon",
+        "graveyard fog machine night halloween"
+      ],
+      "poses": [
+        "both creeping through the fog, one clutching the other's sleeve",
+        "both lit from below by a flickering torch, faces eerie",
+        "both frozen mid-scream, playful and terrified"
+      ],
+      "looks": [
+        "ghost sheet and tattered cloak each",
+        "zombie makeup and torn formal wear each",
+        "gothic black and lace each"
+      ]
+    },
+    "real vs. imagined": {
+      "locs": [
+        "haunted hayride field night dark",
+        "corn maze halloween night torches",
+        "halloween fog street night orange glow"
+      ],
+      "poses": [
+        "both lit from below by a flickering torch, faces eerie",
+        "both frozen mid-scream, playful and terrified",
+        "both creeping through the fog, one clutching the other's sleeve"
+      ],
+      "looks": [
+        "zombie makeup and torn formal wear each",
+        "gothic black and lace each",
+        "ghost sheet and tattered cloak each"
+      ]
+    },
+    "child vs. adult": {
+      "locs": [
+        "front door decorated cobwebs night",
+        "halloween street blocked cars candy night",
+        "jack o lantern lit porch dark night"
+      ],
+      "poses": [
+        "both answering the door, mid-scare, laughing",
+        "both posed beside the carved pumpkins, candle glow on their faces",
+        "both on the porch in matching costumes, candy bags held out"
+      ],
+      "looks": [
+        "classic horror monster costumes each",
+        "skeleton bodysuit and face paint each",
+        "witch and vampire couples costume each"
+      ]
+    },
+    "darkness vs. light": {
+      "locs": [
+        "halloween bonfire field night dark",
+        "haunted house decorated exterior night",
+        "cemetery halloween decorated night moon"
+      ],
+      "poses": [
+        "both frozen mid-scream, playful and terrified",
+        "both creeping through the fog, one clutching the other's sleeve",
+        "both lit from below by a flickering torch, faces eerie"
+      ],
+      "looks": [
+        "gothic black and lace each",
+        "ghost sheet and tattered cloak each",
+        "zombie makeup and torn formal wear each"
+      ]
+    },
+    "trick vs. treat": {
+      "locs": [
+        "halloween porch carved pumpkins orange night",
+        "suburban trick or treat street night",
+        "carved pumpkin line porch steps evening"
+      ],
+      "poses": [
+        "both posed beside the carved pumpkins, candle glow on their faces",
+        "both on the porch in matching costumes, candy bags held out",
+        "both answering the door, mid-scare, laughing"
+      ],
+      "looks": [
+        "skeleton bodysuit and face paint each",
+        "witch and vampire couples costume each",
+        "classic horror monster costumes each"
+      ]
+    },
+    "seen vs. hidden": {
+      "locs": [
+        "halloween costume party interior crowded",
+        "halloween parade street costumes night",
+        "apple bobbing tub indoor halloween party"
+      ],
+      "poses": [
+        "both mid-dance, costumes swirling, the crowd behind them",
+        "both bobbing for apples, faces dripping, laughing",
+        "both striking a spooky pose, ready for the contest"
+      ],
+      "looks": [
+        "matching couples costume each",
+        "homemade creative costume each",
+        "retro horror costume each"
+      ]
+    },
+    "the mask vs. the face": {
+      "locs": [
+        "halloween disco venue costumes night",
+        "school halloween parade daytime",
+        "halloween market stalls night orange"
+      ],
+      "poses": [
+        "both bobbing for apples, faces dripping, laughing",
+        "both striking a spooky pose, ready for the contest",
+        "both mid-dance, costumes swirling, the crowd behind them"
+      ],
+      "looks": [
+        "homemade creative costume each",
+        "retro horror costume each",
+        "matching couples costume each"
+      ]
+    },
+    "dead vs. alive": {
+      "locs": [
+        "graveyard fog machine night halloween",
+        "haunted hayride field night dark",
+        "corn maze halloween night torches"
+      ],
+      "poses": [
+        "both creeping through the fog, one clutching the other's sleeve",
+        "both lit from below by a flickering torch, faces eerie",
+        "both frozen mid-scream, playful and terrified"
+      ],
+      "looks": [
+        "ghost sheet and tattered cloak each",
+        "zombie makeup and torn formal wear each",
+        "gothic black and lace each"
+      ]
+    },
+    "sacred vs. spectacle": {
+      "locs": [
+        "halloween carnival funfair night orange",
+        "halloween costume party interior crowded",
+        "halloween parade street costumes night"
+      ],
+      "poses": [
+        "both striking a spooky pose, ready for the contest",
+        "both mid-dance, costumes swirling, the crowd behind them",
+        "both bobbing for apples, faces dripping, laughing"
+      ],
+      "looks": [
+        "retro horror costume each",
+        "matching couples costume each",
+        "homemade creative costume each"
+      ]
+    }
+  },
+  "locs": [
+    "halloween porch carved pumpkins orange night",
+    "suburban trick or treat street night",
+    "carved pumpkin line porch steps evening",
+    "front door decorated cobwebs night",
+    "halloween street blocked cars candy night",
+    "jack o lantern lit porch dark night",
+    "haunted house decorated exterior night",
+    "cemetery halloween decorated night moon",
+    "graveyard fog machine night halloween",
+    "haunted hayride field night dark",
+    "corn maze halloween night torches",
+    "halloween fog street night orange glow",
+    "halloween bonfire field night dark",
+    "halloween costume party interior crowded",
+    "halloween parade street costumes night",
+    "apple bobbing tub indoor halloween party",
+    "halloween disco venue costumes night",
+    "school halloween parade daytime",
+    "halloween market stalls night orange",
+    "halloween carnival funfair night orange"
+  ],
+  "poses": [
+    "both on the porch in matching costumes, candy bags held out",
+    "both answering the door, mid-scare, laughing",
+    "both posed beside the carved pumpkins, candle glow on their faces",
+    "both creeping through the fog, one clutching the other's sleeve",
+    "both lit from below by a flickering torch, faces eerie",
+    "both frozen mid-scream, playful and terrified",
+    "both mid-dance, costumes swirling, the crowd behind them",
+    "both bobbing for apples, faces dripping, laughing",
+    "both striking a spooky pose, ready for the contest"
+  ],
+  "looks": [
+    "witch and vampire couples costume each",
+    "classic horror monster costumes each",
+    "skeleton bodysuit and face paint each",
+    "ghost sheet and tattered cloak each",
+    "zombie makeup and torn formal wear each",
+    "gothic black and lace each",
+    "matching couples costume each",
+    "homemade creative costume each",
+    "retro horror costume each"
+  ],
+  "promptSuffix": "Colour grade: deep orange, black, the flickering of candlelit jack o lanterns. Darkness punctuated by warm orange — atmospheric, slightly unsettling, delightful.",
+  "translations": {
+    "costume vs. self": "who you are under the halloween mask",
+    "fear vs. delight": "the scare and the pleasure of the scare",
+    "child vs. adult": "who you were when she held you and who you are now",
+    "trick vs. treat": "the threat and the sweetness",
+    "the mask vs. the face": "what you put on and what it reveals",
+    "dead vs. alive": "the line the holiday plays with",
+    "sacred vs. spectacle": "the old meaning and the costume party it became"
+  },
+  "locTypes": {
+    "halloween porch carved pumpkins orange night": "outdoor",
+    "suburban trick or treat street night": "outdoor",
+    "carved pumpkin line porch steps evening": "outdoor",
+    "front door decorated cobwebs night": "outdoor",
+    "halloween street blocked cars candy night": "outdoor",
+    "jack o lantern lit porch dark night": "outdoor",
+    "haunted house decorated exterior night": "outdoor",
+    "cemetery halloween decorated night moon": "outdoor",
+    "graveyard fog machine night halloween": "both",
+    "haunted hayride field night dark": "outdoor",
+    "corn maze halloween night torches": "outdoor",
+    "halloween fog street night orange glow": "outdoor",
+    "halloween bonfire field night dark": "outdoor",
+    "halloween costume party interior crowded": "indoor",
+    "halloween parade street costumes night": "outdoor",
+    "apple bobbing tub indoor halloween party": "indoor",
+    "halloween disco venue costumes night": "both",
+    "school halloween parade daytime": "indoor",
+    "halloween market stalls night orange": "outdoor",
+    "halloween carnival funfair night orange": "outdoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "id": "stage",
+  "name": "THE STAGE",
+  "sub": "Performance, Theatricality & the Everyday Drama",
+  "color": "#8a1a6a",
+  "tensions": [
+    "performance vs. sincerity",
+    "audience vs. performer",
+    "the role vs. the person",
+    "watched vs. unwatched",
+    "the mask vs. the face",
+    "staged vs. caught",
+    "the speech vs. the feeling",
+    "dramatic vs. mundane",
+    "playing vs. being",
+    "the gesture vs. the truth"
+  ],
+  "affinities": {
+    "performance vs. sincerity": {
+      "locs": [
+        "supermarket aisle operatic gesture fluorescent ordinary",
+        "kebab shop 2am grand gesture fluorescent",
+        "corner shop theatrical argument fluorescent"
+      ],
+      "poses": [
+        "one delivering a speech to the other, who is the only audience",
+        "both frozen mid-gesture, arms flung wide",
+        "one sinking to their knees, the other stepping over them"
+      ],
+      "looks": [
+        "full tuxedo and ball gown each",
+        "Shakespearean doublet and ruff each",
+        "clown costume and full makeup each"
+      ]
+    },
+    "audience vs. performer": {
+      "locs": [
+        "petrol station forecourt dramatic speech nobody watching night",
+        "bus stop theatrical declaration nobody waiting",
+        "car park rooftop theatrical confrontation empty night"
+      ],
+      "poses": [
+        "both striking a heroic tableau, chins high",
+        "one making a grand exit, the other watching with a raised eyebrow",
+        "both embracing as if on a stage, bags dropped"
+      ],
+      "looks": [
+        "knight's armour and princess gown each",
+        "Roman toga and laurel wreath each",
+        "wedding dress and morning suit each"
+      ]
+    },
+    "the role vs. the person": {
+      "locs": [
+        "laundromat 3am theatrical monologue washing machines",
+        "hospital waiting room dramatic exit door",
+        "lift lobby theatrical pause before doors open"
+      ],
+      "poses": [
+        "both walking in slow motion, hair flying, no wind",
+        "one pointing dramatically, the other quite indifferent",
+        "both in a stormy argument, whispering furiously"
+      ],
+      "looks": [
+        "opera costume in full each",
+        "Victorian mourning dress each",
+        "ballet tutu and tights each"
+      ]
+    },
+    "watched vs. unwatched": {
+      "locs": [
+        "post office queue theatrical monologue",
+        "department store escalator theatrical descent",
+        "betting shop theatrical reaction to result"
+      ],
+      "poses": [
+        "both frozen mid-gesture, arms flung wide",
+        "one sinking to their knees, the other stepping over them",
+        "both taking an elaborate bow to an empty room"
+      ],
+      "looks": [
+        "Shakespearean doublet and ruff each",
+        "clown costume and full makeup each",
+        "full tuxedo and ball gown each"
+      ]
+    },
+    "the mask vs. the face": {
+      "locs": [
+        "train carriage theatrical aside fellow passengers ignore",
+        "airport arrivals hall dramatic reunion theatrical",
+        "motorway services dramatic tableau ordinary setting"
+      ],
+      "poses": [
+        "one making a grand exit, the other watching with a raised eyebrow",
+        "both embracing as if on a stage, bags dropped",
+        "one declaiming to the sky, the other checking a phone"
+      ],
+      "looks": [
+        "Roman toga and laurel wreath each",
+        "wedding dress and morning suit each",
+        "knight's armour and princess gown each"
+      ]
+    },
+    "staged vs. caught": {
+      "locs": [
+        "office corridor dramatic walk away slow motion",
+        "phone box raining theatrical call dramatic",
+        "swimming pool changing room dramatic exit"
+      ],
+      "poses": [
+        "one pointing dramatically, the other quite indifferent",
+        "both in a stormy argument, whispering furiously",
+        "one fainting into the other's arms, eyes on the camera"
+      ],
+      "looks": [
+        "Victorian mourning dress each",
+        "ballet tutu and tights each",
+        "everyday clothes worn with maximum theatrical intensity each"
+      ]
+    },
+    "the speech vs. the feeling": {
+      "locs": [
+        "chip shop 11pm theatrical romance counter",
+        "newsagent morning theatrical significance ordinary",
+        "supermarket aisle operatic gesture fluorescent ordinary"
+      ],
+      "poses": [
+        "one sinking to their knees, the other stepping over them",
+        "both taking an elaborate bow to an empty room",
+        "one delivering a speech to the other, who is the only audience"
+      ],
+      "looks": [
+        "clown costume and full makeup each",
+        "full tuxedo and ball gown each",
+        "Shakespearean doublet and ruff each"
+      ]
+    },
+    "dramatic vs. mundane": {
+      "locs": [
+        "underpass theatrical freeze frame urban",
+        "railway platform theatrical goodbye overplayed",
+        "bus upper deck theatrical speech empty"
+      ],
+      "poses": [
+        "both embracing as if on a stage, bags dropped",
+        "one declaiming to the sky, the other checking a phone",
+        "both striking a heroic tableau, chins high"
+      ],
+      "looks": [
+        "wedding dress and morning suit each",
+        "knight's armour and princess gown each",
+        "Roman toga and laurel wreath each"
+      ]
+    },
+    "playing vs. being": {
+      "locs": [
+        "bowling alley theatrical celebration strike",
+        "car wash theatrical moment soap suds",
+        "dentist waiting room theatrical anxiety performance"
+      ],
+      "poses": [
+        "both in a stormy argument, whispering furiously",
+        "one fainting into the other's arms, eyes on the camera",
+        "both walking in slow motion, hair flying, no wind"
+      ],
+      "looks": [
+        "ballet tutu and tights each",
+        "everyday clothes worn with maximum theatrical intensity each",
+        "opera costume in full each"
+      ]
+    },
+    "the gesture vs. the truth": {
+      "locs": [
+        "kebab shop 2am grand gesture fluorescent",
+        "corner shop theatrical argument fluorescent",
+        "post office queue theatrical monologue"
+      ],
+      "poses": [
+        "both taking an elaborate bow to an empty room",
+        "one delivering a speech to the other, who is the only audience",
+        "both frozen mid-gesture, arms flung wide"
+      ],
+      "looks": [
+        "full tuxedo and ball gown each",
+        "Shakespearean doublet and ruff each",
+        "clown costume and full makeup each"
+      ]
+    }
+  },
+  "locs": [
+    "supermarket aisle operatic gesture fluorescent ordinary",
+    "kebab shop 2am grand gesture fluorescent",
+    "corner shop theatrical argument fluorescent",
+    "post office queue theatrical monologue",
+    "department store escalator theatrical descent",
+    "betting shop theatrical reaction to result",
+    "chip shop 11pm theatrical romance counter",
+    "newsagent morning theatrical significance ordinary",
+    "petrol station forecourt dramatic speech nobody watching night",
+    "bus stop theatrical declaration nobody waiting",
+    "car park rooftop theatrical confrontation empty night",
+    "train carriage theatrical aside fellow passengers ignore",
+    "airport arrivals hall dramatic reunion theatrical",
+    "motorway services dramatic tableau ordinary setting",
+    "underpass theatrical freeze frame urban",
+    "railway platform theatrical goodbye overplayed",
+    "bus upper deck theatrical speech empty",
+    "rooftop car park theatrical last stand night",
+    "laundromat 3am theatrical monologue washing machines",
+    "hospital waiting room dramatic exit door",
+    "lift lobby theatrical pause before doors open",
+    "office corridor dramatic walk away slow motion",
+    "phone box raining theatrical call dramatic",
+    "swimming pool changing room dramatic exit",
+    "bowling alley theatrical celebration strike",
+    "car wash theatrical moment soap suds",
+    "dentist waiting room theatrical anxiety performance",
+    "library theatrical whispered intensity quiet",
+    "cemetery theatrical grief performative",
+    "wedding registry office theatrical entrance late"
+  ],
+  "poses": [
+    "one delivering a speech to the other, who is the only audience",
+    "both frozen mid-gesture, arms flung wide",
+    "one sinking to their knees, the other stepping over them",
+    "both taking an elaborate bow to an empty room",
+    "both striking a heroic tableau, chins high",
+    "one making a grand exit, the other watching with a raised eyebrow",
+    "both embracing as if on a stage, bags dropped",
+    "one declaiming to the sky, the other checking a phone",
+    "both walking in slow motion, hair flying, no wind",
+    "one pointing dramatically, the other quite indifferent",
+    "both in a stormy argument, whispering furiously",
+    "one fainting into the other's arms, eyes on the camera"
+  ],
+  "looks": [
+    "full tuxedo and ball gown each",
+    "Shakespearean doublet and ruff each",
+    "clown costume and full makeup each",
+    "knight's armour and princess gown each",
+    "Roman toga and laurel wreath each",
+    "wedding dress and morning suit each",
+    "opera costume in full each",
+    "Victorian mourning dress each",
+    "ballet tutu and tights each",
+    "everyday clothes worn with maximum theatrical intensity each"
+  ],
+  "promptSuffix": "Colour grade: the specific contrast of theatrical drama in mundane light — fluorescent supermarket, petrol station sodium, laundromat neon. Heightened emotion in ordinary space.",
+  "translations": {
+    "watched vs. unwatched": "the strange freedom of a moment before the camera swings back",
+    "the mask vs. the face": "what you put on and what it reveals"
+  },
+  "locTypes": {
+    "supermarket aisle operatic gesture fluorescent ordinary": "indoor",
+    "kebab shop 2am grand gesture fluorescent": "both",
+    "corner shop theatrical argument fluorescent": "both",
+    "post office queue theatrical monologue": "indoor",
+    "department store escalator theatrical descent": "indoor",
+    "betting shop theatrical reaction to result": "indoor",
+    "chip shop 11pm theatrical romance counter": "indoor",
+    "newsagent morning theatrical significance ordinary": "indoor",
+    "petrol station forecourt dramatic speech nobody watching night": "indoor",
+    "bus stop theatrical declaration nobody waiting": "indoor",
+    "car park rooftop theatrical confrontation empty night": "outdoor",
+    "train carriage theatrical aside fellow passengers ignore": "both",
+    "airport arrivals hall dramatic reunion theatrical": "both",
+    "motorway services dramatic tableau ordinary setting": "both",
+    "underpass theatrical freeze frame urban": "both",
+    "railway platform theatrical goodbye overplayed": "both",
+    "bus upper deck theatrical speech empty": "indoor",
+    "rooftop car park theatrical last stand night": "outdoor",
+    "laundromat 3am theatrical monologue washing machines": "indoor",
+    "hospital waiting room dramatic exit door": "both",
+    "lift lobby theatrical pause before doors open": "indoor",
+    "office corridor dramatic walk away slow motion": "indoor",
+    "phone box raining theatrical call dramatic": "both",
+    "swimming pool changing room dramatic exit": "indoor",
+    "bowling alley theatrical celebration strike": "indoor",
+    "car wash theatrical moment soap suds": "both",
+    "dentist waiting room theatrical anxiety performance": "indoor",
+    "library theatrical whispered intensity quiet": "indoor",
+    "cemetery theatrical grief performative": "both",
+    "wedding registry office theatrical entrance late": "indoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "id": "desert",
+  "name": "THE DESERT",
+  "sub": "Vast, Ancient & Indifferent",
+  "color": "#c87820",
+  "tensions": [
+    "vastness vs. intimacy",
+    "ancient vs. present",
+    "heat vs. cold night",
+    "the mirage vs. the real",
+    "survival vs. surrender",
+    "the dune vs. the horizon",
+    "silence vs. the wind",
+    "small vs. infinite",
+    "lost vs. found",
+    "the oasis vs. the illusion"
+  ],
+  "affinities": {
+    "vastness vs. intimacy": {
+      "locs": [
+        "Sahara dune sea sunset two figures tiny horizon",
+        "Moroccan desert Merzouga dune sea sunset gold",
+        "Rub al Khali Empty Quarter dune sea endless"
+      ],
+      "poses": [
+        "both tiny on a dune crest, long shadows stretching",
+        "both sliding down the slope, sand streaming",
+        "both sitting side by side, watching the colour change"
+      ],
+      "looks": [
+        "wrapped linen cloth and scarf each",
+        "loose cotton shirt and trousers each",
+        "long tunic and head cloth each"
+      ]
+    },
+    "ancient vs. present": {
+      "locs": [
+        "Wadi Rum red rock Jordan dawn long shadow",
+        "Jordanian desert ancient Nabataean rock city Petra dusk",
+        "Arizona Monument Valley sandstone butte long shadow"
+      ],
+      "poses": [
+        "both standing against the towering rock, small and still",
+        "both climbing a ridge, hands reaching back",
+        "both resting in the shade of an overhang"
+      ],
+      "looks": [
+        "dusty explorer jacket and wide hat each",
+        "rolled-up sleeves and sturdy boots each",
+        "khaki shirt and canvas trousers each"
+      ]
+    },
+    "heat vs. cold night": {
+      "locs": [
+        "Atacama Chile night sky clearest stars world",
+        "Sahara oasis palm trees mirage heat shimmer",
+        "Wadi Rum desert camp fire night stars"
+      ],
+      "poses": [
+        "both sitting close by the fire, faces lit gold",
+        "both gazing up at an explosion of stars",
+        "both leading a camel at the edge of dawn"
+      ],
+      "looks": [
+        "thick wrapped layers against the night chill each",
+        "wool blanket over linen each",
+        "dark jackets and scarves each"
+      ]
+    },
+    "the mirage vs. the real": {
+      "locs": [
+        "Death Valley salt flat noon bleached vast white",
+        "White Sands New Mexico gypsum dune noon",
+        "Atacama salt flat mirror sky reflection"
+      ],
+      "poses": [
+        "both walking apart across the white, shadows long",
+        "both lying back on the flat, staring at the sky",
+        "both mirrored in the thin sheet of water"
+      ],
+      "looks": [
+        "pale cotton outfit and sunglasses each",
+        "bleached linen and straw hat each",
+        "white shirt and light trousers each"
+      ]
+    },
+    "survival vs. surrender": {
+      "locs": [
+        "Gobi Mongolia vast flat sand storm approaching",
+        "Sonoran desert saguaro cactus sunset Arizona",
+        "Great Sand Dunes Colorado snow mountain beyond"
+      ],
+      "poses": [
+        "both bracing against the wind, scarves whipping",
+        "both watching a storm wall roll toward them",
+        "both kneeling to examine something strange in the sand"
+      ],
+      "looks": [
+        "goggles and dust scarves each",
+        "expedition layers and gloves each",
+        "windbreaker and wrapped face cloth each"
+      ]
+    },
+    "the dune vs. the horizon": {
+      "locs": [
+        "Rub al Khali dune crest wind sand stream",
+        "Sossusvlei Namibia dune red iron oxide dawn",
+        "Namib vlei dead trees orange dune dawn iconic"
+      ],
+      "poses": [
+        "both sliding down the slope, sand streaming",
+        "both sitting side by side, watching the colour change",
+        "both tiny on a dune crest, long shadows stretching"
+      ],
+      "looks": [
+        "loose cotton shirt and trousers each",
+        "long tunic and head cloth each",
+        "wrapped linen cloth and scarf each"
+      ]
+    },
+    "silence vs. the wind": {
+      "locs": [
+        "Simpson Desert Australia red dune noon",
+        "Taklamakan China Silk Road ancient route",
+        "Namib fog coastal desert ghost ship distant"
+      ],
+      "poses": [
+        "both watching a storm wall roll toward them",
+        "both kneeling to examine something strange in the sand",
+        "both bracing against the wind, scarves whipping"
+      ],
+      "looks": [
+        "expedition layers and gloves each",
+        "windbreaker and wrapped face cloth each",
+        "goggles and dust scarves each"
+      ]
+    },
+    "small vs. infinite": {
+      "locs": [
+        "Lencois Maranhenses Brazil white dune lagoon",
+        "Black Rock Desert Nevada vast flat nothing",
+        "Danakil Depression Ethiopia hottest place earth"
+      ],
+      "poses": [
+        "both lying back on the flat, staring at the sky",
+        "both mirrored in the thin sheet of water",
+        "both walking apart across the white, shadows long"
+      ],
+      "looks": [
+        "bleached linen and straw hat each",
+        "white shirt and light trousers each",
+        "pale cotton outfit and sunglasses each"
+      ]
+    },
+    "lost vs. found": {
+      "locs": [
+        "Death Valley Zabriskie Point badlands dawn",
+        "Painted Desert Arizona colour band formation",
+        "Negev desert Ramon crater vast geological"
+      ],
+      "poses": [
+        "both climbing a ridge, hands reaching back",
+        "both resting in the shade of an overhang",
+        "both standing against the towering rock, small and still"
+      ],
+      "looks": [
+        "rolled-up sleeves and sturdy boots each",
+        "khaki shirt and canvas trousers each",
+        "dusty explorer jacket and wide hat each"
+      ]
+    },
+    "the oasis vs. the illusion": {
+      "locs": [
+        "Arabian desert camel caravan horizon line dawn",
+        "Atacama Chile night sky clearest stars world",
+        "Sahara oasis palm trees mirage heat shimmer"
+      ],
+      "poses": [
+        "both gazing up at an explosion of stars",
+        "both leading a camel at the edge of dawn",
+        "both sitting close by the fire, faces lit gold"
+      ],
+      "looks": [
+        "wool blanket over linen each",
+        "dark jackets and scarves each",
+        "thick wrapped layers against the night chill each"
+      ]
+    }
+  },
+  "locs": [
+    "Sahara dune sea sunset two figures tiny horizon",
+    "Moroccan desert Merzouga dune sea sunset gold",
+    "Rub al Khali Empty Quarter dune sea endless",
+    "Rub al Khali dune crest wind sand stream",
+    "Sossusvlei Namibia dune red iron oxide dawn",
+    "Namib vlei dead trees orange dune dawn iconic",
+    "Wadi Rum red rock Jordan dawn long shadow",
+    "Jordanian desert ancient Nabataean rock city Petra dusk",
+    "Arizona Monument Valley sandstone butte long shadow",
+    "Death Valley Zabriskie Point badlands dawn",
+    "Painted Desert Arizona colour band formation",
+    "Negev desert Ramon crater vast geological",
+    "Judean desert cave dwelling ancient",
+    "Death Valley salt flat noon bleached vast white",
+    "White Sands New Mexico gypsum dune noon",
+    "Atacama salt flat mirror sky reflection",
+    "Lencois Maranhenses Brazil white dune lagoon",
+    "Black Rock Desert Nevada vast flat nothing",
+    "Danakil Depression Ethiopia hottest place earth",
+    "Atacama Chile night sky clearest stars world",
+    "Sahara oasis palm trees mirage heat shimmer",
+    "Wadi Rum desert camp fire night stars",
+    "Arabian desert camel caravan horizon line dawn",
+    "Gobi Mongolia vast flat sand storm approaching",
+    "Sonoran desert saguaro cactus sunset Arizona",
+    "Great Sand Dunes Colorado snow mountain beyond",
+    "Simpson Desert Australia red dune noon",
+    "Taklamakan China Silk Road ancient route",
+    "Namib fog coastal desert ghost ship distant",
+    "Chilean Atacama lava field volcanic moon"
+  ],
+  "poses": [
+    "both tiny on a dune crest, long shadows stretching",
+    "both sliding down the slope, sand streaming",
+    "both sitting side by side, watching the colour change",
+    "both standing against the towering rock, small and still",
+    "both climbing a ridge, hands reaching back",
+    "both resting in the shade of an overhang",
+    "both walking apart across the white, shadows long",
+    "both lying back on the flat, staring at the sky",
+    "both mirrored in the thin sheet of water",
+    "both sitting close by the fire, faces lit gold",
+    "both gazing up at an explosion of stars",
+    "both leading a camel at the edge of dawn",
+    "both bracing against the wind, scarves whipping",
+    "both watching a storm wall roll toward them",
+    "both kneeling to examine something strange in the sand"
+  ],
+  "looks": [
+    "wrapped linen cloth and scarf each",
+    "loose cotton shirt and trousers each",
+    "long tunic and head cloth each",
+    "dusty explorer jacket and wide hat each",
+    "rolled-up sleeves and sturdy boots each",
+    "khaki shirt and canvas trousers each",
+    "pale cotton outfit and sunglasses each",
+    "bleached linen and straw hat each",
+    "white shirt and light trousers each",
+    "thick wrapped layers against the night chill each",
+    "wool blanket over linen each",
+    "dark jackets and scarves each",
+    "goggles and dust scarves each",
+    "expedition layers and gloves each",
+    "windbreaker and wrapped face cloth each"
+  ],
+  "promptSuffix": "Colour grade: the specific palettes of specific deserts — Wadi Rum red, Sahara gold, Death Valley bleached white, Atacama violet night. The scale of the land against the smallness of the person.",
+  "translations": {
+    "ancient vs. present": "ancient stone and the present moment standing inside it",
+    "survival vs. surrender": "survival and the quiet temptation to surrender to the sand",
+    "lost vs. found": "lost in the vast and then suddenly completely found"
+  },
+  "locTypes": {
+    "Sahara dune sea sunset two figures tiny horizon": "outdoor",
+    "Moroccan desert Merzouga dune sea sunset gold": "outdoor",
+    "Rub al Khali Empty Quarter dune sea endless": "outdoor",
+    "Rub al Khali dune crest wind sand stream": "outdoor",
+    "Sossusvlei Namibia dune red iron oxide dawn": "outdoor",
+    "Namib vlei dead trees orange dune dawn iconic": "outdoor",
+    "Wadi Rum red rock Jordan dawn long shadow": "outdoor",
+    "Jordanian desert ancient Nabataean rock city Petra dusk": "outdoor",
+    "Arizona Monument Valley sandstone butte long shadow": "outdoor",
+    "Death Valley Zabriskie Point badlands dawn": "outdoor",
+    "Painted Desert Arizona colour band formation": "outdoor",
+    "Negev desert Ramon crater vast geological": "outdoor",
+    "Judean desert cave dwelling ancient": "outdoor",
+    "Death Valley salt flat noon bleached vast white": "outdoor",
+    "White Sands New Mexico gypsum dune noon": "outdoor",
+    "Atacama salt flat mirror sky reflection": "outdoor",
+    "Lencois Maranhenses Brazil white dune lagoon": "outdoor",
+    "Black Rock Desert Nevada vast flat nothing": "outdoor",
+    "Danakil Depression Ethiopia hottest place earth": "both",
+    "Atacama Chile night sky clearest stars world": "outdoor",
+    "Sahara oasis palm trees mirage heat shimmer": "outdoor",
+    "Wadi Rum desert camp fire night stars": "outdoor",
+    "Arabian desert camel caravan horizon line dawn": "outdoor",
+    "Gobi Mongolia vast flat sand storm approaching": "both",
+    "Sonoran desert saguaro cactus sunset Arizona": "outdoor",
+    "Great Sand Dunes Colorado snow mountain beyond": "outdoor",
+    "Simpson Desert Australia red dune noon": "outdoor",
+    "Taklamakan China Silk Road ancient route": "both",
+    "Namib fog coastal desert ghost ship distant": "outdoor",
+    "Chilean Atacama lava field volcanic moon": "outdoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

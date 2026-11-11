@@ -1,0 +1,697 @@
+{
+  "id": "night",
+  "name": "THE NIGHT",
+  "sub": "After Dark",
+  "color": "#9966cc",
+  "tensions": [
+    "light vs. dark",
+    "awake vs. asleep",
+    "seen vs. unseen",
+    "late vs. early",
+    "energy vs. exhaustion",
+    "danger vs. safety",
+    "hidden vs. exposed",
+    "real vs. imagined",
+    "after vs. before",
+    "alive vs. still",
+    "searching vs. found",
+    "open vs. closed",
+    "alone vs. watched",
+    "noise vs. quiet hour",
+    "moving vs. paralyzed",
+    "hunting vs. hunted",
+    "streetlit vs. shadow",
+    "neon-free dark vs. lit",
+    "sober vs. dreaming",
+    "night shift vs. day world"
+  ],
+  "locs": [
+    "street lamp cone of light empty",
+    "predawn empty boulevard",
+    "24h diner at 3am",
+    "rooftop at midnight city below",
+    "rain-soaked empty street lamp reflection",
+    "neon sign alley close",
+    "night club exterior queue gone",
+    "casino exit early hours",
+    "hotel lobby late night",
+    "city bridge walking both sides empty",
+    "underground car park empty level",
+    "hospital exterior 4am",
+    "night bus last stop end line",
+    "kebab shop 2am queue",
+    "phone box interior lit",
+    "underpass graffiti night colour",
+    "harbour lights reflection water night",
+    "ferry terminal last boat gone",
+    "train station concourse empty night",
+    "airport arrivals 5am",
+    "fuel station forecourt night",
+    "empty beach night city beyond",
+    "park night fountain lit",
+    "botanical garden night event",
+    "stadium exterior night event over",
+    "theatre stage door night",
+    "concert venue exit after",
+    "bar exterior last call street",
+    "arcade empty closing time",
+    "bowling alley last game",
+    "Tokyo Shinjuku Kabukicho neon",
+    "Osaka Dotonbori night reflection",
+    "Seoul Hongdae night street",
+    "Hong Kong Mong Kok night dense",
+    "Taipei night market open",
+    "Bangkok Patpong night market",
+    "Ho Chi Minh night street food",
+    "Singapore Clarke Quay night",
+    "Kuala Lumpur Petaling night",
+    "New York Times Square 4am",
+    "Las Vegas strip 3am",
+    "Chicago Riverwalk night",
+    "Miami South Beach night",
+    "New Orleans Bourbon St late",
+    "Nashville Broadway night",
+    "London West End 2am",
+    "Paris Pigalle night",
+    "Berlin Kurfürstendamm night",
+    "Amsterdam red light area outside",
+    "Brussels Grande Place night",
+    "Prague Wenceslas night"
+  ],
+  "poses": [
+    "lit by single streetlamp cone both",
+    "both facing streetlamp glow looking up",
+    "silhouette in diner window booth",
+    "running through night city rain both",
+    "crouched in shadow then stepping into light",
+    "slow dance outside bar closed music faint",
+    "back-to-back in neon light colour both",
+    "both looking at phone map lost at night",
+    "one arm around other cold night street",
+    "both watching city from bridge at night",
+    "sharing last cigarette outside venue",
+    "leaning on wall after long night",
+    "one asleep shoulder of other taxi night",
+    "both wide awake sunrise approaching exhausted",
+    "both laughing at something stupid 3am",
+    "silhouette against illuminated building",
+    "both looking up at fireworks above",
+    "watching night market stalls both absorbed",
+    "one arm around other walking night empty street",
+    "both looking through diner window menu",
+    "back-to-back neon sign colours hitting each",
+    "sitting on kerb outside venue after",
+    "walking away from camera into night together",
+    "running toward night bus both",
+    "one buying from night stall other watches",
+    "both leaning over bridge watching night river",
+    "kissing under streetlamp classic",
+    "both watching city below from rooftop night",
+    "one finding other on crowded night street relief",
+    "hailing cab together late both",
+    "both exhausted at 5am arrivals gate",
+    "slow-walk hand-in-hand night empty street",
+    "both bathed in blue neon light bar",
+    "one falling asleep standing other steadies",
+    "both wide-eyed at something unexpected night",
+    "sitting outside after on steps",
+    "both waiting for food late night takeaway",
+    "one sneaking other past sleeping doorman both",
+    "both looking at stars from rooftop hand-in-hand",
+    "finding shelter in doorway rain night",
+    "both reflected in empty shop window night",
+    "sunrise catching both still up watching"
+  ],
+  "looks": [
+    "dark denim simple tees both",
+    "all-black minimal both",
+    "black hoodies dark joggers both",
+    "slim dark layers both",
+    "open dark jackets tees both",
+    "night-out dress and shirt smart both",
+    "leather jacket tee dark jeans both",
+    "velvet blazer tee slim pants each",
+    "satin-finish shirt dark trousers each",
+    "little black dress and dark suit each",
+    "black slip dress and black jacket respectively",
+    "sequin top and slim trousers respectively",
+    "dark oversized coat and slim pants each",
+    "after-party dishevelled formal both",
+    "club-wear both confident and minimal",
+    "dark roll-neck slim trousers both",
+    "monochrome navy both",
+    "charcoal suit open collar and dress each",
+    "after-show comfortable casual both",
+    "dark maxi dress and dark jeans each",
+    "oversized leather jacket tee night both",
+    "dark coat pale shirt trousers each",
+    "dark linen layers minimal night both",
+    "all-black streetwear both technical",
+    "black midi dress and smart-black shirt each",
+    "structured black coat slim pants both",
+    "embellished top dark trousers each",
+    "night-sky navy coord both",
+    "open silk shirt and slim trousers each",
+    "dark fitted jumpsuit and open jacket each",
+    "dark suede jacket slim dark jeans each",
+    "velour tracksuit and leather jacket respectively",
+    "sheer dark overlay minimal beneath both",
+    "dark denim jacket and dress respectively",
+    "monochrome burgundy rich tonal both",
+    "after-concert tee jeans both",
+    "styled-down evening wear comfortable both",
+    "dark check shirt slim trousers each",
+    "night-out trainers dark co-ords each",
+    "dark cap and city casual both",
+    "all-black with one gold accent each",
+    "faded black layers both worn",
+    "deep purple coord tonal both",
+    "dark hoodie and smart trousers mix each",
+    "black mini dress and dark open shirt each",
+    "dark linen suit open collar both"
+  ],
+  "affinities": {
+    "light vs. dark": {
+      "locs": [
+        "street lamp cone of light",
+        "tunnel mouth at night",
+        "overpass underside lit",
+        "gas station fluorescence",
+        "dark alley single light"
+      ],
+      "poses": [
+        "lit by single headlight",
+        "both facing streetlamp glow",
+        "one illuminated one shadow",
+        "caught in headlight freeze",
+        "face in single lamp pool"
+      ],
+      "looks": [
+        "all black minimal",
+        "dark fitted sets",
+        "black on black layers",
+        "black technical wear",
+        "near-black everything"
+      ]
+    },
+    "awake vs. asleep": {
+      "locs": [
+        "24h diner at 3am",
+        "laundromat after midnight",
+        "night bus stop",
+        "taxi rank predawn",
+        "hotel service entrance night"
+      ],
+      "poses": [
+        "one asleep one awake car",
+        "sleeping in car back seat",
+        "late night conversation bench",
+        "fire escape at 2am seated",
+        "hands on counter 24h diner"
+      ],
+      "looks": [
+        "dark linen relaxed",
+        "slim dark layers",
+        "night-appropriate streetwear",
+        "dark denim simple tees",
+        "faded black layered"
+      ]
+    },
+    "seen vs. unseen": {
+      "locs": [
+        "dark alley single light",
+        "backstreet at 4am",
+        "warehouse district midnight",
+        "industrial zone at 2am",
+        "abandoned lot at midnight"
+      ],
+      "poses": [
+        "back to wall in dark zone",
+        "crouched in shadow then light",
+        "hand holding in dark alley",
+        "one in light one outside",
+        "doorway light cast"
+      ],
+      "looks": [
+        "all black minimal",
+        "dark fitted sets",
+        "black technical wear",
+        "black on black layers",
+        "near-black everything"
+      ]
+    },
+    "late vs. early": {
+      "locs": [
+        "predawn empty boulevard",
+        "taxi rank predawn",
+        "24h diner at 3am",
+        "laundromat after midnight",
+        "station concourse late"
+      ],
+      "poses": [
+        "walking toward dawn",
+        "predawn run together",
+        "waiting at bus stop late",
+        "two figures under lamp far",
+        "both looking down empty street"
+      ],
+      "looks": [
+        "dark denim simple tees",
+        "slim dark layers",
+        "dark fitted sets",
+        "night-appropriate streetwear",
+        "dark linen relaxed"
+      ]
+    },
+    "energy vs. exhaustion": {
+      "locs": [
+        "24h gym window",
+        "industrial zone at 2am",
+        "factory car park night",
+        "warehouse district midnight",
+        "backstreet at 4am"
+      ],
+      "poses": [
+        "mid-sprint under bridge light",
+        "running through rain at night",
+        "running from shadow to light",
+        "sprint through tunnel light",
+        "predawn run together"
+      ],
+      "looks": [
+        "black athletic sets",
+        "black sport set",
+        "black sport shorts dark hoodie",
+        "black hoodies dark joggers",
+        "black technical wear"
+      ]
+    },
+    "danger vs. safety": {
+      "locs": [
+        "dark alley single light",
+        "backstreet at 4am",
+        "tunnel mouth at night",
+        "abandoned lot at midnight",
+        "parking lot edge dark"
+      ],
+      "poses": [
+        "back to wall in dark zone",
+        "hand holding in dark alley",
+        "crouched in shadow then light",
+        "one in light one outside",
+        "watching from overpass railing"
+      ],
+      "looks": [
+        "all black minimal",
+        "dark fitted sets",
+        "slim dark layers",
+        "black on black layers",
+        "black technical wear"
+      ]
+    },
+    "hidden vs. exposed": {
+      "locs": [
+        "street lamp cone of light",
+        "tunnel mouth at night",
+        "gas station fluorescence",
+        "overpass underside lit",
+        "dark alley single light"
+      ],
+      "poses": [
+        "one illuminated one shadow",
+        "caught in headlight freeze",
+        "crouched in shadow then light",
+        "face in single lamp pool",
+        "silhouette in diner window"
+      ],
+      "looks": [
+        "all black minimal",
+        "dark fitted sets",
+        "black technical wear",
+        "near-black everything",
+        "black on black layers"
+      ]
+    },
+    "real vs. imagined": {
+      "locs": [
+        "rooftop at midnight",
+        "empty beach after midnight",
+        "river bank at 2am",
+        "city park at midnight",
+        "rooftop under moon"
+      ],
+      "poses": [
+        "slow-dance on empty street",
+        "dancing in parking lot alone",
+        "arms out in rain night",
+        "both looking at phone light",
+        "late night conversation bench"
+      ],
+      "looks": [
+        "dark linen relaxed",
+        "faded black layered",
+        "night-appropriate streetwear",
+        "slim dark layers",
+        "dark denim simple tees"
+      ]
+    },
+    "after vs. before": {
+      "locs": [
+        "cinema exit at midnight",
+        "station concourse late",
+        "closed bar exterior night",
+        "kebab shop forecourt 3am",
+        "taxi rank predawn"
+      ],
+      "poses": [
+        "night market walk",
+        "late night conversation bench",
+        "taxi window faces late",
+        "service entrance wait",
+        "both looking down empty street"
+      ],
+      "looks": [
+        "night-appropriate streetwear",
+        "dark denim simple tees",
+        "slim dark layers",
+        "dark fitted sets",
+        "faded black layered"
+      ]
+    },
+    "alive vs. still": {
+      "locs": [
+        "predawn empty boulevard",
+        "city park at midnight",
+        "empty beach after midnight",
+        "deserted high street",
+        "rail yard at midnight"
+      ],
+      "poses": [
+        "walking toward dawn",
+        "both looking down empty street",
+        "two figures under lamp far",
+        "slow-dance on empty street",
+        "silhouette in diner window"
+      ],
+      "looks": [
+        "dark denim simple tees",
+        "slim dark layers",
+        "all black minimal",
+        "dark linen relaxed",
+        "near-black everything"
+      ]
+    },
+    "searching vs. found": {
+      "locs": [
+        "backstreet at 4am",
+        "warehouse district midnight",
+        "abandoned lot at midnight",
+        "industrial zone at 2am",
+        "dock at night"
+      ],
+      "poses": [
+        "running from shadow to light",
+        "mid-sprint under bridge light",
+        "sprint through tunnel light",
+        "watching from overpass railing",
+        "hand holding in dark alley"
+      ],
+      "looks": [
+        "all black minimal",
+        "dark fitted sets",
+        "black technical wear",
+        "black on black layers",
+        "black hoodies dark joggers"
+      ]
+    },
+    "open vs. closed": {
+      "locs": [
+        "predawn empty boulevard",
+        "city park at midnight",
+        "empty beach after midnight",
+        "rooftop at midnight",
+        "elevated highway at night"
+      ],
+      "poses": [
+        "arms out in rain night",
+        "both arms out in empty street",
+        "walking toward dawn",
+        "predawn run together",
+        "slow-dance on empty street"
+      ],
+      "looks": [
+        "dark denim simple tees",
+        "slim dark layers",
+        "dark linen relaxed",
+        "night-appropriate streetwear",
+        "faded black layered"
+      ]
+    },
+    "alone vs. watched": {
+      "locs": [
+        "street lamp cone of light",
+        "gas station fluorescence",
+        "24h diner at 3am",
+        "laundromat after midnight",
+        "petrol station isolated night"
+      ],
+      "poses": [
+        "face in single lamp pool",
+        "silhouette in diner window",
+        "diner window steam silhouette",
+        "seated neon-free shopfront",
+        "lit by single headlight"
+      ],
+      "looks": [
+        "all black minimal",
+        "dark fitted sets",
+        "slim dark layers",
+        "near-black everything",
+        "dark denim simple tees"
+      ]
+    },
+    "noise vs. quiet hour": {
+      "locs": [
+        "predawn empty boulevard",
+        "deserted high street",
+        "empty beach after midnight",
+        "city park at midnight",
+        "canal bridge night"
+      ],
+      "poses": [
+        "late night conversation bench",
+        "both looking down empty street",
+        "two figures under lamp far",
+        "slow-dance on empty street",
+        "walking toward dawn"
+      ],
+      "looks": [
+        "dark denim simple tees",
+        "dark linen relaxed",
+        "slim dark layers",
+        "night-appropriate streetwear",
+        "faded black layered"
+      ]
+    },
+    "moving vs. paralyzed": {
+      "locs": [
+        "elevated highway at night",
+        "tunnel mouth at night",
+        "bridge footwalk at 3am",
+        "motorway service area",
+        "rain-soaked empty street"
+      ],
+      "poses": [
+        "running through rain at night",
+        "sprint through tunnel light",
+        "caught in headlight freeze",
+        "mid-sprint under bridge light",
+        "predawn run together"
+      ],
+      "looks": [
+        "black athletic sets",
+        "black technical wear",
+        "black sport set",
+        "black hoodies dark joggers",
+        "black sport shorts dark hoodie"
+      ]
+    },
+    "hunting vs. hunted": {
+      "locs": [
+        "dark alley single light",
+        "warehouse district midnight",
+        "backstreet at 4am",
+        "industrial estate night",
+        "abandoned lot at midnight"
+      ],
+      "poses": [
+        "running from shadow to light",
+        "crouched in shadow then light",
+        "back to wall in dark zone",
+        "watching from overpass railing",
+        "mid-sprint under bridge light"
+      ],
+      "looks": [
+        "all black minimal",
+        "black technical wear",
+        "black on black layers",
+        "dark fitted sets",
+        "slim dark layers"
+      ]
+    },
+    "streetlit vs. shadow": {
+      "locs": [
+        "street lamp cone of light",
+        "overpass underside lit",
+        "dark alley single light",
+        "gas station fluorescence",
+        "tunnel mouth at night"
+      ],
+      "poses": [
+        "one illuminated one shadow",
+        "long shadows from single source",
+        "lit by single headlight",
+        "caught in headlight freeze",
+        "face in single lamp pool"
+      ],
+      "looks": [
+        "all black minimal",
+        "dark fitted sets",
+        "black on black layers",
+        "near-black everything",
+        "black technical wear"
+      ]
+    },
+    "neon-free dark vs. lit": {
+      "locs": [
+        "24h diner at 3am",
+        "gas station fluorescence",
+        "laundromat after midnight",
+        "24h gym window",
+        "street lamp cone of light"
+      ],
+      "poses": [
+        "silhouette in diner window",
+        "diner window steam silhouette",
+        "seated neon-free shopfront",
+        "both looking at phone light",
+        "hands on counter 24h diner"
+      ],
+      "looks": [
+        "dark denim simple tees",
+        "slim dark layers",
+        "night-appropriate streetwear",
+        "dark fitted sets",
+        "all grey no detail"
+      ]
+    },
+    "sober vs. dreaming": {
+      "locs": [
+        "rooftop at midnight",
+        "city park at midnight",
+        "empty beach after midnight",
+        "river bank at 2am",
+        "rooftop under moon"
+      ],
+      "poses": [
+        "slow-dance on empty street",
+        "dancing in parking lot alone",
+        "arms out in rain night",
+        "lying on warm hood night sky",
+        "both looking down empty street"
+      ],
+      "looks": [
+        "dark linen relaxed",
+        "faded black layered",
+        "slim dark layers",
+        "night-appropriate streetwear",
+        "dark denim simple tees"
+      ]
+    },
+    "night shift vs. day world": {
+      "locs": [
+        "factory car park night",
+        "hospital exterior night",
+        "fire station at night",
+        "industrial zone at 2am",
+        "24h gym window"
+      ],
+      "poses": [
+        "service entrance wait",
+        "petrol pump late night lean",
+        "one asleep one awake car",
+        "hands on counter 24h diner",
+        "both looking at phone light"
+      ],
+      "looks": [
+        "dark fitted sets",
+        "black technical wear",
+        "black athletic sets",
+        "black hoodies dark joggers",
+        "dark denim simple tees"
+      ]
+    }
+  },
+  "promptSuffix": "Colour grade: deep blacks, pools of artificial light — neon, sodium, LED. Available light only, no fill flash. Let the darkness be darkness.",
+  "translations": {
+    "seen vs. unseen": "seen by the city and unseen by everyone in it"
+  },
+  "locTypes": {
+    "street lamp cone of light empty": "outdoor",
+    "predawn empty boulevard": "outdoor",
+    "24h diner at 3am": "outdoor",
+    "rooftop at midnight city below": "outdoor",
+    "rain-soaked empty street lamp reflection": "outdoor",
+    "neon sign alley close": "outdoor",
+    "night club exterior queue gone": "outdoor",
+    "casino exit early hours": "outdoor",
+    "hotel lobby late night": "indoor",
+    "city bridge walking both sides empty": "outdoor",
+    "underground car park empty level": "outdoor",
+    "hospital exterior 4am": "outdoor",
+    "night bus last stop end line": "outdoor",
+    "kebab shop 2am queue": "outdoor",
+    "phone box interior lit": "indoor",
+    "underpass graffiti night colour": "outdoor",
+    "harbour lights reflection water night": "outdoor",
+    "ferry terminal last boat gone": "outdoor",
+    "train station concourse empty night": "outdoor",
+    "airport arrivals 5am": "outdoor",
+    "fuel station forecourt night": "outdoor",
+    "empty beach night city beyond": "outdoor",
+    "park night fountain lit": "outdoor",
+    "botanical garden night event": "outdoor",
+    "stadium exterior night event over": "outdoor",
+    "theatre stage door night": "both",
+    "concert venue exit after": "outdoor",
+    "bar exterior last call street": "outdoor",
+    "arcade empty closing time": "outdoor",
+    "bowling alley last game": "outdoor",
+    "Tokyo Shinjuku Kabukicho neon": "outdoor",
+    "Osaka Dotonbori night reflection": "outdoor",
+    "Seoul Hongdae night street": "outdoor",
+    "Hong Kong Mong Kok night dense": "outdoor",
+    "Taipei night market open": "outdoor",
+    "Bangkok Patpong night market": "outdoor",
+    "Ho Chi Minh night street food": "outdoor",
+    "Singapore Clarke Quay night": "outdoor",
+    "Kuala Lumpur Petaling night": "outdoor",
+    "New York Times Square 4am": "outdoor",
+    "Las Vegas strip 3am": "outdoor",
+    "Chicago Riverwalk night": "outdoor",
+    "Miami South Beach night": "outdoor",
+    "New Orleans Bourbon St late": "outdoor",
+    "Nashville Broadway night": "outdoor",
+    "London West End 2am": "outdoor",
+    "Paris Pigalle night": "outdoor",
+    "Berlin Kurfürstendamm night": "outdoor",
+    "Amsterdam red light area outside": "outdoor",
+    "Brussels Grande Place night": "outdoor",
+    "Prague Wenceslas night": "outdoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

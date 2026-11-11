@@ -1,0 +1,695 @@
+{
+  "id": "road",
+  "name": "THE ROAD",
+  "sub": "Speed & Distance",
+  "color": "#d4922a",
+  "tensions": [
+    "motion vs. stillness",
+    "leaving vs. arriving",
+    "speed vs. weight",
+    "freedom vs. direction",
+    "drift vs. purpose",
+    "chasing vs. fleeing",
+    "journey vs. destination",
+    "open vs. closed",
+    "fuel vs. fumes",
+    "fast vs. forgotten",
+    "running from vs. running toward",
+    "engine vs. silence",
+    "throttle vs. brake",
+    "horizon vs. past",
+    "asphalt vs. sky",
+    "distance vs. closeness",
+    "moving vs. rooted",
+    "escape vs. return",
+    "forward vs. nowhere",
+    "controlled vs. abandoned"
+  ],
+  "locs": [
+    "desert highway at dusk heat shimmer",
+    "empty highway rest stop",
+    "wet asphalt overpass night reflection",
+    "mountain switchback edge vertiginous",
+    "motorway at night light trails",
+    "freeway on-ramp shoulder",
+    "interstate service road empty",
+    "empty airstrip tarmac heat",
+    "state highway no buildings horizon",
+    "Route 66 desert diner exterior",
+    "Route 66 motel sign rusted",
+    "Route 66 filling station abandoned",
+    "road tunnel exit light end",
+    "bridge expansion joint middle",
+    "highway billboard empty",
+    "level crossing arms down alone",
+    "toll booth abandoned",
+    "weigh station closed",
+    "truck stop empty 3am",
+    "drive-in movie screen empty",
+    "car wash tunnel entrance",
+    "highway flyover construction",
+    "motorway service park dark",
+    "roundabout centre at dawn",
+    "main road empty market town",
+    "B-road countryside both verges",
+    "coastal highway cliff edge",
+    "mountain pass summit road",
+    "valley road river beside",
+    "forest road canopy over",
+    "desert road mirage ahead",
+    "dirt road becoming tarmac",
+    "gravel road end tarmac starts",
+    "North American highway billboard",
+    "Australian outback highway road train track",
+    "Irish bog road endless narrow",
+    "Scottish single-track passing place",
+    "Norwegian fjord road tunnel",
+    "Icelandic ring road empty",
+    "New Zealand coastal highway",
+    "South African coastal road",
+    "Patagonian ruta 40 gravel",
+    "Chilean carretera austral",
+    "Bolivian salar crossing white",
+    "Brazilian BR-116 jungle edge",
+    "Colombian Pan-American mountain",
+    "Peru Cusco mountain road",
+    "Mexico highway free road",
+    "Trans-Siberian highway winter",
+    "Silk Road Kyrgyzstan pass"
+  ],
+  "poses": [
+    "both on motorcycles helmets off roadside",
+    "sprinting along highway median",
+    "one on car hood one leaning beside",
+    "sitting on road shoulder backs to road",
+    "jogging the center line ahead of nothing",
+    "one behind wheel one head out window driving",
+    "both leaning on car roof looking at map",
+    "silhouette on road at golden hour walking",
+    "one standing on car roof other watches",
+    "both arms out in middle of empty road",
+    "one sleeping in car other driving night road",
+    "looking at each other across center line",
+    "back-to-back on hood of stopped car",
+    "both walking away from car broken down",
+    "one picking up other's hitching thumb pulled over",
+    "walking beside road single file",
+    "both watching approaching headlights in dark",
+    "looking back down road just driven",
+    "one pointing at destination sign other notes",
+    "sitting on railing bridge below river",
+    "running from car about to be stolen laughing",
+    "dancing on empty road 3am",
+    "both lying on road at night stars above",
+    "one under car other handing tools up",
+    "thumbs up hitching side by side both",
+    "back-to-back at junction different ways tempted",
+    "both looking at atlas spread on roof",
+    "pushing car both hands on boot",
+    "one steering wheel leaning out other pushes",
+    "watching sun rise over highway ahead",
+    "both reading road sign at junction confused",
+    "selfie stick out window driving both",
+    "both pumping gas different pumps",
+    "buying snack convenience store doorway",
+    "sitting on wall layby views both",
+    "one on wing mirror other standing close",
+    "both watching road train pass enormous",
+    "running between lanes of stationary traffic",
+    "one foot on curb rest area both looking at map",
+    "parallel walking painted lines",
+    "one writing on steamed car window",
+    "sitting on car bonnet eating gas station food",
+    "both watching flat tyre being changed roadside",
+    "looking at speedometer together"
+  ],
+  "looks": [
+    "riding leathers helmets hanging both",
+    "biker jackets dark jeans both",
+    "slim cargo pants ribbed tanks both",
+    "raw denim plain white tees both",
+    "moto jackets fitted tees both",
+    "road trip flannel shirt jeans each",
+    "travel clothes comfortable layers each",
+    "highway worn denim jacket tee each",
+    "vintage tour tee and jeans both",
+    "baseball cap road shirt jeans each",
+    "zip-up hoodie jeans sneakers each",
+    "driving jacket slim trousers each",
+    "trucker jacket tee cords each",
+    "band tee road-worn jeans each",
+    "light windbreaker tee slim jeans each",
+    "denim shirt jeans double-denim both",
+    "simple tee and worn jeans both essential",
+    "travelling light dress and shirt each",
+    "oversized tee joggers comfortable journey both",
+    "road-worn plaid shirt jeans both",
+    "simple white tee and black jeans both",
+    "classic bomber tee slim jeans both",
+    "navy cotton chinos and tee each",
+    "khaki trousers button shirt each",
+    "printed camp shirt jeans each",
+    "worn chino shorts tee slip-ons each summer road",
+    "vintage sport jacket tee jeans both",
+    "prep cardigan shirt chinos each",
+    "light rain jacket base layer jeans each",
+    "coloured denim and simple tee each",
+    "Levi's and tee quintessential road both",
+    "travel polo slim trousers each smart",
+    "matching printed co-ords travel each",
+    "linen pants simple tee warm road each",
+    "jeans and cowboy boot shirt each",
+    "tank top and cut-off shorts summer road each",
+    "quilted gilet tee slim jeans each",
+    "zip hoodie sweatpants road comfortable each",
+    "wide leg trousers crop top each",
+    "leather driving gloves jacket slim pants each",
+    "motorcycle-inspired jacket and jeans both",
+    "vintage American sports gear both",
+    "bandana shirt jeans boots both western road",
+    "windproof vest tee slim pants each",
+    "cargo shorts tee hiking shoes road-trip each",
+    "simple dress and casual shirt road warm each"
+  ],
+  "affinities": {
+    "motion vs. stillness": {
+      "locs": [
+        "desert highway at dusk",
+        "long straight flat road",
+        "salt flat highway",
+        "empty airstrip",
+        "two-lane blacktop at sunset"
+      ],
+      "poses": [
+        "both staring down empty road",
+        "silhouette walk toward horizon",
+        "side by side sunset silhouette",
+        "lying flat on warm asphalt",
+        "standing in headlight beam"
+      ],
+      "looks": [
+        "raw denim plain white tees",
+        "sun-faded denim sets",
+        "fitted tees slim jeans",
+        "worn jeans open flannels",
+        "slim cargo pants ribbed tanks"
+      ]
+    },
+    "leaving vs. arriving": {
+      "locs": [
+        "desert crossroads",
+        "rural crossroads at dawn",
+        "mountain pass summit",
+        "empty highway rest stop",
+        "bridge mid-span"
+      ],
+      "poses": [
+        "walking away on asphalt",
+        "both facing away on empty road",
+        "back-to-back at crossroads",
+        "hand held run toward horizon",
+        "side by side sunset silhouette"
+      ],
+      "looks": [
+        "worn jeans open flannels",
+        "sun-faded denim sets",
+        "biker jackets dark jeans",
+        "raw denim plain white tees",
+        "slim cargo pants ribbed tanks"
+      ]
+    },
+    "speed vs. weight": {
+      "locs": [
+        "dragstrip start line",
+        "race track pit lane",
+        "abandoned race circuit",
+        "tarmac airfield perimeter",
+        "race circuit backstraight"
+      ],
+      "poses": [
+        "mid-wheelie on highway",
+        "back wheel skid freeze",
+        "both on motorcycles helmets off",
+        "racing on adjacent lanes",
+        "road dust mid-sprint cloud"
+      ],
+      "looks": [
+        "racing suits unzipped at waist",
+        "riding leathers helmets off",
+        "biker jackets dark jeans",
+        "moto jackets fitted tees",
+        "fitted tees slim jeans"
+      ]
+    },
+    "freedom vs. direction": {
+      "locs": [
+        "desert crossroads",
+        "salt flat highway",
+        "empty airstrip",
+        "two-lane blacktop at sunset",
+        "long straight flat road"
+      ],
+      "poses": [
+        "arms wide on open road",
+        "spinning in intersection",
+        "both facing away on empty road",
+        "silhouette walk toward horizon",
+        "arms out in open convertible"
+      ],
+      "looks": [
+        "sun-faded denim sets",
+        "worn jeans open flannels",
+        "cargo shorts worn cotton tops",
+        "raw denim plain white tees",
+        "sun-bleached tees shorts"
+      ]
+    },
+    "drift vs. purpose": {
+      "locs": [
+        "desert highway at dusk",
+        "rural highway at midnight",
+        "motorway at night",
+        "highway flyover at night",
+        "elevated highway bend"
+      ],
+      "poses": [
+        "leaning into corner on bike",
+        "back wheel skid freeze",
+        "mid-wheelie on highway",
+        "road dust mid-sprint cloud",
+        "one steering one arms-out passenger"
+      ],
+      "looks": [
+        "riding leathers helmets off",
+        "racing suits unzipped at waist",
+        "moto jackets fitted tees",
+        "biker jackets dark jeans",
+        "battered leather dark pants"
+      ]
+    },
+    "chasing vs. fleeing": {
+      "locs": [
+        "motorway at night",
+        "freeway on-ramp shoulder",
+        "highway flyover at night",
+        "rural highway at midnight",
+        "elevated highway bend"
+      ],
+      "poses": [
+        "running from car toward camera",
+        "running ahead of headlights",
+        "racing the oncoming lights",
+        "dust cloud exit run",
+        "road dust mid-sprint cloud"
+      ],
+      "looks": [
+        "fitted tees slim jeans",
+        "raw denim plain white tees",
+        "slim cargo pants ribbed tanks",
+        "sun-bleached tees shorts",
+        "worn cotton tees shorts"
+      ]
+    },
+    "journey vs. destination": {
+      "locs": [
+        "empty highway rest stop",
+        "rest stop at 3am",
+        "truck stop forecourt",
+        "mountain pass summit",
+        "desert service station"
+      ],
+      "poses": [
+        "sitting on road shoulder backs out",
+        "sitting face to face on asphalt",
+        "leaning on hood engine cooling",
+        "knees on gravel tired",
+        "dawn road sprint together"
+      ],
+      "looks": [
+        "worn jeans open flannels",
+        "sun-faded denim sets",
+        "canvas jackets cargo shorts",
+        "sun-bleached tees shorts",
+        "mechanic shirts ripped jeans"
+      ]
+    },
+    "open vs. closed": {
+      "locs": [
+        "salt flat highway",
+        "desert highway at dusk",
+        "long straight flat road",
+        "empty airstrip",
+        "two-lane blacktop at sunset"
+      ],
+      "poses": [
+        "arms wide on open road",
+        "both staring down empty road",
+        "silhouette walk toward horizon",
+        "side by side sunset silhouette",
+        "both facing away on empty road"
+      ],
+      "looks": [
+        "raw denim plain white tees",
+        "cargo shorts worn cotton tops",
+        "sun-faded denim sets",
+        "worn jeans open flannels",
+        "slim cargo pants ribbed tanks"
+      ]
+    },
+    "fuel vs. fumes": {
+      "locs": [
+        "pre-dawn gas station",
+        "truck stop forecourt",
+        "desert service station",
+        "highway weigh station",
+        "industrial port road"
+      ],
+      "poses": [
+        "leaning on hood engine cooling",
+        "one on car hood one leaning",
+        "peering over dashboard together",
+        "sitting on barrier highway behind",
+        "standing in headlight beam"
+      ],
+      "looks": [
+        "mechanic shirts ripped jeans",
+        "oil-stained coveralls unzipped",
+        "work boots slim cargos",
+        "mechanic overalls half off",
+        "open overalls simple tee underneath"
+      ]
+    },
+    "fast vs. forgotten": {
+      "locs": [
+        "abandoned race circuit",
+        "rest stop at 3am",
+        "rural highway at midnight",
+        "empty toll booth lane",
+        "highway weigh station"
+      ],
+      "poses": [
+        "sitting face to face on asphalt",
+        "lying flat on warm asphalt",
+        "both staring down empty road",
+        "knees on gravel tired",
+        "seated on road centerline"
+      ],
+      "looks": [
+        "worn jeans open flannels",
+        "sun-faded denim sets",
+        "faded band tees dark chinos",
+        "road-worn leather vests tees",
+        "patched denim jackets tees"
+      ]
+    },
+    "running from vs. running toward": {
+      "locs": [
+        "desert highway at dusk",
+        "motorway at night",
+        "freeway on-ramp shoulder",
+        "mountain road hairpin",
+        "flooded road section"
+      ],
+      "poses": [
+        "running from car toward camera",
+        "running ahead of headlights",
+        "hand held sprint together",
+        "side by side at full sprint",
+        "sprinting along highway median"
+      ],
+      "looks": [
+        "fitted tees slim jeans",
+        "slim cargo pants ribbed tanks",
+        "raw denim plain white tees",
+        "sun-bleached tees shorts",
+        "worn cotton tees shorts"
+      ]
+    },
+    "engine vs. silence": {
+      "locs": [
+        "empty airstrip",
+        "salt flat highway",
+        "desert crossroads",
+        "rest stop at 3am",
+        "mountain pass summit"
+      ],
+      "poses": [
+        "sitting on road shoulder backs out",
+        "both staring down empty road",
+        "lying flat on warm asphalt",
+        "side by side sunset silhouette",
+        "seated on road centerline"
+      ],
+      "looks": [
+        "sun-faded denim sets",
+        "worn jeans open flannels",
+        "raw denim plain white tees",
+        "fitted tees slim jeans",
+        "slim cargo pants ribbed tanks"
+      ]
+    },
+    "throttle vs. brake": {
+      "locs": [
+        "race track pit lane",
+        "dragstrip start line",
+        "mountain road hairpin",
+        "abandoned race circuit",
+        "race circuit backstraight"
+      ],
+      "poses": [
+        "mid-wheelie on highway",
+        "back wheel skid freeze",
+        "racing on adjacent lanes",
+        "leaning into corner on bike",
+        "road dust mid-sprint cloud"
+      ],
+      "looks": [
+        "racing suits unzipped at waist",
+        "riding leathers helmets off",
+        "moto jackets fitted tees",
+        "biker jackets dark jeans",
+        "fitted tees slim jeans"
+      ]
+    },
+    "horizon vs. past": {
+      "locs": [
+        "desert highway at dusk",
+        "two-lane blacktop at sunset",
+        "salt flat highway",
+        "long straight flat road",
+        "desert crossroads"
+      ],
+      "poses": [
+        "walking away on asphalt",
+        "both facing away on empty road",
+        "silhouette walk toward horizon",
+        "hand held run toward horizon",
+        "looking back over shoulder together"
+      ],
+      "looks": [
+        "sun-faded denim sets",
+        "worn jeans open flannels",
+        "raw denim plain white tees",
+        "slim cargo pants ribbed tanks",
+        "faded band tees dark chinos"
+      ]
+    },
+    "asphalt vs. sky": {
+      "locs": [
+        "empty airstrip",
+        "salt flat highway",
+        "desert highway at dusk",
+        "two-lane blacktop at sunset",
+        "mesa rim road"
+      ],
+      "poses": [
+        "lying flat on warm asphalt",
+        "arms wide on open road",
+        "arms out in open convertible",
+        "silhouette walk toward horizon",
+        "crouching at road level car behind"
+      ],
+      "looks": [
+        "raw denim plain white tees",
+        "cargo shorts worn cotton tops",
+        "sun-bleached tees shorts",
+        "sun-faded denim sets",
+        "fitted tees slim jeans"
+      ]
+    },
+    "distance vs. closeness": {
+      "locs": [
+        "bridge mid-span",
+        "desert crossroads",
+        "rural crossroads at dawn",
+        "mountain pass summit",
+        "empty highway rest stop"
+      ],
+      "poses": [
+        "hands on each other roadside",
+        "sitting face to face on asphalt",
+        "both staring down empty road",
+        "side by side sunset silhouette",
+        "back-to-back at crossroads"
+      ],
+      "looks": [
+        "worn jeans open flannels",
+        "raw denim plain white tees",
+        "sun-faded denim sets",
+        "slim cargo pants ribbed tanks",
+        "fitted tees slim jeans"
+      ]
+    },
+    "moving vs. rooted": {
+      "locs": [
+        "desert crossroads",
+        "rural crossroads at dawn",
+        "long straight flat road",
+        "empty highway rest stop",
+        "bridge mid-span"
+      ],
+      "poses": [
+        "standing in headlight beam",
+        "spinning in intersection",
+        "side by side at full sprint",
+        "silhouette walk toward horizon",
+        "both staring down empty road"
+      ],
+      "looks": [
+        "fitted tees slim jeans",
+        "raw denim plain white tees",
+        "slim cargo pants ribbed tanks",
+        "worn jeans open flannels",
+        "sun-faded denim sets"
+      ]
+    },
+    "escape vs. return": {
+      "locs": [
+        "mountain pass summit",
+        "desert crossroads",
+        "rural crossroads at dawn",
+        "bridge mid-span",
+        "long straight flat road"
+      ],
+      "poses": [
+        "walking away on asphalt",
+        "looking back over shoulder together",
+        "back-to-back at crossroads",
+        "hand held run toward horizon",
+        "both facing away on empty road"
+      ],
+      "looks": [
+        "worn jeans open flannels",
+        "biker jackets dark jeans",
+        "raw denim plain white tees",
+        "sun-faded denim sets",
+        "slim cargo pants ribbed tanks"
+      ]
+    },
+    "forward vs. nowhere": {
+      "locs": [
+        "desert highway at dusk",
+        "salt flat highway",
+        "long straight flat road",
+        "empty airstrip",
+        "rural highway at midnight"
+      ],
+      "poses": [
+        "both staring down empty road",
+        "silhouette walk toward horizon",
+        "side by side sunset silhouette",
+        "lying flat on warm asphalt",
+        "seated on road centerline"
+      ],
+      "looks": [
+        "sun-faded denim sets",
+        "worn jeans open flannels",
+        "raw denim plain white tees",
+        "slim cargo pants ribbed tanks",
+        "faded band tees dark chinos"
+      ]
+    },
+    "controlled vs. abandoned": {
+      "locs": [
+        "abandoned race circuit",
+        "race track pit lane",
+        "dragstrip start line",
+        "mountain road hairpin",
+        "desert service station"
+      ],
+      "poses": [
+        "back wheel skid freeze",
+        "mid-wheelie on highway",
+        "road dust mid-sprint cloud",
+        "leaning into corner on bike",
+        "racing on adjacent lanes"
+      ],
+      "looks": [
+        "racing suits unzipped at waist",
+        "riding leathers helmets off",
+        "moto jackets fitted tees",
+        "biker jackets dark jeans",
+        "open overalls simple tee underneath"
+      ]
+    }
+  },
+  "promptSuffix": "Colour grade: sun-bleached, high contrast, the palette of asphalt and horizon. The road itself should dominate the frame.",
+  "translations": {},
+  "locTypes": {
+    "desert highway at dusk heat shimmer": "outdoor",
+    "empty highway rest stop": "outdoor",
+    "wet asphalt overpass night reflection": "outdoor",
+    "mountain switchback edge vertiginous": "outdoor",
+    "motorway at night light trails": "outdoor",
+    "freeway on-ramp shoulder": "outdoor",
+    "interstate service road empty": "outdoor",
+    "empty airstrip tarmac heat": "outdoor",
+    "state highway no buildings horizon": "outdoor",
+    "Route 66 desert diner exterior": "outdoor",
+    "Route 66 motel sign rusted": "outdoor",
+    "Route 66 filling station abandoned": "outdoor",
+    "road tunnel exit light end": "outdoor",
+    "bridge expansion joint middle": "outdoor",
+    "highway billboard empty": "outdoor",
+    "level crossing arms down alone": "outdoor",
+    "toll booth abandoned": "outdoor",
+    "weigh station closed": "outdoor",
+    "truck stop empty 3am": "outdoor",
+    "drive-in movie screen empty": "outdoor",
+    "car wash tunnel entrance": "outdoor",
+    "highway flyover construction": "outdoor",
+    "motorway service park dark": "outdoor",
+    "roundabout centre at dawn": "outdoor",
+    "main road empty market town": "outdoor",
+    "B-road countryside both verges": "outdoor",
+    "coastal highway cliff edge": "outdoor",
+    "mountain pass summit road": "outdoor",
+    "valley road river beside": "outdoor",
+    "forest road canopy over": "outdoor",
+    "desert road mirage ahead": "outdoor",
+    "dirt road becoming tarmac": "outdoor",
+    "gravel road end tarmac starts": "outdoor",
+    "North American highway billboard": "outdoor",
+    "Australian outback highway road train track": "outdoor",
+    "Irish bog road endless narrow": "outdoor",
+    "Scottish single-track passing place": "outdoor",
+    "Norwegian fjord road tunnel": "outdoor",
+    "Icelandic ring road empty": "outdoor",
+    "New Zealand coastal highway": "outdoor",
+    "South African coastal road": "outdoor",
+    "Patagonian ruta 40 gravel": "outdoor",
+    "Chilean carretera austral": "outdoor",
+    "Bolivian salar crossing white": "outdoor",
+    "Brazilian BR-116 jungle edge": "outdoor",
+    "Colombian Pan-American mountain": "outdoor",
+    "Peru Cusco mountain road": "outdoor",
+    "Mexico highway free road": "outdoor",
+    "Trans-Siberian highway winter": "outdoor",
+    "Silk Road Kyrgyzstan pass": "outdoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

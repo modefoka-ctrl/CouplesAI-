@@ -1,0 +1,278 @@
+{
+  "id": "circus",
+  "name": "THE CIRCUS",
+  "sub": "Big Top, Soviet Ring & the Art of Impossible",
+  "color": "#c41464",
+  "tensions": [
+    "performance vs. reality",
+    "risk vs. safety",
+    "applause vs. silence",
+    "the act vs. the life",
+    "grace vs. danger",
+    "spectacle vs. ordinary",
+    "the big top vs. the world outside",
+    "peak vs. descent",
+    "together vs. alone in the ring",
+    "the crowd vs. the performer"
+  ],
+  "affinities": {
+    "performance vs. reality": {
+      "locs": [
+        "Soviet state circus ring red spotlight 1960s",
+        "Soviet circus animal trainer ring 1960s",
+        "Moscow State Circus dressing room backstage 1970s"
+      ],
+      "poses": [
+        "both stepping into the red spotlight, arms flung wide",
+        "one balanced on the other's shoulders, hands steady",
+        "both bowing deeply to a roaring crowd"
+      ],
+      "looks": [
+        "red sequined leotard and stiff gold collar each",
+        "tailored ringmaster tailcoat with braid each",
+        "white training leotard and ballet shoes each"
+      ]
+    },
+    "risk vs. safety": {
+      "locs": [
+        "Cirque du Soleil contemporary rig dramatic",
+        "aerial silks rig warehouse rehearsal contemporary",
+        "wire act high above no net ring below"
+      ],
+      "poses": [
+        "both suspended high on silks, limbs entwined",
+        "one hanging by the knees reaching down to the other",
+        "both balanced on the wire, arms out"
+      ],
+      "looks": [
+        "sleek body-hugging performance suit each",
+        "flowing silk costume with long ribbons each",
+        "minimal pale leotard and chalked hands each"
+      ]
+    },
+    "applause vs. silence": {
+      "locs": [
+        "clown alley backstage dressing tables",
+        "circus ring empty between shows sawdust",
+        "circus ring single spotlight performer dust"
+      ],
+      "poses": [
+        "both at a mirror applying makeup, side by side",
+        "both sitting on the edge, exhausted and quiet",
+        "one painting the other's face with careful hands"
+      ],
+      "looks": [
+        "half-done clown makeup and baggy costume each",
+        "cardigan over a sequined costume each",
+        "robe over a rhinestone costume each"
+      ]
+    },
+    "the act vs. the life": {
+      "locs": [
+        "Depression-era big top sawdust 1930s",
+        "Depression water for elephants register 1930s",
+        "Barnum Bailey travelling circus poster backdrop 1920s"
+      ],
+      "poses": [
+        "both leaning on a painted wagon, worn and proud",
+        "both walking beside a line of elephants, dust rising",
+        "both sharing a tin cup of coffee on the steps, tired"
+      ],
+      "looks": [
+        "patched wool jacket and faded sequins each",
+        "striped performer's costume and worn boots each",
+        "ringmaster's coat with tarnished braid each"
+      ]
+    },
+    "grace vs. danger": {
+      "locs": [
+        "flying trapeze platform height big top",
+        "Cirque du Soleil contemporary rig dramatic",
+        "aerial silks rig warehouse rehearsal contemporary"
+      ],
+      "poses": [
+        "both suspended high on silks, limbs entwined",
+        "one hanging by the knees reaching down to the other",
+        "both balanced on the wire, arms out"
+      ],
+      "looks": [
+        "sleek body-hugging performance suit each",
+        "flowing silk costume with long ribbons each",
+        "minimal pale leotard and chalked hands each"
+      ]
+    },
+    "spectacle vs. ordinary": {
+      "locs": [
+        "big top exterior night lights",
+        "1950s Italian circus Fellini register outdoor",
+        "big top collapsed in wind aftermath"
+      ],
+      "poses": [
+        "both small before the glowing tent, hand in hand",
+        "both dancing in the empty sawdust, no music",
+        "both standing in the wreckage, staring at the sky"
+      ],
+      "looks": [
+        "faded finery and an oversized coat each",
+        "dark coat over a bright costume each",
+        "simple street clothes with a tinsel scarf each"
+      ]
+    },
+    "the big top vs. the world outside": {
+      "locs": [
+        "big top exterior night lights",
+        "1950s Italian circus Fellini register outdoor",
+        "big top collapsed in wind aftermath"
+      ],
+      "poses": [
+        "both small before the glowing tent, hand in hand",
+        "both dancing in the empty sawdust, no music",
+        "both standing in the wreckage, staring at the sky"
+      ],
+      "looks": [
+        "faded finery and an oversized coat each",
+        "dark coat over a bright costume each",
+        "simple street clothes with a tinsel scarf each"
+      ]
+    },
+    "peak vs. descent": {
+      "locs": [
+        "clown alley backstage dressing tables",
+        "circus ring empty between shows sawdust",
+        "circus ring single spotlight performer dust"
+      ],
+      "poses": [
+        "both at a mirror applying makeup, side by side",
+        "both sitting on the edge, exhausted and quiet",
+        "one painting the other's face with careful hands"
+      ],
+      "looks": [
+        "half-done clown makeup and baggy costume each",
+        "cardigan over a sequined costume each",
+        "robe over a rhinestone costume each"
+      ]
+    },
+    "together vs. alone in the ring": {
+      "locs": [
+        "circus train car siding dawn performers",
+        "circus parade street 1920s elephants",
+        "circus wagon painted carved travelling"
+      ],
+      "poses": [
+        "both leaning on a painted wagon, worn and proud",
+        "both walking beside a line of elephants, dust rising",
+        "both sharing a tin cup of coffee on the steps, tired"
+      ],
+      "looks": [
+        "patched wool jacket and faded sequins each",
+        "striped performer's costume and worn boots each",
+        "ringmaster's coat with tarnished braid each"
+      ]
+    },
+    "the crowd vs. the performer": {
+      "locs": [
+        "Moscow circus school practice hall",
+        "Soviet state circus ring red spotlight 1960s",
+        "Soviet circus animal trainer ring 1960s"
+      ],
+      "poses": [
+        "both stepping into the red spotlight, arms flung wide",
+        "one balanced on the other's shoulders, hands steady",
+        "both bowing deeply to a roaring crowd"
+      ],
+      "looks": [
+        "red sequined leotard and stiff gold collar each",
+        "tailored ringmaster tailcoat with braid each",
+        "white training leotard and ballet shoes each"
+      ]
+    }
+  },
+  "locs": [
+    "Soviet state circus ring red spotlight 1960s",
+    "Soviet circus animal trainer ring 1960s",
+    "Moscow State Circus dressing room backstage 1970s",
+    "Moscow circus school practice hall",
+    "Depression-era big top sawdust 1930s",
+    "Depression water for elephants register 1930s",
+    "Barnum Bailey travelling circus poster backdrop 1920s",
+    "circus train car siding dawn performers",
+    "circus parade street 1920s elephants",
+    "circus wagon painted carved travelling",
+    "Cirque du Soleil contemporary rig dramatic",
+    "aerial silks rig warehouse rehearsal contemporary",
+    "wire act high above no net ring below",
+    "flying trapeze platform height big top",
+    "clown alley backstage dressing tables",
+    "circus ring empty between shows sawdust",
+    "circus ring single spotlight performer dust",
+    "big top exterior night lights",
+    "1950s Italian circus Fellini register outdoor",
+    "big top collapsed in wind aftermath"
+  ],
+  "poses": [
+    "both stepping into the red spotlight, arms flung wide",
+    "one balanced on the other's shoulders, hands steady",
+    "both bowing deeply to a roaring crowd",
+    "both leaning on a painted wagon, worn and proud",
+    "both walking beside a line of elephants, dust rising",
+    "both sharing a tin cup of coffee on the steps, tired",
+    "both suspended high on silks, limbs entwined",
+    "one hanging by the knees reaching down to the other",
+    "both balanced on the wire, arms out",
+    "both at a mirror applying makeup, side by side",
+    "both sitting on the edge, exhausted and quiet",
+    "one painting the other's face with careful hands",
+    "both small before the glowing tent, hand in hand",
+    "both dancing in the empty sawdust, no music",
+    "both standing in the wreckage, staring at the sky"
+  ],
+  "looks": [
+    "red sequined leotard and stiff gold collar each",
+    "tailored ringmaster tailcoat with braid each",
+    "white training leotard and ballet shoes each",
+    "patched wool jacket and faded sequins each",
+    "striped performer's costume and worn boots each",
+    "ringmaster's coat with tarnished braid each",
+    "sleek body-hugging performance suit each",
+    "flowing silk costume with long ribbons each",
+    "minimal pale leotard and chalked hands each",
+    "half-done clown makeup and baggy costume each",
+    "cardigan over a sequined costume each",
+    "robe over a rhinestone costume each",
+    "faded finery and an oversized coat each",
+    "dark coat over a bright costume each",
+    "simple street clothes with a tinsel scarf each"
+  ],
+  "promptSuffix": "Colour grade: big top red and gold, Soviet poster primary, Depression sepia and dust, single ring spotlight darkness.",
+  "translations": {
+    "applause vs. silence": "applause cracking under the weight of silence",
+    "spectacle vs. ordinary": "the waltzer and the man who runs it"
+  },
+  "locTypes": {
+    "Soviet state circus ring red spotlight 1960s": "indoor",
+    "Soviet circus animal trainer ring 1960s": "indoor",
+    "Moscow State Circus dressing room backstage 1970s": "indoor",
+    "Moscow circus school practice hall": "indoor",
+    "Depression-era big top sawdust 1930s": "both",
+    "Depression water for elephants register 1930s": "both",
+    "Barnum Bailey travelling circus poster backdrop 1920s": "both",
+    "circus train car siding dawn performers": "both",
+    "circus parade street 1920s elephants": "outdoor",
+    "circus wagon painted carved travelling": "both",
+    "Cirque du Soleil contemporary rig dramatic": "both",
+    "aerial silks rig warehouse rehearsal contemporary": "indoor",
+    "wire act high above no net ring below": "indoor",
+    "flying trapeze platform height big top": "both",
+    "clown alley backstage dressing tables": "both",
+    "circus ring empty between shows sawdust": "indoor",
+    "circus ring single spotlight performer dust": "indoor",
+    "big top exterior night lights": "outdoor",
+    "1950s Italian circus Fellini register outdoor": "outdoor",
+    "big top collapsed in wind aftermath": "both"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

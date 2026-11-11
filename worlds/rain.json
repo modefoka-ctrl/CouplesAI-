@@ -1,0 +1,303 @@
+{
+  "id": "rain",
+  "name": "THE RAIN",
+  "sub": "Monsoon, Drizzle, Downpour & the In-Between",
+  "color": "#3a5a6a",
+  "tensions": [
+    "soaked vs. sheltered",
+    "the umbrella vs. the giving up",
+    "before vs. after",
+    "the drizzle vs. the downpour",
+    "together in it vs. alone",
+    "refreshed vs. ruined",
+    "the grey vs. the colour after",
+    "rain as blessing vs. curse",
+    "waiting it out vs. walking through",
+    "the sound of it vs. the silence after"
+  ],
+  "affinities": {
+    "soaked vs. sheltered": {
+      "locs": [
+        "tropical downpour beach shelter dramatic",
+        "Scottish highland sudden downpour open moor",
+        "New York summer downpour steam street"
+      ],
+      "poses": [
+        "both running for cover, laughing",
+        "both pressed in a doorway, soaked and breathless",
+        "both caught mid-sprint, clothes streaming"
+      ],
+      "looks": [
+        "summer dress and light shirt, soaked each",
+        "jeans and tee, soaked through each",
+        "linen shirt and shorts, drenched each"
+      ]
+    },
+    "the umbrella vs. the giving up": {
+      "locs": [
+        "London grey drizzle Waterloo Bridge umbrella commute",
+        "Edinburgh drizzle grey castle behind mist",
+        "Dublin drizzle grey Georgian street umbrella"
+      ],
+      "poses": [
+        "both huddled close, shoulders touching",
+        "both hurrying along, newspapers over their heads",
+        "both stopped mid-step, looking up at the grey sky"
+      ],
+      "looks": [
+        "wool coat and scarf each",
+        "waterproof jacket and boots each",
+        "raincoat and rubber boots each"
+      ]
+    },
+    "before vs. after": {
+      "locs": [
+        "after rain Paris cobblestone reflection puddle golden",
+        "after rain Tokyo neon reflection puddle night",
+        "after rain London Victorian street reflection lamp"
+      ],
+      "poses": [
+        "both stepping through puddles, reflections at their feet",
+        "both looking up as the clouds break",
+        "both leaning on a lamp post, wet and smiling"
+      ],
+      "looks": [
+        "damp coat and bright scarf each",
+        "wet hair and open jacket each",
+        "rolled trousers and boots each"
+      ]
+    },
+    "the drizzle vs. the downpour": {
+      "locs": [
+        "Glasgow drizzle grey tenement street",
+        "Portland Oregon grey drizzle everyday",
+        "London grey drizzle Waterloo Bridge umbrella commute"
+      ],
+      "poses": [
+        "both huddled close, shoulders touching",
+        "both hurrying along, newspapers over their heads",
+        "both stopped mid-step, looking up at the grey sky"
+      ],
+      "looks": [
+        "wool coat and scarf each",
+        "waterproof jacket and boots each",
+        "raincoat and rubber boots each"
+      ]
+    },
+    "together in it vs. alone": {
+      "locs": [
+        "Mumbai monsoon first rain flooding street joy dancing",
+        "Kerala monsoon paddy field rain dramatic",
+        "Bangkok monsoon flood street motorbike spray"
+      ],
+      "poses": [
+        "both arms open to the sky, drenched and laughing",
+        "both wading through ankle-deep water, shoes in hand",
+        "both dancing in the flood, faces turned up"
+      ],
+      "looks": [
+        "soaked bright cotton clothes each",
+        "wet shirts clinging, bare feet each",
+        "thin dresses and rolled trousers, drenched each"
+      ]
+    },
+    "refreshed vs. ruined": {
+      "locs": [
+        "Paris summer downpour cafe awning shelter",
+        "Rome sudden downpour fountain piazza",
+        "tropical downpour beach shelter dramatic"
+      ],
+      "poses": [
+        "both running for cover, laughing",
+        "both pressed in a doorway, soaked and breathless",
+        "both caught mid-sprint, clothes streaming"
+      ],
+      "looks": [
+        "summer dress and light shirt, soaked each",
+        "jeans and tee, soaked through each",
+        "linen shirt and shorts, drenched each"
+      ]
+    },
+    "the grey vs. the colour after": {
+      "locs": [
+        "rainbow after storm field dramatic",
+        "after rain Paris cobblestone reflection puddle golden",
+        "after rain Tokyo neon reflection puddle night"
+      ],
+      "poses": [
+        "both stepping through puddles, reflections at their feet",
+        "both looking up as the clouds break",
+        "both leaning on a lamp post, wet and smiling"
+      ],
+      "looks": [
+        "damp coat and bright scarf each",
+        "wet hair and open jacket each",
+        "rolled trousers and boots each"
+      ]
+    },
+    "rain as blessing vs. curse": {
+      "locs": [
+        "Hanoi monsoon street rain dramatic tropical",
+        "Kolkata monsoon street rain reflection puddle",
+        "after monsoon street reflection India dramatic"
+      ],
+      "poses": [
+        "both arms open to the sky, drenched and laughing",
+        "both wading through ankle-deep water, shoes in hand",
+        "both dancing in the flood, faces turned up"
+      ],
+      "looks": [
+        "soaked bright cotton clothes each",
+        "wet shirts clinging, bare feet each",
+        "thin dresses and rolled trousers, drenched each"
+      ]
+    },
+    "waiting it out vs. walking through": {
+      "locs": [
+        "Blade Runner noir rain alley neon wet reflection night",
+        "Los Angeles rain 1940s noir street",
+        "Chandler rain San Francisco fog hill night"
+      ],
+      "poses": [
+        "both walking fast, collars up, shoulders hunched",
+        "both pressed against a wall, watching the road",
+        "one shielding the other beneath a coat"
+      ],
+      "looks": [
+        "long dark coat and turned-up collar each",
+        "trench coat and fedora each",
+        "leather jacket and glistening hair each"
+      ]
+    },
+    "the sound of it vs. the silence after": {
+      "locs": [
+        "Icelandic rain dramatic rainbow cliff",
+        "Vancouver rain forest dramatic mist",
+        "Japanese rain bamboo forest atmospheric"
+      ],
+      "poses": [
+        "both small and still beneath the vast wet landscape",
+        "both standing with hoods up, watching the mist rise",
+        "both facing the weather, hair whipping"
+      ],
+      "looks": [
+        "waterproof jacket and hood each",
+        "hiking rain gear each",
+        "long coat and boots each"
+      ]
+    }
+  },
+  "locs": [
+    "Mumbai monsoon first rain flooding street joy dancing",
+    "Kerala monsoon paddy field rain dramatic",
+    "Bangkok monsoon flood street motorbike spray",
+    "Hanoi monsoon street rain dramatic tropical",
+    "Kolkata monsoon street rain reflection puddle",
+    "after monsoon street reflection India dramatic",
+    "Blade Runner noir rain alley neon wet reflection night",
+    "Los Angeles rain 1940s noir street",
+    "Chandler rain San Francisco fog hill night",
+    "film noir wet pavement street lamp reflection",
+    "Tokyo alley rain neon reflection night narrow",
+    "London grey drizzle Waterloo Bridge umbrella commute",
+    "Edinburgh drizzle grey castle behind mist",
+    "Dublin drizzle grey Georgian street umbrella",
+    "Glasgow drizzle grey tenement street",
+    "Portland Oregon grey drizzle everyday",
+    "tropical downpour beach shelter dramatic",
+    "Scottish highland sudden downpour open moor",
+    "New York summer downpour steam street",
+    "Paris summer downpour cafe awning shelter",
+    "Rome sudden downpour fountain piazza",
+    "Icelandic rain dramatic rainbow cliff",
+    "Vancouver rain forest dramatic mist",
+    "Japanese rain bamboo forest atmospheric",
+    "Norwegian fjord rain mist dramatic",
+    "New Zealand rain rainforest dramatic lush",
+    "after rain Paris cobblestone reflection puddle golden",
+    "after rain Tokyo neon reflection puddle night",
+    "after rain London Victorian street reflection lamp",
+    "rainbow after storm field dramatic"
+  ],
+  "poses": [
+    "both arms open to the sky, drenched and laughing",
+    "both wading through ankle-deep water, shoes in hand",
+    "both dancing in the flood, faces turned up",
+    "both walking fast, collars up, shoulders hunched",
+    "both pressed against a wall, watching the road",
+    "one shielding the other beneath a coat",
+    "both huddled close, shoulders touching",
+    "both hurrying along, newspapers over their heads",
+    "both stopped mid-step, looking up at the grey sky",
+    "both running for cover, laughing",
+    "both pressed in a doorway, soaked and breathless",
+    "both caught mid-sprint, clothes streaming",
+    "both small and still beneath the vast wet landscape",
+    "both standing with hoods up, watching the mist rise",
+    "both facing the weather, hair whipping",
+    "both stepping through puddles, reflections at their feet",
+    "both looking up as the clouds break",
+    "both leaning on a lamp post, wet and smiling"
+  ],
+  "looks": [
+    "soaked bright cotton clothes each",
+    "wet shirts clinging, bare feet each",
+    "thin dresses and rolled trousers, drenched each",
+    "long dark coat and turned-up collar each",
+    "trench coat and fedora each",
+    "leather jacket and glistening hair each",
+    "wool coat and scarf each",
+    "waterproof jacket and boots each",
+    "raincoat and rubber boots each",
+    "summer dress and light shirt, soaked each",
+    "jeans and tee, soaked through each",
+    "linen shirt and shorts, drenched each",
+    "waterproof jacket and hood each",
+    "hiking rain gear each",
+    "long coat and boots each",
+    "damp coat and bright scarf each",
+    "wet hair and open jacket each",
+    "rolled trousers and boots each"
+  ],
+  "promptSuffix": "Colour grade: the specific quality of different rains — Mumbai monsoon first rain joy, London grey drizzle flat, noir rain neon reflection, tropical downpour dramatic. The rain defines the world.",
+  "translations": {
+    "before vs. after": "the before and the after with the storm between"
+  },
+  "locTypes": {
+    "Mumbai monsoon first rain flooding street joy dancing": "outdoor",
+    "Kerala monsoon paddy field rain dramatic": "both",
+    "Bangkok monsoon flood street motorbike spray": "outdoor",
+    "Hanoi monsoon street rain dramatic tropical": "outdoor",
+    "Kolkata monsoon street rain reflection puddle": "outdoor",
+    "after monsoon street reflection India dramatic": "outdoor",
+    "Blade Runner noir rain alley neon wet reflection night": "both",
+    "Los Angeles rain 1940s noir street": "outdoor",
+    "Chandler rain San Francisco fog hill night": "both",
+    "film noir wet pavement street lamp reflection": "outdoor",
+    "Tokyo alley rain neon reflection night narrow": "both",
+    "London grey drizzle Waterloo Bridge umbrella commute": "both",
+    "Edinburgh drizzle grey castle behind mist": "both",
+    "Dublin drizzle grey Georgian street umbrella": "outdoor",
+    "Glasgow drizzle grey tenement street": "outdoor",
+    "Portland Oregon grey drizzle everyday": "both",
+    "tropical downpour beach shelter dramatic": "outdoor",
+    "Scottish highland sudden downpour open moor": "outdoor",
+    "New York summer downpour steam street": "outdoor",
+    "Paris summer downpour cafe awning shelter": "both",
+    "Rome sudden downpour fountain piazza": "both",
+    "Icelandic rain dramatic rainbow cliff": "outdoor",
+    "Vancouver rain forest dramatic mist": "outdoor",
+    "Japanese rain bamboo forest atmospheric": "indoor",
+    "Norwegian fjord rain mist dramatic": "outdoor",
+    "New Zealand rain rainforest dramatic lush": "outdoor",
+    "after rain Paris cobblestone reflection puddle golden": "both",
+    "after rain Tokyo neon reflection puddle night": "outdoor",
+    "after rain London Victorian street reflection lamp": "outdoor",
+    "rainbow after storm field dramatic": "both"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

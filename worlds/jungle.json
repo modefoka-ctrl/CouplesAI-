@@ -1,0 +1,720 @@
+{
+  "id": "jungle",
+  "name": "THE JUNGLE",
+  "sub": "Tropics & Deep Wilderness",
+  "color": "#3a8a4a",
+  "tensions": [
+    "canopy vs. floor",
+    "predator vs. prey",
+    "ancient vs. alive",
+    "light vs. undergrowth",
+    "track vs. trailless",
+    "wet vs. dry",
+    "loud vs. silent jungle",
+    "known vs. uncharted",
+    "ruin vs. root",
+    "small vs. vast canopy",
+    "breathe vs. sweat",
+    "found vs. consumed",
+    "species vs. human",
+    "river vs. ridge",
+    "dawn vs. midday heat",
+    "tamed vs. feral",
+    "temple vs. tree",
+    "map vs. moss",
+    "creature vs. stillness",
+    "enter vs. return"
+  ],
+  "locs": [
+    "Borneo rainforest canopy walkway",
+    "Amazon river camp at dawn",
+    "Costa Rica cloud forest mist",
+    "Cambodia temple overgrown vines",
+    "Papua New Guinea highland trail",
+    "Daintree rainforest Queensland",
+    "Congo basin clearing giant trees",
+    "Sumatra jungle river crossing",
+    "Thailand hill tribe forest edge",
+    "Vietnam karst limestone jungle",
+    "Ecuador Amazon tributary camp",
+    "Peru cloud forest epiphyte trees",
+    "Belize cenote jungle clearing",
+    "Guatemala Tikal temple above canopy",
+    "Mexico Yucatan jungle ruin",
+    "Sri Lanka jungle leopard territory",
+    "India Corbett forest trail edge",
+    "Kenya jungle border savannah",
+    "Rwanda gorilla trekking forest",
+    "Uganda Bwindi forest trail",
+    "Pantanal waterway jungle edge Brazil",
+    "Orinoco delta mangrove channel",
+    "Mekong river bank jungle Cambodia",
+    "Irrawaddy river jungle bank Myanmar",
+    "Salween river jungle edge",
+    "Kinabalu rainforest lower slope",
+    "Sabah jungle river crossing",
+    "Sarawak longhouse river arrival",
+    "Sulawesi jungle crater lake",
+    "Flores jungle volcanic forest",
+    "Philippines Palawan jungle cove",
+    "Mindanao highland forest trail",
+    "Luzon rice terrace edge forest",
+    "Hawaii fern gully waterfall",
+    "Maui bamboo forest path",
+    "Kauai Na Pali coast jungle",
+    "Puerto Rico El Yunque cloud forest",
+    "Jamaica Blue Mountain forest",
+    "Trinidad Northern Range forest",
+    "Trinidad Caroni swamp dawn",
+    "Grenada Grand Etang crater forest",
+    "Dominica rainforest river gorge",
+    "St Lucia banana plantation edge",
+    "Martinique Pelée lower forest",
+    "Guadeloupe volcanic forest",
+    "Madagascar rainforest lemur clearing",
+    "Comoros forest ancient tree",
+    "Reunion Cirque de Cilaos",
+    "Seychelles Vallée de Mai palm",
+    "Mauritius Black River Gorges"
+  ],
+  "poses": [
+    "both looking up through canopy arms shielding sun",
+    "one machete-clearing path other follows close",
+    "crouching at jungle floor examining tracks",
+    "both waist-deep in slow jungle river wading",
+    "one spotting animal other raises binoculars",
+    "crossing rope bridge single file both careful",
+    "one steadying other on slippery log bridge",
+    "both frozen watching unseen animal",
+    "scanning canopy both necks craned",
+    "one helping other out of mud sucking",
+    "both crouched at jungle pool drinking carefully",
+    "running from sudden downpour laughing",
+    "both hands on same vine steadying",
+    "one pointing at butterfly other watches",
+    "photographing orchid together both crouched",
+    "one lifting other to reach canopy fruit",
+    "both pressing against tree trunk hiding",
+    "one navigating phone and compass other scans",
+    "resting against tree root buttress both",
+    "drinking from filtered water both leaning",
+    "both examining giant spider neither moving",
+    "one first-aiding other's leech bite",
+    "both looking over jungle river for crossing",
+    "one lowering other down steep jungle bank",
+    "both silhouette at forest edge light behind",
+    "standing in shaft of light through canopy",
+    "both covered in mud boots deep laughing",
+    "one carrying other's pack exhausted other",
+    "listening at dawn bird calls both still",
+    "both lying in hammock side by side jungle",
+    "crossing shallow jungle stream rocks each",
+    "one removing spider web from other laughing",
+    "back-to-back jungle birds landing near",
+    "both crouched at army ant column watching",
+    "one holding back branch for other to pass",
+    "both at camp fire jungle darkness around",
+    "one finding way through tangle other watches",
+    "both squinting at GPS deep jungle",
+    "sitting on giant root buttress both resting",
+    "one applying insect repellent to other's neck",
+    "both drenched in sweat and rain jungle run",
+    "one catching other's arm for balance",
+    "both wide-eyed at bioluminescent fungi",
+    "scanning river for caiman both very still",
+    "one behind other slow-walk in grass tall",
+    "both drinking coconut at jungle camp"
+  ],
+  "looks": [
+    "lightweight khaki long-sleeve shirt and pants both insect-shield",
+    "moisture-wicking jungle shirt shorts both rolled",
+    "technical outdoor pants long-sleeve sun protection top each",
+    "jungle guide worn cotton layers each practical",
+    "expedition base layer open-vented shirt and pants each",
+    "light nylon pants moisture-wicking tee each",
+    "insect-proof long sleeve and long pants both tucked in boots",
+    "merino base layer jungle pants each",
+    "earth tone field shirt hiking trousers each",
+    "sun protection hooded shirt trail pants each",
+    "lightweight ripstop shirt pants both packable",
+    "canvas expedition shirt worn trousers each",
+    "rain poncho over trail clothes both soaked",
+    "wicking tee trail shorts boots and gaiters each",
+    "long-sleeve technical shirt and pants both mud-streaked",
+    "sun-faded khaki shirt and shorts each",
+    "field shirt many pockets and pants each expedition",
+    "quick-dry shorts and sun shirt both drenched",
+    "jungle green long-sleeve and pants both camouflage",
+    "worn cotton shirt trail pants boots each",
+    "lightweight fleece over moisture-wicking tee for cool morning",
+    "vented sun hat field shirt trail pants each",
+    "waterproof trail shoes long pants rolled tee each",
+    "neck gaiter sun shirt trail pants each practical",
+    "field vest over tee trail pants each pocketed",
+    "tan worn linen shirt jungle pants both",
+    "biodegradable cotton shirt trail shorts each light",
+    "technical polo trail pants each smart casual",
+    "amphibious shorts and sun shirt both wade-ready",
+    "short-sleeve field shirt trail shorts above-knee both",
+    "jungle boot over long sock pants tucked each protection",
+    "earth-tone cotton layers worn travel each",
+    "mesh trail shoe long sock pants tucked each",
+    "canvas shirt worn khaki shorts boots each",
+    "UPF-rated shirt long trail pants hat each",
+    "woven fabric shirt traditional pattern trail pants each",
+    "open button field shirt tee beneath trail pants each",
+    "lightweight down-proof trail pants tee each",
+    "humidity-wicking shirt and pants both breathable",
+    "sun protection arm sleeves shirt trail pants each",
+    "thin wool long-sleeve trail pants both temperature-neutral",
+    "worn expedition cotton layers aged and practical each",
+    "river-crossing sandals shorts and dry shirt each",
+    "wet-dry quick shorts water shirt both",
+    "trail running shoes shorts moisture-wicking tee each",
+    "safari-style shirt pants boots both",
+    "traditional handwoven shirt trail pants each cultural",
+    "camp shirt worn cotton trail pants both"
+  ],
+  "affinities": {
+    "canopy vs. floor": {
+      "locs": [
+        "Borneo rainforest canopy walk",
+        "Daintree rainforest floor",
+        "Malaysian tree canopy hide",
+        "Borneo night jungle torch walk",
+        "Sumatra orangutan forest path"
+      ],
+      "poses": [
+        "both looking up through canopy",
+        "both flat on ground looking up",
+        "both arms wide canopy platform",
+        "one pointing at canopy creature",
+        "one swinging one watching below"
+      ],
+      "looks": [
+        "lightweight khaki trail layers",
+        "birdwatcher muted cotton layers",
+        "primatologist field layers",
+        "expedition base layer open",
+        "foliage-merged muted tones"
+      ]
+    },
+    "predator vs. prey": {
+      "locs": [
+        "Rwanda gorilla forest track",
+        "Uganda jungle canopy lodge",
+        "Sri Lanka leopard forest path",
+        "Gabon forest elephant crossing",
+        "New Guinea bird of paradise forest"
+      ],
+      "poses": [
+        "both frozen listening to jungle sound",
+        "one spotting animal other binoculars",
+        "both scanning river bank quiet",
+        "both back to tree trunk listening",
+        "snake encounter both frozen"
+      ],
+      "looks": [
+        "primatologist field layers",
+        "conservation worker khaki",
+        "birdwatcher muted cotton layers",
+        "foliage-merged muted tones",
+        "field research cotton open"
+      ]
+    },
+    "ancient vs. alive": {
+      "locs": [
+        "Cambodian temple overgrown vines",
+        "Guatemala Tikal pyramid jungle",
+        "Honduras Copan jungle ruin",
+        "Vietnam Phong Nha cave mouth",
+        "Peru Machu Picchu cloud forest"
+      ],
+      "poses": [
+        "both crouching at ancient carving",
+        "temple ruin step both looking out",
+        "temple doorway silhouette both",
+        "both at base of ancient tree",
+        "tree root arch both standing"
+      ],
+      "looks": [
+        "temple explorer worn linen",
+        "ancient temple explorer linen",
+        "anthropologist field clothes",
+        "field research cotton open",
+        "jungle guide worn cotton"
+      ]
+    },
+    "light vs. undergrowth": {
+      "locs": [
+        "Costa Rican cloud forest mist",
+        "Ecuador cloud forest bridge",
+        "Malaysian jungle waterfall pool",
+        "Fiji highland jungle waterfall",
+        "Papua highlands morning fog"
+      ],
+      "poses": [
+        "both standing in mist clearing",
+        "dawn light both eyes closed in mist",
+        "dawn birdwatch both still",
+        "both looking up through canopy",
+        "torch walk single file night"
+      ],
+      "looks": [
+        "morning mist layered warm",
+        "rainforest poncho minimal",
+        "jungle sunrise layers warm",
+        "dawn watch layered warm",
+        "highland fog warm layers"
+      ]
+    },
+    "track vs. trailless": {
+      "locs": [
+        "Papua New Guinea highland trail",
+        "Congo basin river crossing",
+        "Bolivia Amazon basin camp",
+        "Nicaragua cloud forest peak",
+        "Panama jungle canal cut"
+      ],
+      "poses": [
+        "one machete clearing other follows",
+        "one guiding other over root tangle",
+        "reading map together in rain",
+        "one pointing river route map",
+        "both back to tree trunk listening"
+      ],
+      "looks": [
+        "machete belt worn field shirt",
+        "expedition base layer open",
+        "technical outdoor pants rolled",
+        "waterproof trail set open",
+        "jungle guide worn cotton"
+      ]
+    },
+    "wet vs. dry": {
+      "locs": [
+        "Malaysian jungle waterfall pool",
+        "Belize jungle cenote swim",
+        "Amazon anaconda river shore",
+        "Brazilian Pantanal river platform",
+        "Borneo proboscis river boat"
+      ],
+      "poses": [
+        "waterfall base both soaked laughing",
+        "waist-deep river crossing together",
+        "river swim both splashing",
+        "both wading through swamp",
+        "jungle rain both accepting it"
+      ],
+      "looks": [
+        "river-soaked cotton essentials",
+        "waterfall-soaked casual minimal",
+        "tropical light cotton layers",
+        "moisture-wicking jungle shirt shorts",
+        "river crossing trail gear"
+      ]
+    },
+    "loud vs. silent jungle": {
+      "locs": [
+        "Daintree rainforest floor",
+        "Papua highlands morning fog",
+        "Costa Rican cloud forest mist",
+        "Amazon river camp dawn",
+        "Ecuador cloud forest bridge"
+      ],
+      "poses": [
+        "both frozen listening to jungle sound",
+        "dawn birdwatch both still",
+        "both back to tree trunk listening",
+        "dawn light both eyes closed in mist",
+        "both standing in mist clearing"
+      ],
+      "looks": [
+        "birdwatcher muted cotton layers",
+        "morning mist layered warm",
+        "foliage-merged muted tones",
+        "dawn watch layered warm",
+        "night walk dark minimal layers"
+      ]
+    },
+    "known vs. uncharted": {
+      "locs": [
+        "Colombian Amazon research camp",
+        "Bolivia Amazon basin camp",
+        "Papua New Guinea highland trail",
+        "Congo basin river crossing",
+        "Orinoco delta water channel"
+      ],
+      "poses": [
+        "reading map together in rain",
+        "one pointing river route map",
+        "one machete clearing other follows",
+        "both scanning river bank quiet",
+        "one translating sign language bird"
+      ],
+      "looks": [
+        "expedition base layer open",
+        "field research cotton open",
+        "bio-survey worn layers",
+        "jungle medic field kit",
+        "photojournalist vest field shirt"
+      ]
+    },
+    "ruin vs. root": {
+      "locs": [
+        "Cambodian temple overgrown vines",
+        "Guatemala Tikal pyramid jungle",
+        "Honduras Copan jungle ruin",
+        "Peru Machu Picchu cloud forest",
+        "Cambodia Cardamom forest trail"
+      ],
+      "poses": [
+        "both crouching at ancient carving",
+        "temple ruin step both looking out",
+        "tree root arch both standing",
+        "both at base of ancient tree",
+        "temple doorway silhouette both"
+      ],
+      "looks": [
+        "ancient temple explorer linen",
+        "temple explorer worn linen",
+        "anthropologist field clothes",
+        "field research cotton open",
+        "jungle guide worn cotton"
+      ]
+    },
+    "small vs. vast canopy": {
+      "locs": [
+        "Borneo rainforest canopy walk",
+        "Daintree rainforest floor",
+        "Malaysian tree canopy hide",
+        "Borneo night jungle torch walk",
+        "Amazon river camp dawn"
+      ],
+      "poses": [
+        "both arms wide canopy platform",
+        "both looking up through canopy",
+        "both flat on ground looking up",
+        "one swinging one watching below",
+        "dusk lookout jungle platform both"
+      ],
+      "looks": [
+        "expedition base layer open",
+        "lightweight khaki trail layers",
+        "primatologist field layers",
+        "birdwatcher muted cotton layers",
+        "foliage-merged muted tones"
+      ]
+    },
+    "breathe vs. sweat": {
+      "locs": [
+        "Costa Rican cloud forest mist",
+        "Fiji highland jungle waterfall",
+        "Malaysian jungle waterfall pool",
+        "Papua highlands morning fog",
+        "Ecuador Galapagos jungle path"
+      ],
+      "poses": [
+        "waterfall base both soaked laughing",
+        "dawn light both eyes closed in mist",
+        "both standing in mist clearing",
+        "jungle rain both accepting it",
+        "butterfly swarm both arms out"
+      ],
+      "looks": [
+        "moisture-wicking jungle shirt shorts",
+        "tropical light cotton layers",
+        "trail layers heat-light",
+        "rainforest poncho minimal",
+        "tropical linen minimal layers"
+      ]
+    },
+    "found vs. consumed": {
+      "locs": [
+        "Amazon anaconda river shore",
+        "Congo basin river crossing",
+        "Sumatra orangutan forest path",
+        "Gabon forest elephant crossing",
+        "Amazon floating village dock"
+      ],
+      "poses": [
+        "snake encounter both frozen",
+        "both frozen listening to jungle sound",
+        "one catching other on wet rock",
+        "one pulling other up steep bank",
+        "both wading through swamp"
+      ],
+      "looks": [
+        "jungle guide worn cotton",
+        "river crossing trail gear",
+        "machete belt worn field shirt",
+        "expedition base layer open",
+        "trail layers heat-light"
+      ]
+    },
+    "species vs. human": {
+      "locs": [
+        "Rwanda gorilla forest track",
+        "Andaman islands jungle beach",
+        "Sri Lanka leopard forest path",
+        "New Guinea bird of paradise forest",
+        "Solomon Islands mangrove channel"
+      ],
+      "poses": [
+        "one spotting animal other binoculars",
+        "both frozen listening to jungle sound",
+        "orchid find both crouching",
+        "butterfly swarm both arms out",
+        "one translating sign language bird"
+      ],
+      "looks": [
+        "conservation worker khaki",
+        "primatologist field layers",
+        "birdwatcher muted cotton layers",
+        "conservation vest field shirt",
+        "field research cotton open"
+      ]
+    },
+    "river vs. ridge": {
+      "locs": [
+        "Amazon river camp dawn",
+        "Peru Madre de Dios river bend",
+        "Laos Nam Ou river jungle bank",
+        "Vietnam Mekong delta channel",
+        "Borneo proboscis river boat"
+      ],
+      "poses": [
+        "canoe paddle tandem river",
+        "waist-deep river crossing together",
+        "river swim both splashing",
+        "one carrying other across river",
+        "both watching river from bank"
+      ],
+      "looks": [
+        "river guide cotton layers",
+        "river crossing trail gear",
+        "moisture-wicking jungle shirt shorts",
+        "tropical linen minimal layers",
+        "camp shorts trail vest"
+      ]
+    },
+    "dawn vs. midday heat": {
+      "locs": [
+        "Amazon river camp dawn",
+        "Papua highlands morning fog",
+        "Costa Rican cloud forest mist",
+        "Borneo rainforest canopy walk",
+        "Brazilian Atlantic forest clearing"
+      ],
+      "poses": [
+        "dawn birdwatch both still",
+        "dawn light both eyes closed in mist",
+        "jungle rain both accepting it",
+        "both at fire jungle camp",
+        "hammock jungle camp side by side"
+      ],
+      "looks": [
+        "jungle sunrise layers warm",
+        "dawn watch layered warm",
+        "morning mist layered warm",
+        "camp shorts trail vest",
+        "eco-camp cotton relaxed"
+      ]
+    },
+    "tamed vs. feral": {
+      "locs": [
+        "Thai elephant sanctuary forest",
+        "Costa Rica zip line platform",
+        "Belize jungle cenote swim",
+        "Ecuador Galapagos jungle path",
+        "Vanuatu jungle village path"
+      ],
+      "poses": [
+        "one swinging one watching below",
+        "hanging from jungle vine together",
+        "both arms wide canopy platform",
+        "rope bridge crossing one steadying",
+        "waterfall base both soaked laughing"
+      ],
+      "looks": [
+        "tropical light cotton layers",
+        "hammock camp minimal layers",
+        "trail layers heat-light",
+        "jungle guide worn cotton",
+        "tropical linen minimal layers"
+      ]
+    },
+    "temple vs. tree": {
+      "locs": [
+        "Cambodian temple overgrown vines",
+        "Guatemala Tikal pyramid jungle",
+        "Honduras Copan jungle ruin",
+        "Vietnam Phong Nha cave mouth",
+        "Peru Machu Picchu cloud forest"
+      ],
+      "poses": [
+        "temple ruin step both looking out",
+        "temple doorway silhouette both",
+        "both at base of ancient tree",
+        "tree root arch both standing",
+        "both crouching at ancient carving"
+      ],
+      "looks": [
+        "temple explorer worn linen",
+        "ancient temple explorer linen",
+        "anthropologist field clothes",
+        "indigenous inspired wrap minimal",
+        "field research cotton open"
+      ]
+    },
+    "map vs. moss": {
+      "locs": [
+        "Papua New Guinea highland trail",
+        "Congo basin river crossing",
+        "Bolivia Amazon basin camp",
+        "Nicaragua cloud forest peak",
+        "Colombian Amazon research camp"
+      ],
+      "poses": [
+        "reading map together in rain",
+        "one pointing river route map",
+        "one machete clearing other follows",
+        "one guiding other over root tangle",
+        "both crouching at ancient carving"
+      ],
+      "looks": [
+        "expedition base layer open",
+        "field research cotton open",
+        "bio-survey worn layers",
+        "machete belt worn field shirt",
+        "technical outdoor pants rolled"
+      ]
+    },
+    "creature vs. stillness": {
+      "locs": [
+        "Malaysian tree canopy hide",
+        "Borneo night jungle torch walk",
+        "Uganda jungle canopy lodge",
+        "Sri Lanka leopard forest path",
+        "New Guinea bird of paradise forest"
+      ],
+      "poses": [
+        "both frozen listening to jungle sound",
+        "dawn birdwatch both still",
+        "one spotting animal other binoculars",
+        "both back to tree trunk listening",
+        "snake encounter both frozen"
+      ],
+      "looks": [
+        "birdwatcher muted cotton layers",
+        "foliage-merged muted tones",
+        "night walk dark minimal layers",
+        "night trail dark layers minimal",
+        "primatologist field layers"
+      ]
+    },
+    "enter vs. return": {
+      "locs": [
+        "Amazon river camp dawn",
+        "Borneo rainforest canopy walk",
+        "Congo basin river crossing",
+        "Costa Rican cloud forest mist",
+        "Papua New Guinea highland trail"
+      ],
+      "poses": [
+        "torch walk single file night",
+        "one machete clearing other follows",
+        "two at jungle camp fire talking",
+        "hammock jungle camp side by side",
+        "both at fire jungle camp"
+      ],
+      "looks": [
+        "expedition base layer open",
+        "jungle guide worn cotton",
+        "camp shorts trail vest",
+        "eco-camp cotton relaxed",
+        "hammock camp minimal layers"
+      ]
+    }
+  },
+  "promptSuffix": "Colour grade: deep, saturated greens with shafts of filtered light. The jungle should feel dense and enveloping — not a backdrop but a presence. Humidity, dappled light through canopy, the subjects dwarfed by vegetation.",
+  "translations": {
+    "canopy vs. floor": "canopy light filtering down to the floor",
+    "predator vs. prey": "predator and prey breathing the same air",
+    "ancient vs. alive": "ancient beyond measure and completely alive",
+    "light vs. undergrowth": "light failing at the edge of undergrowth",
+    "track vs. trailless": "the track ending where the trailless begins",
+    "wet vs. dry": "soaked through in a place that is never dry",
+    "loud vs. silent jungle": "the jungle deafening then suddenly completely silent",
+    "known vs. uncharted": "the known path giving way to uncharted ground",
+    "ruin vs. root": "ruin reclaimed by root",
+    "small vs. vast canopy": "human-small under the vast canopy",
+    "breathe vs. sweat": "breathing through the sweat",
+    "found vs. consumed": "found inside something vast enough to consume",
+    "species vs. human": "the species watching the human",
+    "river vs. ridge": "the river route against the ridge route",
+    "dawn vs. midday heat": "dawn coolness burning away to midday heat",
+    "tamed vs. feral": "tamed returning to feral at the jungle edge",
+    "temple vs. tree": "the temple and the tree in equal contest",
+    "map vs. moss": "the map irrelevant against the moss",
+    "creature vs. stillness": "the creature requiring absolute stillness",
+    "enter vs. return": "entering and the long question of returning"
+  },
+  "locTypes": {
+    "Borneo rainforest canopy walkway": "outdoor",
+    "Amazon river camp at dawn": "outdoor",
+    "Costa Rica cloud forest mist": "outdoor",
+    "Cambodia temple overgrown vines": "outdoor",
+    "Papua New Guinea highland trail": "outdoor",
+    "Daintree rainforest Queensland": "outdoor",
+    "Congo basin clearing giant trees": "outdoor",
+    "Sumatra jungle river crossing": "outdoor",
+    "Thailand hill tribe forest edge": "outdoor",
+    "Vietnam karst limestone jungle": "outdoor",
+    "Ecuador Amazon tributary camp": "outdoor",
+    "Peru cloud forest epiphyte trees": "outdoor",
+    "Belize cenote jungle clearing": "outdoor",
+    "Guatemala Tikal temple above canopy": "outdoor",
+    "Mexico Yucatan jungle ruin": "outdoor",
+    "Sri Lanka jungle leopard territory": "outdoor",
+    "India Corbett forest trail edge": "outdoor",
+    "Kenya jungle border savannah": "outdoor",
+    "Rwanda gorilla trekking forest": "outdoor",
+    "Uganda Bwindi forest trail": "outdoor",
+    "Pantanal waterway jungle edge Brazil": "outdoor",
+    "Orinoco delta mangrove channel": "outdoor",
+    "Mekong river bank jungle Cambodia": "outdoor",
+    "Irrawaddy river jungle bank Myanmar": "outdoor",
+    "Salween river jungle edge": "outdoor",
+    "Kinabalu rainforest lower slope": "outdoor",
+    "Sabah jungle river crossing": "outdoor",
+    "Sarawak longhouse river arrival": "outdoor",
+    "Sulawesi jungle crater lake": "outdoor",
+    "Flores jungle volcanic forest": "outdoor",
+    "Philippines Palawan jungle cove": "outdoor",
+    "Mindanao highland forest trail": "outdoor",
+    "Luzon rice terrace edge forest": "outdoor",
+    "Hawaii fern gully waterfall": "outdoor",
+    "Maui bamboo forest path": "outdoor",
+    "Kauai Na Pali coast jungle": "outdoor",
+    "Puerto Rico El Yunque cloud forest": "outdoor",
+    "Jamaica Blue Mountain forest": "outdoor",
+    "Trinidad Northern Range forest": "outdoor",
+    "Trinidad Caroni swamp dawn": "outdoor",
+    "Grenada Grand Etang crater forest": "outdoor",
+    "Dominica rainforest river gorge": "outdoor",
+    "St Lucia banana plantation edge": "outdoor",
+    "Martinique Pelée lower forest": "outdoor",
+    "Guadeloupe volcanic forest": "outdoor",
+    "Madagascar rainforest lemur clearing": "outdoor",
+    "Comoros forest ancient tree": "outdoor",
+    "Reunion Cirque de Cilaos": "outdoor",
+    "Seychelles Vallée de Mai palm": "outdoor",
+    "Mauritius Black River Gorges": "outdoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

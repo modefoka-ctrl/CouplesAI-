@@ -1,0 +1,95 @@
+{
+  "note": "Every world must appear in exactly one category. The order here is the order shown in the full generator.",
+  "categories": [
+    {
+      "name": "❤️  Emotion & Relationship",
+      "worlds": [
+        "romance",
+        "stage",
+        "mystery",
+        "protest",
+        "wedding",
+        "underworld"
+      ]
+    },
+    {
+      "name": "🌏  Nature & Landscape",
+      "worlds": [
+        "mountain",
+        "water",
+        "wild",
+        "jungle",
+        "desert",
+        "rain",
+        "cold"
+      ]
+    },
+    {
+      "name": "🌆  Time & Atmosphere",
+      "worlds": [
+        "night",
+        "history",
+        "storm"
+      ]
+    },
+    {
+      "name": "🌍  Place & Culture",
+      "worlds": [
+        "city",
+        "road",
+        "canada",
+        "caribbean",
+        "mexico",
+        "usa",
+        "rooftop"
+      ]
+    },
+    {
+      "name": "🎵  Performance & Life",
+      "worlds": [
+        "music",
+        "court",
+        "circus",
+        "hero",
+        "carnival"
+      ]
+    },
+    {
+      "name": "✨  Style & Craft",
+      "worlds": [
+        "gold",
+        "art",
+        "runway",
+        "studio",
+        "archive"
+      ]
+    },
+    {
+      "name": "🚀  Beyond Reality",
+      "worlds": [
+        "space",
+        "surreal",
+        "underground",
+        "expedition",
+        "cctv",
+        "bmovie"
+      ]
+    },
+    {
+      "name": "🎉  Celebrations & Holidays",
+      "worlds": [
+        "valentines",
+        "mothersday",
+        "fourthofjuly",
+        "septiembre16",
+        "thanksgiving",
+        "halloween",
+        "diadelosmuertos",
+        "christmas",
+        "newyearseve",
+        "diwali",
+        "chinesenewyear"
+      ]
+    }
+  ]
+}

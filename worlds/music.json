@@ -1,0 +1,695 @@
+{
+  "id": "music",
+  "name": "THE MUSIC",
+  "sub": "Listening & Playing",
+  "color": "#aa5a9a",
+  "tensions": [
+    "sound vs. silence",
+    "rhythm vs. chaos",
+    "heard vs. felt",
+    "solo vs. duet",
+    "practiced vs. raw",
+    "loud vs. intimate",
+    "note vs. noise",
+    "memory vs. melody",
+    "analog vs. digital",
+    "lyrics vs. wordless",
+    "stage vs. bedroom",
+    "tuned vs. broken",
+    "beat vs. breath",
+    "record vs. live",
+    "echo vs. origin",
+    "high vs. low",
+    "major vs. minor",
+    "crowd vs. empty room",
+    "instrument vs. voice",
+    "ending vs. encore"
+  ],
+  "locs": [
+    "empty concert hall seats",
+    "vinyl record store aisle",
+    "garage band practice space",
+    "piano shop showroom evening",
+    "rooftop speaker setup",
+    "recording studio control room",
+    "mixing desk session both",
+    "live venue empty soundcheck",
+    "tour bus bunk corridor",
+    "backstage catering area quiet",
+    "green room pre-gig",
+    "busker pitch underground empty",
+    "jazz club stage between sets",
+    "acoustic session stairwell",
+    "music school practice room",
+    "Abbey Road Studios crosswalk London",
+    "Sun Studio Memphis empty",
+    "Electric Lady Studio New York",
+    "Muscle Shoals Alabama studio",
+    "Criteria Studios Miami",
+    "Capitol Studios Los Angeles",
+    "Hansa Tonstudio Berlin",
+    "Polar Studios Stockholm",
+    "RAK Studios London",
+    "Rockfield Studios Wales",
+    "Rockfield Quadrangle Wales",
+    "Konk Studios London",
+    "Maida Vale Studios BBC London",
+    "Air Studios Lyndhurst Hall London",
+    "British Grove London",
+    "Metropolis London",
+    "Olympic Studios Barnes London",
+    "Master Rock London",
+    "Madison Square Garden empty",
+    "O2 Arena London empty",
+    "Radio City Music Hall empty",
+    "Royal Albert Hall stage level",
+    "Wembley Arena empty",
+    "La Cigale Paris empty",
+    "Olympia Paris empty",
+    "Zenith Paris empty",
+    "Berghain Berlin empty",
+    "Fabric London empty",
+    "Printworks London empty",
+    "Tobacco Dock London empty",
+    "The Warehouse Leeds empty",
+    "Sub Club Glasgow empty",
+    "Barrowland Glasgow stage",
+    "King Tut's Glasgow stage",
+    "SWG3 Glasgow warehouse",
+    "Latitude Festival stage dawn"
+  ],
+  "poses": [
+    "both headphones sharing one pair standing",
+    "playing same guitar four hands",
+    "conducting each other playfully laughing",
+    "one singing one humming harmony",
+    "back to back listening leaning",
+    "one DJing other watches close",
+    "both at piano one page turner",
+    "one adjusting other's monitor mix",
+    "sharing earphone listening back",
+    "both air-guitaring simultaneously",
+    "one recording other in vocal booth glass",
+    "both lying on studio floor listening playback",
+    "one teaching other chord hand placement",
+    "both watching vinyl spin together",
+    "mid-gig energy face to face both",
+    "one crowd-surfing other in crowd below",
+    "both at console mixing together",
+    "one playing both singing",
+    "both air-drumming in sync",
+    "one at mic other at guitar facing each other",
+    "stage exit arm around each other sweat",
+    "post-soundcheck both sitting edge",
+    "both studying setlist together",
+    "one behind other air-guitar pose both",
+    "both with different instruments session",
+    "one pointing at speaker other listens",
+    "both at record bins flipping through",
+    "silent headphone dance together",
+    "one holding vinyl other looks at sleeve",
+    "both singing into same mic live",
+    "one playing keys other leans on piano",
+    "both air-conducting orchestra imagined",
+    "one wearing headphones other listens to outside",
+    "both on tour bus watching road",
+    "both at merch table fan moment",
+    "both signing vinyl for imagined fans",
+    "one warming voice other listens backstage",
+    "both watching support act from side stage",
+    "both at festival fence front row",
+    "one behind stage mic other adjusts stand",
+    "both lying on Sofas listening playback studio",
+    "one behind drums other on hi-hat",
+    "both at reference speakers checking mix",
+    "sitting back-to-back listening same thing"
+  ],
+  "looks": [
+    "band tee ripped jeans both vintage",
+    "vintage tour shirt soft worn both",
+    "leather jacket band patches both",
+    "silk slip stage worn both",
+    "oversized hoodie headphones visible both",
+    "record store casual both",
+    "concert tee cut-off shorts both",
+    "band merch and jeans both",
+    "grunge flannel ripped tee both",
+    "indie cool overalls tee both",
+    "stage costume band-styled both",
+    "music video outfit both editorial",
+    "festival layers both practical and cool",
+    "bedroom producer casual both",
+    "vintage festival tee and shorts both",
+    "punk-adjacent jacket and jeans both",
+    "slick stage suit and dress each",
+    "jazz musician smart-casual each",
+    "classical concert formal both",
+    "electronic artist minimalist black both",
+    "hip-hop oversized streetwear both",
+    "folk musician natural layers both",
+    "country casual denim shirt jeans both",
+    "R&B sleek minimalist each",
+    "pop star stage outfit both polished",
+    "rock band on-stage both leather",
+    "jazz club smart casual both",
+    "singer-songwriter casual warm both",
+    "DJ both minimal dark functional",
+    "orchestra formal concert dress each",
+    "choir robes both",
+    "music school casual practice both",
+    "indie band charity-shop chic both",
+    "stadium rock power outfit both",
+    "music video camp styling both",
+    "underground electronic minimal both",
+    "funk-influenced colourful both",
+    "soul singer elegant each",
+    "psychedelic patterned both vintage",
+    "emo layered dark both",
+    "alternative muted earth tones both",
+    "experimental avant-garde each",
+    "ambient music minimal calm palette both",
+    "metal band dark layers both"
+  ],
+  "affinities": {
+    "sound vs. silence": {
+      "locs": [
+        "empty concert hall seats",
+        "empty orchestra pit",
+        "outdoor amphitheater empty",
+        "drum room soundproof",
+        "music school practice room"
+      ],
+      "poses": [
+        "dancing to silent imagined song",
+        "slow sway no music playing",
+        "conducting invisible orchestra",
+        "one humming the other's ear",
+        "both with headphones sharing one pair"
+      ],
+      "looks": [
+        "minimal all-black stage wear",
+        "studio session casual minimal",
+        "headphones-only minimal set",
+        "practice room sweats tee",
+        "oversized hoodie headphones"
+      ]
+    },
+    "rhythm vs. chaos": {
+      "locs": [
+        "garage band practice space",
+        "drum room soundproof",
+        "marching band field",
+        "brass band rehearsal hall",
+        "DJ booth after hours"
+      ],
+      "poses": [
+        "tapping rhythm on table together",
+        "clapping rhythm together fast",
+        "one drumming on other's back",
+        "drumstick toss catch",
+        "one playing air drums wild"
+      ],
+      "looks": [
+        "punk patches denim vest",
+        "band tee ripped jeans",
+        "drumline uniform loosened",
+        "grunge flannel ripped jeans",
+        "marching band uniform loosened"
+      ]
+    },
+    "heard vs. felt": {
+      "locs": [
+        "bedroom recording setup",
+        "home studio soundproofed",
+        "jazz club back booth",
+        "headphone listening bar",
+        "car stereo parking lot"
+      ],
+      "poses": [
+        "sharing earbuds eyes closed",
+        "one whispering lyrics close",
+        "harmony singing face to face",
+        "one recording other singing",
+        "leaning into shared microphone"
+      ],
+      "looks": [
+        "singer-songwriter cardigan jeans",
+        "oversized hoodie headphones",
+        "studio session casual minimal",
+        "folk singer denim layered",
+        "silk slip stage worn"
+      ]
+    },
+    "solo vs. duet": {
+      "locs": [
+        "grand piano empty ballroom",
+        "piano shop showroom",
+        "street corner with guitar case",
+        "busking corner subway",
+        "string quartet rehearsal room"
+      ],
+      "poses": [
+        "duet at piano shoulder to shoulder",
+        "piano four hands overlapping",
+        "one strumming other listening rapt",
+        "violin bow guiding hand over hand",
+        "call and response singing"
+      ],
+      "looks": [
+        "jazz club smart casual",
+        "singer-songwriter cardigan jeans",
+        "folk singer denim layered",
+        "string quartet formal minimal",
+        "busking layered worn cottons"
+      ]
+    },
+    "practiced vs. raw": {
+      "locs": [
+        "music school practice room",
+        "violin maker workshop",
+        "garage band practice space",
+        "string quartet rehearsal room",
+        "choir loft empty church"
+      ],
+      "poses": [
+        "one teaching other chord shapes",
+        "duet at piano shoulder to shoulder",
+        "violin bow guiding hand over hand",
+        "harmony singing face to face",
+        "one teaching the other to whistle"
+      ],
+      "looks": [
+        "practice room sweats tee",
+        "string quartet formal minimal",
+        "choir robe open collar",
+        "orchestra formal black tie",
+        "jazz club smart casual"
+      ]
+    },
+    "loud vs. intimate": {
+      "locs": [
+        "sound check empty arena",
+        "festival main stage empty morning",
+        "amp stack empty stage",
+        "bedroom recording setup",
+        "jazz club back booth"
+      ],
+      "poses": [
+        "air guitar mid-solo",
+        "one playing air drums wild",
+        "mic shared close together",
+        "one whispering lyrics close",
+        "slow sway no music playing"
+      ],
+      "looks": [
+        "rockstar leather pants open jacket",
+        "glam rock sequins open shirt",
+        "band tee ripped jeans",
+        "singer-songwriter cardigan jeans",
+        "oversized hoodie headphones"
+      ]
+    },
+    "note vs. noise": {
+      "locs": [
+        "sheet music library aisle",
+        "tuning room backstage",
+        "trumpet repair shop",
+        "metronome shop ticking",
+        "piano shop showroom"
+      ],
+      "poses": [
+        "one tuning other watching close",
+        "tapping rhythm on table together",
+        "one teaching other chord shapes",
+        "violin bow guiding hand over hand",
+        "drumstick toss catch"
+      ],
+      "looks": [
+        "sheet music cardigan glasses",
+        "practice room sweats tee",
+        "jazz club smart casual",
+        "orchestra formal black tie",
+        "string quartet formal minimal"
+      ]
+    },
+    "memory vs. melody": {
+      "locs": [
+        "vinyl record store aisle",
+        "cassette tape shop",
+        "vinyl pressing plant",
+        "turntable repair bench",
+        "music box collection room"
+      ],
+      "poses": [
+        "vinyl flip both reaching",
+        "record scratch hand on hand",
+        "slow dance to imagined tune",
+        "slow waltz to remembered song",
+        "one humming the other's ear"
+      ],
+      "looks": [
+        "vinyl shop flannel worn",
+        "cassette tee high-waist jeans",
+        "mixtape era denim jacket",
+        "retro band tee bell bottoms",
+        "vintage tour shirt soft"
+      ]
+    },
+    "analog vs. digital": {
+      "locs": [
+        "vinyl pressing plant",
+        "mixing console studio dark",
+        "radio station booth",
+        "cassette tape shop",
+        "DJ booth after hours"
+      ],
+      "poses": [
+        "vinyl flip both reaching",
+        "record scratch hand on hand",
+        "one recording other singing",
+        "one adjusting other's headphones",
+        "both with headphones sharing one pair"
+      ],
+      "looks": [
+        "DJ booth minimal black",
+        "sound engineer headset casual",
+        "radio DJ headphones casual",
+        "vinyl shop flannel worn",
+        "studio session casual minimal"
+      ]
+    },
+    "lyrics vs. wordless": {
+      "locs": [
+        "bedroom recording setup",
+        "karaoke room neon-free",
+        "open mic empty stage",
+        "piano bar after close",
+        "home studio soundproofed"
+      ],
+      "poses": [
+        "singing into hairbrush together",
+        "one whispering lyrics close",
+        "harmony singing face to face",
+        "call and response singing",
+        "one humming the other's ear"
+      ],
+      "looks": [
+        "karaoke sequin top jeans",
+        "singer-songwriter cardigan jeans",
+        "open mic casual layered",
+        "oversized hoodie headphones",
+        "folk singer denim layered"
+      ]
+    },
+    "stage vs. bedroom": {
+      "locs": [
+        "sound check empty arena",
+        "festival main stage empty morning",
+        "bedroom recording setup",
+        "backstage instrument cases",
+        "tour bus interior"
+      ],
+      "poses": [
+        "air guitar mid-solo",
+        "one recording other singing",
+        "mic shared close together",
+        "one falling asleep on speaker",
+        "slow sway no music playing"
+      ],
+      "looks": [
+        "rockstar leather pants open jacket",
+        "tour merch oversized tee",
+        "dressing gown over costume each",
+        "minimal all-black stage wear",
+        "oversized hoodie headphones"
+      ]
+    },
+    "tuned vs. broken": {
+      "locs": [
+        "violin maker workshop",
+        "piano shop showroom",
+        "trumpet repair shop",
+        "cello case hallway",
+        "tuning room backstage"
+      ],
+      "poses": [
+        "one tuning other watching close",
+        "violin bow guiding hand over hand",
+        "one teaching other chord shapes",
+        "drumstick toss catch",
+        "duet at piano shoulder to shoulder"
+      ],
+      "looks": [
+        "string quartet formal minimal",
+        "jazz club smart casual",
+        "orchestra formal black tie",
+        "sheet music cardigan glasses",
+        "practice room sweats tee"
+      ]
+    },
+    "beat vs. breath": {
+      "locs": [
+        "drum room soundproof",
+        "brass band rehearsal hall",
+        "choir loft empty church",
+        "marching band field",
+        "DJ booth after hours"
+      ],
+      "poses": [
+        "clapping rhythm together fast",
+        "tapping rhythm on table together",
+        "one drumming on other's back",
+        "one beatboxing other laughing",
+        "drumstick toss catch"
+      ],
+      "looks": [
+        "drumline uniform loosened",
+        "brass band uniform jacket loosened",
+        "choir robe open collar",
+        "DJ booth minimal black",
+        "grunge flannel ripped jeans"
+      ]
+    },
+    "record vs. live": {
+      "locs": [
+        "home studio soundproofed",
+        "mixing console studio dark",
+        "sound check empty arena",
+        "outdoor amphitheater empty",
+        "radio station booth"
+      ],
+      "poses": [
+        "one recording other singing",
+        "mic shared close together",
+        "air guitar mid-solo",
+        "duet bow at finish",
+        "call and response singing"
+      ],
+      "looks": [
+        "studio session casual minimal",
+        "sound engineer headset casual",
+        "minimal all-black stage wear",
+        "radio DJ headphones casual",
+        "rockstar leather pants open jacket"
+      ]
+    },
+    "echo vs. origin": {
+      "locs": [
+        "empty concert hall seats",
+        "church organ loft",
+        "outdoor amphitheater empty",
+        "cello case hallway",
+        "orchestra warm-up hallway"
+      ],
+      "poses": [
+        "conducting invisible orchestra",
+        "harmony singing face to face",
+        "slow waltz to remembered song",
+        "one humming the other's ear",
+        "duet bow at finish"
+      ],
+      "looks": [
+        "choir robe open collar",
+        "orchestra formal black tie",
+        "string quartet formal minimal",
+        "sheet music cardigan glasses",
+        "folk singer denim layered"
+      ]
+    },
+    "high vs. low": {
+      "locs": [
+        "choir loft empty church",
+        "brass band rehearsal hall",
+        "string quartet rehearsal room",
+        "grand piano empty ballroom",
+        "accordion shop interior"
+      ],
+      "poses": [
+        "harmony singing face to face",
+        "duet at piano shoulder to shoulder",
+        "piano four hands overlapping",
+        "call and response singing",
+        "conducting each other playfully"
+      ],
+      "looks": [
+        "choir robe open collar",
+        "orchestra formal black tie",
+        "string quartet formal minimal",
+        "jazz club smart casual",
+        "folk singer denim layered"
+      ]
+    },
+    "major vs. minor": {
+      "locs": [
+        "piano shop showroom",
+        "grand piano empty ballroom",
+        "jazz club back booth",
+        "string quartet rehearsal room",
+        "music school practice room"
+      ],
+      "poses": [
+        "duet at piano shoulder to shoulder",
+        "piano four hands overlapping",
+        "one teaching other chord shapes",
+        "harmony singing face to face",
+        "slow waltz to remembered song"
+      ],
+      "looks": [
+        "jazz club smart casual",
+        "singer-songwriter cardigan jeans",
+        "string quartet formal minimal",
+        "orchestra formal black tie",
+        "practice room sweats tee"
+      ]
+    },
+    "crowd vs. empty room": {
+      "locs": [
+        "sound check empty arena",
+        "festival main stage empty morning",
+        "empty concert hall seats",
+        "outdoor amphitheater empty",
+        "open mic empty stage"
+      ],
+      "poses": [
+        "air guitar mid-solo",
+        "mic shared close together",
+        "conducting invisible orchestra",
+        "duet bow at finish",
+        "one playing air drums wild"
+      ],
+      "looks": [
+        "rockstar leather pants open jacket",
+        "minimal all-black stage wear",
+        "glam rock sequins open shirt",
+        "open mic casual layered",
+        "festival crop top denim shorts"
+      ]
+    },
+    "instrument vs. voice": {
+      "locs": [
+        "piano shop showroom",
+        "violin maker workshop",
+        "trumpet repair shop",
+        "karaoke room neon-free",
+        "accordion shop interior"
+      ],
+      "poses": [
+        "one teaching other chord shapes",
+        "violin bow guiding hand over hand",
+        "singing into hairbrush together",
+        "harmony singing face to face",
+        "duet at piano shoulder to shoulder"
+      ],
+      "looks": [
+        "jazz club smart casual",
+        "singer-songwriter cardigan jeans",
+        "karaoke sequin top jeans",
+        "folk singer denim layered",
+        "string quartet formal minimal"
+      ]
+    },
+    "ending vs. encore": {
+      "locs": [
+        "festival main stage empty morning",
+        "sound check empty arena",
+        "backstage instrument cases",
+        "tour bus interior",
+        "empty concert hall seats"
+      ],
+      "poses": [
+        "duet bow at finish",
+        "mic shared close together",
+        "one falling asleep on speaker",
+        "air guitar mid-solo",
+        "conducting invisible orchestra"
+      ],
+      "looks": [
+        "tour merch oversized tee",
+        "dressing gown over costume each",
+        "minimal all-black stage wear",
+        "rockstar leather pants open jacket",
+        "glam rock sequins open shirt"
+      ]
+    }
+  },
+  "promptSuffix": "Colour grade: stage-adjacent — practical light from monitors or spots, deep shadow between, the subjects lit as if mid-performance.",
+  "translations": {},
+  "locTypes": {
+    "empty concert hall seats": "outdoor",
+    "vinyl record store aisle": "both",
+    "garage band practice space": "indoor",
+    "piano shop showroom evening": "both",
+    "rooftop speaker setup": "outdoor",
+    "recording studio control room": "indoor",
+    "mixing desk session both": "both",
+    "live venue empty soundcheck": "both",
+    "tour bus bunk corridor": "indoor",
+    "backstage catering area quiet": "both",
+    "green room pre-gig": "both",
+    "busker pitch underground empty": "both",
+    "jazz club stage between sets": "both",
+    "acoustic session stairwell": "indoor",
+    "music school practice room": "both",
+    "Abbey Road Studios crosswalk London": "indoor",
+    "Sun Studio Memphis empty": "indoor",
+    "Electric Lady Studio New York": "indoor",
+    "Muscle Shoals Alabama studio": "indoor",
+    "Criteria Studios Miami": "indoor",
+    "Capitol Studios Los Angeles": "indoor",
+    "Hansa Tonstudio Berlin": "indoor",
+    "Polar Studios Stockholm": "indoor",
+    "RAK Studios London": "indoor",
+    "Rockfield Studios Wales": "indoor",
+    "Rockfield Quadrangle Wales": "outdoor",
+    "Konk Studios London": "indoor",
+    "Maida Vale Studios BBC London": "indoor",
+    "Air Studios Lyndhurst Hall London": "indoor",
+    "British Grove London": "both",
+    "Metropolis London": "indoor",
+    "Olympic Studios Barnes London": "indoor",
+    "Master Rock London": "both",
+    "Madison Square Garden empty": "outdoor",
+    "O2 Arena London empty": "both",
+    "Radio City Music Hall empty": "both",
+    "Royal Albert Hall stage level": "both",
+    "Wembley Arena empty": "both",
+    "La Cigale Paris empty": "both",
+    "Olympia Paris empty": "both",
+    "Zenith Paris empty": "both",
+    "Berghain Berlin empty": "both",
+    "Fabric London empty": "both",
+    "Printworks London empty": "both",
+    "Tobacco Dock London empty": "outdoor",
+    "The Warehouse Leeds empty": "indoor",
+    "Sub Club Glasgow empty": "both",
+    "Barrowland Glasgow stage": "both",
+    "King Tut's Glasgow stage": "both",
+    "SWG3 Glasgow warehouse": "indoor",
+    "Latitude Festival stage dawn": "both"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}

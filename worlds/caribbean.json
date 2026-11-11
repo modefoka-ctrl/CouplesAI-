@@ -1,0 +1,279 @@
+{
+  "id": "caribbean",
+  "name": "THE CARIBBEAN",
+  "sub": "Havana, Kingston & the Blue Between",
+  "color": "#0a7a5c",
+  "tensions": [
+    "paradise vs. reality",
+    "colonial vs. free",
+    "past vs. present",
+    "the tourist vs. the local",
+    "heat vs. cool sea",
+    "music vs. silence",
+    "stay vs. leave",
+    "the island vs. the world outside",
+    "colour vs. decay",
+    "joy vs. history"
+  ],
+  "affinities": {
+    "paradise vs. reality": {
+      "locs": [
+        "St Lucia Piton volcanic peak mist morning",
+        "Tobago rainforest waterfall morning",
+        "Cayman Islands turtle farm"
+      ],
+      "poses": [
+        "both wading into the water, laughing, clothes soaked",
+        "both gazing up at the green slopes in silence",
+        "both kneeling to look at the animals, wide-eyed"
+      ],
+      "looks": [
+        "swimwear and loose cover-ups each",
+        "light shirts and rolled trousers each",
+        "sundress and shorts and sandals each"
+      ]
+    },
+    "colonial vs. free": {
+      "locs": [
+        "San Juan Old City colonial walls sunset Puerto Rico",
+        "Antigua English Harbour colonial dockyard",
+        "Curaçao Willemstad colonial coloured buildings"
+      ],
+      "poses": [
+        "both strolling the cobbles in the late light",
+        "both leaning from a shuttered window, watching below",
+        "both sitting on a warm stone wall, shoes off"
+      ],
+      "looks": [
+        "pastel linen shirt and sundress each",
+        "white cotton outfit and sun hat each",
+        "cotton shirt and light shorts each"
+      ]
+    },
+    "past vs. present": {
+      "locs": [
+        "Havana crumbling colonial street 1950s Chevrolet midday",
+        "Cuba tobacco farm interior morning light",
+        "Havana rooftop sunset Malecón below"
+      ],
+      "poses": [
+        "both leaning on a vintage car, laughing in the heat",
+        "both dancing a slow step in the road",
+        "both sharing a joke and a drink on the roof"
+      ],
+      "looks": [
+        "white guayabera and straw hat each",
+        "printed halter dress and linen trousers each",
+        "open-collared shirt and rolled sleeves each"
+      ]
+    },
+    "the tourist vs. the local": {
+      "locs": [
+        "Barbados chattel house painted bright afternoon",
+        "Dominican Republic baseball field afternoon dust",
+        "Haiti Port-au-Prince street market colour"
+      ],
+      "poses": [
+        "both haggling cheerfully over a pile of fruit",
+        "both cheering at the game, arms in the air",
+        "both leaning in a doorway watching the life go by"
+      ],
+      "looks": [
+        "bright printed shirt and shorts each",
+        "plain tee and straw hat each",
+        "cotton dress and sandals each"
+      ]
+    },
+    "heat vs. cool sea": {
+      "locs": [
+        "St Lucia Piton volcanic peak mist morning",
+        "Tobago rainforest waterfall morning",
+        "Cayman Islands turtle farm"
+      ],
+      "poses": [
+        "both wading into the water, laughing, clothes soaked",
+        "both gazing up at the green slopes in silence",
+        "both kneeling to look at the animals, wide-eyed"
+      ],
+      "looks": [
+        "swimwear and loose cover-ups each",
+        "light shirts and rolled trousers each",
+        "sundress and shorts and sandals each"
+      ]
+    },
+    "music vs. silence": {
+      "locs": [
+        "Kingston dancehall night neon Jamaica",
+        "Jamaica Blue Mountains coffee farm morning mist",
+        "Jamaica country road sugarcane afternoon"
+      ],
+      "poses": [
+        "both mid-dance, hips swaying to the bass",
+        "both sharing a bottle and a laugh at the counter",
+        "both walking the dusty road, hand in hand"
+      ],
+      "looks": [
+        "bright tracksuit and gold chain each",
+        "loose linen shirt and cap each",
+        "colourful sundress and head wrap each"
+      ]
+    },
+    "stay vs. leave": {
+      "locs": [
+        "Martinique rum distillery afternoon French colonial",
+        "Grenada nutmeg plantation afternoon",
+        "San Juan Old City colonial walls sunset Puerto Rico"
+      ],
+      "poses": [
+        "both strolling the cobbles in the late light",
+        "both leaning from a shuttered window, watching below",
+        "both sitting on a warm stone wall, shoes off"
+      ],
+      "looks": [
+        "pastel linen shirt and sundress each",
+        "white cotton outfit and sun hat each",
+        "cotton shirt and light shorts each"
+      ]
+    },
+    "the island vs. the world outside": {
+      "locs": [
+        "Havana crumbling colonial street 1950s Chevrolet midday",
+        "Cuba tobacco farm interior morning light",
+        "Havana rooftop sunset Malecón below"
+      ],
+      "poses": [
+        "both leaning on a vintage car, laughing in the heat",
+        "both dancing a slow step in the road",
+        "both sharing a joke and a drink on the roof"
+      ],
+      "looks": [
+        "white guayabera and straw hat each",
+        "printed halter dress and linen trousers each",
+        "open-collared shirt and rolled sleeves each"
+      ]
+    },
+    "colour vs. decay": {
+      "locs": [
+        "Trinidad carnival mas costume street night",
+        "Trinidad Savannah carnival stage night"
+      ],
+      "poses": [
+        "both mid-whirl in a swirl of feathers and sequins",
+        "both with arms raised, drenched in coloured powder",
+        "both leaping in the procession, glitter flying"
+      ],
+      "looks": [
+        "feathered headdress and sequined costume each",
+        "jewelled bodice and beaded skirt each",
+        "bright body paint and bold costume each"
+      ]
+    },
+    "joy vs. history": {
+      "locs": [
+        "Trinidad Savannah carnival stage night",
+        "Trinidad carnival mas costume street night"
+      ],
+      "poses": [
+        "both mid-whirl in a swirl of feathers and sequins",
+        "both with arms raised, drenched in coloured powder",
+        "both leaping in the procession, glitter flying"
+      ],
+      "looks": [
+        "feathered headdress and sequined costume each",
+        "jewelled bodice and beaded skirt each",
+        "bright body paint and bold costume each"
+      ]
+    }
+  },
+  "locs": [
+    "Havana crumbling colonial street 1950s Chevrolet midday",
+    "Cuba tobacco farm interior morning light",
+    "Havana rooftop sunset Malecón below",
+    "Kingston dancehall night neon Jamaica",
+    "Jamaica Blue Mountains coffee farm morning mist",
+    "Jamaica country road sugarcane afternoon",
+    "Barbados rum shop interior afternoon",
+    "Trinidad carnival mas costume street night",
+    "Trinidad Savannah carnival stage night",
+    "San Juan Old City colonial walls sunset Puerto Rico",
+    "Antigua English Harbour colonial dockyard",
+    "Curaçao Willemstad colonial coloured buildings",
+    "Martinique rum distillery afternoon French colonial",
+    "Grenada nutmeg plantation afternoon",
+    "St Lucia Piton volcanic peak mist morning",
+    "Tobago rainforest waterfall morning",
+    "Cayman Islands turtle farm",
+    "Barbados chattel house painted bright afternoon",
+    "Dominican Republic baseball field afternoon dust",
+    "Haiti Port-au-Prince street market colour"
+  ],
+  "poses": [
+    "both leaning on a vintage car, laughing in the heat",
+    "both dancing a slow step in the road",
+    "both sharing a joke and a drink on the roof",
+    "both mid-dance, hips swaying to the bass",
+    "both sharing a bottle and a laugh at the counter",
+    "both walking the dusty road, hand in hand",
+    "both mid-whirl in a swirl of feathers and sequins",
+    "both with arms raised, drenched in coloured powder",
+    "both leaping in the procession, glitter flying",
+    "both strolling the cobbles in the late light",
+    "both leaning from a shuttered window, watching below",
+    "both sitting on a warm stone wall, shoes off",
+    "both wading into the water, laughing, clothes soaked",
+    "both gazing up at the green slopes in silence",
+    "both kneeling to look at the animals, wide-eyed",
+    "both haggling cheerfully over a pile of fruit",
+    "both cheering at the game, arms in the air",
+    "both leaning in a doorway watching the life go by"
+  ],
+  "looks": [
+    "white guayabera and straw hat each",
+    "printed halter dress and linen trousers each",
+    "open-collared shirt and rolled sleeves each",
+    "bright tracksuit and gold chain each",
+    "loose linen shirt and cap each",
+    "colourful sundress and head wrap each",
+    "feathered headdress and sequined costume each",
+    "jewelled bodice and beaded skirt each",
+    "bright body paint and bold costume each",
+    "pastel linen shirt and sundress each",
+    "white cotton outfit and sun hat each",
+    "cotton shirt and light shorts each",
+    "swimwear and loose cover-ups each",
+    "light shirts and rolled trousers each",
+    "sundress and shorts and sandals each",
+    "bright printed shirt and shorts each",
+    "plain tee and straw hat each",
+    "cotton dress and sandals each"
+  ],
+  "promptSuffix": "Colour grade: Havana ochre and decay, Kingston neon night, Trinidad carnival saturated, impossible Caribbean blue.",
+  "translations": {},
+  "locTypes": {
+    "Havana crumbling colonial street 1950s Chevrolet midday": "outdoor",
+    "Cuba tobacco farm interior morning light": "indoor",
+    "Havana rooftop sunset Malecón below": "outdoor",
+    "Kingston dancehall night neon Jamaica": "indoor",
+    "Jamaica Blue Mountains coffee farm morning mist": "outdoor",
+    "Jamaica country road sugarcane afternoon": "outdoor",
+    "Barbados rum shop interior afternoon": "indoor",
+    "Trinidad carnival mas costume street night": "outdoor",
+    "Trinidad Savannah carnival stage night": "both",
+    "San Juan Old City colonial walls sunset Puerto Rico": "both",
+    "Antigua English Harbour colonial dockyard": "outdoor",
+    "Curaçao Willemstad colonial coloured buildings": "both",
+    "Martinique rum distillery afternoon French colonial": "both",
+    "Grenada nutmeg plantation afternoon": "indoor",
+    "St Lucia Piton volcanic peak mist morning": "both",
+    "Tobago rainforest waterfall morning": "outdoor",
+    "Cayman Islands turtle farm": "both",
+    "Barbados chattel house painted bright afternoon": "both",
+    "Dominican Republic baseball field afternoon dust": "indoor",
+    "Haiti Port-au-Prince street market colour": "outdoor"
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
+}
