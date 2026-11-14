@@ -107,9 +107,58 @@ t = run_js(STUBS + data + "\n" + inline_of(index, "function generate()") + REND,
 check(t["n"] == 6 and t["cards"] == 6, "six variants render as six cards")
 check("copyVariant(this)" in t["html"] and len(t["prompt"]) > 100, "each card has a Copy button and stores its full prompt (a broken onclick once disabled copying)")
 
-print("\n6. Full generator")
-m = re.findall(r"Math\.random\(\)<\.(\d+)\?aff", full)
-if m: warn(f"randomizeAll/spinUnlocked use the matched set only {m[0]}0% of the time per dial, so most full-generator randomizations mix scenes")
+print("\n6. Full generator (its real randomizers, run in a tolerant stub DOM)")
+FULL_STUBS = r"""
+const __els={};
+function __style(){return new Proxy({},{get(t,k){if(k in t)return t[k];if(typeof k==='symbol')return undefined;return function(){return '';};},set(t,k,v){t[k]=v;return true;}});}
+function __mk(id){
+  const store={id:id,value:'',textContent:'',innerHTML:'',innerText:'',outerHTML:'',title:'',placeholder:'',href:'',src:'',name:'',type:'',label:'',text:'',htmlFor:'',dataset:{},style:__style(),className:'',children:[],options:[],checked:false,disabled:false,hidden:false,open:false,selected:false,selectedIndex:0,scrollTop:0,scrollLeft:0,scrollHeight:0,offsetHeight:0,offsetWidth:0,clientHeight:0,clientWidth:0,length:0};
+  const cl={add(){},remove(){},toggle(){},contains(){return false}};
+  return new Proxy(store,{
+    get(t,k){
+      if(k in t) return t[k];
+      if(k==='classList') return cl;
+      if(k==='appendChild'||k==='append'||k==='prepend'||k==='insertBefore') return function(c){t.children.push(c);return c;};
+      if(k==='querySelectorAll') return function(){return [];};
+      if(k==='querySelector') return function(){return __mk('q');};
+      if(k==='closest') return function(){return null;};
+      if(k==='getBoundingClientRect') return function(){return {top:0,left:0,width:0,height:0,bottom:0,right:0};};
+      if(typeof k==='symbol') return undefined;
+      return function(){return undefined;};
+    },
+    set(t,k,v){t[k]=v;return true;}
+  });
+}
+const document={getElementById:function(id){return __els[id]||(__els[id]=__mk(id));},createElement:function(){return __mk('new');},querySelector:function(){return __mk('q');},querySelectorAll:function(){return [];},addEventListener:function(){},body:__mk('body'),documentElement:__mk('html'),head:__mk('head'),title:''};
+const window={addEventListener:function(){},matchMedia:function(){return {matches:false,addEventListener:function(){}};},innerWidth:400,innerHeight:800,scrollTo:function(){},location:{hash:'',search:'',href:'',pathname:'/'},history:{replaceState:function(){},pushState:function(){}}};
+const navigator={clipboard:{writeText:function(){return Promise.resolve();}},vibrate:function(){},userAgent:'node'};
+const localStorage={getItem:function(){return null;},setItem:function(){},removeItem:function(){}};
+const sessionStorage=localStorage;
+function requestAnimationFrame(f){f();}
+function getComputedStyle(){return {getPropertyValue:function(){return '';}};}
+"""
+FULLTEST = r"""
+;(function(){
+ var res={rand:{tot:0,all3:0,loc:0},spin:{tot:0,all3:0,loc:0},errors:[]};
+ function chk(kind){var w=WORLDS.find(function(x){return x.id===S.world;});var a=w&&w.affinities&&w.affinities[S.tension];if(!a)return;
+   var r=res[kind];r.tot++;var l=a.locs.indexOf(S.loc)>-1,p=a.poses.indexOf(S.pose)>-1,k=a.looks.indexOf(S.look)>-1;if(l)r.loc++;if(l&&p&&k)r.all3++;}
+ function unlock(){for(var key in LOCKS)LOCKS[key]=false;}
+ try{for(var i=0;i<1500;i++){unlock();randomizeAll();chk('rand');}}catch(e){res.errors.push('randomizeAll: '+e.message);}
+ try{for(var j=0;j<1500;j++){unlock();if(j%25===0)randomizeAll();spinUnlocked();chk('spin');}}catch(e){res.errors.push('spinUnlocked: '+e.message);}
+ console.log('@@F@@'+JSON.stringify(res));process.exit(0);
+})();
+"""
+ap = re.findall(r"const AFFINITY_RATE\s*=\s*([0-9.]+)", full)
+check(bool(ap) and float(ap[0]) == 1.0, "AFFINITY_RATE is 1: randomizeAll/spinUnlocked always draw from the tension's matched set (0.7 mixed scenes)")
+try:
+    fr = run_js(FULL_STUBS + data + "\n" + inline_of(full, "function buildPromptString") + FULLTEST, "@@F@@")
+    check(not fr["errors"], "randomizeAll and spinUnlocked run without errors")
+    if fr["errors"]: print("      ", fr["errors"][:2])
+    for kind, label in (("rand", "randomizeAll"), ("spin", "spinUnlocked")):
+        pct = 100 * fr[kind]["all3"] / max(fr[kind]["tot"], 1)
+        check(pct >= 99, f"{label}: {pct:.0f}% of {fr[kind]['tot']} draws came entirely from the tension's matched set")
+except Exception as ex:
+    warn("could not run the full page's randomizers in the stub DOM: " + str(ex)[:200])
 
 print("\n7. Sources (worlds/ -> data.js)")
 wdir = os.path.join(ROOT, "worlds")

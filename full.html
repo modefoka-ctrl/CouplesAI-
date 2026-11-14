@@ -811,6 +811,8 @@ footer a:hover{color:var(--gold)}
 
 <script src="data.js"></script>
 <script>
+const AFFINITY_RATE=1; // 1 = randomize/spin always use the tension's matched set (the original design used 0.7, which scatters scenes)
+
 
 // Override toggleLock — adds locked visual state to selects
 function toggleLock(key){
@@ -1375,7 +1377,7 @@ function randomizeAll(){
     if(LOCKS[key]) return;
     const pool=key==='loc'?'locs':key==='pose'?'poses':'looks';
     const aff=S.tension&&w.affinities&&w.affinities[S.tension]?(w.affinities[S.tension][pool]||[]):[];
-    const src=aff.length&&Math.random()<.7?aff:w[pool];
+    const src=aff.length&&Math.random()<AFFINITY_RATE?aff:w[pool];
     S[key]=pick(src);
   });
   populateDials();
@@ -1441,24 +1443,24 @@ function randomizeAll(){
 // ── SPIN UNLOCKED ─────────────────────────────────────────────
 function spinUnlocked(){
   const w=getWorld(); if(!w) return;
-  ['loc','pose','look'].forEach(key=>{
-    if(LOCKS[key]) return;
-    const pool=key==='loc'?'locs':key==='pose'?'poses':'looks';
-    const aff=S.tension&&w.affinities&&w.affinities[S.tension]?(w.affinities[S.tension][pool]||[]):[];
-    const src=aff.length&&Math.random()<.7?aff:w[pool];
-    S[key]=pick(src);
-    const sel=document.getElementById('s-'+key);
-    sel.value=S[key]; sel.classList.add('has-val');
-  });
+  // Pick the tension FIRST (if unlocked) so location, pose and wardrobe come from THAT tension's matched set
   if(!LOCKS.tension){
     S.tension=pick(w.tensions);
     document.getElementById('s-tension').value=S.tension;
     document.getElementById('s-tension').classList.add('has-val');
-    populateDials();
-    ['loc','pose','look'].forEach(key=>{
-      if(!LOCKS[key]){ const sel=document.getElementById('s-'+key); sel.value=S[key]||''; }
-    });
   }
+  ['loc','pose','look'].forEach(key=>{
+    if(LOCKS[key]) return;
+    const pool=key==='loc'?'locs':key==='pose'?'poses':'looks';
+    const aff=S.tension&&w.affinities&&w.affinities[S.tension]?(w.affinities[S.tension][pool]||[]):[];
+    const src=aff.length&&Math.random()<AFFINITY_RATE?aff:w[pool];
+    S[key]=pick(src);
+  });
+  populateDials();
+  ['loc','pose','look'].forEach(key=>{
+    const sel=document.getElementById('s-'+key);
+    if(S[key]){ sel.value=S[key]; sel.classList.add('has-val'); }
+  });
   // Spin lighting too (filtered by loc type)
   var _spool=typeof getLightingForLoc==='function'?getLightingForLoc(S.loc):LIGHTING_OPTIONS;
   S.lighting=pick(_spool);

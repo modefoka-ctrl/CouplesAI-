@@ -64,11 +64,11 @@ Per-world fields: `id, name, sub, color, tensions[], locs[], poses[], looks[], a
 
 ## 7. The two generators
 - **Quick page:** `randomize()` picks a world, a tension, then location/pose/look **from that tension's matched set** (added in the latest change; before that it ignored matched sets entirely), lighting via `getLightingForLoc()`, and occasionally a shot and an era. `buildVariants()` makes the six; `renderVariants()` draws the cards; Copy reads `card.dataset.prompt`.
-- **Full generator:** `randomizeAll()` and `spinUnlocked()` use the matched set only **70% of the time per dial** (`Math.random()<.7`), otherwise the whole pool, so most of its randomizations mix scenes (a deliberate original "scatter" feature). Manual dropdowns can mix anything. Variants come from `refineLocal()`. The live preview mirrors the prompt.
+- **Full generator:** `randomizeAll()` and `spinUnlocked()` always draw location, pose and look from the tension's matched set (`AFFINITY_RATE = 1`, a constant at the top of the page script; the original design used 0.7, a deliberate "scatter" that mixed scenes). `spinUnlocked()` picks the tension first, so the dials come from the NEW tension's set (it used to use the previous tension's). Manual dropdowns can still mix anything; the Cohesive / Moderate / Scattered badge scores such picks. Variants come from `refineLocal()`. The live preview mirrors the prompt.
 - `data.js` code part defines: CONNECTORS, ERAS, GROUP_POSES, LIGHTING_INDOOR, LIGHTING_OPTIONS, LIGHTING_OUTDOOR, LOCKS, LOC_TYPES, MOOD_WORLDS_LIGHTING_AI, RATIOS, S, SHOT_OPTIONS, SOLO_POSES, SUBJECTS, TEMPLATES, TENSION_TRANSLATIONS, WORLDS, history. `WORLD_CATS` is defined inside a function in the template.
 
 ## 8. Testing
-`python3 tools/check.py` runs: syntax of all scripts; every world in exactly one category; world structure, matched sets, repetition, sensitive places, prefix-world rules; **the real prompt builder for all ~750 world x tension pairs** (no `null`, double period, double article, repeated instruction; six distinct variants); the quick page's random picks (100% from matched sets) and card rendering (Copy button works); and that `data.js` equals what `build.py` produces. Warnings are advisory.
+`python3 tools/check.py` runs: syntax of all scripts; every world in exactly one category; world structure, matched sets, repetition, sensitive places, prefix-world rules; **the real prompt builder for all ~750 world x tension pairs** (no `null`, double period, double article, repeated instruction; six distinct variants); the quick page's random picks (100% from matched sets) and card rendering (Copy button works); the full generator's `randomizeAll` / `spinUnlocked` (100% from matched sets, run in a stub DOM); and that `data.js` equals what `build.py` produces. Warnings are advisory.
 
 ## 9. Deploying and secrets
 - `tools/scene_lib.py` can make one atomic commit with many files: `commit_many({path: text|None}, message)` (None deletes). It reads `GITHUB_TOKEN` from the environment. **Never commit a token.** An earlier token was pasted into a chat: if you inherit this project, rotate it and use a fine-grained token limited to this repo.
@@ -91,7 +91,7 @@ Started with 52 worlds. **Removed:** kitchen, farm, pier, dusk, spring, summer, 
 
 ## 12. Known issues and unverified
 - **No rendered images have been reviewed.** Everything above was judged from the text of the prompts and from tests; how the image generators respond is unknown.
-- The full generator's randomizers use matched sets 70% of the time per dial; raising `.7` to `1` in `randomizeAll` and `spinUnlocked` (two places in `full.html`) makes them always matched. Manual picks can still mix scenes.
+- In the full generator, manual dropdown picks can still mix scenes (the Cohesive / Moderate / Scattered badge shows how well they match).
 - The 15 original worlds keep tension-specific extras in their matched sets that are not in their pools, and have not been rebuilt as scenes.
 - Location names are telegraphic, so some combinations read oddly ("knees touching in dark wood studio floor").
 - Templates 4 and 6 restart a sentence in lowercase after a full stop.
