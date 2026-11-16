@@ -26,667 +26,494 @@
     "summit fever vs. reason"
   ],
   "locs": [
-    "ridge at altitude blue sky above",
     "snowfield at dusk pink light",
     "glacier crevasse edge",
-    "rock face midway pitch",
-    "alpine meadow wildflowers",
-    "summit cairn wind-blown",
-    "tree line edge looking up",
-    "scree slope descent",
-    "high camp tent door morning",
-    "alpine lake reflection",
     "frozen waterfall ice wall",
-    "boulder field at sunrise",
-    "mountain hut exterior dawn",
     "narrow couloir ice",
-    "ridgeline silhouette both sides visible",
-    "cable car tower base",
-    "rocky summit cross",
-    "lookout tower wooden stairs",
-    "talus slope scramble",
     "snow cornice edge careful",
+    "Alaska glacier terminus",
+    "Mt Cook glacier New Zealand",
+    "rock face midway pitch",
+    "scree slope descent",
+    "rocky summit cross",
+    "talus slope scramble",
     "Dolomite rock tower base",
     "Patagonia spire mist",
-    "Himalayan base camp prayer flags",
-    "Alaska glacier terminus",
+    "Sierra Nevada granite dome",
+    "Chamonix aiguille needle",
+    "ridge at altitude blue sky above",
+    "summit cairn wind-blown",
+    "ridgeline silhouette both sides visible",
     "Scottish highland ridge",
+    "Philippine volcano caldera rim",
+    "East African rift escarpment",
+    "Urals ancient low ridge",
+    "Appalachian bald summit",
+    "Faroe plateau edge cliff",
+    "alpine meadow wildflowers",
+    "tree line edge looking up",
+    "alpine lake reflection",
     "Swiss alpine meadow cowbell",
     "Rocky Mountain aspen grove autumn",
     "Norwegian fjord above",
+    "Pyrenees pass stone refuge",
+    "Japanese Alps cedar forest",
+    "Taiwan high mountain fog",
+    "Carpathian forest ridge",
+    "Rockies moraine lake",
+    "high camp tent door morning",
+    "mountain hut exterior dawn",
+    "cable car tower base",
+    "lookout tower wooden stairs",
+    "Himalayan base camp prayer flags",
+    "Ben Nevis CIC hut below",
+    "boulder field at sunrise",
     "New Zealand Southern Alps",
     "Andes condor sky above",
     "Atlas Mountains red earth",
     "Ethiopian Simien ridge",
     "Caucasus range ancient stone",
-    "Pyrenees pass stone refuge",
-    "Japanese Alps cedar forest",
-    "Taiwan high mountain fog",
-    "Philippine volcano caldera rim",
-    "East African rift escarpment",
-    "Carpathian forest ridge",
-    "Urals ancient low ridge",
-    "Appalachian bald summit",
-    "Sierra Nevada granite dome",
-    "Rockies moraine lake",
-    "Mt Cook glacier New Zealand",
-    "Iceland lava field above cloud",
-    "Faroe plateau edge cliff",
-    "Ben Nevis CIC hut below",
-    "Chamonix aiguille needle"
+    "Iceland lava field above cloud"
   ],
   "poses": [
-    "roped together on ridge facing out",
-    "both looking at summit above",
-    "one pulling other up ledge hand-clasp",
-    "back-to-back on boulder looking both ways",
-    "cresting ridge at pace into wind",
-    "both braced against wind arms out",
-    "one behind other pointing at distant peak",
-    "celebrating summit arms up both",
-    "sitting on rock edge boots off resting",
-    "one checking other's harness close",
-    "both reading map together heads bent",
-    "one arm around other looking at valley",
-    "descending steep snow together faces forward",
-    "jumping boulder gap together",
-    "crouched examining alpine flowers",
-    "one helping other cross snowfield linked",
-    "both faces into morning sun eyes closed",
-    "eating from one pack sharing lunch",
-    "one adjusting other's helmet close",
-    "both lying on warm rock looking up at sky",
-    "one carrying other's pack as well",
-    "back-to-back resting against mountain wall",
-    "both hands on same rope ascending",
-    "watching storm roll in below together",
-    "one catching other slipping on scree",
-    "both in tent door morning coffee",
-    "silhouette against summit sky",
-    "both looking back down at ascent route",
-    "one pointing route other studies map",
-    "high-fiving on summit both grinning",
-    "holding each other into wind gust",
-    "one belaying other on rock face below",
-    "glissading snow sitting both laughing",
-    "standing at mountain cross looking out",
-    "both squinting into high altitude glare",
-    "one treating other's blister roadside",
-    "nose-to-nose against rock face sheltering",
-    "both arms wide on summit ridge",
-    "photographing together mountain behind",
-    "one knee-deep in snow other steadies",
-    "sitting at alpine hut table both tired",
-    "descending in step side by side",
-    "one waving to eagle both watching",
-    "walking single file on narrow ridge",
-    "high camp breakfast both wrapped warm",
-    "both watching alpenglow hit summit",
-    "looking back at tracks in snow below",
-    "one helping other with crampons bent"
+    "both roped together, picking their way across the white, breath steaming",
+    "one belaying the other up the ice, axes swinging",
+    "both lying back, arms wide, laughing at the sky",
+    "both sliding down the slope, grinning, snow flying",
+    "one hanging by one hand, the other grinning from the next hold",
+    "both resting on a ledge, sharing a flask, legs dangling",
+    "one checking the other's harness, both focused",
+    "both scrambling hand over hand, chalk on their palms",
+    "both striding into the wind, arms out for balance",
+    "both standing at the edge, arms around each other, the world below",
+    "one pointing out the route, the other holding the map",
+    "both high-fiving, flushed and breathless",
+    "both lying in the flowers, looking up at the clouds",
+    "both walking hand in hand along the shore, boots in their hands",
+    "both sharing a flask, leaning on a boulder",
+    "both skipping stones, laughing at each splash",
+    "both wrapped in one blanket, steaming mugs in hand",
+    "one lighting the stove, the other pulling on boots",
+    "both leaning on the door frame, watching the light change",
+    "both sitting on the step, comparing blisters, laughing",
+    "both tiny against the enormous peaks, hand in hand",
+    "both resting on a rock, eyes on the horizon",
+    "both cresting the pass, hair wild in the wind",
+    "both sitting side by side, watching a bird of prey wheel overhead"
   ],
   "looks": [
-    "climbing harnesses over base layers both",
-    "technical softshell pants fleece mid-layer each",
-    "insulated down jacket open slim mountaineering pants",
-    "waterproof hard shell base layer showing each",
-    "mid-layer fleece beanie each practical",
-    "merino base layer only summit warm both",
-    "climbing pants chalk-bag each",
-    "alpine gaiters technical trousers boots each",
-    "high-altitude down suit both expedition",
-    "lightweight wind jacket technical pants each",
-    "helmet harness rock shoes each",
-    "softshell jacket leggings both",
-    "layered merino long sleeve beanie gloves each",
-    "technical mountain pants crampons on each",
-    "fleece vest base layer technical pants each",
-    "waterproof over-trousers base layer each rain protection",
-    "alpine bib and jacket full system both",
-    "puffy jacket slim technical pants each",
-    "thin down jacket tee visible each",
-    "running vest trail shorts mountain runner both",
-    "approach shoe technical pants sun hat each",
-    "softshell bib technical top each climbing",
-    "glacier glasses technical layers both",
-    "merino hoodie technical pants each",
-    "lightweight packable jacket base layer each",
-    "ski touring jacket and pants both",
-    "wool sweater climbing pants each classic",
-    "trail running jacket and pants both light",
-    "mountain fleece worn open tee beneath each",
-    "technical short-sleeve sun-protection top hiking pants each",
-    "wind-blocking jacket liner showing trail pants each",
-    "high-vis jacket safety mountain technical pants each",
-    "thermal underlayer balaclava around neck each",
-    "expedition base camp puffy both massive",
-    "mountain guide worn technical layers each",
-    "heritage wool sweater mountain trousers boots each",
-    "technical polo mountain pants each clean",
-    "hardshell jacket gloves helmet visible each",
-    "liner gloves down jacket trail pants each",
-    "modular layering system multiple visible each",
-    "crampon-ready boots gaiters pants tucked each",
-    "vintage mountaineering wool breeches each classic",
-    "sun shirt hiking pants trail shoes each",
-    "vest over long-sleeve technical pants each",
-    "mountain softshell slim beanie both",
-    "full waterproof set both gale conditions",
-    "puffy vest fleece layer beneath technical pants"
+    "down jackets and goggles each",
+    "hard-shell jackets and helmets each",
+    "insulated suit and mittens each",
+    "climbing harness and chalk-bag each",
+    "helmet and technical pants each",
+    "sleeveless top and climbing trousers each",
+    "windbreaker and trail pants each",
+    "fleece and beanie each",
+    "wool sweater and hiking trousers each",
+    "light jacket and hiking trousers each",
+    "plaid shirt and trail shoes each",
+    "sun hat and linen shirt each",
+    "wool jumper and beanie each",
+    "down vest and thermal top each",
+    "fleece and thick socks each",
+    "expedition jackets and sun hats each",
+    "wool poncho and sturdy boots each",
+    "layered technical gear in bright colours each"
   ],
   "affinities": {
     "small vs. immense": {
       "locs": [
-        "summit plateau",
-        "ridge at altitude",
-        "high ridge both drops visible",
-        "exposed arete",
-        "mountain pass both sides visible"
+        "boulder field at sunrise",
+        "New Zealand Southern Alps",
+        "Andes condor sky above"
       ],
       "poses": [
-        "both facing summit above",
-        "looking down from summit",
-        "heels over summit edge standing",
-        "arms out at summit",
-        "seated on summit looking out"
+        "both tiny against the enormous peaks, hand in hand",
+        "both resting on a rock, eyes on the horizon",
+        "both cresting the pass, hair wild in the wind"
       ],
       "looks": [
-        "base layers summit exposed",
-        "trail shorts long sleeves",
-        "merino tops technical shorts",
-        "ultralight base running vest",
-        "packless minimalist trail set"
+        "expedition jackets and sun hats each",
+        "wool poncho and sturdy boots each",
+        "layered technical gear in bright colours each"
       ]
     },
     "summit vs. abyss": {
       "locs": [
-        "ridge at altitude",
-        "exposed arete",
-        "cornice edge above cliff",
-        "high ridge both drops visible",
-        "cliff edge at golden hour"
+        "ridge at altitude blue sky above",
+        "summit cairn wind-blown",
+        "ridgeline silhouette both sides visible"
       ],
       "poses": [
-        "heels over summit edge standing",
-        "looking down from summit",
-        "hands clasped at cliff edge",
-        "roped together on ridge",
-        "one pulling other up ledge"
+        "both striding into the wind, arms out for balance",
+        "both standing at the edge, arms around each other, the world below",
+        "one pointing out the route, the other holding the map"
       ],
       "looks": [
-        "climbing harnesses base layers",
-        "belay setup open jackets",
-        "technical set harness on",
-        "hardshell jackets alpine pants",
-        "down jackets base layers"
+        "windbreaker and trail pants each",
+        "fleece and beanie each",
+        "wool sweater and hiking trousers each"
       ]
     },
     "endurance vs. surrender": {
       "locs": [
-        "scree slope mid-descent",
-        "steep couloir",
-        "summit approach final pitch",
-        "snowfield at dusk",
-        "high altitude meadow"
+        "snowfield at dusk pink light",
+        "glacier crevasse edge",
+        "frozen waterfall ice wall"
       ],
       "poses": [
-        "racing up scree to top",
-        "storm approach speed walk",
-        "both pushed by wind leaning",
-        "carrying each other pack",
-        "one carrying other piggyback"
+        "both roped together, picking their way across the white, breath steaming",
+        "one belaying the other up the ice, axes swinging",
+        "both lying back, arms wide, laughing at the sky"
       ],
       "looks": [
-        "active insulation technical pants",
-        "waterproof bibs softshell top",
-        "trail shorts long sleeves",
-        "slim mountaineering pants thermals",
-        "3-season waterproof trail pants"
+        "down jackets and goggles each",
+        "hard-shell jackets and helmets each",
+        "insulated suit and mittens each"
       ]
     },
     "ascent vs. fall": {
       "locs": [
-        "rock face midway",
-        "glacier crevasse edge",
-        "via ferrata mid-section",
-        "cliff-side via ferrata ladder",
-        "technical ridge traverse"
+        "rock face midway pitch",
+        "scree slope descent",
+        "rocky summit cross"
       ],
       "poses": [
-        "tandem bouldering a face",
-        "one belaying one climbing",
-        "mid-rappel side by side",
-        "one pulling other up ledge",
-        "mid-dyno on boulder"
+        "one hanging by one hand, the other grinning from the next hold",
+        "both resting on a ledge, sharing a flask, legs dangling",
+        "one checking the other's harness, both focused"
       ],
       "looks": [
-        "climbing harnesses base layers",
-        "belay setup open jackets",
-        "technical set harness on",
-        "climbing pants sport tee",
-        "minimal grip shoes shorts tape"
+        "climbing harness and chalk-bag each",
+        "helmet and technical pants each",
+        "sleeveless top and climbing trousers each"
       ]
     },
     "exposure vs. shelter": {
       "locs": [
-        "exposed arete",
-        "rock overhang shelter",
-        "bivouac ledge",
-        "mountain hut threshold",
-        "windy col exposure"
+        "high camp tent door morning",
+        "mountain hut exterior dawn",
+        "cable car tower base"
       ],
       "poses": [
-        "wind-braced against each other",
-        "both in bivouac together",
-        "resting against rock gear on",
-        "both pushed by wind leaning",
-        "route-finding crouch together"
+        "both wrapped in one blanket, steaming mugs in hand",
+        "one lighting the stove, the other pulling on boots",
+        "both leaning on the door frame, watching the light change"
       ],
       "looks": [
-        "insulated jackets open slim pants",
-        "down jackets base layers",
-        "hardshell jackets alpine pants",
-        "waterproof bibs softshell top",
-        "3-season waterproof trail pants"
+        "wool jumper and beanie each",
+        "down vest and thermal top each",
+        "fleece and thick socks each"
       ]
     },
     "push vs. stop": {
       "locs": [
-        "steep couloir",
-        "summit approach final pitch",
-        "scree slope mid-descent",
-        "technical ridge traverse",
-        "peak at storm approach"
+        "Scottish highland ridge",
+        "Philippine volcano caldera rim",
+        "East African rift escarpment"
       ],
       "poses": [
-        "storm approach speed walk",
-        "racing up scree to top",
-        "cresting ridge at pace",
-        "sprinting across snowfield",
-        "both pushed by wind leaning"
+        "both standing at the edge, arms around each other, the world below",
+        "one pointing out the route, the other holding the map",
+        "both high-fiving, flushed and breathless"
       ],
       "looks": [
-        "active insulation technical pants",
-        "ultralight base running vest",
-        "trail shorts long sleeves",
-        "waterproof bibs softshell top",
-        "slim mountaineering pants thermals"
+        "fleece and beanie each",
+        "wool sweater and hiking trousers each",
+        "windbreaker and trail pants each"
       ]
     },
     "cold vs. alive": {
       "locs": [
-        "snowfield at dusk",
-        "frozen lake shore",
-        "glacier crevasse edge",
-        "ice field flat section",
-        "frozen waterfall face"
+        "narrow couloir ice",
+        "snow cornice edge careful",
+        "Alaska glacier terminus"
       ],
       "poses": [
-        "both crampons on ice face",
-        "crossing snowbridge together",
-        "sprinting across snowfield",
-        "drinking from same water source",
-        "both lying back on warm slab"
+        "one belaying the other up the ice, axes swinging",
+        "both lying back, arms wide, laughing at the sky",
+        "both sliding down the slope, grinning, snow flying"
       ],
       "looks": [
-        "slim mountaineering pants thermals",
-        "thermal base climbing pants",
-        "down jackets base layers",
-        "insulated bibs down top",
-        "fitted base layers summit"
+        "hard-shell jackets and helmets each",
+        "insulated suit and mittens each",
+        "down jackets and goggles each"
       ]
     },
     "vertical vs. horizontal": {
       "locs": [
-        "rock face midway",
-        "via ferrata mid-section",
-        "cliff-side via ferrata ladder",
-        "glacier crevasse edge",
-        "ridge at altitude"
+        "talus slope scramble",
+        "Dolomite rock tower base",
+        "Patagonia spire mist"
       ],
       "poses": [
-        "tandem bouldering a face",
-        "one belaying one climbing",
-        "mid-dyno on boulder",
-        "mid-rappel side by side",
-        "one above pulling rope"
+        "both resting on a ledge, sharing a flask, legs dangling",
+        "one checking the other's harness, both focused",
+        "both scrambling hand over hand, chalk on their palms"
       ],
       "looks": [
-        "climbing harnesses base layers",
-        "technical set harness on",
-        "belay setup open jackets",
-        "climbing pants sport tee",
-        "minimal grip shoes shorts tape"
+        "helmet and technical pants each",
+        "sleeveless top and climbing trousers each",
+        "climbing harness and chalk-bag each"
       ]
     },
     "earned vs. given": {
       "locs": [
-        "summit plateau",
-        "peak cairn",
-        "summit cross",
-        "high camp tent platform",
-        "mountain rescue helicopter LZ"
+        "alpine meadow wildflowers",
+        "tree line edge looking up",
+        "alpine lake reflection"
       ],
       "poses": [
-        "celebration at summit marker",
-        "summit handshake",
-        "arms out at summit",
-        "seated on summit looking out",
-        "high-five at pass marker"
+        "both lying in the flowers, looking up at the clouds",
+        "both walking hand in hand along the shore, boots in their hands",
+        "both sharing a flask, leaning on a boulder"
       ],
       "looks": [
-        "base layers summit exposed",
-        "trail shorts long sleeves",
-        "merino tops technical shorts",
-        "sun-faded technical gear",
-        "packless minimalist trail set"
+        "light jacket and hiking trousers each",
+        "plaid shirt and trail shoes each",
+        "sun hat and linen shirt each"
       ]
     },
     "risk vs. reward": {
       "locs": [
-        "exposed arete",
-        "cornice edge above cliff",
-        "cliff edge at golden hour",
-        "high ridge both drops visible",
-        "glacier crevasse edge"
+        "Sierra Nevada granite dome",
+        "Chamonix aiguille needle",
+        "rock face midway pitch"
       ],
       "poses": [
-        "heels over summit edge standing",
-        "jumping boulder gap together",
-        "mid-dyno on boulder",
-        "roped together on ridge",
-        "one pulling other up ledge"
+        "one checking the other's harness, both focused",
+        "both scrambling hand over hand, chalk on their palms",
+        "one hanging by one hand, the other grinning from the next hold"
       ],
       "looks": [
-        "climbing harnesses base layers",
-        "technical set harness on",
-        "belay setup open jackets",
-        "hardshell jackets alpine pants",
-        "active insulation technical pants"
+        "sleeveless top and climbing trousers each",
+        "climbing harness and chalk-bag each",
+        "helmet and technical pants each"
       ]
     },
     "altitude vs. body": {
       "locs": [
-        "summit plateau",
-        "high altitude meadow",
-        "high plateau after storm",
-        "summit weather station base",
-        "snowfield at dusk"
+        "Atlas Mountains red earth",
+        "Ethiopian Simien ridge",
+        "Caucasus range ancient stone"
       ],
       "poses": [
-        "resting against rock gear on",
-        "drinking from same water source",
-        "wind-braced against each other",
-        "seated on summit looking out",
-        "coiling rope together"
+        "both resting on a rock, eyes on the horizon",
+        "both cresting the pass, hair wild in the wind",
+        "both sitting side by side, watching a bird of prey wheel overhead"
       ],
       "looks": [
-        "slim mountaineering pants thermals",
-        "down jackets base layers",
-        "insulated jackets open slim pants",
-        "3-season waterproof trail pants",
-        "thermal base climbing pants"
+        "wool poncho and sturdy boots each",
+        "layered technical gear in bright colours each",
+        "expedition jackets and sun hats each"
       ]
     },
     "granite vs. human": {
       "locs": [
-        "rock face midway",
-        "granite slab field",
-        "boulder problem base",
-        "boulderfield above treeline",
-        "talus field at dawn"
+        "Iceland lava field above cloud",
+        "boulder field at sunrise",
+        "New Zealand Southern Alps"
       ],
       "poses": [
-        "tandem bouldering a face",
-        "mid-dyno on boulder",
-        "both lying back on warm slab",
-        "lying flat on warm granite",
-        "jumping boulder gap together"
+        "both cresting the pass, hair wild in the wind",
+        "both sitting side by side, watching a bird of prey wheel overhead",
+        "both tiny against the enormous peaks, hand in hand"
       ],
       "looks": [
-        "minimal grip shoes shorts tape",
-        "boulder shorts no top",
-        "climbing pants sport tee",
-        "short-sleeved on granite",
-        "rugged shorts moisture-wicking tops"
+        "layered technical gear in bright colours each",
+        "expedition jackets and sun hats each",
+        "wool poncho and sturdy boots each"
       ]
     },
     "rope vs. void": {
       "locs": [
-        "exposed arete",
-        "glacier crevasse edge",
-        "cliff edge at golden hour",
-        "cornice edge above cliff",
-        "cliff-side via ferrata ladder"
+        "Mt Cook glacier New Zealand",
+        "snowfield at dusk pink light",
+        "glacier crevasse edge"
       ],
       "poses": [
-        "roped together on ridge",
-        "one belaying one climbing",
-        "tied-in at anchor together",
-        "mid-rappel side by side",
-        "one above pulling rope"
+        "both lying back, arms wide, laughing at the sky",
+        "both sliding down the slope, grinning, snow flying",
+        "both roped together, picking their way across the white, breath steaming"
       ],
       "looks": [
-        "climbing harnesses base layers",
-        "technical set harness on",
-        "belay setup open jackets",
-        "hardshell jackets alpine pants",
-        "climbing pants sport tee"
+        "insulated suit and mittens each",
+        "down jackets and goggles each",
+        "hard-shell jackets and helmets each"
       ]
     },
     "pace vs. fatigue": {
       "locs": [
-        "scree slope mid-descent",
-        "steep couloir",
-        "summit approach final pitch",
-        "narrow trail above cliff",
-        "steep switchback trail view"
+        "Swiss alpine meadow cowbell",
+        "Rocky Mountain aspen grove autumn",
+        "Norwegian fjord above"
       ],
       "poses": [
-        "racing up scree to top",
-        "sliding down scree together",
-        "running downhill side by side",
-        "carrying each other pack",
-        "cresting ridge at pace"
+        "both walking hand in hand along the shore, boots in their hands",
+        "both sharing a flask, leaning on a boulder",
+        "both skipping stones, laughing at each splash"
       ],
       "looks": [
-        "ultralight base running vest",
-        "trail shorts long sleeves",
-        "packless minimalist trail set",
-        "rugged shorts moisture-wicking tops",
-        "merino tops technical shorts"
+        "plaid shirt and trail shoes each",
+        "sun hat and linen shirt each",
+        "light jacket and hiking trousers each"
       ]
     },
     "loaded vs. free": {
       "locs": [
-        "high altitude meadow",
-        "alpine meadow",
-        "snowfield approach predawn",
-        "forest trail exit into open",
-        "mountain pass both sides visible"
+        "lookout tower wooden stairs",
+        "Himalayan base camp prayer flags",
+        "Ben Nevis CIC hut below"
       ],
       "poses": [
-        "carrying each other pack",
-        "rope coil mid-hike",
-        "running downhill side by side",
-        "sliding down scree together",
-        "racing up scree to top"
+        "one lighting the stove, the other pulling on boots",
+        "both leaning on the door frame, watching the light change",
+        "both sitting on the step, comparing blisters, laughing"
       ],
       "looks": [
-        "active insulation technical pants",
-        "ultralight base running vest",
-        "trail vest only shorts",
-        "packless minimalist trail set",
-        "trail shorts long sleeves"
+        "down vest and thermal top each",
+        "fleece and thick socks each",
+        "wool jumper and beanie each"
       ]
     },
     "partner vs. self": {
       "locs": [
-        "ridge at altitude",
-        "bivouac ledge",
-        "mountain hut threshold",
-        "alpine hut interior",
-        "rock overhang shelter"
+        "Pyrenees pass stone refuge",
+        "Japanese Alps cedar forest",
+        "Taiwan high mountain fog"
       ],
       "poses": [
-        "roped together on ridge",
-        "both in bivouac together",
-        "drinking from same water source",
-        "coiling rope together",
-        "reading map together"
+        "both sharing a flask, leaning on a boulder",
+        "both skipping stones, laughing at each splash",
+        "both lying in the flowers, looking up at the clouds"
       ],
       "looks": [
-        "climbing harnesses base layers",
-        "belay setup open jackets",
-        "slim mountaineering pants thermals",
-        "thermal base climbing pants",
-        "down jackets base layers"
+        "sun hat and linen shirt each",
+        "light jacket and hiking trousers each",
+        "plaid shirt and trail shoes each"
       ]
     },
     "weather vs. will": {
       "locs": [
-        "peak at storm approach",
-        "windy col exposure",
-        "exposed arete",
-        "high ridge both drops visible",
-        "high plateau after storm"
+        "high camp tent door morning",
+        "mountain hut exterior dawn",
+        "cable car tower base"
       ],
       "poses": [
-        "storm approach speed walk",
-        "both pushed by wind leaning",
-        "wind-braced against each other",
-        "sprinting across snowfield",
-        "crossing snowbridge together"
+        "both leaning on the door frame, watching the light change",
+        "both sitting on the step, comparing blisters, laughing",
+        "both wrapped in one blanket, steaming mugs in hand"
       ],
       "looks": [
-        "hardshell jackets alpine pants",
-        "waterproof bibs softshell top",
-        "3-season waterproof trail pants",
-        "insulated jackets open slim pants",
-        "active insulation technical pants"
+        "fleece and thick socks each",
+        "wool jumper and beanie each",
+        "down vest and thermal top each"
       ]
     },
     "trail vs. off-trail": {
       "locs": [
-        "boulderfield above treeline",
-        "talus field at dawn",
-        "granite slab field",
-        "alpine meadow",
-        "forest trail exit into open"
+        "Carpathian forest ridge",
+        "Rockies moraine lake",
+        "alpine meadow wildflowers"
       ],
       "poses": [
-        "route-finding crouch together",
-        "crouched mapping route",
-        "reading map together",
-        "jumping boulder gap together",
-        "mid-scramble chimney ascent"
+        "both skipping stones, laughing at each splash",
+        "both lying in the flowers, looking up at the clouds",
+        "both walking hand in hand along the shore, boots in their hands"
       ],
       "looks": [
-        "rugged shorts moisture-wicking tops",
-        "trail shorts long sleeves",
-        "merino tops technical shorts",
-        "guide shirt alpine shorts",
-        "sun-faded technical gear"
+        "light jacket and hiking trousers each",
+        "plaid shirt and trail shoes each",
+        "sun hat and linen shirt each"
       ]
     },
     "gear vs. skin": {
       "locs": [
-        "granite slab field",
-        "boulder problem base",
-        "boulderfield above treeline",
-        "high altitude meadow",
-        "summit plateau"
+        "Andes condor sky above",
+        "Atlas Mountains red earth",
+        "Ethiopian Simien ridge"
       ],
       "poses": [
-        "mid-dyno on boulder",
-        "tandem bouldering a face",
-        "both lying back on warm slab",
-        "lying flat on warm granite",
-        "jumping boulder gap together"
+        "both sitting side by side, watching a bird of prey wheel overhead",
+        "both tiny against the enormous peaks, hand in hand",
+        "both resting on a rock, eyes on the horizon"
       ],
       "looks": [
-        "boulder shorts no top",
-        "minimal grip shoes shorts tape",
-        "short-sleeved on granite",
-        "base layers summit exposed",
-        "rugged shorts moisture-wicking tops"
+        "expedition jackets and sun hats each",
+        "wool poncho and sturdy boots each",
+        "layered technical gear in bright colours each"
       ]
     },
     "summit fever vs. reason": {
       "locs": [
-        "summit approach final pitch",
-        "cornice edge above cliff",
-        "peak at storm approach",
-        "exposed arete",
-        "high ridge both drops visible"
+        "Urals ancient low ridge",
+        "Appalachian bald summit",
+        "Faroe plateau edge cliff"
       ],
       "poses": [
-        "celebration at summit marker",
-        "heels over summit edge standing",
-        "storm approach speed walk",
-        "roped together on ridge",
-        "arms out at summit"
+        "one pointing out the route, the other holding the map",
+        "both high-fiving, flushed and breathless",
+        "both striding into the wind, arms out for balance"
       ],
       "looks": [
-        "climbing harnesses base layers",
-        "technical set harness on",
-        "active insulation technical pants",
-        "waterproof bibs softshell top",
-        "hardshell jackets alpine pants"
+        "wool sweater and hiking trousers each",
+        "windbreaker and trail pants each",
+        "fleece and beanie each"
       ]
     }
   },
   "promptSuffix": "Colour grade: high-altitude clarity, crisp air, vivid blue sky or dramatic cloud. The subjects are in the landscape, not posed before it.",
   "translations": {},
   "locTypes": {
-    "ridge at altitude blue sky above": "outdoor",
     "snowfield at dusk pink light": "outdoor",
     "glacier crevasse edge": "outdoor",
-    "rock face midway pitch": "outdoor",
-    "alpine meadow wildflowers": "outdoor",
-    "summit cairn wind-blown": "outdoor",
-    "tree line edge looking up": "outdoor",
-    "scree slope descent": "outdoor",
-    "high camp tent door morning": "outdoor",
-    "alpine lake reflection": "outdoor",
     "frozen waterfall ice wall": "outdoor",
-    "boulder field at sunrise": "outdoor",
-    "mountain hut exterior dawn": "outdoor",
     "narrow couloir ice": "outdoor",
-    "ridgeline silhouette both sides visible": "outdoor",
-    "cable car tower base": "outdoor",
-    "rocky summit cross": "outdoor",
-    "lookout tower wooden stairs": "outdoor",
-    "talus slope scramble": "outdoor",
     "snow cornice edge careful": "outdoor",
+    "Alaska glacier terminus": "outdoor",
+    "Mt Cook glacier New Zealand": "outdoor",
+    "rock face midway pitch": "outdoor",
+    "scree slope descent": "outdoor",
+    "rocky summit cross": "outdoor",
+    "talus slope scramble": "outdoor",
     "Dolomite rock tower base": "outdoor",
     "Patagonia spire mist": "outdoor",
-    "Himalayan base camp prayer flags": "outdoor",
-    "Alaska glacier terminus": "outdoor",
+    "Sierra Nevada granite dome": "outdoor",
+    "Chamonix aiguille needle": "outdoor",
+    "ridge at altitude blue sky above": "outdoor",
+    "summit cairn wind-blown": "outdoor",
+    "ridgeline silhouette both sides visible": "outdoor",
     "Scottish highland ridge": "outdoor",
+    "Philippine volcano caldera rim": "outdoor",
+    "East African rift escarpment": "outdoor",
+    "Urals ancient low ridge": "outdoor",
+    "Appalachian bald summit": "outdoor",
+    "Faroe plateau edge cliff": "outdoor",
+    "alpine meadow wildflowers": "outdoor",
+    "tree line edge looking up": "outdoor",
+    "alpine lake reflection": "outdoor",
     "Swiss alpine meadow cowbell": "outdoor",
     "Rocky Mountain aspen grove autumn": "outdoor",
     "Norwegian fjord above": "outdoor",
+    "Pyrenees pass stone refuge": "outdoor",
+    "Japanese Alps cedar forest": "outdoor",
+    "Taiwan high mountain fog": "outdoor",
+    "Carpathian forest ridge": "outdoor",
+    "Rockies moraine lake": "outdoor",
+    "high camp tent door morning": "outdoor",
+    "mountain hut exterior dawn": "outdoor",
+    "cable car tower base": "outdoor",
+    "lookout tower wooden stairs": "outdoor",
+    "Himalayan base camp prayer flags": "outdoor",
+    "Ben Nevis CIC hut below": "outdoor",
+    "boulder field at sunrise": "outdoor",
     "New Zealand Southern Alps": "outdoor",
     "Andes condor sky above": "outdoor",
     "Atlas Mountains red earth": "outdoor",
     "Ethiopian Simien ridge": "outdoor",
     "Caucasus range ancient stone": "outdoor",
-    "Pyrenees pass stone refuge": "outdoor",
-    "Japanese Alps cedar forest": "outdoor",
-    "Taiwan high mountain fog": "outdoor",
-    "Philippine volcano caldera rim": "outdoor",
-    "East African rift escarpment": "outdoor",
-    "Carpathian forest ridge": "outdoor",
-    "Urals ancient low ridge": "outdoor",
-    "Appalachian bald summit": "outdoor",
-    "Sierra Nevada granite dome": "outdoor",
-    "Rockies moraine lake": "outdoor",
-    "Mt Cook glacier New Zealand": "outdoor",
-    "Iceland lava field above cloud": "outdoor",
-    "Faroe plateau edge cliff": "outdoor",
-    "Ben Nevis CIC hut below": "outdoor",
-    "Chamonix aiguille needle": "outdoor"
+    "Iceland lava field above cloud": "outdoor"
   },
   "connectors": [
     "in",

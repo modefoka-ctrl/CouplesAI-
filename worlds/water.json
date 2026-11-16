@@ -27,615 +27,441 @@
   ],
   "locs": [
     "ocean at horizon golden hour",
-    "empty pool at dawn",
-    "harbor pier edge",
     "cliff above ocean",
     "surf break line",
-    "sea cave entrance low tide",
-    "rocky tidal pool exposed",
-    "kelp forest shallows",
-    "lake at first light still water",
-    "waterfall base mist rising",
-    "river bend at dusk",
     "open sea swell no land",
-    "estuary at golden hour",
-    "coral reef shallows clear",
-    "mountain lake snow-edged",
-    "mangrove channel slow water",
-    "delta mouth wide sky",
     "ocean trench research vessel deck",
-    "fjord still water reflection",
-    "reservoir concrete dam edge",
-    "hot spring sulfur mist",
-    "geyser field Iceland",
-    "alpine lake turquoise",
-    "cenote entrance Mexico",
+    "beach at low tide sandbars",
+    "Irish sea cliffs base",
+    "Faroe Islands sea stack",
+    "Iceland black sand waves",
+    "coral reef shallows clear",
+    "mangrove channel slow water",
     "limestone pool Halong Bay",
+    "lagoon atoll Pacific",
+    "submerged ruins shallow water",
+    "Amazon tributary dawn",
+    "Lake Titicaca reed island",
+    "Maldives lagoon clear",
+    "empty pool at dawn",
+    "harbor pier edge",
+    "reservoir concrete dam edge",
     "infinity pool edge ocean drop",
     "lido pool 1930s architecture",
-    "sea loch Scotland mist",
-    "frozen lake crack line",
-    "lagoon atoll Pacific",
-    "beach at low tide sandbars",
-    "submerged ruins shallow water",
-    "rain-swollen river bank",
     "dam spillway roar",
     "canal Venice dawn",
     "Venice canal gondola point",
-    "tide pool Oregon coast",
-    "Amazon tributary dawn",
-    "Lake Baikal winter ice",
-    "Lake Titicaca reed island",
-    "Dead Sea float horizon",
-    "Maldives lagoon clear",
-    "Irish sea cliffs base",
-    "Sardinia grotto entrance",
-    "Faroe Islands sea stack",
-    "Iceland black sand waves",
-    "Nile at dusk feluccas",
-    "Ganges ghat at dawn",
     "Thames at low tide mud",
-    "Hudson River pier dusk"
+    "Hudson River pier dusk",
+    "lake at first light still water",
+    "estuary at golden hour",
+    "mountain lake snow-edged",
+    "delta mouth wide sky",
+    "fjord still water reflection",
+    "alpine lake turquoise",
+    "sea loch Scotland mist",
+    "frozen lake crack line",
+    "Lake Baikal winter ice",
+    "Dead Sea float horizon",
+    "sea cave entrance low tide",
+    "rocky tidal pool exposed",
+    "kelp forest shallows",
+    "waterfall base mist rising",
+    "hot spring sulfur mist",
+    "geyser field Iceland",
+    "cenote entrance Mexico",
+    "rain-swollen river bank",
+    "tide pool Oregon coast",
+    "Sardinia grotto entrance",
+    "river bend at dusk",
+    "Nile at dusk feluccas",
+    "Ganges ghat at dawn"
   ],
   "poses": [
-    "mid-dive off sea cliff arms back",
-    "treading water face to face",
-    "one pulling other from surf",
-    "emerging from pool together",
-    "surfing same wave crouched",
-    "floating on backs hands touching",
-    "diving underwater toward each other",
-    "one swimming other watching from jetty",
-    "both running into waves",
-    "sitting on jetty feet in water",
-    "one lifting other above waterline",
-    "back-to-back floating",
-    "chin-deep water eye contact",
-    "one catching other off diving board",
-    "swimming parallel underwater",
-    "sitting on pool edge one in water",
-    "both knee-deep in surf scanning horizon",
-    "one pulling other by hand through shallows",
-    "silhouette against backlit water surface",
-    "both lying on water surface arms wide",
-    "one behind other arms wrapped standing chest-deep",
-    "both leaning over pool edge looking down",
-    "one standing on rocks other in water below",
-    "racing each other through shallows",
-    "both waist-deep facing the same wave",
-    "one lifting other above breaking wave",
-    "both shielding eyes looking out to sea",
-    "one on shoulders of other chest-deep",
-    "sitting side by side on harbour wall feet dangling",
-    "one holding other above waterfall pool",
-    "both lying on inflatable raft open water",
-    "diving together off low dock hand-in-hand",
-    "one teaching other to swim shallow end",
-    "both pressed against pool wall breathing",
-    "one pointing at something beneath surface other looks",
-    "back-to-back treading water",
-    "both mid-laugh water fight splashing",
-    "one wringing out wet hair other watching",
-    "both wading carefully through rocky shallows",
-    "one helping other over slippery rocks",
-    "both looking up from underwater surface tension",
-    "lying flat on surfboard watching horizon",
-    "one behind other on paddleboard both paddling",
-    "both sitting on sea wall sunset behind",
-    "one jumping off pier other already in water",
-    "both emerging from cave pool blinking",
-    "crouched examining tidal pool together",
-    "both sprinting into cold ocean yelping"
+    "both running into the surf, arms flung wide",
+    "one diving through a wave, the other catching the spray",
+    "both floating on their backs, fingertips touching, the swell lifting them",
+    "both clinging to a board, laughing, salt in their hair",
+    "both gliding below the surface, hands linked, bubbles rising",
+    "one handing the other a shell, grinning through a snorkel",
+    "both lying on a floating mat, the sun on their skin",
+    "both wading waist-deep, shoes in their hands",
+    "both sitting on the edge, feet dangling, ripples around them",
+    "one jumping in with a whoop, the other watching from the edge",
+    "both treading and talking, chins at the surface",
+    "both leaning on the rail, shoulders touching, reflections trembling beneath",
+    "both wading in up to their knees, arms wrapped around themselves, laughing",
+    "both standing still on the shore, steam rising from their shoulders",
+    "one plunging in, the other cheering with a towel ready",
+    "both floating motionless, mirrored in the surface",
+    "both pressed against the rock, breath held, looking up at the spray",
+    "both swimming through the narrow gap, torches in their hands",
+    "one crouching to examine the pool, the other holding their hand",
+    "both sitting under the cascade, eyes closed, soaked",
+    "both sitting on the stone steps, feet in the current",
+    "one launching a small boat, the other pushing it off",
+    "both standing waist-deep in the current, hands raised to the sun",
+    "both bathing in the dawn light, hair streaming"
   ],
   "looks": [
-    "swimsuits rash guard over hers board shorts over his",
-    "matching black swimsuits minimal",
-    "one-piece swimsuit and swim shorts",
-    "bikini top shorts and swim trunks open shirt",
-    "athletic swimwear both streamlined",
-    "wetsuit peeled to waist both",
-    "surf shorts and bikini top casual",
-    "swim dress and board shorts both loose",
-    "matching coloured swimsuits simple block colour",
-    "tank swimsuit and fitted swim shorts",
-    "water polo suit and swim briefs competitive",
-    "long-sleeve rash guard and swim trunks both",
-    "colourful printed bikini and matching print trunks",
-    "bandeau swimsuit and swim shorts neutral",
-    "sport swimsuit and jammers athletic",
-    "cut-out swimsuit and board shorts",
-    "metallic swimsuit and trunks editorial",
-    "vintage high-waist swimsuit and retro trunks",
-    "string bikini and string tie trunks minimal",
-    "sports bra and swim shorts activewear",
-    "sheer cover-up and swim shorts over swimwear",
-    "wetsuit full both shore-ready",
-    "dive skin suit both fitted",
-    "snorkel gear on heads swimwear under",
-    "linen shirt open over swimsuit and trunks beach casual",
-    "sarong tied over swimsuit board shorts",
-    "sun-faded swimwear worn natural",
-    "bright tropical print both matching",
-    "navy blue swimwear classic pair",
-    "mesh panel swimsuit and swim trunks fashion",
-    "swimwear with waterproof watch both nautical",
-    "competitive swimwear both race-ready",
-    "bikini and swim briefs minimal editorial",
-    "longboard shorts and sports bra surf ready",
-    "both in soaked cotton whites over swimwear",
-    "thermal wetsuit hood down both cold water",
-    "freediving suit both sleek",
-    "open-back swimsuit and low-rise trunks",
-    "print bikini and solid trunks mixed",
-    "float vest over swimsuit safety-conscious",
-    "swimwear with anklet and rope bracelet each",
-    "ribbed swimsuit and ribbed trunks matching texture",
-    "cut-off denim over swimwear both post-swim",
-    "sun shirt over swimsuit trunks beach practical",
-    "bright yellow swimsuit and yellow trunks bold",
-    "earth tone swimwear both natural palette",
-    "swimwear and baseball cap both sun-protection",
-    "both in soaked linen shirts over swimwear emerged"
+    "surf shorts and bikini top each",
+    "wetsuits peeled to the waist each",
+    "rash guards and board shorts each",
+    "bikini and swim trunks each",
+    "sarong over swimsuit and board shorts each",
+    "snorkels pushed up and swimsuits each",
+    "vintage swimsuit and retro trunks each",
+    "swim dress and tailored swim shorts each",
+    "linen shirt open over swimwear each",
+    "thermal wetsuits and neoprene boots each",
+    "wool hats and swimsuits each",
+    "robes and bare feet each",
+    "swimsuits and water shoes each",
+    "soaked cotton shirts and shorts each",
+    "wetsuits and helmets each",
+    "white cotton robes and wrapped cloth each",
+    "simple linen clothes rolled to the knee each",
+    "light cotton shirts and trousers each"
   ],
   "affinities": {
     "surface vs. depth": {
       "locs": [
-        "ocean at horizon",
-        "open sea no land visible",
-        "deep lake mid-surface",
-        "fjord wall base",
-        "open ocean swell"
+        "coral reef shallows clear",
+        "mangrove channel slow water",
+        "limestone pool Halong Bay"
       ],
       "poses": [
-        "both underwater looking up",
-        "one submerged one above",
-        "floating face up touching",
-        "both floating on backs hands linked",
-        "mid-ocean tread staring"
+        "both gliding below the surface, hands linked, bubbles rising",
+        "one handing the other a shell, grinning through a snorkel",
+        "both lying on a floating mat, the sun on their skin"
       ],
       "looks": [
-        "swimwear and coverup",
-        "competitive swimwear",
-        "athletic swimsuits pool deck",
-        "technical swim shorts rash vest",
-        "dive skins and vest"
+        "bikini and swim trunks each",
+        "sarong over swimsuit and board shorts each",
+        "snorkels pushed up and swimsuits each"
       ]
     },
     "breath vs. drowning": {
       "locs": [
-        "open sea no land visible",
-        "river rapid entry",
-        "sea wall at storm",
-        "surf break line",
-        "tidal bore channel"
+        "sea cave entrance low tide",
+        "rocky tidal pool exposed",
+        "kelp forest shallows"
       ],
       "poses": [
-        "both gasping surface break",
-        "one pulling other from water",
-        "open water rescue hold",
-        "tangled in surf mid-tumble",
-        "river current fight"
+        "both pressed against the rock, breath held, looking up at the spray",
+        "both swimming through the narrow gap, torches in their hands",
+        "one crouching to examine the pool, the other holding their hand"
       ],
       "looks": [
-        "swimwear and coverup",
-        "board shorts rash guards",
-        "surf swimsuits rash guard",
-        "wetsuit tops boardshorts",
-        "triathlon suits"
+        "swimsuits and water shoes each",
+        "soaked cotton shirts and shorts each",
+        "wetsuits and helmets each"
       ]
     },
     "cold vs. warmth": {
       "locs": [
-        "lake ice edge",
-        "mountain tarn",
-        "glacial melt lake",
-        "thermal spring pool",
-        "coastal cave mouth"
+        "lake at first light still water",
+        "estuary at golden hour",
+        "mountain lake snow-edged"
       ],
       "poses": [
-        "entering thermal pool",
-        "both gasping surface break",
-        "one pulling other from water",
-        "chest deep facing each other",
-        "holding breath underwater together"
+        "both wading in up to their knees, arms wrapped around themselves, laughing",
+        "both standing still on the shore, steam rising from their shoulders",
+        "one plunging in, the other cheering with a towel ready"
       ],
       "looks": [
-        "thermal wetsuit",
-        "spring suit wetsuit",
-        "wetsuit open to waist",
-        "competitive swimwear",
-        "soaked training gear"
+        "thermal wetsuits and neoprene boots each",
+        "wool hats and swimsuits each",
+        "robes and bare feet each"
       ]
     },
     "float vs. sink": {
       "locs": [
         "empty pool at dawn",
-        "lake flat calm",
-        "deep lake mid-surface",
-        "ocean platform surface",
-        "saltwater lake shore"
+        "harbor pier edge",
+        "reservoir concrete dam edge"
       ],
       "poses": [
-        "floating face up touching",
-        "both floating on backs hands linked",
-        "arms spread on pool surface",
-        "one carrying other in water",
-        "mid-ocean tread staring"
+        "both sitting on the edge, feet dangling, ripples around them",
+        "one jumping in with a whoop, the other watching from the edge",
+        "both treading and talking, chins at the surface"
       ],
       "looks": [
-        "swimwear and coverup",
-        "athletic swimsuits pool deck",
-        "competitive swimwear",
-        "sports one-piece coverup",
-        "competitive swimwear athletic top"
+        "vintage swimsuit and retro trunks each",
+        "swim dress and tailored swim shorts each",
+        "linen shirt open over swimwear each"
       ]
     },
     "control vs. current": {
       "locs": [
-        "river mid-current",
-        "river rapid entry",
-        "tidal bore channel",
-        "river gorge mid",
-        "river source pool"
+        "river bend at dusk",
+        "Nile at dusk feluccas",
+        "Ganges ghat at dawn"
       ],
       "poses": [
-        "mid-river wade chest deep",
-        "standing in river current push",
-        "one steadying other in current",
-        "river current fight",
-        "dragging each other through surf"
+        "both sitting on the stone steps, feet in the current",
+        "one launching a small boat, the other pushing it off",
+        "both standing waist-deep in the current, hands raised to the sun"
       ],
       "looks": [
-        "board shorts rash guards",
-        "wetsuit tops boardshorts",
-        "soaked cotton tees shorts",
-        "soaked training gear",
-        "long-sleeve rash guard shorts"
+        "white cotton robes and wrapped cloth each",
+        "simple linen clothes rolled to the knee each",
+        "light cotton shirts and trousers each"
       ]
     },
     "still vs. surge": {
       "locs": [
-        "lake flat calm",
-        "ocean at horizon",
-        "sea wall at storm",
-        "surf break line",
-        "tidal bore channel"
+        "ocean at horizon golden hour",
+        "cliff above ocean",
+        "surf break line"
       ],
       "poses": [
-        "floating face up touching",
-        "both floating on backs hands linked",
-        "tangled in surf mid-tumble",
-        "dragging each other through surf",
-        "surfboard shared balance"
+        "both running into the surf, arms flung wide",
+        "one diving through a wave, the other catching the spray",
+        "both floating on their backs, fingertips touching, the swell lifting them"
       ],
       "looks": [
-        "swimwear and coverup",
-        "surf swimsuits rash guard",
-        "board shorts rash guards",
-        "wetsuit tops boardshorts",
-        "swimwear and coverup"
+        "surf shorts and bikini top each",
+        "wetsuits peeled to the waist each",
+        "rash guards and board shorts each"
       ]
     },
     "seen vs. submerged": {
       "locs": [
-        "empty pool at dawn",
-        "natatorium predawn",
-        "ocean at horizon",
-        "open sea no land visible",
-        "deep lake mid-surface"
+        "lagoon atoll Pacific",
+        "submerged ruins shallow water",
+        "Amazon tributary dawn"
       ],
       "poses": [
-        "both underwater looking up",
-        "one submerged one above",
-        "breaking surface simultaneously",
-        "swimming fast at camera",
-        "swimming toward distant light"
+        "one handing the other a shell, grinning through a snorkel",
+        "both lying on a floating mat, the sun on their skin",
+        "both wading waist-deep, shoes in their hands"
       ],
       "looks": [
-        "competitive swimwear",
-        "athletic swimsuits pool deck",
-        "technical swim shorts rash vest",
-        "competitive technical swimwear",
-        "dive skins and vest"
+        "sarong over swimsuit and board shorts each",
+        "snorkels pushed up and swimsuits each",
+        "bikini and swim trunks each"
       ]
     },
     "rhythm vs. chaos": {
       "locs": [
-        "surf break line",
-        "river rapid entry",
-        "sea wall at storm",
-        "tidal bore channel",
-        "ocean at horizon"
+        "open sea swell no land",
+        "ocean trench research vessel deck",
+        "beach at low tide sandbars"
       ],
       "poses": [
-        "surfing same wave crouched",
-        "tangled in surf mid-tumble",
-        "dragging each other through surf",
-        "synchronized jump entry",
-        "ocean race sprint side by side"
+        "one diving through a wave, the other catching the spray",
+        "both floating on their backs, fingertips touching, the swell lifting them",
+        "both clinging to a board, laughing, salt in their hair"
       ],
       "looks": [
-        "surf swimsuits rash guard",
-        "board shorts rash guards",
-        "wetsuit tops boardshorts",
-        "soaked cotton tees shorts",
-        "triathlon suits"
+        "wetsuits peeled to the waist each",
+        "rash guards and board shorts each",
+        "surf shorts and bikini top each"
       ]
     },
     "weight vs. lift": {
       "locs": [
-        "empty pool at dawn",
-        "natatorium predawn",
-        "ocean platform surface",
-        "deep lake mid-surface",
-        "lake flat calm"
+        "infinity pool edge ocean drop",
+        "lido pool 1930s architecture",
+        "dam spillway roar"
       ],
       "poses": [
-        "one carrying other in water",
-        "one hoisting other from pool edge",
-        "one riding other shoulders in water",
-        "climbing out of water together",
-        "arms spread on pool surface"
+        "one jumping in with a whoop, the other watching from the edge",
+        "both treading and talking, chins at the surface",
+        "both leaning on the rail, shoulders touching, reflections trembling beneath"
       ],
       "looks": [
-        "athletic swimsuits pool deck",
-        "competitive swimwear",
-        "sports one-piece coverup",
-        "water polo suits",
-        "triathlon suits"
+        "swim dress and tailored swim shorts each",
+        "linen shirt open over swimwear each",
+        "vintage swimsuit and retro trunks each"
       ]
     },
     "held vs. swept": {
       "locs": [
-        "river mid-current",
-        "surf break line",
-        "tidal bore channel",
-        "sea wall at storm",
-        "ocean at horizon"
+        "river bend at dusk",
+        "Nile at dusk feluccas",
+        "Ganges ghat at dawn"
       ],
       "poses": [
-        "one steadying other in current",
-        "open water rescue hold",
-        "one pulling other from water",
-        "dragging each other through surf",
-        "tangled in surf mid-tumble"
+        "one launching a small boat, the other pushing it off",
+        "both standing waist-deep in the current, hands raised to the sun",
+        "both bathing in the dawn light, hair streaming"
       ],
       "looks": [
-        "board shorts rash guards",
-        "wetsuit tops boardshorts",
-        "soaked cotton tees shorts",
-        "wetsuit open to waist",
-        "soaked training gear"
+        "simple linen clothes rolled to the knee each",
+        "light cotton shirts and trousers each",
+        "white cotton robes and wrapped cloth each"
       ]
     },
     "calm vs. undertow": {
       "locs": [
-        "lake flat calm",
-        "ocean at horizon",
-        "tidal flat at dusk",
-        "lagoon at gold hour",
-        "saltwater lake shore"
+        "Irish sea cliffs base",
+        "Faroe Islands sea stack",
+        "Iceland black sand waves"
       ],
       "poses": [
-        "floating face up touching",
-        "both floating on backs hands linked",
-        "treading water face to face",
-        "mid-ocean tread staring",
-        "chest deep facing each other"
+        "both floating on their backs, fingertips touching, the swell lifting them",
+        "both clinging to a board, laughing, salt in their hair",
+        "both running into the surf, arms flung wide"
       ],
       "looks": [
-        "swimwear and coverup",
-        "swimwear and coverup",
-        "athletic swimsuit set",
-        "high-waist swimsuit board shorts",
-        "surf swimsuits rash guard"
+        "rash guards and board shorts each",
+        "surf shorts and bikini top each",
+        "wetsuits peeled to the waist each"
       ]
     },
     "oxygen vs. pressure": {
       "locs": [
-        "deep lake mid-surface",
-        "open sea no land visible",
-        "natatorium predawn",
-        "fjord wall base",
-        "kelp forest surface"
+        "waterfall base mist rising",
+        "hot spring sulfur mist",
+        "geyser field Iceland"
       ],
       "poses": [
-        "holding breath underwater together",
-        "both underwater looking up",
-        "both gasping surface break",
-        "one submerged one above",
-        "swimming toward distant light"
+        "both swimming through the narrow gap, torches in their hands",
+        "one crouching to examine the pool, the other holding their hand",
+        "both sitting under the cascade, eyes closed, soaked"
       ],
       "looks": [
-        "competitive swimwear",
-        "dive skins and vest",
-        "athletic swimsuits pool deck",
-        "technical swim shorts rash vest",
-        "thermal wetsuit"
+        "soaked cotton shirts and shorts each",
+        "wetsuits and helmets each",
+        "swimsuits and water shoes each"
       ]
     },
     "shore vs. open sea": {
       "locs": [
-        "harbor pier edge",
-        "coastal inlet",
-        "boat ramp at dawn",
-        "tidal flat at dusk",
-        "ocean at horizon"
+        "canal Venice dawn",
+        "Venice canal gondola point",
+        "Thames at low tide mud"
       ],
       "poses": [
-        "running into surf together",
-        "walking out of surf slow",
-        "cliff edge before jump",
-        "low tide exposed walk",
-        "one pulling other from water"
+        "both treading and talking, chins at the surface",
+        "both leaning on the rail, shoulders touching, reflections trembling beneath",
+        "both sitting on the edge, feet dangling, ripples around them"
       ],
       "looks": [
-        "board shorts rash guards",
-        "soaked cotton tees shorts",
-        "linen shorts soaked",
-        "open linen shirt swimwear",
-        "open waterproof jackets shorts"
+        "linen shirt open over swimwear each",
+        "vintage swimsuit and retro trunks each",
+        "swim dress and tailored swim shorts each"
       ]
     },
     "wave vs. stillness": {
       "locs": [
-        "surf break line",
-        "lake flat calm",
-        "lagoon at gold hour",
-        "tidal flat at dusk",
-        "mountain tarn"
+        "delta mouth wide sky",
+        "fjord still water reflection",
+        "alpine lake turquoise"
       ],
       "poses": [
-        "surfing same wave crouched",
-        "floating face up touching",
-        "both floating on backs hands linked",
-        "spray kick both",
-        "standing behind waterfall veil"
+        "both standing still on the shore, steam rising from their shoulders",
+        "one plunging in, the other cheering with a towel ready",
+        "both floating motionless, mirrored in the surface"
       ],
       "looks": [
-        "surf swimsuits rash guard",
-        "swimwear and coverup",
-        "swimwear and coverup",
-        "board shorts rash guards",
-        "athletic swimsuit set"
+        "wool hats and swimsuits each",
+        "robes and bare feet each",
+        "thermal wetsuits and neoprene boots each"
       ]
     },
     "glass vs. churn": {
       "locs": [
-        "lake flat calm",
-        "lagoon at gold hour",
-        "surf break line",
-        "sea wall at storm",
-        "tidal bore channel"
+        "sea loch Scotland mist",
+        "frozen lake crack line",
+        "Lake Baikal winter ice"
       ],
       "poses": [
-        "floating face up touching",
-        "both floating on backs hands linked",
-        "tangled in surf mid-tumble",
-        "dragging each other through surf",
-        "synchronized jump entry"
+        "one plunging in, the other cheering with a towel ready",
+        "both floating motionless, mirrored in the surface",
+        "both wading in up to their knees, arms wrapped around themselves, laughing"
       ],
       "looks": [
-        "swimwear and coverup",
-        "swimwear and coverup",
-        "surf swimsuits rash guard",
-        "board shorts rash guards",
-        "wetsuit tops boardshorts"
+        "robes and bare feet each",
+        "thermal wetsuits and neoprene boots each",
+        "wool hats and swimsuits each"
       ]
     },
     "tidal vs. still": {
       "locs": [
-        "tidal flat at dusk",
-        "tidal bore channel",
-        "tidal rock shelf",
-        "tidal pool network",
-        "lake flat calm"
+        "cenote entrance Mexico",
+        "rain-swollen river bank",
+        "tide pool Oregon coast"
       ],
       "poses": [
-        "low tide exposed walk",
-        "standing in river current push",
-        "floating face up touching",
-        "chest deep facing each other",
-        "mid-river wade chest deep"
+        "one crouching to examine the pool, the other holding their hand",
+        "both sitting under the cascade, eyes closed, soaked",
+        "both pressed against the rock, breath held, looking up at the spray"
       ],
       "looks": [
-        "swimwear and coverup",
-        "swimwear and coverup",
-        "linen shorts soaked",
-        "soaked cotton tees shorts",
-        "open linen shirt swimwear"
+        "wetsuits and helmets each",
+        "swimsuits and water shoes each",
+        "soaked cotton shirts and shorts each"
       ]
     },
     "shallow vs. abyss": {
       "locs": [
-        "tidal pool network",
-        "rock pool at sunrise",
-        "deep lake mid-surface",
-        "open sea no land visible",
-        "fjord wall base"
+        "Lake Titicaca reed island",
+        "Maldives lagoon clear",
+        "coral reef shallows clear"
       ],
       "poses": [
-        "both underwater looking up",
-        "one submerged one above",
-        "floating face up touching",
-        "cliff jump peak mid-air",
-        "mid-dive off sea cliff"
+        "both lying on a floating mat, the sun on their skin",
+        "both wading waist-deep, shoes in their hands",
+        "both gliding below the surface, hands linked, bubbles rising"
       ],
       "looks": [
-        "swimwear and coverup",
-        "dive skins and vest",
-        "competitive swimwear",
-        "athletic swimsuits pool deck",
-        "swimwear and coverup"
+        "snorkels pushed up and swimsuits each",
+        "bikini and swim trunks each",
+        "sarong over swimsuit and board shorts each"
       ]
     },
     "fluid vs. rigid": {
       "locs": [
-        "river mid-current",
-        "river gorge mid",
-        "surf break line",
+        "Hudson River pier dusk",
         "empty pool at dawn",
-        "natatorium predawn"
+        "harbor pier edge"
       ],
       "poses": [
-        "river current fight",
-        "one steadying other in current",
-        "racing to wall in pool",
-        "synchronized jump entry",
-        "mid-river wade chest deep"
+        "both leaning on the rail, shoulders touching, reflections trembling beneath",
+        "both sitting on the edge, feet dangling, ripples around them",
+        "one jumping in with a whoop, the other watching from the edge"
       ],
       "looks": [
-        "competitive swimwear",
-        "board shorts rash guards",
-        "triathlon suits",
-        "technical swim shorts rash vest",
-        "soaked training gear"
+        "vintage swimsuit and retro trunks each",
+        "swim dress and tailored swim shorts each",
+        "linen shirt open over swimwear each"
       ]
     },
     "surrender vs. fight": {
       "locs": [
-        "sea wall at storm",
-        "surf break line",
-        "river rapid entry",
-        "tidal bore channel",
-        "open sea no land visible"
+        "Dead Sea float horizon",
+        "lake at first light still water",
+        "estuary at golden hour"
       ],
       "poses": [
-        "river current fight",
-        "tangled in surf mid-tumble",
-        "dragging each other through surf",
-        "open water rescue hold",
-        "both gasping surface break"
+        "both floating motionless, mirrored in the surface",
+        "both wading in up to their knees, arms wrapped around themselves, laughing",
+        "both standing still on the shore, steam rising from their shoulders"
       ],
       "looks": [
-        "board shorts rash guards",
-        "wetsuit tops boardshorts",
-        "soaked cotton tees shorts",
-        "soaked training gear",
-        "triathlon suits"
+        "thermal wetsuits and neoprene boots each",
+        "wool hats and swimsuits each",
+        "robes and bare feet each"
       ]
     },
     "visible vs. invisible": {
       "locs": [
-        "ocean at horizon",
-        "open sea no land visible",
-        "deep lake mid-surface",
-        "natatorium predawn",
-        "sea cave entrance"
+        "Sardinia grotto entrance",
+        "sea cave entrance low tide",
+        "rocky tidal pool exposed"
       ],
       "poses": [
-        "both underwater looking up",
-        "one submerged one above",
-        "swimming toward distant light",
-        "mid-ocean tread staring",
-        "swimming fast at camera"
+        "both sitting under the cascade, eyes closed, soaked",
+        "both pressed against the rock, breath held, looking up at the spray",
+        "both swimming through the narrow gap, torches in their hands"
       ],
       "looks": [
-        "competitive swimwear",
-        "dive skins and vest",
-        "technical swim shorts rash vest",
-        "athletic swimsuits pool deck",
-        "competitive technical swimwear"
+        "swimsuits and water shoes each",
+        "soaked cotton shirts and shorts each",
+        "wetsuits and helmets each"
       ]
     }
   },
@@ -645,55 +471,55 @@
   },
   "locTypes": {
     "ocean at horizon golden hour": "outdoor",
-    "empty pool at dawn": "both",
-    "harbor pier edge": "outdoor",
     "cliff above ocean": "outdoor",
     "surf break line": "both",
-    "sea cave entrance low tide": "both",
-    "rocky tidal pool exposed": "both",
-    "kelp forest shallows": "outdoor",
-    "lake at first light still water": "outdoor",
-    "waterfall base mist rising": "outdoor",
-    "river bend at dusk": "outdoor",
     "open sea swell no land": "outdoor",
-    "estuary at golden hour": "outdoor",
-    "coral reef shallows clear": "both",
-    "mountain lake snow-edged": "outdoor",
-    "mangrove channel slow water": "both",
-    "delta mouth wide sky": "both",
     "ocean trench research vessel deck": "outdoor",
-    "fjord still water reflection": "both",
-    "reservoir concrete dam edge": "both",
-    "hot spring sulfur mist": "both",
-    "geyser field Iceland": "outdoor",
-    "alpine lake turquoise": "outdoor",
-    "cenote entrance Mexico": "both",
+    "beach at low tide sandbars": "outdoor",
+    "Irish sea cliffs base": "outdoor",
+    "Faroe Islands sea stack": "outdoor",
+    "Iceland black sand waves": "both",
+    "coral reef shallows clear": "both",
+    "mangrove channel slow water": "both",
     "limestone pool Halong Bay": "both",
+    "lagoon atoll Pacific": "both",
+    "submerged ruins shallow water": "outdoor",
+    "Amazon tributary dawn": "both",
+    "Lake Titicaca reed island": "outdoor",
+    "Maldives lagoon clear": "both",
+    "empty pool at dawn": "both",
+    "harbor pier edge": "outdoor",
+    "reservoir concrete dam edge": "both",
     "infinity pool edge ocean drop": "outdoor",
     "lido pool 1930s architecture": "both",
-    "sea loch Scotland mist": "outdoor",
-    "frozen lake crack line": "outdoor",
-    "lagoon atoll Pacific": "both",
-    "beach at low tide sandbars": "outdoor",
-    "submerged ruins shallow water": "outdoor",
-    "rain-swollen river bank": "outdoor",
     "dam spillway roar": "both",
     "canal Venice dawn": "outdoor",
     "Venice canal gondola point": "outdoor",
-    "tide pool Oregon coast": "outdoor",
-    "Amazon tributary dawn": "both",
-    "Lake Baikal winter ice": "outdoor",
-    "Lake Titicaca reed island": "outdoor",
-    "Dead Sea float horizon": "outdoor",
-    "Maldives lagoon clear": "both",
-    "Irish sea cliffs base": "outdoor",
-    "Sardinia grotto entrance": "both",
-    "Faroe Islands sea stack": "outdoor",
-    "Iceland black sand waves": "both",
-    "Nile at dusk feluccas": "both",
-    "Ganges ghat at dawn": "both",
     "Thames at low tide mud": "both",
-    "Hudson River pier dusk": "outdoor"
+    "Hudson River pier dusk": "outdoor",
+    "lake at first light still water": "outdoor",
+    "estuary at golden hour": "outdoor",
+    "mountain lake snow-edged": "outdoor",
+    "delta mouth wide sky": "both",
+    "fjord still water reflection": "both",
+    "alpine lake turquoise": "outdoor",
+    "sea loch Scotland mist": "outdoor",
+    "frozen lake crack line": "outdoor",
+    "Lake Baikal winter ice": "outdoor",
+    "Dead Sea float horizon": "outdoor",
+    "sea cave entrance low tide": "both",
+    "rocky tidal pool exposed": "both",
+    "kelp forest shallows": "outdoor",
+    "waterfall base mist rising": "outdoor",
+    "hot spring sulfur mist": "both",
+    "geyser field Iceland": "outdoor",
+    "cenote entrance Mexico": "both",
+    "rain-swollen river bank": "outdoor",
+    "tide pool Oregon coast": "outdoor",
+    "Sardinia grotto entrance": "both",
+    "river bend at dusk": "outdoor",
+    "Nile at dusk feluccas": "both",
+    "Ganges ghat at dawn": "both"
   },
   "connectors": [
     "in",
