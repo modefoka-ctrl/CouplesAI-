@@ -27,613 +27,449 @@
   ],
   "locs": [
     "frozen lake at first light crack pattern",
-    "snowfield before storm dark sky",
-    "ice hall empty arena",
-    "ski resort predawn gondola loading",
-    "tundra flat under white sky",
-    "Lapland reindeer forest snow",
-    "Svalbard glacier calving edge",
-    "Iceland black sand and snow",
-    "Greenland ice sheet horizon",
-    "Alaska Brooks Range winter",
-    "Canada Yukon wilderness freeze",
-    "Siberian taiga frozen river",
     "Russia Baikal clear ice walking",
     "Finland ice lake sauna shore",
     "Norway frozen fjord reflection",
     "Sweden frozen archipelago island",
     "Faroe Islands frozen waterfall",
     "Scotland winter glen frozen burn",
-    "Canada Quebec winter ice hotel",
-    "Vermont maple forest snow",
     "Maine coast harbor frozen",
-    "Colorado high alpine winter meadow",
-    "Utah Bryce Canyon snow hoodoos",
-    "Montana big sky winter open",
-    "Wyoming Yellowstone winter steam",
     "Patagonia winter wind ice lake",
+    "tundra flat under white sky",
+    "Svalbard glacier calving edge",
+    "Iceland black sand and snow",
+    "Greenland ice sheet horizon",
+    "Alaska Brooks Range winter",
+    "Canada Yukon wilderness freeze",
+    "Siberian taiga frozen river",
     "Antarctic research station exterior",
     "Sub-Antarctic island storm snow",
-    "New Zealand South Island winter",
+    "Lapland reindeer forest snow",
+    "Vermont maple forest snow",
     "Japan Hokkaido snow forest",
     "Japan Aomori snow trees",
-    "China Harbin ice sculpture",
     "South Korea Jiri mountain snow",
-    "Kazakhstan steppe winter deep",
-    "Kyrgyz winter yurt snow",
-    "Tibet winter plateau wind",
-    "Bhutan winter mountain dzong",
-    "Pakistan K2 base camp winter",
-    "Nepal Thorong La winter crossing",
-    "Lesotho highland snow blanket",
-    "Drakensberg winter frost dawn",
-    "Morocco Atlas snow",
+    "Slovenia Triglav winter snow",
+    "Czech Krkonose winter forest",
+    "snowfield before storm dark sky",
+    "ski resort predawn gondola loading",
+    "Colorado high alpine winter meadow",
+    "Utah Bryce Canyon snow hoodoos",
     "Spain Pyrenees winter pass",
     "Austria Dachstein glacier winter",
     "Switzerland Jungfrau winter",
     "Italy Dolomites winter ice",
-    "Slovenia Triglav winter snow",
     "Poland Tatra winter ridge",
-    "Czech Krkonose winter forest",
     "Romania Fagaras winter ridge",
-    "Bulgaria Rila winter monastery"
+    "Montana big sky winter open",
+    "Wyoming Yellowstone winter steam",
+    "New Zealand South Island winter",
+    "Kazakhstan steppe winter deep",
+    "Kyrgyz winter yurt snow",
+    "Tibet winter plateau wind",
+    "Lesotho highland snow blanket",
+    "Drakensberg winter frost dawn",
+    "Morocco Atlas snow",
+    "Bhutan winter mountain dzong",
+    "Pakistan K2 base camp winter",
+    "Nepal Thorong La winter crossing",
+    "Bulgaria Rila winter monastery",
+    "ice hall empty arena",
+    "Canada Quebec winter ice hotel",
+    "China Harbin ice sculpture"
   ],
   "poses": [
-    "back-to-back in snowfall both exhaling visible breath",
-    "both exhaling breath face to face close",
-    "running across frozen lake boots sliding",
-    "one pulling other through deep snow knee-deep",
-    "crouched against wind together backs to gust",
-    "both lying in snow looking up arms out",
-    "one warming other's hands cupped both",
-    "skating hand-in-hand frozen lake",
-    "one catching other slipping ice",
-    "both squinting into blizzard",
-    "one scraping ice from windscreen other watches",
-    "huddled together one blanket",
-    "both arms around each other cold shivering genuinely",
-    "running toward shelter from cold",
-    "walking slow through deep snow both high-stepping",
-    "building snow shelter together hands working",
-    "snowball fight mid-throw both laughing",
-    "one carrying other across deep drift",
-    "sitting on frozen log breathing out steam",
-    "both looking at frozen waterfall in awe",
-    "one pointing at aurora other turns slowly",
-    "both hands out catching snowflakes upturned",
-    "pressed against each other in tent entrance cold",
-    "both warming hands over small camp stove",
-    "toboggan hill both mid-slide screaming laughing",
-    "one behind other both watching ice crack",
-    "skis on both facing downhill ready",
-    "snowshoes both crossing meadow",
-    "one first-aid treating cold exposed hands",
-    "both sitting in snowbank looking at view",
-    "making snow sculpture together both absorbed",
-    "breath visible kissing in snow",
-    "both walking into whiteout ahead resolute",
-    "one behind other arms wrapped both cold",
-    "silhouette against white sky frozen landscape",
-    "both running from avalanche safe distance look back",
-    "lying down making snow angels both",
-    "one leading other by walking pole frozen traverse",
-    "both peering into ice cave entrance",
-    "ice fishing together hole drilled seated",
-    "sitting on snowmobile together engine off",
-    "both heads together watching storm approach",
-    "one helping other with frozen zip gloves off",
-    "walking on ice checking thickness each step",
-    "both watching reindeer herd pass quietly",
-    "hugging tight in open blizzard field",
-    "one pointing at frozen animal tracks other crouches"
+    "both skating hand in hand across the glassy surface",
+    "one sliding on their knees toward the other, laughing",
+    "both lying flat, listening to it creak",
+    "both walking carefully, testing each step, breath steaming",
+    "both tiny against the white immensity, hand in hand",
+    "both huddled together, backs to the wind",
+    "both trudging forward, heads down, roped together",
+    "one pointing at the horizon, the other squinting through goggles",
+    "both catching flakes on their tongues, laughing",
+    "one brushing the powder from the other's hat",
+    "both walking arm in arm beneath the heavy branches",
+    "both sitting on a log, a flask steaming between them",
+    "both carving down the slope side by side, spray flying",
+    "both loading onto the lift, laughing, skis crossed",
+    "both sitting outside the chalet, wrapped in blankets, hot chocolate in hand",
+    "both skiing toward the camera, goggles pushed up",
+    "both walking toward the horizon, scarves streaming",
+    "both riding a snowmobile, one holding on tight",
+    "both sitting by a fire, hands out to the flames",
+    "both standing close, breath mingling, wide sky overhead",
+    "both bowing their heads, prayer flags snapping around them",
+    "both climbing the steps, breath ragged, smiling",
+    "both resting against a wall, steaming cups in hand",
+    "both standing still, the thin air ringing around them",
+    "both laughing, hands pressed to a glowing wall",
+    "both posing beside a giant sculpted figure, breath misting",
+    "both sipping from glasses carved from the walls",
+    "both sliding down a glittering chute, shrieking with joy"
   ],
   "looks": [
-    "base layers only streamlined indoor cold",
-    "slim fitted thermals visible well-worn both",
-    "insulated vest long-sleeve base layer both",
-    "sport base layers steam rising athletic both",
-    "minimal cold-weather athletic sets both form-fitting",
-    "heavyweight parka open both voluminous",
-    "down jacket puffy both quilted different colours",
-    "ski jacket salopettes both technical",
-    "wool coat both classic smart cold",
-    "heavyweight wool jumper wool trousers both",
-    "cable-knit sweater jeans snow boots each",
-    "chunky puffer vest base layer both matching",
-    "heavyweight fleece pants and pullover both",
-    "waterproof trousers base layer both functional",
-    "ski wear technical full suit both",
-    "expedition cold-weather suit both massive layer",
-    "snug puffer jacket slim pants boots both",
-    "shearling collar jacket slim trousers each",
-    "wool beanie and scarf visible above base layers both",
-    "thermal turtleneck wool trousers both",
-    "down sleeping bag worn as coat emergency both",
-    "merino long-john base layer visible both",
-    "heavyweight winter coat and trousers both classic",
-    "wool-lined waterproof jacket pants both",
-    "fur-trim parka both tundra appropriate",
-    "technical mid-layer fleece pants both functional",
-    "softshell jacket thermal pants both performance",
-    "down gilet over sweater trousers boots each",
-    "heritage wool military coat both classic winter",
-    "Scandinavian wool knit sweater pants both",
-    "traditional Sami layered wool both colourful",
-    "Japanese souvenir jacket thickly lined both",
-    "heavyweight canvas coverall insulated both",
-    "shearling coat narrow pants both editorial",
-    "oversized wool cardigan slim pants both",
-    "Aran knit chunky trousers boots both",
-    "waxed cotton jacket fleece liner pants boots both",
-    "down-filled gilet wool jumper pants both",
-    "ski après jacket warm pants boots both",
-    "plaid wool blanket-coat slim pants boots both",
-    "waterproof gaiter pants insulated jacket both",
-    "summit jacket technical base layer pants both",
-    "heavyweight wool shirt pants boots both layered",
-    "sherpa-lined jacket cotton pants sturdy boots both",
-    "insulated bib and jacket both full winter",
-    "triple-layered parka slim technical pants boots both"
+    "chunky knit sweaters and skates each",
+    "wool coats and fur-trimmed hats each",
+    "padded jackets and woolly scarves each",
+    "heavy parkas with fur hoods each",
+    "insulated expedition suits and goggles each",
+    "thick down jackets and balaclavas each",
+    "red wool coats and bobble hats each",
+    "tartan scarves and long woolly coats each",
+    "plaid shirts and padded vests each",
+    "colourful ski jackets and salopettes each",
+    "retro ski suits and bobble hats each",
+    "après-ski sweaters and fur boots each",
+    "wool coats and fur hats each",
+    "embroidered sheepskin jackets and boots each",
+    "heavy knit sweaters and thick scarves each",
+    "red wool robes and quilted jackets each",
+    "layered woollens and trekking boots each",
+    "wool hats and down jackets each",
+    "glittering après outfits and furry boots each",
+    "long coats and sequinned gloves each",
+    "bright winter jackets and thermal hats each"
   ],
   "affinities": {
     "warm vs. frozen": {
       "locs": [
-        "frozen lake at first light",
-        "mountain hut in blizzard",
-        "ice cave interior",
-        "mountain hut exterior blizzard",
-        "snowbound forest clearing"
+        "ice hall empty arena",
+        "Canada Quebec winter ice hotel",
+        "China Harbin ice sculpture"
       ],
       "poses": [
-        "faces close sharing warmth",
-        "one warming other hands",
-        "both exhaling visible breath face to face",
-        "breath mist close together",
-        "one wrapped around other for warmth"
+        "both laughing, hands pressed to a glowing wall",
+        "both posing beside a giant sculpted figure, breath misting",
+        "both sipping from glasses carved from the walls"
       ],
       "looks": [
-        "base layers only no outer",
-        "slim fitted thermals",
-        "sport base layers steam rising",
-        "down to thermals in snow",
-        "compression sets in snow"
+        "glittering après outfits and furry boots each",
+        "long coats and sequinned gloves each",
+        "bright winter jackets and thermal hats each"
       ]
     },
     "breath vs. stillness": {
       "locs": [
-        "snowfield before storm",
         "tundra flat under white sky",
-        "polar ice plateau",
-        "summit in whiteout",
-        "wind scour ice plateau"
+        "Svalbard glacier calving edge",
+        "Iceland black sand and snow"
       ],
       "poses": [
-        "both exhaling visible breath face to face",
-        "standing still in blizzard",
-        "breath mist close together",
-        "both looking at ice horizon",
-        "snowfield footprint trail toward camera"
+        "both tiny against the white immensity, hand in hand",
+        "both huddled together, backs to the wind",
+        "both trudging forward, heads down, roped together"
       ],
       "looks": [
-        "base layers only no outer",
-        "slim fitted thermals",
-        "minimal cold-weather athletic sets",
-        "down to thermals in snow",
-        "athletic cold gear hood down"
+        "heavy parkas with fur hoods each",
+        "insulated expedition suits and goggles each",
+        "thick down jackets and balaclavas each"
       ]
     },
     "buried vs. exposed": {
       "locs": [
-        "avalanche debris field",
-        "snow-buried road",
-        "snow trench",
-        "snowfield couloir",
-        "frozen lake at first light"
+        "Greenland ice sheet horizon",
+        "Alaska Brooks Range winter",
+        "Canada Yukon wilderness freeze"
       ],
       "poses": [
-        "digging out together",
-        "snow cave entry both",
-        "building snow shelter together",
-        "snow-buried car dig out",
-        "carrying each other through snow"
+        "both huddled together, backs to the wind",
+        "both trudging forward, heads down, roped together",
+        "one pointing at the horizon, the other squinting through goggles"
       ],
       "looks": [
-        "hardshell open to underlayer",
-        "open technical jackets thermals",
-        "insulated bib pants thermal above",
-        "blizzard-wet thermals",
-        "winter training kit minimal"
+        "insulated expedition suits and goggles each",
+        "thick down jackets and balaclavas each",
+        "heavy parkas with fur hoods each"
       ]
     },
     "motion vs. ice": {
       "locs": [
-        "frozen lake at first light",
-        "ice road surface",
-        "ice rink after hours",
-        "frozen river mid-span",
-        "glacier tongue surface"
+        "frozen lake at first light crack pattern",
+        "Russia Baikal clear ice walking",
+        "Finland ice lake sauna shore"
       ],
       "poses": [
-        "running across frozen lake",
-        "frozen lake crossing run",
-        "skiing toward camera in sync",
-        "ice rink stumble catch",
-        "crampons climbing together"
+        "both skating hand in hand across the glassy surface",
+        "one sliding on their knees toward the other, laughing",
+        "both lying flat, listening to it creak"
       ],
       "looks": [
-        "speedskating suit",
-        "nordic ski race suit",
-        "cold racing set",
-        "ice-slick technical suit",
-        "winter sprint set"
+        "chunky knit sweaters and skates each",
+        "wool coats and fur-trimmed hats each",
+        "padded jackets and woolly scarves each"
       ]
     },
     "alive vs. still": {
       "locs": [
-        "snowfield before storm",
-        "tundra flat under white sky",
-        "polar ice plateau",
-        "summit in whiteout",
-        "wind scour ice plateau"
+        "Lapland reindeer forest snow",
+        "Vermont maple forest snow",
+        "Japan Hokkaido snow forest"
       ],
       "poses": [
-        "standing still in blizzard",
-        "both looking at ice horizon",
-        "snowfield footprint trail toward camera",
-        "seated on ice block back to back",
-        "two figures in whiteout"
+        "both catching flakes on their tongues, laughing",
+        "one brushing the powder from the other's hat",
+        "both walking arm in arm beneath the heavy branches"
       ],
       "looks": [
-        "base layers only no outer",
-        "slim fitted thermals",
-        "minimal cold-weather athletic sets",
-        "down to thermals in snow",
-        "athletic cold gear hood down"
+        "red wool coats and bobble hats each",
+        "tartan scarves and long woolly coats each",
+        "plaid shirts and padded vests each"
       ]
     },
     "soft vs. brittle": {
       "locs": [
-        "snowbound forest clearing",
-        "winter forest track",
-        "frozen lake island",
-        "snow-dusted urban street",
-        "backcountry ski camp"
+        "Japan Aomori snow trees",
+        "South Korea Jiri mountain snow",
+        "Slovenia Triglav winter snow"
       ],
       "poses": [
-        "snow angel side by side",
-        "post-fall in snow laughing",
-        "mid-jump in snowfield",
-        "both looking up at snowfall",
-        "both arms out in blizzard"
+        "one brushing the powder from the other's hat",
+        "both walking arm in arm beneath the heavy branches",
+        "both sitting on a log, a flask steaming between them"
       ],
       "looks": [
-        "slim fitted thermals",
-        "thin fleece layers fitted",
-        "minimal cold-weather athletic sets",
-        "winter run set no outer",
-        "running gear in snowfall"
+        "tartan scarves and long woolly coats each",
+        "plaid shirts and padded vests each",
+        "red wool coats and bobble hats each"
       ]
     },
     "together vs. alone in cold": {
       "locs": [
-        "mountain hut in blizzard",
-        "backcountry ski camp",
-        "polar camp tent",
-        "mountain hut exterior blizzard",
-        "ice cave interior"
+        "Siberian taiga frozen river",
+        "Antarctic research station exterior",
+        "Sub-Antarctic island storm snow"
       ],
       "poses": [
-        "one wrapped around other for warmth",
-        "faces close sharing warmth",
-        "both in ice cave face to face",
-        "building snow shelter together",
-        "seated on ice block back to back"
+        "both trudging forward, heads down, roped together",
+        "one pointing at the horizon, the other squinting through goggles",
+        "both tiny against the white immensity, hand in hand"
       ],
       "looks": [
-        "base layers only no outer",
-        "slim fitted thermals",
-        "down to thermals in snow",
-        "compression sets in snow",
-        "one-piece thermal suit"
+        "thick down jackets and balaclavas each",
+        "heavy parkas with fur hoods each",
+        "insulated expedition suits and goggles each"
       ]
     },
     "fire vs. white": {
       "locs": [
-        "snowfield before storm",
-        "tundra flat under white sky",
-        "polar ice plateau",
-        "summit in whiteout",
-        "wind scour ice plateau"
+        "Montana big sky winter open",
+        "Wyoming Yellowstone winter steam",
+        "New Zealand South Island winter"
       ],
       "poses": [
-        "both arms out in blizzard",
-        "face into storm together",
-        "leaning into blizzard",
-        "blizzard walk into white",
-        "standing still in blizzard"
+        "both walking toward the horizon, scarves streaming",
+        "both riding a snowmobile, one holding on tight",
+        "both sitting by a fire, hands out to the flames"
       ],
       "looks": [
-        "sport base layers steam rising",
-        "compression sets in snow",
-        "athletic cold gear hood down",
-        "down to thermals in snow",
-        "base layers only no outer"
+        "wool coats and fur hats each",
+        "embroidered sheepskin jackets and boots each",
+        "heavy knit sweaters and thick scarves each"
       ]
     },
     "held vs. numb": {
       "locs": [
-        "mountain hut in blizzard",
-        "ice cave interior",
-        "backcountry ski camp",
-        "mountain rescue site winter",
-        "snowbound forest clearing"
+        "snowfield before storm dark sky",
+        "ski resort predawn gondola loading",
+        "Colorado high alpine winter meadow"
       ],
       "poses": [
-        "one warming other hands",
-        "cold hands in each other",
-        "one glove off hands held cold",
-        "faces close sharing warmth",
-        "rescue carry through snow"
+        "both carving down the slope side by side, spray flying",
+        "both loading onto the lift, laughing, skis crossed",
+        "both sitting outside the chalet, wrapped in blankets, hot chocolate in hand"
       ],
       "looks": [
-        "base layers only no outer",
-        "slim fitted thermals",
-        "compression sets in snow",
-        "down to thermals in snow",
-        "minimal cold-weather athletic sets"
+        "colourful ski jackets and salopettes each",
+        "retro ski suits and bobble hats each",
+        "après-ski sweaters and fur boots each"
       ]
     },
     "burning inside vs. frozen out": {
       "locs": [
-        "winter race finish line",
-        "ski piste at close",
-        "nordic ski trail",
-        "snowfield before storm",
-        "tundra flat under white sky"
+        "Utah Bryce Canyon snow hoodoos",
+        "Spain Pyrenees winter pass",
+        "Austria Dachstein glacier winter"
       ],
       "poses": [
-        "both panting steam post effort",
-        "race finish line embrace winter",
-        "running across frozen lake",
-        "frozen in sprint across white ground",
-        "racing on snowshoes"
+        "both loading onto the lift, laughing, skis crossed",
+        "both sitting outside the chalet, wrapped in blankets, hot chocolate in hand",
+        "both skiing toward the camera, goggles pushed up"
       ],
       "looks": [
-        "sport base layers steam rising",
-        "winter sprint set",
-        "cold racing set",
-        "ski race suit vented open",
-        "biathlon undersuit"
+        "retro ski suits and bobble hats each",
+        "après-ski sweaters and fur boots each",
+        "colourful ski jackets and salopettes each"
       ]
     },
     "shelter vs. exposure": {
       "locs": [
-        "mountain hut in blizzard",
-        "ice cave interior",
-        "snow trench",
-        "polar camp tent",
-        "mountain hut exterior blizzard"
+        "Bhutan winter mountain dzong",
+        "Pakistan K2 base camp winter",
+        "Nepal Thorong La winter crossing"
       ],
       "poses": [
-        "building snow shelter together",
-        "snow cave entry both",
-        "crouched against wind together",
-        "digging out together",
-        "one wrapped around other for warmth"
+        "both bowing their heads, prayer flags snapping around them",
+        "both climbing the steps, breath ragged, smiling",
+        "both resting against a wall, steaming cups in hand"
       ],
       "looks": [
-        "hardshell open to underlayer",
-        "open technical jackets thermals",
-        "insulated bib pants thermal above",
-        "down interior layer shell open",
-        "blizzard-wet thermals"
+        "red wool robes and quilted jackets each",
+        "layered woollens and trekking boots each",
+        "wool hats and down jackets each"
       ]
     },
     "thaw vs. freeze": {
       "locs": [
-        "frozen lake at first light",
-        "glacier tongue surface",
-        "frozen dam top",
-        "frozen waterfall face",
-        "ice shelf edge"
+        "Norway frozen fjord reflection",
+        "Sweden frozen archipelago island",
+        "Faroe Islands frozen waterfall"
       ],
       "poses": [
-        "standing at frozen waterfall",
-        "both looking at ice horizon",
-        "leaping crevasse together",
-        "one above crevasse one below",
-        "frozen lake crossing run"
+        "one sliding on their knees toward the other, laughing",
+        "both lying flat, listening to it creak",
+        "both walking carefully, testing each step, breath steaming"
       ],
       "looks": [
-        "base layers only no outer",
-        "slim fitted thermals",
-        "compression sets in snow",
-        "athletic cold gear hood down",
-        "open technical jackets thermals"
+        "wool coats and fur-trimmed hats each",
+        "padded jackets and woolly scarves each",
+        "chunky knit sweaters and skates each"
       ]
     },
     "heartbeat vs. blizzard": {
       "locs": [
-        "snowfield before storm",
-        "summit in whiteout",
-        "blizzard highway shoulder",
-        "mountain hut exterior blizzard",
-        "wind scour ice plateau"
+        "Switzerland Jungfrau winter",
+        "Italy Dolomites winter ice",
+        "Poland Tatra winter ridge"
       ],
       "poses": [
-        "standing wind brace holding each other",
-        "face into storm together",
-        "leaning into blizzard",
-        "both arms out in blizzard",
-        "blizzard walk into white"
+        "both sitting outside the chalet, wrapped in blankets, hot chocolate in hand",
+        "both skiing toward the camera, goggles pushed up",
+        "both carving down the slope side by side, spray flying"
       ],
       "looks": [
-        "hardshell open to underlayer",
-        "open technical jackets thermals",
-        "blizzard-wet thermals",
-        "insulated bib pants thermal above",
-        "down interior layer shell open"
+        "après-ski sweaters and fur boots each",
+        "colourful ski jackets and salopettes each",
+        "retro ski suits and bobble hats each"
       ]
     },
     "moving vs. hypothermic": {
       "locs": [
-        "arctic shoreline",
-        "tundra flat under white sky",
-        "avalanche debris field",
-        "mountain rescue site winter",
-        "polar ice plateau"
+        "Kazakhstan steppe winter deep",
+        "Kyrgyz winter yurt snow",
+        "Tibet winter plateau wind"
       ],
       "poses": [
-        "rescue carry through snow",
-        "carrying each other through snow",
-        "one pulling other through deep snow",
-        "running across frozen lake",
-        "frozen in sprint across white ground"
+        "both riding a snowmobile, one holding on tight",
+        "both sitting by a fire, hands out to the flames",
+        "both standing close, breath mingling, wide sky overhead"
       ],
       "looks": [
-        "winter training kit minimal",
-        "minimal cold-weather athletic sets",
-        "down to thermals in snow",
-        "sport base layers steam rising",
-        "athletic cold gear hood down"
+        "embroidered sheepskin jackets and boots each",
+        "heavy knit sweaters and thick scarves each",
+        "wool coats and fur hats each"
       ]
     },
     "found vs. lost in white": {
       "locs": [
-        "summit in whiteout",
-        "snowfield before storm",
         "tundra flat under white sky",
-        "wind scour ice plateau",
-        "polar ice plateau"
+        "Svalbard glacier calving edge",
+        "Iceland black sand and snow"
       ],
       "poses": [
-        "snowfield footprint trail toward camera",
-        "both looking at ice horizon",
-        "blizzard walk into white",
-        "face into storm together",
-        "two figures in whiteout"
+        "one pointing at the horizon, the other squinting through goggles",
+        "both tiny against the white immensity, hand in hand",
+        "both huddled together, backs to the wind"
       ],
       "looks": [
-        "base layers only no outer",
-        "slim fitted thermals",
-        "minimal cold-weather athletic sets",
-        "down to thermals in snow",
-        "athletic cold gear hood down"
+        "heavy parkas with fur hoods each",
+        "insulated expedition suits and goggles each",
+        "thick down jackets and balaclavas each"
       ]
     },
     "light vs. whiteout": {
       "locs": [
-        "summit in whiteout",
-        "snowfield before storm",
-        "wind scour ice plateau",
-        "polar ice plateau",
-        "tundra flat under white sky"
+        "Lesotho highland snow blanket",
+        "Drakensberg winter frost dawn",
+        "Morocco Atlas snow"
       ],
       "poses": [
-        "standing still in blizzard",
-        "blizzard walk into white",
-        "both looking at ice horizon",
-        "face into storm together",
-        "two figures in whiteout"
+        "both sitting by a fire, hands out to the flames",
+        "both standing close, breath mingling, wide sky overhead",
+        "both walking toward the horizon, scarves streaming"
       ],
       "looks": [
-        "base layers only no outer",
-        "slim fitted thermals",
-        "athletic cold gear hood down",
-        "down to thermals in snow",
-        "minimal cold-weather athletic sets"
+        "heavy knit sweaters and thick scarves each",
+        "wool coats and fur hats each",
+        "embroidered sheepskin jackets and boots each"
       ]
     },
     "ice vs. skin": {
       "locs": [
-        "frozen lake at first light",
-        "ice cave interior",
-        "glacier tongue surface",
-        "arctic shoreline",
-        "ice shelf edge"
+        "Scotland winter glen frozen burn",
+        "Maine coast harbor frozen",
+        "Patagonia winter wind ice lake"
       ],
       "poses": [
-        "one glove off hands held cold",
-        "cold hands in each other",
-        "one warming other hands",
-        "breath fog kiss moment",
-        "standing at frozen waterfall"
+        "both lying flat, listening to it creak",
+        "both walking carefully, testing each step, breath steaming",
+        "both skating hand in hand across the glassy surface"
       ],
       "looks": [
-        "minimal thermal base layer",
-        "insulated vests long sleeve base",
-        "cold water wetsuit",
-        "insulated vests base layer",
-        "down to thermals in snow"
+        "padded jackets and woolly scarves each",
+        "chunky knit sweaters and skates each",
+        "wool coats and fur-trimmed hats each"
       ]
     },
     "body heat vs. cold air": {
       "locs": [
-        "ski piste at close",
-        "nordic ski trail",
-        "winter race finish line",
-        "snowfield couloir",
-        "snowfield before storm"
+        "Czech Krkonose winter forest",
+        "Lapland reindeer forest snow",
+        "Vermont maple forest snow"
       ],
       "poses": [
-        "both panting steam post effort",
-        "breath mist close together",
-        "both exhaling visible breath face to face",
-        "running across frozen lake",
-        "sprinting across glacier together"
+        "both walking arm in arm beneath the heavy branches",
+        "both sitting on a log, a flask steaming between them",
+        "both catching flakes on their tongues, laughing"
       ],
       "looks": [
-        "sport base layers steam rising",
-        "winter sprint set",
-        "cold racing set",
-        "ski race suit vented open",
-        "compression sets in snow"
+        "plaid shirts and padded vests each",
+        "red wool coats and bobble hats each",
+        "tartan scarves and long woolly coats each"
       ]
     },
     "glacier vs. moment": {
       "locs": [
-        "glacier tongue surface",
-        "glacial moraine field",
-        "crevasse edge",
-        "ice shelf edge",
-        "polar ice plateau"
+        "Bulgaria Rila winter monastery",
+        "Bhutan winter mountain dzong",
+        "Pakistan K2 base camp winter"
       ],
       "poses": [
-        "both looking at ice horizon",
-        "leaping crevasse together",
-        "one above crevasse one below",
-        "standing on glacier edge",
-        "crampons climbing together"
+        "both climbing the steps, breath ragged, smiling",
+        "both resting against a wall, steaming cups in hand",
+        "both standing still, the thin air ringing around them"
       ],
       "looks": [
-        "ice climbing base layer harness",
-        "open technical jackets thermals",
-        "alpine base layer set",
-        "compression sets in snow",
-        "down to thermals in snow"
+        "layered woollens and trekking boots each",
+        "wool hats and down jackets each",
+        "red wool robes and quilted jackets each"
       ]
     },
     "winter vs. will": {
       "locs": [
-        "winter race finish line",
-        "summit in whiteout",
-        "snowfield couloir",
-        "nordic ski trail",
-        "avalanche debris field"
+        "Romania Fagaras winter ridge",
+        "snowfield before storm dark sky",
+        "ski resort predawn gondola loading"
       ],
       "poses": [
-        "race finish line embrace winter",
-        "running across frozen lake",
-        "frozen in sprint across white ground",
-        "racing on snowshoes",
-        "both panting steam post effort"
+        "both skiing toward the camera, goggles pushed up",
+        "both carving down the slope side by side, spray flying",
+        "both loading onto the lift, laughing, skis crossed"
       ],
       "looks": [
-        "winter sprint set",
-        "cold racing set",
-        "ski race suit vented open",
-        "biathlon undersuit",
-        "sport base layers steam rising"
+        "colourful ski jackets and salopettes each",
+        "retro ski suits and bobble hats each",
+        "après-ski sweaters and fur boots each"
       ]
     }
   },
@@ -643,56 +479,56 @@
   },
   "locTypes": {
     "frozen lake at first light crack pattern": "outdoor",
-    "snowfield before storm dark sky": "outdoor",
-    "ice hall empty arena": "outdoor",
-    "ski resort predawn gondola loading": "outdoor",
-    "tundra flat under white sky": "outdoor",
-    "Lapland reindeer forest snow": "outdoor",
-    "Svalbard glacier calving edge": "outdoor",
-    "Iceland black sand and snow": "outdoor",
-    "Greenland ice sheet horizon": "outdoor",
-    "Alaska Brooks Range winter": "outdoor",
-    "Canada Yukon wilderness freeze": "outdoor",
-    "Siberian taiga frozen river": "outdoor",
     "Russia Baikal clear ice walking": "outdoor",
     "Finland ice lake sauna shore": "outdoor",
     "Norway frozen fjord reflection": "outdoor",
     "Sweden frozen archipelago island": "outdoor",
     "Faroe Islands frozen waterfall": "outdoor",
     "Scotland winter glen frozen burn": "outdoor",
-    "Canada Quebec winter ice hotel": "outdoor",
-    "Vermont maple forest snow": "outdoor",
     "Maine coast harbor frozen": "outdoor",
-    "Colorado high alpine winter meadow": "outdoor",
-    "Utah Bryce Canyon snow hoodoos": "outdoor",
-    "Montana big sky winter open": "outdoor",
-    "Wyoming Yellowstone winter steam": "outdoor",
     "Patagonia winter wind ice lake": "outdoor",
+    "tundra flat under white sky": "outdoor",
+    "Svalbard glacier calving edge": "outdoor",
+    "Iceland black sand and snow": "outdoor",
+    "Greenland ice sheet horizon": "outdoor",
+    "Alaska Brooks Range winter": "outdoor",
+    "Canada Yukon wilderness freeze": "outdoor",
+    "Siberian taiga frozen river": "outdoor",
     "Antarctic research station exterior": "outdoor",
     "Sub-Antarctic island storm snow": "outdoor",
-    "New Zealand South Island winter": "outdoor",
+    "Lapland reindeer forest snow": "outdoor",
+    "Vermont maple forest snow": "outdoor",
     "Japan Hokkaido snow forest": "outdoor",
     "Japan Aomori snow trees": "outdoor",
-    "China Harbin ice sculpture": "outdoor",
     "South Korea Jiri mountain snow": "outdoor",
-    "Kazakhstan steppe winter deep": "outdoor",
-    "Kyrgyz winter yurt snow": "outdoor",
-    "Tibet winter plateau wind": "outdoor",
-    "Bhutan winter mountain dzong": "outdoor",
-    "Pakistan K2 base camp winter": "outdoor",
-    "Nepal Thorong La winter crossing": "outdoor",
-    "Lesotho highland snow blanket": "outdoor",
-    "Drakensberg winter frost dawn": "outdoor",
-    "Morocco Atlas snow": "outdoor",
+    "Slovenia Triglav winter snow": "outdoor",
+    "Czech Krkonose winter forest": "outdoor",
+    "snowfield before storm dark sky": "outdoor",
+    "ski resort predawn gondola loading": "outdoor",
+    "Colorado high alpine winter meadow": "outdoor",
+    "Utah Bryce Canyon snow hoodoos": "outdoor",
     "Spain Pyrenees winter pass": "outdoor",
     "Austria Dachstein glacier winter": "outdoor",
     "Switzerland Jungfrau winter": "outdoor",
     "Italy Dolomites winter ice": "outdoor",
-    "Slovenia Triglav winter snow": "outdoor",
     "Poland Tatra winter ridge": "outdoor",
-    "Czech Krkonose winter forest": "outdoor",
     "Romania Fagaras winter ridge": "outdoor",
-    "Bulgaria Rila winter monastery": "outdoor"
+    "Montana big sky winter open": "outdoor",
+    "Wyoming Yellowstone winter steam": "outdoor",
+    "New Zealand South Island winter": "outdoor",
+    "Kazakhstan steppe winter deep": "outdoor",
+    "Kyrgyz winter yurt snow": "outdoor",
+    "Tibet winter plateau wind": "outdoor",
+    "Lesotho highland snow blanket": "outdoor",
+    "Drakensberg winter frost dawn": "outdoor",
+    "Morocco Atlas snow": "outdoor",
+    "Bhutan winter mountain dzong": "outdoor",
+    "Pakistan K2 base camp winter": "outdoor",
+    "Nepal Thorong La winter crossing": "outdoor",
+    "Bulgaria Rila winter monastery": "outdoor",
+    "ice hall empty arena": "outdoor",
+    "Canada Quebec winter ice hotel": "outdoor",
+    "China Harbin ice sculpture": "outdoor"
   },
   "connectors": [
     "in",
