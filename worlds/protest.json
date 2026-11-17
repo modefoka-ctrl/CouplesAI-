@@ -27,21 +27,17 @@
   ],
   "locs": [
     "city street march crowd placard density",
-    "courthouse steps vigil candles",
-    "barricade police line stand-off",
-    "memorial vigil square candles wind",
-    "occupation sit-in steps long-stay",
-    "university campus quad gathering",
     "Parliament Square Westminster London",
     "Trafalgar Square London gathering",
-    "Tiananmen Square adjacent Beijing",
-    "Tahrir Square Cairo archive feeling",
-    "Maidan Square Kyiv historic feeling",
-    "Wenceslas Square Prague historic",
-    "Zuccotti Park New York Occupy",
     "Union Square New York rally",
-    "Hyde Park Speakers' Corner London",
     "The Mall Washington DC march",
+    "Grant Park Chicago rally point",
+    "Federal Plaza Chicago march",
+    "Climate march London Embankment",
+    "XR blockade London bridge",
+    "G8 Gleneagles approach road",
+    "COP26 Glasgow approach march",
+    "George Square Glasgow rally",
     "Lafayette Square Washington DC",
     "Martin Luther King Memorial Washington",
     "Lincoln Memorial steps Washington",
@@ -54,561 +50,412 @@
     "Stonewall National Monument area",
     "Harvey Milk Plaza San Francisco",
     "Castro District San Francisco march",
-    "Grant Park Chicago rally point",
-    "Federal Plaza Chicago march",
+    "courthouse steps vigil candles",
+    "barricade police line stand-off",
+    "memorial vigil square candles wind",
+    "occupation sit-in steps long-stay",
+    "Anti-war vigil Grosvenor Square London",
+    "Greenham Common memorial Berkshire",
+    "Faslane Peace Camp Scotland gate",
+    "Kelvingrove Glasgow vigil",
+    "university campus quad gathering",
+    "Tiananmen Square adjacent Beijing",
+    "Tahrir Square Cairo archive feeling",
+    "Maidan Square Kyiv historic feeling",
+    "Wenceslas Square Prague historic",
+    "Zuccotti Park New York Occupy",
+    "Hyde Park Speakers' Corner London",
     "Millennium Park Chicago gathering",
     "City Hall Los Angeles steps",
     "Pershing Square Los Angeles rally",
     "Venice Beach boardwalk demonstration",
-    "Rodeo Drive protest Palm Springs",
-    "Climate march London Embankment",
-    "XR blockade London bridge",
-    "Anti-war vigil Grosvenor Square London",
-    "Greenham Common memorial Berkshire",
-    "Faslane Peace Camp Scotland gate",
-    "G8 Gleneagles approach road",
-    "COP26 Glasgow approach march",
-    "George Square Glasgow rally",
-    "Kelvingrove Glasgow vigil"
+    "Rodeo Drive protest Palm Springs"
   ],
   "poses": [
-    "one holding sign other arm raised both facing forward",
-    "both fists raised mid-chant",
-    "one megaphone raised other fist up",
-    "back to back crowd pressing both",
-    "linked arms march forward resolute",
-    "one shielding other from crowd surge",
-    "both sitting down peaceful occupation",
-    "both kneeling both hands up",
-    "one helping other up from ground both",
-    "both looking at each other exhausted hopeful",
-    "back to back standing ground calm",
-    "both lying down die-in peaceful",
-    "both arms out human chain middle",
-    "one speaking crowd other listens intently",
-    "both holding banner between them",
-    "both watching water cannon approach calm",
-    "one being arrested other watches powerless",
-    "both crying at outcome together",
-    "sitting on ground back to back vigil night",
-    "both writing on placard together",
-    "both at megaphone different messages",
-    "one covering other's face for camera",
-    "both handing out leaflets together",
-    "looking at each other through tear gas",
-    "both running from confrontation hand-in-hand",
-    "both helping injured stranger down",
-    "sitting on steps after long day both",
-    "one behind other arms wrapped cold",
-    "both singing together faces up",
-    "one singing other playing guitar march",
-    "both at police barrier line holding",
-    "face-to-face silent communication protest",
-    "both wet from rain march continuing",
-    "one first-aiding other's hand both",
-    "both holding flowers vigil candles",
-    "march front both holding banner proud",
-    "both at fence memorial reading names",
-    "sitting vigil night long both tired resolve"
+    "one holding a sign, the other with a raised fist, both facing forward",
+    "linked arms, marching forward, resolute",
+    "both chanting, mouths open, fists raised",
+    "one on the other's shoulders above the crowd, sign held high",
+    "both standing solemn, facing the monument, hands joined",
+    "one reading an inscription aloud, the other listening",
+    "both walking the steps together, heads high",
+    "both sitting quietly, shoulders touching, reflecting",
+    "both laughing, draped in a flag, confetti in the air",
+    "both kissing amid the crowd, banners around them",
+    "both dancing, arms raised, colour all around",
+    "both holding hands, proud, facing forward",
+    "both holding candles, faces lit, heads bowed",
+    "both sitting on the ground, back to back, keeping watch through the night",
+    "both standing calm and still before a line of officers",
+    "both holding flowers, reading the names",
+    "both standing small against the vastness of the square, resolute",
+    "one speaking to the crowd, the other listening intently",
+    "both hand in hand, looking at each other, exhausted and hopeful",
+    "both holding a banner between them",
+    "both at the barrier, holding the line, calm",
+    "one raising a megaphone, the other fist up",
+    "both writing on a placard together, heads close",
+    "both singing together, faces lifted"
   ],
   "looks": [
-    "protest black casual layers both practical",
-    "march comfortable worn shoes jeans each",
-    "vigil dark simple layers appropriate both",
-    "occupation casual worn long-stay both",
-    "union colours jacket each representing",
-    "campaign t-shirt and jeans both",
-    "practical waterproof layers march both",
-    "all-black bloc both",
-    "brightly coloured costume point both",
-    "high-vis steward vest over casual each",
-    "climate protest green layers both",
-    "feminist march layers comfortable both",
-    "peace movement practical both",
-    "anti-war vigil sombre layers both",
-    "LGBTQ pride colourful both celebratory",
-    "disability rights accessible casual both",
-    "racial justice powerful simple both",
-    "immigration rights layers colourful flag both",
-    "environmental direct action practical both",
-    "animal rights ethical fashion both",
-    "student protest casual layers both",
-    "workers' rights trade union both",
-    "housing protest local community clothes both",
-    "anti-fascist black practical both",
-    "nuclear disarmament CND layers both",
-    "suffragette white and purple historically-informed both",
-    "civil rights movement suited both formal",
-    "counter-cultural layers both expressive",
-    "political art performance costume both",
-    "long march comfortable practical both",
-    "overnight occupation sleeping bag over clothes both",
-    "police liaison bright vest over casual each",
-    "legal observer neon over casual each",
-    "medic cross vest over casual each",
-    "media journalist vest over casual each",
-    "organiser lanyard casual professional each",
-    "faith group dignity appropriate layers both"
+    "comfortable worn shoes and jeans each",
+    "practical waterproof layers each",
+    "campaign t-shirts and jeans each",
+    "smart dark clothes, formal and dignified each",
+    "simple suits and dresses, powerful and plain each",
+    "civil rights-era formal wear each",
+    "rainbow colours and bright outfits each",
+    "glitter and denim each",
+    "colourful costumes and flags each",
+    "dark simple layers, appropriate each",
+    "sombre layers and warm scarves each",
+    "sleeping bag over clothes, worn each",
+    "practical layers and walking shoes each",
+    "student casual layers each",
+    "jackets and scarves, practical each",
+    "union colours and caps each",
+    "protest black casual layers each",
+    "workers' rights t-shirts and jackets each"
   ],
   "affinities": {
     "individual vs. crowd": {
       "locs": [
-        "city street march crowd",
-        "night protest phone light crowd",
-        "peaceful blockade intersection",
-        "march approach capitol steps",
-        "rally stage crowd facing"
+        "city street march crowd placard density",
+        "Parliament Square Westminster London",
+        "Trafalgar Square London gathering"
       ],
       "poses": [
-        "standing still crowd surges around",
-        "one on shoulders sees crowd",
-        "both looking at camera direct",
-        "back of march looking forward",
-        "two alone after march ends"
+        "one holding a sign, the other with a raised fist, both facing forward",
+        "linked arms, marching forward, resolute",
+        "both chanting, mouths open, fists raised"
       ],
       "looks": [
-        "protest black casual layers",
-        "march comfortable worn shoes",
-        "arrest risk black minimal",
-        "solidarity simple minimal",
-        "march worn comfortable layers"
+        "comfortable worn shoes and jeans each",
+        "practical waterproof layers each",
+        "campaign t-shirts and jeans each"
       ]
     },
     "sign vs. silence": {
       "locs": [
-        "memorial vigil candles square",
-        "solidarity vigil park candles",
-        "courthouse steps vigil",
-        "memorial wall names touching",
-        "anti-war vigil park"
+        "courthouse steps vigil candles",
+        "barricade police line stand-off",
+        "memorial vigil square candles wind"
       ],
       "poses": [
-        "both kneeling silent protest",
-        "sign held between them both",
-        "silent stare authority both",
-        "candle vigil both cupped hands",
-        "one holding sign other arm raised"
+        "both holding candles, faces lit, heads bowed",
+        "both sitting on the ground, back to back, keeping watch through the night",
+        "both standing calm and still before a line of officers"
       ],
       "looks": [
-        "vigil dark simple layers",
-        "memorial march dark formal",
-        "anti-war peace symbol top",
-        "solidarity march simple layers",
-        "white dress and white shirt candle vigil"
+        "dark simple layers, appropriate each",
+        "sombre layers and warm scarves each",
+        "sleeping bag over clothes, worn each"
       ]
     },
     "marching vs. standing still": {
       "locs": [
-        "city street march crowd",
-        "freedom march open highway",
-        "climate march city bridge",
-        "historic march bridge famous",
-        "march approach capitol steps"
+        "Union Square New York rally",
+        "The Mall Washington DC march",
+        "Grant Park Chicago rally point"
       ],
       "poses": [
-        "linked arms march forward",
-        "marching step-in-step crowd",
-        "both fists raised chant",
-        "march approach bridge horizon",
-        "standing still crowd surges around"
+        "linked arms, marching forward, resolute",
+        "both chanting, mouths open, fists raised",
+        "one on the other's shoulders above the crowd, sign held high"
       ],
       "looks": [
-        "march comfortable worn shoes",
-        "march worn comfortable layers",
-        "civil rights formal Sunday march",
-        "historic march formal dignified",
-        "banner-bold bright protest tee"
+        "practical waterproof layers each",
+        "campaign t-shirts and jeans each",
+        "comfortable worn shoes and jeans each"
       ]
     },
     "anger vs. hope": {
       "locs": [
-        "barricade police line street",
-        "courthouse steps vigil",
-        "memorial vigil candles square",
-        "capitol building steps rally",
-        "university campus protest lawn"
+        "Millennium Park Chicago gathering",
+        "City Hall Los Angeles steps",
+        "Pershing Square Los Angeles rally"
       ],
       "poses": [
-        "both fists raised chant",
-        "candle vigil both cupped hands",
-        "chant face to face close",
-        "one speaking crowd listening",
-        "hands joined raised together"
+        "both at the barrier, holding the line, calm",
+        "one raising a megaphone, the other fist up",
+        "both writing on a placard together, heads close"
       ],
       "looks": [
-        "protest black casual layers",
-        "vigil dark simple layers",
-        "civil rights formal Sunday march",
-        "chant leader bright visible",
-        "community organizer casual layers"
+        "union colours and caps each",
+        "protest black casual layers each",
+        "workers' rights t-shirts and jackets each"
       ]
     },
     "arrested vs. free": {
       "locs": [
-        "police standoff street corner",
-        "barricade police line street",
-        "checkpoint confrontation border",
-        "courthouse steps vigil",
-        "peaceful blockade intersection"
+        "occupation sit-in steps long-stay",
+        "Anti-war vigil Grosvenor Square London",
+        "Greenham Common memorial Berkshire"
       ],
       "poses": [
-        "both hands up surrender pose",
-        "facing police line side by side",
-        "both arms locked barrier sit",
-        "one comforting arrested other",
-        "one shielding other from crowd"
+        "both sitting on the ground, back to back, keeping watch through the night",
+        "both standing calm and still before a line of officers",
+        "both holding flowers, reading the names"
       ],
       "looks": [
-        "protest black casual layers",
-        "arrest risk black minimal",
-        "legal observer bright vest",
-        "run-ready protest layers",
-        "march comfortable worn shoes"
+        "sombre layers and warm scarves each",
+        "sleeping bag over clothes, worn each",
+        "dark simple layers, appropriate each"
       ]
     },
     "chant vs. quiet": {
       "locs": [
-        "town square speech platform",
-        "rally stage crowd facing",
-        "memorial vigil candles square",
-        "university campus protest lawn",
-        "solidarity vigil park candles"
+        "Federal Plaza Chicago march",
+        "Climate march London Embankment",
+        "XR blockade London bridge"
       ],
       "poses": [
-        "one megaphone other listening",
-        "chant face to face close",
-        "chant leader crowd response",
-        "both kneeling silent protest",
-        "silent stare authority both"
+        "both chanting, mouths open, fists raised",
+        "one on the other's shoulders above the crowd, sign held high",
+        "one holding a sign, the other with a raised fist, both facing forward"
       ],
       "looks": [
-        "chant leader bright visible",
-        "protest black casual layers",
-        "vigil dark simple layers",
-        "rally speaker visible layers",
-        "solidarity march simple layers"
+        "campaign t-shirts and jeans each",
+        "comfortable worn shoes and jeans each",
+        "practical waterproof layers each"
       ]
     },
     "seen vs. ignored": {
       "locs": [
-        "press conference protest steps",
-        "press pool protest scrum",
-        "banner drop building side",
-        "public square occupation tent",
-        "memorial wall names touching"
+        "university campus quad gathering",
+        "Tiananmen Square adjacent Beijing",
+        "Tahrir Square Cairo archive feeling"
       ],
       "poses": [
-        "both looking at camera direct",
-        "one filming other speaks",
-        "press photo moment both posed",
-        "banner unfurl both holding ends",
-        "sign held between them both"
+        "both standing small against the vastness of the square, resolute",
+        "one speaking to the crowd, the other listening intently",
+        "both hand in hand, looking at each other, exhausted and hopeful"
       ],
       "looks": [
-        "documentary-style journalist casual",
-        "press vest casual journalist",
-        "banner-bold bright protest tee",
-        "chant leader bright visible",
-        "protest artist paint-marked layers"
+        "practical layers and walking shoes each",
+        "student casual layers each",
+        "jackets and scarves, practical each"
       ]
     },
     "together vs. alone in cause": {
       "locs": [
-        "tent city occupation park",
-        "occupation sit-in building steps",
-        "protest camp morning wake",
-        "solidarity vigil park candles",
-        "community meeting outdoor evening"
+        "Maidan Square Kyiv historic feeling",
+        "Wenceslas Square Prague historic",
+        "Zuccotti Park New York Occupy"
       ],
       "poses": [
-        "solidarity hug mid-march",
-        "linked arms march forward",
-        "both arms locked barrier sit",
-        "camp fire vigil both seated",
-        "tent camp morning both waking"
+        "one speaking to the crowd, the other listening intently",
+        "both hand in hand, looking at each other, exhausted and hopeful",
+        "both holding a banner between them"
       ],
       "looks": [
-        "occupation long-haul worn layers",
-        "tent camp worn layered",
-        "solidarity march simple layers",
-        "community organizer casual layers",
-        "sit-in dignified formal protest"
+        "student casual layers each",
+        "jackets and scarves, practical each",
+        "practical layers and walking shoes each"
       ]
     },
     "fear vs. conviction": {
       "locs": [
-        "police standoff street corner",
-        "barricade police line street",
-        "checkpoint confrontation border",
-        "barricade police line street",
-        "peaceful blockade intersection"
+        "Lafayette Square Washington DC",
+        "Martin Luther King Memorial Washington",
+        "Lincoln Memorial steps Washington"
       ],
       "poses": [
-        "facing police line side by side",
-        "standing still crowd surges around",
-        "one shielding other from crowd",
-        "both hands up surrender pose",
-        "silent stare authority both"
+        "both standing solemn, facing the monument, hands joined",
+        "one reading an inscription aloud, the other listening",
+        "both walking the steps together, heads high"
       ],
       "looks": [
-        "protest black casual layers",
-        "arrest risk black minimal",
-        "march comfortable worn shoes",
-        "run-ready protest layers",
-        "line-holder dark layered warm"
+        "smart dark clothes, formal and dignified each",
+        "simple suits and dresses, powerful and plain each",
+        "civil rights-era formal wear each"
       ]
     },
     "front line vs. witness": {
       "locs": [
-        "barricade police line street",
-        "press conference protest steps",
-        "press conference protest steps",
-        "memorial vigil candles square",
-        "waterfront protest march"
+        "Venice Beach boardwalk demonstration",
+        "Rodeo Drive protest Palm Springs",
+        "Millennium Park Chicago gathering"
       ],
       "poses": [
-        "one filming other speaks",
-        "press photo moment both posed",
-        "one shielding other from crowd",
-        "facing police line side by side",
-        "back of march looking forward"
+        "one raising a megaphone, the other fist up",
+        "both writing on a placard together, heads close",
+        "both singing together, faces lifted"
       ],
       "looks": [
-        "press vest casual journalist",
-        "documentary-style journalist casual",
-        "legal observer bright vest",
-        "medic red cross vest casual",
-        "march medic neutral vest"
+        "protest black casual layers each",
+        "workers' rights t-shirts and jackets each",
+        "union colours and caps each"
       ]
     },
     "voice vs. power": {
       "locs": [
-        "capitol building steps rally",
-        "courthouse steps vigil",
-        "town square speech platform",
-        "checkpoint confrontation border",
-        "historic march bridge famous"
+        "G8 Gleneagles approach road",
+        "COP26 Glasgow approach march",
+        "George Square Glasgow rally"
       ],
       "poses": [
-        "one speaking crowd listening",
-        "one megaphone other listening",
-        "both looking at camera direct",
-        "silent stare authority both",
-        "chant leader crowd response"
+        "one on the other's shoulders above the crowd, sign held high",
+        "one holding a sign, the other with a raised fist, both facing forward",
+        "linked arms, marching forward, resolute"
       ],
       "looks": [
-        "civil rights formal Sunday march",
-        "chant leader bright visible",
-        "solidarity march simple layers",
-        "historic march formal dignified",
-        "community organizer casual layers"
+        "comfortable worn shoes and jeans each",
+        "practical waterproof layers each",
+        "campaign t-shirts and jeans each"
       ]
     },
     "peaceful vs. tense": {
       "locs": [
-        "police standoff street corner",
-        "peaceful blockade intersection",
-        "barricade police line street",
-        "university campus protest lawn",
-        "memorial vigil candles square"
+        "Faslane Peace Camp Scotland gate",
+        "Kelvingrove Glasgow vigil",
+        "courthouse steps vigil candles"
       ],
       "poses": [
-        "linked arms march forward",
-        "facing police line side by side",
-        "both kneeling silent protest",
-        "one steadying other on line",
-        "crowd surge both holding firm"
+        "both standing calm and still before a line of officers",
+        "both holding flowers, reading the names",
+        "both holding candles, faces lit, heads bowed"
       ],
       "looks": [
-        "march comfortable worn shoes",
-        "protest black casual layers",
-        "solidarity march simple layers",
-        "vigil dark simple layers",
-        "arrest risk black minimal"
+        "sleeping bag over clothes, worn each",
+        "dark simple layers, appropriate each",
+        "sombre layers and warm scarves each"
       ]
     },
     "symbol vs. person": {
       "locs": [
-        "protest art installation plaza",
-        "graffiti wall protest art",
-        "banner drop building side",
-        "memorial wall names touching",
-        "historic march bridge famous"
+        "Capitol Building exterior demonstration",
+        "Selma bridge Edmund Pettus Alabama",
+        "Birmingham Alabama Kelly Ingram Park"
       ],
       "poses": [
-        "sign held between them both",
-        "banner unfurl both holding ends",
-        "memorial name trace together",
-        "one holding sign other arm raised",
-        "both looking at camera direct"
+        "one reading an inscription aloud, the other listening",
+        "both walking the steps together, heads high",
+        "both sitting quietly, shoulders touching, reflecting"
       ],
       "looks": [
-        "banner-bold bright protest tee",
-        "protest artist paint-marked layers",
-        "civil rights formal Sunday march",
-        "solidarity simple minimal",
-        "memorial solemn dark layers"
+        "simple suits and dresses, powerful and plain each",
+        "civil rights-era formal wear each",
+        "smart dark clothes, formal and dignified each"
       ]
     },
     "media vs. moment": {
       "locs": [
-        "press conference protest steps",
-        "press pool protest scrum",
-        "rally stage crowd facing",
-        "night protest phone light crowd",
-        "press conference protest steps"
+        "Hyde Park Speakers' Corner London",
+        "university campus quad gathering",
+        "Tiananmen Square adjacent Beijing"
       ],
       "poses": [
-        "one filming other speaks",
-        "press photo moment both posed",
-        "both looking at camera direct",
-        "one speaking crowd listening",
-        "candlelight face glow both"
+        "both hand in hand, looking at each other, exhausted and hopeful",
+        "both holding a banner between them",
+        "both standing small against the vastness of the square, resolute"
       ],
       "looks": [
-        "press vest casual journalist",
-        "documentary-style journalist casual",
-        "legal observer bright vest",
-        "community organizer casual layers",
-        "protest black casual layers"
+        "jackets and scarves, practical each",
+        "practical layers and walking shoes each",
+        "student casual layers each"
       ]
     },
     "movement vs. state": {
       "locs": [
-        "capitol building steps rally",
-        "courthouse steps vigil",
-        "checkpoint confrontation border",
-        "historic march bridge famous",
-        "freedom march open highway"
+        "City Hall Los Angeles steps",
+        "Pershing Square Los Angeles rally",
+        "Venice Beach boardwalk demonstration"
       ],
       "poses": [
-        "march approach bridge horizon",
-        "facing police line side by side",
-        "hands joined raised together",
-        "silent stare authority both",
-        "both fists raised chant"
+        "both writing on a placard together, heads close",
+        "both singing together, faces lifted",
+        "both at the barrier, holding the line, calm"
       ],
       "looks": [
-        "civil rights formal Sunday march",
-        "historic march formal dignified",
-        "solidarity march simple layers",
-        "protest black casual layers",
-        "community organizer casual layers"
+        "workers' rights t-shirts and jackets each",
+        "union colours and caps each",
+        "protest black casual layers each"
       ]
     },
     "demand vs. plea": {
       "locs": [
-        "courthouse steps vigil",
-        "capitol building steps rally",
-        "town square speech platform",
-        "memorial vigil candles square",
-        "tenant protest landlord building"
+        "city street march crowd placard density",
+        "Parliament Square Westminster London",
+        "Trafalgar Square London gathering"
       ],
       "poses": [
-        "one speaking crowd listening",
-        "one megaphone other listening",
-        "chant face to face close",
-        "candle vigil both cupped hands",
-        "one holding sign other arm raised"
+        "one holding a sign, the other with a raised fist, both facing forward",
+        "linked arms, marching forward, resolute",
+        "both chanting, mouths open, fists raised"
       ],
       "looks": [
-        "vigil dark simple layers",
-        "civil rights formal Sunday march",
-        "community organizer casual layers",
-        "memorial solemn dark layers",
-        "solidarity march simple layers"
+        "practical waterproof layers each",
+        "campaign t-shirts and jeans each",
+        "comfortable worn shoes and jeans each"
       ]
     },
     "exhausted vs. resolved": {
       "locs": [
-        "tent city occupation park",
-        "protest camp morning wake",
-        "occupation sit-in building steps",
-        "hunger strike vigil steps",
-        "solidarity vigil park candles"
+        "barricade police line stand-off",
+        "memorial vigil square candles wind",
+        "occupation sit-in steps long-stay"
       ],
       "poses": [
-        "exhausted ground sit after march",
-        "tent camp morning both waking",
-        "camp fire vigil both seated",
-        "two alone after march ends",
-        "solidarity hug mid-march"
+        "both holding flowers, reading the names",
+        "both holding candles, faces lit, heads bowed",
+        "both sitting on the ground, back to back, keeping watch through the night"
       ],
       "looks": [
-        "tent camp worn layered",
-        "occupation long-haul worn layers",
-        "hunger strike thin simple white",
-        "dawn march cold layered",
-        "march worn comfortable layers"
+        "dark simple layers, appropriate each",
+        "sombre layers and warm scarves each",
+        "sleeping bag over clothes, worn each"
       ]
     },
     "unity vs. division": {
       "locs": [
-        "solidarity vigil park candles",
-        "pride parade street march",
-        "climate march city bridge",
-        "community meeting outdoor evening",
-        "freedom march open highway"
+        "Stonewall Inn New York exterior",
+        "Stonewall National Monument area",
+        "Harvey Milk Plaza San Francisco"
       ],
       "poses": [
-        "linked arms march forward",
-        "hands joined raised together",
-        "solidarity hug mid-march",
-        "fist bump solidarity after",
-        "banner unfurl both holding ends"
+        "both laughing, draped in a flag, confetti in the air",
+        "both kissing amid the crowd, banners around them",
+        "both dancing, arms raised, colour all around"
       ],
       "looks": [
-        "solidarity march simple layers",
-        "pride march colorful expressive",
-        "community organizer casual layers",
-        "climate protest earthy layers",
-        "banner-bold bright protest tee"
+        "rainbow colours and bright outfits each",
+        "glitter and denim each",
+        "colourful costumes and flags each"
       ]
     },
     "act vs. consequence": {
       "locs": [
-        "courthouse steps vigil",
-        "police standoff street corner",
-        "barricade police line street",
-        "checkpoint confrontation border",
-        "peaceful blockade intersection"
+        "Montgomery Alabama Dexter Avenue",
+        "Little Rock Arkansas school exterior",
+        "Lafayette Square Washington DC"
       ],
       "poses": [
-        "one comforting arrested other",
-        "both hands up surrender pose",
-        "one shielding other from crowd",
-        "facing police line side by side",
-        "one tending other's wound"
+        "both walking the steps together, heads high",
+        "both sitting quietly, shoulders touching, reflecting",
+        "both standing solemn, facing the monument, hands joined"
       ],
       "looks": [
-        "arrest risk black minimal",
-        "march comfortable worn shoes",
-        "legal observer bright vest",
-        "medic red cross vest casual",
-        "run-ready protest layers"
+        "civil rights-era formal wear each",
+        "smart dark clothes, formal and dignified each",
+        "simple suits and dresses, powerful and plain each"
       ]
     },
     "present vs. history": {
       "locs": [
-        "historic march bridge famous",
-        "civil rights march downtown",
-        "memorial wall names touching",
-        "armistice day memorial crowd",
-        "freedom march open highway"
+        "Castro District San Francisco march",
+        "Stonewall Inn New York exterior",
+        "Stonewall National Monument area"
       ],
       "poses": [
-        "memorial name trace together",
-        "march approach bridge horizon",
-        "both looking at camera direct",
-        "hands joined raised together",
-        "back of march looking forward"
+        "both kissing amid the crowd, banners around them",
+        "both dancing, arms raised, colour all around",
+        "both holding hands, proud, facing forward"
       ],
       "looks": [
-        "civil rights formal Sunday march",
-        "historic march formal dignified",
-        "memorial solemn dark layers",
-        "armistice formal heritage dark",
-        "solidarity march simple layers"
+        "glitter and denim each",
+        "colourful costumes and flags each",
+        "rainbow colours and bright outfits each"
       ]
     }
   },
@@ -645,21 +492,17 @@
   },
   "locTypes": {
     "city street march crowd placard density": "outdoor",
-    "courthouse steps vigil candles": "outdoor",
-    "barricade police line stand-off": "outdoor",
-    "memorial vigil square candles wind": "outdoor",
-    "occupation sit-in steps long-stay": "outdoor",
-    "university campus quad gathering": "outdoor",
     "Parliament Square Westminster London": "outdoor",
     "Trafalgar Square London gathering": "outdoor",
-    "Tiananmen Square adjacent Beijing": "outdoor",
-    "Tahrir Square Cairo archive feeling": "outdoor",
-    "Maidan Square Kyiv historic feeling": "outdoor",
-    "Wenceslas Square Prague historic": "outdoor",
-    "Zuccotti Park New York Occupy": "outdoor",
     "Union Square New York rally": "outdoor",
-    "Hyde Park Speakers' Corner London": "outdoor",
     "The Mall Washington DC march": "outdoor",
+    "Grant Park Chicago rally point": "outdoor",
+    "Federal Plaza Chicago march": "outdoor",
+    "Climate march London Embankment": "outdoor",
+    "XR blockade London bridge": "outdoor",
+    "G8 Gleneagles approach road": "outdoor",
+    "COP26 Glasgow approach march": "outdoor",
+    "George Square Glasgow rally": "outdoor",
     "Lafayette Square Washington DC": "outdoor",
     "Martin Luther King Memorial Washington": "outdoor",
     "Lincoln Memorial steps Washington": "outdoor",
@@ -672,22 +515,26 @@
     "Stonewall National Monument area": "outdoor",
     "Harvey Milk Plaza San Francisco": "outdoor",
     "Castro District San Francisco march": "outdoor",
-    "Grant Park Chicago rally point": "outdoor",
-    "Federal Plaza Chicago march": "outdoor",
+    "courthouse steps vigil candles": "outdoor",
+    "barricade police line stand-off": "outdoor",
+    "memorial vigil square candles wind": "outdoor",
+    "occupation sit-in steps long-stay": "outdoor",
+    "Anti-war vigil Grosvenor Square London": "outdoor",
+    "Greenham Common memorial Berkshire": "outdoor",
+    "Faslane Peace Camp Scotland gate": "outdoor",
+    "Kelvingrove Glasgow vigil": "outdoor",
+    "university campus quad gathering": "outdoor",
+    "Tiananmen Square adjacent Beijing": "outdoor",
+    "Tahrir Square Cairo archive feeling": "outdoor",
+    "Maidan Square Kyiv historic feeling": "outdoor",
+    "Wenceslas Square Prague historic": "outdoor",
+    "Zuccotti Park New York Occupy": "outdoor",
+    "Hyde Park Speakers' Corner London": "outdoor",
     "Millennium Park Chicago gathering": "outdoor",
     "City Hall Los Angeles steps": "outdoor",
     "Pershing Square Los Angeles rally": "outdoor",
     "Venice Beach boardwalk demonstration": "outdoor",
-    "Rodeo Drive protest Palm Springs": "outdoor",
-    "Climate march London Embankment": "outdoor",
-    "XR blockade London bridge": "outdoor",
-    "Anti-war vigil Grosvenor Square London": "outdoor",
-    "Greenham Common memorial Berkshire": "outdoor",
-    "Faslane Peace Camp Scotland gate": "outdoor",
-    "G8 Gleneagles approach road": "outdoor",
-    "COP26 Glasgow approach march": "outdoor",
-    "George Square Glasgow rally": "outdoor",
-    "Kelvingrove Glasgow vigil": "outdoor"
+    "Rodeo Drive protest Palm Springs": "outdoor"
   },
   "connectors": [
     "in",

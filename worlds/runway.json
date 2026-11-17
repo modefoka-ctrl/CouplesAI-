@@ -31,595 +31,426 @@
     "Milan Brera showroom white space",
     "studio white cyc wall full-length",
     "New York garment district loft",
-    "London Somerset House courtyard show",
+    "Lagos Lagos Fashion Week backstage",
     "Copenhagen show space industrial",
     "Berlin show space former power plant",
-    "Lagos Lagos Fashion Week backstage",
-    "Seoul DDP show exterior",
-    "Tokyo Rainbow Bridge show exterior",
     "Shanghai former factory show space",
+    "Brooklyn Navy Yard show space",
+    "BFI Southbank show London",
+    "Barbican Centre show London",
+    "Roundhouse show London",
+    "Birmingham Custard Factory show",
+    "Manchester Victoria Warehouse show",
+    "Glasgow SWG3 show",
+    "Lisbon LX Factory show",
+    "Barcelona Palo Alto show",
+    "London Somerset House courtyard show",
     "Palais de Tokyo Paris show",
     "Grand Palais Paris interior nave",
     "Louvre Cour Carrée show Paris",
+    "Guggenheim rotunda show New York",
+    "Whitney Biennial adjacent show",
+    "MoMA garden show New York",
+    "Tate Modern Bankside show London",
+    "V&A Cromwell Road steps London",
+    "Natural History Museum London show",
+    "Edinburgh Dovecot Studios show",
+    "Dublin National Museum show",
+    "Seoul DDP show exterior",
+    "Tokyo Rainbow Bridge show exterior",
     "Champs-Elysées midnight show",
     "Eiffel Tower platform show Paris",
     "Versailles garden show Paris",
     "Uffizi Piazzale Michelangelo show Florence",
     "Colosseum exterior show Rome",
-    "Guggenheim rotunda show New York",
-    "Whitney Biennial adjacent show",
-    "MoMA garden show New York",
-    "Brooklyn Navy Yard show space",
     "Hudson Yards public show New York",
     "Met Stairs show New York",
-    "Tate Modern Bankside show London",
-    "V&A Cromwell Road steps London",
-    "Natural History Museum London show",
-    "BFI Southbank show London",
-    "Barbican Centre show London",
-    "Roundhouse show London",
     "BAFTA 195 Piccadilly show London",
     "Selfridges rooftop show London",
     "Fashion East venue London",
     "Goldsmiths show London",
     "Central Saint Martins BA show",
     "RCA show London",
-    "LCF MA show London",
-    "Birmingham Custard Factory show",
-    "Manchester Victoria Warehouse show",
-    "Glasgow SWG3 show",
-    "Edinburgh Dovecot Studios show",
-    "Dublin National Museum show",
-    "Lisbon LX Factory show",
-    "Barcelona Palo Alto show"
+    "LCF MA show London"
   ],
   "poses": [
-    "editorial stride catwalk both in motion",
-    "both holding same garment examining texture",
-    "one dressing other from behind final touch",
-    "mirrored pose symmetrical fashion editorial",
-    "over-the-shoulder both looking back",
-    "back-to-back garment architecture visible",
-    "face-to-face garment detail between",
-    "one stepping into outfit other assists",
-    "both mid-look confident ahead",
-    "behind-the-scenes genuinely moment both",
-    "one pinning other's hem both still",
-    "both looking at monitor checking footage",
-    "over-styled shoot both absurdist fashion",
-    "both holding hands runway end pause",
-    "one fan both cooling down studio hot",
+    "one pinning the other's hem, both perfectly still",
+    "one dressing the other from behind, a final touch",
+    "both checking their reflection in the mirror, shoulders squared",
+    "both laughing, caught between looks, hair half done",
+    "both in a confident stride, mid-step, coats flaring",
+    "back to back, garments spilling into the space",
+    "one reaching back, a gesture the other answers",
+    "both standing in a pool of space, deadpan and tall",
+    "both posed as statues, fabric frozen in motion",
+    "mirrored poses, symmetrical and still",
+    "both looking over their shoulders, exactly in sync",
+    "one stepping forward, the other holding the hem behind",
+    "both striding through, hair and fabric streaming",
+    "both seated on the steps, feet hanging, composed",
+    "both in a final-look tableau, arms by their sides",
+    "one fanning the other's train, both hiding a smile",
+    "both mid-laugh, brief and genuine",
     "one holding a garment detail up, the other examining it",
-    "both standing before window white light",
-    "garment movement test both walking",
-    "one reaching back gesture other fills gap",
-    "both in tableau final look",
-    "both facing away from camera garment back",
-    "character back story both in role",
-    "both reading notes from stylist absorbed",
-    "one stepping over puddle other watches",
-    "back to back garment layers building",
-    "editorial stare both one direction",
-    "both moving through translucent material curtain",
-    "one behind fabric other in front",
-    "both emerging from hanging garment rail",
-    "sitting runway edge both feet hanging",
-    "one holding garment mid-air other walks through",
-    "both caught mid-laughter brief genuine",
-    "standing at end of runway sea of empty chairs both",
-    "both facing panel of judges unseen",
-    "both in movement different speeds",
-    "walking in opposite directions passing",
-    "one fitting toile on other both focused",
-    "both in identical looks slight difference",
-    "back-to-back garments responding to each",
-    "both looking at collection on rail together"
+    "both reading a stylist's notes, absorbed",
+    "both in identical looks, with one tiny difference"
   ],
   "looks": [
-    "avant-garde structured editorial both",
-    "minimalist white on white both",
-    "all-black high fashion both",
-    "couture gown and sharp street suit each",
-    "deconstructed suit editorial both",
-    "oversized architectural silhouette both",
-    "sculptural fashion both three-dimensional",
-    "sheer and opaque combination both",
-    "monochrome statement colour both",
-    "volume and constraint contrast each",
-    "raw edge finish both intentional",
-    "repurposed luxury material both",
-    "craft-focused hand-sewn visible both",
-    "tech fabric both innovative",
-    "bio-material both future fashion",
-    "sustainable luxury both",
-    "pattern-cutting focus both geometric",
-    "draped without cutting both",
-    "knit innovation both performance",
-    "leather alternative both ethical",
-    "digital print on analogue silhouette both",
-    "vintage couture reference updated both",
-    "streetwear elevated both",
-    "sportswear couture crossover both",
-    "uniform as fashion both subverted",
-    "workwear as fashion both elevated",
-    "costume as fashion both dramatic",
-    "protective wear as fashion both",
-    "gender-fluid silhouette both",
-    "size-inclusive design both",
-    "adaptive design both functional",
-    "colour theory outfit both",
-    "textile exploration outfit both",
-    "embellishment study outfit both",
-    "deconstruction study outfit both",
-    "reconstruction study outfit both",
-    "sampling archive both editorial",
-    "one-of-one garments both",
-    "concept-led both explain if asked",
-    "capsule wardrobe perfected both",
-    "collaboration garment both dual-credited",
-    "performance wear fashion both",
-    "archive reference both period-drawn",
-    "contemporary classic both enduring"
+    "avant-garde structured pieces each",
+    "all-black high fashion each",
+    "couture gown and sharp suit each",
+    "deconstructed suits each",
+    "oversized architectural silhouettes each",
+    "sculptural pieces in matte black each",
+    "sculptural three-dimensional garments each",
+    "monochrome statement colour each",
+    "sheer and opaque layers combined each",
+    "couture gowns and tailored suits each",
+    "dramatic capes and wide-leg trousers each",
+    "volume and constraint, contrasting each",
+    "raw-edge finish, intentional each",
+    "repurposed luxury materials each",
+    "hand-sewn details, visible each"
   ],
   "affinities": {
     "clothes vs. body": {
       "locs": [
-        "studio white cyc wall",
-        "designer atelier fitting room",
-        "fashion studio skylight top",
-        "magazine editorial studio set",
-        "backstage costume rail corridor"
+        "London Somerset House courtyard show",
+        "Palais de Tokyo Paris show",
+        "Grand Palais Paris interior nave"
       ],
       "poses": [
-        "one draping fabric over other",
-        "one pinning other's garment fitting",
-        "one holding other's hem",
-        "wind machine hair both",
-        "dramatic coat sweep one"
+        "both posed as statues, fabric frozen in motion",
+        "mirrored poses, symmetrical and still",
+        "both looking over their shoulders, exactly in sync"
       ],
       "looks": [
-        "avant-garde structured editorial",
-        "sculptural fashion piece editorial",
-        "layered mesh overlay fashion",
-        "couture gown and sharp street suit",
-        "deconstructed suit editorial"
+        "sculptural three-dimensional garments each",
+        "monochrome statement colour each",
+        "sheer and opaque layers combined each"
       ]
     },
     "editorial vs. commercial": {
       "locs": [
-        "studio white cyc wall",
-        "magazine editorial studio set",
-        "empty runway post-show",
-        "concept store interior minimal",
-        "fashion archive storage room"
+        "BAFTA 195 Piccadilly show London",
+        "Selfridges rooftop show London",
+        "Fashion East venue London"
       ],
       "poses": [
-        "editorial stride catwalk both",
-        "magazine cover symmetry pose",
-        "editorial rooftop dramatic both",
-        "dramatic silhouette both backlit",
-        "both staring into distance editorial"
+        "both mid-laugh, brief and genuine",
+        "one holding a garment detail up, the other examining it",
+        "both reading a stylist's notes, absorbed"
       ],
       "looks": [
-        "minimalist white on white",
-        "all-black high fashion",
-        "mono-color head to toe",
-        "bold print editorial set",
-        "colour block high fashion"
+        "raw-edge finish, intentional each",
+        "repurposed luxury materials each",
+        "hand-sewn details, visible each"
       ]
     },
     "trend vs. timeless": {
       "locs": [
-        "Paris fashion week backstage",
-        "Milan showroom white space",
-        "fashion archive storage room",
-        "Rome editorial cobblestone street",
-        "Vienna opera house steps editorial"
+        "Louvre Cour Carrée show Paris",
+        "Guggenheim rotunda show New York",
+        "Whitney Biennial adjacent show"
       ],
       "poses": [
-        "backstage mirror final look both",
-        "both holding same garment examining",
-        "one adjusting accessories other",
-        "concept store browse together",
-        "editorial chair one seated one standing"
+        "mirrored poses, symmetrical and still",
+        "both looking over their shoulders, exactly in sync",
+        "one stepping forward, the other holding the hem behind"
       ],
       "looks": [
-        "vintage archive fashion look",
-        "heritage tweed modern cut",
-        "tailored androgynous suit",
-        "bias cut satin editorial",
-        "mono-color head to toe"
+        "monochrome statement colour each",
+        "sheer and opaque layers combined each",
+        "sculptural three-dimensional garments each"
       ]
     },
     "dressed vs. undone": {
       "locs": [
-        "backstage costume rail corridor",
-        "designer atelier fitting room",
-        "model agency casting room",
-        "polaroid wall model agency",
-        "designer atelier fitting room"
+        "Paris fashion week backstage Palais Royal",
+        "empty runway post-show dust settling",
+        "Milan Brera showroom white space"
       ],
       "poses": [
-        "backstage embrace before show",
-        "both laughing breaking pose",
-        "fitting room mirror look",
-        "polaroid review both looking down",
-        "one dressing other from behind"
+        "one pinning the other's hem, both perfectly still",
+        "one dressing the other from behind, a final touch",
+        "both checking their reflection in the mirror, shoulders squared"
       ],
       "looks": [
-        "deconstructed suit editorial",
-        "oversized coat minimal inside",
-        "relaxed tailoring editorial",
-        "vintage inspired editorial",
-        "fashion week street casual elevated"
+        "avant-garde structured pieces each",
+        "all-black high fashion each",
+        "couture gown and sharp suit each"
       ]
     },
     "camera vs. mirror": {
       "locs": [
-        "studio white cyc wall",
-        "model agency casting room",
-        "polaroid wall model agency",
-        "backstage costume rail corridor",
-        "magazine editorial studio set"
+        "studio white cyc wall full-length",
+        "New York garment district loft",
+        "Lagos Lagos Fashion Week backstage"
       ],
       "poses": [
-        "both looking at same polaroid",
-        "backstage mirror final look both",
-        "one photographing other editorial",
-        "fitting room mirror look",
-        "polaroid review both looking down"
+        "one dressing the other from behind, a final touch",
+        "both checking their reflection in the mirror, shoulders squared",
+        "both laughing, caught between looks, hair half done"
       ],
       "looks": [
-        "minimalist white on white",
-        "all-black high fashion",
-        "tailored androgynous suit",
-        "luxury knitwear editorial",
-        "editorial jumpsuit minimal"
+        "all-black high fashion each",
+        "couture gown and sharp suit each",
+        "avant-garde structured pieces each"
       ]
     },
     "season vs. off-season": {
       "locs": [
-        "Paris fashion week backstage",
-        "fashion week guest street shot",
-        "fashion week guest street shot",
-        "London fashion week tent backstage",
-        "backstage costume rail corridor"
+        "Goldsmiths show London",
+        "Central Saint Martins BA show",
+        "RCA show London"
       ],
       "poses": [
-        "fashion week gate waiting pose",
-        "backstage embrace before show",
-        "backstage mirror final look both",
-        "both looking at same polaroid",
-        "editorial stride catwalk both"
+        "one holding a garment detail up, the other examining it",
+        "both reading a stylist's notes, absorbed",
+        "both in identical looks, with one tiny difference"
       ],
       "looks": [
-        "bold print editorial set",
-        "avant-garde structured editorial",
-        "dramatic cape editorial",
-        "statement hat outfit editorial",
-        "editorial jumpsuit minimal"
+        "repurposed luxury materials each",
+        "hand-sewn details, visible each",
+        "raw-edge finish, intentional each"
       ]
     },
     "designer vs. street": {
       "locs": [
-        "Tokyo Harajuku street shoot",
-        "Berlin industrial fashion loft",
-        "Lagos editorial street shoot",
-        "Seoul streetwear concept store",
-        "fashion week street outside tent"
+        "Copenhagen show space industrial",
+        "Berlin show space former power plant",
+        "Shanghai former factory show space"
       ],
       "poses": [
-        "street style candid walk together",
-        "street shot mid-crowd isolated",
-        "editorial run toward camera both",
-        "catwalk walk mid-stride both",
-        "both in movement editorial blur"
+        "both in a confident stride, mid-step, coats flaring",
+        "back to back, garments spilling into the space",
+        "one reaching back, a gesture the other answers"
       ],
       "looks": [
-        "luxury streetwear oversized",
-        "graphic tee luxury trousers",
-        "double denim elevated",
-        "sportswear luxury editorial",
-        "fashion week street casual elevated"
+        "deconstructed suits each",
+        "oversized architectural silhouettes each",
+        "sculptural pieces in matte black each"
       ]
     },
     "front row vs. backstage": {
       "locs": [
-        "Paris fashion week backstage",
-        "empty runway post-show",
-        "backstage costume rail corridor",
-        "runway catwalk empty before show",
-        "fashion week guest street shot"
+        "Paris fashion week backstage Palais Royal",
+        "empty runway post-show dust settling",
+        "Milan Brera showroom white space"
       ],
       "poses": [
-        "editorial stride catwalk both",
-        "runway finale bow together",
-        "backstage embrace before show",
-        "backstage mirror final look both",
-        "both looking at same polaroid"
+        "both checking their reflection in the mirror, shoulders squared",
+        "both laughing, caught between looks, hair half done",
+        "one pinning the other's hem, both perfectly still"
       ],
       "looks": [
-        "couture gown and sharp street suit",
-        "luxury streetwear oversized",
-        "tailored androgynous suit",
-        "all-black high fashion",
-        "vintage archive fashion look"
+        "couture gown and sharp suit each",
+        "avant-garde structured pieces each",
+        "all-black high fashion each"
       ]
     },
     "beauty vs. bizarre": {
       "locs": [
-        "studio white cyc wall",
-        "Berlin industrial fashion loft",
-        "Tokyo Harajuku street shoot",
-        "underground parking editorial shoot",
-        "concept store interior minimal"
+        "Seoul DDP show exterior",
+        "Tokyo Rainbow Bridge show exterior",
+        "Champs-Elysées midnight show"
       ],
       "poses": [
-        "dramatic fall catch fashion",
-        "wind machine hair both",
-        "dramatic hood raise editorial",
-        "dramatic silhouette both backlit",
-        "both arms out fashion wide"
+        "both striding through, hair and fabric streaming",
+        "both seated on the steps, feet hanging, composed",
+        "both in a final-look tableau, arms by their sides"
       ],
       "looks": [
-        "avant-garde structured editorial",
-        "sculptural fashion piece editorial",
-        "patchwork mixed pattern look",
-        "neon editorial statement",
-        "feather trim evening editorial"
+        "couture gowns and tailored suits each",
+        "dramatic capes and wide-leg trousers each",
+        "volume and constraint, contrasting each"
       ]
     },
     "high fashion vs. wearable": {
       "locs": [
-        "Milan showroom white space",
-        "Paris apartment editorial window",
-        "high street editorial morning",
-        "concept store interior minimal",
-        "luxury boutique interior shoot"
+        "Brooklyn Navy Yard show space",
+        "BFI Southbank show London",
+        "Barbican Centre show London"
       ],
       "poses": [
-        "editorial lean wall one foot up",
-        "both staring into distance editorial",
-        "concept store browse together",
-        "over-the-shoulder both looking back",
-        "editorial floor sit both"
+        "back to back, garments spilling into the space",
+        "one reaching back, a gesture the other answers",
+        "both standing in a pool of space, deadpan and tall"
       ],
       "looks": [
-        "minimalist white on white",
-        "tailored androgynous suit",
-        "relaxed tailoring editorial",
-        "graphic tee luxury trousers",
-        "luxury knitwear editorial"
+        "oversized architectural silhouettes each",
+        "sculptural pieces in matte black each",
+        "deconstructed suits each"
       ]
     },
     "styled vs. raw": {
       "locs": [
-        "studio white cyc wall",
-        "Lagos editorial street shoot",
-        "Amsterdam canal editorial bridge",
-        "editorial beach dunes shot",
-        "model agency casting room"
+        "LCF MA show London",
+        "BAFTA 195 Piccadilly show London",
+        "Selfridges rooftop show London"
       ],
       "poses": [
-        "mirrored pose symmetrical fashion",
-        "street style candid walk together",
-        "both laughing breaking pose",
-        "editorial crouch one standing one low",
-        "detail shot both hands garment"
+        "both reading a stylist's notes, absorbed",
+        "both in identical looks, with one tiny difference",
+        "both mid-laugh, brief and genuine"
       ],
       "looks": [
-        "all-black high fashion",
-        "vintage archive fashion look",
-        "double denim elevated",
-        "utility fashion editorial",
-        "editorial jumpsuit minimal"
+        "hand-sewn details, visible each",
+        "raw-edge finish, intentional each",
+        "repurposed luxury materials each"
       ]
     },
     "model vs. character": {
       "locs": [
-        "magazine editorial studio set",
-        "studio white cyc wall",
-        "editorial beach dunes shot",
-        "rooftop penthouse editorial night",
-        "evening show empty theater"
+        "Eiffel Tower platform show Paris",
+        "Versailles garden show Paris",
+        "Uffizi Piazzale Michelangelo show Florence"
       ],
       "poses": [
-        "editorial stride catwalk both",
-        "dramatic fall catch fashion",
-        "both in movement editorial blur",
-        "both arms crossed high fashion",
-        "editorial window frame both"
+        "both seated on the steps, feet hanging, composed",
+        "both in a final-look tableau, arms by their sides",
+        "one fanning the other's train, both hiding a smile"
       ],
       "looks": [
-        "avant-garde structured editorial",
-        "dramatic gown and editorial suit",
-        "bold shoulder editorial jacket",
-        "embellished evening editorial",
-        "architectural fashion editorial"
+        "dramatic capes and wide-leg trousers each",
+        "volume and constraint, contrasting each",
+        "couture gowns and tailored suits each"
       ]
     },
     "motion vs. pose": {
       "locs": [
-        "empty runway post-show",
-        "studio white cyc wall",
-        "editorial beach dunes shot",
-        "rooftop penthouse editorial night",
-        "underground parking editorial shoot"
+        "Roundhouse show London",
+        "Birmingham Custard Factory show",
+        "Manchester Victoria Warehouse show"
       ],
       "poses": [
-        "editorial stride catwalk both",
-        "catwalk walk mid-stride both",
-        "both in movement editorial blur",
-        "editorial run toward camera both",
-        "dramatic coat sweep one"
+        "one reaching back, a gesture the other answers",
+        "both standing in a pool of space, deadpan and tall",
+        "both in a confident stride, mid-step, coats flaring"
       ],
       "looks": [
-        "luxury streetwear oversized",
-        "all-black high fashion",
-        "deconstructed suit editorial",
-        "bold print editorial set",
-        "dramatic cape editorial"
+        "sculptural pieces in matte black each",
+        "deconstructed suits each",
+        "oversized architectural silhouettes each"
       ]
     },
     "haute couture vs. ready-to-wear": {
       "locs": [
-        "Paris fashion week backstage",
-        "designer atelier fitting room",
-        "Milan showroom white space",
-        "fashion archive storage room",
-        "empty runway post-show"
+        "MoMA garden show New York",
+        "Tate Modern Bankside show London",
+        "V&A Cromwell Road steps London"
       ],
       "poses": [
-        "one pinning other's garment fitting",
-        "one draping fabric over other",
-        "runway finale bow together",
-        "backstage mirror final look both",
-        "editorial stride catwalk both"
+        "both looking over their shoulders, exactly in sync",
+        "one stepping forward, the other holding the hem behind",
+        "both posed as statues, fabric frozen in motion"
       ],
       "looks": [
-        "couture gown and sharp street suit",
-        "avant-garde structured editorial",
-        "embellished evening editorial",
-        "dramatic gown and editorial suit",
-        "feather trim evening editorial"
+        "sheer and opaque layers combined each",
+        "sculptural three-dimensional garments each",
+        "monochrome statement colour each"
       ]
     },
     "collection vs. single look": {
       "locs": [
-        "backstage costume rail corridor",
-        "fashion archive storage room",
-        "designer atelier fitting room",
-        "polaroid wall model agency",
-        "studio white cyc wall"
+        "Colosseum exterior show Rome",
+        "Hudson Yards public show New York",
+        "Met Stairs show New York"
       ],
       "poses": [
-        "both holding same garment examining",
-        "one adjusting accessories other",
-        "polaroid review both looking down",
-        "both looking at same polaroid",
-        "backstage mirror final look both"
+        "both in a final-look tableau, arms by their sides",
+        "one fanning the other's train, both hiding a smile",
+        "both striding through, hair and fabric streaming"
       ],
       "looks": [
-        "vintage archive fashion look",
-        "avant-garde structured editorial",
-        "tailored androgynous suit",
-        "mono-color head to toe",
-        "bold print editorial set"
+        "volume and constraint, contrasting each",
+        "couture gowns and tailored suits each",
+        "dramatic capes and wide-leg trousers each"
       ]
     },
     "luxury vs. accessible": {
       "locs": [
-        "Milan showroom white space",
-        "luxury boutique interior shoot",
-        "high street editorial morning",
-        "concept store interior minimal",
-        "Singapore rooftop luxury shoot"
+        "Glasgow SWG3 show",
+        "Lisbon LX Factory show",
+        "Barcelona Palo Alto show"
       ],
       "poses": [
-        "editorial lean wall one foot up",
-        "concept store browse together",
-        "over-the-shoulder both looking back",
-        "both staring into distance editorial",
-        "street style candid walk together"
+        "both standing in a pool of space, deadpan and tall",
+        "both in a confident stride, mid-step, coats flaring",
+        "back to back, garments spilling into the space"
       ],
       "looks": [
-        "luxury knitwear editorial",
-        "all-black high fashion",
-        "graphic tee luxury trousers",
-        "relaxed tailoring editorial",
-        "fashion week street casual elevated"
+        "deconstructed suits each",
+        "oversized architectural silhouettes each",
+        "sculptural pieces in matte black each"
       ]
     },
     "theatrical vs. minimal": {
       "locs": [
-        "evening show empty theater",
-        "Rome editorial cobblestone street",
-        "Athens marble editorial exterior",
-        "Vienna opera house steps editorial",
-        "studio white cyc wall"
+        "Natural History Museum London show",
+        "Edinburgh Dovecot Studios show",
+        "Dublin National Museum show"
       ],
       "poses": [
-        "dramatic fall catch fashion",
-        "dramatic hood raise editorial",
-        "dramatic silhouette both backlit",
-        "mirrored pose symmetrical fashion",
-        "both arms out fashion wide"
+        "one stepping forward, the other holding the hem behind",
+        "both posed as statues, fabric frozen in motion",
+        "mirrored poses, symmetrical and still"
       ],
       "looks": [
-        "avant-garde structured editorial",
-        "minimalist white on white",
-        "dramatic cape editorial",
-        "dramatic gown and editorial suit",
-        "sculptural fashion piece editorial"
+        "sculptural three-dimensional garments each",
+        "monochrome statement colour each",
+        "sheer and opaque layers combined each"
       ]
     },
     "body vs. silhouette": {
       "locs": [
-        "studio white cyc wall",
-        "magazine editorial studio set",
-        "editorial beach dunes shot",
-        "rooftop penthouse editorial night",
-        "underground parking editorial shoot"
+        "Seoul DDP show exterior",
+        "Tokyo Rainbow Bridge show exterior",
+        "Champs-Elysées midnight show"
       ],
       "poses": [
-        "dramatic silhouette both backlit",
-        "both arms out fashion wide",
-        "dramatic coat sweep one",
-        "one on elevated surface other below",
-        "editorial window frame both"
+        "one fanning the other's train, both hiding a smile",
+        "both striding through, hair and fabric streaming",
+        "both seated on the steps, feet hanging, composed"
       ],
       "looks": [
-        "mesh overlay evening editorial",
-        "layered mesh overlay fashion",
-        "all-black high fashion",
-        "bias cut satin editorial",
-        "sculptural fashion piece editorial"
+        "couture gowns and tailored suits each",
+        "dramatic capes and wide-leg trousers each",
+        "volume and constraint, contrasting each"
       ]
     },
     "brand vs. person": {
       "locs": [
-        "Paris fashion week backstage",
-        "model agency casting room",
-        "polaroid wall model agency",
-        "concept store interior minimal",
-        "luxury boutique interior shoot"
+        "Fashion East venue London",
+        "Goldsmiths show London",
+        "Central Saint Martins BA show"
       ],
       "poses": [
-        "both looking at same polaroid",
-        "backstage mirror final look both",
-        "both laughing breaking pose",
-        "one photographing other editorial",
-        "fitting room mirror look"
+        "both in identical looks, with one tiny difference",
+        "both mid-laugh, brief and genuine",
+        "one holding a garment detail up, the other examining it"
       ],
       "looks": [
-        "all-black high fashion",
-        "minimalist white on white",
-        "tailored androgynous suit",
-        "vintage archive fashion look",
-        "editorial jumpsuit minimal"
+        "raw-edge finish, intentional each",
+        "repurposed luxury materials each",
+        "hand-sewn details, visible each"
       ]
     },
     "moment vs. campaign": {
       "locs": [
-        "studio white cyc wall",
-        "magazine editorial studio set",
-        "editorial beach dunes shot",
-        "Paris apartment editorial window",
-        "rooftop penthouse editorial night"
+        "Copenhagen show space industrial",
+        "Berlin show space former power plant",
+        "Shanghai former factory show space"
       ],
       "poses": [
-        "magazine cover symmetry pose",
-        "editorial rooftop dramatic both",
-        "both in movement editorial blur",
-        "dramatic silhouette both backlit",
-        "editorial run toward camera both"
+        "both in a confident stride, mid-step, coats flaring",
+        "back to back, garments spilling into the space",
+        "one reaching back, a gesture the other answers"
       ],
       "looks": [
-        "avant-garde structured editorial",
-        "bold print editorial set",
-        "all-black high fashion",
-        "colour block high fashion",
-        "dramatic gown and editorial suit"
+        "oversized architectural silhouettes each",
+        "sculptural pieces in matte black each",
+        "deconstructed suits each"
       ]
     }
   },
@@ -659,47 +490,47 @@
     "Milan Brera showroom white space": "both",
     "studio white cyc wall full-length": "indoor",
     "New York garment district loft": "both",
-    "London Somerset House courtyard show": "outdoor",
+    "Lagos Lagos Fashion Week backstage": "both",
     "Copenhagen show space industrial": "both",
     "Berlin show space former power plant": "both",
-    "Lagos Lagos Fashion Week backstage": "both",
-    "Seoul DDP show exterior": "outdoor",
-    "Tokyo Rainbow Bridge show exterior": "outdoor",
     "Shanghai former factory show space": "indoor",
+    "Brooklyn Navy Yard show space": "outdoor",
+    "BFI Southbank show London": "both",
+    "Barbican Centre show London": "both",
+    "Roundhouse show London": "both",
+    "Birmingham Custard Factory show": "indoor",
+    "Manchester Victoria Warehouse show": "indoor",
+    "Glasgow SWG3 show": "both",
+    "Lisbon LX Factory show": "indoor",
+    "Barcelona Palo Alto show": "both",
+    "London Somerset House courtyard show": "outdoor",
     "Palais de Tokyo Paris show": "both",
     "Grand Palais Paris interior nave": "indoor",
     "Louvre Cour Carrée show Paris": "both",
+    "Guggenheim rotunda show New York": "both",
+    "Whitney Biennial adjacent show": "both",
+    "MoMA garden show New York": "outdoor",
+    "Tate Modern Bankside show London": "both",
+    "V&A Cromwell Road steps London": "outdoor",
+    "Natural History Museum London show": "both",
+    "Edinburgh Dovecot Studios show": "indoor",
+    "Dublin National Museum show": "both",
+    "Seoul DDP show exterior": "outdoor",
+    "Tokyo Rainbow Bridge show exterior": "outdoor",
     "Champs-Elysées midnight show": "both",
     "Eiffel Tower platform show Paris": "both",
     "Versailles garden show Paris": "outdoor",
     "Uffizi Piazzale Michelangelo show Florence": "both",
     "Colosseum exterior show Rome": "outdoor",
-    "Guggenheim rotunda show New York": "both",
-    "Whitney Biennial adjacent show": "both",
-    "MoMA garden show New York": "outdoor",
-    "Brooklyn Navy Yard show space": "outdoor",
     "Hudson Yards public show New York": "outdoor",
     "Met Stairs show New York": "both",
-    "Tate Modern Bankside show London": "both",
-    "V&A Cromwell Road steps London": "outdoor",
-    "Natural History Museum London show": "both",
-    "BFI Southbank show London": "both",
-    "Barbican Centre show London": "both",
-    "Roundhouse show London": "both",
     "BAFTA 195 Piccadilly show London": "both",
     "Selfridges rooftop show London": "outdoor",
     "Fashion East venue London": "both",
     "Goldsmiths show London": "both",
     "Central Saint Martins BA show": "both",
     "RCA show London": "both",
-    "LCF MA show London": "both",
-    "Birmingham Custard Factory show": "indoor",
-    "Manchester Victoria Warehouse show": "indoor",
-    "Glasgow SWG3 show": "both",
-    "Edinburgh Dovecot Studios show": "indoor",
-    "Dublin National Museum show": "both",
-    "Lisbon LX Factory show": "indoor",
-    "Barcelona Palo Alto show": "both"
+    "LCF MA show London": "both"
   },
   "connectors": [
     "in",

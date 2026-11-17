@@ -28,576 +28,423 @@
   "locs": [
     "room floating in open sky above clouds",
     "staircase descending into ocean depth",
-    "corridor of infinite identical doors",
-    "forest growing on ceiling roots up",
-    "library with books falling upward slowly",
-    "clock face enormous walkable surface",
-    "mirror room reflecting into infinity",
-    "chess board landscape full size",
-    "giant flower field house-sized blooms",
-    "city inverted above head walking",
-    "door in middle of open field nowhere",
     "bed floating in dark space",
-    "kitchen with ocean instead of floor",
-    "office with desert instead of carpet",
-    "wedding beneath water both dry somehow",
-    "train arriving through bedroom wall",
-    "telephone booth inside out ringing",
-    "painting stepped into both inside art",
-    "mouth of cave that is a face enormous",
-    "eye looking back from pond surface",
-    "shadows going wrong direction both",
-    "clocks all different times melting",
-    "hands visible not the body they belong",
-    "spiral staircase going both up and down same",
-    "window looking at same room from inside",
-    "door knob too large to turn reasonable",
-    "tree growing sideways defying gravity",
-    "rain falling upward both normal about it",
-    "snow falling in one spot only precision",
-    "crowd all moving same direction both still",
     "moon on ground everyone else ignores",
     "sun underground ceiling window",
     "horizon too close walking impossible",
     "sky below feet walking on clouds solid",
+    "two moons different sizes both checking",
+    "corridor of infinite identical doors",
+    "library with books falling upward slowly",
+    "kitchen with ocean instead of floor",
+    "office with desert instead of carpet",
+    "train arriving through bedroom wall",
+    "telephone booth inside out ringing",
+    "spiral staircase going both up and down same",
+    "window looking at same room from inside",
+    "door knob too large to turn reasonable",
+    "forest growing on ceiling roots up",
+    "giant flower field house-sized blooms",
+    "door in middle of open field nowhere",
+    "wedding beneath water both dry somehow",
+    "eye looking back from pond surface",
+    "tree growing sideways defying gravity",
+    "rain falling upward both normal about it",
+    "snow falling in one spot only precision",
+    "clock face enormous walkable surface",
+    "mirror room reflecting into infinity",
+    "painting stepped into both inside art",
+    "shadows going wrong direction both",
+    "clocks all different times melting",
+    "crowd all moving same direction both still",
     "two of the same place same time both",
     "echo of selves visible slight delay",
     "objects frozen mid-fall both normal",
+    "chess board landscape full size",
+    "city inverted above head walking",
+    "mouth of cave that is a face enormous",
+    "hands visible not the body they belong",
     "animals acting human ignored by both",
-    "architecture bending around both normally",
-    "two moons different sizes both checking"
+    "architecture bending around both normally"
   ],
   "poses": [
-    "floating horizontal arms at sides calm completely",
-    "walking up vertical wall nonchalant both",
-    "standing inside own mirror reflection touching it",
-    "sitting on nothing mid-air cross-legged calm",
-    "two identical poses facing each other impossible",
-    "one upside down other normal conversation",
-    "both looking at impossible object calmly",
-    "one pulling own shadow other holds theirs",
-    "both walking through each other momentarily",
-    "one turning into birds other watches interested",
-    "reading newspaper made of water both",
-    "flying both just horizontal above ground",
-    "looking at hands that aren't there both",
-    "both reaching into hole in air something",
-    "one is reflection of other glitching",
-    "eating food that is air both savouring it",
-    "shaking hands that extend impossibly far",
-    "both walking normally world upside down",
-    "one in background of other's dream appearing",
-    "both enormous and tiny same frame",
-    "opening door to same room just left",
-    "both standing in rain that stops exactly at them",
-    "one holding sun like balloon other holds moon",
-    "both in two places visible both versions",
-    "pouring liquid up into glass defying",
-    "both reading the same book different stories",
-    "both at table but no table just sitting",
-    "one waving at self from distance same place",
-    "both dressed same then switch seamlessly",
-    "sitting at window from outside and inside same",
-    "watching own thoughts form visible clouds",
-    "both in black and white in colour scene",
-    "one made of paper other concerned both",
-    "meeting halfway in mirror both reaching"
+    "both floating, arms at their sides, completely calm",
+    "one sitting cross-legged on nothing, the other reading beside them",
+    "both walking upward, as if it were the ordinary way",
+    "both looking at the impossible with polite interest",
+    "one opening a door to the room they just left",
+    "both calmly sitting while the room rearranges around them",
+    "one upside down, the other carrying on a normal conversation",
+    "both reaching into a hole in the air, curious",
+    "both standing in the rain that stops exactly at them",
+    "one holding the sun like a balloon, the other holding the moon",
+    "both lying back as the world turns slowly over them",
+    "both eating something made of air, savouring it",
+    "one waving at themselves from across the room",
+    "both facing their own reflection, touching it",
+    "one is the other's reflection, glitching slightly",
+    "both standing in two places, both versions visible",
+    "both enormous and tiny in the same frame",
+    "one turning into a flock of birds, the other watching with interest",
+    "both walking through each other, briefly",
+    "both reading the same book, with different stories"
   ],
   "looks": [
-    "clothing made of shifting watercolour both",
-    "suit of mirrored fragments reflecting each",
-    "gown dissolving to moths at hem each",
-    "coat of frozen fog worn naturally each",
-    "outfit matching whatever background is each",
-    "clothes printed with interior organs both",
-    "dress and suit made of newspaper both",
-    "outfit entirely of flowers growing both",
-    "clothes in reverse colours inverted both",
-    "fabric shifting texture as light changes both",
-    "one fully dressed one in reflection white each",
-    "shadow-fabric dark transparent both",
-    "clouds worn as garments both casual",
-    "lightning bolt as scarf each stylish",
+    "clothes made of shifting watercolour each",
+    "clouds worn as garments, casually each",
+    "constellation patterns glowing subtly each",
+    "pyjamas, perfectly calm in the wrong place each",
+    "workwear in a wildly wrong place each",
+    "formal wear with one surreal detail each",
+    "outfits entirely of growing flowers each",
     "ocean as skirt and jacket respectively",
-    "mountain range miniature as coat each",
-    "constellation pattern glowing subtly both",
-    "both wearing the same colour as background",
-    "one solid colour one pattern matching each",
-    "vintage style both slightly wrong somehow",
-    "contemporary both with impossible element each",
-    "formal both with surreal detail",
-    "wedding both in wrong setting inappropriate",
-    "pyjamas both perfectly calm wrong context",
-    "workwear both wildly wrong location",
-    "swimwear both in winter indoors calm",
-    "period costume both contemporary setting",
-    "futuristic both historical setting",
-    "animal print that moves subtly both",
-    "geometric pattern shifting both",
-    "both dressed for different weathers same time",
-    "clothes visible through clothes both layers",
-    "outfit has extra arm or sleeve each",
-    "garment reversing colour slowly both"
+    "coats of frozen fog worn naturally each",
+    "a suit of mirrored fragments each",
+    "clothes in inverted colours each",
+    "one fully dressed, one in white reflection each",
+    "gowns dissolving into moths at the hem each",
+    "outfit with one extra arm or sleeve each",
+    "garments printed with something impossible each"
   ],
   "affinities": {
     "real vs. impossible": {
       "locs": [
-        "room floating in open sky",
-        "doorway opening onto clouds",
-        "door standing alone in open field",
-        "mirror reflecting a different room",
-        "house with windows showing other worlds"
+        "corridor of infinite identical doors",
+        "library with books falling upward slowly",
+        "kitchen with ocean instead of floor"
       ],
       "poses": [
-        "floating horizontal arms at sides calm",
-        "standing inside own mirror reflection",
-        "one transparent other fully solid",
-        "one solid one made of smoke same pose",
-        "stepping through frame of own portrait"
+        "one opening a door to the room they just left",
+        "both calmly sitting while the room rearranges around them",
+        "one upside down, the other carrying on a normal conversation"
       ],
       "looks": [
-        "clothing half-solid half-ethereal",
-        "outfit that matches whatever is behind",
-        "suit of mirrored fragments reflecting room",
-        "clothing of woven starlight soft",
-        "gown dissolving to moths and suit dissolving at cuffs"
+        "pyjamas, perfectly calm in the wrong place each",
+        "workwear in a wildly wrong place each",
+        "formal wear with one surreal detail each"
       ]
     },
     "waking vs. dreaming": {
       "locs": [
-        "bedroom with ceiling as floor",
-        "corridor of infinite doors",
-        "hallway that bends back on itself",
-        "snow falling upward inside lit room",
-        "window showing yesterday outside"
+        "room floating in open sky above clouds",
+        "staircase descending into ocean depth",
+        "bed floating in dark space"
       ],
       "poses": [
-        "sitting on nothing mid-air cross-legged",
-        "both inside a painting looking out",
-        "both looking at same point nothing there",
-        "looking through window at inverted self",
-        "face half-present half-dissolved into air"
+        "both floating, arms at their sides, completely calm",
+        "one sitting cross-legged on nothing, the other reading beside them",
+        "both walking upward, as if it were the ordinary way"
       ],
       "looks": [
-        "clothing made of shifting watercolour",
-        "rain dress and rain coat suspended",
-        "robes of slow smoke held in shape",
-        "silence gown and silence coat",
-        "exposure dress and exposure coat"
+        "clothes made of shifting watercolour each",
+        "clouds worn as garments, casually each",
+        "constellation patterns glowing subtly each"
       ]
     },
     "gravity vs. float": {
       "locs": [
-        "staircase descending into ocean",
-        "forest growing on ceiling",
-        "library with books falling upward",
-        "snow falling upward inside lit room",
-        "river flowing upward cliff face"
+        "moon on ground everyone else ignores",
+        "sun underground ceiling window",
+        "horizon too close walking impossible"
       ],
       "poses": [
-        "floating horizontal arms at sides calm",
-        "walking up vertical wall nonchalant",
-        "one upside down other right way up face to face",
-        "lying on ceiling looking down at floor",
-        "standing still while world rotates around"
+        "one sitting cross-legged on nothing, the other reading beside them",
+        "both walking upward, as if it were the ordinary way",
+        "both looking at the impossible with polite interest"
       ],
       "looks": [
-        "coat of frozen fog worn naturally",
-        "reversed-gravity gown and coat",
-        "rain dress and rain coat suspended",
-        "garment of folded light geometric",
-        "crystallised gown and crystallised coat"
+        "clouds worn as garments, casually each",
+        "constellation patterns glowing subtly each",
+        "clothes made of shifting watercolour each"
       ]
     },
     "inside vs. outside": {
       "locs": [
-        "desert inside a glass bottle",
-        "theatre stage inside a raindrop",
-        "cathedral filled with fog and birds",
-        "underwater ballroom lit chandelier",
-        "cave filled with geometric light"
+        "office with desert instead of carpet",
+        "train arriving through bedroom wall",
+        "telephone booth inside out ringing"
       ],
       "poses": [
-        "both enclosed inside glass sphere together",
-        "stepping out of own shadow leaving it behind",
-        "both standing in pool reflecting different sky",
-        "figure emerging from flat wall surface",
-        "holding a door that opens onto self"
+        "both calmly sitting while the room rearranges around them",
+        "one upside down, the other carrying on a normal conversation",
+        "both reaching into a hole in the air, curious"
       ],
       "looks": [
-        "garment made of open windows",
-        "outfit that shows interior light",
-        "blueprint gown and blueprint suit",
-        "robes of layered maps and territory",
-        "coat of frozen fog worn naturally"
+        "workwear in a wildly wrong place each",
+        "formal wear with one surreal detail each",
+        "pyjamas, perfectly calm in the wrong place each"
       ]
     },
     "scaled vs. vast": {
       "locs": [
-        "city built on a single enormous tree",
-        "chess board landscape human scale",
-        "floating island with roots hanging",
-        "giant hourglass half-buried desert",
-        "giant eye reflected in still lake"
+        "chess board landscape full size",
+        "city inverted above head walking",
+        "mouth of cave that is a face enormous"
       ],
       "poses": [
-        "one figure eight feet tall same room",
-        "one reflected in other's eye enormous",
-        "standing inside a giant hourglass",
-        "both walking toward horizon that recedes",
-        "standing still while world rotates around"
+        "both enormous and tiny in the same frame",
+        "one turning into a flock of birds, the other watching with interest",
+        "both walking through each other, briefly"
       ],
       "looks": [
-        "suit of geometric void patches",
-        "robes of impossible geometry fabric",
-        "robes of layered maps and territory",
-        "garment of folded light geometric",
-        "blueprint gown and blueprint suit"
+        "gowns dissolving into moths at the hem each",
+        "outfit with one extra arm or sleeve each",
+        "garments printed with something impossible each"
       ]
     },
     "whole vs. fragmented": {
       "locs": [
-        "mirror reflecting a different room",
-        "double exposure city and forest merged",
-        "labyrinth viewed from above as face",
-        "forest of mirrors no reflections",
-        "room where walls are moving clouds"
+        "clock face enormous walkable surface",
+        "mirror room reflecting into infinity",
+        "painting stepped into both inside art"
       ],
       "poses": [
-        "both merging at the edges dissolving",
-        "one casting shadow of different person",
-        "two faces sharing one body from different angles",
-        "both reflected infinitely between mirrors",
-        "face half-present half-dissolved into air"
+        "one waving at themselves from across the room",
+        "both facing their own reflection, touching it",
+        "one is the other's reflection, glitching slightly"
       ],
       "looks": [
-        "suit of mirrored fragments reflecting room",
-        "photograph dress and photograph suit",
-        "coat of layered old photographs luminous",
-        "clothing of woven starlight soft",
-        "suit of fractured colour fields"
+        "a suit of mirrored fragments each",
+        "clothes in inverted colours each",
+        "one fully dressed, one in white reflection each"
       ]
     },
     "visible vs. transparent": {
       "locs": [
-        "sky below ground through glass floor",
-        "human figure cast as long shadow only",
-        "two figures sharing one shadow",
-        "figure standing inside a burning portrait",
-        "hands emerging from wallpaper"
+        "shadows going wrong direction both",
+        "clocks all different times melting",
+        "crowd all moving same direction both still"
       ],
       "poses": [
-        "one transparent other fully solid",
-        "one made of light other of shadow",
-        "arms becoming branches or roots",
-        "both suspended in amber mid-gesture",
-        "silhouette filled with stars daylight outside"
+        "both facing their own reflection, touching it",
+        "one is the other's reflection, glitching slightly",
+        "both standing in two places, both versions visible"
       ],
       "looks": [
-        "clothing half-solid half-ethereal",
-        "robes of slow smoke held in shape",
-        "suit of dark matter approximated",
-        "salt-crystal gown and crystal coat",
-        "clothing of woven starlight soft"
+        "clothes in inverted colours each",
+        "one fully dressed, one in white reflection each",
+        "a suit of mirrored fragments each"
       ]
     },
     "time vs. still": {
       "locs": [
-        "clock faces melting on walls",
-        "corridor lined with clocks all stopped",
-        "giant hourglass half-buried desert",
-        "room lit by trapped lightning",
-        "window showing yesterday outside"
+        "two of the same place same time both",
+        "echo of selves visible slight delay",
+        "objects frozen mid-fall both normal"
       ],
       "poses": [
-        "both suspended in amber mid-gesture",
-        "one made of clock parts still moving",
-        "both holding opposite ends of broken time",
-        "both walking toward horizon that recedes",
-        "standing still while world rotates around"
+        "one is the other's reflection, glitching slightly",
+        "both standing in two places, both versions visible",
+        "one waving at themselves from across the room"
       ],
       "looks": [
-        "suit of clock parts still ticking",
-        "robes of slowly turning calendar pages",
-        "outfit that ages and reverses visibly",
-        "music-notation dress and notation coat",
-        "last-moments gown and last-moments coat"
+        "one fully dressed, one in white reflection each",
+        "a suit of mirrored fragments each",
+        "clothes in inverted colours each"
       ]
     },
     "organic vs. geometric": {
       "locs": [
-        "cave filled with geometric light",
-        "chess board landscape human scale",
-        "field of eyes growing like flowers",
-        "garden inside a human skull",
-        "city built on a single enormous tree"
+        "forest growing on ceiling roots up",
+        "giant flower field house-sized blooms",
+        "door in middle of open field nowhere"
       ],
       "poses": [
-        "arms becoming branches or roots",
-        "arms extended birds flying from fingertips",
-        "both folding space between their hands",
-        "one made of clock parts still moving",
-        "figure emerging from flat wall surface"
+        "both standing in the rain that stops exactly at them",
+        "one holding the sun like a balloon, the other holding the moon",
+        "both lying back as the world turns slowly over them"
       ],
       "looks": [
-        "robes of living moss and root",
-        "robes of impossible geometry fabric",
-        "suit of geometric void patches",
-        "garment of folded light geometric",
-        "flower-glass dress and flower-glass suit"
+        "outfits entirely of growing flowers each",
+        "ocean as skirt and jacket respectively",
+        "coats of frozen fog worn naturally each"
       ]
     },
     "self vs. mirror": {
       "locs": [
-        "mirror reflecting a different room",
-        "forest of mirrors no reflections",
-        "infinite reflection hallway both ends open",
-        "labyrinth viewed from above as face",
-        "giant eye reflected in still lake"
+        "clock face enormous walkable surface",
+        "mirror room reflecting into infinity",
+        "painting stepped into both inside art"
       ],
       "poses": [
-        "standing inside own mirror reflection",
-        "two identical poses facing each other",
-        "hands reaching through a mirror meeting",
-        "looking through window at inverted self",
-        "seated back to back on opposite sides of mirror"
+        "both standing in two places, both versions visible",
+        "one waving at themselves from across the room",
+        "both facing their own reflection, touching it"
       ],
       "looks": [
-        "suit of mirrored fragments reflecting room",
-        "outfit that matches whatever is behind",
-        "suit of dark mirror panels moving",
-        "photograph dress and photograph suit",
-        "coat of layered old photographs luminous"
+        "a suit of mirrored fragments each",
+        "clothes in inverted colours each",
+        "one fully dressed, one in white reflection each"
       ]
     },
     "light vs. sourceless": {
       "locs": [
-        "room lit by trapped lightning",
-        "cave filled with geometric light",
-        "cathedral filled with fog and birds",
-        "impossible bridge connecting two moons",
-        "room where walls are moving clouds"
+        "sky below feet walking on clouds solid",
+        "two moons different sizes both checking",
+        "room floating in open sky above clouds"
       ],
       "poses": [
-        "one made of light other of shadow",
-        "silhouette filled with stars daylight outside",
-        "one casting shadow of different person",
-        "one figure casting two different shadows",
-        "figure emerging from flat wall surface"
+        "both walking upward, as if it were the ordinary way",
+        "both looking at the impossible with polite interest",
+        "both floating, arms at their sides, completely calm"
       ],
       "looks": [
-        "clothing of woven starlight soft",
-        "robes of borrowed light worn softly",
-        "garment of folded light geometric",
-        "suit of mirrored fragments reflecting room",
-        "sunrise dress and sunrise jacket"
+        "constellation patterns glowing subtly each",
+        "clothes made of shifting watercolour each",
+        "clouds worn as garments, casually each"
       ]
     },
     "near vs. infinite": {
       "locs": [
-        "corridor of infinite doors",
-        "infinite reflection hallway both ends open",
-        "corridor ending in another corridor beginning",
-        "staircase circling a floating boulder",
-        "floating island with roots hanging"
+        "staircase descending into ocean depth",
+        "bed floating in dark space",
+        "moon on ground everyone else ignores"
       ],
       "poses": [
-        "both reflected infinitely between mirrors",
-        "both walking toward horizon that recedes",
-        "one reflected in other's eye enormous",
-        "stepping through frame of own portrait",
-        "both holding opposite ends of broken time"
+        "both looking at the impossible with polite interest",
+        "both floating, arms at their sides, completely calm",
+        "one sitting cross-legged on nothing, the other reading beside them"
       ],
       "looks": [
-        "outfit of looping ribbon no end",
-        "robes of layered maps and territory",
-        "outfit that matches whatever is behind",
-        "clothing of woven starlight soft",
-        "suit of dark matter approximated"
+        "clothes made of shifting watercolour each",
+        "clouds worn as garments, casually each",
+        "constellation patterns glowing subtly each"
       ]
     },
     "familiar vs. wrong": {
       "locs": [
-        "room full of identical chairs one occupied",
-        "museum of doors none lead anywhere",
-        "house slowly sinking into sand",
-        "train station at edge of space",
-        "opera house submerged in shallow water"
+        "spiral staircase going both up and down same",
+        "window looking at same room from inside",
+        "door knob too large to turn reasonable"
       ],
       "poses": [
-        "sitting at table with no floor beneath",
-        "both looking at same point nothing there",
-        "walking away becoming part of the wall",
-        "one speaking words visible as objects",
-        "both inside a painting looking out"
+        "one upside down, the other carrying on a normal conversation",
+        "both reaching into a hole in the air, curious",
+        "one opening a door to the room they just left"
       ],
       "looks": [
-        "outfit that matches whatever is behind",
-        "clothing made of shifting watercolour",
-        "unravelling dress and unravelling jacket",
-        "accumulated-years coat each",
-        "outfit that casts wrong coloured shadow"
+        "formal wear with one surreal detail each",
+        "pyjamas, perfectly calm in the wrong place each",
+        "workwear in a wildly wrong place each"
       ]
     },
     "solid vs. dissolving": {
       "locs": [
-        "house slowly sinking into sand",
-        "figure standing inside a burning portrait",
-        "double exposure city and forest merged",
-        "human figure cast as long shadow only",
-        "hands emerging from wallpaper"
+        "hands visible not the body they belong",
+        "animals acting human ignored by both",
+        "architecture bending around both normally"
       ],
       "poses": [
-        "dissolving from feet upward still smiling",
-        "both merging at the edges dissolving",
-        "face half-present half-dissolved into air",
-        "one solid one made of smoke same pose",
-        "walking away becoming part of the wall"
+        "one turning into a flock of birds, the other watching with interest",
+        "both walking through each other, briefly",
+        "both reading the same book, with different stories"
       ],
       "looks": [
-        "gown dissolving to moths and suit dissolving at cuffs",
-        "robes of slow smoke held in shape",
-        "clothing half-solid half-ethereal",
-        "salt-crystal gown and crystal coat",
-        "suit of dark matter approximated"
+        "outfit with one extra arm or sleeve each",
+        "garments printed with something impossible each",
+        "gowns dissolving into moths at the hem each"
       ]
     },
     "one vs. many selves": {
       "locs": [
-        "infinite reflection hallway both ends open",
-        "labyrinth viewed from above as face",
-        "forest of mirrors no reflections",
-        "room full of identical chairs one occupied",
-        "double exposure city and forest merged"
+        "shadows going wrong direction both",
+        "clocks all different times melting",
+        "crowd all moving same direction both still"
       ],
       "poses": [
-        "two identical poses facing each other",
-        "both reflected infinitely between mirrors",
-        "two figures one inside the other",
-        "two faces sharing one body from different angles",
-        "one figure casting two different shadows"
+        "one waving at themselves from across the room",
+        "both facing their own reflection, touching it",
+        "one is the other's reflection, glitching slightly"
       ],
       "looks": [
-        "suit of interlocked human silhouettes",
-        "photograph dress and photograph suit",
-        "coat of layered old photographs luminous",
-        "suit of dark mirror panels moving",
-        "outfit that ages and reverses visibly"
+        "clothes in inverted colours each",
+        "one fully dressed, one in white reflection each",
+        "a suit of mirrored fragments each"
       ]
     },
     "memory vs. place": {
       "locs": [
-        "window showing yesterday outside",
-        "house with windows showing other worlds",
-        "museum of doors none lead anywhere",
-        "garden inside a human skull",
-        "faces carved in cumulus cloud bank"
+        "wedding beneath water both dry somehow",
+        "eye looking back from pond surface",
+        "tree growing sideways defying gravity"
       ],
       "poses": [
-        "both inside a painting looking out",
-        "stepping through frame of own portrait",
-        "looking through window at inverted self",
-        "both reaching into hole in reality",
-        "one speaking words visible as objects"
+        "one holding the sun like a balloon, the other holding the moon",
+        "both lying back as the world turns slowly over them",
+        "both eating something made of air, savouring it"
       ],
       "looks": [
-        "robes of layered maps and territory",
-        "exposure dress and exposure coat",
-        "coat of layered old photographs luminous",
-        "last-moments gown and last-moments coat",
-        "robes of slowly turning calendar pages"
+        "ocean as skirt and jacket respectively",
+        "coats of frozen fog worn naturally each",
+        "outfits entirely of growing flowers each"
       ]
     },
     "above vs. below reversed": {
       "locs": [
-        "bedroom with ceiling as floor",
-        "sky below ground through glass floor",
-        "forest growing on ceiling",
-        "staircase descending into ocean",
-        "river flowing upward cliff face"
+        "rain falling upward both normal about it",
+        "snow falling in one spot only precision",
+        "forest growing on ceiling roots up"
       ],
       "poses": [
-        "lying on ceiling looking down at floor",
-        "one upside down other right way up face to face",
-        "walking up vertical wall nonchalant",
-        "both standing on water surface dry",
-        "floating horizontal arms at sides calm"
+        "both lying back as the world turns slowly over them",
+        "both eating something made of air, savouring it",
+        "both standing in the rain that stops exactly at them"
       ],
       "looks": [
-        "reversed-gravity gown and coat",
-        "coat of frozen fog worn naturally",
-        "rain dress and rain coat suspended",
-        "garment of folded light geometric",
-        "clothing of woven starlight soft"
+        "coats of frozen fog worn naturally each",
+        "outfits entirely of growing flowers each",
+        "ocean as skirt and jacket respectively"
       ]
     },
     "door vs. nowhere": {
       "locs": [
-        "door standing alone in open field",
-        "corridor of infinite doors",
-        "museum of doors none lead anywhere",
-        "doorway opening onto clouds",
-        "corridor ending in another corridor beginning"
+        "corridor of infinite identical doors",
+        "library with books falling upward slowly",
+        "kitchen with ocean instead of floor"
       ],
       "poses": [
-        "holding a door that opens onto self",
-        "stepping through frame of own portrait",
-        "both reaching into hole in reality",
-        "walking away becoming part of the wall",
-        "both walking toward horizon that recedes"
+        "both reaching into a hole in the air, curious",
+        "one opening a door to the room they just left",
+        "both calmly sitting while the room rearranges around them"
       ],
       "looks": [
-        "garment made of open windows",
-        "robes of layered maps and territory",
-        "outfit that matches whatever is behind",
-        "blueprint gown and blueprint suit",
-        "accumulated-years coat each"
+        "pyjamas, perfectly calm in the wrong place each",
+        "workwear in a wildly wrong place each",
+        "formal wear with one surreal detail each"
       ]
     },
     "human vs. element": {
       "locs": [
-        "figure standing inside a burning portrait",
-        "river flowing upward cliff face",
-        "room lit by trapped lightning",
-        "field of eyes growing like flowers",
-        "two suns over impossible horizon"
+        "giant flower field house-sized blooms",
+        "door in middle of open field nowhere",
+        "wedding beneath water both dry somehow"
       ],
       "poses": [
-        "arms becoming branches or roots",
-        "arms extended birds flying from fingertips",
-        "one made of light other of shadow",
-        "one pouring other from a vessel",
-        "dissolving from feet upward still smiling"
+        "both eating something made of air, savouring it",
+        "both standing in the rain that stops exactly at them",
+        "one holding the sun like a balloon, the other holding the moon"
       ],
       "looks": [
-        "robes of living moss and root",
-        "clothing of slow fire not burning",
-        "coat of liquid mercury held still",
-        "clothing of deep ocean pressure worn",
-        "compass dress and compass coat"
+        "outfits entirely of growing flowers each",
+        "ocean as skirt and jacket respectively",
+        "coats of frozen fog worn naturally each"
       ]
     },
     "silence vs. impossible sound": {
       "locs": [
-        "cathedral filled with fog and birds",
-        "opera house submerged in shallow water",
-        "room lit by trapped lightning",
-        "faces carved in cumulus cloud bank",
-        "theatre stage inside a raindrop"
+        "chess board landscape full size",
+        "city inverted above head walking",
+        "mouth of cave that is a face enormous"
       ],
       "poses": [
-        "one speaking words visible as objects",
-        "both looking at same point nothing there",
-        "arms extended birds flying from fingertips",
-        "figure emerging from flat wall surface",
-        "both holding opposite ends of broken time"
+        "both walking through each other, briefly",
+        "both reading the same book, with different stories",
+        "both enormous and tiny in the same frame"
       ],
       "looks": [
-        "silence gown and silence coat",
-        "music-notation dress and notation coat",
-        "robes of slow smoke held in shape",
-        "clothing of woven starlight soft",
-        "rain dress and rain coat suspended"
+        "garments printed with something impossible each",
+        "gowns dissolving into moths at the hem each",
+        "outfit with one extra arm or sleeve each"
       ]
     }
   },
@@ -636,44 +483,44 @@
   "locTypes": {
     "room floating in open sky above clouds": "both",
     "staircase descending into ocean depth": "both",
-    "corridor of infinite identical doors": "both",
-    "forest growing on ceiling roots up": "both",
-    "library with books falling upward slowly": "both",
-    "clock face enormous walkable surface": "both",
-    "mirror room reflecting into infinity": "both",
-    "chess board landscape full size": "both",
-    "giant flower field house-sized blooms": "both",
-    "city inverted above head walking": "both",
-    "door in middle of open field nowhere": "both",
     "bed floating in dark space": "both",
-    "kitchen with ocean instead of floor": "both",
-    "office with desert instead of carpet": "both",
-    "wedding beneath water both dry somehow": "both",
-    "train arriving through bedroom wall": "both",
-    "telephone booth inside out ringing": "both",
-    "painting stepped into both inside art": "both",
-    "mouth of cave that is a face enormous": "both",
-    "eye looking back from pond surface": "both",
-    "shadows going wrong direction both": "both",
-    "clocks all different times melting": "both",
-    "hands visible not the body they belong": "both",
-    "spiral staircase going both up and down same": "both",
-    "window looking at same room from inside": "both",
-    "door knob too large to turn reasonable": "both",
-    "tree growing sideways defying gravity": "both",
-    "rain falling upward both normal about it": "both",
-    "snow falling in one spot only precision": "both",
-    "crowd all moving same direction both still": "both",
     "moon on ground everyone else ignores": "both",
     "sun underground ceiling window": "both",
     "horizon too close walking impossible": "both",
     "sky below feet walking on clouds solid": "both",
+    "two moons different sizes both checking": "both",
+    "corridor of infinite identical doors": "both",
+    "library with books falling upward slowly": "both",
+    "kitchen with ocean instead of floor": "both",
+    "office with desert instead of carpet": "both",
+    "train arriving through bedroom wall": "both",
+    "telephone booth inside out ringing": "both",
+    "spiral staircase going both up and down same": "both",
+    "window looking at same room from inside": "both",
+    "door knob too large to turn reasonable": "both",
+    "forest growing on ceiling roots up": "both",
+    "giant flower field house-sized blooms": "both",
+    "door in middle of open field nowhere": "both",
+    "wedding beneath water both dry somehow": "both",
+    "eye looking back from pond surface": "both",
+    "tree growing sideways defying gravity": "both",
+    "rain falling upward both normal about it": "both",
+    "snow falling in one spot only precision": "both",
+    "clock face enormous walkable surface": "both",
+    "mirror room reflecting into infinity": "both",
+    "painting stepped into both inside art": "both",
+    "shadows going wrong direction both": "both",
+    "clocks all different times melting": "both",
+    "crowd all moving same direction both still": "both",
     "two of the same place same time both": "both",
     "echo of selves visible slight delay": "both",
     "objects frozen mid-fall both normal": "both",
+    "chess board landscape full size": "both",
+    "city inverted above head walking": "both",
+    "mouth of cave that is a face enormous": "both",
+    "hands visible not the body they belong": "both",
     "animals acting human ignored by both": "both",
-    "architecture bending around both normally": "both",
-    "two moons different sizes both checking": "both"
+    "architecture bending around both normally": "both"
   },
   "connectors": [
     "in",

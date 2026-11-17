@@ -87,12 +87,12 @@ Per-world fields: `id, name, sub, color, tensions[], locs[], poses[], looks[], a
 10. A prefix world without `variantDirectives` gives six near-identical variants.
 
 ## 11. History (summary)
-Started with 52 worlds. **Removed:** kitchen, farm, pier, dusk, spring, summer, autumn, winter, travel, market, monastery, concrete, dust, diner, still, absurd, glass, iron. **Added:** studio, bmovie, carnival, archive (now "THE PHOTOGRAPH", id unchanged), eleven single-holiday worlds. **Rebuilt** around scenes: art (35 artists, tension = artist), underground (subculture scenes; it was briefly turned into subways by mistake), hero (10 action genres), cctv, space, expedition and about 30 others. The Pollinations.ai image preview was removed from the quick page (unreliable and slow). `data.js` was split into `worlds/` and stale entries were pruned (about 15% smaller).
+Started with 52 worlds. **Removed:** kitchen, farm, pier, dusk, spring, summer, autumn, winter, travel, market, monastery, concrete, dust, diner, still, absurd, glass, iron. **Added:** studio, bmovie, carnival, archive (now "THE PHOTOGRAPH", id unchanged), eleven single-holiday worlds. **Rebuilt** around scenes: art (35 artists, tension = artist), underground (subculture scenes; it was briefly turned into subways by mistake), hero (10 action genres), cctv, space, expedition and every other world (all 50 are now scene-built; the 15 original worlds went last). The Pollinations.ai image preview was removed from the quick page (unreliable and slow). `data.js` was split into `worlds/` and stale entries were pruned (about 15% smaller).
 
 ## 12. Known issues and unverified
 - **No rendered images have been reviewed.** Everything above was judged from the text of the prompts and from tests; how the image generators respond is unknown.
 - In the full generator, manual dropdown picks can still mix scenes (the Cohesive / Moderate / Scattered badge shows how well they match).
-- The 15 original worlds keep tension-specific extras in their matched sets that are not in their pools, and have not been rebuilt as scenes.
+- Every world is now scene-built (matched sets drawn from one scene per tension). `check.py` fails if a world's matched items stray outside its pools.
 - Location names are telegraphic, so some combinations read oddly ("knees touching in dark wood studio floor").
 - Templates 4 and 6 restart a sentence in lowercase after a full stop.
 - Carnival contains "fire eater" and "fireworks"; a user once saw a fiery image from it (the cause was never established).
@@ -116,39 +116,39 @@ The test for any change: *"will this render an image most people will find inter
 |---|---|---|---|---|---|---|
 | romance | THE ROMANCE | 15 | 30 | 18 | 18 |  |
 | stage | THE STAGE | 10 | 30 | 12 | 10 |  |
-| mystery | THE MYSTERY | 20 | 48 | 38 | 32 | prefix world |
-| protest | THE PROTEST | 20 | 44 | 38 | 37 | prefix world |
+| mystery | THE MYSTERY | 20 | 48 | 20 | 15 | prefix world |
+| protest | THE PROTEST | 20 | 44 | 24 | 18 | prefix world |
 | wedding | THE WEDDING | 10 | 20 | 18 | 18 |  |
-| underworld | THE UNDERWORLD | 20 | 42 | 34 | 32 | prefix world |
-| mountain | THE MOUNTAIN | 20 | 48 | 48 | 47 |  |
-| water | THE WATER | 20 | 50 | 48 | 48 |  |
-| wild | THE WILD | 20 | 50 | 46 | 47 |  |
-| jungle | THE JUNGLE | 20 | 50 | 46 | 48 |  |
+| underworld | THE UNDERWORLD | 20 | 42 | 24 | 18 | prefix world |
+| mountain | THE MOUNTAIN | 20 | 48 | 24 | 18 |  |
+| water | THE WATER | 20 | 50 | 24 | 18 |  |
+| wild | THE WILD | 20 | 50 | 20 | 15 |  |
+| jungle | THE JUNGLE | 20 | 50 | 24 | 18 |  |
 | desert | THE DESERT | 10 | 30 | 15 | 15 |  |
 | rain | THE RAIN | 10 | 30 | 18 | 18 |  |
-| cold | THE COLD | 20 | 51 | 47 | 46 |  |
-| night | THE NIGHT | 20 | 51 | 42 | 46 |  |
+| cold | THE COLD | 20 | 51 | 28 | 21 |  |
+| night | THE NIGHT | 20 | 51 | 28 | 21 |  |
 | history | THE HISTORY | 20 | 43 | 30 | 30 | prefix world |
 | storm | THE STORM | 10 | 30 | 18 | 18 |  |
 | city | THE CITY | 10 | 32 | 18 | 18 |  |
-| road | THE ROAD | 20 | 50 | 44 | 46 |  |
+| road | THE ROAD | 20 | 64 | 28 | 21 |  |
 | canada | THE CANADA | 10 | 20 | 15 | 15 |  |
 | caribbean | THE CARIBBEAN | 10 | 20 | 18 | 18 |  |
-| mexico | THE MEXICO | 20 | 42 | 34 | 32 |  |
-| usa | THE USA | 20 | 42 | 38 | 32 |  |
+| mexico | THE MEXICO | 20 | 42 | 28 | 21 |  |
+| usa | THE USA | 20 | 45 | 24 | 18 |  |
 | rooftop | THE ROOFTOP | 10 | 30 | 21 | 21 |  |
-| music | THE MUSIC | 20 | 51 | 44 | 44 |  |
+| music | THE MUSIC | 20 | 55 | 32 | 24 |  |
 | court | THE COURT | 10 | 20 | 18 | 18 |  |
 | circus | THE CIRCUS | 10 | 20 | 15 | 15 |  |
 | hero | THE HERO | 10 | 30 | 30 | 30 | prefix world |
 | carnival | THE CARNIVAL | 20 | 50 | 24 | 24 |  |
 | gold | THE GOLD | 10 | 20 | 15 | 15 |  |
 | art | THE ART | 35 | 105 | 105 | 105 | prefix world, tension = style |
-| runway | THE RUNWAY | 20 | 46 | 40 | 44 | prefix world |
+| runway | THE RUNWAY | 20 | 46 | 20 | 15 | prefix world |
 | studio | THE STUDIO | 20 | 63 | 28 | 28 | prefix world |
 | archive | THE PHOTOGRAPH | 20 | 54 | 30 | 30 | prefix world |
 | space | THE SPACE | 10 | 30 | 30 | 30 | prefix world |
-| surreal | THE SURREAL | 20 | 40 | 34 | 34 | prefix world |
+| surreal | THE SURREAL | 20 | 40 | 20 | 15 | prefix world |
 | underground | THE UNDERGROUND | 20 | 60 | 60 | 60 |  |
 | expedition | THE EXPEDITION | 10 | 30 | 30 | 30 | prefix world |
 | cctv | THE CCTV | 10 | 30 | 20 | 10 | prefix world |

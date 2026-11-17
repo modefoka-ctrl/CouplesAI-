@@ -64,7 +64,7 @@ for wid, w in W.items():
             fail(f"{wid}: camera-angle wording in poses/looks/prefix/suffix (fights the variant directives)")
     plain = [c for c in CONN.get(wid, []) if c not in PLAIN]
     if plain: warn(f"{wid}: poetic joiner words {plain}")
-if EXTRA: warn(f"{len(EXTRA)} worlds have matched-set items outside their pools (original design, not scene-built): {', '.join(EXTRA)}")
+if EXTRA: fail(f"{len(EXTRA)} worlds have matched-set items outside their pools (rebuild them with scene_world): {', '.join(EXTRA)}")
 check(True, "per-world structure checked for all worlds")
 
 print("\n4. Real prompt builder, every world x every tension")

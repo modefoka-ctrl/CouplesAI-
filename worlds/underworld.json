@@ -46,12 +46,20 @@
     "Niflheim frost mist plain",
     "Aztec Mictlan ninth level dark",
     "Xibalba Mayan lords' hall",
+    "Mexican Day of Dead altar approach",
+    "Ofrenda marigold path",
+    "Guatemalan cemetery coloured tombs",
+    "Bolivian Ñatitas festival skull ceremony",
+    "Peruvian Pachamama offering ground",
+    "Andean sacred mountain spirit",
     "Japanese Yomi dark world descent",
     "Buddhist hell realms border",
     "Chinese Diyu court first judgement",
     "Ten Kings of Hell court formal",
     "Hindu Naraka gate boundary",
     "Bardo Tibetan intermediate state mist",
+    "Shinto Yomi crossing Izanagi's retreat",
+    "Shinto spirit gate torii path",
     "Celtic Tir na nÓg island approach",
     "Annwn Welsh otherworld entrance",
     "Slavic Nav dark world fog",
@@ -59,545 +67,393 @@
     "Yoruba underworld crossroads",
     "Candomblé spirit world threshold",
     "Vodou spirit world intersection",
-    "New Orleans cemetery midnight",
-    "Mexican Day of Dead altar approach",
-    "Ofrenda marigold path",
-    "Guatemalan cemetery coloured tombs",
-    "Bolivian Ñatitas festival skull ceremony",
-    "Peruvian Pachamama offering ground",
-    "Andean sacred mountain spirit",
-    "Shinto Yomi crossing Izanagi's retreat",
-    "Shinto spirit gate torii path"
+    "New Orleans cemetery midnight"
   ],
   "poses": [
-    "forehead to forehead eyes closed underworld peace",
-    "one reaching back other pulls them forward",
-    "both looking into dark water below reflection",
-    "one kneeling other hand on shoulder solemn",
-    "slow walk forward together into dark",
-    "one leading other eyes closed trusting",
-    "both looking up at what was left behind",
-    "one shielding other from the weighing",
-    "both at threshold one unwilling one urging",
-    "both hands intertwined crossing together",
-    "one already across reaching for other",
-    "sitting at river's edge waiting both",
-    "both looking at own reflection different faces",
-    "one reciting other listening eyes closed",
-    "both watching boat arriving for them",
-    "one paying ferryman other watches carefully",
-    "both facing judge or ruler solemn",
-    "one defending other speaking for them",
-    "both at pomegranate tree temptation moment",
-    "one eating one watching too late",
-    "both looking back at life left above",
-    "both arms wrapped final moment",
-    "one dissolving into mist other holds tighter",
-    "both walking through field of asphodel",
-    "one recognising other long-lost reunion",
-    "both at scales heart against feather solemn",
-    "one being weighed other watches tense",
-    "both stepping into Elysian light",
-    "both in moment between life and beyond",
-    "both slow walk toward light from dark",
-    "one sitting wait other searching for them",
-    "found each other deep place both relief",
-    "both looking at map of afterlife together",
-    "one translating other listens crossing guide"
+    "both walking slowly forward into the dark, hand in hand",
+    "one reaching back, the other drawing them onward",
+    "both kneeling at the water's edge, solemn, faces reflected",
+    "one leading the other, eyes closed, trusting",
+    "both standing before the judge, solemn, hearts bared",
+    "one being weighed, the other watching, tense",
+    "both raising their eyes to the great hall, awestruck",
+    "both marching shoulder to shoulder, chins high",
+    "both bowing before the altar, hands joined",
+    "both walking the marigold path, candles in their hands",
+    "both with skull-painted faces, gazing at the offerings",
+    "one lighting a candle, the other placing a photograph",
+    "both standing at the gate, one unwilling, one urging",
+    "both in white mourning dress, heads bowed, stepping forward",
+    "both kneeling before the court, foreheads to the ground",
+    "both walking through the mist, lanterns held low",
+    "both walking toward a pale light across the mist",
+    "one dissolving into the fog, the other holding tighter",
+    "both gazing back at the life left behind",
+    "both slow-walking through a field of grey, side by side",
+    "both standing at the crossroads, a hand each on the other's shoulder",
+    "both lighting candles amid the stone tombs",
+    "one reciting a prayer, the other listening, eyes closed",
+    "both stepping across a threshold, arms wrapped together"
   ],
   "looks": [
-    "black silk draped gown and dark robe each mythological",
-    "obsidian beaded gown and dark formal coat each",
-    "pomegranate red gown and black coat each Persephone-Hades",
+    "black silk draped gown and dark robe each",
+    "Greek tragedy draped garments each",
+    "pomegranate red gown and black coat each",
+    "white linen death-rite garments each",
+    "fur-trimmed cloaks and dark leather each",
+    "broad gold collars and pleated linen each",
+    "sugar-skull makeup and formal black each",
+    "embroidered dark ceremonial layers each",
+    "marigold detail on dark formal wear each",
+    "white formal mourning garments each",
+    "dark ceremonial robes with silver thread each",
+    "midnight blue draped formal each",
     "pale grey chiffon and ashen robe each",
-    "white burial shroud elevated both",
-    "black velvet gown and suit both formal dark",
-    "silver thread dark gown and coat both",
-    "midnight blue draped formal both",
-    "deep purple velvet both rich dark",
+    "deep moss-green formal each",
+    "silver-threaded dark gown and coat each",
+    "white linen and beaded jewellery each",
     "black lace overlay gown and dark suit each",
-    "dark floral gown and dark suit botanical each",
-    "gold detail dark gown and suit each",
-    "pearl-detail dark formal both",
-    "bone-white shroud elevated fashion both",
-    "charcoal silk formal both",
-    "dark moss green formal both",
-    "blood-dark red formal both",
-    "shadow-black with gold edge both",
-    "underworld court formal both ancient",
-    "Greek tragedy draped both",
-    "Egyptian death rite linen white both",
-    "Norse funeral costume both",
-    "Aztec death ceremonial layers both",
-    "Japanese mourning white formal both",
-    "Chinese funeral white formal both",
-    "Victorian mourning black full both",
-    "Georgian mourning black edged both",
-    "contemporary death-positive black both",
-    "Dia de Muertos sugar-skull makeup formal each",
-    "skull-motif wearable art both",
-    "memento mori jewellery visible formal both",
-    "marigold detail on dark formal both"
+    "dark floral gown and dark suit each"
   ],
   "affinities": {
     "living vs. dead": {
       "locs": [
-        "river Styx dark water crossing",
-        "Charon ferry dark river",
-        "cave mouth underworld entrance",
-        "dark forest path no light",
-        "stone bridge over dark chasm"
+        "river Styx dark water crossing ferry",
+        "Hades palace obsidian hall throne",
+        "Elysian fields golden light peace"
       ],
       "poses": [
-        "one reaching back other pulls forward",
-        "one stepping forward other holding back",
-        "one turning back other waits",
-        "forehead to forehead eyes closed",
-        "eyes closed leaning toward each other"
+        "both walking slowly forward into the dark, hand in hand",
+        "one reaching back, the other drawing them onward",
+        "both kneeling at the water's edge, solemn, faces reflected"
       ],
       "looks": [
-        "pale grey chiffon gown and ashen robe",
-        "bone-white gown and pale formal layers",
-        "ghost-white layers and dark shadow coat each",
-        "Elysian white gown and white robe each",
-        "pale silk and dark silk contrast layers each"
+        "black silk draped gown and dark robe each",
+        "Greek tragedy draped garments each",
+        "pomegranate red gown and black coat each"
       ]
     },
     "mortal vs. divine": {
       "locs": [
-        "judgment hall scales weighing",
-        "Persephone pomegranate throne",
-        "Hades palace obsidian hall",
-        "vast hall pillars torch shadows",
-        "throne room dark gold accents"
+        "Egyptian Duat weighing hall scales",
+        "Ma'at feather judgement chamber",
+        "Norse Helheim mist entrance Hel gate"
       ],
       "poses": [
-        "one kneeling other hand on shoulder",
-        "both arms raised dramatic divine scale",
-        "both on knees facing each other",
-        "arms wide both facing vast space",
-        "dramatic arms wide mirrored pose"
+        "both standing before the judge, solemn, hearts bared",
+        "one being weighed, the other watching, tense",
+        "both raising their eyes to the great hall, awestruck"
       ],
       "looks": [
-        "gold leaf crown dark silk and formal gold-trim coat",
-        "Persephone floral crown dark dress and Hades dark suit",
-        "crown of shadows gown and robe each",
-        "dark velvet gown gold-trim and coat each",
-        "Elysian gold crown white layers each"
+        "white linen death-rite garments each",
+        "fur-trimmed cloaks and dark leather each",
+        "broad gold collars and pleated linen each"
       ]
     },
     "descent vs. return": {
       "locs": [
-        "Orpheus descent stone steps",
-        "cave mouth underworld entrance",
-        "dark forest path no light",
-        "stone bridge over dark chasm",
-        "ferryman dock stone steps worn"
+        "Charon ferry dark river midpoint",
+        "Fields of Asphodel pale grey wandering",
+        "Tartarus edge looking down abyss"
       ],
       "poses": [
-        "one leading other through dark passage",
-        "slow walk forward together into dark",
-        "one stepping forward other holding back",
-        "one turning back other waits",
-        "walking hand in hand arms swaying"
+        "one reaching back, the other drawing them onward",
+        "both kneeling at the water's edge, solemn, faces reflected",
+        "one leading the other, eyes closed, trusting"
       ],
       "looks": [
-        "dark velvet layered gown and velvet coat",
-        "ash-grey layered gown and dark layered robe",
-        "ancient draped linen gown and robe each",
-        "river-dark silk layers and dark draped coat",
-        "dark mythic layers embroidered each"
+        "Greek tragedy draped garments each",
+        "pomegranate red gown and black coat each",
+        "black silk draped gown and dark robe each"
       ]
     },
     "judgment vs. mercy": {
       "locs": [
-        "judgment hall scales weighing",
-        "Egyptian Duat weighing hall",
-        "bronze doors of Tartarus sealed",
-        "throne dais obsidian steps",
-        "throne room dark gold accents"
+        "Valhalla great hall feast",
+        "Bifrost bridge approaching end Asgard side",
+        "Niflheim frost mist plain"
       ],
       "poses": [
-        "both hands clasped prayer or plea",
-        "one kneeling other hand on shoulder",
-        "both seated back to back solemn",
-        "seated face to face close",
-        "both frozen looking same point"
+        "one being weighed, the other watching, tense",
+        "both raising their eyes to the great hall, awestruck",
+        "both marching shoulder to shoulder, chins high"
       ],
       "looks": [
-        "obsidian beaded gown and dark formal coat",
-        "dark brocade gown and matching coat",
-        "ancient Greek chiton dark draped each",
-        "dark embroidered gown and embroidered dark coat",
-        "Hades dark formal layers each"
+        "fur-trimmed cloaks and dark leather each",
+        "broad gold collars and pleated linen each",
+        "white linen death-rite garments each"
       ]
     },
     "light vs. darkness absolute": {
       "locs": [
-        "Elysian fields golden light",
-        "Elysian feast long table golden",
-        "meadow of heroes golden dusk",
-        "crystal cavern underground lit",
-        "torchlit corridor carved stone"
+        "Celtic Tir na nÓg island approach",
+        "Annwn Welsh otherworld entrance",
+        "Slavic Nav dark world fog"
       ],
       "poses": [
-        "both looking into torchlight faces lit",
-        "both silhouette against dark light",
-        "one shielding other from shadow",
-        "forehead to forehead eyes closed",
-        "cheek to cheek looking same direction"
+        "both walking toward a pale light across the mist",
+        "one dissolving into the fog, the other holding tighter",
+        "both gazing back at the life left behind"
       ],
       "looks": [
-        "torch gold silk gown and dark draped coat",
-        "torchlit amber gown and amber-trim coat",
-        "Elysian white gown and white robe each",
-        "Elysian gold crown white layers each",
-        "pale flowing gown and dark contrast coat"
+        "pale grey chiffon and ashen robe each",
+        "deep moss-green formal each",
+        "silver-threaded dark gown and coat each"
       ]
     },
     "memory vs. forgetting": {
       "locs": [
-        "Lethe river forgetting edge",
-        "Fields of Asphodel pale grey",
-        "ashen plain lost souls wandering",
-        "shadow realm mist and form",
-        "underground lake black still"
+        "Aztec Mictlan ninth level dark",
+        "Xibalba Mayan lords' hall",
+        "Mexican Day of Dead altar approach"
       ],
       "poses": [
-        "one traces other's face gently",
-        "both looking into dark water below",
-        "face cupped in both hands close",
-        "forehead to forehead hands on each other's face",
-        "one lying other kneeling beside"
+        "both bowing before the altar, hands joined",
+        "both walking the marigold path, candles in their hands",
+        "both with skull-painted faces, gazing at the offerings"
       ],
       "looks": [
-        "pale grey chiffon gown and ashen robe",
-        "shadow-grey draped gown and grey coat",
-        "ashen lace gown and ash formal coat",
-        "river-dark silk layers and dark draped coat",
-        "ash-grey layered gown and dark layered robe"
+        "sugar-skull makeup and formal black each",
+        "embroidered dark ceremonial layers each",
+        "marigold detail on dark formal wear each"
       ]
     },
     "love vs. loss eternal": {
       "locs": [
-        "Orpheus descent stone steps",
-        "Elysian fields golden light",
-        "pomegranate grove underworld",
-        "pomegranate orchard dark light",
-        "Persephone pomegranate throne"
+        "Persephone garden pomegranate tree",
+        "Oracle at Delphi smoke chamber below",
+        "Orpheus descent path backward"
       ],
       "poses": [
-        "forehead to forehead eyes closed",
-        "dramatic dip one supporting other",
-        "face cupped in both hands close",
-        "noses touching about to kiss",
-        "eyes closed leaning toward each other"
+        "both kneeling at the water's edge, solemn, faces reflected",
+        "one leading the other, eyes closed, trusting",
+        "both walking slowly forward into the dark, hand in hand"
       ],
       "looks": [
-        "Persephone floral crown dark dress and Hades dark suit",
-        "pomegranate red gown and black coat",
-        "dark floral gown and dark botanical coat",
-        "Persephone spring crown dark gown and formal coat",
-        "black floral crown dark silk and dark suit each"
+        "pomegranate red gown and black coat each",
+        "black silk draped gown and dark robe each",
+        "Greek tragedy draped garments each"
       ]
     },
     "obedience vs. defiance": {
       "locs": [
-        "Cerberus gate three-headed",
-        "bronze doors of Tartarus sealed",
-        "throne dais obsidian steps",
-        "Hades palace obsidian hall",
-        "bone archway ancient towering"
+        "Japanese Yomi dark world descent",
+        "Buddhist hell realms border",
+        "Chinese Diyu court first judgement"
       ],
       "poses": [
-        "back to back standing guard",
-        "one stepping forward other holding back",
-        "dramatic arms wide mirrored pose",
-        "arms wide both facing vast space",
-        "both silhouette against dark light"
+        "both standing at the gate, one unwilling, one urging",
+        "both in white mourning dress, heads bowed, stepping forward",
+        "both kneeling before the court, foreheads to the ground"
       ],
       "looks": [
-        "crimson goddess gown and dark warrior coat",
-        "dark embroidered gown and embroidered dark coat",
-        "obsidian beaded gown and dark formal coat",
-        "black silk draped gown and dark robe",
-        "deep purple silk gown and purple coat"
+        "white formal mourning garments each",
+        "dark ceremonial robes with silver thread each",
+        "midnight blue draped formal each"
       ]
     },
     "fear vs. acceptance": {
       "locs": [
-        "Tartarus fire pit depths",
-        "burning plain Tartarus edge",
-        "river Phlegethon fire current",
-        "Cerberus gate three-headed",
-        "cave mouth underworld entrance"
+        "Ten Kings of Hell court formal",
+        "Hindu Naraka gate boundary",
+        "Bardo Tibetan intermediate state mist"
       ],
       "poses": [
-        "one shielding other from shadow",
-        "both frozen looking same point",
-        "one collapsed other supporting",
-        "slow walk forward together into dark",
-        "hug from behind arms wrapped swaying"
+        "both in white mourning dress, heads bowed, stepping forward",
+        "both kneeling before the court, foreheads to the ground",
+        "both walking through the mist, lanterns held low"
       ],
       "looks": [
-        "dark velvet layered gown and velvet coat",
-        "black lace overlay gown and dark formal suit",
-        "midnight blue silk and midnight coat each",
-        "ash-grey layered gown and dark layered robe",
-        "shadow-grey draped gown and grey coat"
+        "dark ceremonial robes with silver thread each",
+        "midnight blue draped formal each",
+        "white formal mourning garments each"
       ]
     },
     "human vs. god": {
       "locs": [
-        "judgment hall scales weighing",
-        "vast hall pillars torch shadows",
-        "dark cathedral underworld scale",
-        "stone amphitheatre underworld",
-        "ancient mosaic floor mythic"
+        "Egyptian Duat weighing hall scales",
+        "Ma'at feather judgement chamber",
+        "Norse Helheim mist entrance Hel gate"
       ],
       "poses": [
-        "one kneeling other hand on shoulder",
-        "both arms raised dramatic divine scale",
-        "dramatic arms wide mirrored pose",
-        "both on knees facing each other",
-        "arms wide both facing vast space"
+        "both raising their eyes to the great hall, awestruck",
+        "both marching shoulder to shoulder, chins high",
+        "both standing before the judge, solemn, hearts bared"
       ],
       "looks": [
-        "gold leaf crown dark silk and formal gold-trim coat",
-        "Persephone floral crown dark dress and Hades dark suit",
-        "crown of shadows gown and robe each",
-        "ancient Greek chiton dark draped each",
-        "dark mythic layers embroidered each"
+        "broad gold collars and pleated linen each",
+        "white linen death-rite garments each",
+        "fur-trimmed cloaks and dark leather each"
       ]
     },
     "bargain vs. surrender": {
       "locs": [
-        "Charon ferry dark river",
-        "ferryman dock stone steps worn",
-        "obsidian mirror reflection pool",
-        "judgment hall scales weighing",
-        "dark throne two seats carved"
+        "Yoruba underworld crossroads",
+        "Candomblé spirit world threshold",
+        "Vodou spirit world intersection"
       ],
       "poses": [
-        "hands outstretched reaching toward each other",
-        "both hands clasped prayer or plea",
-        "one lifting veil or cloth from other",
-        "seated face to face close",
-        "both reaching same direction"
+        "both standing at the crossroads, a hand each on the other's shoulder",
+        "both lighting candles amid the stone tombs",
+        "one reciting a prayer, the other listening, eyes closed"
       ],
       "looks": [
-        "obsidian beaded gown and dark formal coat",
-        "black silk draped gown and dark robe",
-        "Hades dark formal layers each",
-        "dark brocade gown and matching coat",
-        "pale silk and dark silk contrast layers each"
+        "white linen and beaded jewellery each",
+        "black lace overlay gown and dark suit each",
+        "dark floral gown and dark suit each"
       ]
     },
     "shadow vs. flame": {
       "locs": [
-        "river Phlegethon fire current",
-        "Tartarus fire pit depths",
-        "torchlit corridor carved stone",
-        "temple of the dead torchlit",
-        "burning plain Tartarus edge"
+        "Ofrenda marigold path",
+        "Guatemalan cemetery coloured tombs",
+        "Bolivian Ñatitas festival skull ceremony"
       ],
       "poses": [
-        "both looking into torchlight faces lit",
-        "both silhouette against dark light",
-        "one shielding other from shadow",
-        "dramatic dip one supporting other",
-        "back to back standing guard"
+        "both walking the marigold path, candles in their hands",
+        "both with skull-painted faces, gazing at the offerings",
+        "one lighting a candle, the other placing a photograph"
       ],
       "looks": [
-        "torch gold silk gown and dark draped coat",
-        "torchlit amber gown and amber-trim coat",
-        "crimson goddess gown and dark warrior coat",
-        "pomegranate red gown and black coat",
-        "dark velvet gown gold-trim and coat each"
+        "embroidered dark ceremonial layers each",
+        "marigold detail on dark formal wear each",
+        "sugar-skull makeup and formal black each"
       ]
     },
     "myth vs. truth": {
       "locs": [
-        "ancient Greek temple ruin moonlit",
-        "ancient mosaic floor mythic",
-        "stone amphitheatre underworld",
-        "Mayan Xibalba stone labyrinth",
-        "Egyptian Duat weighing hall"
+        "Inuit Adlivun cold underworld",
+        "Celtic Tir na nÓg island approach",
+        "Annwn Welsh otherworld entrance"
       ],
       "poses": [
-        "both looking up at vast dark above",
-        "both seated back to back solemn",
-        "one whispering in other's ear",
-        "one pointing into darkness other follows gaze",
-        "tandem walk one step behind hands linked"
+        "one dissolving into the fog, the other holding tighter",
+        "both gazing back at the life left behind",
+        "both slow-walking through a field of grey, side by side"
       ],
       "looks": [
-        "ancient Greek chiton dark draped each",
-        "dark mythic layers embroidered each",
-        "ancient draped linen gown and robe each",
-        "Styx dark layered robes each",
-        "dark embroidered gown and embroidered dark coat"
+        "deep moss-green formal each",
+        "silver-threaded dark gown and coat each",
+        "pale grey chiffon and ashen robe each"
       ]
     },
     "hero vs. fate": {
       "locs": [
-        "Sisyphus boulder slope endless",
-        "Orpheus descent stone steps",
-        "labyrinth stone walls narrow",
-        "bone archway ancient towering",
-        "dark forest path no light"
+        "Hero's journey threshold crossing",
+        "Dante's inscription gate above",
+        "Virgil's guided path dark forest"
       ],
       "poses": [
-        "one reaching back other pulls forward",
-        "slow walk forward together into dark",
-        "one leading other through dark passage",
-        "walking hand in hand arms swaying",
-        "back to back standing guard"
+        "one leading the other, eyes closed, trusting",
+        "both walking slowly forward into the dark, hand in hand",
+        "one reaching back, the other drawing them onward"
       ],
       "looks": [
-        "crimson goddess gown and dark warrior coat",
-        "dark embellished gown and embellished coat each",
-        "dark brocade gown and matching coat",
-        "obsidian beaded gown and dark formal coat",
-        "black silk draped gown and dark robe"
+        "black silk draped gown and dark robe each",
+        "Greek tragedy draped garments each",
+        "pomegranate red gown and black coat each"
       ]
     },
     "grief vs. release": {
       "locs": [
-        "Elysian fields golden light",
-        "Lethe river forgetting edge",
-        "meadow of heroes golden dusk",
-        "ashen plain lost souls wandering",
-        "pomegranate grove underworld"
+        "Shinto Yomi crossing Izanagi's retreat",
+        "Shinto spirit gate torii path",
+        "Japanese Yomi dark world descent"
       ],
       "poses": [
-        "one lying other kneeling beside",
-        "one collapsed other supporting",
-        "forehead to forehead eyes closed",
-        "face cupped in both hands close",
-        "hug from behind arms wrapped swaying"
+        "both kneeling before the court, foreheads to the ground",
+        "both walking through the mist, lanterns held low",
+        "both standing at the gate, one unwilling, one urging"
       ],
       "looks": [
-        "mourning veil dark gown and formal dark suit",
-        "pale grey chiffon gown and ashen robe",
-        "dark floral gown and dark botanical coat",
-        "bone-white gown and pale formal layers",
-        "ghost-white layers and dark shadow coat each"
+        "midnight blue draped formal each",
+        "white formal mourning garments each",
+        "dark ceremonial robes with silver thread each"
       ]
     },
     "known vs. unknown realm": {
       "locs": [
-        "cave mouth underworld entrance",
-        "shadow realm mist and form",
-        "underground lake black still",
-        "echo chamber stone vast",
-        "dark forest path no light"
+        "Slavic Nav dark world fog",
+        "Inuit Adlivun cold underworld",
+        "Celtic Tir na nÓg island approach"
       ],
       "poses": [
-        "both looking into dark water below",
-        "one pointing into darkness other follows gaze",
-        "both frozen looking same point",
-        "slow walk forward together into dark",
-        "both mid-step suspended"
+        "both gazing back at the life left behind",
+        "both slow-walking through a field of grey, side by side",
+        "both walking toward a pale light across the mist"
       ],
       "looks": [
-        "shadow-grey draped gown and grey coat",
-        "ash-grey layered gown and dark layered robe",
-        "river-dark silk layers and dark draped coat",
-        "dark mythic layers embroidered each",
-        "Styx dark layered robes each"
+        "silver-threaded dark gown and coat each",
+        "pale grey chiffon and ashen robe each",
+        "deep moss-green formal each"
       ]
     },
     "river vs. shore": {
       "locs": [
-        "river Styx dark water crossing",
-        "Charon ferry dark river",
-        "river Phlegethon fire current",
-        "Lethe river forgetting edge",
-        "river delta underworld branching"
+        "river Styx dark water crossing ferry",
+        "Hades palace obsidian hall throne",
+        "Elysian fields golden light peace"
       ],
       "poses": [
-        "both looking into dark water below",
-        "one reaching back other pulls forward",
-        "one pointing into darkness other follows gaze",
-        "walking hand in hand arms swaying",
-        "one turning back other waits"
+        "both walking slowly forward into the dark, hand in hand",
+        "one reaching back, the other drawing them onward",
+        "both kneeling at the water's edge, solemn, faces reflected"
       ],
       "looks": [
-        "river goddess dark blues and matching coat",
-        "Styx dark layered robes each",
-        "obsidian silk and dark wool coat each",
-        "river-dark silk layers and dark draped coat",
-        "dark pleated silk gown and pleated dark coat"
+        "Greek tragedy draped garments each",
+        "pomegranate red gown and black coat each",
+        "black silk draped gown and dark robe each"
       ]
     },
     "heaven vs. underworld": {
       "locs": [
-        "Elysian fields golden light",
-        "Elysian feast long table golden",
-        "meadow of heroes golden dusk",
-        "Tartarus fire pit depths",
-        "burning plain Tartarus edge"
+        "Buddhist hell realms border",
+        "Chinese Diyu court first judgement",
+        "Ten Kings of Hell court formal"
       ],
       "poses": [
-        "arms wide both facing vast space",
-        "both looking up at vast dark above",
-        "dramatic arms wide mirrored pose",
-        "both silhouette against dark light",
-        "slow dance spin soft twirl"
+        "both walking through the mist, lanterns held low",
+        "both standing at the gate, one unwilling, one urging",
+        "both in white mourning dress, heads bowed, stepping forward"
       ],
       "looks": [
-        "pale silk and dark silk contrast layers each",
-        "Elysian white gown and white robe each",
-        "Elysian gold crown white layers each",
-        "ghost-white layers and dark shadow coat each",
-        "pale flowing gown and dark contrast coat"
+        "white formal mourning garments each",
+        "dark ceremonial robes with silver thread each",
+        "midnight blue draped formal each"
       ]
     },
     "cursed vs. redeemed": {
       "locs": [
-        "Sisyphus boulder slope endless",
-        "Tantalus water pool edge",
-        "bronze doors of Tartarus sealed",
-        "Elysian fields golden light",
-        "meadow of heroes golden dusk"
+        "New Orleans cemetery midnight",
+        "Yoruba underworld crossroads",
+        "Candomblé spirit world threshold"
       ],
       "poses": [
-        "one kneeling other hand on shoulder",
-        "both hands clasped prayer or plea",
-        "one collapsed other supporting",
-        "forehead to forehead eyes closed",
-        "noses touching about to kiss"
+        "both lighting candles amid the stone tombs",
+        "one reciting a prayer, the other listening, eyes closed",
+        "both stepping across a threshold, arms wrapped together"
       ],
       "looks": [
-        "mourning veil dark gown and formal dark suit",
-        "dark floral gown and dark botanical coat",
-        "Elysian gold crown white layers each",
-        "Persephone spring crown dark gown and formal coat",
-        "pale flowing gown and dark contrast coat"
+        "black lace overlay gown and dark suit each",
+        "dark floral gown and dark suit each",
+        "white linen and beaded jewellery each"
       ]
     },
     "silence vs. echo": {
       "locs": [
-        "echo chamber stone vast",
-        "underground lake black still",
-        "vast hall pillars torch shadows",
-        "stone amphitheatre underworld",
-        "dark cathedral underworld scale"
+        "Peruvian Pachamama offering ground",
+        "Andean sacred mountain spirit",
+        "Aztec Mictlan ninth level dark"
       ],
       "poses": [
-        "both seated back to back solemn",
-        "both still facing each other",
-        "both looking into dark water below",
-        "both frozen looking same point",
-        "side by side hands linked solemn"
+        "both with skull-painted faces, gazing at the offerings",
+        "one lighting a candle, the other placing a photograph",
+        "both bowing before the altar, hands joined"
       ],
       "looks": [
-        "shadow-grey draped gown and grey coat",
-        "midnight blue silk and midnight coat each",
-        "deep indigo silk gown and indigo coat",
-        "Hades dark formal layers each",
-        "deep purple silk gown and purple coat"
+        "marigold detail on dark formal wear each",
+        "sugar-skull makeup and formal black each",
+        "embroidered dark ceremonial layers each"
       ]
     }
   },
@@ -653,12 +509,20 @@
     "Niflheim frost mist plain": "outdoor",
     "Aztec Mictlan ninth level dark": "both",
     "Xibalba Mayan lords' hall": "both",
+    "Mexican Day of Dead altar approach": "both",
+    "Ofrenda marigold path": "outdoor",
+    "Guatemalan cemetery coloured tombs": "outdoor",
+    "Bolivian Ñatitas festival skull ceremony": "both",
+    "Peruvian Pachamama offering ground": "both",
+    "Andean sacred mountain spirit": "outdoor",
     "Japanese Yomi dark world descent": "both",
     "Buddhist hell realms border": "outdoor",
     "Chinese Diyu court first judgement": "both",
     "Ten Kings of Hell court formal": "both",
     "Hindu Naraka gate boundary": "both",
     "Bardo Tibetan intermediate state mist": "both",
+    "Shinto Yomi crossing Izanagi's retreat": "both",
+    "Shinto spirit gate torii path": "both",
     "Celtic Tir na nÓg island approach": "both",
     "Annwn Welsh otherworld entrance": "both",
     "Slavic Nav dark world fog": "both",
@@ -666,15 +530,7 @@
     "Yoruba underworld crossroads": "outdoor",
     "Candomblé spirit world threshold": "both",
     "Vodou spirit world intersection": "both",
-    "New Orleans cemetery midnight": "outdoor",
-    "Mexican Day of Dead altar approach": "both",
-    "Ofrenda marigold path": "outdoor",
-    "Guatemalan cemetery coloured tombs": "outdoor",
-    "Bolivian Ñatitas festival skull ceremony": "both",
-    "Peruvian Pachamama offering ground": "both",
-    "Andean sacred mountain spirit": "outdoor",
-    "Shinto Yomi crossing Izanagi's retreat": "both",
-    "Shinto spirit gate torii path": "both"
+    "New Orleans cemetery midnight": "outdoor"
   },
   "connectors": [
     "in",
