@@ -58,7 +58,7 @@
       ],
       "poses": [
         "both at a mirror applying makeup, side by side",
-        "both sitting on the edge, exhausted and quiet",
+        "both sitting on the edge, glowing after the act",
         "one painting the other's face with careful hands"
       ],
       "looks": [
@@ -74,9 +74,9 @@
         "Barnum Bailey travelling circus poster backdrop 1920s"
       ],
       "poses": [
-        "both leaning on a painted wagon, worn and proud",
+        "both leaning on a painted wagon, radiant and proud",
         "both walking beside a line of elephants, dust rising",
-        "both sharing a tin cup of coffee on the steps, tired"
+        "both sharing a tin cup of coffee on the steps, glowing"
       ],
       "looks": [
         "patched wool jacket and faded sequins each",
@@ -105,12 +105,12 @@
       "locs": [
         "big top exterior night lights",
         "1950s Italian circus Fellini register outdoor",
-        "big top collapsed in wind aftermath"
+        "big top rippling in the wind at dusk"
       ],
       "poses": [
         "both small before the glowing tent, hand in hand",
-        "both dancing in the empty sawdust, no music",
-        "both standing in the wreckage, staring at the sky"
+        "both dancing in the sawdust, humming a tune",
+        "both standing proudly in the ring, arms raised to the sky"
       ],
       "looks": [
         "faded finery and an oversized coat each",
@@ -122,12 +122,12 @@
       "locs": [
         "big top exterior night lights",
         "1950s Italian circus Fellini register outdoor",
-        "big top collapsed in wind aftermath"
+        "big top rippling in the wind at dusk"
       ],
       "poses": [
         "both small before the glowing tent, hand in hand",
-        "both dancing in the empty sawdust, no music",
-        "both standing in the wreckage, staring at the sky"
+        "both dancing in the sawdust, humming a tune",
+        "both standing proudly in the ring, arms raised to the sky"
       ],
       "looks": [
         "faded finery and an oversized coat each",
@@ -143,7 +143,7 @@
       ],
       "poses": [
         "both at a mirror applying makeup, side by side",
-        "both sitting on the edge, exhausted and quiet",
+        "both sitting on the edge, glowing after the act",
         "one painting the other's face with careful hands"
       ],
       "looks": [
@@ -159,9 +159,9 @@
         "circus wagon painted carved travelling"
       ],
       "poses": [
-        "both leaning on a painted wagon, worn and proud",
+        "both leaning on a painted wagon, radiant and proud",
         "both walking beside a line of elephants, dust rising",
-        "both sharing a tin cup of coffee on the steps, tired"
+        "both sharing a tin cup of coffee on the steps, glowing"
       ],
       "looks": [
         "patched wool jacket and faded sequins each",
@@ -207,24 +207,24 @@
     "circus ring single spotlight performer dust",
     "big top exterior night lights",
     "1950s Italian circus Fellini register outdoor",
-    "big top collapsed in wind aftermath"
+    "big top rippling in the wind at dusk"
   ],
   "poses": [
     "both stepping into the red spotlight, arms flung wide",
     "one balanced on the other's shoulders, hands steady",
     "both bowing deeply to a roaring crowd",
-    "both leaning on a painted wagon, worn and proud",
+    "both leaning on a painted wagon, radiant and proud",
     "both walking beside a line of elephants, dust rising",
-    "both sharing a tin cup of coffee on the steps, tired",
+    "both sharing a tin cup of coffee on the steps, glowing",
     "both suspended high on silks, limbs entwined",
     "one hanging by the knees reaching down to the other",
     "both balanced on the wire, arms out",
     "both at a mirror applying makeup, side by side",
-    "both sitting on the edge, exhausted and quiet",
+    "both sitting on the edge, glowing after the act",
     "one painting the other's face with careful hands",
     "both small before the glowing tent, hand in hand",
-    "both dancing in the empty sawdust, no music",
-    "both standing in the wreckage, staring at the sky"
+    "both dancing in the sawdust, humming a tune",
+    "both standing proudly in the ring, arms raised to the sky"
   ],
   "looks": [
     "red sequined leotard and stiff gold collar each",
@@ -268,7 +268,7 @@
     "circus ring single spotlight performer dust": "indoor",
     "big top exterior night lights": "outdoor",
     "1950s Italian circus Fellini register outdoor": "outdoor",
-    "big top collapsed in wind aftermath": "both"
+    "big top rippling in the wind at dusk": "both"
   },
   "connectors": [
     "in",

@@ -4,16 +4,16 @@
   "sub": "Love, Longing & Red Roses",
   "color": "#c4143c",
   "tensions": [
-    "love vs. longing",
+    "love vs. butterflies",
     "given vs. received",
-    "said vs. unsaid",
+    "said vs. sung",
     "romantic vs. real",
     "expectation vs. presence",
-    "desire vs. fear",
-    "together vs. apart",
+    "desire vs. delight",
+    "together vs. twirling",
     "first vs. last",
-    "sweet vs. bitter",
-    "hope vs. heartbreak",
+    "sweet vs. spicy",
+    "hope vs. giddiness",
     "public vs. private love",
     "gesture vs. feeling",
     "passion vs. comfort",
@@ -21,7 +21,7 @@
     "the card vs. the truth"
   ],
   "affinities": {
-    "love vs. longing": {
+    "love vs. butterflies": {
       "locs": [
         "paris bridge padlock city view evening",
         "bridge city lights reflection evening",
@@ -46,7 +46,7 @@
       ],
       "poses": [
         "one presenting flowers, the other receiving them, eyes closed",
-        "one reading a card, the other watching anxiously",
+        "one reading a card, the other watching with a huge grin",
         "both laughing at a failed romantic gesture"
       ],
       "looks": [
@@ -55,7 +55,7 @@
         "soft colours, hair tousled each"
       ]
     },
-    "said vs. unsaid": {
+    "said vs. sung": {
       "locs": [
         "candlelit restaurant table for two red roses",
         "restaurant window table rain outside candlelight",
@@ -106,7 +106,7 @@
         "red dress and dark suit each"
       ]
     },
-    "desire vs. fear": {
+    "desire vs. delight": {
       "locs": [
         "apartment balcony city evening lights",
         "cinema queue cold evening together",
@@ -123,7 +123,7 @@
         "long coat and silk scarf each"
       ]
     },
-    "together vs. apart": {
+    "together vs. twirling": {
       "locs": [
         "park bench winter afternoon couples",
         "park winter afternoon hand in hand",
@@ -157,14 +157,14 @@
         "dark overcoat and red scarf each"
       ]
     },
-    "sweet vs. bitter": {
+    "sweet vs. spicy": {
       "locs": [
         "letter box valentine card morning discovered",
         "valentine card writing desk lamp evening",
         "red roses delivered doorstep evening"
       ],
       "poses": [
-        "one reading a card, the other watching anxiously",
+        "one reading a card, the other watching with a huge grin",
         "both laughing at a failed romantic gesture",
         "one presenting flowers, the other receiving them, eyes closed"
       ],
@@ -174,7 +174,7 @@
         "pyjamas and robe each"
       ]
     },
-    "hope vs. heartbreak": {
+    "hope vs. giddiness": {
       "locs": [
         "park bench winter afternoon couples",
         "park winter afternoon hand in hand",
@@ -217,7 +217,7 @@
       "poses": [
         "both laughing at a failed romantic gesture",
         "one presenting flowers, the other receiving them, eyes closed",
-        "one reading a card, the other watching anxiously"
+        "one reading a card, the other watching with a huge grin"
       ],
       "looks": [
         "soft colours, hair tousled each",
@@ -267,7 +267,7 @@
       ],
       "poses": [
         "one presenting flowers, the other receiving them, eyes closed",
-        "one reading a card, the other watching anxiously",
+        "one reading a card, the other watching with a huge grin",
         "both laughing at a failed romantic gesture"
       ],
       "looks": [
@@ -320,7 +320,7 @@
     "both cooking together, one tasting from the other's spoon",
     "both dancing slowly, no music",
     "one presenting flowers, the other receiving them, eyes closed",
-    "one reading a card, the other watching anxiously",
+    "one reading a card, the other watching with a huge grin",
     "both laughing at a failed romantic gesture",
     "both walking hand in hand, breath misting",
     "both huddled over a shared drink, laughing",
@@ -345,14 +345,10 @@
   ],
   "promptSuffix": "Colour grade: deep red, rose, candlelight amber — the palette of Valentine’s Day done with restraint. Warm and intimate, never garish.",
   "translations": {
-    "love vs. longing": "the presence that still feels like absence",
     "given vs. received": "the act of giving and the weight of receiving",
-    "said vs. unsaid": "the words the gesture carried instead",
     "romantic vs. real": "the valentine and the person who gave it",
     "expectation vs. presence": "the occasion imagined and the evening that actually happened",
-    "desire vs. fear": "wanting and not knowing what comes after wanting",
     "first vs. last": "the first valentine and the one you didn’t know was the last",
-    "sweet vs. bitter": "the chocolate and the aftertaste",
     "public vs. private love": "love performed and love kept",
     "gesture vs. feeling": "the roses and what they stood in for",
     "passion vs. comfort": "the fire and what comes after the fire",

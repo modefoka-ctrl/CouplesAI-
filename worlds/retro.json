@@ -1,0 +1,504 @@
+{
+  "id": "retro",
+  "name": "THE RETRO",
+  "sub": "Disco, Arcades & Mixtape Magic",
+  "color": "#e84a9c",
+  "tensions": [
+    "rewind vs. fast-forward",
+    "analog vs. glitter",
+    "nostalgia vs. now",
+    "mixtape vs. playlist",
+    "cool vs. cheesy",
+    "disco vs. dream",
+    "pixel vs. neon",
+    "sock hop vs. slow dance",
+    "jukebox vs. boombox",
+    "scrunchie vs. sweatband",
+    "retro vs. future",
+    "golden age vs. golden hour",
+    "mall vs. moon",
+    "slow dance vs. high score",
+    "vinyl vs. VHS",
+    "sleepover vs. spotlight",
+    "kodachrome vs. glitter",
+    "dial-up vs. disco ball",
+    "then vs. tonight",
+    "trend vs. timeless"
+  ],
+  "locs": [
+    "roller disco rink under a mirror ball",
+    "1970s disco floor lit from below",
+    "roller rink snack bar with checkerboard tiles",
+    "skate shop wall of neon wheels and posters",
+    "retro bowling alley with glowing scoreboards",
+    "1970s conversation pit lounge with shag carpet",
+    "velvet rope entrance of a glittering nightclub",
+    "neon arcade lined with glowing cabinets",
+    "80s shopping mall fountain with potted palms",
+    "mall food court under skylights",
+    "record and cassette shop with walls of tapes",
+    "video rental store aisle of VHS covers",
+    "photo booth at the mall entrance",
+    "mini-golf course with neon obstacles",
+    "drive-in movie lot with a giant screen",
+    "1950s diner booth with a jukebox",
+    "convertible parked under a neon motel sign",
+    "sock hop gym with streamers",
+    "malt shop counter with striped awnings",
+    "tailfin car on an empty desert road",
+    "vintage gas pump forecourt at sunset",
+    "90s sitcom-style living room with a plaid couch",
+    "teen bedroom plastered with posters",
+    "slumber party in a fairy-lit bedroom",
+    "stairwell covered in rave flyers",
+    "internet cafe with chunky monitors",
+    "Y2K mall escalator under glitter lights",
+    "skate park with 90s graffiti",
+    "swinging-sixties London street with a phone box",
+    "mod scooter rally on a seafront",
+    "go-go club with a checkerboard floor",
+    "psychedelic poster-covered flat",
+    "record shop listening booth",
+    "Carnaby-style boutique with mini-skirts",
+    "hippie van parked in a flower field",
+    "atomic-age living room with a starburst clock",
+    "retro-futurist diner with chrome and neon",
+    "world's fair pavilion with a silver rocket",
+    "showroom of glowing television sets",
+    "suburban lawn party with a transistor radio",
+    "vintage airport lounge with tulip chairs"
+  ],
+  "poses": [
+    "both skating hand in hand, one backward, one laughing",
+    "both striking a disco pointing pose, sparkles raining down",
+    "one spinning the other under an arm, both grinning",
+    "both gliding in sync, arms swinging",
+    "both leaning over a joystick, tongues out, mid-game",
+    "both squeezed behind the curtain, making silly faces",
+    "one handing the other a giant prize, grinning",
+    "both striking a pose against a wall of colour",
+    "both sharing one milkshake with two straws",
+    "both dancing the twist, knees bent, hair flying",
+    "both lounging on the hood, shades on",
+    "both striking a cool pose, cool as ice",
+    "both sprawled on the cushions, sharing a bowl of cereal",
+    "both on the carpet with a boombox, mid-dance",
+    "both on a skateboard, one riding, one hanging on",
+    "both holding up a chunky phone, posing for a selfie",
+    "both leaning on their ride, cool and carefree",
+    "both doing the Watusi, arms swinging",
+    "both flashing peace signs, flowers in their hair",
+    "one in the passenger seat, the other perched on the bonnet",
+    "both gazing up at the gleaming silver spire, delighted",
+    "both posing like a catalogue cover, perfect smiles",
+    "both mid-twist, laughing, skirts flaring",
+    "both toasting with cocktails, shoulders touching"
+  ],
+  "looks": [
+    "bell-bottoms and platform shoes each",
+    "sequin halter tops and flared suits each",
+    "satin jumpsuits and big collars each",
+    "acid-wash denim and neon windbreakers each",
+    "pastel suits with shoulder pads and big hair each",
+    "legwarmers, sweatbands and bright tracksuits each",
+    "poodle skirt and letterman jacket each",
+    "pompadour, leather jacket and cuffed jeans each",
+    "polka dot dress and rolled-up denim each",
+    "flannel, baggy jeans and chokers each",
+    "bucket hats, tracksuits and butterfly clips each",
+    "low-rise jeans, glitter and baby tees each",
+    "mini dress and slim suit each",
+    "tie-dye and flared jeans each",
+    "mod parka and shift dress each",
+    "space-age silver and white outfits each",
+    "atomic-print dresses and skinny ties each",
+    "1960s jumpsuits and go-go boots each"
+  ],
+  "promptSuffix": "Colour grade: warm saturated vintage film colour, soft flash glow, gentle grain.",
+  "affinities": {
+    "rewind vs. fast-forward": {
+      "locs": [
+        "90s sitcom-style living room with a plaid couch",
+        "teen bedroom plastered with posters",
+        "slumber party in a fairy-lit bedroom"
+      ],
+      "poses": [
+        "both sprawled on the cushions, sharing a bowl of cereal",
+        "both on the carpet with a boombox, mid-dance",
+        "both on a skateboard, one riding, one hanging on"
+      ],
+      "looks": [
+        "flannel, baggy jeans and chokers each",
+        "bucket hats, tracksuits and butterfly clips each",
+        "low-rise jeans, glitter and baby tees each"
+      ]
+    },
+    "analog vs. glitter": {
+      "locs": [
+        "roller disco rink under a mirror ball",
+        "1970s disco floor lit from below",
+        "roller rink snack bar with checkerboard tiles"
+      ],
+      "poses": [
+        "both skating hand in hand, one backward, one laughing",
+        "both striking a disco pointing pose, sparkles raining down",
+        "one spinning the other under an arm, both grinning"
+      ],
+      "looks": [
+        "bell-bottoms and platform shoes each",
+        "sequin halter tops and flared suits each",
+        "satin jumpsuits and big collars each"
+      ]
+    },
+    "nostalgia vs. now": {
+      "locs": [
+        "stairwell covered in rave flyers",
+        "internet cafe with chunky monitors",
+        "Y2K mall escalator under glitter lights"
+      ],
+      "poses": [
+        "both on the carpet with a boombox, mid-dance",
+        "both on a skateboard, one riding, one hanging on",
+        "both holding up a chunky phone, posing for a selfie"
+      ],
+      "looks": [
+        "bucket hats, tracksuits and butterfly clips each",
+        "low-rise jeans, glitter and baby tees each",
+        "flannel, baggy jeans and chokers each"
+      ]
+    },
+    "mixtape vs. playlist": {
+      "locs": [
+        "neon arcade lined with glowing cabinets",
+        "80s shopping mall fountain with potted palms",
+        "mall food court under skylights"
+      ],
+      "poses": [
+        "both leaning over a joystick, tongues out, mid-game",
+        "both squeezed behind the curtain, making silly faces",
+        "one handing the other a giant prize, grinning"
+      ],
+      "looks": [
+        "acid-wash denim and neon windbreakers each",
+        "pastel suits with shoulder pads and big hair each",
+        "legwarmers, sweatbands and bright tracksuits each"
+      ]
+    },
+    "cool vs. cheesy": {
+      "locs": [
+        "drive-in movie lot with a giant screen",
+        "1950s diner booth with a jukebox",
+        "convertible parked under a neon motel sign"
+      ],
+      "poses": [
+        "both sharing one milkshake with two straws",
+        "both dancing the twist, knees bent, hair flying",
+        "both lounging on the hood, shades on"
+      ],
+      "looks": [
+        "poodle skirt and letterman jacket each",
+        "pompadour, leather jacket and cuffed jeans each",
+        "polka dot dress and rolled-up denim each"
+      ]
+    },
+    "disco vs. dream": {
+      "locs": [
+        "skate shop wall of neon wheels and posters",
+        "retro bowling alley with glowing scoreboards",
+        "1970s conversation pit lounge with shag carpet"
+      ],
+      "poses": [
+        "both striking a disco pointing pose, sparkles raining down",
+        "one spinning the other under an arm, both grinning",
+        "both gliding in sync, arms swinging"
+      ],
+      "looks": [
+        "sequin halter tops and flared suits each",
+        "satin jumpsuits and big collars each",
+        "bell-bottoms and platform shoes each"
+      ]
+    },
+    "pixel vs. neon": {
+      "locs": [
+        "record and cassette shop with walls of tapes",
+        "video rental store aisle of VHS covers",
+        "photo booth at the mall entrance"
+      ],
+      "poses": [
+        "both squeezed behind the curtain, making silly faces",
+        "one handing the other a giant prize, grinning",
+        "both striking a pose against a wall of colour"
+      ],
+      "looks": [
+        "pastel suits with shoulder pads and big hair each",
+        "legwarmers, sweatbands and bright tracksuits each",
+        "acid-wash denim and neon windbreakers each"
+      ]
+    },
+    "sock hop vs. slow dance": {
+      "locs": [
+        "sock hop gym with streamers",
+        "malt shop counter with striped awnings",
+        "tailfin car on an empty desert road"
+      ],
+      "poses": [
+        "both dancing the twist, knees bent, hair flying",
+        "both lounging on the hood, shades on",
+        "both striking a cool pose, cool as ice"
+      ],
+      "looks": [
+        "pompadour, leather jacket and cuffed jeans each",
+        "polka dot dress and rolled-up denim each",
+        "poodle skirt and letterman jacket each"
+      ]
+    },
+    "jukebox vs. boombox": {
+      "locs": [
+        "vintage gas pump forecourt at sunset",
+        "drive-in movie lot with a giant screen",
+        "1950s diner booth with a jukebox"
+      ],
+      "poses": [
+        "both lounging on the hood, shades on",
+        "both striking a cool pose, cool as ice",
+        "both sharing one milkshake with two straws"
+      ],
+      "looks": [
+        "polka dot dress and rolled-up denim each",
+        "poodle skirt and letterman jacket each",
+        "pompadour, leather jacket and cuffed jeans each"
+      ]
+    },
+    "scrunchie vs. sweatband": {
+      "locs": [
+        "skate park with 90s graffiti",
+        "90s sitcom-style living room with a plaid couch",
+        "teen bedroom plastered with posters"
+      ],
+      "poses": [
+        "both on a skateboard, one riding, one hanging on",
+        "both holding up a chunky phone, posing for a selfie",
+        "both sprawled on the cushions, sharing a bowl of cereal"
+      ],
+      "looks": [
+        "low-rise jeans, glitter and baby tees each",
+        "flannel, baggy jeans and chokers each",
+        "bucket hats, tracksuits and butterfly clips each"
+      ]
+    },
+    "retro vs. future": {
+      "locs": [
+        "atomic-age living room with a starburst clock",
+        "retro-futurist diner with chrome and neon",
+        "world's fair pavilion with a silver rocket"
+      ],
+      "poses": [
+        "both gazing up at the gleaming silver spire, delighted",
+        "both posing like a catalogue cover, perfect smiles",
+        "both mid-twist, laughing, skirts flaring"
+      ],
+      "looks": [
+        "space-age silver and white outfits each",
+        "atomic-print dresses and skinny ties each",
+        "1960s jumpsuits and go-go boots each"
+      ]
+    },
+    "golden age vs. golden hour": {
+      "locs": [
+        "convertible parked under a neon motel sign",
+        "sock hop gym with streamers",
+        "malt shop counter with striped awnings"
+      ],
+      "poses": [
+        "both striking a cool pose, cool as ice",
+        "both sharing one milkshake with two straws",
+        "both dancing the twist, knees bent, hair flying"
+      ],
+      "looks": [
+        "poodle skirt and letterman jacket each",
+        "pompadour, leather jacket and cuffed jeans each",
+        "polka dot dress and rolled-up denim each"
+      ]
+    },
+    "mall vs. moon": {
+      "locs": [
+        "showroom of glowing television sets",
+        "suburban lawn party with a transistor radio",
+        "vintage airport lounge with tulip chairs"
+      ],
+      "poses": [
+        "both posing like a catalogue cover, perfect smiles",
+        "both mid-twist, laughing, skirts flaring",
+        "both toasting with cocktails, shoulders touching"
+      ],
+      "looks": [
+        "atomic-print dresses and skinny ties each",
+        "1960s jumpsuits and go-go boots each",
+        "space-age silver and white outfits each"
+      ]
+    },
+    "slow dance vs. high score": {
+      "locs": [
+        "mini-golf course with neon obstacles",
+        "neon arcade lined with glowing cabinets",
+        "80s shopping mall fountain with potted palms"
+      ],
+      "poses": [
+        "one handing the other a giant prize, grinning",
+        "both striking a pose against a wall of colour",
+        "both leaning over a joystick, tongues out, mid-game"
+      ],
+      "looks": [
+        "legwarmers, sweatbands and bright tracksuits each",
+        "acid-wash denim and neon windbreakers each",
+        "pastel suits with shoulder pads and big hair each"
+      ]
+    },
+    "vinyl vs. VHS": {
+      "locs": [
+        "mall food court under skylights",
+        "record and cassette shop with walls of tapes",
+        "video rental store aisle of VHS covers"
+      ],
+      "poses": [
+        "both striking a pose against a wall of colour",
+        "both leaning over a joystick, tongues out, mid-game",
+        "both squeezed behind the curtain, making silly faces"
+      ],
+      "looks": [
+        "acid-wash denim and neon windbreakers each",
+        "pastel suits with shoulder pads and big hair each",
+        "legwarmers, sweatbands and bright tracksuits each"
+      ]
+    },
+    "sleepover vs. spotlight": {
+      "locs": [
+        "slumber party in a fairy-lit bedroom",
+        "stairwell covered in rave flyers",
+        "internet cafe with chunky monitors"
+      ],
+      "poses": [
+        "both holding up a chunky phone, posing for a selfie",
+        "both sprawled on the cushions, sharing a bowl of cereal",
+        "both on the carpet with a boombox, mid-dance"
+      ],
+      "looks": [
+        "flannel, baggy jeans and chokers each",
+        "bucket hats, tracksuits and butterfly clips each",
+        "low-rise jeans, glitter and baby tees each"
+      ]
+    },
+    "kodachrome vs. glitter": {
+      "locs": [
+        "swinging-sixties London street with a phone box",
+        "mod scooter rally on a seafront",
+        "go-go club with a checkerboard floor"
+      ],
+      "poses": [
+        "both leaning on their ride, cool and carefree",
+        "both doing the Watusi, arms swinging",
+        "both flashing peace signs, flowers in their hair"
+      ],
+      "looks": [
+        "mini dress and slim suit each",
+        "tie-dye and flared jeans each",
+        "mod parka and shift dress each"
+      ]
+    },
+    "dial-up vs. disco ball": {
+      "locs": [
+        "velvet rope entrance of a glittering nightclub",
+        "roller disco rink under a mirror ball",
+        "1970s disco floor lit from below"
+      ],
+      "poses": [
+        "one spinning the other under an arm, both grinning",
+        "both gliding in sync, arms swinging",
+        "both skating hand in hand, one backward, one laughing"
+      ],
+      "looks": [
+        "satin jumpsuits and big collars each",
+        "bell-bottoms and platform shoes each",
+        "sequin halter tops and flared suits each"
+      ]
+    },
+    "then vs. tonight": {
+      "locs": [
+        "psychedelic poster-covered flat",
+        "record shop listening booth",
+        "Carnaby-style boutique with mini-skirts"
+      ],
+      "poses": [
+        "both doing the Watusi, arms swinging",
+        "both flashing peace signs, flowers in their hair",
+        "one in the passenger seat, the other perched on the bonnet"
+      ],
+      "looks": [
+        "tie-dye and flared jeans each",
+        "mod parka and shift dress each",
+        "mini dress and slim suit each"
+      ]
+    },
+    "trend vs. timeless": {
+      "locs": [
+        "hippie van parked in a flower field",
+        "swinging-sixties London street with a phone box",
+        "mod scooter rally on a seafront"
+      ],
+      "poses": [
+        "both flashing peace signs, flowers in their hair",
+        "one in the passenger seat, the other perched on the bonnet",
+        "both leaning on their ride, cool and carefree"
+      ],
+      "looks": [
+        "mod parka and shift dress each",
+        "mini dress and slim suit each",
+        "tie-dye and flared jeans each"
+      ]
+    }
+  },
+  "translations": {},
+  "locTypes": {
+    "roller disco rink under a mirror ball": "both",
+    "1970s disco floor lit from below": "both",
+    "roller rink snack bar with checkerboard tiles": "indoor",
+    "skate shop wall of neon wheels and posters": "indoor",
+    "retro bowling alley with glowing scoreboards": "outdoor",
+    "1970s conversation pit lounge with shag carpet": "indoor",
+    "velvet rope entrance of a glittering nightclub": "indoor",
+    "neon arcade lined with glowing cabinets": "both",
+    "80s shopping mall fountain with potted palms": "indoor",
+    "mall food court under skylights": "outdoor",
+    "record and cassette shop with walls of tapes": "indoor",
+    "video rental store aisle of VHS covers": "indoor",
+    "photo booth at the mall entrance": "indoor",
+    "mini-golf course with neon obstacles": "both",
+    "drive-in movie lot with a giant screen": "both",
+    "1950s diner booth with a jukebox": "indoor",
+    "convertible parked under a neon motel sign": "outdoor",
+    "sock hop gym with streamers": "indoor",
+    "malt shop counter with striped awnings": "indoor",
+    "tailfin car on an empty desert road": "outdoor",
+    "vintage gas pump forecourt at sunset": "both",
+    "90s sitcom-style living room with a plaid couch": "indoor",
+    "teen bedroom plastered with posters": "indoor",
+    "slumber party in a fairy-lit bedroom": "indoor",
+    "stairwell covered in rave flyers": "both",
+    "internet cafe with chunky monitors": "indoor",
+    "Y2K mall escalator under glitter lights": "both",
+    "skate park with 90s graffiti": "outdoor",
+    "swinging-sixties London street with a phone box": "outdoor",
+    "mod scooter rally on a seafront": "outdoor",
+    "go-go club with a checkerboard floor": "indoor",
+    "psychedelic poster-covered flat": "both",
+    "record shop listening booth": "indoor",
+    "Carnaby-style boutique with mini-skirts": "both",
+    "hippie van parked in a flower field": "outdoor",
+    "atomic-age living room with a starburst clock": "indoor",
+    "retro-futurist diner with chrome and neon": "both",
+    "world's fair pavilion with a silver rocket": "both",
+    "showroom of glowing television sets": "indoor",
+    "suburban lawn party with a transistor radio": "both",
+    "vintage airport lounge with tulip chairs": "indoor"
+  }
+}

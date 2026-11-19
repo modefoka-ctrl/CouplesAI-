@@ -4,19 +4,19 @@
   "sub": "Harvest, Gratitude & the American Table",
   "color": "#c4620a",
   "tensions": [
-    "gratitude vs. guilt",
-    "abundance vs. absence",
+    "gratitude vs. seconds",
+    "abundance vs. appetite",
     "together vs. apart",
     "tradition vs. change",
     "past vs. present",
-    "the table vs. who is missing",
+    "the table vs. the game",
     "warmth vs. obligation",
-    "feast vs. famine",
+    "feast vs. fun",
     "family vs. chosen family",
-    "home vs. displacement"
+    "home vs. holiday"
   ],
   "affinities": {
-    "gratitude vs. guilt": {
+    "gratitude vs. seconds": {
       "locs": [
         "thanksgiving table full harvest decorations afternoon",
         "dining room set table thanksgiving anticipation",
@@ -33,7 +33,7 @@
         "family-gathering best casual each"
       ]
     },
-    "abundance vs. absence": {
+    "abundance vs. appetite": {
       "locs": [
         "dining room candles thanksgiving evening",
         "living room after dinner thanksgiving evening",
@@ -101,7 +101,7 @@
         "earth-toned layers and boots each"
       ]
     },
-    "the table vs. who is missing": {
+    "the table vs. the game": {
       "locs": [
         "dining room set table thanksgiving anticipation",
         "dining table empty setting thanksgiving anticipation",
@@ -135,7 +135,7 @@
         "apron over smart casual clothes each"
       ]
     },
-    "feast vs. famine": {
+    "feast vs. fun": {
       "locs": [
         "living room after dinner thanksgiving evening",
         "thanksgiving table full harvest decorations afternoon",
@@ -169,7 +169,7 @@
         "travelling coat and scarf each"
       ]
     },
-    "home vs. displacement": {
+    "home vs. holiday": {
       "locs": [
         "autumn park walk thanksgiving afternoon",
         "backyard bonfire after thanksgiving evening",
@@ -239,13 +239,9 @@
   ],
   "promptSuffix": "Colour grade: amber, burnt orange, deep rust — the harvest palette. Warm indoor light, autumn afternoon gold outside.",
   "translations": {
-    "gratitude vs. guilt": "thank you and I’m sorry in the same breath",
     "tradition vs. change": "the tradition and the change that threatens or renews it",
-    "the table vs. who is missing": "every chair that is filled and the one that isn’t",
     "warmth vs. obligation": "showing up because you want to and showing up because you must",
-    "feast vs. famine": "the abundance on one table and what it means",
-    "family vs. chosen family": "the table you were born to and the one you chose",
-    "home vs. displacement": "the place the holiday imagines and the place some people can’t return to"
+    "family vs. chosen family": "the table you were born to and the one you chose"
   },
   "locTypes": {
     "kitchen cooking thanksgiving morning steam": "indoor",

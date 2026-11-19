@@ -7,9 +7,7 @@
         "romance",
         "stage",
         "mystery",
-        "protest",
-        "wedding",
-        "underworld"
+        "wedding"
       ]
     },
     {
@@ -61,7 +59,8 @@
         "art",
         "runway",
         "studio",
-        "archive"
+        "archive",
+        "retro"
       ]
     },
     {
@@ -72,7 +71,8 @@
         "underground",
         "expedition",
         "cctv",
-        "bmovie"
+        "bmovie",
+        "legend"
       ]
     },
     {

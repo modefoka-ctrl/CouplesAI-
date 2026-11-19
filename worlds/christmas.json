@@ -4,19 +4,19 @@
   "sub": "Candlelight, Snow & the Return Home",
   "color": "#8b0000",
   "tensions": [
-    "joy vs. longing",
+    "joy vs. cosiness",
     "warmth vs. cold",
-    "together vs. absent",
+    "together vs. tangled in lights",
     "magic vs. commercial",
     "childhood vs. adulthood",
     "giving vs. receiving",
     "sacred vs. secular",
-    "expectation vs. reality",
+    "wish list vs. surprise",
     "home vs. elsewhere",
     "past vs. present"
   ],
   "affinities": {
-    "joy vs. longing": {
+    "joy vs. cosiness": {
       "locs": [
         "snow exterior house christmas lights evening",
         "snow street christmas lights evening town",
@@ -50,7 +50,7 @@
         "padded jacket and bobble hat each"
       ]
     },
-    "together vs. absent": {
+    "together vs. tangled in lights": {
       "locs": [
         "train station christmas arrival reunion",
         "airport arrivals christmas reunion"
@@ -58,11 +58,11 @@
       "poses": [
         "both hugging tightly, bags dropped at their feet",
         "one running into the other's arms",
-        "both laughing and crying at the door"
+        "both laughing and hugging at the door"
       ],
       "looks": [
         "travelling coat and scarf each",
-        "winter coat and tired smile each",
+        "winter coat and warm smile each",
         "long coat with a suitcase each"
       ]
     },
@@ -134,7 +134,7 @@
         "dark coat with a festive brooch each"
       ]
     },
-    "expectation vs. reality": {
+    "wish list vs. surprise": {
       "locs": [
         "kitchen christmas cooking morning steam",
         "christmas table set dinner candles formal",
@@ -159,11 +159,11 @@
       "poses": [
         "both hugging tightly, bags dropped at their feet",
         "one running into the other's arms",
-        "both laughing and crying at the door"
+        "both laughing and hugging at the door"
       ],
       "looks": [
         "travelling coat and scarf each",
-        "winter coat and tired smile each",
+        "winter coat and warm smile each",
         "long coat with a suitcase each"
       ]
     },
@@ -222,7 +222,7 @@
     "both pulling a cracker, grinning",
     "both hugging tightly, bags dropped at their feet",
     "one running into the other's arms",
-    "both laughing and crying at the door"
+    "both laughing and hugging at the door"
   ],
   "looks": [
     "matching knitted jumpers each",
@@ -238,7 +238,7 @@
     "velvet dress and dark suit each",
     "paper crown and best clothes each",
     "travelling coat and scarf each",
-    "winter coat and tired smile each",
+    "winter coat and warm smile each",
     "long coat with a suitcase each"
   ],
   "promptSuffix": "Colour grade: deep red, gold, warm candlelight — the palette of Christmas done with warmth and restraint. Firelight, fairy lights, the cold blue of snow outside.",
@@ -246,7 +246,6 @@
     "magic vs. commercial": "the wonder and the receipt",
     "giving vs. receiving": "the gift and who it was really for",
     "sacred vs. secular": "the meaning kept and the meaning lost",
-    "expectation vs. reality": "the christmas morning and the christmas morning imagined",
     "home vs. elsewhere": "the place you left and the place you can’t find"
   },
   "locTypes": {

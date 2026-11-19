@@ -5,14 +5,14 @@
   "color": "#e85a00",
   "tensions": [
     "costume vs. self",
-    "fear vs. delight",
+    "spooky vs. silly",
     "real vs. imagined",
     "child vs. adult",
     "darkness vs. light",
     "trick vs. treat",
     "seen vs. hidden",
     "the mask vs. the face",
-    "dead vs. alive",
+    "ghoul vs. glam",
     "sacred vs. spectacle"
   ],
   "affinities": {
@@ -33,7 +33,7 @@
         "skeleton bodysuit and face paint each"
       ]
     },
-    "fear vs. delight": {
+    "spooky vs. silly": {
       "locs": [
         "haunted house decorated exterior night",
         "cemetery halloween decorated night moon",
@@ -42,7 +42,7 @@
       "poses": [
         "both creeping through the fog, one clutching the other's sleeve",
         "both lit from below by a flickering torch, faces eerie",
-        "both frozen mid-scream, playful and terrified"
+        "both striking a spooky pose, giggling"
       ],
       "looks": [
         "ghost sheet and tattered cloak each",
@@ -58,7 +58,7 @@
       ],
       "poses": [
         "both lit from below by a flickering torch, faces eerie",
-        "both frozen mid-scream, playful and terrified",
+        "both striking a spooky pose, giggling",
         "both creeping through the fog, one clutching the other's sleeve"
       ],
       "looks": [
@@ -91,7 +91,7 @@
         "cemetery halloween decorated night moon"
       ],
       "poses": [
-        "both frozen mid-scream, playful and terrified",
+        "both striking a spooky pose, giggling",
         "both creeping through the fog, one clutching the other's sleeve",
         "both lit from below by a flickering torch, faces eerie"
       ],
@@ -152,7 +152,7 @@
         "matching couples costume each"
       ]
     },
-    "dead vs. alive": {
+    "ghoul vs. glam": {
       "locs": [
         "graveyard fog machine night halloween",
         "haunted hayride field night dark",
@@ -161,7 +161,7 @@
       "poses": [
         "both creeping through the fog, one clutching the other's sleeve",
         "both lit from below by a flickering torch, faces eerie",
-        "both frozen mid-scream, playful and terrified"
+        "both striking a spooky pose, giggling"
       ],
       "looks": [
         "ghost sheet and tattered cloak each",
@@ -215,7 +215,7 @@
     "both posed beside the carved pumpkins, candle glow on their faces",
     "both creeping through the fog, one clutching the other's sleeve",
     "both lit from below by a flickering torch, faces eerie",
-    "both frozen mid-scream, playful and terrified",
+    "both striking a spooky pose, giggling",
     "both mid-dance, costumes swirling, the crowd behind them",
     "both bobbing for apples, faces dripping, laughing",
     "both striking a spooky pose, ready for the contest"
@@ -234,11 +234,9 @@
   "promptSuffix": "Colour grade: deep orange, black, the flickering of candlelit jack o lanterns. Darkness punctuated by warm orange — atmospheric, slightly unsettling, delightful.",
   "translations": {
     "costume vs. self": "who you are under the halloween mask",
-    "fear vs. delight": "the scare and the pleasure of the scare",
     "child vs. adult": "who you were when she held you and who you are now",
     "trick vs. treat": "the threat and the sweetness",
     "the mask vs. the face": "what you put on and what it reveals",
-    "dead vs. alive": "the line the holiday plays with",
     "sacred vs. spectacle": "the old meaning and the costume party it became"
   },
   "locTypes": {

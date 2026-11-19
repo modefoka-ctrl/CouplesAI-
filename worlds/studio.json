@@ -19,7 +19,7 @@
     "eye contact vs. avoidance",
     "dressed vs. undressed",
     "public self vs. private self",
-    "confidence vs. doubt",
+    "confidence vs. swagger",
     "connection vs. isolation",
     "beauty vs. truth",
     "light vs. shadow",
@@ -33,7 +33,7 @@
         "seamless mid-grey paper backdrop studio"
       ],
       "poses": [
-        "both facing the camera, upright and quiet",
+        "both facing the camera, upright and radiant",
         "one seated, one standing behind with hands on the shoulders",
         "both in profile, foreheads almost touching"
       ],
@@ -188,7 +188,7 @@
       "poses": [
         "one lounging, the other posing like a catalogue model",
         "both mid-laugh, caught in the set's fantasy",
-        "both sitting stiffly, pretending nothing is odd"
+        "both sitting poised, pretending nothing is odd, fighting a grin"
       ],
       "looks": [
         "striped circus-inspired outfits each",
@@ -272,7 +272,7 @@
       ],
       "poses": [
         "both mid-laugh, caught in the set's fantasy",
-        "both sitting stiffly, pretending nothing is odd",
+        "both sitting poised, pretending nothing is odd, fighting a grin",
         "both striking a retro pose, deadpan and deliberate"
       ],
       "looks": [
@@ -281,7 +281,7 @@
         "1970s printed shirt and flares each"
       ]
     },
-    "confidence vs. doubt": {
+    "confidence vs. swagger": {
       "locs": [
         "a set drenched in a curtain of falling droplets",
         "a coloured powder cloud against a clean backdrop",
@@ -356,7 +356,7 @@
         "a pastel inflatable set of giant soft shapes"
       ],
       "poses": [
-        "both sitting stiffly, pretending nothing is odd",
+        "both sitting poised, pretending nothing is odd, fighting a grin",
         "both striking a retro pose, deadpan and deliberate",
         "one lounging, the other posing like a catalogue model"
       ],
@@ -433,7 +433,7 @@
     "a wall of glowing neon tubes in solid colour"
   ],
   "poses": [
-    "both facing the camera, upright and quiet",
+    "both facing the camera, upright and radiant",
     "one seated, one standing behind with hands on the shoulders",
     "both in profile, foreheads almost touching",
     "back to back, each looking over a shoulder",
@@ -452,7 +452,7 @@
     "both striking a retro pose, deadpan and deliberate",
     "one lounging, the other posing like a catalogue model",
     "both mid-laugh, caught in the set's fantasy",
-    "both sitting stiffly, pretending nothing is odd",
+    "both sitting poised, pretending nothing is odd, fighting a grin",
     "both leaping, hair and fabric flying",
     "both caught mid-spin, fabric streaming",
     "both with arms thrown up, laughing in the burst",
@@ -516,7 +516,6 @@
     "eye contact vs. avoidance": "the most intimate thing two people can do, and its refusal",
     "dressed vs. undressed": "what clothes perform and what they protect",
     "public self vs. private self": "the version you put on and the one that slips through",
-    "confidence vs. doubt": "certainty worn on the surface, uncertainty underneath",
     "connection vs. isolation": "reaching and not reaching, in the same breath",
     "beauty vs. truth": "the flattering lie versus the accurate fact"
   },

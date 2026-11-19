@@ -45,7 +45,7 @@ Per-world fields: `id, name, sub, color, tensions[], locs[], poses[], looks[], a
 `Create a {ratio} {subject} — ` + `[promptPrefix] ` + **scene sentence** + `.` + **mood note**
 - Scene sentence: `[tension phrase — ]pose {joiner} location[, wearing look][, bathed in lighting][, era aesthetic][. Shot as: shot]`.
 - Mood note: ` The emotional tension — {tension} — is atmosphere only. Do not illustrate it literally.` (skipped when `tensionIsStyle`) + ` {promptSuffix}`.
-- **Prefix worlds** (archive, art, bmovie, cctv, expedition, hero, history, mystery, protest, runway, space, studio, surreal, underworld) drop the lighting and era clauses, and drop the generic variant directive. They therefore **must** have 6 `variantDirectives`, or their six variants will not differ.
+- **Prefix worlds** (art, hero, cctv, legend, mystery, runway, expedition, archive, space, studio, bmovie, surreal, history) drop the lighting and era clauses, and drop the generic variant directive. They therefore **must** have 6 `variantDirectives`, or their six variants will not differ.
 - A tension with no `translations` entry appears once, in the mood note only.
 - **Six variants:** `TEMPLATES[0..5]` in the template reorder the sentence; each variant starts with `variantDirectives[i]` (world-specific) or the generic lens-based directive (non-prefix worlds).
 - The assembly logic exists **three times** (inline in `index.html`, inline in `full.html`, and `TEMPLATES` in `data.js`). Change one, change all, then run the checks.
@@ -61,6 +61,7 @@ Per-world fields: `id, name, sub, color, tensions[], locs[], poses[], looks[], a
 8. **Art-style worlds:** the tension *is* the style; set `tensionIsStyle` so the "atmosphere only / do not illustrate" sentence is skipped (it would tell the model not to render the style).
 9. **Sensitive places are not backdrops.** Sites of mass atrocity were removed from History and `check.py` has a deny-list.
 10. **Goal:** every output should be an image people want to create and post. Prefer specific, active, visual, a little quirky over generic.
+11. **Upbeat only.** The product exists so someone can make an image with a partner or friends and frame it or post it. No poses, wardrobe or tensions that read as arguing, confessing, grieving, fleeing, being hunted or gloom (`check.py` fails on a list of such words). Sensitive or sombre themes get a joyful treatment or no world at all.
 
 ## 7. The two generators
 - **Quick page:** `randomize()` picks a world, a tension, then location/pose/look **from that tension's matched set** (added in the latest change; before that it ignored matched sets entirely), lighting via `getLightingForLoc()`, and occasionally a shot and an era. `buildVariants()` makes the six; `renderVariants()` draws the cards; Copy reads `card.dataset.prompt`.
@@ -87,7 +88,7 @@ Per-world fields: `id, name, sub, color, tensions[], locs[], poses[], looks[], a
 10. A prefix world without `variantDirectives` gives six near-identical variants.
 
 ## 11. History (summary)
-Started with 52 worlds. **Removed:** kitchen, farm, pier, dusk, spring, summer, autumn, winter, travel, market, monastery, concrete, dust, diner, still, absurd, glass, iron. **Added:** studio, bmovie, carnival, archive (now "THE PHOTOGRAPH", id unchanged), eleven single-holiday worlds. **Rebuilt** around scenes: art (35 artists, tension = artist), underground (subculture scenes; it was briefly turned into subways by mistake), hero (10 action genres), cctv, space, expedition and every other world (all 50 are now scene-built; the 15 original worlds went last). The Pollinations.ai image preview was removed from the quick page (unreliable and slow). `data.js` was split into `worlds/` and stale entries were pruned (about 15% smaller).
+Started with 52 worlds. **Removed:** kitchen, farm, pier, dusk, spring, summer, autumn, winter, travel, market, monastery, concrete, dust, diner, still, absurd, glass, iron. **Added:** studio, bmovie, carnival, archive (now "THE PHOTOGRAPH", id unchanged), eleven single-holiday worlds. **Rebuilt** around scenes: art (35 artists, tension = artist), underground (subculture scenes; it was briefly turned into subways by mistake), hero (10 action genres), cctv, space, expedition and every other world (all 50 are now scene-built; the 15 original worlds went last). Protest and Underworld were replaced by Retro and Legend, and Romance, Mystery, Stage, B-Movie, Art and about 20 others were rewritten, because a product for images people frame or post cannot rest on arguments, confessions, grief or gloom. The Pollinations.ai image preview was removed from the quick page (unreliable and slow). `data.js` was split into `worlds/` and stale entries were pruned (about 15% smaller).
 
 ## 12. Known issues and unverified
 - **No rendered images have been reviewed.** Everything above was judged from the text of the prompts and from tests; how the image generators respond is unknown.
@@ -99,7 +100,7 @@ Started with 52 worlds. **Removed:** kitchen, farm, pier, dusk, spring, summer, 
 - Some locations lack a `locTypes` entry (the lighting filter then allows indoor and outdoor lighting).
 
 ## 13. Owner's intent
-The test for any change: *"will this render an image most people will find interesting enough to create it and want to post on their social media?"* The owner dislikes boring or generic worlds, repeated words, redundant instructions, mismatched wardrobe/location, and reference lists inside prompts. The owner likes specific, active, slightly quirky scenes.
+The test for any change: *"will this render an image most people will find interesting enough to create it and want to post on their social media?"* The owner dislikes boring or generic worlds, repeated words, redundant instructions, mismatched wardrobe/location, and reference lists inside prompts. The owner likes specific, active, slightly quirky scenes. The central idea: someone makes an image with their partner or friends and wants to print, frame or post it, so every pose must look joyful or flattering, never like an argument, a confession or a mood piece.
 
 ## 14. Categories
 - **❤️  Emotion & Relationship**: romance, stage, mystery, protest, wedding, underworld
@@ -114,12 +115,10 @@ The test for any change: *"will this render an image most people will find inter
 ## 15. World inventory (generated at the time of writing)
 | id | name | tensions | locations | poses | looks | notes |
 |---|---|---|---|---|---|---|
-| romance | THE ROMANCE | 15 | 30 | 18 | 18 |  |
+| romance | THE ROMANCE | 15 | 34 | 28 | 21 |  |
 | stage | THE STAGE | 10 | 30 | 12 | 10 |  |
-| mystery | THE MYSTERY | 20 | 48 | 20 | 15 | prefix world |
-| protest | THE PROTEST | 20 | 44 | 24 | 18 | prefix world |
+| mystery | THE MYSTERY | 20 | 41 | 20 | 15 | prefix world |
 | wedding | THE WEDDING | 10 | 20 | 18 | 18 |  |
-| underworld | THE UNDERWORLD | 20 | 42 | 24 | 18 | prefix world |
 | mountain | THE MOUNTAIN | 20 | 48 | 24 | 18 |  |
 | water | THE WATER | 20 | 50 | 24 | 18 |  |
 | wild | THE WILD | 20 | 50 | 20 | 15 |  |
@@ -147,12 +146,14 @@ The test for any change: *"will this render an image most people will find inter
 | runway | THE RUNWAY | 20 | 46 | 20 | 15 | prefix world |
 | studio | THE STUDIO | 20 | 63 | 28 | 28 | prefix world |
 | archive | THE PHOTOGRAPH | 20 | 54 | 30 | 30 | prefix world |
+| retro | THE RETRO | 20 | 41 | 24 | 18 |  |
 | space | THE SPACE | 10 | 30 | 30 | 30 | prefix world |
 | surreal | THE SURREAL | 20 | 40 | 20 | 15 | prefix world |
 | underground | THE UNDERGROUND | 20 | 60 | 60 | 60 |  |
 | expedition | THE EXPEDITION | 10 | 30 | 30 | 30 | prefix world |
 | cctv | THE CCTV | 10 | 30 | 20 | 10 | prefix world |
 | bmovie | THE B-MOVIE | 20 | 54 | 32 | 32 | prefix world |
+| legend | THE LEGEND | 20 | 36 | 24 | 18 | prefix world |
 | valentines | VALENTINE'S DAY | 15 | 30 | 15 | 15 |  |
 | mothersday | MOTHER'S DAY | 10 | 20 | 12 | 12 |  |
 | fourthofjuly | FOURTH OF JULY | 10 | 20 | 12 | 12 |  |

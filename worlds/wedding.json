@@ -6,10 +6,10 @@
   "tensions": [
     "the elopement vs. the ceremony",
     "the wrong person vs. the right moment",
-    "the vow vs. the doubt",
+    "the vow vs. the dance floor",
     "together vs. everyone watching",
     "the dress vs. the marriage",
-    "love vs. obligation",
+    "love vs. confetti",
     "the moment before vs. the moment after",
     "the arranged vs. the chosen",
     "the second wedding vs. the first",
@@ -49,7 +49,7 @@
         "outrageous themed outfits each"
       ]
     },
-    "the vow vs. the doubt": {
+    "the vow vs. the dance floor": {
       "locs": [
         "church aisle traditional formal procession",
         "chapel of ease rural small ceremony",
@@ -70,7 +70,7 @@
       "locs": [
         "marquee reception evening dancing",
         "reception empty after guests gone one couple",
-        "hotel suite morning after complicated light"
+        "hotel suite morning after soft light"
       ],
       "poses": [
         "both dancing slowly, foreheads together, eyes closed",
@@ -100,7 +100,7 @@
         "wind-whipped veil and loosened tie each"
       ]
     },
-    "love vs. obligation": {
+    "love vs. confetti": {
       "locs": [
         "Indian wedding mandap ceremony elaborate",
         "Mexican civil wedding vibrant tradition"
@@ -203,7 +203,7 @@
     "Mexican civil wedding vibrant tradition",
     "marquee reception evening dancing",
     "reception empty after guests gone one couple",
-    "hotel suite morning after complicated light",
+    "hotel suite morning after soft light",
     "greenhouse botanical wedding ceremony"
   ],
   "poses": [
@@ -267,7 +267,7 @@
     "Mexican civil wedding vibrant tradition": "both",
     "marquee reception evening dancing": "both",
     "reception empty after guests gone one couple": "both",
-    "hotel suite morning after complicated light": "indoor",
+    "hotel suite morning after soft light": "indoor",
     "greenhouse botanical wedding ceremony": "indoor"
   },
   "connectors": [

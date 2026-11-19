@@ -1,279 +1,279 @@
 {
   "id": "romance",
   "name": "THE ROMANCE",
-  "sub": "Dangerous, Obsessive & Undeniable",
+  "sub": "Sparks, Slow Dances & Stolen Kisses",
   "color": "#8b1a4a",
   "tensions": [
-    "obsession vs. devotion",
-    "first vs. last",
-    "passion vs. destruction",
-    "pulled toward vs. pushed away",
+    "spark vs. slow burn",
+    "first look vs. last dance",
+    "bold vs. tender",
+    "playful vs. passionate",
     "the almost vs. the finally",
-    "wanting vs. having",
-    "forbidden vs. inevitable",
-    "the secret vs. the confession",
-    "intoxication vs. clarity",
-    "desire vs. consequence",
-    "the beginning vs. the ending",
-    "love vs. need",
+    "chasing vs. catching",
+    "daring vs. dreamy",
+    "the plan vs. the spark",
     "fire vs. tenderness",
-    "the risk vs. the safety",
-    "what if vs. what is"
+    "champagne vs. rain",
+    "you vs. the whole city",
+    "love vs. luck",
+    "adventure vs. comfort",
+    "what if vs. what is",
+    "dance vs. kiss"
   ],
   "affinities": {
-    "obsession vs. devotion": {
+    "spark vs. slow burn": {
       "locs": [
         "rain-soaked street night neon reflections",
         "alleyway rain single lamp",
         "Paris street rain autumn night"
       ],
       "poses": [
-        "one pulling the other back by the wrist, urgent",
-        "both running toward each other, hair soaked",
-        "one pressed against the wall, the other close, not quite touching"
+        "both running through the rain, laughing, sharing one coat",
+        "one twirling the other under the neon, both soaked and beaming",
+        "both kissing under the glow, rain falling around them"
       ],
       "looks": [
-        "soaked dark coat and plastered hair each",
-        "all black, collars up each",
-        "white shirt clinging, vulnerable each"
+        "leather jacket and slip dress each",
+        "long coats and glistening hair each",
+        "bright raincoats over evening wear each"
       ]
     },
-    "first vs. last": {
+    "first look vs. last dance": {
       "locs": [
-        "train departing platform one left behind",
         "night train compartment moving",
-        "jazz club late night last song"
+        "jazz club late night last song",
+        "night market closing stalls"
       ],
       "poses": [
-        "over the shoulder, one leaving, the other watching them go",
-        "both in each other's space, eyes locked",
-        "both smiling, not quite saying it"
+        "both leaning out of a train window, hair streaming",
+        "both dancing close to the last song, eyes locked",
+        "both sharing a toffee apple, laughing"
       ],
       "looks": [
         "vintage dramatic outfit each",
-        "simple dark clothes, intimate each",
-        "leather jacket and knit scarf each"
+        "leather jacket and knit scarf each",
+        "simple dark clothes, stylish each"
       ]
     },
-    "passion vs. destruction": {
+    "bold vs. tender": {
       "locs": [
         "lighthouse edge storm approaching",
         "cliff edge storm sea below",
         "summer thunderstorm porch lit"
       ],
       "poses": [
-        "one catching the other who almost fell, more than physical",
-        "both facing the wind, hands clasped",
-        "one hand on the other's face, deciding"
+        "both facing the wind, hands clasped, exhilarated",
+        "both kissing as the storm rolls in",
+        "both dancing barefoot in the rain on the porch"
       ],
       "looks": [
         "wind-whipped coats each",
-        "white shirt soaked, hair blown each",
-        "long dark coat each"
+        "white shirts soaked, hair blown each",
+        "long dark coats each"
       ]
     },
-    "pulled toward vs. pushed away": {
-      "locs": [
-        "hotel corridor single light night",
-        "long corridor hotel night both ends dark",
-        "hotel room morning light complicated"
-      ],
-      "poses": [
-        "both mid-argument that is also about something else",
-        "one turning away, the other reaching toward them",
-        "both about to kiss, stopped by something unseen"
-      ],
-      "looks": [
-        "rumpled white shirt and loosened tie each",
-        "silk robe and dress shirt each",
-        "deep red and black, deliberate each"
-      ]
-    },
-    "the almost vs. the finally": {
-      "locs": [
-        "abandoned ballroom chandelier still lit",
-        "cinema empty last showing",
-        "empty restaurant after closing one candle"
-      ],
-      "poses": [
-        "both slow dancing with no music",
-        "both sitting far apart, sharing one candle's glow",
-        "one reading aloud, the other listening with eyes closed"
-      ],
-      "looks": [
-        "formal evening clothes, bow tie undone each",
-        "vintage dress and rumpled suit each",
-        "dark elegant coat over evening wear each"
-      ]
-    },
-    "wanting vs. having": {
-      "locs": [
-        "rooftop city edge midnight confession",
-        "fire escape night city below",
-        "rooftop pool city lights reflection midnight"
-      ],
-      "poses": [
-        "both standing apart, wanting to close the distance",
-        "one confessing, the other listening very still",
-        "both leaning on the edge, faces turned to the glow"
-      ],
-      "looks": [
-        "leather jacket and dark trousers each",
-        "long coat caught by the wind each",
-        "evening wear unravelling at the end of the night each"
-      ]
-    },
-    "forbidden vs. inevitable": {
-      "locs": [
-        "phone box rain night neon",
-        "bridge night fog below",
-        "rain-soaked street night neon reflections"
-      ],
-      "poses": [
-        "both running toward each other, hair soaked",
-        "one pressed against the wall, the other close, not quite touching",
-        "one pulling the other back by the wrist, urgent"
-      ],
-      "looks": [
-        "all black, collars up each",
-        "white shirt clinging, vulnerable each",
-        "soaked dark coat and plastered hair each"
-      ]
-    },
-    "the secret vs. the confession": {
-      "locs": [
-        "car park top level night city view",
-        "rooftop water tower night city",
-        "rooftop city edge midnight confession"
-      ],
-      "poses": [
-        "one confessing, the other listening very still",
-        "both leaning on the edge, faces turned to the glow",
-        "both standing apart, wanting to close the distance"
-      ],
-      "looks": [
-        "long coat caught by the wind each",
-        "evening wear unravelling at the end of the night each",
-        "leather jacket and dark trousers each"
-      ]
-    },
-    "intoxication vs. clarity": {
-      "locs": [
-        "night market closing stalls",
-        "boardwalk end of season night",
-        "train departing platform one left behind"
-      ],
-      "poses": [
-        "both in each other's space, eyes locked",
-        "both smiling, not quite saying it",
-        "over the shoulder, one leaving, the other watching them go"
-      ],
-      "looks": [
-        "simple dark clothes, intimate each",
-        "leather jacket and knit scarf each",
-        "vintage dramatic outfit each"
-      ]
-    },
-    "desire vs. consequence": {
-      "locs": [
-        "hotel corridor single light night",
-        "long corridor hotel night both ends dark",
-        "hotel room morning light complicated"
-      ],
-      "poses": [
-        "one turning away, the other reaching toward them",
-        "both about to kiss, stopped by something unseen",
-        "both mid-argument that is also about something else"
-      ],
-      "looks": [
-        "silk robe and dress shirt each",
-        "deep red and black, deliberate each",
-        "rumpled white shirt and loosened tie each"
-      ]
-    },
-    "the beginning vs. the ending": {
-      "locs": [
-        "midnight garden statuary shadow",
-        "lighthouse edge storm approaching",
-        "cliff edge storm sea below"
-      ],
-      "poses": [
-        "both facing the wind, hands clasped",
-        "one hand on the other's face, deciding",
-        "one catching the other who almost fell, more than physical"
-      ],
-      "looks": [
-        "white shirt soaked, hair blown each",
-        "long dark coat each",
-        "wind-whipped coats each"
-      ]
-    },
-    "love vs. need": {
-      "locs": [
-        "abandoned church single candle",
-        "library closed after hours one lamp",
-        "museum closed after hours one guard lamp"
-      ],
-      "poses": [
-        "both sitting far apart, sharing one candle's glow",
-        "one reading aloud, the other listening with eyes closed",
-        "both slow dancing with no music"
-      ],
-      "looks": [
-        "vintage dress and rumpled suit each",
-        "dark elegant coat over evening wear each",
-        "formal evening clothes, bow tie undone each"
-      ]
-    },
-    "fire vs. tenderness": {
-      "locs": [
-        "empty swimming pool night",
-        "theatre wings backstage curtain",
-        "abandoned ballroom chandelier still lit"
-      ],
-      "poses": [
-        "one reading aloud, the other listening with eyes closed",
-        "both slow dancing with no music",
-        "both sitting far apart, sharing one candle's glow"
-      ],
-      "looks": [
-        "dark elegant coat over evening wear each",
-        "formal evening clothes, bow tie undone each",
-        "vintage dress and rumpled suit each"
-      ]
-    },
-    "the risk vs. the safety": {
+    "playful vs. passionate": {
       "locs": [
         "fire escape night city below",
         "rooftop pool city lights reflection midnight",
         "car park top level night city view"
       ],
       "poses": [
-        "both leaning on the edge, faces turned to the glow",
-        "both standing apart, wanting to close the distance",
-        "one confessing, the other listening very still"
+        "both slow dancing, the lights spread out behind them",
+        "both leaning together on the edge, toasting the skyline",
+        "one resting a head on the other's shoulder, both smiling"
       ],
       "looks": [
-        "evening wear unravelling at the end of the night each",
-        "leather jacket and dark trousers each",
-        "long coat caught by the wind each"
+        "evening wear under oversized coats each",
+        "dark dresses and tailored jackets each",
+        "silk shirts and leather jackets each"
+      ]
+    },
+    "the almost vs. the finally": {
+      "locs": [
+        "empty restaurant after closing one candle",
+        "library closed after hours one lamp",
+        "museum closed after hours one guard lamp"
+      ],
+      "poses": [
+        "both slow dancing, no music needed",
+        "one reading aloud, the other grinning at the voice",
+        "both sitting close, sharing one dessert and two spoons"
+      ],
+      "looks": [
+        "formal evening clothes, bow tie undone each",
+        "vintage dress and tuxedo each",
+        "dark elegant coat over evening wear each"
+      ]
+    },
+    "chasing vs. catching": {
+      "locs": [
+        "phone box rain night neon",
+        "bridge night fog below",
+        "rain-soaked street night neon reflections"
+      ],
+      "poses": [
+        "one twirling the other under the neon, both soaked and beaming",
+        "both kissing under the glow, rain falling around them",
+        "both splashing through puddles, hand in hand"
+      ],
+      "looks": [
+        "long coats and glistening hair each",
+        "bright raincoats over evening wear each",
+        "leather jacket and slip dress each"
+      ]
+    },
+    "daring vs. dreamy": {
+      "locs": [
+        "Vespa ride on a cobbled square at dusk",
+        "moonlit fountain in a Rome piazza",
+        "balcony over a Venetian canal"
+      ],
+      "poses": [
+        "both on a Vespa, one holding on tight, laughing",
+        "both tossing coins into the fountain, grinning",
+        "both dancing a tango, faces inches apart"
+      ],
+      "looks": [
+        "linen shirts and silk scarves each",
+        "summer dresses and tailored shirts each",
+        "chic black tango outfits each"
+      ]
+    },
+    "the plan vs. the spark": {
+      "locs": [
+        "theatre wings backstage curtain",
+        "grand ballroom, chandelier still lit",
+        "empty cinema, last showing"
+      ],
+      "poses": [
+        "one reading aloud, the other grinning at the voice",
+        "both sitting close, sharing one dessert and two spoons",
+        "both sneaking a kiss behind the curtain"
+      ],
+      "looks": [
+        "vintage dress and tuxedo each",
+        "dark elegant coat over evening wear each",
+        "formal evening clothes, bow tie undone each"
+      ]
+    },
+    "fire vs. tenderness": {
+      "locs": [
+        "midnight garden with moonlit statues",
+        "lighthouse edge storm approaching",
+        "cliff edge storm sea below"
+      ],
+      "poses": [
+        "both kissing as the storm rolls in",
+        "both dancing barefoot in the rain on the porch",
+        "both laughing, hair whipped, coats billowing"
+      ],
+      "looks": [
+        "white shirts soaked, hair blown each",
+        "long dark coats each",
+        "wind-whipped coats each"
+      ]
+    },
+    "champagne vs. rain": {
+      "locs": [
+        "rooftop water tower night city",
+        "rooftop city edge at midnight",
+        "champagne bar on a rooftop terrace"
+      ],
+      "poses": [
+        "both leaning together on the edge, toasting the skyline",
+        "one resting a head on the other's shoulder, both smiling",
+        "both laughing, mid-spin, coats flying"
+      ],
+      "looks": [
+        "dark dresses and tailored jackets each",
+        "silk shirts and leather jackets each",
+        "evening wear under oversized coats each"
+      ]
+    },
+    "you vs. the whole city": {
+      "locs": [
+        "fire escape night city below",
+        "rooftop pool city lights reflection midnight",
+        "car park top level night city view"
+      ],
+      "poses": [
+        "one resting a head on the other's shoulder, both smiling",
+        "both laughing, mid-spin, coats flying",
+        "both slow dancing, the lights spread out behind them"
+      ],
+      "looks": [
+        "silk shirts and leather jackets each",
+        "evening wear under oversized coats each",
+        "dark dresses and tailored jackets each"
+      ]
+    },
+    "love vs. luck": {
+      "locs": [
+        "tango floor in a candlelit cellar club",
+        "Vespa ride on a cobbled square at dusk",
+        "moonlit fountain in a Rome piazza"
+      ],
+      "poses": [
+        "both tossing coins into the fountain, grinning",
+        "both dancing a tango, faces inches apart",
+        "one serenading from the balcony, the other swooning delightedly"
+      ],
+      "looks": [
+        "summer dresses and tailored shirts each",
+        "chic black tango outfits each",
+        "linen shirts and silk scarves each"
+      ]
+    },
+    "adventure vs. comfort": {
+      "locs": [
+        "hotel corridor single light night",
+        "hotel room, morning light, rumpled sheets",
+        "hotel balcony at sunrise with croissants"
+      ],
+      "poses": [
+        "both tangled in the sheets, laughing over breakfast",
+        "one feeding the other a strawberry, both smiling",
+        "both leaning on the balcony, wrapped in robes, sipping coffee"
+      ],
+      "looks": [
+        "silk robe and rumpled shirt each",
+        "white shirts and bare feet each",
+        "cosy knit and silk pyjamas each"
       ]
     },
     "what if vs. what is": {
       "locs": [
-        "alleyway rain single lamp",
-        "Paris street rain autumn night",
-        "phone box rain night neon"
+        "swimming pool at night, lit from below",
+        "empty restaurant after closing one candle",
+        "library closed after hours one lamp"
       ],
       "poses": [
-        "one pressed against the wall, the other close, not quite touching",
-        "one pulling the other back by the wrist, urgent",
-        "both running toward each other, hair soaked"
+        "both sitting close, sharing one dessert and two spoons",
+        "both sneaking a kiss behind the curtain",
+        "both slow dancing, no music needed"
       ],
       "looks": [
-        "white shirt clinging, vulnerable each",
-        "soaked dark coat and plastered hair each",
-        "all black, collars up each"
+        "dark elegant coat over evening wear each",
+        "formal evening clothes, bow tie undone each",
+        "vintage dress and tuxedo each"
+      ]
+    },
+    "dance vs. kiss": {
+      "locs": [
+        "train platform at golden hour",
+        "boardwalk fairy lights at night",
+        "night train compartment moving"
+      ],
+      "poses": [
+        "both dancing close to the last song, eyes locked",
+        "both sharing a toffee apple, laughing",
+        "one pulling the other into a kiss between the stalls"
+      ],
+      "looks": [
+        "leather jacket and knit scarf each",
+        "simple dark clothes, stylish each",
+        "vintage dramatic outfit each"
       ]
     }
   },
@@ -283,107 +283,126 @@
     "Paris street rain autumn night",
     "phone box rain night neon",
     "bridge night fog below",
-    "rooftop city edge midnight confession",
     "fire escape night city below",
     "rooftop pool city lights reflection midnight",
     "car park top level night city view",
     "rooftop water tower night city",
-    "abandoned ballroom chandelier still lit",
-    "cinema empty last showing",
+    "rooftop city edge at midnight",
+    "champagne bar on a rooftop terrace",
     "empty restaurant after closing one candle",
-    "abandoned church single candle",
     "library closed after hours one lamp",
     "museum closed after hours one guard lamp",
-    "empty swimming pool night",
     "theatre wings backstage curtain",
+    "grand ballroom, chandelier still lit",
+    "empty cinema, last showing",
+    "swimming pool at night, lit from below",
     "hotel corridor single light night",
-    "long corridor hotel night both ends dark",
-    "hotel room morning light complicated",
+    "hotel room, morning light, rumpled sheets",
+    "hotel balcony at sunrise with croissants",
     "lighthouse edge storm approaching",
     "cliff edge storm sea below",
     "summer thunderstorm porch lit",
-    "midnight garden statuary shadow",
-    "train departing platform one left behind",
+    "midnight garden with moonlit statues",
     "night train compartment moving",
     "jazz club late night last song",
     "night market closing stalls",
-    "boardwalk end of season night"
+    "train platform at golden hour",
+    "boardwalk fairy lights at night",
+    "Vespa ride on a cobbled square at dusk",
+    "moonlit fountain in a Rome piazza",
+    "balcony over a Venetian canal",
+    "tango floor in a candlelit cellar club"
   ],
   "poses": [
-    "one pulling the other back by the wrist, urgent",
-    "both running toward each other, hair soaked",
-    "one pressed against the wall, the other close, not quite touching",
-    "both standing apart, wanting to close the distance",
-    "one confessing, the other listening very still",
-    "both leaning on the edge, faces turned to the glow",
-    "both slow dancing with no music",
-    "both sitting far apart, sharing one candle's glow",
-    "one reading aloud, the other listening with eyes closed",
-    "both mid-argument that is also about something else",
-    "one turning away, the other reaching toward them",
-    "both about to kiss, stopped by something unseen",
-    "one catching the other who almost fell, more than physical",
-    "both facing the wind, hands clasped",
-    "one hand on the other's face, deciding",
-    "over the shoulder, one leaving, the other watching them go",
-    "both in each other's space, eyes locked",
-    "both smiling, not quite saying it"
+    "both running through the rain, laughing, sharing one coat",
+    "one twirling the other under the neon, both soaked and beaming",
+    "both kissing under the glow, rain falling around them",
+    "both splashing through puddles, hand in hand",
+    "both slow dancing, the lights spread out behind them",
+    "both leaning together on the edge, toasting the skyline",
+    "one resting a head on the other's shoulder, both smiling",
+    "both laughing, mid-spin, coats flying",
+    "both slow dancing, no music needed",
+    "one reading aloud, the other grinning at the voice",
+    "both sitting close, sharing one dessert and two spoons",
+    "both sneaking a kiss behind the curtain",
+    "both tangled in the sheets, laughing over breakfast",
+    "one feeding the other a strawberry, both smiling",
+    "both leaning on the balcony, wrapped in robes, sipping coffee",
+    "both dancing in the corridor, shoes in their hands",
+    "both facing the wind, hands clasped, exhilarated",
+    "both kissing as the storm rolls in",
+    "both dancing barefoot in the rain on the porch",
+    "both laughing, hair whipped, coats billowing",
+    "both leaning out of a train window, hair streaming",
+    "both dancing close to the last song, eyes locked",
+    "both sharing a toffee apple, laughing",
+    "one pulling the other into a kiss between the stalls",
+    "both on a Vespa, one holding on tight, laughing",
+    "both tossing coins into the fountain, grinning",
+    "both dancing a tango, faces inches apart",
+    "one serenading from the balcony, the other swooning delightedly"
   ],
   "looks": [
-    "soaked dark coat and plastered hair each",
-    "all black, collars up each",
-    "white shirt clinging, vulnerable each",
-    "leather jacket and dark trousers each",
-    "long coat caught by the wind each",
-    "evening wear unravelling at the end of the night each",
+    "leather jacket and slip dress each",
+    "long coats and glistening hair each",
+    "bright raincoats over evening wear each",
+    "evening wear under oversized coats each",
+    "dark dresses and tailored jackets each",
+    "silk shirts and leather jackets each",
     "formal evening clothes, bow tie undone each",
-    "vintage dress and rumpled suit each",
+    "vintage dress and tuxedo each",
     "dark elegant coat over evening wear each",
-    "rumpled white shirt and loosened tie each",
-    "silk robe and dress shirt each",
-    "deep red and black, deliberate each",
+    "silk robe and rumpled shirt each",
+    "white shirts and bare feet each",
+    "cosy knit and silk pyjamas each",
     "wind-whipped coats each",
-    "white shirt soaked, hair blown each",
-    "long dark coat each",
+    "white shirts soaked, hair blown each",
+    "long dark coats each",
     "vintage dramatic outfit each",
-    "simple dark clothes, intimate each",
-    "leather jacket and knit scarf each"
+    "leather jacket and knit scarf each",
+    "simple dark clothes, stylish each",
+    "linen shirts and silk scarves each",
+    "summer dresses and tailored shirts each",
+    "chic black tango outfits each"
   ],
-  "promptSuffix": "Colour grade: deep saturated cinematic darkness — wet streets, neon, blue-black midnight. Not sweet.",
-  "translations": {
-    "first vs. last": "the first valentine and the one you didn’t know was the last"
-  },
+  "promptSuffix": "Colour grade: rich saturated cinematic colour: neon reflections, warm lamplight, blue-hour glow.",
+  "translations": {},
   "locTypes": {
     "rain-soaked street night neon reflections": "outdoor",
     "alleyway rain single lamp": "both",
     "Paris street rain autumn night": "outdoor",
     "phone box rain night neon": "both",
     "bridge night fog below": "outdoor",
-    "rooftop city edge midnight confession": "outdoor",
     "fire escape night city below": "both",
     "rooftop pool city lights reflection midnight": "outdoor",
     "car park top level night city view": "outdoor",
     "rooftop water tower night city": "outdoor",
-    "abandoned ballroom chandelier still lit": "indoor",
-    "cinema empty last showing": "both",
+    "rooftop city edge at midnight": "outdoor",
+    "champagne bar on a rooftop terrace": "indoor",
     "empty restaurant after closing one candle": "indoor",
-    "abandoned church single candle": "indoor",
     "library closed after hours one lamp": "both",
     "museum closed after hours one guard lamp": "indoor",
-    "empty swimming pool night": "both",
     "theatre wings backstage curtain": "indoor",
+    "grand ballroom, chandelier still lit": "indoor",
+    "empty cinema, last showing": "indoor",
+    "swimming pool at night, lit from below": "both",
     "hotel corridor single light night": "indoor",
-    "long corridor hotel night both ends dark": "indoor",
-    "hotel room morning light complicated": "indoor",
+    "hotel room, morning light, rumpled sheets": "indoor",
+    "hotel balcony at sunrise with croissants": "both",
     "lighthouse edge storm approaching": "both",
     "cliff edge storm sea below": "outdoor",
     "summer thunderstorm porch lit": "both",
-    "midnight garden statuary shadow": "outdoor",
-    "train departing platform one left behind": "both",
+    "midnight garden with moonlit statues": "outdoor",
     "night train compartment moving": "both",
     "jazz club late night last song": "indoor",
     "night market closing stalls": "outdoor",
-    "boardwalk end of season night": "outdoor"
+    "train platform at golden hour": "both",
+    "boardwalk fairy lights at night": "both",
+    "Vespa ride on a cobbled square at dusk": "outdoor",
+    "moonlit fountain in a Rome piazza": "both",
+    "balcony over a Venetian canal": "both",
+    "tango floor in a candlelit cellar club": "indoor"
   },
   "connectors": [
     "in",

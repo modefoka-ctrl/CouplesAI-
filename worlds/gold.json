@@ -4,19 +4,19 @@
   "sub": "Excess, Power & the Price of Everything",
   "color": "#c8a800",
   "tensions": [
-    "wealth vs. emptiness",
-    "power vs. loneliness",
-    "excess vs. hunger",
+    "wealth vs. whimsy",
+    "power vs. play",
+    "excess vs. elegance",
     "the gilded vs. the real",
     "new money vs. old",
     "bought vs. earned",
     "the surface vs. what's beneath",
-    "luxury vs. guilt",
+    "luxury vs. laughter",
     "having everything vs. wanting more",
     "the golden cage vs. freedom"
   ],
   "affinities": {
-    "wealth vs. emptiness": {
+    "wealth vs. whimsy": {
       "locs": [
         "Dubai penthouse glass tower night city spread",
         "Hong Kong Peninsula hotel lobby formal",
@@ -33,15 +33,15 @@
         "designer coat and sunglasses each"
       ]
     },
-    "power vs. loneliness": {
+    "power vs. play": {
       "locs": [
         "1920s Wall Street private club oak panelling whiskey",
         "Mayfair private members club 1990s dark wood",
         "Venetian palazzo canal view evening candlelight"
       ],
       "poses": [
-        "both sitting stiffly in leather chairs, glasses untouched",
-        "both standing apart, a polite smile on each face",
+        "both lounging in leather chairs, glasses raised",
+        "both standing together, a knowing smile on each face",
         "one whispering to the other behind a raised glass"
       ],
       "looks": [
@@ -50,15 +50,15 @@
         "charcoal suit and silk dress each"
       ]
     },
-    "excess vs. hunger": {
+    "excess vs. elegance": {
       "locs": [
         "1980s Texas oil money ranch interior excess gilt",
         "1980s Wall Street trading floor chaos excess",
         "New York Plaza Hotel suite excess gold"
       ],
       "poses": [
-        "both lounging among piles of cash and gilt, bored",
-        "both on the phone, shouting over each other",
+        "both lounging among piles of cash and gilt, grinning",
+        "both on the phone, grinning like they've just won",
         "both posing with glasses, shoulders squared"
       ],
       "looks": [
@@ -91,8 +91,8 @@
         "Mayfair private members club 1990s dark wood"
       ],
       "poses": [
-        "both sitting stiffly in leather chairs, glasses untouched",
-        "both standing apart, a polite smile on each face",
+        "both lounging in leather chairs, glasses raised",
+        "both standing together, a knowing smile on each face",
         "one whispering to the other behind a raised glass"
       ],
       "looks": [
@@ -135,7 +135,7 @@
         "designer coat and sunglasses each"
       ]
     },
-    "luxury vs. guilt": {
+    "luxury vs. laughter": {
       "locs": [
         "Russian oligarch yacht Mediterranean afternoon",
         "Aspen ski lodge excess fireplace wealthy",
@@ -176,8 +176,8 @@
         "1980s Wall Street trading floor chaos excess"
       ],
       "poses": [
-        "both lounging among piles of cash and gilt, bored",
-        "both on the phone, shouting over each other",
+        "both lounging among piles of cash and gilt, grinning",
+        "both on the phone, grinning like they've just won",
         "both posing with glasses, shoulders squared"
       ],
       "looks": [
@@ -210,11 +210,11 @@
     "Aspen ski lodge excess fireplace wealthy"
   ],
   "poses": [
-    "both sitting stiffly in leather chairs, glasses untouched",
-    "both standing apart, a polite smile on each face",
+    "both lounging in leather chairs, glasses raised",
+    "both standing together, a knowing smile on each face",
     "one whispering to the other behind a raised glass",
-    "both lounging among piles of cash and gilt, bored",
-    "both on the phone, shouting over each other",
+    "both lounging among piles of cash and gilt, grinning",
+    "both on the phone, grinning like they've just won",
     "both posing with glasses, shoulders squared",
     "both gazing out of a vast window, small against the glass",
     "both seated at opposite ends of a long table",

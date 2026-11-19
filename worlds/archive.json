@@ -34,7 +34,7 @@
       ],
       "poses": [
         "both formally posed, one seated, one standing behind",
-        "both in profile, facing each other with solemn faces",
+        "both in profile, facing each other with a hint of a smile",
         "one holding a parasol, the other's hand resting on a column"
       ],
       "looks": [
@@ -67,7 +67,7 @@
         "Victorian parlour formal sitting 1860s"
       ],
       "poses": [
-        "both rigidly still, hands folded in laps, staring ahead",
+        "both seated upright, hands folded, calm and proud",
         "one seated, the other standing with a hand on the chair back",
         "both slightly blurred, unable to hold still for the long exposure"
       ],
@@ -98,12 +98,12 @@
       "locs": [
         "1940s studio portrait wartime formal",
         "1940s press photo studio flash powder",
-        "1940s wartime goodbye platform station"
+        "1940s railway platform homecoming platform station"
       ],
       "poses": [
-        "both serious, looking straight into the lens",
+        "both confident, looking straight into the lens",
         "one holding the other's hand, composed and formal",
-        "both standing close, a quiet goodbye in their eyes"
+        "both standing close, a warm smile in their eyes"
       ],
       "looks": [
         "utility dress and military uniform each",
@@ -171,7 +171,7 @@
       "poses": [
         "one seated, the other standing with a hand on the chair back",
         "both slightly blurred, unable to hold still for the long exposure",
-        "both rigidly still, hands folded in laps, staring ahead"
+        "both seated upright, hands folded, calm and proud"
       ],
       "looks": [
         "heavy wool coat and bonnet each",
@@ -187,7 +187,7 @@
       ],
       "poses": [
         "both pulling faces at the camera, flash-lit",
-        "both slouched together, casual and deadpan",
+        "both slouched together, casual and cheeky",
         "both squeezed into the frame, laughing"
       ],
       "looks": [
@@ -221,8 +221,8 @@
       ],
       "poses": [
         "one holding the other's hand, composed and formal",
-        "both standing close, a quiet goodbye in their eyes",
-        "both serious, looking straight into the lens"
+        "both standing close, a warm smile in their eyes",
+        "both confident, looking straight into the lens"
       ],
       "looks": [
         "Sunday best coat and hat each",
@@ -271,7 +271,7 @@
         "Edwardian portrait studio electric light early"
       ],
       "poses": [
-        "both in profile, facing each other with solemn faces",
+        "both in profile, facing each other with a hint of a smile",
         "one holding a parasol, the other's hand resting on a column",
         "both formally posed, one seated, one standing behind"
       ],
@@ -322,7 +322,7 @@
         "1990s portrait studio soft focus"
       ],
       "poses": [
-        "both slouched together, casual and deadpan",
+        "both slouched together, casual and cheeky",
         "both squeezed into the frame, laughing",
         "both pulling faces at the camera, flash-lit"
       ],
@@ -387,7 +387,7 @@
     "1930s documentary press photograph street",
     "1940s studio portrait wartime formal",
     "1940s press photo studio flash powder",
-    "1940s wartime goodbye platform station",
+    "1940s railway platform homecoming platform station",
     "1940s family portrait studio Sunday best",
     "large format studio portrait 1940s sharp",
     "black and white film portrait studio grain",
@@ -424,18 +424,18 @@
     "2010s instagram square portrait early"
   ],
   "poses": [
-    "both rigidly still, hands folded in laps, staring ahead",
+    "both seated upright, hands folded, calm and proud",
     "one seated, the other standing with a hand on the chair back",
     "both slightly blurred, unable to hold still for the long exposure",
     "both formally posed, one seated, one standing behind",
-    "both in profile, facing each other with solemn faces",
+    "both in profile, facing each other with a hint of a smile",
     "one holding a parasol, the other's hand resting on a column",
     "both glamorous and aloof, chins tilted to the light",
     "both seated close, intimate and poised",
     "one resting a chin on the other's shoulder, eyes to camera",
-    "both serious, looking straight into the lens",
+    "both confident, looking straight into the lens",
     "one holding the other's hand, composed and formal",
-    "both standing close, a quiet goodbye in their eyes",
+    "both standing close, a warm smile in their eyes",
     "both smiling brightly at the camera, close together",
     "one's arm around the other, casual and cheerful",
     "both seated, hands neatly folded, grinning",
@@ -449,7 +449,7 @@
     "both laughing mid-party, flash-lit and red-eyed",
     "both posed stiffly, looking proud",
     "both pulling faces at the camera, flash-lit",
-    "both slouched together, casual and deadpan",
+    "both slouched together, casual and cheeky",
     "both squeezed into the frame, laughing",
     "both leaning in for a selfie, arms outstretched",
     "both captured mid-laugh, a little blurred",
@@ -534,7 +534,7 @@
     "1930s documentary press photograph street": "outdoor",
     "1940s studio portrait wartime formal": "indoor",
     "1940s press photo studio flash powder": "indoor",
-    "1940s wartime goodbye platform station": "both",
+    "1940s railway platform homecoming platform station": "both",
     "1940s family portrait studio Sunday best": "indoor",
     "large format studio portrait 1940s sharp": "indoor",
     "black and white film portrait studio grain": "indoor",

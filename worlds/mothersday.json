@@ -8,12 +8,12 @@
     "past vs. present",
     "child vs. adult",
     "remembered vs. present",
-    "gratitude vs. guilt",
+    "gratitude vs. giggles",
     "love vs. time",
     "then vs. now",
     "the mother vs. the woman",
-    "sacrifice vs. self",
-    "held vs. let go"
+    "devotion vs. fun",
+    "held vs. twirled"
   ],
   "affinities": {
     "given vs. received": {
@@ -84,7 +84,7 @@
         "pastel shirt and cardigan each"
       ]
     },
-    "gratitude vs. guilt": {
+    "gratitude vs. giggles": {
       "locs": [
         "kitchen flowers vase morning light",
         "bedroom morning light flowers bedside",
@@ -152,7 +152,7 @@
         "spring dress and sun hat each"
       ]
     },
-    "sacrifice vs. self": {
+    "devotion vs. fun": {
       "locs": [
         "breakfast tray bedroom morning flowers",
         "kitchen table Sunday morning flowers bouquet",
@@ -169,7 +169,7 @@
         "casual home clothes, hair loose each"
       ]
     },
-    "held vs. let go": {
+    "held vs. twirled": {
       "locs": [
         "garden table lunch spring afternoon",
         "home garden spring evening golden hour",
@@ -242,11 +242,8 @@
     "given vs. received": "the act of giving and the weight of receiving",
     "child vs. adult": "who you were when she held you and who you are now",
     "remembered vs. present": "the mother in the memory and the person in the room",
-    "gratitude vs. guilt": "thank you and I’m sorry in the same breath",
     "love vs. time": "what the years do to love and what love does to years",
-    "the mother vs. the woman": "the role and the person beneath the role",
-    "sacrifice vs. self": "what was given up and what that cost",
-    "held vs. let go": "held back from the sea and almost letting go"
+    "the mother vs. the woman": "the role and the person beneath the role"
   },
   "locTypes": {
     "spring garden flowers morning sunlight": "outdoor",

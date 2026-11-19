@@ -8,7 +8,7 @@
     "awake vs. asleep",
     "seen vs. unseen",
     "late vs. early",
-    "energy vs. exhaustion",
+    "energy vs. calm",
     "danger vs. safety",
     "hidden vs. exposed",
     "real vs. imagined",
@@ -19,10 +19,10 @@
     "alone vs. watched",
     "noise vs. quiet hour",
     "moving vs. paralyzed",
-    "hunting vs. hunted",
+    "chasing vs. wandering",
     "streetlit vs. shadow",
     "neon-free dark vs. lit",
-    "sober vs. dreaming",
+    "awake vs. dreaming",
     "night shift vs. day world"
   ],
   "locs": [
@@ -200,7 +200,7 @@
         "travel-worn coats and backpacks each"
       ]
     },
-    "energy vs. exhaustion": {
+    "energy vs. calm": {
       "locs": [
         "24h diner at 3am",
         "night club exterior queue gone",
@@ -387,7 +387,7 @@
         "trench coats and tote bags each"
       ]
     },
-    "hunting vs. hunted": {
+    "chasing vs. wandering": {
       "locs": [
         "Miami South Beach night",
         "New Orleans Bourbon St late",
@@ -438,7 +438,7 @@
         "evening wear under oversized coats each"
       ]
     },
-    "sober vs. dreaming": {
+    "awake vs. dreaming": {
       "locs": [
         "Brussels Grande Place night",
         "Prague Wenceslas night",

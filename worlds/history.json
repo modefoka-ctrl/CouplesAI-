@@ -73,7 +73,7 @@
   "poses": [
     "both standing between the columns, heads tilted toward the light",
     "one tracing a carved inscription, the other reading aloud",
-    "both seated on worn stone steps, quiet and thoughtful",
+    "both seated on worn stone steps, relaxed and smiling",
     "both small before the vast stonework, awestruck",
     "both climbing the ancient steps, hand in hand",
     "both kneeling to touch the carved wall",
@@ -92,13 +92,13 @@
     "both standing before the old building, formal and proud",
     "both walking the dirt road, arm in arm",
     "both reading a proclamation, heads together",
-    "both silent, heads bowed, hats in hand",
-    "one placing flowers, the other standing very still",
-    "both gazing across the quiet fields at dawn",
+    "both standing proud, hats raised in salute",
+    "one laying a flower on the monument, the other smiling",
+    "both gazing across the golden fields at dawn",
     "both squared up in the dusty road, hands near their belts",
     "both leaning on the weathered wall, squinting",
     "both walking the boardwalk, spurs jingling",
-    "both standing before the old wall, solemn and close",
+    "both standing before the old wall, close and curious",
     "both looking through a gap to the other side",
     "both walking side by side, collars up"
   ],
@@ -125,7 +125,7 @@
     "bonnet and long colonial gown each",
     "frock coat and breeches each",
     "period military greatcoat each",
-    "dark mourning dress and shawl each",
+    "elegant period dress and shawl each",
     "frock coat and top hat each",
     "duster coat and wide-brimmed hat each",
     "gingham dress and shawl each",
@@ -142,7 +142,7 @@
         "Dresden Frauenkirche rebuilt exterior"
       ],
       "poses": [
-        "both standing before the old wall, solemn and close",
+        "both standing before the old wall, close and curious",
         "both looking through a gap to the other side",
         "both walking side by side, collars up"
       ],
@@ -159,13 +159,13 @@
         "Napoleonic battlefield monument France"
       ],
       "poses": [
-        "both silent, heads bowed, hats in hand",
-        "one placing flowers, the other standing very still",
-        "both gazing across the quiet fields at dawn"
+        "both standing proud, hats raised in salute",
+        "one laying a flower on the monument, the other smiling",
+        "both gazing across the golden fields at dawn"
       ],
       "looks": [
         "period military greatcoat each",
-        "dark mourning dress and shawl each",
+        "elegant period dress and shawl each",
         "frock coat and top hat each"
       ]
     },
@@ -178,7 +178,7 @@
       "poses": [
         "both standing between the columns, heads tilted toward the light",
         "one tracing a carved inscription, the other reading aloud",
-        "both seated on worn stone steps, quiet and thoughtful"
+        "both seated on worn stone steps, relaxed and smiling"
       ],
       "looks": [
         "draped linen toga and sandals each",
@@ -276,12 +276,12 @@
         "Antietam battlefield Maryland dawn"
       ],
       "poses": [
-        "one placing flowers, the other standing very still",
-        "both gazing across the quiet fields at dawn",
-        "both silent, heads bowed, hats in hand"
+        "one laying a flower on the monument, the other smiling",
+        "both gazing across the golden fields at dawn",
+        "both standing proud, hats raised in salute"
       ],
       "looks": [
-        "dark mourning dress and shawl each",
+        "elegant period dress and shawl each",
         "frock coat and top hat each",
         "period military greatcoat each"
       ]
@@ -294,7 +294,7 @@
       ],
       "poses": [
         "one tracing a carved inscription, the other reading aloud",
-        "both seated on worn stone steps, quiet and thoughtful",
+        "both seated on worn stone steps, relaxed and smiling",
         "both standing between the columns, heads tilted toward the light"
       ],
       "looks": [
@@ -428,14 +428,14 @@
         "Civil War battlefield marker dawn"
       ],
       "poses": [
-        "both gazing across the quiet fields at dawn",
-        "both silent, heads bowed, hats in hand",
-        "one placing flowers, the other standing very still"
+        "both gazing across the golden fields at dawn",
+        "both standing proud, hats raised in salute",
+        "one laying a flower on the monument, the other smiling"
       ],
       "looks": [
         "frock coat and top hat each",
         "period military greatcoat each",
-        "dark mourning dress and shawl each"
+        "elegant period dress and shawl each"
       ]
     },
     "inscription vs. erasure": {
@@ -445,7 +445,7 @@
         "Colosseum interior arch looking up"
       ],
       "poses": [
-        "both seated on worn stone steps, quiet and thoughtful",
+        "both seated on worn stone steps, relaxed and smiling",
         "both standing between the columns, heads tilted toward the light",
         "one tracing a carved inscription, the other reading aloud"
       ],

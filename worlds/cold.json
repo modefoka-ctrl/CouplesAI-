@@ -6,7 +6,7 @@
   "tensions": [
     "warm vs. frozen",
     "breath vs. stillness",
-    "buried vs. exposed",
+    "snug vs. brave",
     "motion vs. ice",
     "alive vs. still",
     "soft vs. brittle",
@@ -166,7 +166,7 @@
         "thick down jackets and balaclavas each"
       ]
     },
-    "buried vs. exposed": {
+    "snug vs. brave": {
       "locs": [
         "Greenland ice sheet horizon",
         "Alaska Brooks Range winter",
@@ -474,9 +474,7 @@
     }
   },
   "promptSuffix": "Colour grade: cool, de-saturated, blue-white palette. Visible breath where temperatures warrant it. The cold should be palpable — not a backdrop but a physical presence.",
-  "translations": {
-    "buried vs. exposed": "buried beneath the surface or left exposed to everything"
-  },
+  "translations": {},
   "locTypes": {
     "frozen lake at first light crack pattern": "outdoor",
     "Russia Baikal clear ice walking": "outdoor",

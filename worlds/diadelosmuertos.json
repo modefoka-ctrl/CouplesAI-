@@ -4,11 +4,11 @@
   "sub": "Marigolds, Memory & the Return",
   "color": "#d4780a",
   "tensions": [
-    "death vs. life",
+    "colour vs. candlelight",
     "memory vs. forgetting",
-    "grief vs. celebration",
+    "joy vs. remembrance",
     "here vs. gone",
-    "the living vs. the dead",
+    "the living vs. the remembered",
     "past vs. present",
     "love vs. loss",
     "colour vs. darkness",
@@ -16,7 +16,7 @@
     "held vs. let go"
   ],
   "affinities": {
-    "death vs. life": {
+    "colour vs. candlelight": {
       "locs": [
         "parade dia de los muertos street costume night",
         "calavera parade float street night elaborate",
@@ -50,7 +50,7 @@
         "skull makeup and black suit each"
       ]
     },
-    "grief vs. celebration": {
+    "joy vs. remembrance": {
       "locs": [
         "traditional dia de los muertos performance plaza",
         "traditional dance dia de los muertos plaza",
@@ -84,16 +84,16 @@
         "calavera face paint and floral crown each"
       ]
     },
-    "the living vs. the dead": {
+    "the living vs. the remembered": {
       "locs": [
         "cemetery marigold path candles night procession",
         "cemetery grave decorated marigolds candles night",
         "cemetery night candles thousands marigolds"
       ],
       "poses": [
-        "both kneeling at a grave, candles glowing around them",
+        "both lighting candles among the marigolds, faces glowing",
         "both walking the petal-strewn path, holding candles",
-        "both sharing food beside the grave, laughing quietly"
+        "both sharing sweet bread beside the flowers, laughing"
       ],
       "looks": [
         "embroidered shawl and dark suit each",
@@ -177,8 +177,8 @@
       ],
       "poses": [
         "both walking the petal-strewn path, holding candles",
-        "both sharing food beside the grave, laughing quietly",
-        "both kneeling at a grave, candles glowing around them"
+        "both sharing sweet bread beside the flowers, laughing",
+        "both lighting candles among the marigolds, faces glowing"
       ],
       "looks": [
         "marigold crown and black dress each",
@@ -213,9 +213,9 @@
     "both placing a photograph on the altar, hands touching",
     "both standing before the altar, eyes closed, remembering",
     "one lighting a candle, the other arranging flowers",
-    "both kneeling at a grave, candles glowing around them",
+    "both lighting candles among the marigolds, faces glowing",
     "both walking the petal-strewn path, holding candles",
-    "both sharing food beside the grave, laughing quietly",
+    "both sharing sweet bread beside the flowers, laughing",
     "both dancing in the procession, skirts swirling",
     "both raised on a float, arms open to the crowd",
     "both marching with candles, faces painted",
@@ -240,9 +240,7 @@
   "promptSuffix": "Colour grade: marigold gold, deep purple, the warm flicker of hundreds of candles. Rich, saturated, deeply beautiful — this is death celebrated as colour.",
   "translations": {
     "memory vs. forgetting": "memory and the river that takes it",
-    "grief vs. celebration": "the same photograph meaning different things",
     "here vs. gone": "the person remembered on the altar and the fact of their absence",
-    "the living vs. the dead": "the two sides of the marigold path",
     "colour vs. darkness": "the brightness of dia de los muertos against what it mourns",
     "held vs. let go": "held back from the sea and almost letting go"
   },

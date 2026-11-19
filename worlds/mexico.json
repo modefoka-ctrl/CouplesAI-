@@ -11,7 +11,7 @@
     "ocean vs. desert",
     "market vs. mall",
     "family vs. solitude",
-    "day of the dead vs. life",
+    "marigolds vs. music",
     "mural vs. canvas",
     "spice vs. sweet",
     "local vs. tourist",
@@ -23,7 +23,7 @@
     "artisan vs. factory",
     "sacred vs. street",
     "migrant vs. rooted",
-    "celebration vs. mourning"
+    "celebration vs. serenade"
   ],
   "locs": [
     "Chichen Itza pyramid sunrise empty",
@@ -91,7 +91,7 @@
     "both sitting on the ledge, feet dangling in the cool",
     "both swimming through a shaft of sunlight",
     "both carrying candles through the dark, faces glowing",
-    "both kneeling to place marigolds, heads bowed",
+    "both placing marigolds on the altar, smiling",
     "both gazing across the glittering water, hand in hand",
     "both smiling softly among the flowers",
     "both leaning out of the train window, hair streaming",
@@ -242,14 +242,14 @@
         "simple bathing suits and shell necklaces each"
       ]
     },
-    "day of the dead vs. life": {
+    "marigolds vs. music": {
       "locs": [
         "Pátzcuaro Day of Dead lake",
         "Janitzio island midnight ceremony"
       ],
       "poses": [
         "both carrying candles through the dark, faces glowing",
-        "both kneeling to place marigolds, heads bowed",
+        "both placing marigolds on the altar, smiling",
         "both gazing across the glittering water, hand in hand"
       ],
       "looks": [
@@ -445,13 +445,13 @@
         "woven ponchos and boots each"
       ]
     },
-    "celebration vs. mourning": {
+    "celebration vs. serenade": {
       "locs": [
         "Janitzio island midnight ceremony",
         "Pátzcuaro Day of Dead lake"
       ],
       "poses": [
-        "both kneeling to place marigolds, heads bowed",
+        "both placing marigolds on the altar, smiling",
         "both gazing across the glittering water, hand in hand",
         "both smiling softly among the flowers"
       ],

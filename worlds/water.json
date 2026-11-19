@@ -22,7 +22,7 @@
     "tidal vs. still",
     "shallow vs. abyss",
     "fluid vs. rigid",
-    "surrender vs. fight",
+    "surrender vs. splash",
     "visible vs. invisible"
   ],
   "locs": [
@@ -430,7 +430,7 @@
         "linen shirt open over swimwear each"
       ]
     },
-    "surrender vs. fight": {
+    "surrender vs. splash": {
       "locs": [
         "Dead Sea float horizon",
         "lake at first light still water",

@@ -20,12 +20,12 @@
       "locs": [
         "supermarket aisle operatic gesture fluorescent ordinary",
         "kebab shop 2am grand gesture fluorescent",
-        "corner shop theatrical argument fluorescent"
+        "corner shop theatrical flourish fluorescent"
       ],
       "poses": [
         "one delivering a speech to the other, who is the only audience",
         "both frozen mid-gesture, arms flung wide",
-        "one sinking to their knees, the other stepping over them"
+        "one sinking to their knees in mock-grandeur, the other clapping"
       ],
       "looks": [
         "full tuxedo and ball gown each",
@@ -37,7 +37,7 @@
       "locs": [
         "petrol station forecourt dramatic speech nobody watching night",
         "bus stop theatrical declaration nobody waiting",
-        "car park rooftop theatrical confrontation empty night"
+        "car park rooftop theatrical showdown empty night"
       ],
       "poses": [
         "both striking a heroic tableau, chins high",
@@ -53,17 +53,17 @@
     "the role vs. the person": {
       "locs": [
         "laundromat 3am theatrical monologue washing machines",
-        "hospital waiting room dramatic exit door",
+        "ice cream van forecourt theatrical delight",
         "lift lobby theatrical pause before doors open"
       ],
       "poses": [
         "both walking in slow motion, hair flying, no wind",
         "one pointing dramatically, the other quite indifferent",
-        "both in a stormy argument, whispering furiously"
+        "both belting a duet to an imaginary audience, hands clasped"
       ],
       "looks": [
         "opera costume in full each",
-        "Victorian mourning dress each",
+        "Victorian ball gown and top hat each",
         "ballet tutu and tights each"
       ]
     },
@@ -75,7 +75,7 @@
       ],
       "poses": [
         "both frozen mid-gesture, arms flung wide",
-        "one sinking to their knees, the other stepping over them",
+        "one sinking to their knees in mock-grandeur, the other clapping",
         "both taking an elaborate bow to an empty room"
       ],
       "looks": [
@@ -109,11 +109,11 @@
       ],
       "poses": [
         "one pointing dramatically, the other quite indifferent",
-        "both in a stormy argument, whispering furiously",
-        "one fainting into the other's arms, eyes on the camera"
+        "both belting a duet to an imaginary audience, hands clasped",
+        "one dipping the other in a showy ballroom dip, both laughing"
       ],
       "looks": [
-        "Victorian mourning dress each",
+        "Victorian ball gown and top hat each",
         "ballet tutu and tights each",
         "everyday clothes worn with maximum theatrical intensity each"
       ]
@@ -125,7 +125,7 @@
         "supermarket aisle operatic gesture fluorescent ordinary"
       ],
       "poses": [
-        "one sinking to their knees, the other stepping over them",
+        "one sinking to their knees in mock-grandeur, the other clapping",
         "both taking an elaborate bow to an empty room",
         "one delivering a speech to the other, who is the only audience"
       ],
@@ -138,7 +138,7 @@
     "dramatic vs. mundane": {
       "locs": [
         "underpass theatrical freeze frame urban",
-        "railway platform theatrical goodbye overplayed",
+        "railway platform theatrical flourish overplayed",
         "bus upper deck theatrical speech empty"
       ],
       "poses": [
@@ -156,11 +156,11 @@
       "locs": [
         "bowling alley theatrical celebration strike",
         "car wash theatrical moment soap suds",
-        "dentist waiting room theatrical anxiety performance"
+        "karaoke bar theatrical duet fluorescent"
       ],
       "poses": [
-        "both in a stormy argument, whispering furiously",
-        "one fainting into the other's arms, eyes on the camera",
+        "both belting a duet to an imaginary audience, hands clasped",
+        "one dipping the other in a showy ballroom dip, both laughing",
         "both walking in slow motion, hair flying, no wind"
       ],
       "looks": [
@@ -172,7 +172,7 @@
     "the gesture vs. the truth": {
       "locs": [
         "kebab shop 2am grand gesture fluorescent",
-        "corner shop theatrical argument fluorescent",
+        "corner shop theatrical flourish fluorescent",
         "post office queue theatrical monologue"
       ],
       "poses": [
@@ -190,7 +190,7 @@
   "locs": [
     "supermarket aisle operatic gesture fluorescent ordinary",
     "kebab shop 2am grand gesture fluorescent",
-    "corner shop theatrical argument fluorescent",
+    "corner shop theatrical flourish fluorescent",
     "post office queue theatrical monologue",
     "department store escalator theatrical descent",
     "betting shop theatrical reaction to result",
@@ -198,31 +198,31 @@
     "newsagent morning theatrical significance ordinary",
     "petrol station forecourt dramatic speech nobody watching night",
     "bus stop theatrical declaration nobody waiting",
-    "car park rooftop theatrical confrontation empty night",
+    "car park rooftop theatrical showdown empty night",
     "train carriage theatrical aside fellow passengers ignore",
     "airport arrivals hall dramatic reunion theatrical",
     "motorway services dramatic tableau ordinary setting",
     "underpass theatrical freeze frame urban",
-    "railway platform theatrical goodbye overplayed",
+    "railway platform theatrical flourish overplayed",
     "bus upper deck theatrical speech empty",
-    "rooftop car park theatrical last stand night",
+    "rooftop car park theatrical finale night",
     "laundromat 3am theatrical monologue washing machines",
-    "hospital waiting room dramatic exit door",
+    "ice cream van forecourt theatrical delight",
     "lift lobby theatrical pause before doors open",
     "office corridor dramatic walk away slow motion",
     "phone box raining theatrical call dramatic",
     "swimming pool changing room dramatic exit",
     "bowling alley theatrical celebration strike",
     "car wash theatrical moment soap suds",
-    "dentist waiting room theatrical anxiety performance",
+    "karaoke bar theatrical duet fluorescent",
     "library theatrical whispered intensity quiet",
-    "cemetery theatrical grief performative",
+    "garden centre theatrical flourish among the plants",
     "wedding registry office theatrical entrance late"
   ],
   "poses": [
     "one delivering a speech to the other, who is the only audience",
     "both frozen mid-gesture, arms flung wide",
-    "one sinking to their knees, the other stepping over them",
+    "one sinking to their knees in mock-grandeur, the other clapping",
     "both taking an elaborate bow to an empty room",
     "both striking a heroic tableau, chins high",
     "one making a grand exit, the other watching with a raised eyebrow",
@@ -230,8 +230,8 @@
     "one declaiming to the sky, the other checking a phone",
     "both walking in slow motion, hair flying, no wind",
     "one pointing dramatically, the other quite indifferent",
-    "both in a stormy argument, whispering furiously",
-    "one fainting into the other's arms, eyes on the camera"
+    "both belting a duet to an imaginary audience, hands clasped",
+    "one dipping the other in a showy ballroom dip, both laughing"
   ],
   "looks": [
     "full tuxedo and ball gown each",
@@ -241,7 +241,7 @@
     "Roman toga and laurel wreath each",
     "wedding dress and morning suit each",
     "opera costume in full each",
-    "Victorian mourning dress each",
+    "Victorian ball gown and top hat each",
     "ballet tutu and tights each",
     "everyday clothes worn with maximum theatrical intensity each"
   ],
@@ -253,7 +253,7 @@
   "locTypes": {
     "supermarket aisle operatic gesture fluorescent ordinary": "indoor",
     "kebab shop 2am grand gesture fluorescent": "both",
-    "corner shop theatrical argument fluorescent": "both",
+    "corner shop theatrical flourish fluorescent": "both",
     "post office queue theatrical monologue": "indoor",
     "department store escalator theatrical descent": "indoor",
     "betting shop theatrical reaction to result": "indoor",
@@ -261,25 +261,25 @@
     "newsagent morning theatrical significance ordinary": "indoor",
     "petrol station forecourt dramatic speech nobody watching night": "indoor",
     "bus stop theatrical declaration nobody waiting": "indoor",
-    "car park rooftop theatrical confrontation empty night": "outdoor",
+    "car park rooftop theatrical showdown empty night": "outdoor",
     "train carriage theatrical aside fellow passengers ignore": "both",
     "airport arrivals hall dramatic reunion theatrical": "both",
     "motorway services dramatic tableau ordinary setting": "both",
     "underpass theatrical freeze frame urban": "both",
-    "railway platform theatrical goodbye overplayed": "both",
+    "railway platform theatrical flourish overplayed": "both",
     "bus upper deck theatrical speech empty": "indoor",
-    "rooftop car park theatrical last stand night": "outdoor",
+    "rooftop car park theatrical finale night": "outdoor",
     "laundromat 3am theatrical monologue washing machines": "indoor",
-    "hospital waiting room dramatic exit door": "both",
+    "ice cream van forecourt theatrical delight": "both",
     "lift lobby theatrical pause before doors open": "indoor",
     "office corridor dramatic walk away slow motion": "indoor",
     "phone box raining theatrical call dramatic": "both",
     "swimming pool changing room dramatic exit": "indoor",
     "bowling alley theatrical celebration strike": "indoor",
     "car wash theatrical moment soap suds": "both",
-    "dentist waiting room theatrical anxiety performance": "indoor",
+    "karaoke bar theatrical duet fluorescent": "indoor",
     "library theatrical whispered intensity quiet": "indoor",
-    "cemetery theatrical grief performative": "both",
+    "garden centre theatrical flourish among the plants": "both",
     "wedding registry office theatrical entrance late": "indoor"
   },
   "connectors": [

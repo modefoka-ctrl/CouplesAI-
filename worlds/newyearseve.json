@@ -5,11 +5,11 @@
   "color": "#c8a800",
   "tensions": [
     "past vs. future",
-    "celebration vs. melancholy",
+    "celebration vs. cuddles",
     "midnight vs. morning",
     "what was vs. what will be",
     "together vs. the year alone",
-    "hope vs. resignation",
+    "hope vs. mischief",
     "the countdown vs. the silence after",
     "old vs. new",
     "held vs. released",
@@ -33,7 +33,7 @@
         "midnight blue formal wear each"
       ]
     },
-    "celebration vs. melancholy": {
+    "celebration vs. cuddles": {
       "locs": [
         "beach bonfire new year midnight",
         "quiet home midnight just two champagne",
@@ -101,7 +101,7 @@
         "winter coat over party clothes each"
       ]
     },
-    "hope vs. resignation": {
+    "hope vs. mischief": {
       "locs": [
         "times square style crowd countdown night",
         "city street midnight fireworks crowd",
@@ -240,7 +240,6 @@
   "promptSuffix": "Colour grade: gold, silver, midnight blue — the palette of New Year’s Eve. Fireworks above, champagne in hand, the city lit up. Glamorous, slightly melancholy, full of possibility.",
   "translations": {
     "what was vs. what will be": "the year closing and the year that hasn’t started yet",
-    "hope vs. resignation": "the difference between one more cup and the last",
     "the countdown vs. the silence after": "midnight and the twelve seconds that follow",
     "held vs. released": "what the archive keeps and what it lets go",
     "the last vs. the first": "the last moment of the year and the first"

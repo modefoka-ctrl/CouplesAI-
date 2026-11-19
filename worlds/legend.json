@@ -1,0 +1,503 @@
+{
+  "id": "legend",
+  "name": "THE LEGEND",
+  "sub": "Gods, Heroes & Golden Myths",
+  "color": "#d4a017",
+  "tensions": [
+    "hero vs. destiny",
+    "gods vs. mortals",
+    "crown vs. quest",
+    "glory vs. grace",
+    "feast vs. flight",
+    "legend vs. life",
+    "sword vs. song",
+    "dawn vs. dragon",
+    "fortune vs. fate",
+    "myth vs. morning",
+    "temple vs. tavern",
+    "oath vs. adventure",
+    "gold vs. glory",
+    "wonder vs. wisdom",
+    "kingdom vs. cloud castle",
+    "thunder vs. laughter",
+    "star vs. sword",
+    "journey vs. throne",
+    "hero vs. heart",
+    "moon vs. mountain"
+  ],
+  "locs": [
+    "a marble palace on Mount Olympus above the clouds",
+    "a golden banquet hall of the gods, laurel and wine",
+    "a sunlit amphitheatre carved into a hillside",
+    "a temple of white columns at the edge of the sea",
+    "a laurel-lined chariot road in the sky",
+    "an olive grove at dawn with a glowing oracle",
+    "a great hall of Valhalla with a roaring fire",
+    "the rainbow bridge Bifrost over the clouds",
+    "a longship cutting through a golden sea",
+    "a frozen fjord under a glowing aurora",
+    "a mead hall with carved pillars and feasting",
+    "a mountain peak crowned with a shining runestone",
+    "Camelot's great hall with a round table",
+    "an enchanted forest clearing with a sword in a stone",
+    "a castle tower at sunset, banners flying",
+    "a jousting field with colourful pavilions",
+    "a misty lake with a hand holding a sword",
+    "a fairy-lit orchard of Avalon",
+    "a golden temple of the sun on the Nile at dawn",
+    "a desert palace of lanterns and silk",
+    "a garden of fountains and jewel-coloured tiles",
+    "a mountain monastery above a sea of clouds",
+    "a pagoda palace of red lacquer and gold",
+    "a lotus lake before a glowing shrine",
+    "a stepped sun temple of gold and jade at sunrise",
+    "a jungle citadel crowned with feathers",
+    "a Celtic hill fort under a rainbow",
+    "a stone circle alive with fireflies",
+    "a faerie mound glowing from within",
+    "a sea cave of mermaids and pearls",
+    "the back of a great dragon above the clouds",
+    "a mountain of glittering treasure",
+    "a floating island of waterfalls",
+    "the gates of a city in the sky",
+    "a moonlit crown of cloud with a phoenix nest",
+    "a rainbow-lit cave of crystals"
+  ],
+  "poses": [
+    "both standing tall in a shaft of sunlight, chins lifted",
+    "one crowning the other with laurel, both laughing",
+    "both raising jewelled cups, laughing with the whole table",
+    "both striding forward, capes billowing, side by side",
+    "both raising horns, laughing, foam spilling",
+    "both standing on the prow, hair streaming, shields at their backs",
+    "one lifting the other onto their shoulders in victory",
+    "both gazing at the sky's green fire, wrapped in furs, grinning",
+    "both raising a gleaming blade together, beaming",
+    "one kneeling to be knighted, the other holding the blade, both grinning",
+    "both toasting with clinking goblets, beaming",
+    "both riding side by side, laughing, hair flying",
+    "both seated on thrones, regal and amused",
+    "both holding hands, bathed in a halo of light",
+    "one fanning the other with a feathered fan, both smiling",
+    "both stepping out through a glowing doorway, radiant",
+    "both with arms raised to the sun, gleaming",
+    "both dancing in a ring of light, laughing",
+    "one placing a flower crown on the other",
+    "both wading in glowing water, hand in hand, enchanted",
+    "both riding on scaled wings, hair streaming, whooping",
+    "both standing on a heap of coins, grinning",
+    "one catching a shower of coins, the other tossing them",
+    "both soaring weightlessly, arms wide"
+  ],
+  "looks": [
+    "white draped togas and gold laurel each",
+    "Greek chitons with gold sandals each",
+    "gold-trimmed robes and winged sandals each",
+    "fur-trimmed cloaks and braided hair each",
+    "chainmail and bold embroidered tunics each",
+    "leather armour and silver arm rings each",
+    "knightly armour with flowing capes each",
+    "velvet gowns and embroidered doublets each",
+    "royal crowns and ermine-trimmed robes each",
+    "gold collars and pleated white linen each",
+    "silk robes in jewel colours each",
+    "embroidered kimono and obi in red and gold each",
+    "feathered headdresses and jade jewellery each",
+    "green velvet cloaks and flower crowns each",
+    "shell-and-pearl adorned gowns each",
+    "dragon-scale armour and flowing capes each",
+    "star-embroidered robes and crowns each",
+    "shimmering gowns and gem-studded jackets each"
+  ],
+  "promptPrefix": "Epic mythological fine art portrait, painterly and luminous, heroic scale — ",
+  "promptSuffix": "The subjects are the heroes of the legend, radiant and joyful.",
+  "variantDirectives": [
+    "Full-length double portrait, the figures small within a grand painted setting: ",
+    "Three-quarter length double portrait, posture and gesture carry the feeling: ",
+    "Tight head-and-shoulders portrait, faces fill the canvas: ",
+    "Bold simplified composition, one dominant shape, minimal detail: ",
+    "The setting dominates the canvas, the figures secondary to the scene: ",
+    "Costume and fabric take centre stage, the figures posed to show the dress: "
+  ],
+  "affinities": {
+    "hero vs. destiny": {
+      "locs": [
+        "Camelot's great hall with a round table",
+        "an enchanted forest clearing with a sword in a stone",
+        "a castle tower at sunset, banners flying"
+      ],
+      "poses": [
+        "both raising a gleaming blade together, beaming",
+        "one kneeling to be knighted, the other holding the blade, both grinning",
+        "both toasting with clinking goblets, beaming"
+      ],
+      "looks": [
+        "knightly armour with flowing capes each",
+        "velvet gowns and embroidered doublets each",
+        "royal crowns and ermine-trimmed robes each"
+      ]
+    },
+    "gods vs. mortals": {
+      "locs": [
+        "a marble palace on Mount Olympus above the clouds",
+        "a golden banquet hall of the gods, laurel and wine",
+        "a sunlit amphitheatre carved into a hillside"
+      ],
+      "poses": [
+        "both standing tall in a shaft of sunlight, chins lifted",
+        "one crowning the other with laurel, both laughing",
+        "both raising jewelled cups, laughing with the whole table"
+      ],
+      "looks": [
+        "white draped togas and gold laurel each",
+        "Greek chitons with gold sandals each",
+        "gold-trimmed robes and winged sandals each"
+      ]
+    },
+    "crown vs. quest": {
+      "locs": [
+        "a jousting field with colourful pavilions",
+        "a misty lake with a hand holding a sword",
+        "a fairy-lit orchard of Avalon"
+      ],
+      "poses": [
+        "one kneeling to be knighted, the other holding the blade, both grinning",
+        "both toasting with clinking goblets, beaming",
+        "both riding side by side, laughing, hair flying"
+      ],
+      "looks": [
+        "velvet gowns and embroidered doublets each",
+        "royal crowns and ermine-trimmed robes each",
+        "knightly armour with flowing capes each"
+      ]
+    },
+    "glory vs. grace": {
+      "locs": [
+        "a temple of white columns at the edge of the sea",
+        "a laurel-lined chariot road in the sky",
+        "an olive grove at dawn with a glowing oracle"
+      ],
+      "poses": [
+        "one crowning the other with laurel, both laughing",
+        "both raising jewelled cups, laughing with the whole table",
+        "both striding forward, capes billowing, side by side"
+      ],
+      "looks": [
+        "Greek chitons with gold sandals each",
+        "gold-trimmed robes and winged sandals each",
+        "white draped togas and gold laurel each"
+      ]
+    },
+    "feast vs. flight": {
+      "locs": [
+        "a great hall of Valhalla with a roaring fire",
+        "the rainbow bridge Bifrost over the clouds",
+        "a longship cutting through a golden sea"
+      ],
+      "poses": [
+        "both raising horns, laughing, foam spilling",
+        "both standing on the prow, hair streaming, shields at their backs",
+        "one lifting the other onto their shoulders in victory"
+      ],
+      "looks": [
+        "fur-trimmed cloaks and braided hair each",
+        "chainmail and bold embroidered tunics each",
+        "leather armour and silver arm rings each"
+      ]
+    },
+    "legend vs. life": {
+      "locs": [
+        "a golden temple of the sun on the Nile at dawn",
+        "a desert palace of lanterns and silk",
+        "a garden of fountains and jewel-coloured tiles"
+      ],
+      "poses": [
+        "both seated on thrones, regal and amused",
+        "both holding hands, bathed in a halo of light",
+        "one fanning the other with a feathered fan, both smiling"
+      ],
+      "looks": [
+        "gold collars and pleated white linen each",
+        "silk robes in jewel colours each",
+        "embroidered kimono and obi in red and gold each"
+      ]
+    },
+    "sword vs. song": {
+      "locs": [
+        "Camelot's great hall with a round table",
+        "an enchanted forest clearing with a sword in a stone",
+        "a castle tower at sunset, banners flying"
+      ],
+      "poses": [
+        "both toasting with clinking goblets, beaming",
+        "both riding side by side, laughing, hair flying",
+        "both raising a gleaming blade together, beaming"
+      ],
+      "looks": [
+        "royal crowns and ermine-trimmed robes each",
+        "knightly armour with flowing capes each",
+        "velvet gowns and embroidered doublets each"
+      ]
+    },
+    "dawn vs. dragon": {
+      "locs": [
+        "the back of a great dragon above the clouds",
+        "a mountain of glittering treasure",
+        "a floating island of waterfalls"
+      ],
+      "poses": [
+        "both riding on scaled wings, hair streaming, whooping",
+        "both standing on a heap of coins, grinning",
+        "one catching a shower of coins, the other tossing them"
+      ],
+      "looks": [
+        "dragon-scale armour and flowing capes each",
+        "star-embroidered robes and crowns each",
+        "shimmering gowns and gem-studded jackets each"
+      ]
+    },
+    "fortune vs. fate": {
+      "locs": [
+        "the gates of a city in the sky",
+        "a moonlit crown of cloud with a phoenix nest",
+        "a rainbow-lit cave of crystals"
+      ],
+      "poses": [
+        "both standing on a heap of coins, grinning",
+        "one catching a shower of coins, the other tossing them",
+        "both soaring weightlessly, arms wide"
+      ],
+      "looks": [
+        "star-embroidered robes and crowns each",
+        "shimmering gowns and gem-studded jackets each",
+        "dragon-scale armour and flowing capes each"
+      ]
+    },
+    "myth vs. morning": {
+      "locs": [
+        "a marble palace on Mount Olympus above the clouds",
+        "a golden banquet hall of the gods, laurel and wine",
+        "a sunlit amphitheatre carved into a hillside"
+      ],
+      "poses": [
+        "both raising jewelled cups, laughing with the whole table",
+        "both striding forward, capes billowing, side by side",
+        "both standing tall in a shaft of sunlight, chins lifted"
+      ],
+      "looks": [
+        "gold-trimmed robes and winged sandals each",
+        "white draped togas and gold laurel each",
+        "Greek chitons with gold sandals each"
+      ]
+    },
+    "temple vs. tavern": {
+      "locs": [
+        "a mountain monastery above a sea of clouds",
+        "a pagoda palace of red lacquer and gold",
+        "a lotus lake before a glowing shrine"
+      ],
+      "poses": [
+        "both holding hands, bathed in a halo of light",
+        "one fanning the other with a feathered fan, both smiling",
+        "both stepping out through a glowing doorway, radiant"
+      ],
+      "looks": [
+        "silk robes in jewel colours each",
+        "embroidered kimono and obi in red and gold each",
+        "gold collars and pleated white linen each"
+      ]
+    },
+    "oath vs. adventure": {
+      "locs": [
+        "a frozen fjord under a glowing aurora",
+        "a mead hall with carved pillars and feasting",
+        "a mountain peak crowned with a shining runestone"
+      ],
+      "poses": [
+        "both standing on the prow, hair streaming, shields at their backs",
+        "one lifting the other onto their shoulders in victory",
+        "both gazing at the sky's green fire, wrapped in furs, grinning"
+      ],
+      "looks": [
+        "chainmail and bold embroidered tunics each",
+        "leather armour and silver arm rings each",
+        "fur-trimmed cloaks and braided hair each"
+      ]
+    },
+    "gold vs. glory": {
+      "locs": [
+        "the back of a great dragon above the clouds",
+        "a mountain of glittering treasure",
+        "a floating island of waterfalls"
+      ],
+      "poses": [
+        "one catching a shower of coins, the other tossing them",
+        "both soaring weightlessly, arms wide",
+        "both riding on scaled wings, hair streaming, whooping"
+      ],
+      "looks": [
+        "shimmering gowns and gem-studded jackets each",
+        "dragon-scale armour and flowing capes each",
+        "star-embroidered robes and crowns each"
+      ]
+    },
+    "wonder vs. wisdom": {
+      "locs": [
+        "a stepped sun temple of gold and jade at sunrise",
+        "a jungle citadel crowned with feathers",
+        "a Celtic hill fort under a rainbow"
+      ],
+      "poses": [
+        "both with arms raised to the sun, gleaming",
+        "both dancing in a ring of light, laughing",
+        "one placing a flower crown on the other"
+      ],
+      "looks": [
+        "feathered headdresses and jade jewellery each",
+        "green velvet cloaks and flower crowns each",
+        "shell-and-pearl adorned gowns each"
+      ]
+    },
+    "kingdom vs. cloud castle": {
+      "locs": [
+        "the gates of a city in the sky",
+        "a moonlit crown of cloud with a phoenix nest",
+        "a rainbow-lit cave of crystals"
+      ],
+      "poses": [
+        "both soaring weightlessly, arms wide",
+        "both riding on scaled wings, hair streaming, whooping",
+        "both standing on a heap of coins, grinning"
+      ],
+      "looks": [
+        "dragon-scale armour and flowing capes each",
+        "star-embroidered robes and crowns each",
+        "shimmering gowns and gem-studded jackets each"
+      ]
+    },
+    "thunder vs. laughter": {
+      "locs": [
+        "a great hall of Valhalla with a roaring fire",
+        "the rainbow bridge Bifrost over the clouds",
+        "a longship cutting through a golden sea"
+      ],
+      "poses": [
+        "one lifting the other onto their shoulders in victory",
+        "both gazing at the sky's green fire, wrapped in furs, grinning",
+        "both raising horns, laughing, foam spilling"
+      ],
+      "looks": [
+        "leather armour and silver arm rings each",
+        "fur-trimmed cloaks and braided hair each",
+        "chainmail and bold embroidered tunics each"
+      ]
+    },
+    "star vs. sword": {
+      "locs": [
+        "a stone circle alive with fireflies",
+        "a faerie mound glowing from within",
+        "a sea cave of mermaids and pearls"
+      ],
+      "poses": [
+        "both dancing in a ring of light, laughing",
+        "one placing a flower crown on the other",
+        "both wading in glowing water, hand in hand, enchanted"
+      ],
+      "looks": [
+        "green velvet cloaks and flower crowns each",
+        "shell-and-pearl adorned gowns each",
+        "feathered headdresses and jade jewellery each"
+      ]
+    },
+    "journey vs. throne": {
+      "locs": [
+        "a golden temple of the sun on the Nile at dawn",
+        "a desert palace of lanterns and silk",
+        "a garden of fountains and jewel-coloured tiles"
+      ],
+      "poses": [
+        "one fanning the other with a feathered fan, both smiling",
+        "both stepping out through a glowing doorway, radiant",
+        "both seated on thrones, regal and amused"
+      ],
+      "looks": [
+        "embroidered kimono and obi in red and gold each",
+        "gold collars and pleated white linen each",
+        "silk robes in jewel colours each"
+      ]
+    },
+    "hero vs. heart": {
+      "locs": [
+        "a jousting field with colourful pavilions",
+        "a misty lake with a hand holding a sword",
+        "a fairy-lit orchard of Avalon"
+      ],
+      "poses": [
+        "both riding side by side, laughing, hair flying",
+        "both raising a gleaming blade together, beaming",
+        "one kneeling to be knighted, the other holding the blade, both grinning"
+      ],
+      "looks": [
+        "knightly armour with flowing capes each",
+        "velvet gowns and embroidered doublets each",
+        "royal crowns and ermine-trimmed robes each"
+      ]
+    },
+    "moon vs. mountain": {
+      "locs": [
+        "a stepped sun temple of gold and jade at sunrise",
+        "a jungle citadel crowned with feathers",
+        "a Celtic hill fort under a rainbow"
+      ],
+      "poses": [
+        "one placing a flower crown on the other",
+        "both wading in glowing water, hand in hand, enchanted",
+        "both with arms raised to the sun, gleaming"
+      ],
+      "looks": [
+        "shell-and-pearl adorned gowns each",
+        "feathered headdresses and jade jewellery each",
+        "green velvet cloaks and flower crowns each"
+      ]
+    }
+  },
+  "translations": {},
+  "locTypes": {
+    "a marble palace on Mount Olympus above the clouds": "both",
+    "a golden banquet hall of the gods, laurel and wine": "indoor",
+    "a sunlit amphitheatre carved into a hillside": "indoor",
+    "a temple of white columns at the edge of the sea": "outdoor",
+    "a laurel-lined chariot road in the sky": "outdoor",
+    "an olive grove at dawn with a glowing oracle": "both",
+    "a great hall of Valhalla with a roaring fire": "indoor",
+    "the rainbow bridge Bifrost over the clouds": "outdoor",
+    "a longship cutting through a golden sea": "outdoor",
+    "a frozen fjord under a glowing aurora": "both",
+    "a mead hall with carved pillars and feasting": "indoor",
+    "a mountain peak crowned with a shining runestone": "outdoor",
+    "Camelot's great hall with a round table": "indoor",
+    "an enchanted forest clearing with a sword in a stone": "outdoor",
+    "a castle tower at sunset, banners flying": "both",
+    "a jousting field with colourful pavilions": "outdoor",
+    "a misty lake with a hand holding a sword": "outdoor",
+    "a fairy-lit orchard of Avalon": "outdoor",
+    "a golden temple of the sun on the Nile at dawn": "both",
+    "a desert palace of lanterns and silk": "outdoor",
+    "a garden of fountains and jewel-coloured tiles": "outdoor",
+    "a mountain monastery above a sea of clouds": "outdoor",
+    "a pagoda palace of red lacquer and gold": "both",
+    "a lotus lake before a glowing shrine": "outdoor",
+    "a stepped sun temple of gold and jade at sunrise": "both",
+    "a jungle citadel crowned with feathers": "both",
+    "a Celtic hill fort under a rainbow": "both",
+    "a stone circle alive with fireflies": "both",
+    "a faerie mound glowing from within": "both",
+    "a sea cave of mermaids and pearls": "outdoor",
+    "the back of a great dragon above the clouds": "both",
+    "a mountain of glittering treasure": "outdoor",
+    "a floating island of waterfalls": "outdoor",
+    "the gates of a city in the sky": "outdoor",
+    "a moonlit crown of cloud with a phoenix nest": "both",
+    "a rainbow-lit cave of crystals": "both"
+  }
+}

@@ -1,10 +1,10 @@
 {
   "id": "carnival",
   "name": "THE CARNIVAL",
-  "sub": "Garish Light & Sweet Sadness",
+  "sub": "Neon Rides, Sugar & Thrills",
   "color": "#d4156a",
   "tensions": [
-    "joy vs. melancholy",
+    "joy vs. mischief",
     "real vs. performance",
     "beautiful vs. ugly",
     "childhood vs. adulthood",
@@ -13,28 +13,28 @@
     "together vs. alone in a crowd",
     "magical vs. mechanical",
     "freedom vs. routine",
-    "laughter vs. loneliness",
+    "laughter vs. thrills",
     "season vs. end of season",
     "spectacle vs. ordinary",
-    "sugar vs. bitter",
-    "anticipation vs. disappointment",
+    "sugar vs. spice",
+    "anticipation vs. adrenaline",
     "last night vs. first night",
     "seen vs. overlooked in the crowd",
-    "love vs. heartbreak midway",
+    "love vs. midway magic",
     "gaudy vs. sublime",
     "passing vs. permanent",
     "innocent vs. knowing"
   ],
   "affinities": {
-    "joy vs. melancholy": {
+    "joy vs. mischief": {
       "locs": [
         "funfair at closing time lights going out",
         "carnival field dawn before opening",
         "carousel empty morning after"
       ],
       "poses": [
-        "both walking alone through the litter, hand in hand",
-        "both sitting on the carousel's edge, quiet",
+        "both walking hand in hand through the fading lights, smiling",
+        "both sitting on the carousel's edge, swinging their legs",
         "both watching the lights go out, one resting a head on the other"
       ],
       "looks": [
@@ -56,7 +56,7 @@
       ],
       "looks": [
         "costume-contest dressed up each",
-        "first-date nervous dressed up each",
+        "first-date dressed up each",
         "dark fortune-telling shawls and jewellery each"
       ]
     },
@@ -72,7 +72,7 @@
         "both gaping at the flames, lit orange"
       ],
       "looks": [
-        "first-date nervous dressed up each",
+        "first-date dressed up each",
         "dark fortune-telling shawls and jewellery each",
         "vintage 1970s-style outfit each"
       ]
@@ -169,24 +169,24 @@
         "trailer park carnival workers housing"
       ],
       "poses": [
-        "both sitting on the steps, tired, sharing a flask",
+        "both sitting on the steps, glowing, sharing a flask",
         "both laughing as one hauls a heavy cable",
-        "both leaning on a rusty truck, staring into the distance"
+        "both leaning on a truck, grinning at the lights"
       ],
       "looks": [
         "worker practical clothes each, uniform",
-        "worker off shift casual, tired each",
+        "worker off shift casual, relaxed each",
         "travelling show worker practical each"
       ]
     },
-    "laughter vs. loneliness": {
+    "laughter vs. thrills": {
       "locs": [
         "carnival field last night season",
         "funfair entrance gates daytime",
         "carnival midway dawn packing up"
       ],
       "poses": [
-        "both sitting on the carousel's edge, quiet",
+        "both sitting on the carousel's edge, swinging their legs",
         "both watching the lights go out, one resting a head on the other",
         "both standing at the gates, the day not yet begun"
       ],
@@ -205,7 +205,7 @@
       "poses": [
         "both watching the lights go out, one resting a head on the other",
         "both standing at the gates, the day not yet begun",
-        "both walking alone through the litter, hand in hand"
+        "both walking hand in hand through the fading lights, smiling"
       ],
       "looks": [
         "childhood nostalgia casual, simple each",
@@ -221,16 +221,16 @@
       ],
       "poses": [
         "both laughing as one hauls a heavy cable",
-        "both leaning on a rusty truck, staring into the distance",
+        "both leaning on a truck, grinning at the lights",
         "one repairing a ride, the other holding the torch"
       ],
       "looks": [
-        "worker off shift casual, tired each",
+        "worker off shift casual, relaxed each",
         "travelling show worker practical each",
-        "local teen casual, bored each"
+        "local teen casual, cheeky each"
       ]
     },
-    "sugar vs. bitter": {
+    "sugar vs. spice": {
       "locs": [
         "shooting gallery neon prizes",
         "prize soft toy stall overloaded",
@@ -247,7 +247,7 @@
         "summer dress and shorts each, casual"
       ]
     },
-    "anticipation vs. disappointment": {
+    "anticipation vs. adrenaline": {
       "locs": [
         "carousel horses night lights spinning",
         "big wheel gondola night suspended",
@@ -272,8 +272,8 @@
       ],
       "poses": [
         "both standing at the gates, the day not yet begun",
-        "both walking alone through the litter, hand in hand",
-        "both sitting on the carousel's edge, quiet"
+        "both walking hand in hand through the fading lights, smiling",
+        "both sitting on the carousel's edge, swinging their legs"
       ],
       "looks": [
         "hoodie and coat against the cold each",
@@ -298,7 +298,7 @@
         "night-out dressed up each"
       ]
     },
-    "love vs. heartbreak midway": {
+    "love vs. midway magic": {
       "locs": [
         "dodgems arena carnival neon",
         "helter skelter base night",
@@ -339,13 +339,13 @@
         "carnival back lot empty evening"
       ],
       "poses": [
-        "both leaning on a rusty truck, staring into the distance",
+        "both leaning on a truck, grinning at the lights",
         "one repairing a ride, the other holding the torch",
-        "both sitting on the steps, tired, sharing a flask"
+        "both sitting on the steps, glowing, sharing a flask"
       ],
       "looks": [
         "travelling show worker practical each",
-        "local teen casual, bored each",
+        "local teen casual, cheeky each",
         "worker practical clothes each, uniform"
       ]
     },
@@ -436,12 +436,12 @@
     "both looking up at the sky bursting with colour, faces lit",
     "both waiting in the queue, hands entwined",
     "both walking arm in arm, lights streaking past",
-    "both sitting on the steps, tired, sharing a flask",
+    "both sitting on the steps, glowing, sharing a flask",
     "both laughing as one hauls a heavy cable",
-    "both leaning on a rusty truck, staring into the distance",
+    "both leaning on a truck, grinning at the lights",
     "one repairing a ride, the other holding the torch",
-    "both walking alone through the litter, hand in hand",
-    "both sitting on the carousel's edge, quiet",
+    "both walking hand in hand through the fading lights, smiling",
+    "both sitting on the carousel's edge, swinging their legs",
     "both watching the lights go out, one resting a head on the other",
     "both standing at the gates, the day not yet begun"
   ],
@@ -455,7 +455,7 @@
     "date-night casual, a little effort made each",
     "tourist casual family clothes each",
     "costume-contest dressed up each",
-    "first-date nervous dressed up each",
+    "first-date dressed up each",
     "dark fortune-telling shawls and jewellery each",
     "vintage 1970s-style outfit each",
     "night-out dressed up each",
@@ -463,9 +463,9 @@
     "hooded top and jeans, night chill each",
     "festival casual layers each, evening",
     "worker practical clothes each, uniform",
-    "worker off shift casual, tired each",
+    "worker off shift casual, relaxed each",
     "travelling show worker practical each",
-    "local teen casual, bored each",
+    "local teen casual, cheeky each",
     "couple nostalgic casual each",
     "locals casual modest each",
     "childhood nostalgia casual, simple each",
@@ -479,14 +479,10 @@
     "bright vs. dark": "the gap between the lit ride and the field beyond",
     "together vs. alone in a crowd": "the loneliness of the midway",
     "magical vs. mechanical": "the ride and its engine",
-    "laughter vs. loneliness": "the sound that covers the other",
     "season vs. end of season": "the carnival on its last night",
     "spectacle vs. ordinary": "the waltzer and the man who runs it",
-    "sugar vs. bitter": "the candyfloss and what comes after",
-    "anticipation vs. disappointment": "the game before and after the throw",
     "last night vs. first night": "the carnival opening and the carnival closing",
     "seen vs. overlooked in the crowd": "the face that nobody clocked",
-    "love vs. heartbreak midway": "the couple and the ghost of the couple",
     "gaudy vs. sublime": "the moment the neon becomes something else",
     "passing vs. permanent": "what passes through and what was here before and will remain",
     "innocent vs. knowing": "the child who believed and the adult who remembers"

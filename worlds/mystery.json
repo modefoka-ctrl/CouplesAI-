@@ -1,147 +1,123 @@
 {
   "id": "mystery",
   "name": "THE MYSTERY",
-  "sub": "Horror & Suspense",
+  "sub": "Noir, Capers & Whodunits",
   "color": "#5a3a5a",
   "tensions": [
-    "hunted vs. hunting",
-    "known vs. hidden",
-    "calm vs. dread",
-    "safe vs. exposed",
-    "alone vs. watched",
-    "escape vs. trapped",
-    "truth vs. illusion",
-    "silence vs. scream",
-    "light vs. shadow",
-    "real vs. imagined",
-    "found vs. lost",
-    "still vs. fleeing",
-    "door vs. threshold",
-    "clue vs. dead end",
-    "breath vs. held breath",
-    "footstep vs. silence",
-    "face vs. mask",
-    "memory vs. forgetting",
-    "reflection vs. self",
-    "ending vs. unresolved"
+    "clue vs. hunch",
+    "sleuth vs. suspect",
+    "glamour vs. caper",
+    "alibi vs. instinct",
+    "red herring vs. real lead",
+    "disguise vs. truth",
+    "curtain up vs. curtain down",
+    "whisper vs. gasp",
+    "trench coat vs. tuxedo",
+    "riddle vs. reveal",
+    "secret door vs. grand entrance",
+    "fog vs. spotlight",
+    "partner vs. rival",
+    "puzzle vs. plot twist",
+    "shadow vs. spark",
+    "magnifying glass vs. champagne",
+    "chase vs. clue",
+    "masks vs. smiles",
+    "midnight vs. mischief",
+    "whodunit vs. who-cares"
   ],
   "locs": [
-    "abandoned asylum corridor tiles",
-    "derelict carnival midway",
-    "lighthouse keeper's cottage at night",
     "ruined manor house exterior",
-    "fog-covered graveyard path",
-    "drowned village reservoir edge",
-    "Victorian factory floor dark",
-    "empty theatre balcony creaking",
-    "basement flooded ankle deep",
-    "attic trapdoor looking down",
-    "church crypt entrance stone",
-    "sanatorium courtyard overgrown",
-    "institution corridor peeling",
-    "haunted B&B corridor creaking",
-    "fog-bound forest path no end",
-    "empty motel parking lot night",
-    "underground tunnel bricked-up end",
-    "estate maze centre alone",
-    "walled garden overgrown locked",
-    "numbers station forest clearing",
-    "black site exterior ordinary",
-    "candlelit cellar steps",
-    "secret passage bookcase entrance",
-    "locked library night window",
     "old clock tower interior",
-    "photography darkroom red light",
-    "radio station night empty",
-    "print room old newspaper rotary",
-    "museum after hours case lit",
-    "archive basement box rows",
-    "country house library fire out",
-    "speakeasy behind bookcase",
-    "police evidence room dim",
+    "whodunit manor hall chandelier",
+    "library at night, rolling ladder and a window",
+    "country house library, fire crackling",
+    "hedge maze, lantern-lit",
+    "walled garden, ivy and a locked gate",
+    "locked-room puzzle, a floor plan on the wall",
+    "village pub, firelit and cosy",
+    "attic trapdoor, a ladder and a lamp",
     "detective agency door frosted glass",
     "private eye office desk",
     "smoke-filled bar information",
-    "dockside warehouse meeting",
-    "industrial estate unit door",
-    "locked room diagram scene",
-    "crime scene before police arrive",
     "film noir street lamp rain",
     "1940s diner counter night",
     "jazz club back room door",
-    "old hotel corridor 3am",
-    "abandoned school classroom",
-    "empty hospital corridor night",
-    "village pub empty late",
-    "whodunit manor hall chandelier"
+    "speakeasy behind bookcase",
+    "foggy London street with a gaslight",
+    "evidence room, corkboard of clues",
+    "dockside warehouse, crates and fog",
+    "museum after hours case lit",
+    "jewel vault with criss-crossing lasers",
+    "opera house box seats",
+    "masquerade ballroom",
+    "casino back room, green baize table",
+    "art gallery after hours, one painting missing",
+    "grand hotel penthouse with a view of the city",
+    "candlelit cellar steps",
+    "secret passage bookcase entrance",
+    "photography darkroom red light",
+    "print room old newspaper rotary",
+    "archive stacks, boxes to the ceiling",
+    "radio station at night, ON AIR sign glowing",
+    "Victorian factory floor, shafts of light",
+    "theatre balcony, velvet and shadow",
+    "empty motel parking lot night",
+    "Orient Express dining car at night",
+    "boat gliding along the Seine at night",
+    "hall of mirrors at a fairground",
+    "lighthouse keeper's cottage, lamp glowing",
+    "grand old hotel corridor, red carpet"
   ],
   "poses": [
-    "both creeping forward, one clutching the other's sleeve",
-    "both frozen mid-step, listening hard",
-    "one shielding the other, eyes fixed on something unseen",
-    "both backing away slowly, breath held",
-    "both running hand in hand, fleeing the dark",
-    "both pressed together, scanning the mist",
-    "one pulling the other forward by the wrist",
-    "both stopping dead as a shape crosses the path",
+    "both peering through a magnifying glass, delighted",
+    "one pointing dramatically at an invisible culprit, the other laughing",
+    "both tiptoeing, hushing each other, giggling",
+    "both toasting a solved puzzle with a sherry",
+    "both leaning on a lamp post, trench coats blowing, smirking",
+    "both leaning over a desk, grinning at a map of pins and string",
+    "both striding forward, coats flying, confident",
+    "one holding up a clue, the other raising an eyebrow, impressed",
+    "both lowering themselves through lasers, giggling",
+    "both in masks, mid-waltz, eyes sparkling",
+    "one holding up a stolen jewel, the other pretending to scold",
+    "both toasting at the table, cool as ice",
+    "both leaning on a shelf, pulling it open to reveal a secret",
+    "one picking a lock, the other keeping watch with a grin",
     "both reading a clue by candlelight, heads together",
-    "one picking a lock, the other keeping watch",
-    "both leaning on a shelf, pulling it open",
-    "one holding a photograph, the other staring at it in dawning horror",
-    "one pointing at the evidence, the other photographing it",
-    "both leaning over a desk, studying a map of strings and pins",
-    "one lighting a cigarette, the other eyeing the door",
-    "both confronting a figure in the doorway, resolute",
-    "both walking side by side, footsteps echoing, trying every door",
-    "both listening at a door, one on each side",
-    "one checking a pulse, the other holding a lamp",
-    "both sitting together afterwards, shaken, shoulders touching"
+    "both ducking behind a pillar, trying not to laugh",
+    "both raising a glass, clinking, eyes twinkling",
+    "both leaning over the rail, wind in their hair",
+    "both peeking around a corner, matching smirks",
+    "both striking dramatic poses at the end of the case"
   ],
   "looks": [
-    "torn cotton dress and worn jacket each, dishevelled",
-    "muddy coat with a ripped sleeve each",
-    "oversized coat soaked through each",
-    "trench coat belted tight each",
-    "dark casual clothes, blending in each",
-    "white shirt, collar messed, rain-soaked each",
+    "tweed jacket and tartan skirt each",
+    "smoking jackets and silk gowns each",
+    "country-house evening wear each",
+    "trench coat and fedora each",
+    "fitted dark coat and slim trousers each",
+    "noir period suit and dress each",
+    "black tie and sequin gown each",
+    "masquerade masks and evening wear each",
+    "sleek cat-burglar black each, with glitter",
     "archivist's cardigan and spectacles each",
     "dark coat and fingerless gloves each",
     "scholarly layers and a loosened scarf each",
-    "1940s suit and fedora each",
-    "fitted dark coat and slim trousers each",
-    "noir period suit and dress each",
-    "practical investigation layers each",
-    "plain-clothes detective coats each",
-    "survivor casual clothes, worn each"
+    "1930s travel suit and cloche hat each",
+    "elegant coats and gloves each",
+    "tuxedo and evening gown each"
   ],
   "affinities": {
-    "hunted vs. hunting": {
-      "locs": [
-        "fog-bound forest path no end",
-        "empty motel parking lot night",
-        "underground tunnel bricked-up end"
-      ],
-      "poses": [
-        "both running hand in hand, fleeing the dark",
-        "both pressed together, scanning the mist",
-        "one pulling the other forward by the wrist"
-      ],
-      "looks": [
-        "trench coat belted tight each",
-        "dark casual clothes, blending in each",
-        "white shirt, collar messed, rain-soaked each"
-      ]
-    },
-    "known vs. hidden": {
+    "clue vs. hunch": {
       "locs": [
         "candlelit cellar steps",
         "secret passage bookcase entrance",
-        "locked library night window"
+        "photography darkroom red light"
       ],
       "poses": [
-        "both reading a clue by candlelight, heads together",
-        "one picking a lock, the other keeping watch",
-        "both leaning on a shelf, pulling it open"
+        "both leaning on a shelf, pulling it open to reveal a secret",
+        "one picking a lock, the other keeping watch with a grin",
+        "both reading a clue by candlelight, heads together"
       ],
       "looks": [
         "archivist's cardigan and spectacles each",
@@ -149,84 +125,67 @@
         "scholarly layers and a loosened scarf each"
       ]
     },
-    "calm vs. dread": {
+    "sleuth vs. suspect": {
       "locs": [
-        "abandoned asylum corridor tiles",
-        "derelict carnival midway",
-        "lighthouse keeper's cottage at night"
+        "detective agency door frosted glass",
+        "private eye office desk",
+        "smoke-filled bar information"
       ],
       "poses": [
-        "both creeping forward, one clutching the other's sleeve",
-        "both frozen mid-step, listening hard",
-        "one shielding the other, eyes fixed on something unseen"
+        "both leaning on a lamp post, trench coats blowing, smirking",
+        "both leaning over a desk, grinning at a map of pins and string",
+        "both striding forward, coats flying, confident"
       ],
       "looks": [
-        "torn cotton dress and worn jacket each, dishevelled",
-        "muddy coat with a ripped sleeve each",
-        "oversized coat soaked through each"
+        "trench coat and fedora each",
+        "fitted dark coat and slim trousers each",
+        "noir period suit and dress each"
       ]
     },
-    "safe vs. exposed": {
+    "glamour vs. caper": {
       "locs": [
-        "estate maze centre alone",
-        "walled garden overgrown locked",
-        "numbers station forest clearing"
+        "museum after hours case lit",
+        "jewel vault with criss-crossing lasers",
+        "opera house box seats"
       ],
       "poses": [
-        "both pressed together, scanning the mist",
-        "one pulling the other forward by the wrist",
-        "both stopping dead as a shape crosses the path"
+        "both lowering themselves through lasers, giggling",
+        "both in masks, mid-waltz, eyes sparkling",
+        "one holding up a stolen jewel, the other pretending to scold"
       ],
       "looks": [
-        "dark casual clothes, blending in each",
-        "white shirt, collar messed, rain-soaked each",
-        "trench coat belted tight each"
+        "black tie and sequin gown each",
+        "masquerade masks and evening wear each",
+        "sleek cat-burglar black each, with glitter"
       ]
     },
-    "alone vs. watched": {
-      "locs": [
-        "old hotel corridor 3am",
-        "abandoned school classroom",
-        "empty hospital corridor night"
-      ],
-      "poses": [
-        "both walking side by side, footsteps echoing, trying every door",
-        "both listening at a door, one on each side",
-        "one checking a pulse, the other holding a lamp"
-      ],
-      "looks": [
-        "practical investigation layers each",
-        "plain-clothes detective coats each",
-        "survivor casual clothes, worn each"
-      ]
-    },
-    "escape vs. trapped": {
+    "alibi vs. instinct": {
       "locs": [
         "ruined manor house exterior",
-        "fog-covered graveyard path",
-        "drowned village reservoir edge"
+        "old clock tower interior",
+        "whodunit manor hall chandelier"
       ],
       "poses": [
-        "both frozen mid-step, listening hard",
-        "one shielding the other, eyes fixed on something unseen",
-        "both backing away slowly, breath held"
+        "both peering through a magnifying glass, delighted",
+        "one pointing dramatically at an invisible culprit, the other laughing",
+        "both tiptoeing, hushing each other, giggling"
       ],
       "looks": [
-        "muddy coat with a ripped sleeve each",
-        "oversized coat soaked through each",
-        "torn cotton dress and worn jacket each, dishevelled"
+        "tweed jacket and tartan skirt each",
+        "smoking jackets and silk gowns each",
+        "country-house evening wear each"
       ]
     },
-    "truth vs. illusion": {
+    "red herring vs. real lead": {
       "locs": [
-        "old clock tower interior",
-        "photography darkroom red light",
-        "radio station night empty"
+        "print room old newspaper rotary",
+        "archive stacks, boxes to the ceiling",
+        "radio station at night, ON AIR sign glowing"
       ],
       "poses": [
-        "one picking a lock, the other keeping watch",
-        "both leaning on a shelf, pulling it open",
-        "one holding a photograph, the other staring at it in dawning horror"
+        "one picking a lock, the other keeping watch with a grin",
+        "both reading a clue by candlelight, heads together",
+        "both ducking behind a pillar, trying not to laugh"
       ],
       "looks": [
         "dark coat and fingerless gloves each",
@@ -234,101 +193,50 @@
         "archivist's cardigan and spectacles each"
       ]
     },
-    "silence vs. scream": {
+    "disguise vs. truth": {
       "locs": [
-        "Victorian factory floor dark",
-        "empty theatre balcony creaking",
-        "basement flooded ankle deep"
+        "masquerade ballroom",
+        "casino back room, green baize table",
+        "art gallery after hours, one painting missing"
       ],
       "poses": [
-        "one shielding the other, eyes fixed on something unseen",
-        "both backing away slowly, breath held",
-        "both creeping forward, one clutching the other's sleeve"
+        "both in masks, mid-waltz, eyes sparkling",
+        "one holding up a stolen jewel, the other pretending to scold",
+        "both toasting at the table, cool as ice"
       ],
       "looks": [
-        "oversized coat soaked through each",
-        "torn cotton dress and worn jacket each, dishevelled",
-        "muddy coat with a ripped sleeve each"
+        "masquerade masks and evening wear each",
+        "sleek cat-burglar black each, with glitter",
+        "black tie and sequin gown each"
       ]
     },
-    "light vs. shadow": {
+    "curtain up vs. curtain down": {
       "locs": [
-        "police evidence room dim",
-        "detective agency door frosted glass",
-        "private eye office desk"
-      ],
-      "poses": [
-        "one pointing at the evidence, the other photographing it",
-        "both leaning over a desk, studying a map of strings and pins",
-        "one lighting a cigarette, the other eyeing the door"
-      ],
-      "looks": [
-        "1940s suit and fedora each",
-        "fitted dark coat and slim trousers each",
-        "noir period suit and dress each"
-      ]
-    },
-    "real vs. imagined": {
-      "locs": [
-        "attic trapdoor looking down",
-        "church crypt entrance stone",
-        "sanatorium courtyard overgrown"
-      ],
-      "poses": [
-        "both backing away slowly, breath held",
-        "both creeping forward, one clutching the other's sleeve",
-        "both frozen mid-step, listening hard"
-      ],
-      "looks": [
-        "torn cotton dress and worn jacket each, dishevelled",
-        "muddy coat with a ripped sleeve each",
-        "oversized coat soaked through each"
-      ]
-    },
-    "found vs. lost": {
-      "locs": [
-        "black site exterior ordinary",
-        "fog-bound forest path no end",
-        "empty motel parking lot night"
-      ],
-      "poses": [
-        "one pulling the other forward by the wrist",
-        "both stopping dead as a shape crosses the path",
-        "both running hand in hand, fleeing the dark"
-      ],
-      "looks": [
-        "white shirt, collar messed, rain-soaked each",
-        "trench coat belted tight each",
-        "dark casual clothes, blending in each"
-      ]
-    },
-    "still vs. fleeing": {
-      "locs": [
-        "underground tunnel bricked-up end",
-        "estate maze centre alone",
-        "walled garden overgrown locked"
-      ],
-      "poses": [
-        "both stopping dead as a shape crosses the path",
-        "both running hand in hand, fleeing the dark",
-        "both pressed together, scanning the mist"
-      ],
-      "looks": [
-        "trench coat belted tight each",
-        "dark casual clothes, blending in each",
-        "white shirt, collar messed, rain-soaked each"
-      ]
-    },
-    "door vs. threshold": {
-      "locs": [
-        "print room old newspaper rotary",
+        "grand hotel penthouse with a view of the city",
         "museum after hours case lit",
-        "archive basement box rows"
+        "jewel vault with criss-crossing lasers"
       ],
       "poses": [
-        "both leaning on a shelf, pulling it open",
-        "one holding a photograph, the other staring at it in dawning horror",
-        "both reading a clue by candlelight, heads together"
+        "one holding up a stolen jewel, the other pretending to scold",
+        "both toasting at the table, cool as ice",
+        "both lowering themselves through lasers, giggling"
+      ],
+      "looks": [
+        "sleek cat-burglar black each, with glitter",
+        "black tie and sequin gown each",
+        "masquerade masks and evening wear each"
+      ]
+    },
+    "whisper vs. gasp": {
+      "locs": [
+        "Victorian factory floor, shafts of light",
+        "theatre balcony, velvet and shadow",
+        "candlelit cellar steps"
+      ],
+      "poses": [
+        "both reading a clue by candlelight, heads together",
+        "both ducking behind a pillar, trying not to laugh",
+        "both leaning on a shelf, pulling it open to reveal a secret"
       ],
       "looks": [
         "scholarly layers and a loosened scarf each",
@@ -336,84 +244,50 @@
         "dark coat and fingerless gloves each"
       ]
     },
-    "clue vs. dead end": {
+    "trench coat vs. tuxedo": {
       "locs": [
-        "smoke-filled bar information",
-        "dockside warehouse meeting",
-        "industrial estate unit door"
+        "film noir street lamp rain",
+        "1940s diner counter night",
+        "jazz club back room door"
       ],
       "poses": [
-        "both leaning over a desk, studying a map of strings and pins",
-        "one lighting a cigarette, the other eyeing the door",
-        "both confronting a figure in the doorway, resolute"
+        "both leaning over a desk, grinning at a map of pins and string",
+        "both striding forward, coats flying, confident",
+        "one holding up a clue, the other raising an eyebrow, impressed"
       ],
       "looks": [
         "fitted dark coat and slim trousers each",
         "noir period suit and dress each",
-        "1940s suit and fedora each"
+        "trench coat and fedora each"
       ]
     },
-    "breath vs. held breath": {
+    "riddle vs. reveal": {
       "locs": [
-        "village pub empty late",
-        "whodunit manor hall chandelier",
-        "old hotel corridor 3am"
+        "library at night, rolling ladder and a window",
+        "country house library, fire crackling",
+        "hedge maze, lantern-lit"
       ],
       "poses": [
-        "both listening at a door, one on each side",
-        "one checking a pulse, the other holding a lamp",
-        "both sitting together afterwards, shaken, shoulders touching"
+        "one pointing dramatically at an invisible culprit, the other laughing",
+        "both tiptoeing, hushing each other, giggling",
+        "both toasting a solved puzzle with a sherry"
       ],
       "looks": [
-        "plain-clothes detective coats each",
-        "survivor casual clothes, worn each",
-        "practical investigation layers each"
+        "smoking jackets and silk gowns each",
+        "country-house evening wear each",
+        "tweed jacket and tartan skirt each"
       ]
     },
-    "footstep vs. silence": {
+    "secret door vs. grand entrance": {
       "locs": [
-        "abandoned school classroom",
-        "empty hospital corridor night",
-        "village pub empty late"
+        "secret passage bookcase entrance",
+        "photography darkroom red light",
+        "print room old newspaper rotary"
       ],
       "poses": [
-        "one checking a pulse, the other holding a lamp",
-        "both sitting together afterwards, shaken, shoulders touching",
-        "both walking side by side, footsteps echoing, trying every door"
-      ],
-      "looks": [
-        "survivor casual clothes, worn each",
-        "practical investigation layers each",
-        "plain-clothes detective coats each"
-      ]
-    },
-    "face vs. mask": {
-      "locs": [
-        "locked room diagram scene",
-        "crime scene before police arrive",
-        "film noir street lamp rain"
-      ],
-      "poses": [
-        "one lighting a cigarette, the other eyeing the door",
-        "both confronting a figure in the doorway, resolute",
-        "one pointing at the evidence, the other photographing it"
-      ],
-      "looks": [
-        "noir period suit and dress each",
-        "1940s suit and fedora each",
-        "fitted dark coat and slim trousers each"
-      ]
-    },
-    "memory vs. forgetting": {
-      "locs": [
-        "country house library fire out",
-        "speakeasy behind bookcase",
-        "candlelit cellar steps"
-      ],
-      "poses": [
-        "one holding a photograph, the other staring at it in dawning horror",
-        "both reading a clue by candlelight, heads together",
-        "one picking a lock, the other keeping watch"
+        "both ducking behind a pillar, trying not to laugh",
+        "both leaning on a shelf, pulling it open to reveal a secret",
+        "one picking a lock, the other keeping watch with a grin"
       ],
       "looks": [
         "archivist's cardigan and spectacles each",
@@ -421,43 +295,162 @@
         "scholarly layers and a loosened scarf each"
       ]
     },
-    "reflection vs. self": {
+    "fog vs. spotlight": {
       "locs": [
-        "institution corridor peeling",
-        "haunted B&B corridor creaking",
-        "abandoned asylum corridor tiles"
+        "empty motel parking lot night",
+        "Orient Express dining car at night",
+        "boat gliding along the Seine at night"
       ],
       "poses": [
-        "both creeping forward, one clutching the other's sleeve",
-        "both frozen mid-step, listening hard",
-        "one shielding the other, eyes fixed on something unseen"
+        "both raising a glass, clinking, eyes twinkling",
+        "both leaning over the rail, wind in their hair",
+        "both peeking around a corner, matching smirks"
       ],
       "looks": [
-        "muddy coat with a ripped sleeve each",
-        "oversized coat soaked through each",
-        "torn cotton dress and worn jacket each, dishevelled"
+        "1930s travel suit and cloche hat each",
+        "elegant coats and gloves each",
+        "tuxedo and evening gown each"
       ]
     },
-    "ending vs. unresolved": {
+    "partner vs. rival": {
       "locs": [
-        "1940s diner counter night",
-        "jazz club back room door",
-        "police evidence room dim"
+        "speakeasy behind bookcase",
+        "foggy London street with a gaslight",
+        "evidence room, corkboard of clues"
       ],
       "poses": [
-        "both confronting a figure in the doorway, resolute",
-        "one pointing at the evidence, the other photographing it",
-        "both leaning over a desk, studying a map of strings and pins"
+        "both striding forward, coats flying, confident",
+        "one holding up a clue, the other raising an eyebrow, impressed",
+        "both leaning on a lamp post, trench coats blowing, smirking"
       ],
       "looks": [
-        "1940s suit and fedora each",
+        "noir period suit and dress each",
+        "trench coat and fedora each",
+        "fitted dark coat and slim trousers each"
+      ]
+    },
+    "puzzle vs. plot twist": {
+      "locs": [
+        "walled garden, ivy and a locked gate",
+        "locked-room puzzle, a floor plan on the wall",
+        "village pub, firelit and cosy"
+      ],
+      "poses": [
+        "both tiptoeing, hushing each other, giggling",
+        "both toasting a solved puzzle with a sherry",
+        "both peering through a magnifying glass, delighted"
+      ],
+      "looks": [
+        "country-house evening wear each",
+        "tweed jacket and tartan skirt each",
+        "smoking jackets and silk gowns each"
+      ]
+    },
+    "shadow vs. spark": {
+      "locs": [
+        "hall of mirrors at a fairground",
+        "lighthouse keeper's cottage, lamp glowing",
+        "grand old hotel corridor, red carpet"
+      ],
+      "poses": [
+        "both leaning over the rail, wind in their hair",
+        "both peeking around a corner, matching smirks",
+        "both striking dramatic poses at the end of the case"
+      ],
+      "looks": [
+        "elegant coats and gloves each",
+        "tuxedo and evening gown each",
+        "1930s travel suit and cloche hat each"
+      ]
+    },
+    "magnifying glass vs. champagne": {
+      "locs": [
+        "opera house box seats",
+        "masquerade ballroom",
+        "casino back room, green baize table"
+      ],
+      "poses": [
+        "both toasting at the table, cool as ice",
+        "both lowering themselves through lasers, giggling",
+        "both in masks, mid-waltz, eyes sparkling"
+      ],
+      "looks": [
+        "black tie and sequin gown each",
+        "masquerade masks and evening wear each",
+        "sleek cat-burglar black each, with glitter"
+      ]
+    },
+    "chase vs. clue": {
+      "locs": [
+        "dockside warehouse, crates and fog",
+        "detective agency door frosted glass",
+        "private eye office desk"
+      ],
+      "poses": [
+        "one holding up a clue, the other raising an eyebrow, impressed",
+        "both leaning on a lamp post, trench coats blowing, smirking",
+        "both leaning over a desk, grinning at a map of pins and string"
+      ],
+      "looks": [
+        "trench coat and fedora each",
         "fitted dark coat and slim trousers each",
         "noir period suit and dress each"
       ]
+    },
+    "masks vs. smiles": {
+      "locs": [
+        "empty motel parking lot night",
+        "Orient Express dining car at night",
+        "boat gliding along the Seine at night"
+      ],
+      "poses": [
+        "both peeking around a corner, matching smirks",
+        "both striking dramatic poses at the end of the case",
+        "both raising a glass, clinking, eyes twinkling"
+      ],
+      "looks": [
+        "tuxedo and evening gown each",
+        "1930s travel suit and cloche hat each",
+        "elegant coats and gloves each"
+      ]
+    },
+    "midnight vs. mischief": {
+      "locs": [
+        "hall of mirrors at a fairground",
+        "lighthouse keeper's cottage, lamp glowing",
+        "grand old hotel corridor, red carpet"
+      ],
+      "poses": [
+        "both striking dramatic poses at the end of the case",
+        "both raising a glass, clinking, eyes twinkling",
+        "both leaning over the rail, wind in their hair"
+      ],
+      "looks": [
+        "1930s travel suit and cloche hat each",
+        "elegant coats and gloves each",
+        "tuxedo and evening gown each"
+      ]
+    },
+    "whodunit vs. who-cares": {
+      "locs": [
+        "attic trapdoor, a ladder and a lamp",
+        "ruined manor house exterior",
+        "old clock tower interior"
+      ],
+      "poses": [
+        "both toasting a solved puzzle with a sherry",
+        "both peering through a magnifying glass, delighted",
+        "one pointing dramatically at an invisible culprit, the other laughing"
+      ],
+      "looks": [
+        "tweed jacket and tartan skirt each",
+        "smoking jackets and silk gowns each",
+        "country-house evening wear each"
+      ]
     }
   },
-  "promptPrefix": "Cinematic noir photograph, film grain, deep shadows, high contrast chiaroscuro lighting, atmosphere of unease or suspense — ",
-  "promptSuffix": "Render with film noir visual language: deep blacks, practical light sources, fog or haze where appropriate, shadows that obscure as much as they reveal. The mood should feel like a still from a psychological thriller.",
+  "promptPrefix": "Stylish film-noir photograph, film grain, rich shadows, high-contrast lighting, an air of glamorous intrigue — ",
+  "promptSuffix": "Render with film noir visual language: deep blacks, practical light sources, fog or haze where it suits. The mood: a stylish caper, not a horror film.",
   "variantDirectives": [
     "Wide noir frame, the figures small among shadows and architecture: ",
     "Full-length frame in deep shadow, posture and gesture carry the suspense: ",
@@ -466,59 +459,49 @@
     "The fog-bound setting dominates the frame, the figures secondary: ",
     "Coats, hats and costume take centre stage, the figures framed to show them: "
   ],
-  "translations": {
-    "found vs. lost": "found in the world and lost in it at the same time",
-    "memory vs. forgetting": "memory and the river that takes it"
-  },
+  "translations": {},
   "locTypes": {
-    "abandoned asylum corridor tiles": "indoor",
-    "derelict carnival midway": "both",
-    "lighthouse keeper's cottage at night": "both",
     "ruined manor house exterior": "outdoor",
-    "fog-covered graveyard path": "outdoor",
-    "drowned village reservoir edge": "both",
-    "Victorian factory floor dark": "indoor",
-    "empty theatre balcony creaking": "both",
-    "basement flooded ankle deep": "indoor",
-    "attic trapdoor looking down": "indoor",
-    "church crypt entrance stone": "both",
-    "sanatorium courtyard overgrown": "outdoor",
-    "institution corridor peeling": "indoor",
-    "haunted B&B corridor creaking": "indoor",
-    "fog-bound forest path no end": "outdoor",
-    "empty motel parking lot night": "both",
-    "underground tunnel bricked-up end": "both",
-    "estate maze centre alone": "both",
-    "walled garden overgrown locked": "outdoor",
-    "numbers station forest clearing": "outdoor",
-    "black site exterior ordinary": "outdoor",
-    "candlelit cellar steps": "indoor",
-    "secret passage bookcase entrance": "both",
-    "locked library night window": "indoor",
     "old clock tower interior": "indoor",
-    "photography darkroom red light": "both",
-    "radio station night empty": "both",
-    "print room old newspaper rotary": "both",
-    "museum after hours case lit": "both",
-    "archive basement box rows": "indoor",
-    "country house library fire out": "indoor",
-    "speakeasy behind bookcase": "outdoor",
-    "police evidence room dim": "both",
+    "whodunit manor hall chandelier": "both",
+    "library at night, rolling ladder and a window": "indoor",
+    "country house library, fire crackling": "indoor",
+    "hedge maze, lantern-lit": "both",
+    "walled garden, ivy and a locked gate": "outdoor",
+    "locked-room puzzle, a floor plan on the wall": "indoor",
+    "village pub, firelit and cosy": "outdoor",
+    "attic trapdoor, a ladder and a lamp": "indoor",
     "detective agency door frosted glass": "both",
     "private eye office desk": "indoor",
     "smoke-filled bar information": "both",
-    "dockside warehouse meeting": "indoor",
-    "industrial estate unit door": "both",
-    "locked room diagram scene": "both",
-    "crime scene before police arrive": "both",
     "film noir street lamp rain": "outdoor",
     "1940s diner counter night": "both",
     "jazz club back room door": "both",
-    "old hotel corridor 3am": "indoor",
-    "abandoned school classroom": "indoor",
-    "empty hospital corridor night": "indoor",
-    "village pub empty late": "both",
-    "whodunit manor hall chandelier": "both"
+    "speakeasy behind bookcase": "outdoor",
+    "foggy London street with a gaslight": "outdoor",
+    "evidence room, corkboard of clues": "indoor",
+    "dockside warehouse, crates and fog": "outdoor",
+    "museum after hours case lit": "both",
+    "jewel vault with criss-crossing lasers": "indoor",
+    "opera house box seats": "outdoor",
+    "masquerade ballroom": "indoor",
+    "casino back room, green baize table": "indoor",
+    "art gallery after hours, one painting missing": "indoor",
+    "grand hotel penthouse with a view of the city": "both",
+    "candlelit cellar steps": "indoor",
+    "secret passage bookcase entrance": "both",
+    "photography darkroom red light": "both",
+    "print room old newspaper rotary": "both",
+    "archive stacks, boxes to the ceiling": "both",
+    "radio station at night, ON AIR sign glowing": "both",
+    "Victorian factory floor, shafts of light": "both",
+    "theatre balcony, velvet and shadow": "indoor",
+    "empty motel parking lot night": "both",
+    "Orient Express dining car at night": "both",
+    "boat gliding along the Seine at night": "both",
+    "hall of mirrors at a fairground": "indoor",
+    "lighthouse keeper's cottage, lamp glowing": "both",
+    "grand old hotel corridor, red carpet": "indoor"
   },
   "connectors": [
     "in",

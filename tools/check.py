@@ -22,6 +22,7 @@ CONN = {m.group(1): re.findall(r"'([^']*)'", m.group(2)) for m in re.finditer(r"
 FR = re.compile(r"close-up|low[- ]angle|overhead|wide angle|dutch (tilt|angle)|fisheye|zoom", re.I)
 PLAIN = {"in","amid","at","within","against","beside","inside","on","among","beneath","through","set in"}
 SENSITIVE = re.compile(r"Auschwitz|Birkenau|Hiroshima|Nagasaki|Arizona memorial|Stasi|concentration camp|genocide", re.I)
+TONE_STRONG = re.compile(r"argu|confess|accus|betray|\bweep|\bcry\b|crying|tears(?! of joy)|griev|grief|mourn|funeral|corpse|bleed|wound|injur|arrest|tear gas|water cannon|hostage|terrif|despair|abandon|goodbye|farewell|furious|shaken|aghast|dread|trauma|dead\b|death|\bdying|undead|doubt|guilt|famine|heartbreak|lonel|melanchol|misery|sorrow|gloom|bleak|haunt|exhaust|menac|recoil|cower|victim|survivor|trapped|hunted|\bfear", re.I)
 print(f"{len(W)} worlds\n")
 
 print("1. Files parse")
@@ -56,6 +57,8 @@ for wid, w in W.items():
     if nolt: warn(f"{wid}: {len(nolt)} pool locations have no LOC_TYPES entry (lighting filter treats them as indoor+outdoor)")
     sens = [l for l in w["locs"] if SENSITIVE.search(l)]
     if sens: fail(f"{wid}: sensitive location(s): {sens}")
+    tone=[x for k in ("poses","looks","tensions") for x in w[k] if TONE_STRONG.search(x)]
+    if tone: fail(f"{wid}: reads as conflict or distress, not something to frame or post: {tone[:2]}")
     for f in ("promptPrefix", "promptSuffix"):
         if "atmosphere only" in w.get(f, ""): fail(f"{wid}: {f} repeats the generator's 'atmosphere only' sentence")
     if w.get("promptPrefix"):
