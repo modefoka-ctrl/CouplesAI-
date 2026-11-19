@@ -499,5 +499,10 @@
     "the gates of a city in the sky": "outdoor",
     "a moonlit crown of cloud with a phoenix nest": "both",
     "a rainbow-lit cave of crystals": "both"
-  }
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
 }

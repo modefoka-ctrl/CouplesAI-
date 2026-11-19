@@ -500,5 +500,10 @@
     "showroom of glowing television sets": "indoor",
     "suburban lawn party with a transistor radio": "both",
     "vintage airport lounge with tulip chairs": "indoor"
-  }
+  },
+  "connectors": [
+    "in",
+    "amid",
+    "at"
+  ]
 }
